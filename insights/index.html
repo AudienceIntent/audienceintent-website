@@ -147,5 +147,26 @@ document.querySelectorAll(".filter-btn").forEach(function(btn){
 document.getElementById("search").addEventListener("input",function(){q=this.value.toLowerCase();pg=1;render();});
 render();
 </script>
+
+<!-- GHL Chat Widget -->
+<script>
+(function(){
+  var f = document.createElement('iframe');
+  f.id = 'ghl-chat';
+  f.style.cssText = 'position:fixed;bottom:0;right:0;width:420px;height:620px;border:none;z-index:9999;background:transparent;';
+  var html = [
+    '<!DOCTYPE html>',
+    '<html><head>',
+    '<style>body{margin:0;background:transparent;overflow:hidden}</style>',
+    '</head><body>',
+    '<scr'+'ipt src="https://beta.leadconnectorhq.com/loader.js"',
+    ' data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"',
+    ' data-widget-id="6849f6320a987f033d7a4a13"><'+'/scr'+'ipt>',
+    '</body></html>'
+  ].join('');
+  f.srcdoc = html;
+  document.body.appendChild(f);
+})();
+</script>
 </body>
 </html>

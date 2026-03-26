@@ -1006,6 +1006,11 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
 })();
 </script>
 <script>
+  // Handle invite and recovery tokens
+  var hash = window.location.hash;
+  if (hash && (hash.indexOf('invite_token') > -1 || hash.indexOf('recovery_token') > -1)) {
+    window.location.href = '/admin/' + hash;
+  }
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", function(user) {
       if (!user) {

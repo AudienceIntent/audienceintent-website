@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/#invite_token=*"
+  to = "/admin/#invite_token=:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/#recovery_token=*"
+  to = "/admin/#recovery_token=:splat"
+  status = 301
+  force = true

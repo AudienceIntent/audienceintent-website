@@ -1018,17 +1018,22 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
   }
 </script>
 
+
 <style>
-#chat-widget-container, [id*="chat"], [class*="chat-widget"], [class*="leadconnector"] {
-  position:fixed !important;
-  z-index:9999 !important;
-  max-width:400px !important;
-  max-height:600px !important;
-  bottom:0 !important;
-  right:0 !important;
-}
-body > div[style*="background"] { background:transparent !important; }
+/* Contain GHL widget */
+body > iframe { max-width:420px !important; max-height:680px !important; bottom:20px !important; right:20px !important; top:auto !important; left:auto !important; position:fixed !important; }
+div[class*="chat"]:not(nav):not(header) { max-width:420px !important; position:fixed !important; bottom:20px !important; right:20px !important; top:auto !important; left:auto !important; }
 </style>
-<script src="https://beta.leadconnectorhq.com/loader.js" data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6849f6320a987f033d7a4a13"></script>
+<script>
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://beta.leadconnectorhq.com/loader.js';
+    s.setAttribute('data-resources-url', 'https://beta.leadconnectorhq.com/chat-widget/loader.js');
+    s.setAttribute('data-widget-id', '6849f6320a987f033d7a4a13');
+    document.body.appendChild(s);
+  }, 3000);
+});
+</script>
 </body>
 </html>

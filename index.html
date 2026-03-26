@@ -450,6 +450,7 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
     <a href="#how" class="nl">How it works</a>
     <a href="#pricing" class="nl">Pricing</a>
     <a href="#faq" class="nl">FAQ</a>
+    <a href="https://www.audienceintent.ai/insights" class="nl">Insights</a>
     <a href="https://report.audienceintent.ai" target="_blank" class="nb" style="background:#00ff73;color:#1f283f;padding:9px 20px;border-radius:100px;font-weight:700;font-size:13px;text-decoration:none">Get My Free Report →</a>
   </div>
 </nav>
@@ -1006,11 +1007,6 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
 })();
 </script>
 <script>
-  // Handle invite and recovery tokens
-  var hash = window.location.hash;
-  if (hash && (hash.indexOf('invite_token') > -1 || hash.indexOf('recovery_token') > -1)) {
-    window.location.href = '/admin/' + hash;
-  }
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", function(user) {
       if (!user) {

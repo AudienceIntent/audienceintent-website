@@ -59,7 +59,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:18px 48px;display:fl
 .hsub strong{color:#f8f7f6;font-weight:600}
 .hctx{font-size:14px;color:rgba(248,247,246,0.48);max-width:520px;margin:0 auto 36px;line-height:1.65;font-weight:300}
 .hctx strong{color:rgba(248,247,246,0.72);font-weight:500}
-.hcg{display:flex;flex-direction:column;align-items:center;gap:14px}
+.hcg{display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;width:100%}
 .ctap{display:inline-flex;align-items:center;gap:10px;background:#00ff73;color:#1f283f;font-size:16px;font-weight:700;padding:20px 40px;border-radius:100px;text-decoration:none;letter-spacing:-.01em}
 .ctn{font-size:13px;color:rgba(248,247,246,0.48)}
 
@@ -348,8 +348,10 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
 .ftbr{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
 .ftcp{font-size:12px;color:rgba(248,247,246,.3)}
 .ftll{display:flex;gap:20px}
-.ftll a{font-size:12px;color:rgba(248,247,246,.3);text-decoration:none}
-.ftll a:hover{color:#f8f7f6}
+.ftll a{font-size:12px;color:rgba(248,247,246,.3);text-decoration:none;transition:color .2s}
+.ftll a:hover{color:#00ff73}
+.ftlink{color:rgba(248,247,246,.3);text-decoration:none;font-size:13px;transition:color .2s}
+.ftlink:hover{color:#00ff73}
 .ftdisc{font-size:11px;color:rgba(248,247,246,.25);line-height:1.65;font-weight:300;max-width:900px}
 
 /* MOBILE */
@@ -363,6 +365,8 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
 @media(max-width:800px){.vl{grid-template-columns:1fr;gap:56px}.statr{grid-template-columns:repeat(2,1fr)}.jsteps{flex-direction:column;align-items:center}.jcon{display:none}.frow{grid-template-columns:1fr}.pgrid{grid-template-columns:1fr}}
 @media(max-width:680px){
   nav{padding:16px 20px}
+  .hero-btn-row{justify-content:center;flex-direction:column;align-items:center}
+  .ctap{width:100%;justify-content:center;text-align:center}
   .nav-r .nl{display:none}
   .proof,.mono,.prob,.sol,.comp,.scar,.why,.prom,.jour,.cw,.contact,.faq,.fcta{padding:60px 20px}
   footer{padding:40px 20px 28px}
@@ -636,9 +640,7 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
   ]
 }
   </script>
-</head>
-
-
+</head
 .report-btn{display:inline-flex;align-items:center;gap:8px;background:#f8f7f6;color:#1f283f;font-family:inherit;font-size:17px;font-weight:700;padding:22px 48px;border-radius:100px;text-decoration:none;transition:background .2s,color .2s;border:none}
 .report-btn:hover{background:#1f283f;color:#f8f7f6;outline:1px solid rgba(248,247,246,0.3)}
 
@@ -652,10 +654,25 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
 
 .hero-report-link{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:rgba(248,247,246,0.5);text-decoration:underline;text-underline-offset:3px;font-weight:300;margin-top:4px;transition:color .2s}
 .hero-report-link:hover{color:#00ff73}
-.hero-btn-row{display:flex;flex-direction:row;align-items:center;gap:14px;flex-wrap:wrap;margin-top:0}
+.hero-btn-row{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:0;text-align:center}
 .hero-report-btn{background:#f8f7f6 !important;color:#1f283f !important}
 .hero-report-btn:hover{background:#1f283f !important;color:#f8f7f6 !important;box-shadow:0 0 0 1px rgba(248,247,246,0.3) !important}
+
+/* Burger menu */
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none;z-index:200}
+.burger span{display:block;width:22px;height:2px;background:#f8f7f6;border-radius:2px;transition:all .3s}
+.burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(22,29,48,0.99);z-index:150;flex-direction:column;align-items:center;justify-content:center;gap:32px}
+.mobile-menu.open{display:flex}
+.mobile-menu a.nl{font-size:22px;font-weight:700;color:rgba(248,247,246,0.7);text-decoration:none;transition:color .2s}
+.mobile-menu a.nl:hover{color:#00ff73}
+.mobile-menu .nb{font-size:15px;padding:14px 32px;margin-top:8px}
+@media(max-width:768px){.burger{display:flex}.nav-r .nl{display:none}.nav-r .nb{display:none}.logo img{height:22px!important}}
+@media(max-width:480px){.logo img{height:20px!important}}
 </style>
+</head>
 <body>
 
 <!-- NAV -->
@@ -668,7 +685,19 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
     <a href="https://www.audienceintent.ai/insights" class="nl">Insights</a>
     <a href="https://report.audienceintent.ai" target="_blank" class="nb" style="background:#00ff73;color:#1f283f;padding:9px 20px;border-radius:100px;font-weight:700;font-size:13px;text-decoration:none">Get My Free Report →</a>
   </div>
+  <button class="burger" id="burger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#how" class="nl" onclick="closeMobile()">How it works</a>
+  <a href="#pricing" class="nl" onclick="closeMobile()">Pricing</a>
+  <a href="#faq" class="nl" onclick="closeMobile()">FAQ</a>
+  <a href="https://www.audienceintent.ai/insights" class="nl" onclick="closeMobile()">Insights</a>
+  <a href="https://report.audienceintent.ai" target="_blank" class="nb" style="background:#00ff73;color:#1f283f;padding:14px 32px;border-radius:100px;font-weight:700;font-size:15px;text-decoration:none" onclick="closeMobile()">Get My Free Report →</a>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -1040,7 +1069,7 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
     <div class="vl">
       <div>
         <span class="sl">Our Promise To You</span>
-        <h2 class="vh">Impact in 30 days —<br><span>Your money back.</span></h2>
+        <h2 class="vh">Impact in 30 days —<br><span>Or your money back.</span></h2>
         <p class="vb">Within your first 30 days, Revenue Capture Engine will be live and working, leads responded to automatically, your business appearing in AI search results, and your review system generating a consistent flow of positive reviews. If you don't see it working live, you don't pay for it.</p>
         <div class="gb"><div class="gi">🛡</div><div><h4>30-Day Money-Back Guarantee</h4><p>If Revenue Capture Engine isn't visibly working within your first 30 days, we refund your first month. No questions. No hoops. No awkward conversation.</p></div></div>
         <div class="nc"><strong>No long-term commitment.</strong> We need 90 days to fully show you the difference this will make. After that, we roll month-to-month. No lock-ins. No cancellation fees.</div>
@@ -1126,7 +1155,7 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
     <div class="ftbrand">
       <img src="https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590" alt="AudienceIntent" style="height:22px;width:auto;display:block;margin-bottom:16px;filter:brightness(0) invert(1);opacity:0.85">
       <p class="fttag">The all-in-one operating system for businesses that want to show up everywhere, respond to every lead, and never miss an opportunity again.</p>
-      <div class="ftcon"><a href="/cdn-cgi/l/email-protection#aedddbdedec1dcdaeecfdbcac7cbc0cdcbc7c0dacbc0da80cfc7" style="color:rgba(248,247,246,0.4);text-decoration:none"><span class="__cf_email__" data-cfemail="ff8c8a8f8f908d8bbf9e8a9b969a919c9a96918b9a918bd19e96">[email&#160;protected]</span></a><br><a href="tel:+18483587611" style="color:rgba(248,247,246,0.4);text-decoration:none;margin-top:6px;display:inline-block">1-848-358-7611</a></div>
+      <div class="ftcon"><a href="/cdn-cgi/l/email-protection#31424441415e43457150445558545f5254585f45545f451f5058" class="ftlink"><span class="__cf_email__" data-cfemail="92e1e7e2e2fde0e6d2f3e7f6fbf7fcf1f7fbfce6f7fce6bcf3fb">[email&#160;protected]</span></a><br><a href="tel:+18483587611" class="ftlink" style="margin-top:6px;display:inline-block">1-848-358-7611</a></div>
     </div>
     <div class="ftlc">
       <h4>Pages</h4>
@@ -1166,73 +1195,36 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
   <div class="ftbot">
     <div class="ftbr">
       <p class="ftcp">© 2026 AudienceIntent, All rights reserved.</p>
-      <div class="ftll"><a href="https://www.audienceintent.ai/legal">Privacy &amp; Legal</a><a href="https://www.audienceintent.ai/insights">Insights</a><a href="/cdn-cgi/l/email-protection#94e7e1e4e4fbe6e0d4f5e1f0fdf1faf7f1fdfae0f1fae0baf5fd">Contact</a></div>
+      <div class="ftll"><a href="https://www.audienceintent.ai/legal">Privacy &amp; Legal</a><a href="https://www.audienceintent.ai/insights">Insights</a><a href="/cdn-cgi/l/email-protection#6c1f191c1c031e182c0d19080509020f09050218090218420d05">Contact</a></div>
     </div>
     <p class="ftdisc">Disclaimer: Content on this site is for informational purposes only and does not constitute legal, financial, or professional advice. Results, revenue figures and outcomes referenced are illustrative and based on client-reported data — individual results vary and are not guaranteed. The Free Business Performance Report and Lost Revenue Calculator are AI-assisted tools that use publicly available data signals and user-provided information for indicative analysis purposes only — they do not constitute a formal audit or professional assessment. By using any AudienceIntent tool or submitting your information, you agree to our <a href="https://www.audienceintent.ai/legal" style="color:rgba(248,247,246,0.4);text-decoration:underline">Privacy Policy and Terms of Use</a>. We do not sell your personal data. SMS and email communications are only sent with your explicit consent and you may opt out at any time. Portions of this site and its tools were created with the assistance of artificial intelligence. © 2026 AudienceIntent LLC. All rights reserved.</p>
   </div>
 </footer>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-(function() {
-  // FAQ accordion
-  document.querySelectorAll('.faqt').forEach(function(t) {
-    t.addEventListener('click', function() {
-      var item = t.closest('.faqitem');
-      var isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faqitem').forEach(function(i) {
-        i.classList.remove('open');
-      });
-      if (!isOpen) { item.classList.add('open'); }
-    });
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script>
+(function(){
+  var b=document.getElementById('burger');
+  var m=document.getElementById('mobileMenu');
+  if(!b||!m)return;
+  b.addEventListener('click',function(){
+    b.classList.toggle('open');
+    m.classList.toggle('open');
+    document.body.style.overflow=m.classList.contains('open')?'hidden':'';
   });
-
-  // Scroll reveal
-  var reveals = document.querySelectorAll('.reveal');
-  if (reveals.length > 0) {
-    var obs = new IntersectionObserver(function(entries) {
-      entries.forEach(function(e) {
-        if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
-      });
-    }, { threshold: 0.08 });
-    reveals.forEach(function(el) { obs.observe(el); });
-  }
-
-  // Monologue scroll reveal
-  var mqs = document.querySelectorAll('.mq');
-  if (mqs.length > 0) {
-    var mobs = new IntersectionObserver(function(entries) {
-      entries.forEach(function(e) {
-        if (e.isIntersecting) { e.target.classList.add('visible'); mobs.unobserve(e.target); }
-      });
-    }, { threshold: 0.2 });
-    mqs.forEach(function(el) { mobs.observe(el); });
-  }
-
-  // Contact form
-  var sbtn = document.getElementById('sbtn');
-  if (sbtn) {
-    var form = sbtn.closest('form');
-    if (form) {
-      form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        var txt = document.getElementById('stxt');
-        if (txt) { txt.value = ''; }
-      });
-    }
-  }
+  // Close when tapping the overlay background (not the links)
+  m.addEventListener('click',function(e){
+    if(e.target===m) window.closeMobile();
+  });
+  // Close on Escape key
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape') window.closeMobile();
+  });
+  window.closeMobile=function(){
+    b.classList.remove('open');
+    m.classList.remove('open');
+    document.body.style.overflow='';
+  };
 })();
 </script>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", function(user) {
-      if (!user) {
-        window.netlifyIdentity.on("login", function() {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-
-
 </body>
 </html>

@@ -99,6 +99,10 @@ var ARTICLES=[{"slug": "why-your-competitor-shows-up-in-ai-search-(and-you-don-t
 var PER=12,pg=1,cat="All",q="";
 function fd(){return ARTICLES.filter(function(a){return(cat==="All"||a.category===cat)&&(!q||a.title.toLowerCase().indexOf(q)>-1||a.excerpt.toLowerCase().indexOf(q)>-1);});}
 function fmtDate(d){if(!d)return"";var p=d.split("-"),m=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];try{return m[parseInt(p[1])-1]+" "+p[2]+", "+p[0];}catch(e){return d;}}
+function makeCard(a){
+  var img=a.image?'<img class="card-img" src="'+a.image+'" alt="" loading="lazy">':'';
+  return '<a class="card" href="/insights/'+a.slug+'">'+img+'<div class="card-body"><div class="card-cat">'+a.category+'</div><div class="card-title">'+a.title+'</div><div class="card-excerpt">'+a.excerpt+'</div><div class="card-foot"><span class="card-date">'+fmtDate(a.date)+'</span><span class="card-arrow">&rarr;</span></div></div></a>';
+}
 function render(){
   var list=fd(),total=list.length,pages=Math.ceil(total/PER);
   if(pg>pages)pg=1;
@@ -107,18 +111,15 @@ function render(){
   var grid=document.getElementById("grid");
   if(!page.length){grid.innerHTML="";document.getElementById("no-results").style.display="block";return;}
   document.getElementById("no-results").style.display="none";
-  grid.innerHTML=page.map(function(a){
-    var img=a.image?'<img class="card-img" src="'+a.image+'" alt="" loading="lazy" onerror="this.style.display='none'">':'';
-    return'<a class="card" href="/insights/'+a.slug+'">'+img+'<div class="card-body"><div class="card-cat">'+a.category+'</div><div class="card-title">'+a.title+'</div><div class="card-excerpt">'+a.excerpt+'</div><div class="card-foot"><span class="card-date">'+fmtDate(a.date)+'</span><span class="card-arrow">&#x2192;</span></div></div></a>';
-  }).join("");
+  grid.innerHTML=page.map(makeCard).join("");
   var pag=document.getElementById("pagination");
   if(pages<=1){pag.innerHTML="";return;}
-  var b='<button class="pg-btn pg-prev" onclick="gp('+(pg-1)+')" '+(pg===1?'disabled style="opacity:.3"':"")+'>&#x2190; Prev</button>';
+  var b='<button class="pg-btn pg-prev" onclick="gp('+(pg-1)+')" '+(pg===1?'disabled style="opacity:.3"':"")+'>← Prev</button>';
   for(var i=1;i<=pages;i++){
     if(i===1||i===pages||(i>=pg-2&&i<=pg+2))b+='<button class="pg-btn'+(i===pg?" active":"")+'" onclick="gp('+i+')">'+i+"</button>";
     else if(i===pg-3||i===pg+3)b+='<span style="color:rgba(248,247,246,0.3);padding:0 4px">...</span>';
   }
-  b+='<button class="pg-btn pg-next" onclick="gp('+(pg+1)+')" '+(pg===pages?'disabled style="opacity:.3"':"")+'>Next &#x2192;</button>';
+  b+='<button class="pg-btn pg-next" onclick="gp('+(pg+1)+')" '+(pg===pages?'disabled style="opacity:.3"':"")+'>Next →</button>';
   pag.innerHTML=b;
 }
 function gp(n){var t=Math.ceil(fd().length/PER);if(n<1||n>t)return;pg=n;window.scrollTo(0,0);render();}
@@ -131,5 +132,3 @@ document.querySelectorAll(".filter-btn").forEach(function(btn){
 document.getElementById("search").addEventListener("input",function(){q=this.value.toLowerCase();pg=1;render();});
 render();
 </script>
-</body>
-</html>

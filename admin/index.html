@@ -7,7 +7,6 @@
 </head>
 <body>
   <script>
-    // Redirect invite/recovery tokens before CMS loads
     var hash = window.location.hash;
     if (hash && hash.indexOf('invite_token') > -1) {
       var token = hash.replace('#/invite_token=', '').replace('#invite_token=', '');
@@ -18,8 +17,3 @@
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>
-```
-
-Commit that, wait 30 seconds for Netlify to redeploy, then go to:
-```
-audienceintent.ai/admin/

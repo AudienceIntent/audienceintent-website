@@ -1,4 +1,10 @@
 [[redirects]]
+  from = "/insights/*.md"
+  to = "/insights/:splat.md"
+  status = 200
+  force = false
+
+[[redirects]]
   from = "/insights/:slug"
   to = "/article.html"
   status = 200

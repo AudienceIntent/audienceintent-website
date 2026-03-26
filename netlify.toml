@@ -4,11 +4,6 @@
   status = 200
 
 [[redirects]]
-  from = "/insights"
-  to = "/insights.html"
-  status = 200
-
-[[redirects]]
   from = "/#invite_token=*"
   to = "/admin/#invite_token=:splat"
   status = 301

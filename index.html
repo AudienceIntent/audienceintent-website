@@ -344,7 +344,7 @@ footer{background:#161d30;border-top:.5px solid rgba(248,247,246,0.08);padding:4
 .ftlc a{display:block;font-size:13px;color:rgba(248,247,246,.4);text-decoration:none;margin-bottom:10px}
 .ftlc a:hover{color:#f8f7f6}
 .soci{display:flex;gap:8px;flex-wrap:wrap}
-.sico{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:opacity .2s,transform .2s;border:.5px solid transparent}
+.sico{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:opacity .2s,transform .2s;border:.5px solid transparent;position:relative;z-index:500;pointer-events:auto!important;touch-action:manipulation}
 .sico:hover{opacity:0.85;transform:translateY(-2px)}
 .sico svg{width:16px;height:16px}
 .ftbot{display:flex;flex-direction:column;gap:10px}
@@ -1223,23 +1223,51 @@ a,button{-webkit-tap-highlight-color:rgba(0,255,115,0.2);touch-action:manipulati
 <!-- GHL Chat Widget -->
 <script>
 (function(){
-  var f = document.createElement('iframe');
-  f.id = 'ghl-chat';
-  f.style.cssText = 'position:fixed;bottom:0;right:0;width:420px;height:620px;border:none;z-index:8000;background:transparent;pointer-events:none;';
-  var html = [
-    '<!DOCTYPE html>',
-    '<html><head>',
-    '<style>body{margin:0;background:transparent;overflow:hidden}</style>',
-    '</head><body>',
-    '<scr'+'ipt src="https://beta.leadconnectorhq.com/loader.js"',
-    ' data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"',
-    ' data-widget-id="6849f6320a987f033d7a4a13"><'+'/scr'+'ipt>',
-    '</body></html>'
-  ].join('');
-  f.srcdoc = html;
+  var f=document.createElement('iframe');
+  f.id='ghl-chat';
+  // Start small - only cover the chat bubble area so nothing else is blocked
+  f.style.cssText='position:fixed;bottom:0;right:0;width:80px;height:80px;border:none;z-index:8000;background:transparent;transition:width .3s,height .3s;';
+  var s=document.createElement('script');
+  s.src='https://beta.leadconnectorhq.com/loader.js';
+  s.setAttribute('data-resources-url','https://beta.leadconnectorhq.com/chat-widget/loader.js');
+  s.setAttribute('data-widget-id','6849f6320a987f033d7a4a13');
+  // Expand iframe when user interacts with the widget
+  f.onload=function(){
+    try{
+      f.contentDocument.body.appendChild(s);
+      // Listen for clicks inside iframe to expand it
+      f.contentDocument.addEventListener('click',function(){
+        f.style.width='420px';
+        f.style.height='620px';
+      });
+    }catch(e){}
+  };
   document.body.appendChild(f);
 })();
 </script>
-
+</body>
+</html>
+<script>
+document.querySelectorAll('.faqt').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var item=this.closest('.faqitem');
+    var bd=item.querySelector('.faqb');
+    var isOpen=item.classList.contains('open');
+    document.querySelectorAll('.faqitem').forEach(function(el){
+      el.classList.remove('open');
+      var b=el.querySelector('.faqb');
+      if(b)b.style.gridTemplateRows='0fr';
+      var ic=el.querySelector('.faqi svg path');
+      if(ic)ic.setAttribute('d','M7 1v12M1 7h12');
+    });
+    if(!isOpen){
+      item.classList.add('open');
+      if(bd)bd.style.gridTemplateRows='1fr';
+      var ic=item.querySelector('.faqi svg path');
+      if(ic)ic.setAttribute('d','M1 7h12');
+    }
+  });
+});
+</script>
 </body>
 </html>

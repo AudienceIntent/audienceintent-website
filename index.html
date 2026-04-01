@@ -1230,14 +1230,39 @@ a,button{-webkit-tap-highlight-color:rgba(0,255,115,0.2);touch-action:manipulati
 </footer>
 <!-- GHL Chat Widget -->
 <script>
-!function(w,d,s,l,t){
-  var n=d.createElement('script');
-  n.src=s;
-  n.setAttribute('data-resources-url',l);
-  n.setAttribute('data-widget-id',t);
-  n.async=true;
-  d.head.appendChild(n);
-}(window,document,'https://beta.leadconnectorhq.com/loader.js','https://beta.leadconnectorhq.com/chat-widget/loader.js','6849f6320a987f033d7a4a13');
+(function(){
+  var f=document.createElement('iframe');
+  f.id='ghl-chat';
+  f.style.cssText='position:fixed;bottom:0;right:0;width:80px;height:80px;border:none;z-index:8000;background:transparent;transition:width .3s,height .3s;pointer-events:auto;';
+  var s=document.createElement('script');
+  s.src='https://beta.leadconnectorhq.com/loader.js';
+  s.setAttribute('data-resources-url','https://beta.leadconnectorhq.com/chat-widget/loader.js');
+  s.setAttribute('data-widget-id','6849f6320a987f033d7a4a13');
+  f.onload=function(){
+    try{
+      f.contentDocument.body.appendChild(s);
+      f.contentDocument.addEventListener('click',function(){
+        f.style.width='420px';
+        f.style.height='620px';
+      });
+    }catch(e){f.style.width='420px';f.style.height='620px';}
+  };
+  document.body.appendChild(f);
+  // When chat expands, watch for close and shrink back so it stops blocking page
+  var obs=new MutationObserver(function(){
+    try{
+      var doc=f.contentDocument;
+      var closeBtn=doc&&(doc.querySelector('[class*="close"]')||doc.querySelector('[aria-label*="close" i]')||doc.querySelector('[aria-label*="Close" i]'));
+      if(closeBtn&&!closeBtn._bound){
+        closeBtn._bound=true;
+        closeBtn.addEventListener('click',function(){
+          setTimeout(function(){f.style.width='80px';f.style.height='80px';},400);
+        });
+      }
+    }catch(e){}
+  });
+  obs.observe(document.body,{childList:true,subtree:true});
+})();
 </script>
 <script>
 document.querySelectorAll('.faqt').forEach(function(btn){
@@ -1266,24 +1291,11 @@ document.querySelectorAll('.faqt').forEach(function(btn){
   var b=document.getElementById('burger');
   var m=document.getElementById('mobileMenu');
   if(!b||!m)return;
-  function openMenu(){
-    b.classList.add('open');
-    m.classList.add('open');
-    document.body.style.overflow='hidden';
-  }
-  function closeMenu(){
-    b.classList.remove('open');
-    m.classList.remove('open');
-    document.body.style.overflow='';
-  }
+  function openMenu(){b.classList.add('open');m.classList.add('open');document.body.style.overflow='hidden';}
+  function closeMenu(){b.classList.remove('open');m.classList.remove('open');document.body.style.overflow='';}
   window.closeMobile=closeMenu;
-  b.addEventListener('click',function(e){
-    e.stopPropagation();
-    if(m.classList.contains('open')){closeMenu();}else{openMenu();}
-  });
-  m.addEventListener('click',function(e){
-    if(e.target===m){closeMenu();}
-  });
+  b.addEventListener('click',function(e){e.stopPropagation();if(m.classList.contains('open')){closeMenu();}else{openMenu();}});
+  m.addEventListener('click',function(e){if(e.target===m){closeMenu();}});
 })();
 </script>
 </body>

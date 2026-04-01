@@ -1248,20 +1248,13 @@ a,button{-webkit-tap-highlight-color:rgba(0,255,115,0.2);touch-action:manipulati
     }catch(e){f.style.width='420px';f.style.height='620px';}
   };
   document.body.appendChild(f);
-  // When chat expands, watch for close and shrink back so it stops blocking page
-  var obs=new MutationObserver(function(){
-    try{
-      var doc=f.contentDocument;
-      var closeBtn=doc&&(doc.querySelector('[class*="close"]')||doc.querySelector('[aria-label*="close" i]')||doc.querySelector('[aria-label*="Close" i]'));
-      if(closeBtn&&!closeBtn._bound){
-        closeBtn._bound=true;
-        closeBtn.addEventListener('click',function(){
-          setTimeout(function(){f.style.width='80px';f.style.height='80px';},400);
-        });
-      }
-    }catch(e){}
+  // Shrink iframe back when user clicks anywhere on the main page
+  document.addEventListener('click',function(e){
+    if(e.target!==f){
+      f.style.width='80px';
+      f.style.height='80px';
+    }
   });
-  obs.observe(document.body,{childList:true,subtree:true});
 })();
 </script>
 <script>

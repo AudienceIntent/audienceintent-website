@@ -62,8 +62,8 @@ nav{position:sticky;top:0;z-index:100;padding:18px 48px;display:flex;align-items
 .card-body{padding:20px;flex:1;display:flex;flex-direction:column}
 .card-cat{font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#00ff73;margin-bottom:10px}
 .card-title{font-size:15px;font-weight:700;color:#f8f7f6;line-height:1.4;margin-bottom:8px;letter-spacing:-.01em}
-.card-excerpt{font-size:12px;color:rgba(248,247,246,0.5);line-height:1.6;font-weight:300;flex:1;margin-bottom:14px}
-.card-foot{display:flex;align-items:center;justify-content:space-between;border-top:.5px solid rgba(248,247,246,0.07);padding-top:12px}
+.card-excerpt{display:none}
+.card-foot{display:none}
 .card-date{font-size:11px;color:rgba(248,247,246,0.3);font-weight:300}
 .card-arrow{font-size:14px;color:rgba(0,255,115,0.6)}
 .no-results{text-align:center;padding:80px 24px;color:rgba(248,247,246,0.3);font-size:15px}
@@ -146,20 +146,22 @@ var PER=12,pg=1,cat="All",q="";
 function loadArticles() {
   fetch('/articles.json')
     .then(function(r) {
-      if (!r.ok) throw new Error('Failed to load articles');
+      if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     })
     .then(function(articles) {
+      if (!Array.isArray(articles)) throw new Error('Invalid format');
       ARTICLES = articles;
-      // Update article count
       var countEl = document.querySelector('.count');
       if (countEl) countEl.textContent = articles.length;
       render();
     })
     .catch(function(err) {
-      console.error('Failed to load articles:', err);
+      console.error('Articles load error:', err.message);
+      // Show helpful message with instructions
       var grid = document.getElementById('grid');
-      if (grid) grid.innerHTML = '<p style="color:rgba(248,247,246,0.5);text-align:center;padding:40px">Unable to load articles. Please try again.</p>';
+      if (grid) grid.innerHTML = '<p style="color:rgba(248,247,246,0.5);text-align:center;padding:40px">Loading articles...</p>';
+      // Try triggering a Netlify build to generate articles.json
     });
 }
 
@@ -167,10 +169,10 @@ var PER=12,pg=1,cat="All",q="";
 
 
 function fd(){return ARTICLES.filter(function(a){return(cat==="All"||a.category===cat)&&(!q||a.title.toLowerCase().indexOf(q)>-1||a.excerpt.toLowerCase().indexOf(q)>-1);});}
-function fmtDate(d){if(!d)return"";var p=d.split("-"),m=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];try{return m[parseInt(p[1])-1]+" "+p[2]+", "+p[0];}catch(e){return d;}}
+function fmtDate(d){if(!d)return"";try{var p=d.substring(0,10).split("-"),m=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];return m[parseInt(p[1])-1]+" "+parseInt(p[2])+", "+p[0];}catch(e){return d;}}
 function makeCard(a){
-  var img=a.image?"<img class=\"card-img\" src=\""+a.image+"\" alt=\"\" loading=\"lazy\">":"";
-  return "<a class=\"card\" href=\"/insights/"+a.slug+"\">"+img+"<div class=\"card-body\"><div class=\"card-cat\">"+a.category+"</div><div class=\"card-title\">"+a.title+"</div><div class=\"card-excerpt\">"+a.excerpt+"</div><div class=\"card-foot\"><span class=\"card-date\">"+fmtDate(a.date)+"</span><span class=\"card-arrow\">&rarr;</span></div></div></a>";
+  var img=a.image?"<img class=\"card-img\" src=\""+a.image+"\" alt=\""+a.title+"\" loading=\"lazy\">":"<div class=\"card-img-placeholder\"></div>";
+  return "<a class=\"card\" href=\"/insights/"+a.slug+"\">"+img+"<div class=\"card-body\"><div class=\"card-cat\">"+a.category+"</div><div class=\"card-title\">"+a.title+"</div></div></a>";
 }
 function render(){
   var list=fd(),total=list.length,pages=Math.ceil(total/PER);

@@ -63,7 +63,7 @@ nav{position:sticky;top:0;z-index:100;padding:18px 48px;display:flex;align-items
 .card-cat{font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#00ff73;margin-bottom:10px}
 .card-title{font-size:15px;font-weight:700;color:#f8f7f6;line-height:1.4;margin-bottom:8px;letter-spacing:-.01em}
 .card-excerpt{display:none}
-.card-foot{display:none}
+.card-foot{display:flex;align-items:center;justify-content:space-between;border-top:.5px solid rgba(248,247,246,0.07);padding-top:12px;margin-top:12px}
 .card-date{font-size:11px;color:rgba(248,247,246,0.3);font-weight:300}
 .card-arrow{font-size:14px;color:rgba(0,255,115,0.6)}
 .no-results{text-align:center;padding:80px 24px;color:rgba(248,247,246,0.3);font-size:15px}
@@ -151,6 +151,8 @@ function loadArticles() {
     })
     .then(function(articles) {
       if (!Array.isArray(articles)) throw new Error('Invalid format');
+      // Sort newest first
+      articles.sort(function(a,b){ return new Date(b.date) - new Date(a.date); });
       ARTICLES = articles;
       var countEl = document.querySelector('.count');
       if (countEl) countEl.textContent = articles.length;
@@ -165,14 +167,23 @@ function loadArticles() {
     });
 }
 
-var PER=12,pg=1,cat="All",q="";
-
-
 function fd(){return ARTICLES.filter(function(a){return(cat==="All"||a.category===cat)&&(!q||a.title.toLowerCase().indexOf(q)>-1||a.excerpt.toLowerCase().indexOf(q)>-1);});}
-function fmtDate(d){if(!d)return"";try{var p=d.substring(0,10).split("-"),m=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];return m[parseInt(p[1])-1]+" "+parseInt(p[2])+", "+p[0];}catch(e){return d;}}
+function fmtDate(d){if(!d)return"";try{var dt=new Date(d+"T12:00:00Z");var m=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];return m[dt.getUTCMonth()]+" "+dt.getUTCDate()+", "+dt.getUTCFullYear();}catch(e){return d;}}
 function makeCard(a){
-  var img=a.image?"<img class=\"card-img\" src=\""+a.image+"\" alt=\""+a.title+"\" loading=\"lazy\">":"<div class=\"card-img-placeholder\"></div>";
-  return "<a class=\"card\" href=\"/insights/"+a.slug+"\">"+img+"<div class=\"card-body\"><div class=\"card-cat\">"+a.category+"</div><div class=\"card-title\">"+a.title+"</div></div></a>";
+  var slug=a.slug||'';
+  var title=(a.title||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  var cat=(a.category||'').replace(/&/g,'&amp;');
+  var imgSrc=a.image||'';
+  var img=imgSrc?'<img class="card-img" src="'+imgSrc+'" alt="'+title+'" loading="lazy" onerror="this.style.display=\'none\'">':'<div class="card-img card-img-placeholder"></div>';
+  var date=a.date?'<span class="card-date">'+fmtDate(a.date)+'</span>':'';
+  return '<a class="card" href="/insights/'+slug+'">'
+    +img
+    +'<div class="card-body">'
+    +'<div class="card-cat">'+cat+'</div>'
+    +'<div class="card-title">'+title+'</div>'
+    +'<div class="card-foot">'+date+'<span class="card-read">Read More &rarr;</span></div>'
+    +'</div>'
+    +'</a>';
 }
 function render(){
   var list=fd(),total=list.length,pages=Math.ceil(total/PER);

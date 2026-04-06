@@ -1,3 +1,7 @@
+[build]
+  command = "node generate-articles.js"
+  publish = "."
+
 [[redirects]]
   from = "/insights/*.md"
   to = "/insights/:splat.md"

@@ -1,8 +1,8 @@
 ---
-title: NEW TEST
+title: New Google Business Profile Optimizarion Test
 date: 2026-04-06T17:30:00.000-04:00
 category: Reviews
-description: "NEW TEST ARTICLE FOR IMAGE "
+description: Google Business Profile Page Very Important Test.
 ---
 ![GOOGLE](/images/uploads/google-business-profile.jpg "GOOGLE")
 

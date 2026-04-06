@@ -3,7 +3,7 @@ title: "Google Business Profile Optimization: What Every Local Business Must Do
   in 2026"
 date: 2026-04-06T16:23:00.000-04:00
 category: Reviews
-description: "AudienceIntent "
+description: "If your business is not showing up on Google the way it should, there’s a very good chance your Google Business Profile is part of the problem."
 ---
 ![Google Business Profile](/images/uploads/google-business-profile.jpg "Google Business Profile")
 

@@ -1,9 +1,11 @@
 ---
-title: "Revive Yesterday’s Leads. Fill Today’s Calendar."
-date: "2026-01-04"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/j3t8iQeZTnOV1VeTJ1z7nIkc.jpg"
-description: "Every business has them — thousands of leads sitting quietly in your CRM. People who clicked, called, or filled out a form months ago. They showed interest. The..."
+title: Revive Yesterday’s Leads. Fill Today’s Calendar.
+date: 2026-01-04
+category: Lead Reactivation
+image: https://framerusercontent.com/images/j3t8iQeZTnOV1VeTJ1z7nIkc.jpg
+description: Every business has them — thousands of leads sitting quietly in
+  your CRM. People who clicked, called, or filled out a form months ago. They
+  showed interest. The...
 ---
 
 Every business has them — thousands of leads sitting quietly in your CRM.
@@ -21,14 +23,11 @@ Industry data shows that 60–80% of leads never convert — not because they we
 
 And yet:
 
-- 
-**50% of leads will eventually buy** — just not right away.
+- **50% of leads will eventually buy** — just not right away.
 
-- 
-**Reactivating past leads costs up to 78% less** than generating new ones.
+- **Reactivating past leads costs up to 78% less** than generating new ones.
 
-- 
-Businesses that nurture and re-engage existing contacts see a **20–30% lift in sales** without increasing ad spend.
+- Businesses that nurture and re-engage existing contacts see a **20–30% lift in sales** without increasing ad spend.
 *(Sources: HubSpot, MarketingSherpa, DemandGen Report)*
 
 The math is simple:
@@ -65,22 +64,18 @@ All automatically.
 
 ## How It Works
 
-- 
-**Connect Your CRM**
+- **Connect Your CRM**
 The AI securely integrates with your existing leads list. No new platform, no complicated setup.
 
-- 
-**Personalized Outreach Begins**
+- **Personalized Outreach Begins**
 Each message feels handcrafted — referencing first names, service types, or timelines pulled from your data.
 
-- 
-**Real Conversations, Not Broadcasts**
+- **Real Conversations, Not Broadcasts**
 The AI responds dynamically to every reply.
 If someone says, “Not interested,” it thanks them politely.
 If they say, “Tell me more,” it qualifies and routes them to your team or books an appointment automatically.
 
-- 
-**Daily Reporting & Tracking**
+- **Daily Reporting & Tracking**
 You get full visibility — who replied, who booked, who’s warming up — all delivered in a daily summary.
 
 It’s not a chatbot.
@@ -93,14 +88,11 @@ SMS? **98%.**
 
 And the average response time to a text message is **90 seconds**.
 
-- 
-45% of SMS campaigns generate positive ROI within the first month.
+- 45% of SMS campaigns generate positive ROI within the first month.
 
-- 
-80% of consumers say they prefer texting over phone calls or emails.
+- 80% of consumers say they prefer texting over phone calls or emails.
 
-- 
-SMS follow-up increases conversion rates by up to **328%.**
+- SMS follow-up increases conversion rates by up to **328%.**
 *(Sources: Gartner, Campaign Monitor, EZTexting, SimpleTexting)*
 
 Texting isn’t just faster — it’s more human.
@@ -198,14 +190,11 @@ And the AI Reactivation Agent never misses a moment.
 
 Most people don’t buy the first time because:
 
-- 
-They were distracted.
+- They were distracted.
 
-- 
-They weren’t ready.
+- They weren’t ready.
 
-- 
-They didn’t trust you yet.
+- They didn’t trust you yet.
 
 But a simple, well-timed follow-up changes everything.
 
@@ -220,14 +209,11 @@ That’s the power of reactivation done right.
 
 Businesses using AI Reactivation consistently report:
 
-- 
-**10–20% of old leads reactivated within 30 days**
+- **10–20% of old leads reactivated within 30 days**
 
-- 
-**2–5x ROI in the first month**
+- **2–5x ROI in the first month**
 
-- 
-**Full return on investment often within 7 days**
+- **Full return on investment often within 7 days**
 
 When you consider that your database might contain hundreds or thousands of unclosed opportunities, the math becomes impossible to ignore.
 
@@ -237,19 +223,15 @@ This isn’t about replacing your sales team — it’s about freeing them.
 
 The AI handles:
 
-- 
-The first outreach
+- The first outreach
 
-- 
-The small talk
+- The small talk
 
-- 
-The scheduling
+- The scheduling
 
 Your team handles:
 
-- 
-The conversation that closes the deal.
+- The conversation that closes the deal.
 
 Together, they create a system that’s *always on, always polite, always profitable.*
 
@@ -260,20 +242,15 @@ It’s sitting quietly in your database — waiting to hear from you again.
 
 The **AI Reactivation Agent**:
 
-- 
-Re-engages dormant leads with human-like SMS conversations
+- Re-engages dormant leads with human-like SMS conversations
 
-- 
-Books appointments automatically
+- Books appointments automatically
 
-- 
-Runs 24/7 without burnout
+- Runs 24/7 without burnout
 
-- 
-Costs a fraction of manual follow-up
+- Costs a fraction of manual follow-up
 
-- 
-Turns “forgotten” leads into fresh revenue
+- Turns “forgotten” leads into fresh revenue
 
 It’s not automation for automation’s sake — it’s a **growth engine** that pays for itself in days, not months.
 

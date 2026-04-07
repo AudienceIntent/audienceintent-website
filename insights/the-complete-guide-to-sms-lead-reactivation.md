@@ -1,9 +1,11 @@
 ---
 title: "The Complete Guide to SMS Lead Reactivation:"
-date: "2026-01-11"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/RaSTkEFIp1Lk4m0B0EXOyrbhxwo.jpg"
-description: "## What It Is, Why It Works, and How to Do It Right **SMS Lead Reactivation** is the process of re-engaging old or inactive leads in your CRM through personaliz..."
+date: 2026-01-11
+category: Lead Reactivation
+image: https://framerusercontent.com/images/RaSTkEFIp1Lk4m0B0EXOyrbhxwo.jpg
+description: "## What It Is, Why It Works, and How to Do It Right **SMS Lead
+  Reactivation** is the process of re-engaging old or inactive leads in your CRM
+  through personaliz..."
 ---
 
 ## What It Is, Why It Works, and How to Do It Right
@@ -129,20 +131,15 @@ Done wrong, SMS can feel intrusive. Done right, it feels like connection.
 
 Here’s how to keep it right:
 
-- 
-**Personalize everything.** Use names, context, and genuine tone.
+- **Personalize everything.** Use names, context, and genuine tone.
 
-- 
-**Keep it conversational.** Write like you text a friend, not a stranger.
+- **Keep it conversational.** Write like you text a friend, not a stranger.
 
-- 
-**Add value.** Offer something helpful — a reminder, update, or quick tip.
+- **Add value.** Offer something helpful — a reminder, update, or quick tip.
 
-- 
-**Stay compliant.** Always follow TCPA and A2P 10DLC guidelines.
+- **Stay compliant.** Always follow TCPA and A2P 10DLC guidelines.
 
-- 
-**Measure outcomes, not vanity metrics.**
+- **Measure outcomes, not vanity metrics.**
 
 If your goal is to start honest conversations, you’ll always land on the right side of this.
 

@@ -1,9 +1,11 @@
 ---
 title: "What's The Best Way To Ask Customers For Reviews: Everything You Need to Know"
-date: "2026-02-25"
-category: "Reviews"
-image: "https://framerusercontent.com/images/enkkRdOaDqjncxqWHQs7FX0RQg.jpg"
-description: "You finish a job, the client is thrilled, and you walk away thinking you’ve won. But if you didn't ask for a review, you left money on the table. In the age of ..."
+date: 2026-02-25
+category: Reviews
+image: https://framerusercontent.com/images/enkkRdOaDqjncxqWHQs7FX0RQg.jpg
+description: You finish a job, the client is thrilled, and you walk away
+  thinking you’ve won. But if you didn't ask for a review, you left money on the
+  table. In the age of ...
 ---
 
 You finish a job, the client is thrilled, and you walk away thinking you’ve won. But if you didn't ask for a review, you left money on the table. In the age of AI search, your reputation isn't just about word of mouth—it's data. 
@@ -16,11 +18,9 @@ Your future customers don't trust your marketing. They trust other people. Revie
 
 **High-quality reviews do two things simultaneously:**
 
-- 
-**Build Authority:** They tell potential clients you are safe to hire.
+- **Build Authority:** They tell potential clients you are safe to hire.
 
-- 
-**Feed the Algorithms:** Search engines and AI models prioritize businesses with frequent, positive sentiment.
+- **Feed the Algorithms:** Search engines and AI models prioritize businesses with frequent, positive sentiment.
 
 If you stop getting reviews, you stop ranking. It’s that simple. Word of mouth and referrals are essential for attracting new customers, offering trust and credibility (Huble).
 
@@ -32,14 +32,11 @@ You must strike while the iron is hot. The perfect time to ask is the exact mome
 
 **Identify these "Moments of Delight":**
 
-- 
-Immediately after a successful repair or install.
+- Immediately after a successful repair or install.
 
-- 
-Right after a client praises your team verbally.
+- Right after a client praises your team verbally.
 
-- 
-When a project is officially signed off.
+- When a project is officially signed off.
 
 If you miss this window, your conversion rate on requests drops near zero.
 
@@ -121,17 +118,13 @@ Getting five stars isn't luck. It is a system. You need to make the process so e
 
 **Follow these rules:**
 
-- 
-**Pre-qualify the ask:** Ensure the customer is happy before sending the link.
+- **Pre-qualify the ask:** Ensure the customer is happy before sending the link.
 
-- 
-**Personalize the request:** Use their name and mention the specific service provided.
+- **Personalize the request:** Use their name and mention the specific service provided.
 
-- 
-**Explain the "Why":** Tell them it helps a small business grow. People like helping people.
+- **Explain the "Why":** Tell them it helps a small business grow. People like helping people.
 
-- 
-**Provide a direct link:** Never ask them to "search for us." Give them the URL.
+- **Provide a direct link:** Never ask them to "search for us." Give them the URL.
 
 ## Common Mistakes That Sabotage Review Requests
 
@@ -139,17 +132,13 @@ Business owners often ruin their own review strategy by overcomplicating it. The
 
 **Avoid these errors:**
 
-- 
-**Incentivizing reviews:** Do not pay for reviews. It gets you banned.
+- **Incentivizing reviews:** Do not pay for reviews. It gets you banned.
 
-- 
-**Waiting too long:** Asking a month later is useless.
+- **Waiting too long:** Asking a month later is useless.
 
-- 
-**Ignoring negative feedback:** If you don't respond to bad reviews, you look indifferent.
+- **Ignoring negative feedback:** If you don't respond to bad reviews, you look indifferent.
 
-- 
-**Over-asking:** Don't spam them daily. Ask once, follow up once, then stop.
+- **Over-asking:** Don't spam them daily. Ask once, follow up once, then stop.
 
 ## Automate Reviews with AI for Consistent Results
 
@@ -157,14 +146,11 @@ You cannot rely on memory to build a reputation. You get busy, your staff gets b
 
 **OutcomesOS** solves this by automating the entire process.
 
-- 
-The system detects when a job is complete.
+- The system detects when a job is complete.
 
-- 
-It instantly sends a personalized SMS or email.
+- It instantly sends a personalized SMS or email.
 
-- 
-It follows up automatically if they don't click.
+- It follows up automatically if they don't click.
 
 Automation ensures every single happy customer gets asked, every single time. This volume is what separates market leaders from struggling businesses.
 
@@ -174,11 +160,9 @@ Getting the review is only half the battle. You must respond to them. Google and
 
 **How to respond:**
 
-- 
-**To Positive Reviews:** Say thank you and mention the specific service (e.g., "Glad we could fix your AC unit"). This reinforces keywords.
+- **To Positive Reviews:** Say thank you and mention the specific service (e.g., "Glad we could fix your AC unit"). This reinforces keywords.
 
-- 
-**To Negative Reviews:** Be calm. Apologize for the experience and offer to take it offline. Do not fight. Future customers are reading your reaction, not just the complaint.
+- **To Negative Reviews:** Be calm. Apologize for the experience and offer to take it offline. Do not fight. Future customers are reading your reaction, not just the complaint.
 
 ## Track and Optimize Your Review Strategy
 
@@ -186,14 +170,11 @@ You can't improve what you don't measure. You need to know if your requests are 
 
 **Metrics to watch:**
 
-- 
-**Conversion Rate:** How many requests result in a review? (Aim for 10%+)
+- **Conversion Rate:** How many requests result in a review? (Aim for 10%+)
 
-- 
-**Sentiment Score:** Are you averaging 4.8 stars or higher?
+- **Sentiment Score:** Are you averaging 4.8 stars or higher?
 
-- 
-**Volume:** How many new reviews are you getting per month?
+- **Volume:** How many new reviews are you getting per month?
 
 If your conversion rate is low, tweak your script or timing. If your sentiment drops, fix your operations. Treat reviews as a live scoreboard for your business health.
 
@@ -221,17 +202,12 @@ Service businesses average 5-15% conversion from requests, but timing at "moment
 
 ## Check out our related articles
 
-- 
-Your Star Rating is a Revenue Engine
+- Your Star Rating is a Revenue Engine
 
-- 
-Email vs SMS: The Data That Proves Texting Wins
+- Email vs SMS: The Data That Proves Texting Wins
 
-- 
-Your Reputation Is The Only Thing That Matters
+- Your Reputation Is The Only Thing That Matters
 
-- 
-Stop Revenue Leaks Before They Sink Your Business
+- Stop Revenue Leaks Before They Sink Your Business
 
-- 
-AI Has Changed How Customers Find You
+- AI Has Changed How Customers Find You

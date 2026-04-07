@@ -1,9 +1,11 @@
 ---
 title: "SMS Lead Reactivation Made Simple: Honest Answers to Every Question We Get"
-date: "2026-01-15"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/6G2ERt50ZhwzepVKiIQC4d5GYs.jpg"
-description: "If you’re here, you already suspect something: **There’s money hiding in your CRM.** Not new leads. Not more ad spend. Just the leads you already paid for — now..."
+date: 2026-01-15
+category: Lead Reactivation
+image: https://framerusercontent.com/images/6G2ERt50ZhwzepVKiIQC4d5GYs.jpg
+description: "If you’re here, you already suspect something: **There’s money
+  hiding in your CRM.** Not new leads. Not more ad spend. Just the leads you
+  already paid for — now..."
 ---
 
 If you’re here, you already suspect something:
@@ -20,20 +22,15 @@ AudienceIntent is a results-based, AI-powered engagement platform that **reactiv
 
 We take the leads you already own and turn them into:
 
-- 
-Booked appointments
+- Booked appointments
 
-- 
-Re-engaged opportunities
+- Re-engaged opportunities
 
-- 
-Found revenue
+- Found revenue
 
-- 
-Clean data
+- Clean data
 
-- 
-Higher conversion rates
+- Higher conversion rates
 
 You don’t buy software. You don’t learn anything new.
 You simply get results — and only pay when those results show up.
@@ -42,20 +39,15 @@ You simply get results — and only pay when those results show up.
 
 Our Reactivation Agent follows a simple, predictable, performance-first process:
 
-- 
-**Upload your leads** or connect your CRM (optional).
+- **Upload your leads** or connect your CRM (optional).
 
-- 
-We run compliance checks, carrier registration, and number protection.
+- We run compliance checks, carrier registration, and number protection.
 
-- 
-**Our AI Agent begins personalized SMS conversations** that feel natural — not robotic.
+- **Our AI Agent begins personalized SMS conversations** that feel natural — not robotic.
 
-- 
-The system identifies interest, revives dormant leads, and books qualified appointments directly on your calendar.
+- The system identifies interest, revives dormant leads, and books qualified appointments directly on your calendar.
 
-- 
-You track everything in real time: responses, sentiment, appointments, revenue.
+- You track everything in real time: responses, sentiment, appointments, revenue.
 
 It’s fully done-for-you.
 No software to manage.
@@ -66,20 +58,15 @@ No headaches.
 
 On average:
 
-- 
-**8–22% of dormant leads re-engage**
+- **8–22% of dormant leads re-engage**
 
-- 
-**3–12% convert into booked appointments**
+- **3–12% convert into booked appointments**
 
-- 
-First appointments typically appear in **48–96 hours**
+- First appointments typically appear in **48–96 hours**
 
-- 
-Most clients recover their setup fee inside **7–21 days**
+- Most clients recover their setup fee inside **7–21 days**
 
-- 
-And our **60-day double-your-setup-fee guarantee** removes the risk entirely
+- And our **60-day double-your-setup-fee guarantee** removes the risk entirely
 
 We can’t predict your exact numbers — but the pattern across industries is undeniable:
 
@@ -92,14 +79,11 @@ No.
 
 You can work with us in three ways:
 
-- 
-**Upload a CSV** of your leads
+- **Upload a CSV** of your leads
 
-- 
-**Connect your CRM** (GoHighLevel, HubSpot, Salesforce, etc.)
+- **Connect your CRM** (GoHighLevel, HubSpot, Salesforce, etc.)
 
-- 
-**Optional API connection**
+- **Optional API connection**
 
 No integrations are required.
 We designed AudienceIntent to be **frictionless and fast**, even for teams without technical support.
@@ -110,23 +94,17 @@ Yes — fully.
 
 AudienceIntent is built around:
 
-- 
-**TCPA compliance**
+- **TCPA compliance**
 
-- 
-**CTIA guidelines**
+- **CTIA guidelines**
 
-- 
-**A2P 10DLC carrier requirements**
+- **A2P 10DLC carrier requirements**
 
-- 
-**Strict quiet hours**
+- **Strict quiet hours**
 
-- 
-**Automatic opt-outs**
+- **Automatic opt-outs**
 
-- 
-**Phone number reputation management**
+- **Phone number reputation management**
 
 Every message includes clear opt-out language, and negative sentiment is automatically intercepted to protect your brand.
 
@@ -145,14 +123,11 @@ And no paying for empty promises — only performance.
 
 A meeting only counts when:
 
-- 
-The lead confirms interest
+- The lead confirms interest
 
-- 
-The appointment is booked on your calendar
+- The appointment is booked on your calendar
 
-- 
-The contact details are real and valid
+- The contact details are real and valid
 
 Fake appointments don’t count.
 
@@ -177,35 +152,25 @@ Absolutely.
 
 Your AI Agent can be trained to sound:
 
-- 
-Professional
+- Professional
 
-- 
-Luxury
+- Luxury
 
-- 
-Casual
+- Casual
 
-- 
-Direct
+- Direct
 
-- 
-Playful
+- Playful
 
-- 
-High-ticket
+- High-ticket
 
-- 
-Medical
+- Medical
 
-- 
-Corporate
+- Corporate
 
-- 
-Blue-collar
+- Blue-collar
 
-- 
-Or your exact brand voice
+- Or your exact brand voice
 
 You send us examples — we match the tone, pacing, vocabulary, and style.
 
@@ -213,38 +178,27 @@ You send us examples — we match the tone, pacing, vocabulary, and style.
 
 Industries with leads, appointments, or high-ticket products perform exceptionally well, including:
 
-- 
-Home services
+- Home services
 
-- 
-Medical aesthetics
+- Medical aesthetics
 
-- 
-Financial services
+- Financial services
 
-- 
-Real estate
+- Real estate
 
-- 
-Auto & marine sales
+- Auto & marine sales
 
-- 
-Coaching & consulting
+- Coaching & consulting
 
-- 
-Education
+- Education
 
-- 
-Wellness & fitness
+- Wellness & fitness
 
-- 
-Senior care
+- Senior care
 
-- 
-Retail & e-commerce
+- Retail & e-commerce
 
-- 
-High-ticket service businesses
+- High-ticket service businesses
 
 If you sell something people inquire about — this works for you.
 
@@ -265,20 +219,15 @@ First booked appointments or sales often appear **a few days after**.
 
 Our system handles everything:
 
-- 
-Negative responses are flagged and diffused
+- Negative responses are flagged and diffused
 
-- 
-A human steps in only when needed
+- A human steps in only when needed
 
-- 
-All opt-outs are instantly removed
+- All opt-outs are instantly removed
 
-- 
-Carrier reputation and compliance are protected
+- Carrier reputation and compliance are protected
 
-- 
-Your brand remains clean and professional
+- Your brand remains clean and professional
 
 We keep your database healthy and your reputation intact.
 
@@ -288,20 +237,15 @@ Yes — seamlessly.
 
 AudienceIntent:
 
-- 
-Does **not** replace your CRM
+- Does **not** replace your CRM
 
-- 
-Does **not** interfere with your nurture sequences
+- Does **not** interfere with your nurture sequences
 
-- 
-Does **not** conflict with your sales team
+- Does **not** conflict with your sales team
 
-- 
-Works quietly in the background
+- Works quietly in the background
 
-- 
-Complements all current marketing and outreach
+- Complements all current marketing and outreach
 
 Think of it as a **new revenue stream**, not a replacement for anything you’re already doing.
 
@@ -314,23 +258,17 @@ We sell you **results** — because we get paid by them.
 
 AudienceIntent is the only platform combining:
 
-- 
-**AI precision + human oversight**
+- **AI precision + human oversight**
 
-- 
-**Natural SMS conversations that feel human**
+- **Natural SMS conversations that feel human**
 
-- 
-**Performance-based pricing**
+- **Performance-based pricing**
 
-- 
-**No contracts**
+- **No contracts**
 
-- 
-**No ad spend**
+- **No ad spend**
 
-- 
-**A 60-day Double-Your-Setup-Fee Guarantee**
+- **A 60-day Double-Your-Setup-Fee Guarantee**
 
 We don’t win unless you win.
 And that’s exactly how business owners prefer it.

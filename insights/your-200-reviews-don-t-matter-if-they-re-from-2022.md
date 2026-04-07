@@ -1,9 +1,11 @@
 ---
-title: "Your 200 Reviews Don't Matter If They're From 2022"
-date: "2026-03-16"
-category: "Reviews"
-image: "https://framerusercontent.com/images/R7JHyNjorYLnCLdVhc11fmDLk.jpg"
-description: "Why review recency has become the most important factor in reputation management - and what service businesses need to do about it. You worked hard to build a s..."
+title: Your 200 Reviews Don't Matter If They're From 2022
+date: 2026-03-16
+category: Reviews
+image: https://framerusercontent.com/images/R7JHyNjorYLnCLdVhc11fmDLk.jpg
+description: Why review recency has become the most important factor in
+  reputation management - and what service businesses need to do about it. You
+  worked hard to build a s...
 ---
 
 Why review recency has become the most important factor in reputation management - and what service businesses need to do about it. 
@@ -17,14 +19,11 @@ Consumer behavior has shifted dramatically. Buyers aren't just counting stars an
 
 BrightLocal's 2026 Local Consumer Review Survey makes this impossible to ignore:
 
-- 
-**74% of consumers** only trust reviews written within the last three months
+- **74% of consumers** only trust reviews written within the last three months
 
-- 
-**32% of consumers** only look at reviews from the last two weeks - up from just 20% the year before
+- **32% of consumers** only look at reviews from the last two weeks - up from just 20% the year before
 
-- 
-**18% of consumers** will only act on reviews written within the last week
+- **18% of consumers** will only act on reviews written within the last week
 
 Read that last one again. Nearly one in five potential customers will dismiss your entire review history if nothing is recent enough.
 

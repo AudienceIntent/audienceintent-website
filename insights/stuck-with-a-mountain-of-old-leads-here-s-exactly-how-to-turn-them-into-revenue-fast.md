@@ -1,9 +1,12 @@
 ---
-title: "Stuck With a Mountain of Old Leads? Here’s Exactly How to Turn Them Into Revenue — Fast."
-date: "2026-01-18"
-category: "AI Visibility"
-image: "https://framerusercontent.com/images/i41xpP3hZBeECR9kW9OTOS5lCc.jpg"
-description: "Let me start with something most business owners *don’t* want to admit: **You don’t need more leads. You need to wake up the ones you already paid for. ** Right..."
+title: Stuck With a Mountain of Old Leads? Here’s Exactly How to Turn Them Into
+  Revenue — Fast.
+date: 2026-01-18
+category: AI Visibility
+image: https://framerusercontent.com/images/i41xpP3hZBeECR9kW9OTOS5lCc.jpg
+description: "Let me start with something most business owners *don’t* want to
+  admit: **You don’t need more leads. You need to wake up the ones you already
+  paid for. ** Right..."
 ---
 
 Let me start with something most business owners *don’t* want to admit:
@@ -13,17 +16,13 @@ You need to wake up the ones you already paid for. **
 
 Right now, your CRM is filled with people who:
 
-- 
-already know who you are
+- already know who you are
 
-- 
-already showed interest
+- already showed interest
 
-- 
-already moved toward buying
+- already moved toward buying
 
-- 
-and then… life happened, timing shifted, or your team never followed up
+- and then… life happened, timing shifted, or your team never followed up
 
 And all that “lost momentum”?
 It didn’t die.
@@ -41,26 +40,19 @@ Let’s break it down.
 Leads rarely go cold because they weren’t good.
 They go cold because:
 
-- 
-follow-up wasn’t fast enough
+- follow-up wasn’t fast enough
 
-- 
-follow-up wasn’t consistent
+- follow-up wasn’t consistent
 
-- 
-follow-up didn’t feel human
+- follow-up didn’t feel human
 
-- 
-the channel was wrong
+- the channel was wrong
 
-- 
-the timing wasn’t right
+- the timing wasn’t right
 
-- 
-your sales team was overloaded
+- your sales team was overloaded
 
-- 
-life happened on the customer’s side
+- life happened on the customer’s side
 
 This isn’t a quality problem.
 It’s an **attention** problem.
@@ -114,23 +106,17 @@ Clean it once → profit from it forever.
 Your CRM isn’t one big blob of contacts.
 You’ve got:
 
-- 
-people who almost bought
+- people who almost bought
 
-- 
-people who asked for info
+- people who asked for info
 
-- 
-people who went cold mid-convo
+- people who went cold mid-convo
 
-- 
-past customers
+- past customers
 
-- 
-long-lost “maybe later” people
+- long-lost “maybe later” people
 
-- 
-abandoned consults/applications
+- abandoned consults/applications
 
 Each bucket needs a different approach.
 
@@ -141,14 +127,11 @@ SMS is where humans live.
 
 That’s why SMS gets:
 
-- 
-90%+ open rates
+- 90%+ open rates
 
-- 
-35–50% response rates
+- 35–50% response rates
 
-- 
-same-day bookings
+- same-day bookings
 
 When you start the convo the right way, old leads wake up FAST.
 
@@ -177,20 +160,15 @@ Not “Are you still interested?”
 
 Example reactivation angles:
 
-- 
-“Want help finishing what you started?”
+- “Want help finishing what you started?”
 
-- 
-“Looks like you were exploring ____ — want to revisit?”
+- “Looks like you were exploring ____ — want to revisit?”
 
-- 
-“If timing is better now, I can help.”
+- “If timing is better now, I can help.”
 
-- 
-“Need an updated recommendation?”
+- “Need an updated recommendation?”
 
-- 
-“Ready to pick this back up?”
+- “Ready to pick this back up?”
 
 This removes pressure and puts them in the driver’s seat.
 
@@ -211,29 +189,21 @@ No automation tool is conversational enough.
 
 AI-driven SMS reactivation works because it:
 
-- 
-responds instantly
+- responds instantly
 
-- 
-sounds natural
+- sounds natural
 
-- 
-does the heavy lifting
+- does the heavy lifting
 
-- 
-personalizes every message
+- personalizes every message
 
-- 
-never forgets to follow up
+- never forgets to follow up
 
-- 
-never gets tired
+- never gets tired
 
-- 
-stays compliant
+- stays compliant
 
-- 
-books appointments while owners sleep
+- books appointments while owners sleep
 
 This is literally the definition of leverage.
 
@@ -247,20 +217,15 @@ Their sales team wrote them off.
 
 Within weeks of reactivation:
 
-- 
-dormant leads started responding
+- dormant leads started responding
 
-- 
-missed conversions resurfaced
+- missed conversions resurfaced
 
-- 
-past prospects re-engaged
+- past prospects re-engaged
 
-- 
-their calendar filled
+- their calendar filled
 
-- 
-booked sales calls surged
+- booked sales calls surged
 
 We revived years of forgotten pipeline — fast — with zero extra ad spend.
 
@@ -285,23 +250,17 @@ This is exactly why AudienceIntent exists.
 
 We take every lead you’ve forgotten about and:
 
-- 
-clean it
+- clean it
 
-- 
-segment it
+- segment it
 
-- 
-re-engage it through natural SMS conversations
+- re-engage it through natural SMS conversations
 
-- 
-qualify interest
+- qualify interest
 
-- 
-book calls
+- book calls
 
-- 
-and drop appointments directly onto your calendar
+- and drop appointments directly onto your calendar
 
 Fast.
 Hands-free.

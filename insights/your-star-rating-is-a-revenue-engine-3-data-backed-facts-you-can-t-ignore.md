@@ -1,9 +1,11 @@
 ---
 title: "Your Star Rating is a Revenue Engine: 3 Data-Backed Facts You Can't Ignore"
-date: "2026-02-05"
-category: "Growth"
-image: "https://framerusercontent.com/images/0wzUFSCESTzRtGWhBdaoALx16Sg.jpg"
-description: "### **Beyond Vanity Metrics** For many business owners, online reviews feel like a 'nice-to-have'—a digital pat on the back that looks good but doesn't seem to ..."
+date: 2026-02-05
+category: Growth
+image: https://framerusercontent.com/images/0wzUFSCESTzRtGWhBdaoALx16Sg.jpg
+description: "### **Beyond Vanity Metrics** For many business owners, online
+  reviews feel like a 'nice-to-have'—a digital pat on the back that looks good
+  but doesn't seem to ..."
 ---
 
 ### **Beyond Vanity Metrics**
@@ -40,11 +42,9 @@ While the data is compelling, the solution isn't to simply cross your fingers an
 
 This technology shifts a business from a passive, reactive position to a proactive one. An effective system allows a business to seize control of its reputation by performing two critical functions:
 
-- 
-It automatically captures and publishes 5-star reviews to build social proof and drive the positive revenue effects discussed above.
+- It automatically captures and publishes 5-star reviews to build social proof and drive the positive revenue effects discussed above.
 
-- 
-It intercepts negative experiences before they go public, turning potential bad reviews into private, valuable business feedback that can be used for improvement.
+- It intercepts negative experiences before they go public, turning potential bad reviews into private, valuable business feedback that can be used for improvement.
 
 Relying on old methods in a rapidly changing technological landscape is no longer a viable strategy. As business leaders have noted, adaptation is essential for survival.
 

@@ -1,9 +1,12 @@
 ---
-title: "What's the Best Way to Reactivate Dormant Customers? (The Answer Is Already in Your Phone)"
-date: "2026-03-14"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/NVcbIzTpEtutYjCgFoED2i8J9M.jpg"
-description: "Most businesses spend thousands chasing new leads while sitting on a goldmine they've already paid for. According to HubSpot, **79% of marketing leads never con..."
+title: What's the Best Way to Reactivate Dormant Customers? (The Answer Is
+  Already in Your Phone)
+date: 2026-03-14
+category: Lead Reactivation
+image: https://framerusercontent.com/images/NVcbIzTpEtutYjCgFoED2i8J9M.jpg
+description: Most businesses spend thousands chasing new leads while sitting on
+  a goldmine they've already paid for. According to HubSpot, **79% of marketing
+  leads never con...
 ---
 
 Most businesses spend thousands chasing new leads while sitting on a goldmine they've already paid for.
@@ -74,23 +77,17 @@ Businesses running coordinated SMS + email + phone sequences see **2.3x higher r
 
 The pattern that works:
 
-- 
-**Day 1** - SMS opener (short, personal, low pressure)
+- **Day 1** - SMS opener (short, personal, low pressure)
 
-- 
-**Day 3** - Follow-up SMS if no response
+- **Day 3** - Follow-up SMS if no response
 
-- 
-**Day 5** - Email with more context or offer
+- **Day 5** - Email with more context or offer
 
-- 
-**Day 8** - SMS check-in
+- **Day 8** - SMS check-in
 
-- 
-**Day 12** - Phone call attempt
+- **Day 12** - Phone call attempt
 
-- 
-**Day 16** - Final SMS
+- **Day 16** - Final SMS
 
 The goal isn't to bombard. It's to show up consistently across the channels your prospect actually uses, until they're ready to respond.
 

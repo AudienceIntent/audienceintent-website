@@ -115,15 +115,21 @@ function parseFrontmatter(text, filename) {
     if (bm) { result.image = bm[1]; }
   }
 
-  // Description/excerpt
+  // Description/excerpt - handles quoted, unquoted, and multiline YAML (Decap wraps long values)
   let dem = fm.match(/^description:\s*"((?:[^"\\]|\\.)*)"/m);
   if (dem) { result.excerpt = dem[1].trim(); }
   else {
     dem = fm.match(/^description:\s*'((?:[^'\\]|\\.)*)'/m);
     if (dem) { result.excerpt = dem[1].trim(); }
     else {
-      dem = fm.match(/^description:\s*(.+)$/m);
-      if (dem) { result.excerpt = dem[1].trim().replace(/^"|"$/g, ''); }
+      // Multiline unquoted: first line + any continuation lines (indented with spaces)
+      dem = fm.match(/^description:\s*(.+(?:\n[ \t]+.+)*)/m);
+      if (dem) {
+        result.excerpt = dem[1]
+          .replace(/\n[ \t]+/g, ' ')  // join continuation lines
+          .trim()
+          .replace(/^"|"$/g, '');
+      }
     }
   }
 

@@ -1,9 +1,11 @@
 ---
-title: "You’re Sitting on “Found Money” — You Just Don’t Know It Yet."
-date: "2026-01-09"
-category: "Growth"
-image: "https://framerusercontent.com/images/NyOtqcsX27LpcbN65NEpOKlGIg.jpg"
-description: "**Every business has hidden revenue buried in old leads. Here’s how we help you wake it up — no new ads, no risk, just results.** ### **Let’s Be Honest — You Do..."
+title: You’re Sitting on “Found Money” — You Just Don’t Know It Yet.
+date: 2026-01-09
+category: Growth
+image: https://framerusercontent.com/images/NyOtqcsX27LpcbN65NEpOKlGIg.jpg
+description: "**Every business has hidden revenue buried in old leads. Here’s
+  how we help you wake it up — no new ads, no risk, just results.** ### **Let’s
+  Be Honest — You Do..."
 ---
 
 **Every business has hidden revenue buried in old leads. Here’s how we help you wake it up — no new ads, no risk, just results.**
@@ -28,14 +30,11 @@ And with the right reactivation strategy, they can be your most profitable audie
 
 We’re talking about:
 
-- 
-Leads who clicked but didn’t book
+- Leads who clicked but didn’t book
 
-- 
-Prospects who said “circle back later”
+- Prospects who said “circle back later”
 
-- 
-Customers who went quiet after a few months
+- Customers who went quiet after a few months
 
 All still there. All still reachable. All still ready.
 

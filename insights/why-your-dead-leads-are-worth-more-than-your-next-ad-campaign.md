@@ -1,9 +1,11 @@
 ---
-title: "Why Your Dead Leads Are Worth More Than Your Next Ad Campaign"
-date: "2026-01-27"
-category: "AI Visibility"
-image: "https://framerusercontent.com/images/IrHyVN8C5OGWBdQ6Yzvt2La0wZc.jpg"
-description: "Here’s something most of us in digital marketing don’t say out loud, even though we all secretly know it’s true: **We spend way too much money chasing new leads..."
+title: Why Your Dead Leads Are Worth More Than Your Next Ad Campaign
+date: 2026-01-27
+category: AI Visibility
+image: https://framerusercontent.com/images/IrHyVN8C5OGWBdQ6Yzvt2La0wZc.jpg
+description: "Here’s something most of us in digital marketing don’t say out
+  loud, even though we all secretly know it’s true: **We spend way too much
+  money chasing new leads..."
 ---
 
 Here’s something most of us in digital marketing don’t say out loud, even though we all secretly know it’s true:
@@ -24,14 +26,11 @@ If your lead costs are even moderately high—and most industries are seeing tho
 
 A quick example:
 
-- 
-Say your leads cost $20
+- Say your leads cost $20
 
-- 
-You’ve generated 20,000 over a couple years
+- You’ve generated 20,000 over a couple years
 
-- 
-Even if half went cold, you’re still holding **$200,000 of paid attention** sitting unused
+- Even if half went cold, you’re still holding **$200,000 of paid attention** sitting unused
 
 And here’s the surprising part:
 When you reactivate those leads the right way, even a tiny conversion rate can outperform an entire month of paid ads.
@@ -45,17 +44,13 @@ They just said “not right now,” but with silence.
 
 People drop off for normal life reasons:
 
-- 
-wrong week
+- wrong week
 
-- 
-wrong budget cycle
+- wrong budget cycle
 
-- 
-wrong priorities at that moment
+- wrong priorities at that moment
 
-- 
-something got in the way
+- something got in the way
 
 Then months later, they’re in a completely different place—and open to a conversation they ignored before.
 
@@ -74,37 +69,27 @@ And the businesses getting the best results keep it simple:
 
 ### What actually works
 
-- 
-short, natural messages
+- short, natural messages
 
-- 
-clear outcomes (book a call, answer a quick question, learn more)
+- clear outcomes (book a call, answer a quick question, learn more)
 
-- 
-real-time conversation
+- real-time conversation
 
-- 
-sending to the right people at the right moment
+- sending to the right people at the right moment
 
-- 
-small waves instead of giant blasts
+- small waves instead of giant blasts
 
 ### What doesn’t
 
-- 
-pushy sales language
+- pushy sales language
 
-- 
-huge automated dumps to the whole list
+- huge automated dumps to the whole list
 
-- 
-cold-call-style scripts
+- cold-call-style scripts
 
-- 
-assuming silence means disinterest
+- assuming silence means disinterest
 
-- 
-one-and-done messaging
+- one-and-done messaging
 
 Reactivation shouldn't feel risky or overwhelming.
 If anything, it’s the lowest-risk thing you can do—because the expensive part (acquiring the lead) is already done.
@@ -115,20 +100,15 @@ Here’s the truth: people respond to messages that sound like a real person rea
 
 High-performing reactivation messages usually share a few qualities:
 
-- 
-They’re short.
+- They’re short.
 
-- 
-They’re casual.
+- They’re casual.
 
-- 
-They don’t assume anything.
+- They don’t assume anything.
 
-- 
-They offer an easy next step.
+- They offer an easy next step.
 
-- 
-They don’t push too hard.
+- They don’t push too hard.
 
 Think of it like texting someone you haven’t talked to in a while. You wouldn’t send a sales pitch.
 You’d send a simple, friendly prompt.
@@ -161,17 +141,13 @@ There’s always concern around SMS compliance, and understandably so. But you c
 
 The basics are pretty simple:
 
-- 
-Only text people who opted in or have a real relationship path
+- Only text people who opted in or have a real relationship path
 
-- 
-Keep messages conversational
+- Keep messages conversational
 
-- 
-Offer an easy opt-out
+- Offer an easy opt-out
 
-- 
-Avoid anything spammy or aggressive
+- Avoid anything spammy or aggressive
 
 When you approach people respectfully, compliance becomes much less of a challenge.
 
@@ -182,20 +158,15 @@ It’s a revenue game.
 
 The metrics that tell the real story are:
 
-- 
-How many leads replied
+- How many leads replied
 
-- 
-How many booked
+- How many booked
 
-- 
-How many closed
+- How many closed
 
-- 
-How much revenue came from dormant leads
+- How much revenue came from dormant leads
 
-- 
-How quickly they moved through the pipeline
+- How quickly they moved through the pipeline
 
 When you track these, it becomes obvious why reactivation deserves a permanent place in the marketing plan—not just a quarterly push.
 
@@ -205,20 +176,15 @@ The real win comes when reactivation becomes a repeatable process, not a one-off
 
 Most companies that do this well follow a simple cadence:
 
-- 
-Refresh the list every quarter
+- Refresh the list every quarter
 
-- 
-Run reactivation waves monthly
+- Run reactivation waves monthly
 
-- 
-Let AI handle the first outreach and objection-handling
+- Let AI handle the first outreach and objection-handling
 
-- 
-Let humans step in once someone is ready
+- Let humans step in once someone is ready
 
-- 
-Pause respectfully, then try again in 90 days
+- Pause respectfully, then try again in 90 days
 
 It’s not complicated—it just requires consistency.
 

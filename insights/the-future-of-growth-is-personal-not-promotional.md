@@ -1,9 +1,11 @@
 ---
-title: "The Future of Growth Is Personal, Not Promotional"
-date: "2026-01-20"
-category: "Growth"
-image: "https://framerusercontent.com/images/4mAGTXvQIaBHJCQOXWMcCg9mZm4.jpg"
-description: "Marketing is facing a reckoning. You can feel it in every inbox, every ad feed, every landing page, and every customer conversation. Trust—real trust—is at an a..."
+title: The Future of Growth Is Personal, Not Promotional
+date: 2026-01-20
+category: Growth
+image: https://framerusercontent.com/images/4mAGTXvQIaBHJCQOXWMcCg9mZm4.jpg
+description: Marketing is facing a reckoning. You can feel it in every inbox,
+  every ad feed, every landing page, and every customer conversation. Trust—real
+  trust—is at an a...
 ---
 
 Marketing is facing a reckoning.
@@ -31,23 +33,17 @@ Promotions instead of purpose.
 
 We bombarded people with:
 
-- 
-Cold, irrelevant outreach
+- Cold, irrelevant outreach
 
-- 
-Spam emails from brands we’ve never heard of
+- Spam emails from brands we’ve never heard of
 
-- 
-“Fake” promotions that were actually the same price as yesterday
+- “Fake” promotions that were actually the same price as yesterday
 
-- 
-Landing pages that promise something completely different than what they deliver
+- Landing pages that promise something completely different than what they deliver
 
-- 
-Hundreds of ads following us around the internet like a digital debt collector
+- Hundreds of ads following us around the internet like a digital debt collector
 
-- 
-Phone offers that sounded like scams because, frankly, they were
+- Phone offers that sounded like scams because, frankly, they were
 
 And then we wondered—out loud—why no one “trusts marketing” anymore.
 
@@ -71,29 +67,21 @@ They want trust.
 
 Meanwhile, here’s what they’re getting:
 
-- 
-Boilerplate cold emails
+- Boilerplate cold emails
 
-- 
-Autopilot ad retargeting
+- Autopilot ad retargeting
 
-- 
-Static landing pages with the same template as every other brand
+- Static landing pages with the same template as every other brand
 
-- 
-“Limited-time deals” that never expire
+- “Limited-time deals” that never expire
 
-- 
-Chatbots that feel like they were coded in 2007
+- Chatbots that feel like they were coded in 2007
 
-- 
-Zero accountability from agencies charging massive retainers
+- Zero accountability from agencies charging massive retainers
 
-- 
-Promotions that mean nothing
+- Promotions that mean nothing
 
-- 
-Conversations that never start because no one reaches out like a human anymore
+- Conversations that never start because no one reaches out like a human anymore
 
 It’s no wonder people are tired.
 
@@ -128,29 +116,21 @@ The businesses winning right now—the ones seeing better margins, better lifeti
 
 Here’s what actually works:
 
-- 
-A real conversation
+- A real conversation
 
-- 
-A real message that feels like it was written *for* someone
+- A real message that feels like it was written *for* someone
 
-- 
-A relevant offer at the right time
+- A relevant offer at the right time
 
-- 
-A brand that asks questions before pitching
+- A brand that asks questions before pitching
 
-- 
-A tone that sounds like a human, not a template
+- A tone that sounds like a human, not a template
 
-- 
-Timing that respects the customer
+- Timing that respects the customer
 
-- 
-Honest communication
+- Honest communication
 
-- 
-An authentic attempt to help
+- An authentic attempt to help
 
 And the data couldn’t be clearer:
 **People respond to conversations. Not campaigns.
@@ -188,32 +168,23 @@ Because if we’re going to preach “trust,” we better live it.
 
 If you strip away the noise, people want something timeless:
 
-- 
-“Talk to me like a real person.”
+- “Talk to me like a real person.”
 
-- 
-“Understand what I’m actually trying to do.”
+- “Understand what I’m actually trying to do.”
 
-- 
-“Help me solve a problem.”
+- “Help me solve a problem.”
 
-- 
-“Don’t trick me.”
+- “Don’t trick me.”
 
-- 
-“Don’t spam me.”
+- “Don’t spam me.”
 
-- 
-“Don’t hide behind fine print.”
+- “Don’t hide behind fine print.”
 
-- 
-“Show me you care.”
+- “Show me you care.”
 
-- 
-“Show me your offer was created for someone like me.”
+- “Show me your offer was created for someone like me.”
 
-- 
-“Show me you’re the right company to trust.”
+- “Show me you’re the right company to trust.”
 
 None of this is complicated.
 It’s just been forgotten.

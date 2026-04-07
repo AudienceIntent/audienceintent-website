@@ -1,9 +1,11 @@
 ---
 title: "Lead Reactivation: Where Old Leads Become Found Money"
-date: "2026-01-08"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/RTJTbT3z72qA4V6ijfSo9yXz1iI.jpg"
-description: "Your CRM isn’t dead — it’s full of untapped revenue. **Lead reactivation** is the process of re-engaging past prospects who showed interest but never purchased,..."
+date: 2026-01-08
+category: Lead Reactivation
+image: https://framerusercontent.com/images/RTJTbT3z72qA4V6ijfSo9yXz1iI.jpg
+description: Your CRM isn’t dead — it’s full of untapped revenue. **Lead
+  reactivation** is the process of re-engaging past prospects who showed
+  interest but never purchased,...
 ---
 
 Your CRM isn’t dead — it’s full of untapped revenue.
@@ -17,14 +19,11 @@ That’s where **AI-powered Lead Reactivation** from **AudienceIntent** comes in
 
 ### **Why Old Leads Are Your Hidden Source of Found Money**
 
-- 
-They’ve **already shown intent.** No need to educate them again.
+- They’ve **already shown intent.** No need to educate them again.
 
-- 
-You’ve **already paid** to acquire them. Reactivation costs a fraction of new ad spend.
+- You’ve **already paid** to acquire them. Reactivation costs a fraction of new ad spend.
 
-- 
-They **convert faster** because trust is already established.
+- They **convert faster** because trust is already established.
 
 Data shows that re-engaging dormant leads can deliver **10× higher ROI** than chasing new ones — especially when powered by personalized AI conversations.
 
@@ -87,14 +86,11 @@ Combine that with AI timing, tone, and context, and you unlock re-engagement at 
 AudienceIntent isn’t an agency.
 It’s a performance-driven growth system built for owners who are tired of wasting money.
 
-- 
-**Zero Risk** — Pay only when we perform.
+- **Zero Risk** — Pay only when we perform.
 
-- 
-**No Retainers** — No long-term contracts or hidden fees.
+- **No Retainers** — No long-term contracts or hidden fees.
 
-- 
-**60-Day Guarantee** — If we don’t double your setup fee in 60 days, we refund it.
+- **60-Day Guarantee** — If we don’t double your setup fee in 60 days, we refund it.
 
 We don’t promise results.
 **We get paid by them.**
@@ -103,14 +99,11 @@ We don’t promise results.
 
 Businesses using **AudienceIntent** typically see:
 
-- 
-**20 – 40 % of old leads re-engaged** within 30 days.
+- **20 – 40 % of old leads re-engaged** within 30 days.
 
-- 
-**Hundreds of booked appointments** automatically scheduled.
+- **Hundreds of booked appointments** automatically scheduled.
 
-- 
-**Thousands in new revenue recovered** from data they already owned.
+- **Thousands in new revenue recovered** from data they already owned.
 
 Our clients call it *found money.*
 We call it **smart, modern marketing.**
@@ -141,14 +134,11 @@ If you’ve got a database, you’ve got a **jackpot** waiting to be unlocked.
 
 ### **How To Get Started**
 
-- 
-Visit → https://www.audienceintent.ai
+- Visit → https://www.audienceintent.ai
 
-- 
-Try the **Found Money Calculator** to estimate your hidden revenue.
+- Try the **Found Money Calculator** to estimate your hidden revenue.
 
-- 
-Book a **Live Demo** to watch the Reactivation Agent in action.
+- Book a **Live Demo** to watch the Reactivation Agent in action.
 
 No risk. No retainers. Just results.
 

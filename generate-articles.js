@@ -52,6 +52,22 @@ function markdownToHtml(md) {
   // Horizontal rules
   html = html.replace(/^[-*_]{3,}\s*$/gm, '<hr>');
 
+  // Tables - match block of lines containing pipes
+  html = html.replace(/((?:^[^\n]*\|[^\n]*\n?)+)/gm, function(block) {
+    const lines = block.trim().split('\n').filter(Boolean);
+    if (lines.length < 2) return block;
+    // Check second line is a separator (---|---|---)
+    const isSeparator = /^[\s|:\-]+$/.test(lines[1]);
+    if (!isSeparator) return block;
+    const headerCells = lines[0].split('|').map(c => c.trim()).filter(Boolean);
+    const thead = '<thead><tr>' + headerCells.map(c => '<th>' + c + '</th>').join('') + '</tr></thead>';
+    const bodyRows = lines.slice(2).map(function(line) {
+      const cells = line.split('|').map(c => c.trim()).filter(Boolean);
+      return '<tr>' + cells.map(c => '<td>' + c + '</td>').join('') + '</tr>';
+    }).join('');
+    return '<div class="table-wrap"><table>' + thead + '<tbody>' + bodyRows + '</tbody></table></div>\n';
+  });
+
   // Paragraphs - wrap chunks separated by blank lines
   const blockTags = /^(<h[1-6]|<ul|<ol|<li|<blockquote|<hr|<img|<\/)/;
   html = html.split('\n\n').map(function(chunk) {

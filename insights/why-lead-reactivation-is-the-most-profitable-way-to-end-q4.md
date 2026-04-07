@@ -1,9 +1,11 @@
 ---
-title: "Why Lead Reactivation Is the Most Profitable Way to End Q4"
-date: "2026-01-21"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/vQVCwkcByCOo14rDTnIX7mNZE.jpg"
-description: "Q4 isn’t just the “busy season.” It’s the final sprint — the moment every business looks at their numbers and asks a simple question: **“Are we going to hit the..."
+title: Why Lead Reactivation Is the Most Profitable Way to End Q4
+date: 2026-01-21
+category: Lead Reactivation
+image: https://framerusercontent.com/images/vQVCwkcByCOo14rDTnIX7mNZE.jpg
+description: "Q4 isn’t just the “busy season.” It’s the final sprint — the
+  moment every business looks at their numbers and asks a simple question:
+  **“Are we going to hit the..."
 ---
 
 Q4 isn’t just the “busy season.” It’s the final sprint — the moment every business looks at their numbers and asks a simple question:
@@ -25,23 +27,17 @@ If you’ve been in business long enough to survive a few Q4s, you already know 
 
 These are people who:
 
-- 
-Clicked your ads
+- Clicked your ads
 
-- 
-Opted into your funnels
+- Opted into your funnels
 
-- 
-Booked a call
+- Booked a call
 
-- 
-Requested pricing
+- Requested pricing
 
-- 
-Visited your store or your site
+- Visited your store or your site
 
-- 
-Showed interest… then fell off
+- Showed interest… then fell off
 
 And you paid for every single one of them.
 
@@ -80,17 +76,13 @@ SMS is a one-on-one conversation.
 
 The difference in engagement is staggering:
 
-- 
-**SMS open rates:** 90%+
+- **SMS open rates:** 90%+
 
-- 
-**SMS response rates:** Up to 45%
+- **SMS response rates:** Up to 45%
 
-- 
-**Email open rates:** 20–30% on a good week
+- **Email open rates:** 20–30% on a good week
 
-- 
-**Email response rates:** often under 3%
+- **Email response rates:** often under 3%
 
 Your Q4 goals don’t need another email blast.
 
@@ -106,20 +98,15 @@ The psychological shift is real.
 
 People are:
 
-- 
-Actively looking for deals
+- Actively looking for deals
 
-- 
-More responsive to incentives
+- More responsive to incentives
 
-- 
-In a gifting and purchasing mindset
+- In a gifting and purchasing mindset
 
-- 
-Motivated to make decisions before year-end
+- Motivated to make decisions before year-end
 
-- 
-Watching for offers they ignored earlier in the year
+- Watching for offers they ignored earlier in the year
 
 And here’s the best part:
 
@@ -132,20 +119,15 @@ Q4 is timing on steroids.
 
 If your team needs:
 
-- 
-More conversations
+- More conversations
 
-- 
-More demos
+- More demos
 
-- 
-More calls booked
+- More calls booked
 
-- 
-More pipeline
+- More pipeline
 
-- 
-More deals closed
+- More deals closed
 
 Reactivation delivers it — fast.
 
@@ -164,17 +146,13 @@ This is the part that’s almost unfair.
 
 When you reactivate old leads:
 
-- 
-Your acquisition cost is **$0**
+- Your acquisition cost is **$0**
 
-- 
-Your margin goes up
+- Your margin goes up
 
-- 
-Your ROAS becomes irrelevant
+- Your ROAS becomes irrelevant
 
-- 
-Every sale is nearly pure profit
+- Every sale is nearly pure profit
 
 Imagine spending nothing — and generating revenue from yesterday’s forgotten leads.
 

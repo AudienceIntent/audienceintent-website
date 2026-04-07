@@ -1,9 +1,11 @@
 ---
-title: "Why Most Local Businesses Don't Show Up in AI Search Results"
-date: "2026-02-15"
-category: "AI Visibility"
-image: "https://framerusercontent.com/images/qIbUaOsPBjz2a6bGZcr2dVI0GSs.jpg"
-description: "For two decades, the 'game' of business visibility was simple to understand, even if it was hard to execute. You optimized for Google. You fought for the ten bl..."
+title: Why Most Local Businesses Don't Show Up in AI Search Results
+date: 2026-02-15
+category: AI Visibility
+image: https://framerusercontent.com/images/qIbUaOsPBjz2a6bGZcr2dVI0GSs.jpg
+description: For two decades, the 'game' of business visibility was simple to
+  understand, even if it was hard to execute. You optimized for Google. You
+  fought for the ten bl...
 ---
 
 For two decades, the "game" of business visibility was simple to understand, even if it was hard to execute. You optimized for Google. You fought for the ten blue links. If you were on page one, you existed. If you were on page two, you were a ghost.
@@ -30,11 +32,9 @@ AI models prioritize "third-party validation." They trust what *others* say abou
 
 **The smarter way to think about it:** Stop treating your blog as a bucket for traffic and start treating it as a source of **structured facts**.
 
-- 
-**The Mistake:** Writing 2,000-word "ultimate guides" filled with fluff.
+- **The Mistake:** Writing 2,000-word "ultimate guides" filled with fluff.
 
-- 
-**The Strategy:** Using clear, declarative headers and "Answer Blocks"—concise 50-word summaries that an AI can easily scrape and attribute to you.
+- **The Strategy:** Using clear, declarative headers and "Answer Blocks"—concise 50-word summaries that an AI can easily scrape and attribute to you.
 
 If you were starting today, would you spend $10k on a flashy website design, or $10k on getting cited in the five trade publications the AI models use as their primary "truth" sources?
 

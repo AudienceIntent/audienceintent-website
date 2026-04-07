@@ -1,9 +1,12 @@
 ---
-title: "What Happens to Your Local Business If You Ignore AI Visibility for the Next 6 Months"
-date: "2026-03-04"
-category: "AI Visibility"
-image: "https://framerusercontent.com/images/LTn21yQxPSyNolSFZJZrUescZE.jpg"
-description: "Your Google rankings look fine. Your calls are down. Your leads are slower. You're spending more on ads just to stay even. Nothing changed on your end. That's t..."
+title: What Happens to Your Local Business If You Ignore AI Visibility for the
+  Next 6 Months
+date: 2026-03-04
+category: AI Visibility
+image: https://framerusercontent.com/images/LTn21yQxPSyNolSFZJZrUescZE.jpg
+description: Your Google rankings look fine. Your calls are down. Your leads are
+  slower. You're spending more on ads just to stay even. Nothing changed on your
+  end. That's t...
 ---
 
 Your Google rankings look fine. Your calls are down. Your leads are slower. You're spending more on ads just to stay even.
@@ -32,14 +35,11 @@ The leads you're losing in this window aren't visible. No one calls to tell you 
 
 **What's happening to your numbers:**
 
-- 
-AI search traffic is growing 527% year-over-year (Search Engine Land, 2025)
+- AI search traffic is growing 527% year-over-year (Search Engine Land, 2025)
 
-- 
-Organic CTR on Google dropped from 1.76% to 0.61% on queries with AI Overviews (Seer Interactive, 2025)
+- Organic CTR on Google dropped from 1.76% to 0.61% on queries with AI Overviews (Seer Interactive, 2025)
 
-- 
-Google's new AI-powered local packs feature only 1-2 businesses, down from 3 — and surface only 32% as many unique businesses as traditional map packs
+- Google's new AI-powered local packs feature only 1-2 businesses, down from 3 — and surface only 32% as many unique businesses as traditional map packs
 
 You're not losing ground dramatically yet. But the gap between you and an AI-optimized competitor is opening. And it widens fast.
 
@@ -97,17 +97,13 @@ SOCi's 2026 Local Visibility Index evaluated over 350,000 business locations and
 
 By the time you decide to act — if you wait until month 9 or 10 — your competitor has:
 
-- 
-6-9 months of AI citation history built up across ChatGPT, Gemini, and Perplexity
+- 6-9 months of AI citation history built up across ChatGPT, Gemini, and Perplexity
 
-- 
-A review profile that reads like training data: detailed, recent, keyword-rich
+- A review profile that reads like training data: detailed, recent, keyword-rich
 
-- 
-Structured content that answers the exact questions AI gets asked about their category
+- Structured content that answers the exact questions AI gets asked about their category
 
-- 
-A reputation for being "the one AI recommends" — which compounds through word of mouth
+- A reputation for being "the one AI recommends" — which compounds through word of mouth
 
 You're starting from zero. They're defending a lead. That's a fundamentally different race. 
 
@@ -117,17 +113,13 @@ You're starting from zero. They're defending a lead. That's a fundamentally diff
 
 Here's what the math looks like for a typical service business losing ground over 12 months:
 
-- 
-Average revenue lost per missed call: **$250** (and calls are declining as AI mediates more decisions)
+- Average revenue lost per missed call: **$250** (and calls are declining as AI mediates more decisions)
 
-- 
-AI search visitors convert at **4.4x the rate** of traditional organic visitors — you're not getting them
+- AI search visitors convert at **4.4x the rate** of traditional organic visitors — you're not getting them
 
-- 
-85% of missed callers never call back — once a customer picks the AI-recommended competitor, they're gone
+- 85% of missed callers never call back — once a customer picks the AI-recommended competitor, they're gone
 
-- 
-Traditional search volume dropping means the traffic you relied on is shrinking regardless
+- Traditional search volume dropping means the traffic you relied on is shrinking regardless
 
 The 12-month scenario isn't just "your competitor is doing better." It's "your competitor is the default answer in your market, and you're competing for the leftovers."
 
@@ -147,17 +139,13 @@ Not every local business faces the same exposure. The verticals most dependent o
 
 If your business fits one of these categories, the 3-6 month window is not a suggestion. It's a deadline.
 
-- 
-**Home services** (HVAC, plumbing, electrical, roofing): High-intent, high-urgency searches. Customers ask AI "who can fix this today." The business with AI authority gets the call.
+- **Home services** (HVAC, plumbing, electrical, roofing): High-intent, high-urgency searches. Customers ask AI "who can fix this today." The business with AI authority gets the call.
 
-- 
-**Healthcare and wellness** (dentists, chiropractors, med spas): Trust-based decisions. AI recommendations carry enormous weight. Reviews are now training data, not just social proof.
+- **Healthcare and wellness** (dentists, chiropractors, med spas): Trust-based decisions. AI recommendations carry enormous weight. Reviews are now training data, not just social proof.
 
-- 
-**Legal and financial services**: Clients research extensively before contacting anyone. Being named by AI during that research phase is the new referral.
+- **Legal and financial services**: Clients research extensively before contacting anyone. Being named by AI during that research phase is the new referral.
 
-- 
-**Appointment-based businesses** (salons, fitness studios, specialty services): Repeat customers start with AI recommendations. Lose the first visit to a competitor, lose the lifetime value.
+- **Appointment-based businesses** (salons, fitness studios, specialty services): Repeat customers start with AI recommendations. Lose the first visit to a competitor, lose the lifetime value.
 
 Every one of these categories is a word-of-mouth business at its core. AI has become the most powerful word-of-mouth channel in history
 
@@ -167,17 +155,13 @@ Building AI visibility isn't about chasing a new platform. It's about making you
 
 The signals that matter most:
 
-- 
-**Consistent, structured business data** across every directory, listing, and platform AI pulls from. Inconsistency is the fastest way to get excluded from recommendations.
+- **Consistent, structured business data** across every directory, listing, and platform AI pulls from. Inconsistency is the fastest way to get excluded from recommendations.
 
-- 
-**Recent, detailed reviews** that describe your services in natural language. AI reads reviews as evidence of what you do and how well you do it.
+- **Recent, detailed reviews** that describe your services in natural language. AI reads reviews as evidence of what you do and how well you do it.
 
-- 
-**Content that answers real questions** your customers ask. Not blog posts for Google. Answers structured for AI extraction.
+- **Content that answers real questions** your customers ask. Not blog posts for Google. Answers structured for AI extraction.
 
-- 
-**A reputation system that works automatically** — capturing reviews, responding to feedback, and distributing trust signals without manual effort.
+- **A reputation system that works automatically** — capturing reviews, responding to feedback, and distributing trust signals without manual effort.
 
 The businesses that get this right in the next 90 days will be the ones AI recommends for the next several years. The ones that don't will spend those same years trying to catch up.
 

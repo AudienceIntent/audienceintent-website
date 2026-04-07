@@ -1,9 +1,12 @@
 ---
-title: "Why Lead Reactivation Is Important for Your Business (And What It's Costing You to Ignore It)"
-date: "2026-03-17"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/26XQbXmiXsxAH0hD3yxltoxJkDg.jpg"
-description: "Every month you spend chasing new leads, there's a quieter problem bleeding your business dry. It's sitting in your CRM right now. Hundreds, maybe thousands, of..."
+title: Why Lead Reactivation Is Important for Your Business (And What It's
+  Costing You to Ignore It)
+date: 2026-03-17
+category: Lead Reactivation
+image: https://framerusercontent.com/images/26XQbXmiXsxAH0hD3yxltoxJkDg.jpg
+description: Every month you spend chasing new leads, there's a quieter problem
+  bleeding your business dry. It's sitting in your CRM right now. Hundreds,
+  maybe thousands, of...
 ---
 
 Every month you spend chasing new leads, there's a quieter problem bleeding your business dry. It's sitting in your CRM right now. Hundreds, maybe thousands, of people who once raised their hand and said "I'm interested" — and then went silent.
@@ -76,14 +79,11 @@ That's the core advantage of dormant leads. They're pre-warmed. They're pre-qual
 
 Consider what this looks like in practice for a service business with a reasonably active CRM:
 
-- 
-**500 dormant leads** at a conservative 10% reactivation rate = 50 new appointments
+- **500 dormant leads** at a conservative 10% reactivation rate = 50 new appointments
 
-- 
-**Average job value of $2,000** = $100,000 in recovered revenue
+- **Average job value of $2,000** = $100,000 in recovered revenue
 
-- 
-**Cost to run the reactivation campaign** = a fraction of what 50 new leads would cost to acquire
+- **Cost to run the reactivation campaign** = a fraction of what 50 new leads would cost to acquire
 
 Companies with strong lead nurturing practices report that 50% of their revenue comes from leads that are more than three months old. Half their revenue. From contacts most businesses would have written off.
 

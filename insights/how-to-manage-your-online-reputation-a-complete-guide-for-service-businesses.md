@@ -1,9 +1,11 @@
 ---
 title: "How to Manage Your Online Reputation: A Complete Guide for Service Businesses"
-date: "2026-03-09"
-category: "Reviews"
-image: "https://framerusercontent.com/images/WPwjpSyEHRw0iWMr6QyKvvPKQ.jpg"
-description: "**Your reputation is your revenue.** Before a potential customer calls, books, or buys - they search. They read your reviews, scan your ratings, and judge wheth..."
+date: 2026-03-09
+category: Reviews
+image: https://framerusercontent.com/images/WPwjpSyEHRw0iWMr6QyKvvPKQ.jpg
+description: "**Your reputation is your revenue.** Before a potential customer
+  calls, books, or buys - they search. They read your reviews, scan your
+  ratings, and judge wheth..."
 ---
 
 **Your reputation is your revenue.** Before a potential customer calls, books, or buys - they search. They read your reviews, scan your ratings, and judge whether you're worth trusting. What they find in those first few seconds determines whether you win or lose the business.
@@ -14,20 +16,15 @@ Online reputation management (ORM) is the ongoing process of monitoring, shaping
 
 Online reputation management is the practice of actively controlling the narrative around your business online. It includes:
 
-- 
-Monitoring reviews across Google, Yelp, Facebook, and industry-specific platforms
+- Monitoring reviews across Google, Yelp, Facebook, and industry-specific platforms
 
-- 
-Responding to both positive and negative feedback professionally and promptly
+- Responding to both positive and negative feedback professionally and promptly
 
-- 
-Generating new reviews from satisfied customers consistently
+- Generating new reviews from satisfied customers consistently
 
-- 
-Creating content that shapes how search engines and AI tools describe your business
+- Creating content that shapes how search engines and AI tools describe your business
 
-- 
-Suppressing or counterbalancing negative content with positive authority signals
+- Suppressing or counterbalancing negative content with positive authority signals
 
 For service businesses - home services, healthcare, legal, financial, and appointment-based businesses - reputation is the single biggest conversion factor. A one-star improvement in your average rating can increase revenue by 5-9%.
 
@@ -49,22 +46,17 @@ Document everything in a spreadsheet - the URL, sentiment, platform authority, a
 
 You can't manage what you don't own. Claim your profiles on every relevant platform before someone else does.
 
-- 
-Google Business Profile (this is non-negotiable)
+- Google Business Profile (this is non-negotiable)
 
-- 
-Yelp, Bing Places, Apple Maps
+- Yelp, Bing Places, Apple Maps
 
-- 
-Facebook Business Page
+- Facebook Business Page
 
-- 
-Industry-specific directories for your vertical
+- Industry-specific directories for your vertical
 
-- 
-Social media handles on every major platform - even ones you don't actively use
+- Social media handles on every major platform - even ones you don't actively use
 
-Secure common domain variations (.net, .org, common misspellings) to prevent competitors or bad actors from creating confusion. Consistency across all profiles - your name, address, phone number, hours, and description - signals trustworthiness to both search engines and AI tools.
+- Secure common domain variations (.net, .org, common misspellings) to prevent competitors or bad actors from creating confusion. Consistency across all profiles your name, address, phone number, hours, and description - signals trustworthiness to both search engines and AI tools.
 
 ## Step 3: Monitor Your Brand in Real Time
 
@@ -72,19 +64,15 @@ You can't respond to what you don't see. Set up a monitoring system that alerts 
 
 **Free tools:**
 
-- 
-Google Alerts (set up for your business name, owner name, and common misspellings)
+- Google Alerts (set up for your business name, owner name, and common misspellings)
 
-- 
-Social media platform notifications
+- Social media platform notifications
 
 **Paid tools:**
 
-- 
-Mention, Brand24, or Brandwatch for comprehensive monitoring across the web
+- Mention, Brand24, or Brandwatch for comprehensive monitoring across the web
 
-- 
-Review management platforms that centralize feedback from multiple sites in one dashboard
+- Review management platforms that centralize feedback from multiple sites in one dashboard
 
 The goal is to know about every review, comment, or mention within hours - not days. Missing a negative review for even 48 hours gives it time to spread and influence prospective customers before you can respond.
 
@@ -94,50 +82,37 @@ How you respond to reviews matters as much as the reviews themselves. Future cus
 
 **For positive reviews:**
 
-- 
-Respond within 24 hours
+- Respond within 24 hours
 
-- 
-Thank the customer by name if possible
+- Thank the customer by name if possible
 
-- 
-Mention a specific detail from their review to show you actually read it
+- Mention a specific detail from their review to show you actually read it
 
-- 
-Keep it warm but brief - don't over-explain
+- Keep it warm but brief - don't over-explain
 
 **For negative reviews:**
 
-- 
-Take a breath before responding - never reply when emotional
+- Take a breath before responding - never reply when emotional
 
-- 
-Acknowledge the issue without being defensive
+- Acknowledge the issue without being defensive
 
-- 
-Apologize sincerely, even if you believe the customer was partly wrong
+- Apologize sincerely, even if you believe the customer was partly wrong
 
-- 
-Offer to resolve the issue offline and provide direct contact information
+- Offer to resolve the issue offline and provide direct contact information
 
-- 
-Keep your tone respectful and professional
+- Keep your tone respectful and professional
 
 A professional response to a negative review can actually improve your reputation. Prospective customers who see you handle criticism with grace trust you more, not less.
 
 **What NOT to do:**
 
-- 
-Never argue or get defensive publicly
+- Never argue or get defensive publicly
 
-- 
-Never confirm personal details about a customer (especially in healthcare, legal, or financial services - HIPAA and compliance rules apply)
+- Never confirm personal details about a customer (especially in healthcare, legal, or financial services - HIPAA and compliance rules apply)
 
-- 
-Never ignore a review and hope it goes away
+- Never ignore a review and hope it goes away
 
-- 
-Never post fake reviews or incentivize specific star ratings - the FTC's 2024 ruling makes this a legal liability
+- Never post fake reviews or incentivize specific star ratings - the FTC's 2024 ruling makes this a legal liability
 
 ## Step 5: Generate More Positive Reviews Consistently
 
@@ -145,20 +120,15 @@ The most effective way to manage a negative review is to surround it with positi
 
 **How to get more reviews:**
 
-- 
-Ask immediately after a positive experience - timing is everything
+- Ask immediately after a positive experience - timing is everything
 
-- 
-Make it frictionless: send a direct link to your Google review page via text or email
+- Make it frictionless: send a direct link to your Google review page via text or email
 
-- 
-Follow up once if they don't respond - don't harass, but one reminder is appropriate
+- Follow up once if they don't respond - don't harass, but one reminder is appropriate
 
-- 
-Train your team to ask for reviews as a standard part of the customer experience
+- Train your team to ask for reviews as a standard part of the customer experience
 
-- 
-Use automated follow-up sequences to reach customers at the right moment
+- Use automated follow-up sequences to reach customers at the right moment
 
 Avoid platforms that allow incentivized reviews. Focus on volume and recency - a business with 200 reviews averaging 4.6 stars will almost always outperform one with 20 reviews averaging 4.9.
 
@@ -168,20 +138,15 @@ You can't just play defense. Proactive reputation management means creating and 
 
 **Content that builds reputation authority:**
 
-- 
-Case studies and client success stories
+- Case studies and client success stories
 
-- 
-How-to guides that demonstrate your expertise
+- How-to guides that demonstrate your expertise
 
-- 
-FAQ pages that answer the questions your customers actually ask
+- FAQ pages that answer the questions your customers actually ask
 
-- 
-Blog posts that address common concerns in your industry
+- Blog posts that address common concerns in your industry
 
-- 
-Video testimonials from real customers
+- Video testimonials from real customers
 
 This content serves two purposes: it builds trust with prospective customers, and it gives AI platforms like ChatGPT, Claude, and Perplexity something authoritative to cite when someone asks about your business or your category.
 
@@ -193,20 +158,15 @@ In 2026, reputation management extends beyond Google. More than 200 million peop
 
 AI platforms pull from publicly available content - your website, reviews, press mentions, directories, and structured data. To manage your AI reputation:
 
-- 
-Ensure your website clearly states what you do, who you serve, and why you're credible
+- Ensure your website clearly states what you do, who you serve, and why you're credible
 
-- 
-Use structured data (schema markup) so AI can easily read and cite your information
+- Use structured data (schema markup) so AI can easily read and cite your information
 
-- 
-Get mentioned in authoritative third-party sources - press, industry publications, and directories
+- Get mentioned in authoritative third-party sources - press, industry publications, and directories
 
-- 
-Maintain consistent NAP (name, address, phone) data everywhere you appear online
+- Maintain consistent NAP (name, address, phone) data everywhere you appear online
 
-- 
-Publish content that directly answers the questions your customers ask AI tools
+- Publish content that directly answers the questions your customers ask AI tools
 
 Businesses that structure their online presence for AI discovery now will be the default recommendations AI tools make tomorrow.
 
@@ -214,45 +174,33 @@ Businesses that structure their online presence for AI discovery now will be the
 
 Reputation management is not a one-time project. Build a monthly scorecard that tracks:
 
-- 
-Average star rating across all platforms
+- Average star rating across all platforms
 
-- 
-Number of new reviews generated
+- Number of new reviews generated
 
-- 
-Response rate and average response time
+- Response rate and average response time
 
-- 
-Sentiment trend (are mentions getting more positive or negative over time?)
+- Sentiment trend (are mentions getting more positive or negative over time?)
 
-- 
-AI citation frequency (are AI tools mentioning your business?)
+- AI citation frequency (are AI tools mentioning your business?)
 
-- 
-Search result page 1 composition (what shows up when someone Googles your name?)
+- Search result page 1 composition (what shows up when someone Googles your name?)
 
 Review this scorecard monthly. Adjust your strategy based on what's working. Reputation is built through consistent, principled action over time - not through quick fixes or shortcuts.
 
 ## Common Reputation Management Mistakes to Avoid
 
-- 
-**Ignoring reviews:** No response is a response - and it signals you don't care
+- **Ignoring reviews:** No response is a response - and it signals you don't care
 
-- 
-**Responding defensively:** Public arguments always make you look worse
+- **Responding defensively:** Public arguments always make you look worse
 
-- 
-**Fake reviews:** The FTC actively penalizes this, and customers can spot them
+- **Fake reviews:** The FTC actively penalizes this, and customers can spot them
 
-- 
-**Inconsistent information:** Mismatched details across platforms erode trust with both customers and AI tools
+- **Inconsistent information:** Mismatched details across platforms erode trust with both customers and AI tools
 
-- 
-**Waiting for a crisis:** Proactive reputation management is always cheaper and more effective than damage control
+- **Waiting for a crisis:** Proactive reputation management is always cheaper and more effective than damage control
 
-- 
-**Neglecting AI platforms:** Traditional ORM focused on Google alone misses where your next customers are searching
+- **Neglecting AI platforms:** Traditional ORM focused on Google alone misses where your next customers are searching
 
 ## Frequently Asked Questions
 
@@ -277,17 +225,13 @@ Managing your online reputation manually is a full-time job. Missed reviews, slo
 
 **OutcomeOS by AudienceIntent** handles the operational side of reputation management automatically - so you never miss a review, never let a lead go cold, and never lose a customer to a slow response.
 
-- 
-Automated review requests sent at the right moment after every job
+- Automated review requests sent at the right moment after every job
 
-- 
-Private feedback capture that lets unhappy customers reach you before they post publicly
+- Private feedback capture that lets unhappy customers reach you before they post publicly
 
-- 
-AI-powered response tools that keep your tone consistent and professional
+- AI-powered response tools that keep your tone consistent and professional
 
-- 
-Live within 7 days, no long-term contracts
+- Live within 7 days, no long-term contracts
 
 Your reputation is your most valuable business asset. Stop leaving it to chance.
 

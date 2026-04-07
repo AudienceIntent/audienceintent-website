@@ -5,6 +5,66 @@ const path = require('path');
 const INSIGHTS_DIR = path.join(__dirname, 'insights');
 const OUTPUT_FILE = path.join(__dirname, 'articles.json');
 
+// Minimal markdown-to-HTML converter for body content
+function markdownToHtml(md) {
+  if (!md) return '';
+  let html = md;
+
+  // Remove leading image line (already captured as featured image)
+  html = html.replace(/^!\[.*?\]\([^\)]+\)\s*\n?/m, '');
+
+  // Headings
+  html = html.replace(/^######\s+(.+)$/gm, '<h6>$1</h6>');
+  html = html.replace(/^#####\s+(.+)$/gm, '<h5>$1</h5>');
+  html = html.replace(/^####\s+(.+)$/gm, '<h4>$1</h4>');
+  html = html.replace(/^###\s+(.+)$/gm, '<h3>$1</h3>');
+  html = html.replace(/^##\s+(.+)$/gm, '<h2>$1</h2>');
+  html = html.replace(/^#\s+(.+)$/gm, '<h1>$1</h1>');
+
+  // Bold and italic
+  html = html.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
+  html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+  // Blockquotes
+  html = html.replace(/^>\s+(.+)$/gm, '<blockquote><p>$1</p></blockquote>');
+
+  // Images and links
+  html = html.replace(/!\[([^\]]*)\]\(([^\)]+)\)/g, '<img src="$2" alt="$1" style="max-width:100%;border-radius:8px;margin:16px 0;">');
+  html = html.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+
+  // Unordered lists - collect consecutive list items
+  html = html.replace(/((?:^[-*+]\s+.+\n?)+)/gm, function(block) {
+    var items = block.trim().split('\n').map(function(line) {
+      return '<li>' + line.replace(/^[-*+]\s+/, '') + '</li>';
+    }).join('');
+    return '<ul>' + items + '</ul>\n';
+  });
+
+  // Ordered lists
+  html = html.replace(/((?:^\d+\.\s+.+\n?)+)/gm, function(block) {
+    var items = block.trim().split('\n').map(function(line) {
+      return '<li>' + line.replace(/^\d+\.\s+/, '') + '</li>';
+    }).join('');
+    return '<ol>' + items + '</ol>\n';
+  });
+
+  // Horizontal rules
+  html = html.replace(/^[-*_]{3,}\s*$/gm, '<hr>');
+
+  // Paragraphs - wrap chunks separated by blank lines
+  const blockTags = /^(<h[1-6]|<ul|<ol|<li|<blockquote|<hr|<img|<\/)/;
+  html = html.split('\n\n').map(function(chunk) {
+    chunk = chunk.trim();
+    if (!chunk) return '';
+    if (blockTags.test(chunk)) return chunk;
+    chunk = chunk.replace(/\n/g, ' ');
+    return '<p>' + chunk + '</p>';
+  }).filter(Boolean).join('\n');
+
+  return html;
+}
+
 function parseFrontmatter(text, filename) {
   const result = {
     slug: filename.replace('.md', ''),
@@ -12,49 +72,50 @@ function parseFrontmatter(text, filename) {
     date: '',
     category: '',
     excerpt: '',
-    image: ''
+    image: '',
+    content: ''
   };
 
   const fmMatch = text.match(/^---\n([\s\S]*?)\n---/);
   if (!fmMatch) {
     console.log('  WARNING: No frontmatter in ' + filename);
+    result.content = markdownToHtml(text);
     return result;
   }
-  const fm = fmMatch[1];
 
-  // Title - quoted or unquoted
+  const fm = fmMatch[1];
+  const body = text.slice(fmMatch[0].length).trim();
+
+  // Title - quoted or unquoted or multiline
   let tm = fm.match(/^title:\s*"((?:[^"\\]|\\.)*)"/m);
   if (tm) { result.title = tm[1].trim(); }
   else {
     tm = fm.match(/^title:\s*'((?:[^'\\]|\\.)*)'/m);
     if (tm) { result.title = tm[1].trim(); }
     else {
-      // Multiline unquoted (Decap wraps long titles)
       tm = fm.match(/^title:\s*([\s\S]*?)(?=\n\w)/m);
       if (tm) { result.title = tm[1].replace(/\n\s+/g, ' ').trim(); }
     }
   }
 
-  // Date - handle both "2025-12-20" and 2026-04-06T17:30:00.000-04:00
+  // Date
   const dm = fm.match(/^date:\s*"?(\d{4}-\d{2}-\d{2})"?/m);
   if (dm) { result.date = dm[1]; }
 
-  // Category - quoted or unquoted
+  // Category
   const cm = fm.match(/^category:\s*"?([^"\n]+)"?\s*$/m);
   if (cm) { result.category = cm[1].trim().replace(/^"|"$/g, ''); }
 
-  // Image - check frontmatter first (old Framer articles)
+  // Image - frontmatter first, then body
   const im = fm.match(/^image:\s*"?([^"\n]+)"?\s*$/m);
   if (im) {
     result.image = im[1].trim().replace(/^"|"$/g, '');
   } else {
-    // Then check body (new Decap articles)
-    const body = text.slice(fmMatch[0].length);
     const bm = body.match(/!\[.*?\]\(([^\s)"]+)/);
     if (bm) { result.image = bm[1]; }
   }
 
-  // Description - quoted or unquoted
+  // Description/excerpt
   let dem = fm.match(/^description:\s*"((?:[^"\\]|\\.)*)"/m);
   if (dem) { result.excerpt = dem[1].trim(); }
   else {
@@ -66,11 +127,15 @@ function parseFrontmatter(text, filename) {
     }
   }
 
+  // Convert markdown body to HTML
+  result.content = markdownToHtml(body);
+
   console.log('  title:    ' + result.title.substring(0, 50));
   console.log('  date:     ' + result.date);
   console.log('  category: ' + result.category);
   console.log('  image:    ' + (result.image || 'NONE'));
   console.log('  excerpt:  ' + result.excerpt.substring(0, 50));
+  console.log('  content:  ' + result.content.substring(0, 60) + '...');
 
   return result;
 }

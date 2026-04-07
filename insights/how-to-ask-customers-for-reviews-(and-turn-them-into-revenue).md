@@ -1,9 +1,11 @@
 ---
-title: "How to Ask Customers for Reviews (and Turn Them Into Revenue)"
-date: "2026-03-12"
-category: "Reviews"
-image: "https://framerusercontent.com/images/iwU1d1bS7pPgafsHPjMyNU2fynY.jpg"
-description: "Most service businesses know they should be collecting more reviews. They ask when they remember, follow up when they have time, and hope for the best. The resu..."
+title: How to Ask Customers for Reviews (and Turn Them Into Revenue)
+date: 2026-03-12
+category: Reviews
+image: https://framerusercontent.com/images/iwU1d1bS7pPgafsHPjMyNU2fynY.jpg
+description: Most service businesses know they should be collecting more
+  reviews. They ask when they remember, follow up when they have time, and hope
+  for the best. The resu...
 ---
 
 Most service businesses know they should be collecting more reviews. They ask when they remember, follow up when they have time, and hope for the best. The result: a trickle of reviews instead of a steady stream. 
@@ -26,17 +28,13 @@ AI search has changed what reviews actually do for your business. When someone a
 
 Here's what that means in practice:
 
-- 
-**Volume matters.** AI engines treat review count as a proxy for credibility. More reviews signal a more established, trusted business.
+- **Volume matters.** AI engines treat review count as a proxy for credibility. More reviews signal a more established, trusted business.
 
-- 
-**Recency matters.** A business with 50 reviews from three years ago ranks below one with 30 reviews from the last 90 days. AI engines weight freshness heavily.
+- **Recency matters.** A business with 50 reviews from three years ago ranks below one with 30 reviews from the last 90 days. AI engines weight freshness heavily.
 
-- 
-**Sentiment patterns matter.** Repeated keywords in reviews ("fast response," "showed up on time," "fixed it the first time") reinforce the signals AI uses to categorize and recommend your business.
+- **Sentiment patterns matter.** Repeated keywords in reviews ("fast response," "showed up on time," "fixed it the first time") reinforce the signals AI uses to categorize and recommend your business.
 
-- 
-**Response behavior matters.** Businesses that respond to reviews, including negative ones, signal active management. AI platforms pick this up.
+- **Response behavior matters.** Businesses that respond to reviews, including negative ones, signal active management. AI platforms pick this up.
 
 The compounding effect is real. Every review you collect today makes your next AI recommendation slightly more likely. Every month you don't collect reviews, a competitor does, and that gap widens.
 
@@ -52,14 +50,11 @@ The best time to ask for a review is within 24 hours of a completed job or posit
 
 For appointment-based businesses, this means:
 
-- 
-**Same day as service completion** (text or email within a few hours)
+- **Same day as service completion** (text or email within a few hours)
 
-- 
-**The morning after** for late-day jobs where a same-day message might feel rushed
+- **The morning after** for late-day jobs where a same-day message might feel rushed
 
-- 
-**Immediately after a positive verbal interaction** ("Glad we could help! I'll send you a quick link")
+- **Immediately after a positive verbal interaction** ("Glad we could help! I'll send you a quick link")
 
 ### What to Avoid
 
@@ -99,11 +94,9 @@ Text is the highest-converting channel for review requests. Open rates exceed 90
 
 Two rules for SMS review requests:
 
-- 
-Use their first name. Generic messages get ignored.
+- Use their first name. Generic messages get ignored.
 
-- 
-Include a direct link. Never ask them to "search for us on Google."
+- Include a direct link. Never ask them to "search for us on Google."
 
 ### Email: Best for Follow-Up
 
@@ -161,17 +154,13 @@ The businesses consistently outranking competitors on review volume aren't askin
 
 A properly built review flow does four things automatically:
 
-- 
-**Triggers on job completion.** When a service is marked complete in your CRM or scheduling tool, a review request fires via SMS within the hour.
+- **Triggers on job completion.** When a service is marked complete in your CRM or scheduling tool, a review request fires via SMS within the hour.
 
-- 
-**Filters negative sentiment first.** Before sending a customer to Google, a smart system gauges satisfaction. Unhappy customers get routed to a private feedback form, not a public review page. This protects your rating while still capturing the feedback.
+- **Filters negative sentiment first.** Before sending a customer to Google, a smart system gauges satisfaction. Unhappy customers get routed to a private feedback form, not a public review page. This protects your rating while still capturing the feedback.
 
-- 
-**Follows up once.** If the customer doesn't click within 24-48 hours, a single follow-up message goes out. Not three. One.
+- **Follows up once.** If the customer doesn't click within 24-48 hours, a single follow-up message goes out. Not three. One.
 
-- 
-**Routes responses.** Positive reviews get distributed across platforms (Google, Yelp, Facebook). Negative feedback gets flagged for the owner to address directly.
+- **Routes responses.** Positive reviews get distributed across platforms (Google, Yelp, Facebook). Negative feedback gets flagged for the owner to address directly.
 
 ### The Compounding Effect
 
@@ -189,17 +178,13 @@ A negative review that receives a professional, empathetic response actually bui
 
 **The response formula:**
 
-- 
-Acknowledge the experience without being defensive
+- Acknowledge the experience without being defensive
 
-- 
-Apologize for the gap between expectation and reality
+- Apologize for the gap between expectation and reality
 
-- 
-Offer to make it right offline (include a direct contact)
+- Offer to make it right offline (include a direct contact)
 
-- 
-Keep it under 3 sentences
+- Keep it under 3 sentences
 
 What you should never do: argue, explain at length, or get personal. Potential customers reading that exchange will side with the customer every time.
 
@@ -213,17 +198,13 @@ AI recommendations favor businesses with volume, recency, and consistent sentime
 
 The playbook is straightforward:
 
-- 
-Ask within 24 hours of every completed job
+- Ask within 24 hours of every completed job
 
-- 
-Use SMS as your primary channel
+- Use SMS as your primary channel
 
-- 
-Respond to every review, positive or negative
+- Respond to every review, positive or negative
 
-- 
-Automate the process so it doesn't depend on anyone remembering
+- Automate the process so it doesn't depend on anyone remembering
 
 If you're asking occasionally and want to turn that into a system, OutcomeOS handles the entire review flow automatically, from the initial request to negative feedback routing to multi-platform distribution. It goes live within 7 days.
 

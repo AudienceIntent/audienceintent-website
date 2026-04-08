@@ -13,7 +13,7 @@ description: If new leads from Google have slowed to a trickle, you don't need
 
 *By AudienceIntent · Lead Reactivation Strategy · Est. read time: 9 min*
 
-- - -
+
 
 Let me paint you a picture.
 

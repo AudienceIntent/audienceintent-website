@@ -33,8 +33,6 @@ We're talking about lead reactivation. And when you layer in AI-powered SMS, you
 | Average SMS response rate vs 6% for email     | **45%**  |
 | Higher conversions from SMS vs email or phone | **209%** |
 
-- - -
-
 ## Why Your Lead Flow Dried Up (And Why It's Not Your Fault)
 
 Google's algorithm updates have been relentless. The rise of AI-generated search results means fewer clicks to your website — even if you rank. Meta's ad costs have ballooned. The era of cheap attention is over.
@@ -44,8 +42,6 @@ But here's what *hasn't* changed: the leads you already generated over the past 
 That's your database. That's your gold. And statistically, 80% of those leads were never followed up with more than twice. Most businesses give up after one or two touches and move on. Then they spend thousands of dollars trying to acquire the same type of customer again from scratch.
 
 **The math that should stop you cold:** If you've been in business for 3 years and generated 1,000 leads per year, you potentially have 3,000 people in your database who expressed interest but never bought. A 5% reactivation rate = 150 new customers. Without spending a single dollar on new traffic.
-
-- - -
 
 ## Why SMS Crushes Email for Reactivation
 
@@ -62,11 +58,11 @@ Email had a good run. But for reactivation campaigns specifically, it's the wron
 | Speed to first contact         | Days to see results | **Responses within hours**         |
 | Personalization at scale       | Limited             | **AI customizes every reply**      |
 
+
+
 Think about how you actually use your phone. When a text comes in, you look at it. Almost every single time. That's not an assumption — it's behavioral science. SMS lives in the most intimate digital space a person has. It sits alongside messages from their spouse, their kids, their closest friends. When you show up there with the right message, you're not competing with 200 other emails in an inbox. You're the only conversation happening.
 
 > **"Email is where marketing goes. SMS is where decisions get made."**
-
-- - -
 
 ## The 8 Core Benefits of an SMS AI-Powered Lead Reactivation Campaign
 
@@ -93,8 +89,6 @@ AI can pull in first names, prior inquiries, service interests — making each m
 
 **8. Appointment-Ready Handoffs**
 The AI doesn't just generate interest — it closes the loop. Calendar integrations mean leads can book directly from the SMS thread. No friction. No drop-off.
-
-- - -
 
 ## The ROI Math: Why This Beats Paid Media Every Time
 
@@ -130,8 +124,6 @@ Show me a Google Ads campaign that can match that in week one. I'll wait.
 
 > **"Paid media rents you an audience. Lead reactivation harvests the audience you already own."**
 
-- - -
-
 ## Why Most Small Businesses Haven't Done This Yet
 
 If lead reactivation is this powerful, why isn't every business doing it? Three reasons.
@@ -145,8 +137,6 @@ Calling through a list of 1,000 old leads manually? That's a full-time job. Befo
 **They're chasing shiny new channels.**
 It's always more exciting to talk about TikTok strategy or Reddit ads. But the business owners who win consistently aren't the ones chasing the newest platform. They're the ones who relentlessly work the assets they already have before investing in new acquisition. Reactivation is the boring, unsexy, *enormously profitable* move.
 
-- - -
-
 ## What a High-Converting SMS Reactivation Campaign Actually Looks Like
 
 The anatomy of a campaign that works isn't complicated. The AI handles the complexity. Here's the framework:
@@ -157,8 +147,6 @@ The anatomy of a campaign that works isn't complicated. The AI handles the compl
 * **Multi-touch sequencing.** Not everyone responds on day one. The campaign includes follow-up touchpoints spaced intelligently — so you're persistent without being annoying.
 * **Clean exit for opt-outs.** Compliant, instant opt-out handling. This also identifies who's definitively not interested, cleaning your list automatically.
 * **Handoff to human sales.** When a lead is warm and ready, the AI creates a seamless handoff to your team with full context from the conversation — so no lead feels like they're starting over.
-
-- - -
 
 ## The Expected Numbers You Should Plan For
 
@@ -173,11 +161,7 @@ Every business and database is different, but here's the realistic range you sho
 | Booked appointments from qualified | 25%          | 40%     | 60%    |
 | Closes from booked appointments    | 20%          | 35%     | 55%    |
 
-
-
 Run those numbers against your own database size and average customer value. The result will likely make your next decision very clear.
-
-- - -
 
 ## The Bottom Line: Stop Leaving Revenue on the Table
 

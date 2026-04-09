@@ -13,8 +13,6 @@ description: If new leads from Google have slowed to a trickle, you don't need
 
 *By AudienceIntent · Lead Reactivation Strategy · Est. read time: 9 min*
 
-
-
 Let me paint you a picture.
 
 You've been running your business for years. You built your email list. You ran Google Ads. You hustled on Facebook. Leads came in. Not always consistently, but they came. And then somewhere between 2022 and today, something shifted. The cost per click went up. The organic traffic dried up. The inbox open rates collapsed. And the leads? They stopped.
@@ -25,7 +23,7 @@ Here's the truth that most marketing agencies won't tell you — because they ma
 
 > **"The fastest money in your business isn't in front of you. It's already in your CRM — sitting in a list of leads who said 'yes' once and were never followed up with properly."**
 
-We're talking about lead reactivation. And when you layer in AI-powered SMS, you're not just reactivating old leads — you're running the highest-converting, fastest-ROI campaign a small business can run in 2025. Full stop.
+We're talking about lead reactivation. And when you layer in AI-powered SMS, you're not just reactivating old leads — you're running the highest-converting, fastest-ROI campaign a small business can run in 2026. Full stop.
 
 | Metric                                        | Result   |
 | --------------------------------------------- | -------- |
@@ -57,8 +55,6 @@ Email had a good run. But for reactivation campaigns specifically, it's the wron
 | Two-way conversation           | Rare                | **Native (AI responds instantly)** |
 | Speed to first contact         | Days to see results | **Responses within hours**         |
 | Personalization at scale       | Limited             | **AI customizes every reply**      |
-
-
 
 Think about how you actually use your phone. When a text comes in, you look at it. Almost every single time. That's not an assumption — it's behavioral science. SMS lives in the most intimate digital space a person has. It sits alongside messages from their spouse, their kids, their closest friends. When you show up there with the right message, you're not competing with 200 other emails in an inbox. You're the only conversation happening.
 
@@ -115,8 +111,6 @@ When a business owner tells me they're thinking about running Google Ads or laun
 | Time to first booked appointment | 24–72 hours                |
 | Lead-to-close rate (warm list)   | 8–20%                      |
 | Break-even timeline              | Days, not months           |
-
-
 
 A campaign touching 500 cold leads via SMS might cost $25–$50 in messaging costs. If 8% respond (40 people), and 20% of those convert (8 customers), and your average customer value is $1,000 — that's $8,000 in revenue from a $50 campaign. A 160x return.
 

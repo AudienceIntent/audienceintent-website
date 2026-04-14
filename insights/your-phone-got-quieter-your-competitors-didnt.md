@@ -7,6 +7,8 @@ description: The way customers find businesses has fundamentally shifted — and
   money. Here's what's happening, why it's not your fault, and what you can do
   about it right now.
 ---
+![Business Owner](/images/uploads/business.jpg "Your Phone Got Quieter. Your Competitor's Didn't.")
+
 You've been doing everything the same way you always have. Your work is solid. Your pricing is competitive — actually, most of the time you know you're the best deal around. And yet something feels off.
 
 The phone rings a little less. The inbox isn't stacking up the way it used to. You check in with your team on a Monday morning and there's nothing waiting — no voicemails, no email leads to chase down. Meanwhile, you drive past a competitor's lot or job site and there's more activity than you remember seeing before.
@@ -68,6 +70,10 @@ The invisible cost of lost leads is easy to ignore because it's invisible. But i
 
 **Move before your window closes**
 AI visibility is still wide open for most local and regional businesses. Your competitor may not have moved yet. But the businesses that establish their AI presence in the next 12 months will have a meaningful, lasting advantage over those who wait.
+
+![]()
+
+![]()
 
 **Stop running two separate strategies**
 Most businesses are paying for SEO, maybe some ads, and hoping for the best. A modern visibility strategy needs to account for both traditional search and AI search — not as two different things, but as one integrated approach that covers how customers actually find businesses today.

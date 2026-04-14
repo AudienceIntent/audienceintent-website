@@ -30,21 +30,27 @@ If your business isn't visible on those platforms, you don't just rank lower. Yo
 **Sound familiar? You're probably feeling at least one of these.**
 
 **Leads from Google are dropping**
+
 Traffic that used to convert is being absorbed by AI answers before anyone clicks your link.
 
 **Nothing waiting in the morning**
+
 Fewer voicemails, fewer email leads overnight — customers are getting answers without ever contacting you.
 
 **A competitor seems busier**
+
 They may simply be more visible on AI — and AI is sending customers their way instead of yours.
 
 **Losing jobs on price — despite being cheaper**
+
 If a customer never finds you, your pricing never even enters the conversation.
 
 **Customers arrive less informed**
+
 They used to research before calling. Now AI gives them an answer and they skip the research phase entirely.
 
 **Word of mouth isn't enough anymore**
+
 Referrals still search for you before calling. If they can't verify you online, they hesitate — or go elsewhere.
 
 **This isn't about technology. It's about being found.**

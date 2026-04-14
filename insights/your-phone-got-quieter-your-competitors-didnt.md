@@ -29,22 +29,22 @@ If your business isn't visible on those platforms, you don't just rank lower. Yo
 
 **Sound familiar? You're probably feeling at least one of these.**
 
-📉 **Leads from Google are dropping**
+**Leads from Google are dropping**
 Traffic that used to convert is being absorbed by AI answers before anyone clicks your link.
 
-🔇 **Nothing waiting in the morning**
+**Nothing waiting in the morning**
 Fewer voicemails, fewer email leads overnight — customers are getting answers without ever contacting you.
 
-**🏗️ A competitor seems busier**
+**A competitor seems busier**
 They may simply be more visible on AI — and AI is sending customers their way instead of yours.
 
-**💸 Losing jobs on price — despite being cheaper**
+**Losing jobs on price — despite being cheaper**
 If a customer never finds you, your pricing never even enters the conversation.
 
-**🤔 Customers arrive less informed**
+**Customers arrive less informed**
 They used to research before calling. Now AI gives them an answer and they skip the research phase entirely.
 
-**🗣️ Word of mouth isn't enough anymore**
+**Word of mouth isn't enough anymore**
 Referrals still search for you before calling. If they can't verify you online, they hesitate — or go elsewhere.
 
 **This isn't about technology. It's about being found.**
@@ -60,22 +60,23 @@ That's actually good news. Because "first" is still available for most markets a
 **What you can start doing right now**
 
 **Audit your actual visibility — not just your Google ranking**
+
 Most business owners assume their Google ranking tells the whole story. It no longer does. You need to know how you appear across AI platforms, answer engines, and voice search — not just in a browser results list.
 
 **Make your business easy for AI to understand and recommend**
+
 AI doesn't read websites the way humans do. It reads signals — structured data, authoritative mentions, consistent information across the web. Simple, targeted changes can dramatically increase how often AI references your business.
 
 **Find out what your silence is actually costing you**
+
 The invisible cost of lost leads is easy to ignore because it's invisible. But if you knew the dollar figure — the actual revenue slipping away each month because customers found someone else — it would change the conversation completely.
 
 **Move before your window closes**
+
 AI visibility is still wide open for most local and regional businesses. Your competitor may not have moved yet. But the businesses that establish their AI presence in the next 12 months will have a meaningful, lasting advantage over those who wait.
 
-![]()
-
-![]()
-
 **Stop running two separate strategies**
+
 Most businesses are paying for SEO, maybe some ads, and hoping for the best. A modern visibility strategy needs to account for both traditional search and AI search — not as two different things, but as one integrated approach that covers how customers actually find businesses today.
 
 The businesses that will come out ahead over the next few years aren't necessarily the ones with the biggest budgets. They're the ones paying attention right now — who see the shift and take one honest look at where they actually stand. That's all it takes to start.
@@ -88,16 +89,16 @@ Three steps. Free. No obligation. Start with whichever one matters most to you r
 
 See the real dollar value of leads you're not capturing. Most business owners are genuinely surprised by the number.
 
-👉 Run your free lost revenue calculation
+👉 [Run your free lost revenue calculation](https://lostrevenue.audienceintent.ai)
 
 **Step 2 — Get your free business performance report**
 
 Find out exactly how visible you are online and on AI — and where the gaps are.
 
-👉 Generate your free report
+👉 [Generate your free report](https://report.audienceintent.ai)
 
 **Step 3 — Book a call and let's talk through your options**
 
 No pitch, no pressure. Just an honest conversation about what's possible for your business.
 
-👉 Book a free discovery call
+👉 [Book a free discovery call](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi)

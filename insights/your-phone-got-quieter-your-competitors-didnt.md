@@ -57,16 +57,20 @@ That's actually good news. Because "first" is still available for most markets a
 
 **What you can start doing right now**
 
-1. **Audit your actual visibility — not just your Google ranking**
-   Most business owners assume their Google ranking tells the whole story. It no longer does. You need to know how you appear across AI platforms, answer engines, and voice search — not just in a browser results list.
-2. **Make your business easy for AI to understand and recommend**
-   AI doesn't read websites the way humans do. It reads signals — structured data, authoritative mentions, consistent information across the web. Simple, targeted changes can dramatically increase how often AI references your business.
-3. **Find out what your silence is actually costing you**
-   The invisible cost of lost leads is easy to ignore because it's invisible. But if you knew the dollar figure — the actual revenue slipping away each month because customers found someone else — it would change the conversation completely.
-4. **Move before your window closes**
-   AI visibility is still wide open for most local and regional businesses. Your competitor may not have moved yet. But the businesses that establish their AI presence in the next 12 months will have a meaningful, lasting advantage over those who wait.
-5. **Stop running two separate strategies**
-   Most businesses are paying for SEO, maybe some ads, and hoping for the best. A modern visibility strategy needs to account for both traditional search and AI search — not as two different things, but as one integrated approach that covers how customers actually find businesses today.
+**Audit your actual visibility — not just your Google ranking**
+Most business owners assume their Google ranking tells the whole story. It no longer does. You need to know how you appear across AI platforms, answer engines, and voice search — not just in a browser results list.
+
+**Make your business easy for AI to understand and recommend**
+AI doesn't read websites the way humans do. It reads signals — structured data, authoritative mentions, consistent information across the web. Simple, targeted changes can dramatically increase how often AI references your business.
+
+**Find out what your silence is actually costing you**
+The invisible cost of lost leads is easy to ignore because it's invisible. But if you knew the dollar figure — the actual revenue slipping away each month because customers found someone else — it would change the conversation completely.
+
+**Move before your window closes**
+AI visibility is still wide open for most local and regional businesses. Your competitor may not have moved yet. But the businesses that establish their AI presence in the next 12 months will have a meaningful, lasting advantage over those who wait.
+
+**Stop running two separate strategies**
+Most businesses are paying for SEO, maybe some ads, and hoping for the best. A modern visibility strategy needs to account for both traditional search and AI search — not as two different things, but as one integrated approach that covers how customers actually find businesses today.
 
 The businesses that will come out ahead over the next few years aren't necessarily the ones with the biggest budgets. They're the ones paying attention right now — who see the shift and take one honest look at where they actually stand. That's all it takes to start.
 

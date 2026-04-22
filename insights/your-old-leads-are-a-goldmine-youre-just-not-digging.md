@@ -365,8 +365,6 @@ When AI handles the speed, the replies, and the handoff, reactivation stops bein
 
 The businesses that win over the next year will not just generate more leads. They will capture more of the leads they already have.
 
-- - -
-
 **Before you buy more traffic, find out how much revenue is already sitting in your database.**
 
 [Book a demo](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi) or use the [AudienceIntent revenue calculator](https://lostrevenue.audienceintent.ai) to estimate your dormant lead opportunity.

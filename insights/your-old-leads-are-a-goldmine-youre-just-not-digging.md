@@ -93,8 +93,8 @@ It is better follow-up.
 
 More specifically, it is going back to the people who already showed interest, then reaching them fast with a channel they actually read. For most local service businesses, that means SMS.
 
-> **Key takeaways**
->
+**Key takeaways**
+
 * Your CRM likely holds more near-term revenue than your next ad campaign
 * SMS gets seen faster than email, which makes it stronger for reactivation and time-sensitive follow-up
 * [78% of buyers choose the first business to respond](https://prospeo.io/s/average-lead-response-time) — speed is the conversion variable most businesses ignore

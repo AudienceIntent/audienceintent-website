@@ -11,8 +11,13 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Title", name: "meta_title", widget: "string", required: false, hint: "SEO title tag — keep under 60 characters" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Category", name: "category", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", default: "AudienceIntent", required: false }
+      - { label: "Description", name: "description", widget: "string", hint: "Meta description — keep under 160 characters" }
+      - { label: "Focus Keyword", name: "focus_keyword", widget: "string", required: false, hint: "Primary keyword this article targets" }
+      - { label: "Canonical URL", name: "canonical", widget: "string", required: false, hint: "Full URL e.g. https://audienceintent.ai/insights/article-slug" }
+      - { label: "OG Image", name: "og_image", widget: "image", required: false, hint: "Social share image — 1200x630px recommended" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Schema JSON-LD", name: "schema", widget: "text", required: false, hint: "Paste your full JSON-LD schema block here (without the script tags)" }
+      - { label: "Schema JSON-LD", name: "schema", widget: "text", required: false, hint: "Paste full JSON-LD schema block here (without script tags)" }

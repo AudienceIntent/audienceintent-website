@@ -140,8 +140,6 @@ Here is the practical difference:
 | Email   | More room for detail and explanation          | Slower opens, crowded inboxes  | Education, nurture, proposals    |
 | Phone   | High trust, strong for hot leads              | Hard to scale, easy to miss    | Closing and complex objections   |
 
-
-
 That matters because reactivation is not really a content problem. It is a timing problem.
 
 A stale email sequence can sit unopened for hours or days. A text usually gets seen quickly. [Emarsys' 2026 SMS roundup](https://emarsys.com/learn/blog/sms-marketing-statistics/) cites a 98% open rate and notes that **81% of consumers check texts within five minutes**. For a business trying to wake up inactive leads, that gap is enormous.
@@ -213,8 +211,6 @@ Let's say a local service business has 1,500 dormant leads in its CRM and runs a
 | Booked appointments | 12                 |
 | Closed jobs         | 4                  |
 | Revenue created     | $4,800             |
-
-
 
 Even modest performance can justify the effort quickly because the audience already exists. You are not paying to create demand from scratch. You are recovering demand that was already there.
 
@@ -319,8 +315,6 @@ Texting alone is useful. AI makes it operational at scale.
 | Qualification is inconsistent                    | Qualification follows a defined flow every time |
 | Booking depends on manual back-and-forth         | Hot leads move directly to scheduling           |
 | Old leads stay untouched when the team gets busy | Campaigns keep running in the background        |
-
-
 
 That is the real value. Not novelty. Coverage.
 

@@ -235,13 +235,13 @@ SEO cannot:
 
 The urgency here is not theoretical. The shift is already happening, and the numbers behind it are hard to ignore.
 
-> **Key data points from 2025-2026 research:**
->
-> * AI-sourced website sessions grew **527% year-over-year** (Previsible, tracking Jan-May 2024 vs. 2025)
-> * **87.4% of all AI referral traffic** comes from ChatGPT alone (Conductor, across 13,770 domains)
-> * Organic CTR dropped **61%** on queries where AI Overviews appear — from 1.76% to 0.61% ([Seer Interactive](https://seerinteractive.com), September 2025)
-> * Brands **cited** inside AI Overviews earn **35% more organic clicks** than those not cited (Seer Interactive)
-> * **93% of Google AI Mode sessions** end without a single click to an external website (Semrush)
+**Key data points from 2025-2026 research:**
+
+* AI-sourced website sessions grew **527% year-over-year** (Previsible, tracking Jan-May 2024 vs. 2025)
+* **87.4% of all AI referral traffic** comes from ChatGPT alone (Conductor, across 13,770 domains)
+* Organic CTR dropped **61%** on queries where AI Overviews appear — from 1.76% to 0.61% ([Seer Interactive](https://seerinteractive.com), September 2025)
+* Brands **cited** inside AI Overviews earn **35% more organic clicks** than those not cited (Seer Interactive)
+* **93% of Google AI Mode sessions** end without a single click to an external website (Semrush)
 
 The last two numbers together tell the whole story. AI Overviews crush click-through for businesses not cited inside them. But businesses that ARE cited see a 35% boost in organic clicks on top of the AI mention. Being cited is now more valuable than ranking first.
 

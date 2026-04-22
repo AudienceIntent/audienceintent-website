@@ -8,7 +8,7 @@ description: See why competitors appear in ChatGPT, Google AI, and Perplexity
   when you don't, and learn the fixes that improve your AI visibility fast.
 focus_keyword: AI Search
 canonical: https://audienceintent.ai/insights/why-your-competitor-shows-up-in-ai-search-and-you-dont
-og_image: /images/uploads/ai-search.jpg
+og_image: ""
 schema: >-
   {
     "@graph": [
@@ -56,6 +56,8 @@ schema: >-
     "@context": "https://schema.org"
   }
 ---
+![Competitor AI search visibility example for local businesses](/images/uploads/ai-search.jpg "Why competitors appear in AI search and you don't")
+
 You searched your own business in ChatGPT. Your competitor came up. You didn't.
 
 That's not a fluke. It's a gap, and it's measurable. [AI search traffic has grown over 500% in the past year](https://www.semrush.com/blog/ai-seo-statistics/), and platforms like ChatGPT, Google AI Overviews, and Perplexity are now the first stop for millions of local buying decisions every day. When someone asks "who's the best HVAC company near me" or "what's a good plumber in \[city]," AI gives them a name. That name is either yours or your competitor's.

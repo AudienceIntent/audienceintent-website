@@ -3,6 +3,7 @@ title: Your Old Leads Are a Goldmine. You're Just Not Digging.
 meta_title: "Lead Reactivation with SMS AI: The Fastest ROI for Local Service Businesses"
 date: 2026-04-08T18:21:00.000-04:00
 category: "Lead Reactivation "
+author: Kevin Bovett
 description: New leads are getting more expensive and harder to win. Learn how
   AI-powered SMS lead reactivation helps local service businesses turn dormant
   leads into booked revenue — faster than buying more traffic.
@@ -84,7 +85,7 @@ schema: >
     ]
   }
 ---
-![Lead Reactivation](/images/uploads/lead-reactivation.jpg)
+![Lead Reactivation](/images/uploads/lead-reactivation.jpg "AI SMS Lead Reactivation")
 
 If new leads from Google have slowed down, the answer usually is not more ad spend.
 

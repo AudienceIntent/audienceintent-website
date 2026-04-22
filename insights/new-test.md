@@ -7,6 +7,7 @@ author: Kevin Bovett
 description: Learn what local businesses need to fix first in their Google
   Business Profile in 2026, from categories and reviews to photos, services, and
   website alignment.
+focus_keyword: "Google Business Profile "
 canonical: https://www.audienceintent.ai/insights/google-business-profile-optimization
 schema: >-
   {

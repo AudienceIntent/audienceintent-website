@@ -81,7 +81,8 @@ Here is how SMS compares to email and phone across the metrics that matter most:
 | Email   | 21-28%          | 6%                | 7.2%              |
 | Phone   | 28% answer rate | 62% (if answered) | 13.2%             |
 
-\
+
+
 The average text is read within 3 minutes of delivery. Emails sit unopened for 90 minutes or more — if they get opened at all.
 
 But the real reason SMS works for reactivation is not just the open rate. It is the tone. A text feels like a person reaching out, not a company running a campaign. That distinction matters enormously when you are trying to restart a relationship that went cold.
@@ -109,7 +110,8 @@ Businesses running coordinated SMS, email, and phone sequences see **2.3x higher
 | Day 12 | Phone call attempt                         |
 | Day 16 | Final SMS                                  |
 
-\
+
+
 The goal is not to bombard. It is to show up consistently across the channels your prospect actually uses, until they are ready to respond.
 
 Each touchpoint should feel like a natural continuation — not a new campaign starting from scratch. Reference the previous message. Keep the tone conversational. Give them an easy way to say yes or no.

@@ -116,8 +116,6 @@ schema: >-
 image: https://framerusercontent.com/images/26XQbXmiXsxAH0hD3yxltoxJkDg.jpg
 ---
 
-# Why Lead Reactivation Is Important for Your Business (And What It's Costing You to Ignore It)
-
 > **Quick answer:** Lead reactivation is the process of re-engaging dormant contacts in your CRM who expressed interest but never converted. For service businesses, it consistently delivers 10 to 20x ROI compared to new lead acquisition — because the contacts are pre-qualified, the acquisition cost is already paid, and the probability of conversion is 3 to 5x higher than cold outreach.
 
 Every month you spend chasing new leads, there is a quieter problem bleeding your business dry. It is sitting in your CRM right now. Hundreds, maybe thousands, of people who once raised their hand and said "I'm interested" — and then went silent.

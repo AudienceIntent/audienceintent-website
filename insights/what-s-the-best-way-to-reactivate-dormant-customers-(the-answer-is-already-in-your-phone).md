@@ -133,7 +133,8 @@ Not all dormant leads are equal. Reactivation rates vary significantly by trade,
 | Electrical    | 8.3%                   | SMS (12.1%)  | 28              |
 | Roofing       | 6.2%                   | SMS (9.8%)   | 45              |
 
-\
+
+
 Across every single trade, SMS is the top-performing channel. The conversion window varies — roofing leads take longer to close than pest control leads — but the channel winner does not change.
 
 **Best send times:** Tuesday through Thursday, 10am to 12pm or 2pm to 4pm local time. Avoid Monday mornings and Friday afternoons.

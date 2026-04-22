@@ -1,9 +1,11 @@
-// Netlify build script - generates articles.json from /insights/*.md files
+// Netlify build script - generates articles.json and sitemap.xml from /insights/*.md files
 const fs = require('fs');
 const path = require('path');
 
 const INSIGHTS_DIR = path.join(__dirname, 'insights');
 const OUTPUT_FILE = path.join(__dirname, 'articles.json');
+const SITEMAP_FILE = path.join(__dirname, 'sitemap.xml');
+const SITE_URL = 'https://audienceintent.ai';
 
 // Minimal markdown-to-HTML converter for body content
 function markdownToHtml(md) {
@@ -52,11 +54,10 @@ function markdownToHtml(md) {
   // Horizontal rules
   html = html.replace(/^[-*_]{3,}\s*$/gm, '<hr>');
 
-  // Tables - match block of lines containing pipes
+  // Tables
   html = html.replace(/((?:^[^\n]*\|[^\n]*\n?)+)/gm, function(block) {
     const lines = block.trim().split('\n').filter(Boolean);
     if (lines.length < 2) return block;
-    // Check second line is a separator (---|---|---)
     const isSeparator = /^[\s|:\-]+$/.test(lines[1]);
     if (!isSeparator) return block;
     const headerCells = lines[0].split('|').map(c => c.trim()).filter(Boolean);
@@ -68,7 +69,7 @@ function markdownToHtml(md) {
     return '<div class="table-wrap"><table>' + thead + '<tbody>' + bodyRows + '</tbody></table></div>\n';
   });
 
-  // Paragraphs - wrap chunks separated by blank lines
+  // Paragraphs
   const blockTags = /^(<h[1-6]|<ul|<ol|<li|<blockquote|<hr|<img|<\/)/;
   html = html.split('\n\n').map(function(chunk) {
     chunk = chunk.trim();
@@ -89,6 +90,13 @@ function parseFrontmatter(text, filename) {
     category: '',
     excerpt: '',
     image: '',
+    meta_title: '',
+    description: '',
+    focus_keyword: '',
+    canonical: '',
+    og_image: '',
+    author: '',
+    schema: '',
     content: ''
   };
 
@@ -102,7 +110,7 @@ function parseFrontmatter(text, filename) {
   const fm = fmMatch[1];
   const body = text.slice(fmMatch[0].length).trim();
 
-  // Title - quoted or unquoted or multiline
+  // Title
   let tm = fm.match(/^title:\s*"((?:[^"\\]|\\.)*)"/m);
   if (tm) { result.title = tm[1].trim(); }
   else {
@@ -122,7 +130,7 @@ function parseFrontmatter(text, filename) {
   const cm = fm.match(/^category:\s*"?([^"\n]+)"?\s*$/m);
   if (cm) { result.category = cm[1].trim().replace(/^"|"$/g, ''); }
 
-  // Image - frontmatter first, then body
+  // Image
   const im = fm.match(/^image:\s*"?([^"\n]+)"?\s*$/m);
   if (im) {
     result.image = im[1].trim().replace(/^"|"$/g, '');
@@ -131,25 +139,55 @@ function parseFrontmatter(text, filename) {
     if (bm) { result.image = bm[1]; }
   }
 
-  // Description/excerpt - handles quoted, unquoted, and multiline YAML (Decap wraps long values)
+  // Description/excerpt
   let dem = fm.match(/^description:\s*"((?:[^"\\]|\\.)*)"/m);
   if (dem) { result.excerpt = dem[1].trim(); }
   else {
     dem = fm.match(/^description:\s*'((?:[^'\\]|\\.)*)'/m);
     if (dem) { result.excerpt = dem[1].trim(); }
     else {
-      // Multiline unquoted: first line + any continuation lines (indented with spaces)
       dem = fm.match(/^description:\s*(.+(?:\n[ \t]+.+)*)/m);
       if (dem) {
         result.excerpt = dem[1]
-          .replace(/\n[ \t]+/g, ' ')  // join continuation lines
+          .replace(/\n[ \t]+/g, ' ')
           .trim()
           .replace(/^"|"$/g, '');
       }
     }
   }
 
-  // Convert markdown body to HTML
+  // Meta title
+  const mtm = fm.match(/^meta_title:\s*"?([^"\n]+)"?\s*$/m);
+  if (mtm) { result.meta_title = mtm[1].trim().replace(/^"|"$/g, ''); }
+
+  // Focus keyword
+  const fkm = fm.match(/^focus_keyword:\s*"?([^"\n]+)"?\s*$/m);
+  if (fkm) { result.focus_keyword = fkm[1].trim().replace(/^"|"$/g, ''); }
+
+  // Canonical
+  const canm = fm.match(/^canonical:\s*"?([^"\n]+)"?\s*$/m);
+  if (canm) { result.canonical = canm[1].trim().replace(/^"|"$/g, ''); }
+
+  // OG Image
+  const ogm = fm.match(/^og_image:\s*"?([^"\n]+)"?\s*$/m);
+  if (ogm) { result.og_image = ogm[1].trim().replace(/^"|"$/g, ''); }
+
+  // Author
+  const autm = fm.match(/^author:\s*"?([^"\n]+)"?\s*$/m);
+  if (autm) { result.author = autm[1].trim().replace(/^"|"$/g, ''); }
+
+  // Schema - multiline text field
+  const schm = fm.match(/^schema:\s*"((?:[^"\\]|\\[\s\S])*)"/m);
+  if (schm) { result.schema = schm[1].trim(); }
+  else {
+    const schm2 = fm.match(/^schema:\s*'((?:[^'\\]|\\[\s\S])*)'/m);
+    if (schm2) { result.schema = schm2[1].trim(); }
+    else {
+      const schm3 = fm.match(/^schema:\s*(.+(?:\n[ \t]+.+)*)/m);
+      if (schm3) { result.schema = schm3[1].replace(/\n[ \t]+/g, ' ').trim(); }
+    }
+  }
+
   result.content = markdownToHtml(body);
 
   console.log('  title:    ' + result.title.substring(0, 50));
@@ -162,42 +200,100 @@ function parseFrontmatter(text, filename) {
   return result;
 }
 
-try {
-  if (!fs.existsSync(INSIGHTS_DIR)) {
-    console.log('ERROR: insights directory not found');
-    fs.writeFileSync(OUTPUT_FILE, '[]');
-    process.exit(0);
-  }
+function generateSitemap(articles) {
+  const staticPages = [
+    { url: '/', priority: '1.0', changefreq: 'weekly' },
+    { url: '/insights', priority: '0.9', changefreq: 'daily' },
+  ];
 
-  const files = fs.readdirSync(INSIGHTS_DIR)
-    .filter(f => f.endsWith('.md') && f !== 'index.md');
+  const staticUrls = staticPages.map(page => `
+  <url>
+    <loc>${SITE_URL}${page.url}</loc>
+    <changefreq>${page.changefreq}</changefreq>
+    <priority>${page.priority}</priority>
+  </url>`).join('');
 
-  console.log('Found ' + files.length + ' article files');
+  const articleUrls = articles.map(article => `
+  <url>
+    <loc>${SITE_URL}/insights/${article.slug}</loc>
+    <lastmod>${article.date}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>`).join('');
 
-  const articles = [];
-  files.forEach(filename => {
-    try {
-      console.log('\nParsing: ' + filename);
-      const text = fs.readFileSync(path.join(INSIGHTS_DIR, filename), 'utf8');
-      const parsed = parseFrontmatter(text, filename);
-      if (parsed.title && parsed.date) {
-        articles.push(parsed);
-      } else {
-        console.log('  SKIP: missing title or date');
-      }
-    } catch(e) {
-      console.log('  ERROR: ' + e.message);
-    }
-  });
-
-  // Sort newest first
-  articles.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(articles, null, 2));
-  console.log('\nSUCCESS: Generated articles.json with ' + articles.length + ' articles');
-
-} catch(err) {
-  console.error('FATAL:', err.message);
-  fs.writeFileSync(OUTPUT_FILE, '[]');
-  process.exit(1);
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${staticUrls}
+${articleUrls}
+</urlset>`;
 }
+
+async function pingSearchEngines() {
+  const sitemapUrl = encodeURIComponent(`${SITE_URL}/sitemap.xml`);
+  const engines = [
+    `https://www.google.com/ping?sitemap=${sitemapUrl}`,
+    `https://www.bing.com/ping?sitemap=${sitemapUrl}`
+  ];
+  for (const url of engines) {
+    try {
+      const res = await fetch(url);
+      console.log(`Pinged: ${url} → ${res.status}`);
+    } catch(e) {
+      console.log(`Ping failed: ${url} → ${e.message}`);
+    }
+  }
+}
+
+async function main() {
+  try {
+    if (!fs.existsSync(INSIGHTS_DIR)) {
+      console.log('ERROR: insights directory not found');
+      fs.writeFileSync(OUTPUT_FILE, '[]');
+      process.exit(0);
+    }
+
+    const files = fs.readdirSync(INSIGHTS_DIR)
+      .filter(f => f.endsWith('.md') && f !== 'index.md');
+
+    console.log('Found ' + files.length + ' article files');
+
+    const articles = [];
+    files.forEach(filename => {
+      try {
+        console.log('\nParsing: ' + filename);
+        const text = fs.readFileSync(path.join(INSIGHTS_DIR, filename), 'utf8');
+        const parsed = parseFrontmatter(text, filename);
+        if (parsed.title && parsed.date) {
+          articles.push(parsed);
+        } else {
+          console.log('  SKIP: missing title or date');
+        }
+      } catch(e) {
+        console.log('  ERROR: ' + e.message);
+      }
+    });
+
+    // Sort newest first
+    articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    // Write articles.json
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(articles, null, 2));
+    console.log('\nSUCCESS: Generated articles.json with ' + articles.length + ' articles');
+
+    // Write sitemap.xml
+    const sitemap = generateSitemap(articles);
+    fs.writeFileSync(SITEMAP_FILE, sitemap);
+    console.log('SUCCESS: Generated sitemap.xml with ' + (articles.length + 2) + ' URLs');
+
+    // Ping search engines
+    console.log('\nPinging search engines...');
+    await pingSearchEngines();
+
+  } catch(err) {
+    console.error('FATAL:', err.message);
+    fs.writeFileSync(OUTPUT_FILE, '[]');
+    process.exit(1);
+  }
+}
+
+main();

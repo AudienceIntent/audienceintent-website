@@ -27,8 +27,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPXQWGBR60"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-MPXQWGBR60");</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="description" content="Practical guides and strategies for businesses that want to show up everywhere, respond to every lead, and never miss an opportunity.">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -78,7 +76,6 @@ footer a{color:rgba(248,247,246,0.4);text-decoration:none}
 footer a:hover{color:#f8f7f6}
 @media(max-width:900px){nav{padding:16px 20px}.nav-r .nl{display:none}.filters{padding:24px 20px}.search-wrap{padding:0 20px}.grid-wrap{padding:32px 20px}.grid{grid-template-columns:repeat(2,1fr);gap:16px}.pagination{padding:0 20px 48px}footer{padding:24px 20px}}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.hero{padding:60px 20px 40px}}
-
 .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none;z-index:200;touch-action:manipulation}
 .burger span{display:block;width:22px;height:2px;background:#f8f7f6;border-radius:2px;transition:all .3s}
 .burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
@@ -108,7 +105,6 @@ a,button{pointer-events:auto!important;touch-action:manipulation;-webkit-tap-hig
   </div>
   <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
 </nav>
-
 <div class="mobile-menu" id="mobileMenu">
   <button class="mobile-close" onclick="closeMobile()" aria-label="Close menu">&#x2715;</button>
   <a href="https://www.audienceintent.ai#how" class="nl" onclick="closeMobile()">How it works</a>
@@ -134,13 +130,14 @@ a,button{pointer-events:auto!important;touch-action:manipulation;-webkit-tap-hig
   <button class="filter-btn" data-cat="Automation">Automation</button>
   <button class="filter-btn" data-cat="Conversion">Conversion</button>
   <button class="filter-btn" data-cat="Growth">Growth</button>
-  <span class="filter-count" id="count">112 articles</span>
+  <span class="filter-count" id="count">0 articles</span>
 </div>
 <div class="search-wrap"><input type="text" class="search-box" id="search" placeholder="Search articles..."></div>
 <div class="grid-wrap"><div class="grid" id="grid"></div><div class="no-results" id="no-results" style="display:none">No articles found.</div></div>
 <div class="pagination" id="pagination"></div>
 <footer><p>&copy; 2026 AudienceIntent LLC &middot; <a href="https://www.audienceintent.ai">Home</a> &middot; <a href="https://www.audienceintent.ai/legal">Legal</a> &middot; <a href="mailto:support@audienceintent.ai" style="color:inherit">support@audienceintent.ai</a></p></footer>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script>
 var ARTICLES = [];
 
 function loadArticles() {
@@ -151,8 +148,6 @@ function loadArticles() {
     })
     .then(function(data) {
       ARTICLES = data;
-      var countEl = document.querySelector('.count');
-      if (countEl) countEl.textContent = data.length;
       render();
     })
     .catch(function(err) {
@@ -194,8 +189,6 @@ document.querySelectorAll(".filter-btn").forEach(function(btn){
   });
 });
 document.getElementById("search").addEventListener("input",function(){q=this.value.toLowerCase();pg=1;render();});
-render();
-
 
 document.addEventListener('DOMContentLoaded', function() {
   loadArticles();

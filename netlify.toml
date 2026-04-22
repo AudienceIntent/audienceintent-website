@@ -2,6 +2,26 @@
   command = "node generate-articles.js"
   publish = "."
 
+# Force HTTPS and www — redirect all 3 non-canonical variants to www
+[[redirects]]
+  from = "http://audienceintent.ai/*"
+  to = "https://www.audienceintent.ai/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.audienceintent.ai/*"
+  to = "https://www.audienceintent.ai/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://audienceintent.ai/*"
+  to = "https://www.audienceintent.ai/:splat"
+  status = 301
+  force = true
+
+# Article routing
 [[redirects]]
   from = "/insights/*.md"
   to = "/insights/:splat.md"
@@ -13,6 +33,7 @@
   to = "/article.html"
   status = 200
 
+# Netlify Identity
 [[redirects]]
   from = "/#invite_token=*"
   to = "/admin/#invite_token=:splat"

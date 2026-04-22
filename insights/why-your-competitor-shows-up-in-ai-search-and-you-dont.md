@@ -1,9 +1,12 @@
 ---
 title: Why Your Competitor Shows Up in AI Search (And You Don't)
+meta_title: Why Competitors Show Up in AI Search | AudienceIntent
 date: 2026-04-22T11:42:00.000-04:00
 category: AI Visibility
+author: Kevin Bovett
 description: See why competitors appear in ChatGPT, Google AI, and Perplexity
   when you don't, and learn the fixes that improve your AI visibility fast.
+focus_keyword: AI Search
 schema: >-
   {
     "@graph": [

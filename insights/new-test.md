@@ -298,8 +298,6 @@ The good news is that most of this is fixable. Not with gimmicks. Just by tighte
 
 That is how local businesses win more visibility without guessing.
 
-- - -
-
 ### Want to see what might be holding your profile back?
 
 If you want a fast way to spot weak points in your visibility, rankings, traffic, and conversions, generate your free Business Performance Report at **[report.audienceintent.ai](https://report.audienceintent.ai)**.

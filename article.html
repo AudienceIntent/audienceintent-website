@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title id="page-title">Insights - AudienceIntent</title>
 <meta name="description" id="page-desc" content="AudienceIntent Insights">
+<meta id="page-robots" name="robots" content="index, follow">
+<link id="page-canonical" rel="canonical" href="https://audienceintent.ai/insights">
+<meta id="og-title" property="og:title" content="Insights - AudienceIntent">
+<meta id="og-desc" property="og:description" content="AudienceIntent Insights">
+<meta id="og-image" property="og:image" content="">
+<meta id="og-url" property="og:url" content="">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AudienceIntent">
+<meta id="tw-title" name="twitter:title" content="Insights - AudienceIntent">
+<meta id="tw-desc" name="twitter:description" content="AudienceIntent Insights">
+<meta id="tw-image" name="twitter:image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@audienceintentx">
+<meta id="page-author" name="author" content="AudienceIntent">
 <link rel="icon" type="image/png" href="https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=32">
 <script type="application/ld+json" id="page-schema"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPXQWGBR60"></script>
@@ -131,18 +145,50 @@ function render(article) {
     wrap.innerHTML = '<div class="not-found"><p style="font-size:18px;font-weight:700;margin-bottom:12px">Article not found</p><a href="/insights" style="color:#00ff73;text-decoration:none;font-size:14px">&larr; Back to Insights</a></div>';
     return;
   }
-  document.title = article.title + ' - AudienceIntent';
-  document.getElementById('page-desc').content = article.excerpt || '';
+
+  // Title
+  var metaTitle = (article.meta_title || article.title) + ' - AudienceIntent';
+  document.title = metaTitle;
+  document.getElementById('page-title').textContent = metaTitle;
+
+  // Description
+  var desc = article.description || article.excerpt || '';
+  document.getElementById('page-desc').content = desc;
+
+  // Canonical
+  var canonical = article.canonical || ('https://audienceintent.ai/insights/' + (article.slug || ''));
+  document.getElementById('page-canonical').href = canonical;
+
+  // Author
+  document.getElementById('page-author').content = article.author || 'AudienceIntent';
+
+  // Open Graph
+  document.getElementById('og-title').content = article.meta_title || article.title;
+  document.getElementById('og-desc').content = desc;
+  document.getElementById('og-url').content = canonical;
+  if (article.og_image) document.getElementById('og-image').content = article.og_image;
+  else if (article.image) document.getElementById('og-image').content = article.image;
+
+  // Twitter
+  document.getElementById('tw-title').content = article.meta_title || article.title;
+  document.getElementById('tw-desc').content = desc;
+  if (article.og_image) document.getElementById('tw-image').content = article.og_image;
+  else if (article.image) document.getElementById('tw-image').content = article.image;
+
+  // Schema
   var schemaEl = document.getElementById('page-schema');
   if (schemaEl && article.schema) schemaEl.textContent = article.schema;
+
+  // Body
   var imgHTML = article.image
     ? '<div class="art-img-wrap"><img class="art-img" src="' + article.image + '" alt="' + article.title.replace(/"/g, '') + '"></div>'
     : '';
+
   wrap.innerHTML =
     '<a class="back" href="/insights">&larr; Back to Insights</a>'
     + '<div class="art-cat">' + (article.category || '') + '</div>'
     + '<h1 class="art-title">' + article.title + '</h1>'
-    + '<div class="art-meta"><span>' + formatDate(article.date) + '</span><span class="art-meta-dot">&middot;</span><span>AudienceIntent</span></div>'
+    + '<div class="art-meta"><span>' + formatDate(article.date) + '</span><span class="art-meta-dot">&middot;</span><span>' + (article.author || 'AudienceIntent') + '</span></div>'
     + imgHTML
     + '<div class="art-body">' + (article.content || '') + '</div>'
     + '<div class="cta-box"><h3>Ready to capture more revenue?</h3><p>Get your free business performance report or calculate your lost revenue in under 2 minutes.</p><div class="cta-box-btns"><a href="https://report.audienceintent.ai" target="_blank" class="cta-btn">Get My Free Report &rarr;</a><a href="https://lostrevenue.audienceintent.ai" target="_blank" class="cta-btn cta-btn-sec">Calculate My Lost Revenue</a></div></div>';

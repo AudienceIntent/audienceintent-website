@@ -95,11 +95,11 @@ More specifically, it is going back to the people who already showed interest, t
 
 > **Key takeaways**
 >
-> * Your CRM likely holds more near-term revenue than your next ad campaign
-> * SMS gets seen faster than email, which makes it stronger for reactivation and time-sensitive follow-up
-> * [78% of buyers choose the first business to respond](https://prospeo.io/s/average-lead-response-time) — speed is the conversion variable most businesses ignore
-> * Reactivation works because these leads are not cold; they are delayed, distracted, or poorly followed up
-> * A strong campaign needs segmentation, compliance, fast replies, and a clear booking path
+* Your CRM likely holds more near-term revenue than your next ad campaign
+* SMS gets seen faster than email, which makes it stronger for reactivation and time-sensitive follow-up
+* [78% of buyers choose the first business to respond](https://prospeo.io/s/average-lead-response-time) — speed is the conversion variable most businesses ignore
+* Reactivation works because these leads are not cold; they are delayed, distracted, or poorly followed up
+* A strong campaign needs segmentation, compliance, fast replies, and a clear booking path
 
 ## Why Old Leads Matter More in 2026
 

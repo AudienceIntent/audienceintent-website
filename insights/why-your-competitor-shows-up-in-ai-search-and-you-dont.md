@@ -4,6 +4,52 @@ date: 2026-04-22T11:42:00.000-04:00
 category: AI Visibility
 description: See why competitors appear in ChatGPT, Google AI, and Perplexity
   when you don't, and learn the fixes that improve your AI visibility fast.
+schema: >-
+  {
+    "@graph": [
+      {
+        "@type": "Article",
+        "author": {
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "headline": "Why Competitors Show Up in AI Search | AudienceIntent",
+        "publisher": {
+          "logo": {
+            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
+            "@type": "ImageObject"
+          },
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "description": "See why competitors appear in ChatGPT, Google AI, and Perplexity when you don't, and learn the fixes that improve your AI visibility fast.",
+        "dateModified": "2026-04-22",
+        "datePublished": "2026-04-22",
+        "mainEntityOfPage": {
+          "@id": "https://audienceintent.ai/insights/competitor-ai-search-visibility",
+          "@type": "WebPage"
+        }
+      },
+      {
+        "url": "https://www.audienceintent.ai",
+        "logo": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
+        "name": "AudienceIntent",
+        "@type": "Organization",
+        "sameAs": [
+          "https://x.com/audienceintentx",
+          "https://www.linkedin.com/company/audienceintent/",
+          "https://www.facebook.com/audienceintent",
+          "https://www.instagram.com/audienceintent",
+          "https://www.youtube.com/@audienceintent",
+          "https://www.tiktok.com/@audienceintent",
+          "https://www.threads.com/@audienceintent",
+          "https://www.pinterest.com/audienceintent/"
+        ],
+        "foundingDate": "2024"
+      }
+    ],
+    "@context": "https://schema.org"
+  }
 ---
 
 

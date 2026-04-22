@@ -6,6 +6,7 @@
 <title id="page-title">Insights - AudienceIntent</title>
 <meta name="description" id="page-desc" content="AudienceIntent Insights">
 <link rel="icon" type="image/png" href="https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=32">
+<script type="application/ld+json" id="page-schema"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPXQWGBR60"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-MPXQWGBR60");</script>
 <style>
@@ -107,13 +108,11 @@ footer a:hover{color:#00ff73}
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script>
 function getSlug() {
-  // First try query param (?slug=...)
   var qs = window.location.search;
   if (qs) {
     var m = qs.match(/[?&]slug=([^&]+)/);
     if (m) return decodeURIComponent(m[1]);
   }
-  // Then fall back to last path segment
   var parts = window.location.pathname.split('/').filter(Boolean);
   return parts[parts.length - 1] || '';
 }
@@ -134,6 +133,8 @@ function render(article) {
   }
   document.title = article.title + ' - AudienceIntent';
   document.getElementById('page-desc').content = article.excerpt || '';
+  var schemaEl = document.getElementById('page-schema');
+  if (schemaEl && article.schema) schemaEl.textContent = article.schema;
   var imgHTML = article.image
     ? '<div class="art-img-wrap"><img class="art-img" src="' + article.image + '" alt="' + article.title.replace(/"/g, '') + '"></div>'
     : '';

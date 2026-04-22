@@ -1,5 +1,5 @@
 ---
-title: Why Your Competitor Shows Up in AI Search (And You Don't)
+title: Why Do Your Competitor Shows Up in AI Search?
 date: 2026-03-21
 category: AI Visibility
 image: https://framerusercontent.com/images/4UcdrhnFJfdOOn7HfNQiHI1H8.jpg

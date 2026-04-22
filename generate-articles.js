@@ -5,7 +5,7 @@ const path = require('path');
 const INSIGHTS_DIR = path.join(__dirname, 'insights');
 const OUTPUT_FILE = path.join(__dirname, 'articles.json');
 const SITEMAP_FILE = path.join(__dirname, 'sitemap.xml');
-const SITE_URL = 'https://audienceintent.ai';
+const SITE_URL = 'https://www.audienceintent.ai';
 
 // Minimal markdown-to-HTML converter for body content
 function markdownToHtml(md) {

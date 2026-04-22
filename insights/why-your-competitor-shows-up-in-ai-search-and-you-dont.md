@@ -5,6 +5,8 @@ category: AI Visibility
 description: See why competitors appear in ChatGPT, Google AI, and Perplexity
   when you don't, and learn the fixes that improve your AI visibility fast.
 ---
+
+
 ![Competitor AI search visibility example for local businesses](/images/uploads/ai-search.jpg "Why competitors appear in AI search and you don't")
 
 You searched your own business in ChatGPT. Your competitor came up. You didn't.

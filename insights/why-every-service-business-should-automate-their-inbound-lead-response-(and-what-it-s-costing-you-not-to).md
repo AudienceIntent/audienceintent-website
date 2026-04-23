@@ -143,6 +143,8 @@ When a lead reaches out, intent is highest right then. Not tomorrow morning. Not
 | Within 1 hour    | 7x more likely to qualify vs. waiting longer (Harvard Business Review) |
 | 29+ hours        | The real average among businesses that respond at all                  |
 
+
+
 The businesses generating the most revenue from inbound leads are not necessarily spending more on marketing. They are responding faster.
 
 ### Three losses happen at once
@@ -235,6 +237,8 @@ Inbound demand now arrives through multiple channels simultaneously, and each on
 | Contact form | Confirmation and next step within minutes | Hours of silence              |
 | Website chat | Real-time response                        | Generic delay message         |
 | Social DMs   | Quick reply with a clear path forward     | Response the next morning     |
+
+
 
 The standard has shifted. Buyers move fast, compare quickly, and choose the first business that makes the process easy. Matching that standard across every channel is no longer optional for businesses with real lead volume.
 

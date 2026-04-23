@@ -447,4 +447,4 @@ No. Automation handles the speed and consistency layer that humans cannot mainta
 
 ### What does the Revenue Capture Engine include for lead response?
 
-AudienceIntent's Revenue Capture Engine includes Speed-to-Lead (60-second automated response to new inquiries), an After-Hours Voice Agent, website and social Chat, Social DM Automation for Facebook and Instagram, and Lead Reactivation Campaigns for old leads that never converted. It is done for you, live within 10 to 14 days, and requires no setup from your team.
+AudienceIntent's Revenue Capture Engine includes Speed-to-Lead (60-second automated response to new inquiries), an After-Hours Voice Agent, website and social Chat, Social DM Automation for Facebook and Instagram, and Lead Reactivation Campaigns for old leads that never converted. It is done for you, live within days, and requires no setup from your team.

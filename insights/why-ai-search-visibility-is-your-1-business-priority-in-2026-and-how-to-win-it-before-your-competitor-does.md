@@ -9,6 +9,7 @@ description: AI search is changing how customers choose businesses. Learn why
   visibility now matters more than blue links and how to get cited by AI.
 focus_keyword: AI Search Visibility
 canonical: ai-search-visibility
+og_image: /images/uploads/ai-search-visibility.jpg
 schema: >-
   {
     "@graph": [

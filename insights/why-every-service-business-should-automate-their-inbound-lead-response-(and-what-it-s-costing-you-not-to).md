@@ -122,7 +122,6 @@ This article breaks down exactly why response speed is the highest-leverage vari
 * Responding within one minute can drive 391% more conversions than slower follow-up
 * After-hours leads represent 40-60% of total inbound volume for service businesses
 * Manual follow-up breaks under pressure, at night, and when key staff leave
-   
 * Automation closes every gap: calls, forms, chat, DMs, and follow-up sequences
 * Better response speed improves conversion from the same lead volume, not more spend     
 

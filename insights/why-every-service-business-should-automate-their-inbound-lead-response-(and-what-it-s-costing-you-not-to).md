@@ -169,13 +169,9 @@ That single stat reframes the entire competitive landscape. You are not just com
 ### How the sequence plays out
 
 1. A prospect reaches out, often to multiple businesses simultaneously
-
 2. One business responds within seconds or minutes
-
 3. That business answers the first question and reduces uncertainty
-
 4. The prospect stops shopping as aggressively
-
 5. Every other business follows up too late
 
 This is why many service businesses believe their lead generation is underperforming when the real issue is what happens after the lead arrives. The leads were good. The handoff was broken.

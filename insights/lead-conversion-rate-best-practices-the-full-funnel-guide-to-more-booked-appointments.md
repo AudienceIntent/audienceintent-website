@@ -202,15 +202,14 @@ The data on omnichannel engagement is decisive. Businesses with a strong omnicha
 
 Not all channels are equal. For appointment-based businesses, these four consistently drive the highest volume and the fastest path to booking:
 
-**Website chat** — Chatbots on landing pages [increase conversion rates by 36%](https://www.hubspot.com/marketing-statistics) through direct visitor engagement. The key is instant response: a chat widget that takes 90 seconds to connect is no better than a contact form.
+**1. Website chat** — Chatbots on landing pages [increase conversion rates by 36%](https://www.hubspot.com/marketing-statistics) through direct visitor engagement. The key is instant response: a chat widget that takes 90 seconds to connect is no better than a contact form.
     
-**SMS** — SMS has a 98% open rate. 95% of texts are read within 3 minutes. Compare that to email, where the average read time is 90 minutes and response rates hover around 15%. For time-sensitive appointment confirmations and follow-up, SMS is the only channel that matches the urgency of the moment.
+**2. SMS** — SMS has a 98% open rate. 95% of texts are read within 3 minutes. Compare that to email, where the average read time is 90 minutes and response rates hover around 15%. For time-sensitive appointment confirmations and follow-up, SMS is the only channel that matches the urgency of the moment.
     
-**Social DMs** — Instagram and Facebook DMs are where a growing share of service inquiries originate. Businesses that automate DM responses and route them to a booking flow capture leads that would otherwise go cold waiting for a human to check the inbox.
+**3. Social DMs** — Instagram and Facebook DMs are where a growing share of service inquiries originate. Businesses that automate DM responses and route them to a booking flow capture leads that would otherwise go cold waiting for a human to check the inbox.
     
-**Inbound calls** — Still the highest-intent channel for most service categories. Every missed call is a lead that has already decided they want to buy. The only question is whether you'll be the one to capture it.
+**4. Inbound calls** — Still the highest-intent channel for most service categories. Every missed call is a lead that has already decided they want to buy. The only question is whether you'll be the one to capture it.
     
-
 ### The SMS Advantage in Detail
 
 If your follow-up strategy relies primarily on email, you are operating at a structural disadvantage. The comparison is stark:

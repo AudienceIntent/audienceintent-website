@@ -290,7 +290,7 @@ The result is a funnel full of patches — and leads still leaking through the g
 
 The businesses consistently outperforming on conversion are not running better individual tactics. They are operating a system where every touchpoint is covered, every channel is connected, and no lead falls through because a human forgot to follow up.
 
-### The Five-Point Conversion Audit
+## The Five-Point Conversion Audit
 
 Before launching any new campaign or creative test, run this audit against your current funnel:
 

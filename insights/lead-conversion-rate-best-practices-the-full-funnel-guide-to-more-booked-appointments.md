@@ -290,21 +290,16 @@ The result is a funnel full of patches — and leads still leaking through the g
 
 The businesses consistently outperforming on conversion are not running better individual tactics. They are operating a system where every touchpoint is covered, every channel is connected, and no lead falls through because a human forgot to follow up.
 
-## The Five-Point Conversion Audit
+### The Five-Point Conversion Audit
 
 Before launching any new campaign or creative test, run this audit against your current funnel:
 
-1.  **Response time** — What is your actual average time-to-first-response for inbound leads? Not your goal. Your actual number. If you don't know it, measure it this week.
-    
+1.  **Response time** — What is your actual average time-to-first-response for inbound leads? Not your goal. Your actual number. If you don't know it, measure it this week. 
 2.  **After-hours coverage** — What happens to a lead that calls or chats at 8pm on a Friday? Is there a system, or does it go to voicemail?
-    
-3.  **Channel gaps** — Which channels are you receiving inquiries from that you are not actively monitoring or automating? DMs, chat, contact forms?
-    
-4.  **Review recency** — When was your most recent review posted? If it's more than 30 days ago, your review velocity is working against your conversion rate.
-    
+3.  **Channel gaps** — Which channels are you receiving inquiries from that you are not actively monitoring or automating? DMs, chat, contact forms?   
+4.  **Review recency** — When was your most recent review posted? If it's more than 30 days ago, your review velocity is working against your conversion rate.  
 5.  **CRM dormancy** — How many leads in your system have had zero follow-up in the last 90 days? That number is your reactivation opportunity.
     
-
 Most teams who run this audit find at least two or three significant gaps they were not aware of. Each gap represents a category of leads that are being generated, paid for, and lost — before sales ever gets a real shot.
 
 ### The Real Cost of Inaction

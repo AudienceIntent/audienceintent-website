@@ -171,15 +171,11 @@ The system handles Google Business Profile optimization, AI Search Visibility ac
 
 **Best for:** Local service businesses that want a single partner to handle AI visibility, reviews, and lead capture together.
 
-- - -
-
 ### Searchbloom — Best for Multi-Location Service Brands
 
 [Searchbloom](https://www.searchbloom.com) is a well-established agency with a dedicated AI SEO practice built around their proprietary MERIT Framework. They serve multi-location businesses and offer local SEO alongside AI search optimization, making them a solid fit for franchise brands or regional service companies operating across multiple markets. Pricing is custom and contract terms vary by scope.
 
 **Best for:** Multi-location businesses that need both traditional local SEO and AI visibility managed by a single agency team.
-
-- - -
 
 ### Ignite Visibility — Best for Businesses That Need a Full-Service Agency
 
@@ -187,15 +183,11 @@ The system handles Google Business Profile optimization, AI Search Visibility ac
 
 **Best for:** Growing local businesses or regional brands ready to invest in a full-service agency relationship.
 
-- - -
-
 ### HigherVisibility — Best for Businesses That Want Free Audits Before Committing
 
 [HigherVisibility](https://www.highervisibility.com) offers free audits before any contract discussion, which is genuinely useful for business owners who want to understand their current AI visibility gaps before making a financial commitment. Their service model covers local SEO and AI Overviews optimization with custom pricing based on scope.
 
 **Best for:** Business owners who want to understand the problem before buying the solution.
-
-- - -
 
 ### Seal Global Holdings — Best for High-Intent Local Niches Like Home Services
 
@@ -203,7 +195,7 @@ Seal Global Holdings has built their positioning specifically around Generative 
 
 **Best for:** Home service businesses looking for a specialist with a local-first GEO and AEO methodology.
 
-- - -
+
 
 | Company              | Best For                               | Service Model          | Local Focus         |
 | -------------------- | -------------------------------------- | ---------------------- | ------------------- |

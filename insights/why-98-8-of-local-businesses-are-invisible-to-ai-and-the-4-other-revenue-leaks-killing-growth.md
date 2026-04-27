@@ -117,8 +117,6 @@ schema: >-
 ---
 ![Being Invisible](/images/uploads/invisible.jpg "Being Invisible")
 
-# Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other Revenue Leaks Killing Growth)
-
 Most local service businesses think their biggest growth problem is lead generation. They're wrong.
 
 The leads are already there. What's missing is the infrastructure to capture them.
@@ -149,16 +147,11 @@ SOCi's research found that fewer than half of the brands that lead in traditiona
 
 Google evaluates keywords and backlinks. AI platforms evaluate something different:
 
--   Structured geo signals (precise coordinates, neighborhood context, nearby landmarks)
-    
--   FAQ sections covering common customer questions
-    
--   Schema markup identifying your service category and service radius
-    
--   Review sentiment and recency across multiple platforms
-    
--   Accurate, consistent business data everywhere it appears online
-    
+* Structured geo signals (precise coordinates, neighborhood context, nearby landmarks)
+* FAQ sections covering common customer questions
+* Schema markup identifying your service category and service radius
+* Review sentiment and recency across multiple platforms
+* Accurate, consistent business data everywhere it appears online
 
 Most local listing pages were built for traditional search. They were never structured for AI discovery. That's the gap.
 
@@ -178,14 +171,10 @@ Think about when leads actually come in. A homeowner notices a leak at 9pm. A pa
 
 The average local service business:
 
--   Has no automated reply system for new leads
-    
--   Responds manually during business hours only
-    
--   Takes 2-5 hours to follow up on form submissions
-    
--   Misses DMs on Instagram and Facebook entirely
-    
+* Has no automated reply system for new leads
+* Responds manually during business hours only
+* Takes 2-5 hours to follow up on form submissions
+* Misses DMs on Instagram and Facebook entirely
 
 By the time someone calls back, the prospect has already booked with a competitor. Not because the competitor was better. Because they were faster.
 
@@ -203,13 +192,13 @@ Every missed call is a $250 problem. That's the average revenue lost per missed 
 
 Most businesses assume missed calls are an edge case. They're not. Here's when it actually happens:
 
-| Time Window | Why Calls Get Missed |
-| --- | --- |
-| After 5pm weekdays | Staff has left for the day |
-| Weekends | Reduced or no coverage |
-| During active jobs | Owner or staff unavailable to answer |
-| Lunch hours | Team is out, phones go to voicemail |
-| High-volume days | Multiple calls arriving simultaneously |
+| Time Window        | Why Calls Get Missed                   |
+| ------------------ | -------------------------------------- |
+| After 5pm weekdays | Staff has left for the day             |
+| Weekends           | Reduced or no coverage                 |
+| During active jobs | Owner or staff unavailable to answer   |
+| Lunch hours        | Team is out, phones go to voicemail    |
+| High-volume days   | Multiple calls arriving simultaneously |
 
 For a business that misses just 5 calls per week, that's 20 missed calls per month. At $250 per missed call, that's **$5,000 in lost monthly revenue** - $60,000 per year - from a problem that feels invisible because it's never tracked.
 
@@ -229,16 +218,11 @@ SOCi's 2026 research found that AI platforms treat reviews as a filter, not a ra
 
 Most service businesses focus on star rating and total count. Those are the wrong metrics. Here's what Google and AI platforms are actually measuring:
 
--   **Recency:** When was the last review posted?
-    
--   **Velocity:** How many reviews per month, consistently?
-    
--   **Sentiment depth:** Do reviews mention specific services, staff names, and outcomes?
-    
--   **Response rate:** Does the business reply to reviews - positive and negative?
-    
--   **Platform spread:** Are reviews distributed across Google, Yelp, Facebook, and industry-specific sites?
-    
+* **Recency:** When was the last review posted?
+* **Velocity:** How many reviews per month, consistently?
+* **Sentiment depth:** Do reviews mention specific services, staff names, and outcomes?
+* **Response rate:** Does the business reply to reviews - positive and negative?
+* **Platform spread:** Are reviews distributed across Google, Yelp, Facebook, and industry-specific sites?
 
 A business that scores well across all five gets recommended. A business that scored well three years ago and has gone quiet since does not.
 
@@ -266,11 +250,11 @@ These aren't dead leads. They're dormant ones. The person who asked for a quote 
 
 Most owners move on to buying new leads because it feels simpler. But compare the economics:
 
-| Approach | Cost Per Lead | Typical Conversion Rate |
-| --- | --- | --- |
-| New paid lead (Google Ads) | $50-$200+ | 10-20% |
-| Cold outreach to new prospects | High time cost | 1-5% |
-| Reactivating old CRM leads | Near zero | 15-30% |
+| Approach                       | Cost Per Lead  | Typical Conversion Rate |
+| ------------------------------ | -------------- | ----------------------- |
+| New paid lead (Google Ads)     | $50-$200+      | 10-20%                  |
+| Cold outreach to new prospects | High time cost | 1-5%                    |
+| Reactivating old CRM leads     | Near zero      | 15-30%                  |
 
 The businesses that treat their CRM as a revenue asset consistently outperform on cost-per-acquisition. [The psychology behind why old leads convert](https://audienceintent.ai/insights/the-psychology-of-lead-reactivation-why-old-leads-are-your-easiest-wins) is straightforward: familiarity reduces friction. A prospect who already knows your business name is far easier to convert than a cold stranger who found you on Google five minutes ago.
 
@@ -278,16 +262,11 @@ The businesses that treat their CRM as a revenue asset consistently outperform o
 
 Businesses that consistently unlock revenue from their CRM don't do it manually. They run automated sequences that:
 
--   Segment leads by service type, recency, and last interaction
-    
--   Send personalized SMS or email sequences timed for high open rates
-    
--   Offer a specific reason to re-engage (seasonal promotion, service reminder, new availability)
-    
--   Route replies immediately to a booking flow or live staff
-    
--   Follow up 2-3 times before marking a lead fully inactive
-    
+* Segment leads by service type, recency, and last interaction
+* Send personalized SMS or email sequences timed for high open rates
+* Offer a specific reason to re-engage (seasonal promotion, service reminder, new availability)
+* Route replies immediately to a booking flow or live staff
+* Follow up 2-3 times before marking a lead fully inactive
 
 > **What it's costing you:** Before spending another dollar on ads, calculate the value in your existing CRM. If you have 300 cold leads and your average job is worth $500, a 10% reactivation rate is $15,000 in revenue that costs nothing to generate. [Here's why your lead database became a graveyard, and how to fix it](https://audienceintent.ai/insights/why-your-lead-database-became-a-graveyard).
 
@@ -305,13 +284,13 @@ The businesses pulling ahead in 2026 are not necessarily better at their craft. 
 
 Run through this diagnostic honestly:
 
-| Revenue Leak | Sign You Have This Problem |
-| --- | --- |
-| AI invisibility | You don't know if ChatGPT or Gemini recommends you |
-| Slow lead response | You respond to leads manually, often hours later |
-| Missed calls | Calls go to voicemail after hours or during busy periods |
-| Stale reviews | Your last Google review is more than 60 days old |
-| Dead CRM leads | You have leads in your system you've never re-engaged |
+| Revenue Leak       | Sign You Have This Problem                               |
+| ------------------ | -------------------------------------------------------- |
+| AI invisibility    | You don't know if ChatGPT or Gemini recommends you       |
+| Slow lead response | You respond to leads manually, often hours later         |
+| Missed calls       | Calls go to voicemail after hours or during busy periods |
+| Stale reviews      | Your last Google review is more than 60 days old         |
+| Dead CRM leads     | You have leads in your system you've never re-engaged    |
 
 If three or more rows apply, the revenue impact is almost certainly in the five figures per year. Not because your business is broken - but because the infrastructure to capture what's already flowing toward you isn't in place.
 

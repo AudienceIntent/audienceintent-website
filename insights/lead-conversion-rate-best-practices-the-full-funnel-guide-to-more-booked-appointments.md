@@ -198,7 +198,7 @@ Channel fragmentation is one of the most underreported conversion problems in ap
 
 The data on omnichannel engagement is decisive. Businesses with a strong omnichannel approach — integrating website chat, social DMs, SMS, and phone — see a **287% higher conversion rate** than single-channel strategies. That's not a marginal improvement. That's a fundamentally different business outcome from the same marketing spend.
 
-## The Four Channels That Drive Appointment Conversions
+### The Four Channels That Drive Appointment Conversions
 
 Not all channels are equal. For appointment-based businesses, these four consistently drive the highest volume and the fastest path to booking:
 

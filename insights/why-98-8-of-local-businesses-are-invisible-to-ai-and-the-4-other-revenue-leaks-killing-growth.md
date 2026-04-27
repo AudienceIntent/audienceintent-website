@@ -135,8 +135,6 @@ This is the biggest and fastest-growing problem on the list, and most business o
 
 **That stat deserves a moment:** 98.8% of local businesses are invisible on the platform that now influences hundreds of millions of searches every week.
 
-![SOCi 2026 Local Visibility Index showing ChatGPT recommends only 1.2% of local businesses in AI search results](https://www.searchable.com/api/i/f301522a-5318-42f5-a743-ed70ff0f0dd4)
-
 [BrightLocal's 2026 Local Consumer Review Survey](https://www.brightlocal.com/research/local-consumer-review-survey/) found that 45% of consumers now use AI tools to find local services, up from just 6% one year ago. That's a 7x increase in twelve months. Meanwhile, [traditional search volume is projected to drop 25% by the end of 2026](https://audienceintent.ai/insights/the-search-bar-is-dying-and-local-businesses-are-unprepared-for-what-comes-next). The audience is migrating. Most businesses are not.
 
 ### Why Strong Google Rankings Don't Save You

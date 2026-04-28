@@ -110,7 +110,7 @@ schema: >-
     ]
   }
 ---
-![](/images/uploads/aeo.jpg)
+![AEO](/images/uploads/aeo.jpg "AEO")
 
 If you run a franchise or manage marketing across multiple locations, you've probably noticed that most "best AEO agencies" lists read like they were written for a SaaS startup. The shortlists are full of content marketing shops that specialize in blog posts, backlinks, and thought leadership for software companies. That's not what a dental group in six cities needs. It's not what a home services franchise with 40 locations needs either.
 
@@ -280,8 +280,6 @@ Here's what the data shows about where local search is heading:
 | AI traffic conversion rate           | 14.2% vs. Google's 2.8%                       | We Are Tenet           |
 | Local AEO vs. general SEO conversion | 4.4x higher for local intent                  | Digital Agency Network |
 | Zero-click search rate               | 75-82% of all searches                        | The Digital Elevator   |
-
-
 
 The zero-click figure is the one most local businesses haven't internalized. [Between 75% and 82% of searches now end without a click](https://thedigitalelevator.com/zero-click-searches/) - meaning the AI answer IS the result. If your business isn't the answer, there's no second chance.
 

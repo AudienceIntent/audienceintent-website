@@ -3,7 +3,7 @@ title: "Lead Conversion Rate Best Practices: The Full-Funnel Guide to More
   Booked Appointments"
 meta_title: "Lead Conversion Rates: 5 Full-Funnel Fixes"
 date: 2026-04-27T16:04:00.000-04:00
-category: Lead Conversion
+category: Conversion
 author: Kevin Bovett - AudienceIntent
 description: Turn more traffic into booked jobs with faster follow-up, better
   coverage, stronger reviews, and reactivation. See what is costing you revenue.

@@ -47,8 +47,6 @@ schema: >-
   }
 image: https://framerusercontent.com/images/NVcbIzTpEtutYjCgFoED2i8J9M.jpg
 ---
-
-
 > **Quick answer:** The best way to reactivate dormant customers is SMS-led, multi-channel outreach — starting within 90 days of the lead going cold. SMS delivers a 98% open rate and a 45% response rate on reactivation campaigns, compared to 21-28% open rates for email. The strongest results come from a coordinated sequence of SMS, email, and phone over 3 weeks.
 
 Most businesses spend thousands chasing new leads while sitting on a goldmine they have already paid for.

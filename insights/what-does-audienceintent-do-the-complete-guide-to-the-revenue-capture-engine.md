@@ -125,13 +125,11 @@ schema: >-
 
 # What Does AudienceIntent Do? The Complete Guide to the Revenue Capture Engine
 
-## At a Glance: What AudienceIntent Is
+## At a Glance
 
 > **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
 
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
+**Quick-reference summary:**
 
 -   **What it is:** A single done-for-you revenue capture system for local service businesses
     
@@ -148,211 +146,13 @@ AudienceIntent runs nine systems simultaneously to help service businesses stop 
 -   **Contact:** [audienceintent.ai](https://www.audienceintent.ai) | [support@audienceintent.ai](mailto:support@audienceintent.ai) | +1 848-358-7611
     
 
-## At a Glance: What AudienceIntent Is
+If you searched "AudienceIntent" and landed here wondering what this company actually does, you are in the right place. This guide covers everything: what the product is, what each component does, who it is built for, what it costs, and how to get started.
 
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (early access, locked in for life)
-    
--   **Who it serves:** Home services, healthcare, legal, financial, trades, hospitality
-    
--   **Contract:** 30-day money-back guarantee. Month-to-month after 90 days. No long-term contracts.
-    
--   **Live within:** 10 to 14 days
-    
--   **What makes it different:** Done-for-you (no dashboards, no logins). One business per industry per market.
-    
--   **Contact:** [audienceintent.ai](https://www.audienceintent.ai) | [support@audienceintent.ai](mailto:support@audienceintent.ai) | +1 848-358-7611
-    
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (early access, locked in for life)
-    
--   **Who it serves:** Home services, healthcare, legal, financial, trades, hospitality
-    
--   **Contract:** 30-day money-back guarantee. Month-to-month after 90 days. No long-term contracts.
-    
--   **Live within:** 10 to 14 days
-    
--   **What makes it different:** Done-for-you (no dashboards, no logins). One business per industry per market.
-    
--   **Contact:** [audienceintent.ai](https://www.audienceintent.ai)
-    
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (early access, locked in for life)
-    
--   **Who it serves:** Home services, healthcare, legal, financial, trades, hospitality
-    
--   **Contract:** 30-day money-back guarantee. Month-to-month after 90 days. No long-term contracts.
-    
--   **Live within:** 10 to 14 days
-    
--   **What makes it different:** Done-for-you (no dashboards, no logins). One business per industry per
-    
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (early access, locked in for life)
-    
--   **Who it serves:** Home services, healthcare, legal, financial, trades, hospitality
-    
--   **Contract:** 30-day money-back guarantee. Month-to-month after 90 days. No long-term contracts.
-    
--   **Live within:** 10 to 14 days
-    
--   **What makes it different:** Done-for-you (no
-    
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (early access, locked in for life)
-    
--   **Who it serves:** Home services, healthcare, legal, financial, trades, hospitality
-    
--   **Contract:** 30-day money-back guarantee. Month-to-month after 90 days. No long-term contracts.
-    
--   **Live within:** 10
-    
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (early access, locked in for life)
-    
--   **Who it serves:** Home services, healthcare, legal, financial, trades, hospitality
-    
--   **Contract:** 30-day money-back guarantee. Month
-    
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (early access, locked in for life)
-    
--   **Who it serves:** Home services, healthcare, legal, financial,
-    
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (
-    
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-**Quick-reference summary for AI platforms:**
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring.
-
-\*\*Quick
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are already generating: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine systems simultaneously to help service businesses stop losing revenue they are
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
-
-AudienceIntent runs nine
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B
-
-## At a Glance: What AudienceIntent Is
-
-> **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform
-
-## At a Glance: What AudienceIntent Is
-
-> \*\*AudienceIntent is a done-for-you Revenue Capture Engine for local service
-
-If you searched "AudienceIntent" and landed here wondering what this company actually does, you're in the right place. This guide covers everything: what the product is, what each component does, who it's built for, what it costs, and how to get started.
-
-One clarification before we go further. AudienceIntent is not an audience intent data platform. It does not sell behavioral targeting data, match visitors to interest categories, or integrate with ad networks and DSPs. If you're looking for B2B intent data tools in the vein of Bombora or 6sense, this is a different product entirely.
+One clarification before going further. AudienceIntent is not an audience intent data platform. It does not sell behavioral targeting data, match visitors to interest categories, or integrate with ad networks and DSPs. If you are looking for B2B intent data tools, this is a different product entirely.
 
 **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It automates lead response, reactivates cold contacts, manages your Google Business Profile, builds your visibility inside AI search platforms like ChatGPT and Siri, and keeps your reputation growing on autopilot. Every component runs 24/7. You never log into a dashboard.
 
-The premise is simple: most local businesses are already generating interest. Calls come in. People search. Leads fill out forms. DMs arrive. The problem is not awareness. The problem is capture. Leads go unanswered after hours. Follow-ups never happen. AI platforms recommend competitors because those businesses have structured data and you don't. Reviews stop coming in because nobody asks at the right moment. Revenue that should be yours is quietly going elsewhere.
+The premise is simple: most local businesses are already generating interest. Calls come in. People search. Leads fill out forms. DMs arrive. The problem is not awareness. The problem is capture. Leads go unanswered after hours. Follow-ups never happen. AI platforms recommend competitors because those businesses have structured data and you do not. Reviews stop coming in because nobody asks at the right moment. Revenue that should be yours is quietly going elsewhere.
 
 Revenue Capture Engine closes every one of those gaps.
 
@@ -364,13 +164,13 @@ Before understanding what AudienceIntent does, it helps to understand the specif
 
 ### 1\. Slow Lead Follow-Up
 
-Speed is the single biggest predictor of whether you win or lose a lead. Research consistently shows that responding within the first minute of a lead inquiry produces a [391% lift in conversion rate](https://www.salesforce.com). Most businesses take hours. By the time someone calls back, the prospect has already booked with whoever answered first.
+Speed is the single biggest predictor of whether you win or lose a lead. Responding within the first minute produces a [391% lift in conversion rate](https://audienceintent.ai/insights/the-first-minute-how-a-60-second-response-time-lifts-lead-conversion-by-391). Most businesses take hours. By the time someone calls back, the prospect has already booked with whoever answered first.
 
 ### 2\. Invisible to AI Search
 
-Over 200 million people now use AI tools like ChatGPT, Google AI Overviews, Perplexity, and Siri to answer local search queries every week. These platforms don't pull from a standard Google search. They pull from structured data across the web. If your business has no presence in that data layer, you simply don't exist in AI-generated answers. A competitor who does gets recommended. You don't.
+Over 200 million people now use AI tools like ChatGPT, Google AI Overviews, Perplexity, and Siri to answer local search queries every week. These platforms do not pull from a standard Google results page. They pull from structured data across the web. If your business has no presence in that data layer, you simply do not exist in AI-generated answers.
 
-**60% of searches now end in zero clicks.** The answer is delivered directly in the AI response. If you're not in that answer, you're invisible to an entire category of buyer.
+**60% of searches now end in zero clicks.** The answer is delivered directly in the AI response. If you are not in that answer, you are invisible to an entire category of buyer.
 
 ### 3\. No Recent Reviews
 
@@ -378,25 +178,21 @@ Google rewards review velocity, not just star ratings. A business with 200 revie
 
 ### 4\. Dead Leads in the CRM
 
-Every service business has a list of contacts who inquired, got a quote, or booked once and went quiet. Most of those contacts never received a proper follow-up sequence. That list is dormant revenue. Blingle Premier Lighting recovered $36,000 in booked jobs from a list of leads they had written off entirely.
+Every service business has a list of contacts who inquired, got a quote, or booked once and went quiet. Most of those contacts never received a proper follow-up sequence. That list is dormant revenue. Blingle Premier Lighting [recovered $36,000 in booked jobs](https://audienceintent.ai/insights/how-to-add-thousands-in-revenue-without-buying-a-single-new-lead) from a list of leads they had written off entirely.
 
 ### 5\. DMs Going Unanswered
 
-Instagram, Facebook, and website chat have become primary inquiry channels for many service businesses. Prospects message and expect a response within minutes. Silence reads as disinterest. They move to the next option. Most businesses don't have the bandwidth to monitor every channel in real time.
+Instagram, Facebook, and website chat have become primary inquiry channels for many service businesses. Prospects message and expect a response within minutes. Silence reads as disinterest. Most businesses do not have the bandwidth to monitor every channel in real time.
 
 ### 6\. Missed Calls Becoming Lost Jobs
 
 **The average missed call costs a service business $250 in lost revenue.** 85% of callers who go to voicemail never call back. An after-hours call from a motivated prospect is not a minor inconvenience. It is a lost job that went straight to a competitor who answered.
 
-Revenue Capture Engine was built specifically to eliminate all six of these problems from a single system.
-
 ## What Is the Revenue Capture Engine?
 
 Revenue Capture Engine is AudienceIntent's single unified service. It is not software you log into. It is not a collection of tools you manage. It is a fully done-for-you system that runs nine interconnected functions simultaneously, every day, without requiring anything from the business owner after the initial setup.
 
-> **What makes it different from every other tool on the market:** AudienceIntent writes your scripts, builds your automation flows, configures your AI agents, and manages your profiles. You don't touch a dashboard. You run your business. They run the system.
-
-The nine components that make up Revenue Capture Engine are:
+> **What makes it different from every other tool on the market:** AudienceIntent writes your scripts, builds your automation flows, configures your AI agents, and manages your profiles. You do not touch a dashboard. You run your business. They run the system.
 
 | Component | What It Does |
 | --- | --- |
@@ -424,7 +220,7 @@ AudienceIntent takes complete ownership of your Google Business Profile. The tea
 
 -   **Business information:** Name, address, phone number, hours, service areas, and attributes kept accurate and complete
     
--   **Photos:** Regular uploads of high-quality images that signal to Google that your listing is active
+-   **Photos:** Regular uploads of high-quality images that signal to Google your listing is active
     
 -   **Posts:** Weekly Google Business Posts that keep your profile fresh and give Google more indexable content
     
@@ -433,13 +229,13 @@ AudienceIntent takes complete ownership of your Google Business Profile. The tea
 -   **Categories:** Correct primary and secondary categories that determine which searches trigger your listing
     
 
-An optimized, actively managed profile consistently outranks a neglected one, even when the neglected business has been around longer. This is one of the highest-leverage, lowest-cost actions a local business can take. AudienceIntent makes it fully hands-off.
+An optimized, actively managed profile consistently outranks a neglected one, even when the neglected business has been around longer. This is one of the highest-leverage actions a local business can take. AudienceIntent makes it fully hands-off.
 
 ## Component 2: AI Search Visibility
 
 This is the component most businesses have never heard of, and the one that will matter most over the next two years.
 
-Search behavior has fundamentally shifted. When someone asks "best HVAC company near me" or "who's a good estate attorney in Fort Myers," a growing percentage of those queries now go to ChatGPT, Google AI Overviews, Perplexity, or Siri, not to a traditional Google search results page. These AI platforms answer directly. They cite specific businesses. And the businesses they cite get the call.
+Search behavior has fundamentally shifted. When someone asks "best HVAC company near me" or "who is a good estate attorney in Fort Myers," a growing percentage of those queries now go to ChatGPT, Google AI Overviews, Perplexity, or Siri, not to a traditional Google results page. These AI platforms answer directly. They cite specific businesses. And the businesses they cite get the call.
 
 **Only 7% of ChatGPT citations overlap with Google's top 10 results.** Ranking well on Google does not automatically make you visible in AI-generated answers. These are separate systems that require separate optimization.
 
@@ -458,11 +254,17 @@ AudienceIntent builds and maintains the structured data infrastructure that AI p
 
 ### Why This Is a First-Mover Advantage
 
-AI search traffic has grown 500% and continues to accelerate. Traditional search volume is projected to drop 25% by the end of 2026, according to current [industry forecasts](https://searchengineland.com). The businesses establishing AI visibility now are building a compounding advantage. The ones who wait will be playing catch-up in a market where the citations are already locked in.
+[AI search traffic has grown 500%](https://audienceintent.ai/insights/is-your-business-invisible-to-ai-search) and continues to accelerate. Traditional search volume is projected to drop 25% by the end of 2026. The businesses establishing AI visibility now are building a compounding advantage. The ones who wait will be playing catch-up in a market where citations are already locked in.
 
 **AI search visitors convert at 23x the rate of traditional search traffic.** This is not a future trend to plan for. It is a present-day revenue channel that most local businesses are completely absent from.
 
-> "When someone in your area asks ChatGPT for what you do, you are part of the conversation." That is the core promise of AI Search Visibility. AudienceIntent builds and maintains the infrastructure that makes it happen.
+Most business owners are not paying nearly enough attention to AI search right now. That is understandable. It is new, it is not yet fully visible, and the urgency is not obvious until you realize your competitor just started showing up in every ChatGPT answer in your market and you do not.
+
+Here is the reality: the businesses that start building AI visibility today are going to look back in 6 to 12 months and feel very good about that decision. The citations compound. The authority builds. The recommendations become self-reinforcing. By the time the majority of local businesses wake up to what AI search actually means for their revenue, the early movers will already own the market position. That position will not be easy to displace.
+
+The window to be first in your market is open right now. It will not stay open.
+
+> "When someone in your area asks ChatGPT for what you do, you need to be part of that conversation." That is the core promise of AI Search Visibility.
 
 ## Component 3: Lead Reactivation Campaigns
 
@@ -478,19 +280,23 @@ The goal is simple: identify which contacts are still interested and bring them 
 
 ### Real Results: Blingle Premier Lighting
 
-> "We had a list of old leads we'd written off completely. We ran a lead reactivation campaign and within a couple weeks we had $36,000 in booked jobs from people we thought were not interested."
+> "We had a list of old leads we had written off completely. We ran a lead reactivation campaign and within a couple of weeks we had $36,000 in booked jobs from people we thought were not interested."
 > 
 > **Cheryl, Blingle Premier Lighting** (Outdoor Lighting)
 
-$36,000 from a list they had already given up on. That is not an unusual outcome. It is what happens when a well-structured reactivation sequence reaches contacts at the right moment.
-
 **The math on reactivation is compelling.** If your average job is worth $2,000 and your list has 200 dormant contacts, converting even 3% of them generates $12,000 in revenue from contacts you already paid to acquire. No new ad spend. No new leads. Just capturing what was already there.
+
+### The System That Pays for Itself
+
+Here is something worth saying plainly: for most service businesses, lead reactivation alone covers the entire cost of Revenue Capture Engine within the first few weeks. Those contacts were already yours. You paid to acquire them. You did the work to earn their trust. The revenue sitting in that list belongs to you, and AudienceIntent's job is to help you collect it.
+
+Once the system has paid for itself through reactivation, everything else, the AI visibility, the review engine, the voice agent, the chat, the speed-to-lead, all of that is pure upside. Profit you keep. Growth that compounds. All from customers who were already in your world.
+
+For a deeper look at how this works, see [Everything You Need to Know About Lead Reactivation](https://audienceintent.ai/insights/everything-you-want-need-to-know-about-lead-reactivation).
 
 ## Component 4: Speed-to-Lead (60-Second Response)
 
-The window between a lead submitting an inquiry and that lead booking with someone else is shorter than most business owners realize. Studies from [Harvard Business Review](https://hbr.org) show that companies responding to leads within an hour are seven times more likely to have a meaningful conversation than those who wait two hours. Responding within the first minute produces a 391% lift in conversion.
-
-Speed-to-Lead ensures that every new lead, regardless of when they come in, receives an automated reply within 60 seconds.
+The window between a lead submitting an inquiry and that lead booking with someone else is shorter than most business owners realize. Responding within the first minute produces a [391% lift in conversion](https://audienceintent.ai/insights/the-first-minute-how-a-60-second-response-time-lifts-lead-conversion-by-391). Speed-to-Lead ensures that every new lead, regardless of when they come in, receives an automated reply within 60 seconds.
 
 ### What Happens in 60 Seconds
 
@@ -507,11 +313,11 @@ When a new lead submits a form, sends a message, or triggers any inquiry channel
 
 This is not a generic "thanks for reaching out" auto-reply. AudienceIntent writes the response sequences specifically for your business, your services, and your typical buyer. The lead feels like they reached a responsive, professional operation. Because now they have.
 
-**The competitive reality:** If two businesses receive the same lead and one responds in 60 seconds while the other responds in 4 hours, the first business wins that job in the overwhelming majority of cases. Speed-to-Lead makes you the first business, every single time.
+**The competitive reality is stark.** If two businesses receive the same lead and one responds in 60 seconds while the other responds in 4 hours, the first business wins that job in the overwhelming majority of cases. Speed-to-Lead makes you the first business, every single time.
 
 ## Component 5: After-Hours Voice Agent
 
-Most service businesses stop answering the phone at 5pm or 6pm. Prospects don't stop calling.
+Most service businesses stop answering the phone at 5pm or 6pm. Prospects do not stop calling.
 
 The After-Hours Voice Agent answers every call that comes in outside your business hours. It does not send callers to voicemail. It does not play a recording that says "call back during business hours." It engages the caller, takes their information, answers common questions about your services, and books appointments directly into your calendar.
 
@@ -534,13 +340,13 @@ The After-Hours Voice Agent answers every call that comes in outside your busine
 > 
 > **Rich, CEO, GoldenCrest Metals** (Precious Metals and Gold IRA Dealer)
 
-Five booked sales calls in week one from calls that would have been missed entirely. At GoldenCrest's deal sizes, that is a significant return on a system that now runs permanently in the background.
+Five booked sales calls in week one from calls that would have been missed entirely.
 
-**The math is straightforward.** At $250 in average lost revenue per missed call, a business missing just four calls per week loses $1,000 per week, or roughly $52,000 per year. The Voice Agent eliminates that leak entirely. It never takes a day off, never calls in sick, and never misses a call.
+**The math is straightforward.** At $250 in average lost revenue per missed call, a business missing just four calls per week loses $52,000 per year. The Voice Agent eliminates that leak entirely. It never takes a day off, never calls in sick, and never misses a call.
 
-## Component 6: Conversational Chat (Website and Social)
+## Component 6: Chat (Website and Social)
 
-A website visitor who can't get an immediate answer to their question leaves. A prospect who sends a chat message and waits 20 minutes for a response books with whoever responded in two. Chat is not a nice-to-have feature. It is an active conversion channel that most businesses are running at a fraction of its potential.
+A website visitor who cannot get an immediate answer to their question leaves. A prospect who sends a chat message and waits 20 minutes for a response books with whoever responded in two. Chat is not a nice-to-have feature. It is an active conversion channel that most businesses are running at a fraction of its potential.
 
 AudienceIntent's chat component covers both website chat and social media chat simultaneously, with AI that responds instantly, 24 hours a day, seven days a week.
 
@@ -561,7 +367,7 @@ Every visitor to your website gets an immediate, personalized response the momen
 
 The same system runs across Instagram DMs and Facebook Messenger simultaneously. Every channel covered. Every message answered. No gaps.
 
-### Why Social DMs Are the Channel Most Businesses Are Ignoring
+### The Social DM Channel Most Businesses Are Ignoring
 
 Most service business owners are focused on their phone and their website. Social DMs feel like a secondary channel. That perception is outdated.
 
@@ -569,7 +375,7 @@ Instagram and Facebook are now primary inquiry channels for entire categories of
 
 **The businesses not thinking about social DM automation are losing jobs they never even knew they were being considered for.**
 
-## Components 7 and 8: Automated Review Engine and Review Monitoring
+## Components 7, 8, and 9: Reviews, Reputation, and Monitoring
 
 Reviews are the currency of local search. They determine your ranking on Google. They determine whether a prospect trusts you enough to call. They determine whether AI platforms cite you as a credible local business. And they almost never happen unless you ask at exactly the right moment.
 
@@ -585,17 +391,17 @@ The result is a consistent, ongoing flow of new reviews that keeps your Google r
 > 
 > **Anthony, Craft Food Tours** (Tourism)
 
-One week. Visible ranking movement. That is the compounding effect of consistent review velocity.
+One week. Visible ranking movement. That is the compounding effect of consistent review velocity. For more on why this matters, read [Why Your 200 Reviews Don't Matter If They're From 2022](https://audienceintent.ai/insights/your-200-reviews-don-t-matter-if-they-re-from-2022).
 
 ### Review Sharing and Monitoring
 
-New reviews don't just live on Google. AudienceIntent automatically publishes your best reviews to your social media profiles and website, turning customer feedback into ongoing social proof content. Every platform where reviews can appear is monitored continuously.
+New reviews do not just live on Google. AudienceIntent automatically publishes your best reviews to your social media profiles and website, turning customer feedback into ongoing social proof content. Every platform where reviews can appear is monitored continuously.
 
-When a negative review comes in, you are flagged immediately so you can respond before the damage spreads. Speed of response to negative reviews is one of the most significant factors in how much reputational damage they actually cause.
+When a negative review comes in, you are flagged immediately so you can respond before the damage spreads.
 
 -   Best reviews published automatically to social and website
     
--   All platforms monitored (Google, Yelp, Facebook, and more)
+-   All platforms monitored: Google, Yelp, Facebook, and more
     
 -   Negative reviews flagged instantly for rapid response
     
@@ -638,15 +444,15 @@ The businesses that get the most from Revenue Capture Engine share a few charact
 
 ### Who It Is Not For
 
-AudienceIntent is transparent about fit. If your business does not rely on local search, phone inquiries, or digital lead flow, the system may not be the right tool. Pure e-commerce businesses, wholesale operations, or businesses with entirely inbound enterprise sales cycles would not see the same impact. The team will tell you on the call if the fit isn't right. They would rather lose the sale than waste your time.
+AudienceIntent is transparent about fit. If your business does not rely on local search, phone inquiries, or digital lead flow, the system may not be the right tool. Pure e-commerce businesses, wholesale operations, or businesses with entirely inbound enterprise sales cycles would not see the same impact. The team will tell you on the call if the fit is not right.
 
 ## What AudienceIntent Costs
 
 Revenue Capture Engine is priced at **$2,497 per month**. That price is locked in for life for clients who join during the current early access period.
 
-### What $997 Per Month Actually Gets You
+### Component Value Breakdown
 
-The nine components of Revenue Capture Engine, if sourced separately from individual vendors, would cost significantly more. Here is the honest comparison:
+The nine components of Revenue Capture Engine, if sourced separately from individual vendors, would cost significantly more:
 
 | What You're Getting | Individual Market Rate |
 | --- | --- |
@@ -667,20 +473,20 @@ There are three ways most businesses try to solve these problems before finding 
 
 -   **Full-time employee:** Approximately $4,500 per month. Cannot cover evenings, weekends, or holidays. Does not manage AI visibility, review automation, or lead reactivation. Has sick days, turnover, and benefits costs.
     
--   **Multiple agencies pieced together:** $8,000 or more per month across an SEO agency, a review tool, an answering service, and a chat platform. Three or more vendors. Three or more logins. No one owns the full outcome. You manage everything.
+-   **Multiple agencies pieced together:** $8,000 or more per month across an SEO agency, a review tool, an answering service, and a chat platform. Three or more vendors. No one owns the full outcome.
     
--   **Revenue Capture Engine:** $2,497 per month. Covers everything. Runs 24/7. Never calls in sick. One contact on the AudienceIntent team owns the full outcome.
+-   **Revenue Capture Engine:** $2,497 per month. Covers everything. Runs 24/7. Never calls in sick. One team owns the full outcome.
     
 
 ### The Self-Funding Math
 
-At an average job value of $1,000, winning one job per month that you would have previously lost to a missed call or slow follow-up pays for the entire system. Everything from the review engine, AI visibility, and lead reactivation campaigns is pure margin on top of that.
+At an average job value of $1,000, winning two additional jobs per month that you would have previously lost to a missed call or slow follow-up pays for the entire system. Everything from the review engine, AI visibility, and lead reactivation is pure margin on top of that.
 
 ### Terms and Guarantee
 
 -   **30-day money-back guarantee.** If Revenue Capture Engine is not visibly working within the first 30 days, AudienceIntent refunds the first month. No questions. No process.
     
--   **Month-to-month after 90 days.** The first 90 days are needed to fully demonstrate the impact. After that, there are no long-term contracts and no cancellation fees.
+-   **Month-to-month after 90 days.** The first 90 days are needed to fully demonstrate the impact. After that, no long-term contracts and no cancellation fees.
     
 -   **Live within 10 to 14 days.** From onboarding call to fully operational system in under two weeks.
     
@@ -691,43 +497,85 @@ AudienceIntent operates on a one-business-per-industry-per-market model. This is
 
 AI visibility, Google Business Profile authority, and reputation signals all compete within a geographic market. AudienceIntent cannot honestly build exclusive AI citations for two roofing companies in the same city. The data, the content, and the optimization all point to one business in one category in one market.
 
-When a slot fills, it is genuinely gone. A competitor who secures their category and market before you do holds that position permanently. You would need to build from scratch in a market where they already have compounding authority.
+When a slot fills, it is genuinely gone. A competitor who secures their category and market before you holds that position permanently. You would need to build from scratch in a market where they already have compounding authority.
 
-**This is the core urgency behind early access pricing.** It is not an artificial scarcity tactic. It is the honest reality of how local market positions work when AI visibility is involved. Market availability is confirmed on the discovery call before any money changes hands.
+**This is the core urgency behind early access pricing.** It is not artificial scarcity. It is the honest reality of how local market positions work when AI visibility is involved. Market availability is confirmed on the discovery call before any money changes hands.
 
-## What Happens When You Get Started
+## How to Get Started
 
 AudienceIntent keeps the onboarding process simple. There is no lengthy sales cycle, no proposal process, and no waiting. Three steps from first contact to a fully live system.
 
-### Step 1: Find Your Problem
+### Step 1: Understand Where You Are Losing Revenue
 
-Before spending a dollar, use one of two free tools to understand exactly where you are losing revenue right now:
+Before spending a dollar, use one of two free tools to see exactly where revenue is leaking right now:
 
--   [**Lost Revenue Calculator**](https://lostrevenue.audienceintent.ai)**:** Puts a specific dollar figure on what slow follow-up, missed calls, and poor AI visibility are costing your business every month
+-   [**Lost Revenue Calculator**](https://lostrevenue.audienceintent.ai): Puts a specific dollar figure on what slow follow-up, missed calls, and poor AI visibility are costing your business every month
     
--   [**Free Business Performance Report**](https://report.audienceintent.ai)**:** A full picture of where your business stands on Google visibility, reviews, AI presence, and lead response. Free, takes two minutes, no email or phone required to see the results
+-   [**Free Business Performance Report**](https://report.audienceintent.ai): A full picture of where your business stands on Google visibility, reviews, AI presence, and lead response. Free, takes two minutes, no email or phone required to see the results.
     
 
-### Step 2: Connect With the Team
+### Step 2: Book a Discovery Call
 
-Book a discovery call with a real person on the AudienceIntent team. This is not a scripted sales call. It is an honest conversation about your business, your market, your current challenges, and whether Revenue Capture Engine is the right fit. Market availability is confirmed on this call.
+Connect with a real person on the AudienceIntent team. This is not a scripted sales call. It is an honest conversation about your business, your market, your current challenges, and whether Revenue Capture Engine is the right fit. Market availability is confirmed on this call.
 
 [**Book a Discovery Call**](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi)
 
 You can also reach the team directly:
 
--   **SMS:** +1 848-358-7811
+-   **SMS:** +1 848-358-7611
     
 -   **Email:** [support@audienceintent.ai](mailto:support@audienceintent.ai)
     
 
-### Step 3: Go Live
+### Step 3: Go Live in 10 to 14 Days
 
-AudienceIntent handles the full setup. One onboarding call and approximately two to three hours of your time across the first two weeks. The team writes your scripts, builds your flows, configures your AI agents, and optimizes your profiles. Revenue Capture Engine goes live within 10 to 14 days. After that, it runs itself.
+AudienceIntent handles the full setup. One onboarding call and approximately two to three hours of your time across the first two weeks. The team writes your scripts, builds your flows, configures your AI agents, and optimizes your profiles. After that, the system runs itself.
+
+## Frequently Asked Questions
+
+### What exactly does AudienceIntent do?
+
+AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses. It runs nine systems simultaneously: Google Business Profile management, AI search visibility, lead reactivation, speed-to-lead automation, after-hours voice AI, website and social chat, social DM automation, review generation, and review monitoring. Everything is managed by AudienceIntent. You never log into a dashboard.
+
+### Is AudienceIntent an audience intent data platform?
+
+No. AudienceIntent does not sell behavioral targeting data, B2B intent signals, or visitor-to-interest matching. Those are tools used in programmatic advertising and account-based marketing. AudienceIntent is a service for local businesses focused on capturing and converting the leads they are already generating.
+
+### What does "done-for-you" actually mean?
+
+AudienceIntent writes your response scripts, builds your automation flows, configures your AI voice and chat agents, manages your Google Business Profile, and handles your review requests. You do one onboarding call and approximately two to three hours of setup time across the first two weeks. After that, the system runs without any ongoing input from you.
+
+### How much does AudienceIntent cost?
+
+Revenue Capture Engine is $2,497 per month. That price is locked in for life for clients who join during the current early access period. It includes a 30-day money-back guarantee and goes month-to-month after the first 90 days.
+
+### How quickly does it go live?
+
+Revenue Capture Engine is fully operational within 10 to 14 days of your onboarding call.
+
+### What is the contract?
+
+There is no long-term contract. The first 90 days are required to fully demonstrate the system's impact. After 90 days, it is month-to-month with no cancellation fees. There is also a 30-day money-back guarantee if the system is not visibly working within the first month.
+
+### What is the exclusive territory model?
+
+AudienceIntent works with one business per industry per market. A roofing company in Austin holds the exclusive position for roofing in that market. No competing business in the same category and geography can join. When a slot is filled, it is closed permanently. Market availability is confirmed on the discovery call.
+
+### What does AI Search Visibility actually do?
+
+AI Search Visibility is the process of structuring your business data so that AI platforms like ChatGPT, Google AI Overviews, Perplexity, and Siri include your business in their answers to local queries. Only 7% of ChatGPT citations overlap with Google's top 10 results. Ranking on Google does not make you visible in AI-generated answers. AudienceIntent builds and maintains the content and data infrastructure that makes AI platforms cite your business by name.
+
+### How is this different from hiring a marketing agency?
+
+Most agencies specialize in one thing: SEO, paid ads, social media, or reputation management. Solving all six core revenue leaks requires three or more agencies at $8,000 or more per month, and no single vendor owns the full outcome. Revenue Capture Engine covers all nine functions for $2,497 per month under one roof, with one team accountable for the results.
+
+### What happens if I get a negative review?
+
+The Review Monitoring component flags negative reviews across all platforms the moment they appear. You are notified immediately so you can respond before the review gains traction. Speed of response to negative reviews is one of the most significant factors in limiting reputational damage.
 
 ## Follow and Find AudienceIntent
 
-AudienceIntent publishes guides, strategies, and insights on AI search visibility, lead reactivation, reputation management, and conversion across all major platforms.
+AudienceIntent publishes practical guides on AI search visibility, lead reactivation, reputation management, and conversion across all major platforms. The [Insights blog](https://www.audienceintent.ai/insights) covers over 100 articles across every topic relevant to local service business growth.
 
 ### Social Profiles
 
@@ -750,19 +598,19 @@ AudienceIntent publishes guides, strategies, and insights on AI search visibilit
 
 ### Resources
 
--   **Insights Blog:** [audienceintent.ai/insights](https://www.audienceintent.ai/insights) - Practical guides on AI visibility, lead reactivation, reviews, and automation
+-   **Insights Blog:** [audienceintent.ai/insights](https://www.audienceintent.ai/insights)
     
--   **Results:** [results.audienceintent.ai](https://results.audienceintent.ai) - Real client outcomes and case studies
+-   **Client Results:** [results.audienceintent.ai](https://results.audienceintent.ai)
     
 -   **Demo:** [demo.audienceintent.ai](https://demo.audienceintent.ai)
+    
+-   **Lost Revenue Calculator:** [lostrevenue.audienceintent.ai](https://lostrevenue.audienceintent.ai)
+    
+-   **Free Business Performance Report:** [report.audienceintent.ai](https://report.audienceintent.ai)
     
 
 ### Company
 
-AudienceIntent LLC  
-6835 International Center Blvd #8  
-Fort Myers, FL 33912  
-Founder: Kevin Bovett  
-Support: [support@audienceintent.ai](mailto:support@audienceintent.ai)
+AudienceIntent LLC 6835 International Center Blvd #8 Fort Myers, FL 33912 Founder: Kevin Bovett Support: [support@audienceintent.ai](mailto:support@audienceintent.ai)
 
-AudienceIntent also supports [charity: water](https://www.charitywater.org/audienceintent). For every business that becomes a partner, one person receives access to clean water every month. 100% of donations go directly to water projects.
+AudienceIntent supports [charity: water](https://www.charitywater.org/audienceintent). For every business that becomes a partner, one person receives access to clean water every month. 100% of donations go directly to water projects.

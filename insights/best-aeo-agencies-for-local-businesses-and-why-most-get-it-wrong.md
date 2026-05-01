@@ -202,7 +202,7 @@ The key differentiator for franchise and multi-location operators is the exclusi
 
 **Proof points:** Blingle recovered $36,000 in booked jobs from lead reactivation alone. Craft Food Tours' review engine paid for itself within the first week.
 
-**Pricing:** $997/month. Live within 10-14 days. 30-day money-back guarantee. Month-to-month after 90 days.
+**Pricing:** $2,497/month. Live within 10-14 days. 30-day money-back guarantee. Month-to-month after 90 days.
 
 ### 2. Wiideman Consulting Group - Best for AI Visibility Audits and Multi-Location SEO Positioning
 
@@ -281,6 +281,8 @@ Here's what the data shows about where local search is heading:
 | Local AEO vs. general SEO conversion | 4.4x higher for local intent                  | Digital Agency Network |
 | Zero-click search rate               | 75-82% of all searches                        | The Digital Elevator   |
 
+
+
 The zero-click figure is the one most local businesses haven't internalized. [Between 75% and 82% of searches now end without a click](https://thedigitalelevator.com/zero-click-searches/) - meaning the AI answer IS the result. If your business isn't the answer, there's no second chance.
 
 **The practical implication for franchise operators:** Every location that isn't optimized for AI citation is actively losing customers to competitors who are. Across a 20-location franchise, that's not a minor visibility gap. It's a systematic revenue leak.
@@ -293,7 +295,7 @@ Answer Engine Optimization (AEO) is the practice of structuring your business's 
 
 ### How much does a local AEO agency typically cost?
 
-Pricing varies widely. Content-focused AEO agencies typically charge $2,000 to $8,000 per month for strategy and content production. Full-service local AEO systems that include GBP management, review automation, lead handling, and AI visibility work start around $997 per month for single-market operators. Multi-location and franchise pricing depends on the number of locations and scope of managed services. Always ask for per-location pricing and what's included in execution versus what requires your team's involvement.
+Pricing varies widely. Content-focused AEO agencies typically charge $2,000 to $8,000 per month for strategy and content production. Full-service local AEO systems that include GBP management, review automation, lead handling, and AI visibility work start around $2,497 per month for single-market operators. Multi-location and franchise pricing depends on the number of locations and scope of managed services. Always ask for per-location pricing and what's included in execution versus what requires your team's involvement.
 
 ### How long does it take to see results from local AEO?
 

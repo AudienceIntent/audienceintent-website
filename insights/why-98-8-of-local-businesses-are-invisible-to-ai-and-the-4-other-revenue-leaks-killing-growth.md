@@ -198,6 +198,8 @@ Most businesses assume missed calls are an edge case. They're not. Here's when i
 | Lunch hours        | Team is out, phones go to voicemail    |
 | High-volume days   | Multiple calls arriving simultaneously |
 
+
+
 For a business that misses just 5 calls per week, that's 20 missed calls per month. At $250 per missed call, that's **$5,000 in lost monthly revenue** - $60,000 per year - from a problem that feels invisible because it's never tracked.
 
 The math gets worse when you factor in lifetime customer value. A missed plumbing call isn't just a $350 repair lost. It's a customer relationship that could generate multiple jobs over years.
@@ -254,6 +256,8 @@ Most owners move on to buying new leads because it feels simpler. But compare th
 | Cold outreach to new prospects | High time cost | 1-5%                    |
 | Reactivating old CRM leads     | Near zero      | 15-30%                  |
 
+
+
 The businesses that treat their CRM as a revenue asset consistently outperform on cost-per-acquisition. [The psychology behind why old leads convert](https://audienceintent.ai/insights/the-psychology-of-lead-reactivation-why-old-leads-are-your-easiest-wins) is straightforward: familiarity reduces friction. A prospect who already knows your business name is far easier to convert than a cold stranger who found you on Google five minutes ago.
 
 ### What Effective Reactivation Looks Like
@@ -289,6 +293,8 @@ Run through this diagnostic honestly:
 | Missed calls       | Calls go to voicemail after hours or during busy periods |
 | Stale reviews      | Your last Google review is more than 60 days old         |
 | Dead CRM leads     | You have leads in your system you've never re-engaged    |
+
+
 
 If three or more rows apply, the revenue impact is almost certainly in the five figures per year. Not because your business is broken - but because the infrastructure to capture what's already flowing toward you isn't in place.
 

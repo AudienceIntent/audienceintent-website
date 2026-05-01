@@ -263,7 +263,7 @@ The goal is simple: identify which contacts are still interested and bring them 
 ### Real Results: Blingle Premier Lighting
 
 > "We had a list of old leads we had written off completely. We ran a lead reactivation campaign and within a couple of weeks we had $36,000 in booked jobs from people we thought were not interested."
-> **Cheryl, Blingle Premier Lighting** (Outdoor Lighting)
+**Cheryl, Blingle Premier Lighting** (Outdoor Lighting)
 
 **The math on reactivation is compelling.** If your average job is worth $2,000 and your list has 200 dormant contacts, converting even 3% of them generates $12,000 in revenue from contacts you already paid to acquire. No new ad spend. No new leads. Just capturing what was already there.
 

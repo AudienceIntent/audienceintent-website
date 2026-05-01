@@ -197,6 +197,8 @@ Revenue Capture Engine is AudienceIntent's single unified service. It is not sof
 | Automated Review Engine              | Sends review requests after every job at the perfect moment      |
 | Review Sharing and Monitoring        | Publishes best reviews, monitors all platforms, flags negatives  |
 
+
+
 Each component is covered in detail below.
 
 ## Component 1: Google Business Profile Optimization

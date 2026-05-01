@@ -115,7 +115,6 @@ schema: >-
   }
 image: https://framerusercontent.com/images/26XQbXmiXsxAH0hD3yxltoxJkDg.jpg
 ---
-
 > **Quick answer:** Lead reactivation is the process of re-engaging dormant contacts in your CRM who expressed interest but never converted. For service businesses, it consistently delivers 10 to 20x ROI compared to new lead acquisition — because the contacts are pre-qualified, the acquisition cost is already paid, and the probability of conversion is 3 to 5x higher than cold outreach.
 
 Every month you spend chasing new leads, there is a quieter problem bleeding your business dry. It is sitting in your CRM right now. Hundreds, maybe thousands, of people who once raised their hand and said "I'm interested" — and then went silent.
@@ -142,10 +141,12 @@ The probability of converting a cold prospect sits between 5% and 20%. Compare t
 
 Acquiring a new customer costs 5 to 25 times more than reactivating an existing lead. Yet most service businesses pour the majority of their marketing budget into acquisition, ignoring the far cheaper and more convertible contacts already in their database.
 
-| Approach | Conversion Rate | Cost per 1,000 Contacts |
-| --- | --- | --- |
-| New leads via paid ads | 2-5% | $5,000-$15,000 |
-| Reactivated dormant leads | 10-25% | $300-$1,500 |
+| Approach                  | Conversion Rate | Cost per 1,000 Contacts |
+| ------------------------- | --------------- | ----------------------- |
+| New leads via paid ads    | 2-5%            | $5,000-$15,000          |
+| Reactivated dormant leads | 10-25%          | $300-$1,500             |
+
+
 
 The cost difference is 5 to 10x. The conversion rate advantage is 3 to 5x. Every dollar spent on reactivation outperforms every dollar spent on acquisition — and you have already paid the acquisition cost on those dormant leads.
 
@@ -171,12 +172,9 @@ That is the core advantage of dormant leads. They are pre-warmed. They are pre-q
 
 Consider what this looks like in practice for a service business with a reasonably active CRM:
 
--   500 dormant leads at a conservative 10% reactivation rate = 50 new appointments
-    
--   Average job value of $2,000 = $100,000 in recovered revenue
-    
--   Cost to run the reactivation campaign = a fraction of what 50 new leads would cost to acquire
-    
+* 500 dormant leads at a conservative 10% reactivation rate = 50 new appointments
+* Average job value of $2,000 = $100,000 in recovered revenue
+* Cost to run the reactivation campaign = a fraction of what 50 new leads would cost to acquire
 
 **Businesses running systematic reactivation report 10 to 20x ROI** compared to 3 to 5x for new paid leads. The math is not complicated. The opportunity is sitting there. The question is whether you act on it before your competitors do.
 
@@ -184,11 +182,11 @@ Consider what this looks like in practice for a service business with a reasonab
 
 If the ROI case is this clear, why do so few service businesses run consistent reactivation campaigns? Three reasons.
 
-**1\. They assume old leads are dead.** The "not ready" tag becomes a permanent label. Nobody revisits it. The lead sits until the CRM gets cleaned out or the business closes.
+**1. They assume old leads are dead.** The "not ready" tag becomes a permanent label. Nobody revisits it. The lead sits until the CRM gets cleaned out or the business closes.
 
-**2\. Manual follow-up does not scale.** Calling through hundreds of dormant contacts one by one is not realistic for a small team. Without a system to automate outreach, reactivation stays on the to-do list indefinitely.
+**2. Manual follow-up does not scale.** Calling through hundreds of dormant contacts one by one is not realistic for a small team. Without a system to automate outreach, reactivation stays on the to-do list indefinitely.
 
-**3\. New lead generation feels more productive.** There is a psychological pull to acquisition. New leads feel like progress. Reactivation feels like going backward. That perception is wrong, but it is real.
+**3. New lead generation feels more productive.** There is a psychological pull to acquisition. New leads feel like progress. Reactivation feels like going backward. That perception is wrong, but it is real.
 
 The result: most businesses leave this revenue on the table permanently. That is not a problem. That is an opening.
 
@@ -252,13 +250,15 @@ The technology to do this at scale now exists and can be live within days, not m
 
 Lead reactivation is measurable from day one. Unlike brand campaigns or long-term SEO efforts, you know quickly whether the outreach is generating results. Track these metrics to evaluate performance and improve over time.
 
-| Metric | What It Measures | Benchmark |
-| --- | --- | --- |
-| Reactivation rate | % of dormant contacts who re-engage | 10-25% for a healthy campaign |
-| Conversion rate | % of reactivated leads that book or buy | 30%+ vs. 10% for new leads |
-| Revenue per reactivated lead | Average revenue generated per contact closed | Compare to new lead revenue |
+| Metric                        | What It Measures                             | Benchmark                               |
+| ----------------------------- | -------------------------------------------- | --------------------------------------- |
+| Reactivation rate             | % of dormant contacts who re-engage          | 10-25% for a healthy campaign           |
+| Conversion rate               | % of reactivated leads that book or buy      | 30%+ vs. 10% for new leads              |
+| Revenue per reactivated lead  | Average revenue generated per contact closed | Compare to new lead revenue             |
 | Cost per reactivated customer | Total campaign cost divided by customers won | Should be 5-10x lower than new lead CAC |
-| Response time | Time from re-engagement to first reply | Under 1 minute for best results |
+| Response time                 | Time from re-engagement to first reply       | Under 1 minute for best results         |
+
+
 
 The most important number is the last one in your own business: what does it cost you to acquire a new customer today, versus what does it cost to reactivate a dormant one?
 
@@ -305,4 +305,3 @@ A well-executed campaign targeting a reasonably fresh list (leads from the past 
 ### Do I need a large CRM to make reactivation worthwhile?
 
 No. Even a list of 200 to 300 dormant leads can generate meaningful revenue. At a 15% reactivation rate and an average job value of $1,500, that is 30 to 45 new appointments from contacts you already own. The ROI calculation almost always favors reactivation over buying new leads, regardless of list size.
-

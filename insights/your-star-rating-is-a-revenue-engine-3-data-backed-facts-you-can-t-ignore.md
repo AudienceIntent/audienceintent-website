@@ -3,6 +3,7 @@ title: "Your Star Rating is a Revenue Engine: 3 Data-Backed Facts You Can't Igno
 date: 2026-02-05
 category: Growth
 image: https://framerusercontent.com/images/0wzUFSCESTzRtGWhBdaoALx16Sg.jpg
+author: Kevin Bovett
 description: "### **Beyond Vanity Metrics** For many business owners, online
   reviews feel like a 'nice-to-have'—a digital pat on the back that looks good
   but doesn't seem to ..."

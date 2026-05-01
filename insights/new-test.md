@@ -200,6 +200,8 @@ The same principle applies to your services section. Do not just list broad labe
 | Plumbing        | Drain cleaning, water heater repair, pipe replacement |
 | Aesthetics      | Botox, microneedling, laser skin resurfacing          |
 
+
+
 The more specific and accurate you are, the easier it is for Google to connect your profile to the right searches.
 
 Clarity wins every time.

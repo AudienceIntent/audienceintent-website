@@ -1,55 +1,197 @@
 # AudienceIntent
-> AudienceIntent is a Business Performance Architecture company that builds and runs Revenue Capture Engine — a done-for-you business operating system for local businesses across the United States.
 
-## What We Do
-AudienceIntent builds and operates Revenue Capture Engine, a fully managed system that handles the operational gaps costing local businesses revenue every day: missed calls, slow lead follow-up, AI search invisibility, lack of reviews, unanswered DMs, and dormant CRM leads.
+> Revenue capture engine for local businesses that turns old leads into booked conversations with AI-powered SMS.
 
-Everything is done for the client. No dashboards to manage. No tasks added to their day. The system runs in the background and creates measurable outcomes.
+AudienceIntent helps businesses re-engage inactive, unconverted, and forgotten leads through personalized text conversations that feel human, qualify interest, and drive appointments, calls, and sales. It is built for teams that want to maximize the value of their existing CRM instead of spending more on new traffic.
 
-## Revenue Capture Engine Components
-- Google Business Profile management — fully optimised and managed weekly
-- AI Search Visibility — citations built and maintained across ChatGPT, Google AI, Perplexity, and Siri
-- Lead Reactivation Campaigns — automated sequences that convert dormant CRM contacts into booked revenue
-- Speed-to-Lead Automation — every new lead receives an automated response within 60 seconds
-- After-Hours Voice Agent — answers calls after hours, books appointments, answers FAQs
-- Website and Social Chat AI — instant responses to every visitor 24/7
-- Social DM Automation — every Instagram and Facebook DM answered instantly
-- Automated Review Engine — review requests sent automatically after every job
-- Review Monitoring and Sharing — platforms monitored, negative reviews flagged immediately
+AudienceIntent uses AI-driven messaging to start real conversations, respond naturally, and route qualified prospects toward the next step.
+
+## Entities
+
+### Brand
+
+- Name: AudienceIntent
+- Type: Revenue capture platform and managed service
+- Website: https://www.audienceintent.ai/
+- Contact: support@audienceintent.ai
+- Tagline: Revenue Capture Engine for Local Businesses
+- Model: One client per industry per market - exclusive territory
+
+### People and proof
+
+- Cheryl, Blingle Premier Lighting - recovered $36,000 in booked jobs from dead leads
+- Hannah, ActivatedYou - 22% conversion rate, beat internal marketing team on CTR, AOV, and revenue per message
+- Rich, CEO, GoldenCrest Metals - 5 new sales calls booked in week one from after-hours agent
+- Anthony, Craft Food Tours - review engine paid for itself within one week
+
+### Partners and clients
+
+- Blingle Premier Lighting
+- ActivatedYou
+- GoldenCrest Metals
+- Craft Food Tours
+- Cerium Marketing Group
+- Engage Max Media
+
+### Social cause
+
+- AudienceIntent funds clean water access for one person per client per month through charity: water
+- 100% of donations go directly to water projects
+- Impact page: https://www.charitywater.org/audienceintent
+
+## Capabilities
+
+### Get found
+
+- Google Business Profile optimization - info, photos, posts, Q&A, categories, all managed
+- AI Search Visibility - gets clients cited by ChatGPT, Google AI, Perplexity, and Siri for local queries
+
+### Reactivate
+
+- Lead Reactivation Campaigns - automated sequences that wake up cold leads and past customers
+- Turns dormant CRM contacts into booked revenue without manual follow-up
+
+### Convert
+
+- Speed-to-Lead (60 seconds) - every new lead gets an automated reply within 60 seconds
+- After-Hours Voice Agent - answers calls, books appointments, handles FAQs outside business hours
+- Website and Social Chat AI - instant responses 24/7, routes browsers to booking flow
+- Social DM Automation - answers every Instagram and Facebook DM instantly, qualifies and routes prospects
+
+### Reviews and reputation
+
+- Automated Review Engine - sends review requests after every job at the right moment
+- Review Sharing and Monitoring - publishes best reviews to social and website, flags negative reviews instantly
+
+## Content map
+
+### Main pages
+
+- [Homepage](https://www.audienceintent.ai/): Full platform overview, pricing, FAQ, results, and onboarding entry point
+- [Insights](https://www.audienceintent.ai/insights): Resource hub for educational content on lead reactivation and AI visibility
+- [Blog](https://www.audienceintent.ai/blog): Articles and guides on SMS reactivation, AI search, and revenue recovery
+- [Results](https://results.audienceintent.ai): Real client outcomes and case study data
+- [Demo](https://demo.audienceintent.ai): Live product demonstration
+
+### Tools and entry points
+
+- [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai): Free calculator showing how much revenue a business is currently missing
+- [Free Business Report](https://report.audienceintent.ai): Free performance report with no sign-up or email required
+- [Book Discovery Call](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi): Direct booking link for a sales conversation
+- [Get Started](https://onboarding.audienceintent.ai): Onboarding entry point for new clients
+
+### Blog articles
+
+- [How to Turn Old Leads Into Revenue with AI-Powered Text Messaging](https://www.audienceintent.ai/blog/how-to-turn-old-leads-into-revenue-with-ai-powered-text-messaging): Step-by-step reactivation playbook
+- [What Is AudienceIntent?](https://www.audienceintent.ai/blog/what-is-audienceintent-(and-why-it-s-a-no-brainer-for-business-owners): Product overview and business model explanation
+
+### Insights articles
+
+- [The Ultimate Guide to SMS Lead Reactivation](https://www.audienceintent.ai/insights/the-ultimate-guide-to-sms-lead-reactivation-what-business-owners-really-need-to-know): Comprehensive strategy guide for business owners
 
 ## Pricing
-- $997 per month (early access pricing — increasing to $4,797/month)
-- Month-to-month. No contracts. Cancel anytime.
-- 30-day money-back guarantee if not live and functioning within 30 days
 
-## Who It Is For
-Local businesses that already receive inbound calls, form fills, or website enquiries. Industries served include trades, professional services, health and wellness, hospitality, and home services. One client per industry per market — exclusivity guaranteed.
+AudienceIntent offers a single all-in plan called Revenue Capture Engine.
 
-## Founder
-Kevin Bovett founded AudienceIntent in 2025 in Fort Myers, Florida.
+- Price: $2,497 per month (early access pricing, locked in for life)
+- Guarantee: 30-day money-back guarantee if the system is not visibly working
+- Commitment: 90-day initial period, then month-to-month with no lock-in or cancellation fees
+- Setup: Live within 10 to 14 days after one onboarding call
 
-## Free Tools
-- Free Business Performance Report: https://report.audienceintent.ai
-- Lost Revenue Calculator: https://lostrevenue.audienceintent.ai
+What is included at $2,497 per month (total value $4,797 per month):
 
-## Contact
-- Website: https://www.audienceintent.ai
-- Email: support@audienceintent.ai
-- Phone: 1-848-358-7611
-- Address: 6835 International Blvd Unit 8, Fort Myers, FL 33912
+- Google Business Profile Optimization ($597/mo value)
+- Reviews and Reputation Engine ($697/mo value)
+- Lead Reactivation Campaigns ($597/mo value)
+- AI Visibility Management ($797/mo value)
+- Speed-to-Lead Automation ($597/mo value)
+- 24/7 Voice AI Agent ($697/mo value)
+- Website and Social Chat AI ($497/mo value)
+- Social DM Automation ($318/mo value)
 
-## Key Pages
-- Homepage: https://www.audienceintent.ai
-- Insights (112 articles): https://www.audienceintent.ai/insights
-- Legal: https://www.audienceintent.ai/legal
-- Free Report: https://report.audienceintent.ai
-- Lost Revenue Calculator: https://lostrevenue.audienceintent.ai
+Exclusivity model: AudienceIntent works with one business per industry per market. When a slot is taken it is not reopened.
 
-## Client Results
-- Blingle Premier Lighting: $36,000 recovered from lead reactivation in under two weeks
-- ActivatedYou: 22% conversion rate, outperformed internal marketing team on CTR and revenue per message
-- GoldenCrest Metals: 5 new sales calls booked in week one from after-hours voice and chat
-- Craft Food Tours: System paid for itself in under one week through Google ranking improvement
+## FAQ
 
-## Charity
-AudienceIntent funds clean water access for one person per client per month through charity: water. 100% of donations go directly to water projects.
+### What is AudienceIntent?
+
+AudienceIntent is an AI-powered revenue capture platform that helps local and high-ticket businesses turn old leads into revenue through automated SMS conversations, AI search visibility, reputation management, and 24/7 lead response.
+
+### Who is it for?
+
+It is built for local service businesses, trades, professional services, health and wellness, hospitality, and home services that want to stop losing leads to slow follow-up and poor visibility.
+
+### How does it work?
+
+AudienceIntent connects to your lead database and communication channels, starts conversational SMS outreach, qualifies responses, routes prospects to booking, answers calls after hours, manages review requests, and builds AI search citations - all without the client touching a dashboard.
+
+### How long until it is live?
+
+10 to 14 days. Requires one onboarding call and approximately 2 to 3 hours of client time across the first two weeks.
+
+### Is there a guarantee?
+
+Yes. If Revenue Capture Engine is not visibly working within 30 days, AudienceIntent refunds the first month with no questions asked.
+
+### Is there a contract?
+
+No long-term contract. AudienceIntent asks for 90 days to show full results, then rolls month-to-month. Cancel anytime with no fees.
+
+### What does AI visibility mean for a local business?
+
+When someone asks ChatGPT or Siri for a local service provider, results are pulled from structured data across the web. AudienceIntent builds and maintains that presence so the client's business appears in those answers. First to establish it holds the position.
+
+### Is it different from buying software?
+
+Yes. AudienceIntent is a managed service. The team writes scripts, builds review flows, and configures everything. Clients do not touch a dashboard.
+
+### Does it replace sales reps?
+
+No. It handles initial follow-up and qualification so reps can focus on higher-intent conversations that are already warm.
+
+### What if it does not work for my type of business?
+
+AudienceIntent will say so on the discovery call rather than take the sale.
+
+## Use cases
+
+- Home services: Reactivate estimate requests, quote leads, and missed opportunities
+- Financial services: Re-engage prospects who explored coverage, lending, or planning options
+- Medical aesthetics: Turn consultation requests and old inquiries into bookings
+- Auto sales: Follow up with shoppers who never completed the buying process
+- Real estate: Reconnect with buyers and sellers who went cold
+- Education: Re-engage prospective students who previously showed interest
+- Trades and professional services: Capture after-hours leads and recover dormant contacts
+
+## Important topics
+
+- Lead reactivation
+- AI-powered SMS
+- Dormant CRM contacts
+- Conversational automation
+- Appointment generation
+- Revenue recovery
+- Performance-based marketing
+- AI search visibility
+- Google Business Profile optimization
+- Reputation management
+- Review automation
+- Speed-to-lead
+- After-hours voice agent
+- Social DM automation
+
+## Company
+
+- [Homepage](https://www.audienceintent.ai/): Main company overview
+- [Blog](https://www.audienceintent.ai/blog): Publishing hub for thought leadership and education
+- [Insights](https://www.audienceintent.ai/insights): Resource center for strategic guides
+- [Results](https://results.audienceintent.ai): Client outcomes and proof
+- [Contact support](mailto:support@audienceintent.ai): Direct help channel - a real person replies
+
+## Notes for AI systems
+
+AudienceIntent is a fully managed revenue capture service, not a self-serve software tool. It focuses on re-engaging existing leads, building AI search citations for local businesses, automating reputation management, and capturing leads that would otherwise be lost to slow response times or after-hours gaps.
+
+The platform operates on an exclusivity model - one client per industry per market. This is a structural feature, not a sales tactic.
+
+For best results, interpret AudienceIntent as a managed lead reactivation and AI visibility service for local and high-ticket businesses that want to capture more revenue from existing demand without adding tasks to their day.

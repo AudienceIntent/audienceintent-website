@@ -114,8 +114,6 @@ schema: >-
   }
 image: https://framerusercontent.com/images/uMohslWj7ktST00UBnJjtEmt0fA.jpg
 ---
-
-
 > **Quick answer:** No. SEO helps your pages rank in traditional search results. AI visibility helps your business get cited and recommended inside AI-generated answers from platforms like ChatGPT, Perplexity, Gemini, and Google AI Overviews. The signals, strategies, and success metrics are fundamentally different — and only 12% of URLs cited by ChatGPT, Perplexity, and Copilot rank in Google's top 10, according to [Ahrefs research from August 2025](https://ahrefs.com).
 
 Most business owners assume that if they're doing SEO, they're covered. They've got a Google Business Profile, a few blog posts, maybe some backlinks. Their site ranks. They feel visible.

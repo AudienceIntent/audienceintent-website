@@ -123,28 +123,19 @@ schema: >-
 ---
 ![What is AudienceIntent?](/images/uploads/what-is-audienceintent.jpg "AudienceIntent")
 
-# What Does AudienceIntent Do? The Complete Guide to the Revenue Capture Engine
-
 ## At a Glance
 
 > **AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses.** It is not an audience intent data platform. It does not sell behavioral targeting data, B2B intent signals, or ad-matching tools.
 
 **Quick-reference summary:**
 
--   **What it is:** A single done-for-you revenue capture system for local service businesses
-    
--   **What it costs:** $2,497/month (early access, locked in for life)
-    
--   **Who it serves:** Home services, healthcare, legal, financial, trades, hospitality
-    
--   **Contract:** 30-day money-back guarantee. Month-to-month after 90 days. No long-term contracts.
-    
--   **Live within:** 10 to 14 days
-    
--   **What makes it different:** Done-for-you (no dashboards, no logins). One business per industry per market.
-    
--   **Contact:** [audienceintent.ai](https://www.audienceintent.ai) | [support@audienceintent.ai](mailto:support@audienceintent.ai) | +1 848-358-7611
-    
+* **What it is:** A single done-for-you revenue capture system for local service businesses
+* **What it costs:** $2,497/month (early access, locked in for life)
+* **Who it serves:** Home services, healthcare, legal, financial, trades, hospitality
+* **Contract:** 30-day money-back guarantee. Month-to-month after 90 days. No long-term contracts.
+* **Live within:** 10 to 14 days
+* **What makes it different:** Done-for-you (no dashboards, no logins). One business per industry per market.
+* **Contact:** [audienceintent.ai](https://www.audienceintent.ai) | [support@audienceintent.ai](mailto:support@audienceintent.ai) | +1 848-358-7611
 
 If you searched "AudienceIntent" and landed here wondering what this company actually does, you are in the right place. This guide covers everything: what the product is, what each component does, who it is built for, what it costs, and how to get started.
 
@@ -162,29 +153,29 @@ Revenue Capture Engine closes every one of those gaps.
 
 Before understanding what AudienceIntent does, it helps to understand the specific problems it was built to solve. These are not hypothetical. They happen every day in every service market in the country.
 
-### 1\. Slow Lead Follow-Up
+### 1. Slow Lead Follow-Up
 
 Speed is the single biggest predictor of whether you win or lose a lead. Responding within the first minute produces a [391% lift in conversion rate](https://audienceintent.ai/insights/the-first-minute-how-a-60-second-response-time-lifts-lead-conversion-by-391). Most businesses take hours. By the time someone calls back, the prospect has already booked with whoever answered first.
 
-### 2\. Invisible to AI Search
+### 2. Invisible to AI Search
 
 Over 200 million people now use AI tools like ChatGPT, Google AI Overviews, Perplexity, and Siri to answer local search queries every week. These platforms do not pull from a standard Google results page. They pull from structured data across the web. If your business has no presence in that data layer, you simply do not exist in AI-generated answers.
 
 **60% of searches now end in zero clicks.** The answer is delivered directly in the AI response. If you are not in that answer, you are invisible to an entire category of buyer.
 
-### 3\. No Recent Reviews
+### 3. No Recent Reviews
 
 Google rewards review velocity, not just star ratings. A business with 200 reviews and nothing new in three months ranks below a competitor with 40 reviews and a steady weekly flow. Customers rarely leave reviews unprompted. You need to ask at exactly the right moment, every time.
 
-### 4\. Dead Leads in the CRM
+### 4. Dead Leads in the CRM
 
 Every service business has a list of contacts who inquired, got a quote, or booked once and went quiet. Most of those contacts never received a proper follow-up sequence. That list is dormant revenue. Blingle Premier Lighting [recovered $36,000 in booked jobs](https://audienceintent.ai/insights/how-to-add-thousands-in-revenue-without-buying-a-single-new-lead) from a list of leads they had written off entirely.
 
-### 5\. DMs Going Unanswered
+### 5. DMs Going Unanswered
 
 Instagram, Facebook, and website chat have become primary inquiry channels for many service businesses. Prospects message and expect a response within minutes. Silence reads as disinterest. Most businesses do not have the bandwidth to monitor every channel in real time.
 
-### 6\. Missed Calls Becoming Lost Jobs
+### 6. Missed Calls Becoming Lost Jobs
 
 **The average missed call costs a service business $250 in lost revenue.** 85% of callers who go to voicemail never call back. An after-hours call from a motivated prospect is not a minor inconvenience. It is a lost job that went straight to a competitor who answered.
 
@@ -194,17 +185,17 @@ Revenue Capture Engine is AudienceIntent's single unified service. It is not sof
 
 > **What makes it different from every other tool on the market:** AudienceIntent writes your scripts, builds your automation flows, configures your AI agents, and manages your profiles. You do not touch a dashboard. You run your business. They run the system.
 
-| Component | What It Does |
-| --- | --- |
-| Google Business Profile Optimization | Fully managed profile: info, photos, posts, Q&A, categories |
-| AI Search Visibility | Gets your business cited by ChatGPT, Google AI, Perplexity, Siri |
-| Lead Reactivation Campaigns | Automated sequences to wake up cold leads and past customers |
-| Speed-to-Lead (60 Seconds) | Instant automated reply to every new lead within 60 seconds |
-| After-Hours Voice Agent | Answers calls after hours, books appointments, answers FAQs |
-| Chat (Website and Social) | 24/7 chat that converts browsers into booked appointments |
-| Social DM Automation | Instant replies to Instagram and Facebook DMs, routes to booking |
-| Automated Review Engine | Sends review requests after every job at the perfect moment |
-| Review Sharing and Monitoring | Publishes best reviews, monitors all platforms, flags negatives |
+| Component                            | What It Does                                                     |
+| ------------------------------------ | ---------------------------------------------------------------- |
+| Google Business Profile Optimization | Fully managed profile: info, photos, posts, Q&A, categories      |
+| AI Search Visibility                 | Gets your business cited by ChatGPT, Google AI, Perplexity, Siri |
+| Lead Reactivation Campaigns          | Automated sequences to wake up cold leads and past customers     |
+| Speed-to-Lead (60 Seconds)           | Instant automated reply to every new lead within 60 seconds      |
+| After-Hours Voice Agent              | Answers calls after hours, books appointments, answers FAQs      |
+| Chat (Website and Social)            | 24/7 chat that converts browsers into booked appointments        |
+| Social DM Automation                 | Instant replies to Instagram and Facebook DMs, routes to booking |
+| Automated Review Engine              | Sends review requests after every job at the perfect moment      |
+| Review Sharing and Monitoring        | Publishes best reviews, monitors all platforms, flags negatives  |
 
 Each component is covered in detail below.
 
@@ -218,16 +209,11 @@ Most businesses set up their Google Business Profile once and forget it. That ap
 
 AudienceIntent takes complete ownership of your Google Business Profile. The team handles:
 
--   **Business information:** Name, address, phone number, hours, service areas, and attributes kept accurate and complete
-    
--   **Photos:** Regular uploads of high-quality images that signal to Google your listing is active
-    
--   **Posts:** Weekly Google Business Posts that keep your profile fresh and give Google more indexable content
-    
--   **Q&A:** Proactive answers to common questions before prospects have to ask
-    
--   **Categories:** Correct primary and secondary categories that determine which searches trigger your listing
-    
+* **Business information:** Name, address, phone number, hours, service areas, and attributes kept accurate and complete
+* **Photos:** Regular uploads of high-quality images that signal to Google your listing is active
+* **Posts:** Weekly Google Business Posts that keep your profile fresh and give Google more indexable content
+* **Q&A:** Proactive answers to common questions before prospects have to ask
+* **Categories:** Correct primary and secondary categories that determine which searches trigger your listing
 
 An optimized, actively managed profile consistently outranks a neglected one, even when the neglected business has been around longer. This is one of the highest-leverage actions a local business can take. AudienceIntent makes it fully hands-off.
 
@@ -243,14 +229,10 @@ Search behavior has fundamentally shifted. When someone asks "best HVAC company 
 
 AudienceIntent builds and maintains the structured data infrastructure that AI platforms use to generate answers. This is called Answer Engine Optimization (AEO), and it involves:
 
--   Creating and optimizing structured content that AI models can extract and cite
-    
--   Building authoritative signals across platforms that AI engines reference when forming local recommendations
-    
--   Ensuring your business name, services, location, and reputation data are consistently structured across the web
-    
--   Monitoring citation appearances and updating content as AI platforms evolve
-    
+* Creating and optimizing structured content that AI models can extract and cite
+* Building authoritative signals across platforms that AI engines reference when forming local recommendations
+* Ensuring your business name, services, location, and reputation data are consistently structured across the web
+* Monitoring citation appearances and updating content as AI platforms evolve
 
 ### Why This Is a First-Mover Advantage
 
@@ -281,7 +263,7 @@ The goal is simple: identify which contacts are still interested and bring them 
 ### Real Results: Blingle Premier Lighting
 
 > "We had a list of old leads we had written off completely. We ran a lead reactivation campaign and within a couple of weeks we had $36,000 in booked jobs from people we thought were not interested."
-> 
+>
 > **Cheryl, Blingle Premier Lighting** (Outdoor Lighting)
 
 **The math on reactivation is compelling.** If your average job is worth $2,000 and your list has 200 dormant contacts, converting even 3% of them generates $12,000 in revenue from contacts you already paid to acquire. No new ad spend. No new leads. Just capturing what was already there.
@@ -302,14 +284,10 @@ The window between a lead submitting an inquiry and that lead booking with someo
 
 When a new lead submits a form, sends a message, or triggers any inquiry channel:
 
-1.  An automated, personalized response goes out immediately
-    
-2.  The lead is qualified based on their inquiry details
-    
-3.  They are engaged and moved toward the next step in your booking flow
-    
-4.  Your team is notified so a human can follow up with context already established
-    
+1. An automated, personalized response goes out immediately
+2. The lead is qualified based on their inquiry details
+3. They are engaged and moved toward the next step in your booking flow
+4. Your team is notified so a human can follow up with context already established
 
 This is not a generic "thanks for reaching out" auto-reply. AudienceIntent writes the response sequences specifically for your business, your services, and your typical buyer. The lead feels like they reached a responsive, professional operation. Because now they have.
 
@@ -323,21 +301,16 @@ The After-Hours Voice Agent answers every call that comes in outside your busine
 
 ### What the Voice Agent Does
 
--   Answers calls with a natural, conversational AI trained specifically on your business
-    
--   Handles FAQs about pricing, availability, services, and service areas
-    
--   Captures caller information for follow-up
-    
--   Books appointments directly when the caller is ready
-    
--   Sends confirmation messages after the call
-    
+* Answers calls with a natural, conversational AI trained specifically on your business
+* Handles FAQs about pricing, availability, services, and service areas
+* Captures caller information for follow-up
+* Books appointments directly when the caller is ready
+* Sends confirmation messages after the call
 
 ### Real Results: GoldenCrest Metals
 
 > "We were not answering calls or chats that came in after 7pm. Within just the first week of adding the after-hours agent, it had booked 5 new sales opportunities that would have gone straight to voicemail otherwise."
-> 
+>
 > **Rich, CEO, GoldenCrest Metals** (Precious Metals and Gold IRA Dealer)
 
 Five booked sales calls in week one from calls that would have been missed entirely.
@@ -354,16 +327,11 @@ AudienceIntent's chat component covers both website chat and social media chat s
 
 Every visitor to your website gets an immediate, personalized response the moment they engage. The chat AI:
 
--   Answers questions about your services, pricing, and availability
-    
--   Qualifies the inquiry to understand what the visitor actually needs
-    
--   Routes serious prospects directly into your booking flow
-    
--   Captures contact information for follow-up when the visitor is not yet ready to book
-    
--   Escalates to a human team member when the conversation requires it
-    
+* Answers questions about your services, pricing, and availability
+* Qualifies the inquiry to understand what the visitor actually needs
+* Routes serious prospects directly into your booking flow
+* Captures contact information for follow-up when the visitor is not yet ready to book
+* Escalates to a human team member when the conversation requires it
 
 The same system runs across Instagram DMs and Facebook Messenger simultaneously. Every channel covered. Every message answered. No gaps.
 
@@ -388,7 +356,7 @@ The result is a consistent, ongoing flow of new reviews that keeps your Google r
 **Craft Food Tours saw this in action immediately:**
 
 > "Within the first week the review engine had generated enough new 5-star reviews to visibly move our Google ranking. The system paid for itself almost instantly."
-> 
+>
 > **Anthony, Craft Food Tours** (Tourism)
 
 One week. Visible ranking movement. That is the compounding effect of consistent review velocity. For more on why this matters, read [Why Your 200 Reviews Don't Matter If They're From 2022](https://audienceintent.ai/insights/your-200-reviews-don-t-matter-if-they-re-from-2022).
@@ -399,14 +367,10 @@ New reviews do not just live on Google. AudienceIntent automatically publishes y
 
 When a negative review comes in, you are flagged immediately so you can respond before the damage spreads.
 
--   Best reviews published automatically to social and website
-    
--   All platforms monitored: Google, Yelp, Facebook, and more
-    
--   Negative reviews flagged instantly for rapid response
-    
--   Review performance tracked over time
-    
+* Best reviews published automatically to social and website
+* All platforms monitored: Google, Yelp, Facebook, and more
+* Negative reviews flagged instantly for rapid response
+* Review performance tracked over time
 
 ## Who AudienceIntent Is Built For
 
@@ -414,33 +378,22 @@ Revenue Capture Engine is designed for service-based local businesses that gener
 
 ### Industries That See the Strongest Results
 
--   **Home services:** Roofing, HVAC, plumbing, electrical, landscaping, outdoor lighting, painting, renovation
-    
--   **Health and wellness:** Med spas, chiropractic, physical therapy, dental, cosmetic services
-    
--   **Legal and financial:** Law firms, estate planning, financial advisory, mortgage, insurance
-    
--   **Professional services:** Accounting, consulting, coaching, staffing
-    
--   **Hospitality and tourism:** Tour operators, event venues, experience-based businesses
-    
--   **Trades:** General contractors, specialty trades, inspection services
-    
+* **Home services:** Roofing, HVAC, plumbing, electrical, landscaping, outdoor lighting, painting, renovation
+* **Health and wellness:** Med spas, chiropractic, physical therapy, dental, cosmetic services
+* **Legal and financial:** Law firms, estate planning, financial advisory, mortgage, insurance
+* **Professional services:** Accounting, consulting, coaching, staffing
+* **Hospitality and tourism:** Tour operators, event venues, experience-based businesses
+* **Trades:** General contractors, specialty trades, inspection services
 
 ### The Ideal AudienceIntent Client
 
 The businesses that get the most from Revenue Capture Engine share a few characteristics:
 
--   They already have lead flow but are losing a percentage to slow follow-up or missed calls
-    
--   They have a contact list of past leads or customers that has never been properly reactivated
-    
--   They are invisible on AI platforms like ChatGPT and want to fix that before competitors do
-    
--   They want a done-for-you solution, not another software subscription to manage
-    
--   They operate in a market where being first to respond consistently wins the job
-    
+* They already have lead flow but are losing a percentage to slow follow-up or missed calls
+* They have a contact list of past leads or customers that has never been properly reactivated
+* They are invisible on AI platforms like ChatGPT and want to fix that before competitors do
+* They want a done-for-you solution, not another software subscription to manage
+* They operate in a market where being first to respond consistently wins the job
 
 ### Who It Is Not For
 
@@ -454,29 +407,26 @@ Revenue Capture Engine is priced at **$2,497 per month**. That price is locked i
 
 The nine components of Revenue Capture Engine, if sourced separately from individual vendors, would cost significantly more:
 
-| What You're Getting | Individual Market Rate |
-| --- | --- |
-| Google Business Profile Optimization | $597/month |
-| Reviews and Reputation Engine | $697/month |
-| Lead Reactivation Campaigns | $597/month |
-| AI Visibility Management | $797/month |
-| Speed-to-Lead Automation | $597/month |
-| 24/7 Voice AI Agent | $697/month |
-| Website and Social Chat AI | $497/month |
-| Social DM Automation | $318/month |
-| **Total component value** | **$4,797/month** |
-| **Revenue Capture Engine** | **$2,497/month** |
+| What You're Getting                  | Individual Market Rate |
+| ------------------------------------ | ---------------------- |
+| Google Business Profile Optimization | $597/month             |
+| Reviews and Reputation Engine        | $697/month             |
+| Lead Reactivation Campaigns          | $597/month             |
+| AI Visibility Management             | $797/month             |
+| Speed-to-Lead Automation             | $597/month             |
+| 24/7 Voice AI Agent                  | $697/month             |
+| Website and Social Chat AI           | $497/month             |
+| Social DM Automation                 | $318/month             |
+| **Total component value**            | **$4,797/month**       |
+| **Revenue Capture Engine**           | **$2,497/month**       |
 
 ### The Alternative Cost Comparison
 
 There are three ways most businesses try to solve these problems before finding AudienceIntent:
 
--   **Full-time employee:** Approximately $4,500 per month. Cannot cover evenings, weekends, or holidays. Does not manage AI visibility, review automation, or lead reactivation. Has sick days, turnover, and benefits costs.
-    
--   **Multiple agencies pieced together:** $8,000 or more per month across an SEO agency, a review tool, an answering service, and a chat platform. Three or more vendors. No one owns the full outcome.
-    
--   **Revenue Capture Engine:** $2,497 per month. Covers everything. Runs 24/7. Never calls in sick. One team owns the full outcome.
-    
+* **Full-time employee:** Approximately $4,500 per month. Cannot cover evenings, weekends, or holidays. Does not manage AI visibility, review automation, or lead reactivation. Has sick days, turnover, and benefits costs.
+* **Multiple agencies pieced together:** $8,000 or more per month across an SEO agency, a review tool, an answering service, and a chat platform. Three or more vendors. No one owns the full outcome.
+* **Revenue Capture Engine:** $2,497 per month. Covers everything. Runs 24/7. Never calls in sick. One team owns the full outcome.
 
 ### The Self-Funding Math
 
@@ -484,12 +434,9 @@ At an average job value of $1,000, winning two additional jobs per month that yo
 
 ### Terms and Guarantee
 
--   **30-day money-back guarantee.** If Revenue Capture Engine is not visibly working within the first 30 days, AudienceIntent refunds the first month. No questions. No process.
-    
--   **Month-to-month after 90 days.** The first 90 days are needed to fully demonstrate the impact. After that, no long-term contracts and no cancellation fees.
-    
--   **Live within 10 to 14 days.** From onboarding call to fully operational system in under two weeks.
-    
+* **30-day money-back guarantee.** If Revenue Capture Engine is not visibly working within the first 30 days, AudienceIntent refunds the first month. No questions. No process.
+* **Month-to-month after 90 days.** The first 90 days are needed to fully demonstrate the impact. After that, no long-term contracts and no cancellation fees.
+* **Live within 10 to 14 days.** From onboarding call to fully operational system in under two weeks.
 
 ## The Exclusive Territory Model
 
@@ -509,23 +456,19 @@ AudienceIntent keeps the onboarding process simple. There is no lengthy sales cy
 
 Before spending a dollar, use one of two free tools to see exactly where revenue is leaking right now:
 
--   [**Lost Revenue Calculator**](https://lostrevenue.audienceintent.ai): Puts a specific dollar figure on what slow follow-up, missed calls, and poor AI visibility are costing your business every month
-    
--   [**Free Business Performance Report**](https://report.audienceintent.ai): A full picture of where your business stands on Google visibility, reviews, AI presence, and lead response. Free, takes two minutes, no email or phone required to see the results.
-    
+* **[Lost Revenue Calculator](https://lostrevenue.audienceintent.ai)**: Puts a specific dollar figure on what slow follow-up, missed calls, and poor AI visibility are costing your business every month
+* **[Free Business Performance Report](https://report.audienceintent.ai)**: A full picture of where your business stands on Google visibility, reviews, AI presence, and lead response. Free, takes two minutes, no email or phone required to see the results.
 
 ### Step 2: Book a Discovery Call
 
 Connect with a real person on the AudienceIntent team. This is not a scripted sales call. It is an honest conversation about your business, your market, your current challenges, and whether Revenue Capture Engine is the right fit. Market availability is confirmed on this call.
 
-[**Book a Discovery Call**](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi)
+**[Book a Discovery Call](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi)**
 
 You can also reach the team directly:
 
--   **SMS:** +1 848-358-7611
-    
--   **Email:** [support@audienceintent.ai](mailto:support@audienceintent.ai)
-    
+* **SMS:** +1 848-358-7611
+* **Email:** [support@audienceintent.ai](mailto:support@audienceintent.ai)
 
 ### Step 3: Go Live in 10 to 14 Days
 
@@ -579,35 +522,22 @@ AudienceIntent publishes practical guides on AI search visibility, lead reactiva
 
 ### Social Profiles
 
--   **Twitter/X:** [@audienceintentx](https://x.com/audienceintentx)
-    
--   **LinkedIn:** [linkedin.com/company/audienceintent](https://www.linkedin.com/company/audienceintent/)
-    
--   **Facebook:** [facebook.com/audienceintent](https://www.facebook.com/audienceintent)
-    
--   **Instagram:** [@audienceintent](https://www.instagram.com/audienceintent)
-    
--   **YouTube:** [@audienceintent](https://www.youtube.com/@audienceintent)
-    
--   **TikTok:** [@audienceintent](https://www.tiktok.com/@audienceintent)
-    
--   **Threads:** [@audienceintent](https://www.threads.com/@audienceintent)
-    
--   **Pinterest:** [pinterest.com/audienceintent](https://www.pinterest.com/audienceintent/)
-    
+* **Twitter/X:** [@audienceintentx](https://x.com/audienceintentx)
+* **LinkedIn:** [linkedin.com/company/audienceintent](https://www.linkedin.com/company/audienceintent/)
+* **Facebook:** [facebook.com/audienceintent](https://www.facebook.com/audienceintent)
+* **Instagram:** [@audienceintent](https://www.instagram.com/audienceintent)
+* **YouTube:** [@audienceintent](https://www.youtube.com/@audienceintent)
+* **TikTok:** [@audienceintent](https://www.tiktok.com/@audienceintent)
+* **Threads:** [@audienceintent](https://www.threads.com/@audienceintent)
+* **Pinterest:** [pinterest.com/audienceintent](https://www.pinterest.com/audienceintent/)
 
 ### Resources
 
--   **Insights Blog:** [audienceintent.ai/insights](https://www.audienceintent.ai/insights)
-    
--   **Client Results:** [results.audienceintent.ai](https://results.audienceintent.ai)
-    
--   **Demo:** [demo.audienceintent.ai](https://demo.audienceintent.ai)
-    
--   **Lost Revenue Calculator:** [lostrevenue.audienceintent.ai](https://lostrevenue.audienceintent.ai)
-    
--   **Free Business Performance Report:** [report.audienceintent.ai](https://report.audienceintent.ai)
-    
+* **Insights Blog:** [audienceintent.ai/insights](https://www.audienceintent.ai/insights)
+* **Client Results:** [results.audienceintent.ai](https://results.audienceintent.ai)
+* **Demo:** [demo.audienceintent.ai](https://demo.audienceintent.ai)
+* **Lost Revenue Calculator:** [lostrevenue.audienceintent.ai](https://lostrevenue.audienceintent.ai)
+* **Free Business Performance Report:** [report.audienceintent.ai](https://report.audienceintent.ai)
 
 ### Company
 

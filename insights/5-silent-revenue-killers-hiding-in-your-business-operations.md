@@ -127,13 +127,13 @@ For most local service businesses, revenue disappears in small operational gaps 
 
 This is not about strategy. It is about execution gaps that compound daily.
 
-> **Key takeaways before you read on:**
->
-> * Missed calls cost small businesses an average of **$126,000 per year**
-> * Responding to a lead within 5 minutes makes you **100x more likely to qualify it**
-> * Past customers and cold leads are often the fastest path to near-term revenue
-> * **97% of consumers** read online reviews before choosing a local business
-> * A slow or weak website can waste the majority of traffic you already paid for
+**Key takeaways before you read on:**
+
+* Missed calls cost small businesses an average of **$126,000 per year**
+* Responding to a lead within 5 minutes makes you **100x more likely to qualify it**
+* Past customers and cold leads are often the fastest path to near-term revenue
+* **97% of consumers** read online reviews before choosing a local business
+* A slow or weak website can waste the majority of traffic you already paid for
 
 The five revenue killers below are not hypothetical. They are measurable, fixable, and almost certainly active in your business right now.
 

@@ -46,8 +46,6 @@ schema: >-
   }
 image: https://framerusercontent.com/images/R7JHyNjorYLnCLdVhc11fmDLk.jpg
 ---
-
-
 > **Quick answer:** Review recency now outweighs review volume for most consumers. According to [BrightLocal's 2026 Local Consumer Review Survey](https://www.brightlocal.com/research/local-consumer-review-survey/), 74% of consumers only trust reviews written within the last three months — meaning a profile with hundreds of five-star ratings from 2022 is actively working against you.
 
 You worked hard to build a strong review profile. Hundreds of five-star ratings. Glowing testimonials. A solid 4.8 average that took years to earn.

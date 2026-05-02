@@ -267,7 +267,7 @@ var PER=12,pg=1,cat="All",q="";
 function fd(){return ARTICLES.filter(function(a){return(cat==="All"||a.category===cat)&&(!q||a.title.toLowerCase().indexOf(q)>-1||a.excerpt.toLowerCase().indexOf(q)>-1);});}
 function fmtDate(d){if(!d)return"";var p=d.split("-"),m=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];try{return m[parseInt(p[1])-1]+" "+p[2]+", "+p[0];}catch(e){return d;}}
 function makeCard(a){
-  var img=a.image?"<img class=\"card-img\" src=\""+a.image+"\" alt=\"\" loading=\"lazy\">":"";
+  var img=a.image?"<img class=\"card-img\" src=\""+a.image+"\" alt=\""+a.title+"\" title=\""+a.title+"\" loading=\"lazy\">":"";
   return "<a class=\"card\" href=\"/insights/"+a.slug+"\">"+img+"<div class=\"card-body\"><div class=\"card-cat\">"+a.category+"</div><div class=\"card-title\">"+a.title+"</div><div class=\"card-excerpt\">"+a.excerpt+"</div><div class=\"card-foot\"><span class=\"card-date\">"+fmtDate(a.date)+"</span><span class=\"card-arrow\">&rarr;</span></div></div></a>";
 }
 function render(){

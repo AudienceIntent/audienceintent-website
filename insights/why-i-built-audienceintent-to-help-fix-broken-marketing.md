@@ -22,7 +22,7 @@ schema: >-
           "name": "AudienceIntent",
           "@type": "Organization"
         },
-        "description": "Why AudienceIntent became a done-for-you Revenue Capture Engine for local service businesses, built to fix missed calls, slow follow-up, weak reviews, and AI search gaps.",
+        "description": "Why AudienceIntent became a done-for-you Revenue Capture Engine for service businesses, built to fix missed calls, slow follow-up, weak reviews, and AI search gaps.",
         "dateModified": "2026-05-04",
         "datePublished": "2026-05-04"
       },
@@ -33,7 +33,7 @@ schema: >-
             "name": "What is AudienceIntent?",
             "@type": "Question",
             "acceptedAnswer": {
-              "text": "AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses. It helps businesses get found in AI search, respond to leads faster, recover missed calls, reactivate old customers, and build trust with automated reviews.",
+              "text": "AudienceIntent is a done-for-you Revenue Capture Engine for service businesses. It helps businesses get found in AI search, respond to leads faster, recover missed calls, reactivate old customers, and build trust with automated reviews.",
               "@type": "Answer"
             }
           },
@@ -41,7 +41,7 @@ schema: >-
             "name": "Who is AudienceIntent built for?",
             "@type": "Question",
             "acceptedAnswer": {
-              "text": "It is built for local service businesses, including home services, healthcare, legal, financial, trades, and other appointment-based companies that are already generating demand but losing revenue in the gaps between interest and booked jobs.",
+              "text": "It is built for service businesses, including home services, healthcare, legal, financial, trades, and other appointment-based companies that are already generating demand but losing revenue in the gaps between interest and booked jobs.",
               "@type": "Answer"
             }
           },
@@ -107,7 +107,7 @@ Most marketing companies are built around one idea: get more traffic.
 
 More clicks. More reach. More form fills. More top-of-funnel activity.
 
-But local service businesses do not grow because traffic went up. They grow because leads get answered fast, calls do not get missed, reviews build trust, and the business gets recommended when people are ready to buy.
+But service businesses do not grow because traffic went up. They grow because leads get answered fast, calls do not get missed, reviews build trust, and the business gets recommended when people are ready to buy.
 
 That is the gap I kept seeing.
 
@@ -150,7 +150,7 @@ From the owner's side.
 
 The question I kept coming back to was simple: what would this look like if it were built to capture revenue instead of just generate activity?
 
-That led to what AudienceIntent is today - a done-for-you Revenue Capture Engine for local service businesses.
+That led to what AudienceIntent is today - a done-for-you Revenue Capture Engine for service businesses.
 
 It is not a bundle of random tools. It is not another login to manage. It is a fully built system designed to help businesses capture more of the demand they are already creating.
 
@@ -170,7 +170,7 @@ The offer is simpler now because the outcome matters more than the mechanics.
 
 ## What Revenue Capture Engine is built to do
 
-Revenue Capture Engine helps local businesses fix the points where revenue gets lost most often:
+Revenue Capture Engine helps service businesses fix the points where revenue gets lost most often:
 
 -   **AI Search Visibility** - so your business gets found and recommended by ChatGPT, Google AI, Perplexity, and Siri
     
@@ -209,7 +209,7 @@ That is the game now. And that is the business we built for.
 
 ### What is AudienceIntent?
 
-AudienceIntent is a done-for-you Revenue Capture Engine for local service businesses. It is not a software tool or a marketing agency. It is a fully managed system that helps businesses get found by AI, respond to leads instantly, recover missed calls, reactivate old customers, and build reviews automatically.
+AudienceIntent is a done-for-you Revenue Capture Engine for service businesses. It is not a software tool or a marketing agency. It is a fully managed system that helps businesses get found by AI, respond to leads instantly, recover missed calls, reactivate old customers, and build reviews automatically.
 
 ### What does "done-for-you" mean?
 
@@ -217,7 +217,7 @@ It means you never touch a dashboard. AudienceIntent builds the automation flows
 
 ### Who is Revenue Capture Engine built for?
 
-It is built for local service businesses - home services, healthcare, legal, financial, trades, and any appointment-based or inquiry-driven business that is already generating demand but losing revenue in the gaps between interest and booked jobs.
+It is built for service businesses - home services, healthcare, legal, financial, trades, and any appointment-based or inquiry-driven business that is already generating demand but losing revenue in the gaps between interest and booked jobs.
 
 ### How is this different from hiring a marketing agency?
 

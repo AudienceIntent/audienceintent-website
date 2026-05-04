@@ -171,9 +171,7 @@ At AudienceIntent, lead reactivation is handled as a done-for-you system, not an
 The process is straightforward:
 
 1.  **Identify** the dormant leads worth contacting
-    
 2.  **Build** personalized AI-powered SMS outreach designed to get replies
-    
 3.  **Route** warm responses back to your team for booking and follow-up
     
 

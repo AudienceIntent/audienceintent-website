@@ -151,8 +151,7 @@ Start with these four moves:
 1.  **Respond in minutes, not hours** - speed wins the first conversation.
 2.  **Assign clear ownership** - every lead needs a next step and an owner.  
 3.  **Automate nurture and reactivation** - old leads should not depend on memory.   
-4.  **Track progression, not just volume** - measure contact rate, reply rate, and booked outcomes.
-    
+4.  **Track progression, not just volume** - measure contact rate, reply rate, and booked outcomes.   
 
 A strong CRM is not just a storage system. It is a revenue recovery system.
 

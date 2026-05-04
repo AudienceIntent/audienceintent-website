@@ -7,7 +7,8 @@ category: Lead Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn dormant CRM leads into booked revenue without upfront risk.
   See how AudienceIntent reactivates old leads on a performance basis.
-canonical: Lead Reactivation
+focus_keyword: Lead Reactivation
+canonical: ""
 schema: >-
   {
     "@graph": [

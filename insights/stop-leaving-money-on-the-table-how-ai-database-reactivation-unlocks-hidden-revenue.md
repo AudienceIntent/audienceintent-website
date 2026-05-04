@@ -106,7 +106,6 @@ schema: >-
   }
 image: https://framerusercontent.com/images/sFQpiXkXlqSy4SQCvyyLMz3eWg.jpg
 ---
-
 # Your Cold Leads Aren't Dead. You Just Stopped Following Up.
 
 Every service business has a graveyard in its CRM.
@@ -125,11 +124,10 @@ AI lead reactivation is the process of using automated, AI-driven SMS outreach t
 
 The mechanics are straightforward:
 
-1.  You provide a list of cold contacts (name, phone, lead source, and any relevant context)
-2.  AI agents initiate outreach via SMS, personalizing each message based on the contact's history
-3.  Interested leads are qualified through conversation and routed directly to your calendar or CRM
-4.  You receive warm, appointment-ready leads without touching a single message yourself
-    
+1. You provide a list of cold contacts (name, phone, lead source, and any relevant context)
+2. AI agents initiate outreach via SMS, personalizing each message based on the contact's history
+3. Interested leads are qualified through conversation and routed directly to your calendar or CRM
+4. You receive warm, appointment-ready leads without touching a single message yourself
 
 > **Key stat:** AI systems respond to leads in as little as [11 seconds](https://www.usehatchapp.com/blog/ai-reshaping-lead-gen-conversion), compared to 42 minutes for human teams. That gap in response time alone accounts for a [391% difference in conversion rates](https://www.digitalapplied.com/blog/b2b-lead-generation-statistics-2026-data-points).
 
@@ -141,14 +139,10 @@ New leads are expensive. You paid to generate them through ads, SEO, referrals, 
 
 The math is hard to argue with:
 
--   [5-15% of dormant contacts](https://www.ai-agentsplus.com/blog/database-reactivation-statistics-2025-2026-trends-roi-ai) can be re-engaged through automated outreach
-    
--   Of those, 2-5% convert into booked appointments or purchases
-    
--   On a database of 1,000 contacts at a $300 average job value, that's $15,000 or more recovered from contacts you'd written off
-    
--   Reactivated leads convert at dramatically lower cost per acquisition than cold traffic
-    
+* [5-15% of dormant contacts](https://www.ai-agentsplus.com/blog/database-reactivation-statistics-2025-2026-trends-roi-ai) can be re-engaged through automated outreach
+* Of those, 2-5% convert into booked appointments or purchases
+* On a database of 1,000 contacts at a $300 average job value, that's $15,000 or more recovered from contacts you'd written off
+* Reactivated leads convert at dramatically lower cost per acquisition than cold traffic
 
 **The cost of inaction is concrete.** [63.5% of companies never respond to leads at all](https://www.digitalapplied.com/blog/b2b-lead-generation-statistics-2026-data-points). Another 81.2% of businesses that respond slowly (over one hour) lose the lead entirely. Most service businesses fall into one of these two categories for their older contacts, which is exactly why the opportunity exists.
 
@@ -160,15 +154,15 @@ That is not a channel you want to leave unused on a list of contacts who already
 
 Most service businesses evaluate three alternatives before committing to AI reactivation: hiring staff, bringing in an agency, or doing manual follow-up internally. Here is how those options actually stack up.
 
-|  | **Hiring Staff** | **Agency** | **Manual Follow-Up** | **AI Lead Reactivation** |
-| --- | --- | --- | --- | --- |
-| Monthly cost | $4,500+ | $8,000+ | Staff time + tools | Included in Revenue Capture Engine |
-| Response speed | Minutes to hours | Days | Hours to days | Under 30 seconds |
-| Works after hours | No | No | No | Yes, 24/7 |
-| Scales to 1,000+ contacts | Requires more hires | Possible, at cost | Not realistic | Yes, automatically |
-| Personalization | Human, but inconsistent | Template-based | Inconsistent | Contextual, per-lead |
-| Setup time | Weeks (hiring + training) | Weeks | Immediate | 10-14 days |
-| Performance tracking | Manual | Reported monthly | None | Real-time |
+|                           | **Hiring Staff**          | **Agency**        | **Manual Follow-Up** | **AI Lead Reactivation**           |
+| ------------------------- | ------------------------- | ----------------- | -------------------- | ---------------------------------- |
+| Monthly cost              | $4,500+                   | $8,000+           | Staff time + tools   | Included in Revenue Capture Engine |
+| Response speed            | Minutes to hours          | Days              | Hours to days        | Under 30 seconds                   |
+| Works after hours         | No                        | No                | No                   | Yes, 24/7                          |
+| Scales to 1,000+ contacts | Requires more hires       | Possible, at cost | Not realistic        | Yes, automatically                 |
+| Personalization           | Human, but inconsistent   | Template-based    | Inconsistent         | Contextual, per-lead               |
+| Setup time                | Weeks (hiring + training) | Weeks             | Immediate            | 10-14 days                         |
+| Performance tracking      | Manual                    | Reported monthly  | None                 | Real-time                          |
 
 ### Why Hiring Staff Falls Short
 
@@ -224,7 +218,7 @@ AudienceIntent's Revenue Capture Engine is live within 10-14 days. That includes
 
 Before you spend another dollar on paid ads or another month paying a staff member to manually follow up, run the numbers on what you already own.
 
-[**Use the Lost Revenue Calculator**](https://lostrevenue.audienceintent.ai) to see how much revenue is sitting dormant in your existing lead database. Enter your contact count, average job value, and current response rate. The calculator shows you the dollar amount you are leaving on the table every month you wait.
+**[Use the Lost Revenue Calculator](https://lostrevenue.audienceintent.ai)** to see how much revenue is sitting dormant in your existing lead database. Enter your contact count, average job value, and current response rate. The calculator shows you the dollar amount you are leaving on the table every month you wait.
 
 Most businesses are surprised by the number. That is the point.
 

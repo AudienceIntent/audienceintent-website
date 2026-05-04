@@ -1,6 +1,6 @@
 ---
-title: "The #1 Growth Strategy You're Ignoring: Lead Reactivation for Local
-  Service Businesses"
+title: "The #1 Growth Strategy You're Ignoring: Lead Reactivation for Service
+  Businesses"
 meta_title: "Lead Reactivation: Win Back CRM Revenue in 2026"
 date: 2026-05-04T14:39:00.000-04:00
 category: Growth

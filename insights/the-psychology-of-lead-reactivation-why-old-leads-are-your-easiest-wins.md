@@ -108,7 +108,7 @@ Most service businesses keep spending on new leads while ignoring the ones alrea
 -   Responding within 5 minutes can lift conversions by up to [391%](https://www.apten.ai/blog/speed-to-lead-benchmarks-2026)
 -   Multi-channel sequences (SMS + email + phone) produce [2.3x higher reactivation rates](https://suparev.com/benchmarks/lead-reactivation) than single-channel outreach
 -   Reactivation costs a fraction of new lead acquisition, with far higher close rates    
-
+>
 ## Why Old Leads Convert Better: The Psychology Behind Reactivation
 
 Lead reactivation works because it aligns with how people actually make buying decisions. It is not about tricking anyone. It is about showing up at the right moment for someone who was already interested.

@@ -4,11 +4,108 @@ meta_title: Why Old Leads Are Worth More in 2026
 date: 2026-05-03T21:44:00.000-04:00
 category: Lead Reactivation
 author: Kevin Bovett - AudienceIntent
-focus_keyword: Old Leads
-image: https://framerusercontent.com/images/0S1AmPc2iQSliUTHQMHGXzyyW8.jpg
 description: Dormant leads cost less to win back and often convert better than
   new ones. See why reactivation beats fresh acquisition for local service
   businesses.
+focus_keyword: Old Leads
+schema: >-
+  {
+    "@graph": [
+      {
+        "@type": "Article",
+        "author": {
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder"
+        },
+        "headline": "Why Old Leads Are Worth More Than You Think",
+        "publisher": {
+          "logo": {
+            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
+            "@type": "ImageObject"
+          },
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "inLanguage": "en-US",
+        "description": "Dormant leads cost less to win back and often convert better than new ones. See why reactivation beats fresh acquisition for local service businesses.",
+        "dateModified": "2026-05-04",
+        "datePublished": "2026-05-04",
+        "mainEntityOfPage": "https://audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "name": "What is lead reactivation?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Lead reactivation is the process of re-engaging contacts in your CRM who showed interest before but never booked or bought. It uses email, SMS, calls, or automation to restart the conversation and turn dormant leads into revenue without starting from zero.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Why are old leads cheaper than new leads?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Old leads are cheaper because you already paid to acquire them. Reactivation avoids the full top-of-funnel cost of fresh lead generation, which is why dormant contacts can often be re-engaged for a fraction of the cost of buying new leads.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Do dormant leads still convert?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Yes. Dormant leads often convert well because they already know your business and raised their hand once. When the timing and message are right, reactivation can turn old inquiries into booked jobs at a much higher rate than cold traffic.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "What is the best way to reactivate old leads?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "The best approach is segmented and value-first. Group leads by recency, interest, and source, then use personalized SMS, email, and follow-up sequences with a clear reason to re-engage, such as a new offer, updated availability, or seasonal urgency.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How fast should I follow up when a lead re-engages?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Immediately. Speed matters again the moment a dormant lead replies. If you wait hours, you risk losing them a second time. A fast automated response keeps the conversation alive and improves the chance of booking.",
+              "@type": "Answer"
+            }
+          }
+        ]
+      },
+      {
+        "url": "https://www.audienceintent.ai",
+        "logo": {
+          "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
+          "@type": "ImageObject"
+        },
+        "name": "AudienceIntent",
+        "@type": "Organization",
+        "sameAs": [
+          "https://x.com/audienceintentx",
+          "https://www.linkedin.com/company/audienceintent/",
+          "https://www.facebook.com/audienceintent",
+          "https://www.instagram.com/audienceintent",
+          "https://www.youtube.com/@audienceintent",
+          "https://www.tiktok.com/@audienceintent",
+          "https://www.threads.com/@audienceintent",
+          "https://www.pinterest.com/audienceintent/"
+        ],
+        "founder": {
+          "name": "Kevin Bovett",
+          "@type": "Person"
+        }
+      }
+    ],
+    "@context": "https://schema.org"
+  }
+image: https://framerusercontent.com/images/0S1AmPc2iQSliUTHQMHGXzyyW8.jpg
 ---
 
 Most businesses keep pouring money into new lead generation while ignoring the contacts already sitting in their CRM.

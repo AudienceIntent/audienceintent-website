@@ -103,13 +103,11 @@ Most service businesses keep spending on new leads while ignoring the ones alrea
 **The uncomfortable truth:** According to [industry analysis across 150+ service businesses](https://www.digitaljournal.com/pr/news/winston-news-wire/hidden-gold-mine-crm-ai-160150585.html), only 11% of unconverted leads were truly unqualified. The other 89% just went cold. That is not a lead quality problem. It is a follow-up problem.
 
 **Key Takeaways**
-> 
 -   Old leads are not dead leads; they are familiar prospects with prior intent still intact
 -   [80% of leads marked "not ready" go on to buy within 24 months](https://www.getsurfox.com/blog/reactivate-dormant-leads-ai) (SiriusDecisions/Forrester)
 -   Responding within 5 minutes can lift conversions by up to [391%](https://www.apten.ai/blog/speed-to-lead-benchmarks-2026)
 -   Multi-channel sequences (SMS + email + phone) produce [2.3x higher reactivation rates](https://suparev.com/benchmarks/lead-reactivation) than single-channel outreach
--   Reactivation costs a fraction of new lead acquisition, with far higher close rates
->     
+-   Reactivation costs a fraction of new lead acquisition, with far higher close rates    
 
 ## Why Old Leads Convert Better: The Psychology Behind Reactivation
 

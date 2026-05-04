@@ -209,13 +209,9 @@ Email alone is easy to ignore. A coordinated sequence performs significantly bet
 A practical 5-touch sequence:
 
 1.  **Day 1** - SMS with a short, direct opener
-    
-2.  **Day 3** - Follow-up SMS or email with context
-    
-3.  **Day 5** - Email with offer details or proof
-    
-4.  **Day 8** - SMS check-in
-    
+2.  **Day 3** - Follow-up SMS or email with context    
+3.  **Day 5** - Email with offer details or proof  
+4.  **Day 8** - SMS check-in   
 5.  **Day 12** - Phone call or voicemail for high-value leads
     
 

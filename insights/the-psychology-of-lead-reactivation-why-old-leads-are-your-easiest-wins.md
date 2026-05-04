@@ -105,13 +105,9 @@ Most service businesses keep spending on new leads while ignoring the ones alrea
 > **Key Takeaways**
 > 
 > -   Old leads are not dead leads; they are familiar prospects with prior intent still intact
->     
 > -   [80% of leads marked "not ready" go on to buy within 24 months](https://www.getsurfox.com/blog/reactivate-dormant-leads-ai) (SiriusDecisions/Forrester)
->     
 > -   Responding within 5 minutes can lift conversions by up to [391%](https://www.apten.ai/blog/speed-to-lead-benchmarks-2026)
->     
 > -   Multi-channel sequences (SMS + email + phone) produce [2.3x higher reactivation rates](https://suparev.com/benchmarks/lead-reactivation) than single-channel outreach
->     
 > -   Reactivation costs a fraction of new lead acquisition, with far higher close rates
 >     
 

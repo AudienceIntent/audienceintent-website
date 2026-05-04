@@ -4,11 +4,87 @@ meta_title: 7 Proven Ways to Turn Old Leads Into Buyers
 date: 2026-05-03T21:17:00.000-04:00
 category: Lead Reactivation
 author: "Kevin Bovett - AudienceIntent "
-focus_keyword: Old Leads
-image: https://framerusercontent.com/images/vl1BwL4kFx2VmO7rCs9JHh4VW0.jpg
 description: Turn dormant CRM contacts into booked revenue with segmentation,
   trigger-based outreach, proof, and fast follow-up. Start with the leads you
   already paid for.
+focus_keyword: Old Leads
+schema: >-
+  {
+    "@graph": [
+      {
+        "@type": "Article",
+        "author": {
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder"
+        },
+        "headline": "7 Proven Ways to Turn Old Leads Into Buyers",
+        "publisher": {
+          "logo": {
+            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
+            "@type": "ImageObject"
+          },
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "description": "Turn dormant CRM contacts into booked revenue with segmentation, trigger-based outreach, proof, and fast follow-up. Start with the leads you already paid for.",
+        "dateModified": "2026-05-04",
+        "datePublished": "2026-05-04",
+        "mainEntityOfPage": {
+          "@id": "https://audienceintent.ai/insights/turn-old-leads-into-buyers",
+          "@type": "WebPage"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "name": "What is lead reactivation?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Lead reactivation is the process of re-engaging contacts in your CRM who previously showed interest but went quiet. The goal is to turn dormant leads into sales conversations using segmented, relevant outreach instead of generic follow-up.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How do you reactivate old leads effectively?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Start by segmenting leads by recency, service interest, and buying stage. Then send value-first messages, use timing triggers, follow up across more than one channel, and move fast when someone re-engages.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How many follow-up touches should a reactivation campaign use?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "A strong campaign usually uses 7-10 touches over 2-3 weeks. That mix gives your message more chances to break through without sounding repetitive, especially if you vary the channel and angle.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Are old leads worth more than new leads?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Often, yes. Dormant leads already know your business, which lowers the trust barrier and makes them cheaper to convert than brand-new prospects. The best results come from clean lists, timely triggers, and fast human follow-up.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "What is the biggest mistake businesses make with dormant leads?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "The biggest mistake is treating every old lead the same. Generic check-ins, weak timing, and single-email follow-up usually fail. Segmentation and relevance do most of the heavy lifting.",
+              "@type": "Answer"
+            }
+          }
+        ]
+      }
+    ],
+    "@context": "https://schema.org"
+  }
+image: https://framerusercontent.com/images/vl1BwL4kFx2VmO7rCs9JHh4VW0.jpg
 ---
 
 Most businesses treat dormant CRM contacts like a write-off. They keep chasing net-new leads while a pool of warmer, cheaper-to-convert prospects sits untouched. That is a costly mistake.

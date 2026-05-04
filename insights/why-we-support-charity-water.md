@@ -1,66 +1,172 @@
 ---
-title: "Why We Support Charity:Water"
-date: "2025-11-19"
-category: "Growth"
-image: "https://framerusercontent.com/images/tuvMepgC3veaBBLgllDlxZux80.jpg"
-description: "This isn’t a sales pitch. This isn’t a funnel. This is personal. We talk a lot about high-intent behavior around here—people searching for solutions, taking act..."
+title: "Why AudienceIntent Supports charity: water"
+meta_title: "Why AudienceIntent Supports charity: water"
+date: 2026-05-04T13:00:00.000-04:00
+category: Growth
+author: "Kevin Bovett - AudienceIntent "
+description: "AudienceIntent supports charity: water because 2.1 billion people
+  still lack safe drinking water. See why this nonprofit earns trust and
+  impact."
+focus_keyword: "Charity:Water "
+schema: >-
+  {
+    "@graph": [
+      {
+        "url": "https://audienceintent.ai/insights/why-we-support-charity-water",
+        "@type": "Article",
+        "author": {
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "headline": "Why AudienceIntent Supports charity: water",
+        "publisher": {
+          "logo": {
+            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
+            "@type": "ImageObject"
+          },
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "description": "AudienceIntent supports charity: water because 2.1 billion people still lack safe drinking water. See why this nonprofit earns trust and impact.",
+        "dateModified": "2026-05-04",
+        "datePublished": "2026-05-04",
+        "mainEntityOfPage": {
+          "@id": "https://audienceintent.ai/insights/why-we-support-charity-water",
+          "@type": "WebPage"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "name": "Why does AudienceIntent support charity: water?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "AudienceIntent supports charity: water because clean water is a basic need and the organization combines global impact with unusual transparency. It aligns with how we think about responsible business and measurable help.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How many people still lack safe drinking water?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "WHO and UNICEF report that 2.1 billion people still lack safely managed drinking water worldwide. That is roughly 1 in 4 people, which makes the crisis urgent and still far from solved.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "What makes charity: water different from other nonprofits?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Its 100% model is the clearest differentiator. Public donations go directly to water projects, while separate private funding covers operating costs. Donors also get project tracking and updates.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Is charity: water a credible organization?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Yes. charity: water has strong public reporting and a 4 out of 4 star rating from Charity Navigator for accountability and finance. That combination makes it easier for donors to trust the work.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Where can I donate through AudienceIntent?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "You can donate through the AudienceIntent campaign page at https://www.charitywater.org/audienceintent. Donations help fund clean water projects in communities that need them most.",
+              "@type": "Answer"
+            }
+          }
+        ]
+      }
+    ],
+    "@context": "https://schema.org"
+  }
+image: https://framerusercontent.com/images/tuvMepgC3veaBBLgllDlxZux80.jpg
 ---
 
-This isn’t a sales pitch. This isn’t a funnel. This is personal.
+# Why AudienceIntent Supports charity: water
 
-We talk a lot about high-intent behavior around here—people searching for solutions, taking action, moving with urgency. But today, I want to shift that lens toward something bigger than marketing, bigger than business.
+At AudienceIntent, we help businesses capture more revenue. But from day one, we also wanted our work to mean something beyond growth.
 
-I want to talk about **clean water.**
+That is why we support charity: water.
 
-Specifically, about **Charity:Water**, and why we’ve partnered with them since day one.
+This is not a campaign add-on or a feel-good line in the footer. It is a commitment. We believe business should create results, and it should create impact. Clean water is one of the clearest ways to do that.
 
-### This Is a Problem That Shouldn’t Exist in 2025
+## The water crisis is still massive
 
-800 million people on this planet still don’t have access to clean drinking water.
+The global water crisis is not solved. Far from it.
 
-That’s not a typo. **800 million**.
+According to [WHO and UNICEF's Joint Monitoring Programme](https://washdata.org/), **2.1 billion people still lack safely managed drinking water**. [UN-Water reports](https://www.unwater.org/water-facts/water-and-gender) that **women and girls spend 250 million hours every day collecting water**, time that could otherwise go to school, work, or caring for family. Water-related disease contributes to an estimated **829,000 preventable deaths each year**.
 
-That means kids walking hours each day just to find water that’s often filled with bacteria. It means moms giving their babies contaminated water because there’s no alternative. It means schools that can’t function, economies that can’t grow, and lives that are cut short—all because of something most of us can get with the twist of a faucet.
+This is not just a health issue. It affects education, safety, income, and long-term economic mobility.
 
-It’s heartbreaking. And honestly? It’s ridiculous this is still a problem in 2025.
+### Why clean water matters so much
 
-### Why We Chose Charity:Water
+Clean water creates a chain reaction of progress:
 
-When we launched AudienceIntent, we knew we wanted to give back. Not just when we “made it,” but from day one.
+-   Better health outcomes for children and families
+    
+-   More time in school for girls who currently spend hours collecting water
+    
+-   More stability and income for households
+    
+-   More opportunity for entire communities to grow
+    
 
-I always knew **Charity:Water** was the right one to support.
+Water is not the whole solution. But it is often the first one.
 
-Here’s why:
+## Why we chose charity: water
 
-- 
-**100% of donations go to the field.** Literally every penny. Private donors cover the overhead—so when you give, it *all* goes to building wells, piping clean water, and transforming communities.
+We chose charity: water because the model is clear, credible, and accountable.
 
-- 
-**Radical transparency.** They show you where your money goes. You get GPS coordinates, photos, and updates from the exact projects your donation funded.
+Here is what stood out:
 
-- 
-**Sustainable solutions.** It’s not just about dropping in a well and walking away. They work with local partners to ensure long-term impact and maintenance. This isn’t charity that creates dependence. It’s empowerment.
+| What matters | What charity: water delivers |
+| --- | --- |
+| Donation transparency | 100% of public donations fund water projects |
+| Operational accountability | Separate private funding covers overhead |
+| Proven reach | Clean water access brought to 17 million people since 2006 |
+| Third-party credibility | [4 out of 4 star Charity Navigator rating](https://www.charitynavigator.org/ein/222807219) for accountability and finance |
+| Donor visibility | GPS-tracked projects with photos and real-time updates |
 
-- 
-**It changes everything.** Clean water isn’t just about hydration. It’s about education, health, dignity, gender equality, and economic development. It’s the first domino.
+In a nonprofit environment where donor trust is harder to earn than ever, that level of transparency is rare. It is also exactly what we look for in a partner.
 
-### Why It Means So Much to Me
+## Why this matters to us
 
-We help businesses grow, scale, and stop wasting money. But I think it’s also our responsibility to remember how lucky we are to even be in that position.
+AudienceIntent exists to help businesses stop wasting opportunity. That mindset carries over here too.
 
-No one should have to suffer because they were born in the wrong zip code on the wrong continent.
+When people lack clean water, the cost is not abstract. It shows up in lost time, poor health, interrupted education, and preventable hardship. Supporting clean water is one of the simplest ways to create real, measurable impact.
 
-Every time a client signs up with us, we make a donation. But this isn’t about us checking a box. It’s about building a community of people who believe in doing business *and* doing good.
+That is why we have supported charity: water from day one. This is part of how we want to build this company: not just around performance, but around responsibility.
 
-So here’s me, asking you—**just one person to another**—to consider helping too.
+## How you can help
 
-### Every Drop Counts
+If you want to support the mission, you can donate directly through our campaign page:
 
-Whether it’s $10 or $100, your donation literally changes lives. I’m not being dramatic. It literally means someone drinks clean water tomorrow instead of something that might kill them.
+> [**Donate through AudienceIntent's charity: water campaign**](https://www.charitywater.org/audienceintent)
 
-Here’s the link to donate:
-👉 https://www.charitywater.org/audienceintent 
+No funnel. No gimmick. Every dollar goes to funding clean water projects that change lives.
 
-No upsell. No tracking. Just impact.
+## Frequently asked questions
 
-Thanks for being part of this journey with us. Whether you donate or just read this far
+### Why does AudienceIntent support charity: water?
+
+We support charity: water because clean water is a foundational need, and the organization combines global impact with unusually strong financial transparency. It aligns with how we think about building a responsible business.
+
+### How many people still lack safe drinking water?
+
+[WHO and UNICEF](https://washdata.org/) report that 2.1 billion people still lack safely managed drinking water worldwide as of 2026. That figure represents roughly 1 in 4 people on the planet.
+
+### What makes charity: water different from other nonprofits?
+
+Its 100% model is the clearest differentiator: every dollar donated by the public goes directly to water projects. Operational costs are funded separately by a private group of donors, so nothing is skimmed from public contributions.
+
+### Is charity: water a credible organization?
+
+Yes. charity: water earned a [4 out of 4 star rating from Charity Navigator](https://www.charitynavigator.org/ein/222807219) for accountability and finance. It also provides GPS-tracked project data and real-time donor reports so contributors can verify exactly where their money went.
+
+### Where can I donate?
+
+You can donate through our campaign page at [charitywater.org/audienceintent](https://www.charitywater.org/audienceintent). Donations go directly to funding clean water projects in communities that need them most.

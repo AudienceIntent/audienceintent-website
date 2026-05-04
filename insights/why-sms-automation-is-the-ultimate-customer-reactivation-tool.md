@@ -4,11 +4,94 @@ meta_title: "SMS Customer Reactivation: Turn Dormant Leads into Revenue"
 date: 2026-05-03T22:02:00.000-04:00
 category: Lead Reactivation
 author: Kevin Bovett - AudienceIntent
-focus_keyword: Lead Reactivation
-image: https://framerusercontent.com/images/rruPIfXnzOs2NJJKHWHxBf2cYUs.jpg
 description: Turn old leads and past customers into booked revenue with SMS
   customer reactivation. See why it works, and calculate what dormant contacts
   are costing you.
+focus_keyword: Lead Reactivation
+schema: >-
+  {
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "SMS Customer Reactivation: Turn Dormant Leads into Revenue",
+        "publisher": {
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "description": "Turn old leads and past customers into booked revenue with SMS customer reactivation. See why it works, and calculate what dormant contacts are costing you.",
+        "dateModified": "2026-05-04",
+        "datePublished": "2026-05-04",
+        "mainEntityOfPage": {
+          "@id": "https://audienceintent.ai/insights/sms-customer-reactivation",
+          "@type": "WebPage"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "name": "Is SMS better than email for customer reactivation?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Usually yes. SMS is read faster and gets far more immediate attention than email, which makes it a stronger channel when you want dormant leads or past customers to reply quickly and move back into a booking flow.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How quickly can SMS reactivation produce results?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "It depends on list quality, offer, and timing, but many businesses see replies and booked appointments within days. The fastest wins usually come from contacts who already showed clear buying intent.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Do dormant leads actually convert?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Yes, especially when the message is relevant and the next step is simple. Old leads are often delayed revenue, not dead revenue, because they already know your brand and have shown prior interest.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "What businesses benefit most from SMS reactivation?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Appointment-based and inquiry-driven businesses tend to see the strongest results. That includes home services, healthcare, wellness, legal, financial services, and other local businesses with old leads or past customers in a CRM.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "What should an SMS reactivation message say?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Keep it short, specific, and easy to answer. The best messages acknowledge prior interest, sound human, and give one clear next step like booking, replying, or requesting an updated quote.",
+              "@type": "Answer"
+            }
+          }
+        ]
+      }
+    ],
+    "@context": "https://schema.org",
+    "internalLinks": [
+      {
+        "context": "Primary CTA for readers to estimate the value of dormant leads and past customers.",
+        "targetUrl": "https://lostrevenue.audienceintent.ai",
+        "anchorText": "Lost Revenue Calculator"
+      },
+      {
+        "context": "Relevant service page for businesses that want a done-for-you reactivation system.",
+        "targetUrl": "https://audienceintent.ai/",
+        "anchorText": "Lead Reactivation Campaigns"
+      },
+      {
+        "context": "Useful internal hub for readers who want to explore related lead reactivation and conversion content.",
+        "targetUrl": "https://audienceintent.ai/insights",
+        "anchorText": "Insights"
+      }
+    ]
+  }
+image: https://framerusercontent.com/images/rruPIfXnzOs2NJJKHWHxBf2cYUs.jpg
 ---
 
 # Why SMS Customer Reactivation Still Works in 2026

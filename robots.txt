@@ -51,4 +51,4 @@ User-agent: PetalBot
 Allow: /
 
 # Sitemap
-Sitemap: https://audienceintent.ai/sitemap.xml
+Sitemap: https://www.audienceintent.ai/sitemap.xml

@@ -2,7 +2,7 @@
 title: "SMS Lead Reactivation: How to Win Back Dormant Leads and Recover Hidden
   Revenue"
 meta_title: "SMS Lead Reactivation: 4 Steps to Recover Revenue"
-date: 2026-05-06T14:53:00.000-04:00
+date: 2026-05-06T15:01:00.000-04:00
 category: Lead Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Use SMS lead reactivation to win back dormant leads fast, stay

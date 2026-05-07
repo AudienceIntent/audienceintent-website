@@ -4,7 +4,9 @@ meta_title: How to Turn Old Leads Into Revenue With SMS
 date: 2026-05-07T15:14:00.000-04:00
 category: AI Visibility
 author: Kevin Bovett - AudienceIntent
-description: Old Leads
+description: Old leads are not dead, they are under-messaged. Learn how
+  AI-powered SMS reactivation works, how to stay compliant, and how to unlock
+  revenue from your CRM.
 focus_keyword: SMS Reactivation
 schema: >-
   {

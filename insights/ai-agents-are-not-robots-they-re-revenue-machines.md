@@ -180,15 +180,15 @@ The difference between this and a patchwork of tools is ownership of the full ou
 
 The cost comparison is not subtle. 
 
-|                            | Full-Time Employee    | AI Agent System      |
-| -------------------------- | --------------------- | -------------------- |
-| Monthly cost               | $4,500+ with benefits | Fraction of the cost |
-| Hours of operation         | 8-9 hours/day         | 24/7/365             |
-| Response time              | Minutes to hours      | Under 60 seconds     |
-| Simultaneous conversations | 1                     | Unlimited            |
-| Consistency                | Variable              | 100%                 |
-| Sick days, turnover        | Yes                   | No                   |
 
+| | Full-Time Employee | AI Agent System |
+|---|---|---|
+| Monthly cost | $4,500+ with benefits | Fraction of the cost |
+| Hours of operation | 8–9 hours/day | 24/7/365 |
+| Response time | Minutes to hours | Under 60 seconds |
+| Simultaneous conversations | 1 | Unlimited |
+| Consistency | Variable | 100% |
+| Sick days, turnover | Yes | No |
 
 
 A full-time employee cannot answer calls at 11pm, follow up on 200 dormant leads simultaneously, and request reviews from every completed job, all while managing live website chat. An AI agent system does all of it without supervision.

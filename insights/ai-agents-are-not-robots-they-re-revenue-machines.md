@@ -188,8 +188,6 @@ The cost comparison is not subtle.
 | Consistency                | Variable              | 100%                 |
 | Sick days, turnover        | Yes                   | No                   |
 
-
-
 A full-time employee cannot answer calls at 11pm, follow up on 200 dormant leads simultaneously, and request reviews from every completed job, all while managing live website chat. An AI agent system does all of it without supervision.
 
 This is not about replacing your team. It is about stopping the revenue from leaking out before your team ever gets involved. The highest-value work, relationship building, complex service delivery, and client retention, stays with your people. The repetitive, time-sensitive, revenue-critical tasks go to the system built for them.

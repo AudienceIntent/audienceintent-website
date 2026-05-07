@@ -119,6 +119,8 @@ A chatbot tells someone your business hours. An AI agent sees that the same pers
 | Autonomous resolution | 37-75%        | 90%+          |
 | Revenue impact        | Informational | Transactional |
 
+
+
 Chatbots are a support tool. AI agents are a revenue tool. Treating them as the same thing is why most businesses underinvest in the one that actually moves the needle.
 
 ## The Revenue Gaps AI Agents Were Built to Close

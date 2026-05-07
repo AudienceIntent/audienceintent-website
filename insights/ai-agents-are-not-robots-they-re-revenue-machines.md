@@ -179,7 +179,7 @@ The difference between this and a patchwork of tools is ownership of the full ou
 
 The cost comparison is not subtle. 
 
-|                            | Full-Time Employee    | AI Agent System      |
+| Metric                     | Full-Time Employee    | AI Agent System      |
 | -------------------------- | --------------------- | -------------------- |
 | Monthly cost               | $4,500+ with benefits | Fraction of the cost |
 | Hours of operation         | 8–9 hours/day         | 24/7/365             |

@@ -91,7 +91,6 @@ schema: >-
   }
 image: https://framerusercontent.com/images/AFfpVGRYbi0ENx4zjPOjfr4.jpg
 ---
-
 # AI Agents Are Not Robots — They're Revenue Machines
 
 When most service business owners hear "AI agent," they picture a robot. Something cold, complicated, and built for companies with IT departments.
@@ -112,13 +111,13 @@ The confusion between AI agents and chatbots is understandable. Both involve aut
 
 A chatbot tells someone your business hours. An AI agent sees that the same person visited your pricing page three times, sends a personalized follow-up, and books them before a competitor even notices the inquiry came in.
 
-|  | Chatbot | AI Agent |
-| --- | --- | --- |
-| Response type | Reactive | Proactive |
-| Task complexity | Single-step | Multi-step |
-| Escalation rate | 70% of cases | ~10% of cases |
-| Autonomous resolution | 37-75% | 90%+ |
-| Revenue impact | Informational | Transactional |
+|                       | Chatbot       | AI Agent      |
+| --------------------- | ------------- | ------------- |
+| Response type         | Reactive      | Proactive     |
+| Task complexity       | Single-step   | Multi-step    |
+| Escalation rate       | 70% of cases  | ~10% of cases |
+| Autonomous resolution | 37-75%        | 90%+          |
+| Revenue impact        | Informational | Transactional |
 
 Chatbots are a support tool. AI agents are a revenue tool. Treating them as the same thing is why most businesses underinvest in the one that actually moves the needle.
 
@@ -164,18 +163,12 @@ AudienceIntent's [Revenue Capture Engine](https://audienceintent.ai) is built ar
 
 Here is what a complete AI agent system covers:
 
--   **Speed-to-lead response** - Every new inquiry gets a reply within 60 seconds, day or night, qualifying interest and routing toward booking
-    
--   **After-hours voice** - Calls answered, appointments booked, and FAQs handled even when your team is off the clock
-    
--   **Website and social chat** - Browsers converted into booked appointments through 24/7 chat across your website, Instagram DMs, and Facebook messages
-    
--   **Lead reactivation** - Dormant CRM contacts re-engaged with personalized outreach that converts old interest into new revenue
-    
--   **Automated review engine** - Review requests sent at the optimal moment after every completed job, building a consistent stream of five-star credibility
-    
--   **AI search visibility** - Structured to get your business cited by ChatGPT, Google AI Overviews, Perplexity, and Siri when someone searches for what you offer
-    
+* **Speed-to-lead response** - Every new inquiry gets a reply within 60 seconds, day or night, qualifying interest and routing toward booking
+* **After-hours voice** - Calls answered, appointments booked, and FAQs handled even when your team is off the clock
+* **Website and social chat** - Browsers converted into booked appointments through 24/7 chat across your website, Instagram DMs, and Facebook messages
+* **Lead reactivation** - Dormant CRM contacts re-engaged with personalized outreach that converts old interest into new revenue
+* **Automated review engine** - Review requests sent at the optimal moment after every completed job, building a consistent stream of five-star credibility
+* **AI search visibility** - Structured to get your business cited by ChatGPT, Google AI Overviews, Perplexity, and Siri when someone searches for what you offer
 
 The difference between this and a patchwork of tools is ownership of the full outcome. When one system handles every touchpoint, nothing falls through the cracks.
 
@@ -183,16 +176,18 @@ The difference between this and a patchwork of tools is ownership of the full ou
 
 ## Why AI Agents Outperform Hiring
 
-The cost comparison is not subtle.
+The cost comparison is not subtle. 
 
-|  | Full-Time Employee | AI Agent System |
-| --- | --- | --- |
-| Monthly cost | $4,500+ with benefits | Fraction of the cost |
-| Hours of operation | 8-9 hours/day | 24/7/365 |
-| Response time | Minutes to hours | Under 60 seconds |
-| Simultaneous conversations | 1 | Unlimited |
-| Consistency | Variable | 100% |
-| Sick days, turnover | Yes | No |
+|                            | Full-Time Employee    | AI Agent System      |
+| -------------------------- | --------------------- | -------------------- |
+| Monthly cost               | $4,500+ with benefits | Fraction of the cost |
+| Hours of operation         | 8-9 hours/day         | 24/7/365             |
+| Response time              | Minutes to hours      | Under 60 seconds     |
+| Simultaneous conversations | 1                     | Unlimited            |
+| Consistency                | Variable              | 100%                 |
+| Sick days, turnover        | Yes                   | No                   |
+
+
 
 A full-time employee cannot answer calls at 11pm, follow up on 200 dormant leads simultaneously, and request reviews from every completed job, all while managing live website chat. An AI agent system does all of it without supervision.
 

@@ -93,10 +93,10 @@ For service businesses, that means poor follow-up, missed messages, and unmanage
 
 > **Key takeaways:**
 > 
-> -   Customer experience directly affects revenue, retention, and conversion 
-> -   Bad reviews and slow response times create hidden revenue leaks
-> -   Reputation management works best when it is proactive, not reactive
-> -   AI can help spot issues faster, collect more reviews, and trigger action before damage spreads
+-   Customer experience directly affects revenue, retention, and conversion 
+-   Bad reviews and slow response times create hidden revenue leaks
+-   Reputation management works best when it is proactive, not reactive
+-   AI can help spot issues faster, collect more reviews, and trigger action before damage spreads
 >     
 
 ## Where the Revenue Leaks Happen

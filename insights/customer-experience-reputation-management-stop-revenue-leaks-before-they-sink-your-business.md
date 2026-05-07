@@ -92,7 +92,6 @@ That shift is now clear in the data. In 2026, [79% of companies say customer exp
 For service businesses, that means poor follow-up, missed messages, and unmanaged reviews do not just hurt perception. They quietly drain booked jobs, repeat business, and referrals.
 
 > **Key takeaways:**
-> 
 -   Customer experience directly affects revenue, retention, and conversion 
 -   Bad reviews and slow response times create hidden revenue leaks
 -   Reputation management works best when it is proactive, not reactive

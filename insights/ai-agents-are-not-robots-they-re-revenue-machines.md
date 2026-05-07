@@ -111,13 +111,13 @@ The confusion between AI agents and chatbots is understandable. Both involve aut
 
 A chatbot tells someone your business hours. An AI agent sees that the same person visited your pricing page three times, sends a personalized follow-up, and books them before a competitor even notices the inquiry came in.
 
-|                       | Chatbot       | AI Agent      |
+| Metric | Chatbot | AI Agent |
 | --------------------- | ------------- | ------------- |
-| Response type         | Reactive      | Proactive     |
-| Task complexity       | Single-step   | Multi-step    |
-| Escalation rate       | 70% of cases  | ~10% of cases |
-| Autonomous resolution | 37-75%        | 90%+          |
-| Revenue impact        | Informational | Transactional |
+| Response type | Reactive | Proactive |
+| Task complexity | Single-step | Multi-step |
+| Escalation rate | 70% of cases | ~10% of cases |
+| Autonomous resolution | 37-75% | 90%+ |
+| Revenue impact | Informational | Transactional |
 
 
 

@@ -236,7 +236,7 @@ The speed is what surprises most business owners. Unlike paid advertising, which
 
 The comparison is worth making explicit, because most service business owners default to buying more leads when revenue slows down. That reflex is expensive.
 
-| Data Point | New Lead Generation | Lead Reactivation |
+| - | New Lead Generation | Lead Reactivation |
 | --- | --- | --- |
 | Cost | High (ad spend + management) | Low (existing contacts) |
 | Audience familiarity | Cold — never heard of you | Warm — already expressed interest |

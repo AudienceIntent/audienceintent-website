@@ -101,18 +101,12 @@ The fastest path to new revenue is not a bigger ad budget. It's a system that wa
 
 > **Key Takeaways**
 > 
-> -   Acquiring a new customer costs 5 to 25 times more than reactivating a dormant one
->     
+> -   Acquiring a new customer costs 5 to 25 times more than reactivating a dormant one 
 > -   CAC has risen 222% over the past eight years, making new acquisition increasingly unprofitable
->     
 > -   Responding to a lead within 5 minutes makes them 21x more likely to qualify
->     
-> -   AI-powered reactivation can run at 5 to 8x lower cost than net-new lead acquisition
->     
-> -   63% of businesses still fail to follow up with leads fast enough to compete
->     
-> -   Done-for-you reactivation systems remove the excavation burden from sales teams entirely
->     
+> -   AI-powered reactivation can run at 5 to 8x lower cost than net-new lead acquisition 
+> -   63% of businesses still fail to follow up with leads fast enough to compete 
+> -   Done-for-you reactivation systems remove the excavation burden from sales teams entirely 
 
 ## The Real Problem Is Not Lead Quality
 

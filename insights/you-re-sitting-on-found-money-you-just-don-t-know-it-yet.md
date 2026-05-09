@@ -1,86 +1,175 @@
 ---
-title: You’re Sitting on “Found Money” — You Just Don’t Know It Yet.
-date: 2026-01-09
+title: You're Sitting on Found Money - You Just Don't Know It Yet
+meta_title: "Found Money in Your CRM: 5 Recovery Stats"
+date: 2026-05-09T15:12:00.000-04:00
 category: Growth
+author: Kevin Bovett - AudienceIntent
+description: Old leads and missed calls are still revenue. See the stats, then
+  use Revenue Capture Engine to recover it without adding staff or ad spend.
+focus_keyword: Found Money
+schema: >-
+  {
+    "@graph": [
+      {
+        "@type": "Article",
+        "author": {
+          "name": "Kevin Bovett",
+          "@type": "Person"
+        },
+        "headline": "Found Money in Your CRM: 5 Recovery Stats",
+        "publisher": {
+          "logo": {
+            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
+            "@type": "ImageObject"
+          },
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "description": "Old leads and missed calls are still revenue. See the stats, then use Revenue Capture Engine to recover it without adding staff or ad spend.",
+        "dateModified": "2026-05-09",
+        "datePublished": "2026-05-09",
+        "mainEntityOfPage": {
+          "@id": "https://audienceintent.ai/insights/lead-reactivation-where-old-leads-become-found-money",
+          "@type": "WebPage"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "name": "What does found money in a CRM mean?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Found money is revenue you already paid to generate but never collected. It usually sits in old leads, missed calls, and past customers who were never re-engaged. Because the acquisition cost is already sunk, recovery is often faster and cheaper than buying more leads.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How much revenue do missed calls cost businesses?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Missed calls can be expensive fast. Industry research puts the average missed call at about $250 in lost revenue, and U.S. small businesses lose billions every year from unanswered calls. In service businesses, one missed call can easily become a lost appointment and a lost customer.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Do old leads still convert?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Yes, if you re-engage them with the right timing and message. Dormant contacts often respond at much higher rates than cold traffic because they already know your brand and showed intent before. Lead reactivation works best when it is personalized, fast, and consistent.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How fast should a business respond to new leads?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Within five minutes is the standard worth aiming for. Research shows leads contacted in that window are far more likely to qualify and convert than leads contacted later. After an hour, the odds drop sharply, which is why instant follow-up matters so much.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "What does Revenue Capture Engine do?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Revenue Capture Engine combines lead reactivation, 60-second speed-to-lead, after-hours voice coverage, chat, social DM automation, reviews, and AI search visibility into one done-for-you system. It is built to capture more of the demand you already have without adding staff or extra ad spend.",
+              "@type": "Answer"
+            }
+          }
+        ]
+      }
+    ],
+    "@context": "https://schema.org"
+  }
 image: https://framerusercontent.com/images/NyOtqcsX27LpcbN65NEpOKlGIg.jpg
-description: "**Every business has hidden revenue buried in old leads. Here’s
-  how we help you wake it up — no new ads, no risk, just results.** ### **Let’s
-  Be Honest — You Do..."
 ---
 
-**Every business has hidden revenue buried in old leads. Here’s how we help you wake it up — no new ads, no risk, just results.**
+# You're Sitting on Found Money - You Just Don't Know It Yet
 
-### **Let’s Be Honest — You Don’t Need More Leads.**
+Most businesses think growth starts with more leads. More ads. More spend. More campaigns.
 
-Everyone says the answer to growth is *more leads.*
-Run more ads. Launch more funnels. Hire more agencies.
+But for most service businesses, the fastest path to new revenue is not generating new demand. It is recovering the demand you already paid for.
 
-But what if your next sale isn’t out there waiting to be found?
-What if it’s already sitting inside your CRM — just collecting digital dust?
+That revenue is sitting in your CRM right now, in old leads, missed calls, and follow-up gaps that quietly kill deals before they ever close. That is found money.
 
-That’s what we call **Found Money** — and once you see it, you can’t unsee it.
+**The uncomfortable truth:** [63.5% of companies never respond to leads at all](https://www.apten.ai/blog/speed-to-lead-benchmarks-2026), and the median response time for those that do is 42 hours. By then, the opportunity is usually gone.
 
-### **What Exactly Is “Found Money”?**
+## The Problem Usually Is Not Lead Volume
 
-Found Money is the revenue you’ve already paid for but never collected.
-It’s hiding in your old contact lists — the people who showed interest, got distracted, and never converted.
+If your business already gets calls and form fills, the real issue is often what happens after the lead comes in.
 
-They’re not strangers. They’re *almost customers.*
-And with the right reactivation strategy, they can be your most profitable audience.
+Speed is the variable most businesses underestimate. [Research consistently shows](https://www.getnextphone.com/blog/speed-to-lead) that leads contacted within 5 minutes are **21 times more likely to qualify** than leads contacted at 30 minutes. The conversion rate under 5 minutes is 21%. Wait 24 hours and it drops to 2.3%, a **900% difference** based on response time alone.
 
-We’re talking about:
+The average first response is still 47 hours, and [66% of companies take more than an hour](https://www.apten.ai/blog/speed-to-lead-benchmarks-2026) to reply. Every hour of delay costs roughly 8% in conversion probability. That gap is where revenue disappears.
 
-- Leads who clicked but didn’t book
+## Found Money Is Hiding in Three Places
 
-- Prospects who said “circle back later”
+Most service businesses are leaking revenue from the same three sources:
 
-- Customers who went quiet after a few months
+-   **Old leads** who showed interest but never booked, and were never followed up with
+    
+-   **Missed calls** that went to voicemail after hours or during busy periods
+    
+-   **Past customers** who went quiet and were never re-engaged
+    
 
-All still there. All still reachable. All still ready.
+The scale of this problem is significant. [U.S. small businesses lose an estimated $75 to $81.2 billion annually](https://greet.now/blog/missed-calls) from missed calls alone. Research from Launch Leads puts the waste even higher, estimating that **70 to 80% of acquired leads are never re-engaged** after the initial contact attempt fails.
 
-### **Why Most Businesses Miss It**
+That is not a lead generation problem. That is a follow-up problem.
 
-Because everyone’s chasing *new.*
-New campaigns, new ads, new platforms.
+## Why Old Leads Still Convert
 
-Meanwhile, their existing data — the one they spent thousands collecting — just sits untouched.
+Old leads are not cold strangers. They already know your brand, already raised their hand, and in most cases were simply never followed up with at the right time.
 
-It’s like searching for spare change under your couch when you’ve got a stack of cash in the drawer.
+As [Launch Leads puts it](https://www.launchleads.com/reviving-dead-leads-a-playbook-for-b2b-companies/): "Treating dead leads as 'no' rather than 'not yet' is leaving money on the table."
 
-### **Where AudienceIntent Comes In**
+High-performing businesses now track "revival revenue" as a dedicated KPI. Re-engaging a lead who already knows you costs a fraction of acquiring a new one.
 
-At AudienceIntent, we turn forgotten leads into booked appointments, sales, and real revenue.
+## How Revenue Capture Engine Recovers That Revenue
 
-Our **Reactivation Agent**:
-✅ Re-engages your old leads with human-style SMS conversations
-✅ Books qualified appointments directly to your calendar
-✅ Works entirely on a **performance-based model** — no retainers, no risk
+AudienceIntent's **Revenue Capture Engine** is built to stop those leaks and turn missed opportunities into booked revenue, without adding headcount or ad spend.
 
-It’s simple: if we don’t perform, you don’t pay ongoing fees.
+It combines four recovery mechanisms:
 
-### **Why It Works**
+| Component | What It Does |
+| --- | --- |
+| **Lead Reactivation Campaigns** | Automated sequences that re-engage dormant leads and past customers |
+| **Speed-to-Lead (60 Seconds)** | Every new inquiry gets an instant response before the window closes |
+| **After-Hours Voice Agent** | Answers calls after hours, books appointments, handles FAQs |
+| **Chat (Website and Social DMs)** | Captures and converts inquiries around the clock |
 
-Because familiarity sells.
+The results from real clients back it up. **Blingle recovered $36,000 in booked jobs** from lead reactivation alone. **GoldenCrest Metals booked 5 new sales calls in week one** from chat, voice, and reactivation working together.
 
-Old leads convert better than new ones for one reason — they already know you.
-They’ve seen your brand, read your offer, maybe even replied once.
+## Before You Buy More Leads, Fix the Leak
 
-When you reconnect with them in a natural, conversational way, it doesn’t feel like marketing.
-It feels like *you remembered them.*
+You already paid to generate these opportunities.
 
-That’s where our AI comes in — not to spam, but to scale that kind of authentic re-engagement.
+Every click, every call, every form fill, you spent real money to make those happen. So before you buy more leads, look at the revenue sitting untouched in your CRM.
 
-### **You Already Paid for These Leads — Now Make Them Pay You Back**
+That is where the fastest wins usually are.
 
-You’ve invested in ads. You’ve built lists. You’ve done the work.
-Now it’s time for that investment to finally pay off.
+Revenue Capture Engine comes with a **30-day money-back guarantee**, and most clients are live within 10 to 14 days.
 
-Found Money isn’t about luck — it’s about leverage.
-You already own the data. You just need to wake it up.
+If you want to see exactly how much found money is sitting in your pipeline, get your [**Free Business Performance Report**](https://report.audienceintent.ai) or [**book a demo**](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi). The report is free, and the revenue it surfaces usually is not small.
 
-### **Zero Risk. All Reward.**
+## Frequently Asked Questions
 
-We back everything we do with a simple guarantee:
-If we don’t double your setup fee within 60 days, we refund it.
+### What is "found money" in a CRM?
 
-That’s how confident we are that Found Money exists in your CRM — and we know how to find it.
+Found money refers to revenue that already exists inside your business but has not been collected. It typically lives in three places: old leads who showed interest but never booked, missed calls that went unanswered, and past customers who were never re-engaged. Because you already paid to generate these contacts, recovering them costs far less than acquiring new leads.
+
+### How much revenue do businesses lose from missed calls?
+
+U.S. small businesses lose an estimated [$75 to $81.2 billion annually](https://greet.now/blog/missed-calls) from missed calls alone, according to research from the Hiya State of the Call Report and BIA/Kelsey. In service industries, the average missed call represents $100 to $250 in lost revenue. About 85% of missed callers never call back, which means most of that revenue is gone permanently without a recovery system in place.
+
+### Does lead reactivation actually work on old leads?
+
+Yes. Dormant CRM contacts re-engage at a rate of 5 to 15% when contacted with a well-timed, relevant message. The reason is simple: old leads are not cold strangers. They already know your brand and already showed intent. As [Launch Leads puts it](https://www.launchleads.com/reviving-dead-leads-a-playbook-for-b2b-companies/), "treating dead leads as 'no' rather than 'not yet' is leaving money on the table." Blingle recovered $36,000 in booked jobs from lead reactivation alone using Revenue Capture Engine.
+
+### How fast does a business need to respond to a new lead?
+
+Within five minutes is the standard. [Research shows](https://www.getnextphone.com/blog/speed-to-lead) that leads contacted within five minutes are 21 times more likely to qualify than leads contacted after 30 minutes. The conversion rate under five minutes is 21%. Wait 24 hours and it drops to 2.3%. Most businesses are responding in 42 to 47 hours, which means they are losing the majority of leads not to bad marketing, but to slow follow-up.
+
+### What does Revenue Capture Engine do to fix these problems?
+
+Revenue Capture Engine is a done-for-you system that combines Lead Reactivation Campaigns, Speed-to-Lead within 60 seconds, an After-Hours Voice Agent, and Chat across website and social channels. It is built to stop revenue from leaking at every stage: new inquiries, after-hours calls, unanswered DMs, and dormant contacts. It comes with a 30-day money-back guarantee and most clients are live within 10 to 14 days.

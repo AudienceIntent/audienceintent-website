@@ -344,7 +344,6 @@ If your CRM is full of old estimates, missed calls, unbooked inquiries, or past 
 
 You do not need more dead leads. You need a better system for the ones you already have.
 
----
 
 **AudienceIntent's Revenue Capture Engine** includes done-for-you lead reactivation campaigns, speed-to-lead automation, missed-call recovery, and multi-channel follow-up built specifically for service businesses.
 

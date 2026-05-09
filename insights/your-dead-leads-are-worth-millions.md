@@ -100,13 +100,12 @@ This is not a lead quality problem. It's a system problem. And it's costing serv
 The fastest path to new revenue is not a bigger ad budget. It's a system that wakes up the leads you already own.
 
 > **Key Takeaways**
-> 
-> -   Acquiring a new customer costs 5 to 25 times more than reactivating a dormant one 
-> -   CAC has risen 222% over the past eight years, making new acquisition increasingly unprofitable
-> -   Responding to a lead within 5 minutes makes them 21x more likely to qualify
-> -   AI-powered reactivation can run at 5 to 8x lower cost than net-new lead acquisition 
-> -   63% of businesses still fail to follow up with leads fast enough to compete 
-> -   Done-for-you reactivation systems remove the excavation burden from sales teams entirely 
+-   Acquiring a new customer costs 5 to 25 times more than reactivating a dormant one 
+-   CAC has risen 222% over the past eight years, making new acquisition increasingly unprofitable
+-   Responding to a lead within 5 minutes makes them 21x more likely to qualify
+-   AI-powered reactivation can run at 5 to 8x lower cost than net-new lead acquisition 
+-   63% of businesses still fail to follow up with leads fast enough to compete 
+-   Done-for-you reactivation systems remove the excavation burden from sales teams entirely 
 
 ## The Real Problem Is Not Lead Quality
 

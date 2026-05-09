@@ -92,11 +92,11 @@ That is the real problem most service businesses have. Not a lead shortage. A fo
 This article breaks down why lead reactivation consistently outperforms buying more leads on cost, speed, and conversion rate, and what a structured reactivation system actually looks like in practice.
 
 > **Key takeaways:**
-> -   Old leads are already-paid-for demand. Reactivation costs a fraction of new acquisition.
-> -   The first business to respond wins 78% of deals. Speed is not optional.
-> -   SMS outperforms email for reactivation because it gets seen fast and drives replies.
-> -   Generic blasts fail. Conversational, two-way follow-up converts.
-> -   AudienceIntent's Revenue Capture Engine runs lead reactivation as a done-for-you system, live in 10-14 days. 
+-   Old leads are already-paid-for demand. Reactivation costs a fraction of new acquisition.
+-   The first business to respond wins 78% of deals. Speed is not optional.
+-   SMS outperforms email for reactivation because it gets seen fast and drives replies.
+-   Generic blasts fail. Conversational, two-way follow-up converts.
+-   AudienceIntent's Revenue Capture Engine runs lead reactivation as a done-for-you system, live in 10-14 days. 
 
 ## Lead Reactivation vs. Buying More Leads: The Core Difference
 

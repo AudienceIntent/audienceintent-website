@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+ 
   <!-- Schema -->
   <script type="application/ld+json">
   {
@@ -78,8 +80,6 @@
 <meta id="page-author" name="author" content="AudienceIntent">
 <link rel="icon" type="image/png" href="https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=32">
 <script type="application/ld+json" id="page-schema"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPXQWGBR60"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-MPXQWGBR60");</script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -187,7 +187,7 @@ function getSlug() {
   var parts = window.location.pathname.split('/').filter(Boolean);
   return parts[parts.length - 1] || '';
 }
-
+ 
 function formatDate(d) {
   if (!d) return '';
   var p = d.split('-');
@@ -195,7 +195,7 @@ function formatDate(d) {
   try { return months[parseInt(p[1]) - 1] + ' ' + p[2] + ', ' + p[0]; }
   catch(e) { return d; }
 }
-
+ 
 function buildArticleSchema(article, canonical) {
   return {
     "@context": "https://schema.org",
@@ -218,41 +218,41 @@ function buildArticleSchema(article, canonical) {
     "url": canonical
   };
 }
-
+ 
 function render(article) {
   var wrap = document.getElementById('article-wrap');
   if (!article) {
     wrap.innerHTML = '<div class="not-found"><p style="font-size:18px;font-weight:700;margin-bottom:12px">Article not found</p><a href="/insights" style="color:#00ff73;text-decoration:none;font-size:14px">&larr; Back to Insights</a></div>';
     return;
   }
-
+ 
   var baseTitle = article.meta_title || article.title || 'Insights';
   var metaTitle = baseTitle.length < 40
     ? baseTitle + ' | AudienceIntent - Revenue Capture Engine'
     : baseTitle + ' | AudienceIntent';
-
+ 
   document.title = metaTitle;
   document.getElementById('page-title').textContent = metaTitle;
-
+ 
   var desc = article.description || article.excerpt || '';
   document.getElementById('page-desc').content = desc;
-
+ 
   var canonical = article.canonical || ('https://www.audienceintent.ai/insights/' + (article.slug || ''));
   document.getElementById('page-canonical').href = canonical;
-
+ 
   document.getElementById('page-author').content = article.author || 'AudienceIntent';
-
+ 
   document.getElementById('og-title').content = baseTitle;
   document.getElementById('og-desc').content = desc;
   document.getElementById('og-url').content = canonical;
   if (article.og_image) document.getElementById('og-image').content = article.og_image;
   else if (article.image) document.getElementById('og-image').content = article.image;
-
+ 
   document.getElementById('tw-title').content = baseTitle;
   document.getElementById('tw-desc').content = desc;
   if (article.og_image) document.getElementById('tw-image').content = article.og_image;
   else if (article.image) document.getElementById('tw-image').content = article.image;
-
+ 
   var schemaEl = document.getElementById('page-schema');
   if (schemaEl) {
     if (article.schema && article.schema.trim()) {
@@ -261,11 +261,11 @@ function render(article) {
       schemaEl.textContent = JSON.stringify(buildArticleSchema(article, canonical), null, 2);
     }
   }
-
+ 
   var imgHTML = article.image
     ? '<div class="art-img-wrap"><img class="art-img" src="' + article.image + '" alt="' + (article.title || '').replace(/"/g, '') + '"></div>'
     : '';
-
+ 
   wrap.innerHTML =
     '<a class="back" href="/insights">&larr; Back to Insights</a>'
     + '<div class="art-cat">' + (article.category || '') + '</div>'
@@ -275,7 +275,7 @@ function render(article) {
     + '<div class="art-body">' + (article.content || '') + '</div>'
     + '<div class="cta-box"><h3>Ready to capture more revenue?</h3><p>Get your free business performance report or calculate your lost revenue in under 2 minutes.</p><div class="cta-box-btns"><a href="https://report.audienceintent.ai" target="_blank" class="cta-btn">Get My Free Report &rarr;</a><a href="https://lostrevenue.audienceintent.ai" target="_blank" class="cta-btn cta-btn-sec">Calculate My Lost Revenue</a></div></div>';
 }
-
+ 
 function init() {
   var slug = getSlug();
   fetch('/articles.json')
@@ -295,28 +295,39 @@ function init() {
       render(null);
     });
 }
-
+ 
 init();
 </script>
-<!-- GHL Chat Widget -->
+<!-- GHL Chat Widget - deferred -->
 <script>
 (function(){
-  var f = document.createElement('iframe');
-  f.id = 'ghl-chat';
-  f.style.cssText = 'position:fixed;bottom:0;right:0;width:420px;height:620px;border:none;z-index:9999;background:transparent;';
-  var html = [
-    '<!DOCTYPE html>',
-    '<html><head>',
-    '<style>body{margin:0;background:transparent;overflow:hidden}</style>',
-    '</head><body>',
-    '<scr'+'ipt src="https://beta.leadconnectorhq.com/loader.js"',
-    ' data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"',
-    ' data-widget-id="6849f6320a987f033d7a4a13"><'+'/scr'+'ipt>',
-    '</body></html>'
-  ].join('');
-  var blob = new Blob([html], {type: 'text/html'});
-  f.src = URL.createObjectURL(blob);
-  document.body.appendChild(f);
+  var loaded = false;
+  function loadChat() {
+    if (loaded) return;
+    loaded = true;
+    var f = document.createElement('iframe');
+    f.id = 'ghl-chat';
+    f.style.cssText = 'position:fixed;bottom:0;right:0;width:420px;height:620px;border:none;z-index:9999;background:transparent;';
+    var html = [
+      '<!DOCTYPE html>',
+      '<html><head>',
+      '<style>body{margin:0;background:transparent;overflow:hidden}</style>',
+      '</head><body>',
+      '<scr'+'ipt src="https://beta.leadconnectorhq.com/loader.js"',
+      ' data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"',
+      ' data-widget-id="6849f6320a987f033d7a4a13"><'+'/scr'+'ipt>',
+      '</body></html>'
+    ].join('');
+    var blob = new Blob([html], {type: 'text/html'});
+    f.src = URL.createObjectURL(blob);
+    document.body.appendChild(f);
+  }
+  // Load on first scroll, click, or touch - whichever comes first
+  ['scroll','click','touchstart','keydown'].forEach(function(e){
+    window.addEventListener(e, loadChat, {once: true, passive: true});
+  });
+  // Fallback: load after 5 seconds regardless
+  setTimeout(loadChat, 5000);
 })();
 </script>
 <script>
@@ -337,5 +348,9 @@ init();
   m.addEventListener('click',function(e){if(e.target===m){closeMenu();}});
 })();
 </script>
+<!-- Google Analytics - deferred to bottom -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPXQWGBR60"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-MPXQWGBR60");</script>
 </body>
 </html>
+ 

@@ -1,7 +1,73 @@
+# ============================================================
+# robots.txt — AudienceIntent LLC
+# https://www.audienceintent.ai
+# Last updated: May 2026
+# ============================================================
+# Global rule: allow all crawlers by default
+# Explicit listings below confirm opt-in intent to each platform
+
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-# AI crawlers
+# ============================================================
+# STANDARD SEARCH ENGINES
+# ============================================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# ============================================================
+# WEB ARCHIVES
+# ============================================================
+
+User-agent: ia_archiver
+Allow: /
+
+# ============================================================
+# AI LANGUAGE MODEL CRAWLERS
+# Explicitly allowing all known LLM training & inference bots.
+# This site provides content intended for AI indexing as part
+# of the AI Recommended™ service — full access is intentional.
+# ============================================================
+
+# OpenAI / ChatGPT
 User-agent: GPTBot
 Allow: /
 
@@ -11,44 +77,152 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
+# Anthropic / Claude
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: PerplexityBot
+User-agent: Claude-Web
 Allow: /
 
+# Google / Gemini
 User-agent: Google-Extended
 Allow: /
 
 User-agent: Gemini-AI
 Allow: /
 
-User-agent: GoogleOther
+User-agent: Gemini-Crawler
 Allow: /
 
-User-agent: Applebot-Extended
+# xAI / Grok
+User-agent: Grok
 Allow: /
 
+User-agent: xAI
+Allow: /
+
+User-agent: Grok-Bot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Meta AI
 User-agent: Meta-ExternalAgent
 Allow: /
 
 User-agent: Meta-ExternalFetcher
 Allow: /
 
+# Apple / Siri / AI (covers both standard search and AI training)
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Cohere
 User-agent: cohere-ai
 Allow: /
 
+# Mistral AI
+User-agent: MistralBot
+Allow: /
+
+# DuckAssist / DuckDuckGo AI
+User-agent: DuckAssistBot
+Allow: /
+
+# Microsoft Copilot / Bing AI
+User-agent: MSEdgeBot
+Allow: /
+
+# Amazon Alexa / Rufus
+User-agent: Amazonbot
+Allow: /
+
+# You.com
 User-agent: YouBot
 Allow: /
 
-User-agent: AwarioSmartBot
+# Bytedance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Common Crawl (foundation dataset for most LLM training)
+User-agent: CCBot
+Allow: /
+
+# ============================================================
+# SEO & MARKETING DATA CRAWLERS (allowed)
+# These bots power backlink and competitive intelligence
+# databases. Allowed for industry visibility and benchmarking.
+# ============================================================
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: DataForSeoBot
 Allow: /
 
 User-agent: PetalBot
 Allow: /
 
-# Sitemap
+User-agent: AwarioSmartBot
+Allow: /
+
+# ============================================================
+# EXPLICITLY BLOCK KNOWN SCRAPERS & BAD ACTORS
+# These bots harvest contact data, scrape for spam,
+# or have no legitimate indexing purpose.
+# ============================================================
+
+User-agent: SurveyBot
+Disallow: /
+
+User-agent: VoilaBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: WebEmailExtractor
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: Harvest
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+# ============================================================
+# SITEMAPS
+# ============================================================
+
 Sitemap: https://www.audienceintent.ai/sitemap.xml
+Sitemap: https://www.audienceintent.ai/sitemap-images.xml

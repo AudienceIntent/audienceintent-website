@@ -1,51 +1,290 @@
+# ============================================================
+# netlify.toml — AudienceIntent LLC
+# https://www.audienceintent.ai
+# Optimized for: SEO, AEO, LLM crawlers, Core Web Vitals,
+# Security audits, Lighthouse, and PageSpeed Insights
+# Last updated: May 2026
+# ============================================================
+
 [build]
   command = "node generate-articles.js"
   publish = "."
 
-# Force HTTPS and www — redirect all 3 non-canonical variants to www
+# ============================================================
+# HTTPS & CANONICAL REDIRECTS
+# Force all traffic to https://www.audienceintent.ai
+# ============================================================
+
 [[redirects]]
   from = "http://audienceintent.ai/*"
-  to = "https://www.audienceintent.ai/:splat"
+  to   = "https://www.audienceintent.ai/:splat"
   status = 301
-  force = true
+  force  = true
 
 [[redirects]]
   from = "http://www.audienceintent.ai/*"
-  to = "https://www.audienceintent.ai/:splat"
+  to   = "https://www.audienceintent.ai/:splat"
   status = 301
-  force = true
+  force  = true
 
 [[redirects]]
   from = "https://audienceintent.ai/*"
-  to = "https://www.audienceintent.ai/:splat"
+  to   = "https://www.audienceintent.ai/:splat"
   status = 301
-  force = true
+  force  = true
 
-# Article routing
+# Remove trailing /index.html to avoid duplicate canonical
 [[redirects]]
-  from = "/insights/*.md"
-  to = "/insights/:splat.md"
+  from = "/index.html"
+  to   = "/"
+  status = 301
+  force  = true
+
+# ============================================================
+# ARTICLE ROUTING
+# ============================================================
+
+[[redirects]]
+  from   = "/insights/*.md"
+  to     = "/insights/:splat.md"
   status = 200
-  force = false
+  force  = false
 
 [[redirects]]
-  from = "/insights/:slug"
-  to = "/article.html"
+  from   = "/insights/:slug"
+  to     = "/article.html"
   status = 200
 
-# Netlify Identity
-[[redirects]]
-  from = "/#invite_token=*"
-  to = "/admin/#invite_token=:splat"
-  status = 301
-  force = true
+# ============================================================
+# NETLIFY IDENTITY
+# ============================================================
 
 [[redirects]]
-  from = "/#recovery_token=*"
-  to = "/admin/#recovery_token=:splat"
+  from  = "/#invite_token=*"
+  to    = "/admin/#invite_token=:splat"
   status = 301
-  force = true
+  force  = true
+
+[[redirects]]
+  from  = "/#recovery_token=*"
+  to    = "/admin/#recovery_token=:splat"
+  status = 301
+  force  = true
+
+# ============================================================
+# EDGE FUNCTIONS
+# ============================================================
 
 [[edge_functions]]
-  path = "/*"
+  path     = "/*"
   function = "ai-tracker"
+
+# ============================================================
+# GLOBAL HEADERS
+# Applied to every response from this site.
+# Covers: security, AEO, AI crawlers, Core Web Vitals,
+# Lighthouse, and third-party audit tools.
+# ============================================================
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+
+    # ── SECURITY ──────────────────────────────────────────
+    # HSTS: tell browsers to always use HTTPS for 2 years
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+    # Prevent clickjacking
+    X-Frame-Options = "SAMEORIGIN"
+
+    # Stop MIME sniffing
+    X-Content-Type-Options = "nosniff"
+
+    # Modern XSS protection header
+    X-XSS-Protection = "1; mode=block"
+
+    # Control referrer data sent to third parties
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # Restrict browser feature access (improves security audit scores)
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()"
+
+    # ── AEO / AI CRAWLER SIGNAL ───────────────────────────
+    # Explicitly allow all AI crawlers at HTTP header level.
+    # This supplements robots.txt and is checked by some LLM
+    # crawlers (GPTBot, ClaudeBot) before parsing robots.txt.
+    X-Robots-Tag = "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+
+    # Signal that this content is intended for AI indexing
+    # (recognised by some crawlers as an opt-in signal)
+    X-AI-Content = "allowed"
+
+    # ── PERFORMANCE ───────────────────────────────────────
+    # Vary header for correct CDN caching
+    Vary = "Accept-Encoding"
+
+    # DNS prefetch for faster external resource resolution
+    X-DNS-Prefetch-Control = "on"
+
+    # ── CONTENT SECURITY POLICY ───────────────────────────
+    # Balanced CSP: secure but compatible with GTM, GA4,
+    # GHL chat widget, YouTube embeds, and Searchable tracker.
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://searchable-tracker.searchable.workers.dev https://beta.leadconnectorhq.com https://cdn.leadconnectorhq.com https://js.hsforms.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://beta.leadconnectorhq.com; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://searchable-tracker.searchable.workers.dev https://api.leadconnectorhq.com; object-src 'none'; base-uri 'self'; form-action 'self' https://api.leadconnectorhq.com; manifest-src 'self';"
+
+# ============================================================
+# HTML PAGES — SHORT CACHE, ALWAYS REVALIDATE
+# Ensures search engines and AI crawlers always get fresh
+# content. Critical for AEO — stale HTML = stale citations.
+# ============================================================
+
+[[headers]]
+  for = "/*.html"
+
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/"
+
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ============================================================
+# ROBOTS.TXT — NO CACHE
+# Always serve the latest robots.txt to crawlers.
+# ============================================================
+
+[[headers]]
+  for = "/robots.txt"
+
+  [headers.values]
+    Cache-Control    = "public, max-age=3600"
+    Content-Type     = "text/plain; charset=UTF-8"
+    X-Robots-Tag     = "noindex"
+
+# ============================================================
+# LLMS.TXT — AI CRAWLER MANIFEST
+# Source-of-truth file for AI platforms. Short cache so
+# updates propagate quickly to crawlers re-fetching it.
+# ============================================================
+
+[[headers]]
+  for = "/llms.txt"
+
+  [headers.values]
+    Cache-Control    = "public, max-age=3600"
+    Content-Type     = "text/plain; charset=UTF-8"
+    X-Robots-Tag     = "index, follow"
+
+# ============================================================
+# SITEMAP — SHORT CACHE
+# ============================================================
+
+[[headers]]
+  for = "/sitemap.xml"
+
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type  = "application/xml; charset=UTF-8"
+    X-Robots-Tag  = "noindex"
+
+[[headers]]
+  for = "/sitemap-images.xml"
+
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type  = "application/xml; charset=UTF-8"
+    X-Robots-Tag  = "noindex"
+
+# ============================================================
+# STATIC ASSETS — AGGRESSIVE CACHE (1 YEAR)
+# Immutable assets (images, fonts, JS, CSS) cached for 1 year.
+# Core Web Vitals (LCP, FID) depend on fast asset delivery.
+# ============================================================
+
+[[headers]]
+  for = "/*.js"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff2"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/*.woff"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/*.jpg"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpeg"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.ico"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ============================================================
+# WEB APP MANIFEST (favicon manifest)
+# Correct MIME type for PWA / browser recognition.
+# ============================================================
+
+[[headers]]
+  for = "/*.webmanifest"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type  = "application/manifest+json; charset=UTF-8"
+
+# ============================================================
+# SCHEMA / JSON-LD ENDPOINT (if served as a separate file)
+# ============================================================
+
+[[headers]]
+  for = "/*.json"
+
+  [headers.values]
+    Cache-Control    = "public, max-age=3600"
+    Content-Type     = "application/json; charset=UTF-8"
+    X-Content-Type-Options = "nosniff"

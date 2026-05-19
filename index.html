@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -596,10 +597,14 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:14px 32px;display:fl
 .lstrip{margin-top:56px;padding-top:44px;border-top:.5px solid rgba(248,247,246,.1)}
 .lsl-heading{font-size:clamp(36px,5vw,64px);font-weight:800;letter-spacing:-.04em;color:#f8f7f6;text-align:center;margin-bottom:40px}
 .lsl-heading span{color:#00ff73}
-.lrow{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
-.litem-ph{display:flex;align-items:center;justify-content:center;height:56px;padding:0 20px;border-radius:10px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;min-width:140px;text-align:center;flex:0 0 auto}
-.lph-light{background:rgba(248,247,246,.04);border:1.5px dashed rgba(248,247,246,.2);color:rgba(248,247,246,.35)}
-.lph-dark{background:rgba(248,247,246,.04);border:1.5px dashed rgba(248,247,246,.2);color:rgba(248,247,246,.35)}
+.lrow{display:flex;align-items:center;justify-content:center;gap:28px;flex-wrap:wrap}
+.litem{display:flex;align-items:center;justify-content:center;height:64px;padding:8px 18px;flex:0 0 auto;transition:opacity .25s,filter .25s;opacity:.7;filter:grayscale(35%) brightness(1.05)}
+.litem:hover{opacity:1;filter:grayscale(0%) brightness(1.1)}
+.litem img{max-height:48px;max-width:170px;width:auto;height:auto;display:block;object-fit:contain}
+
+/* Case-study logo boxes (above stats inside each case card) */
+.cc-logo{height:64px;display:flex;align-items:center;justify-content:flex-start;margin-bottom:18px;padding:6px 0}
+.cc-logo img{max-height:46px;max-width:200px;width:auto;height:auto;display:block;object-fit:contain;opacity:.92}
 .litem-t{font-size:14px;font-weight:700;color:rgba(248,247,246,.65);letter-spacing:.02em}
 
 /* ── PRICING ── */
@@ -824,8 +829,11 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
   .pc-top{padding-top:26px;padding-bottom:22px}
   .pricing-bundle{padding:20px 18px;gap:14px}
   /* trusted by */
-  .litem{min-width:110px;height:52px;padding:0 10px}
-  .litem img{height:28px}
+  .lrow{gap:16px}
+  .litem{height:50px;padding:6px 10px}
+  .litem img{max-height:34px;max-width:130px}
+  .cc-logo{height:54px;margin-bottom:14px}
+  .cc-logo img{max-height:38px;max-width:160px}
   /* next steps */
   .steps{padding:60px 16px}
   .steps-row{flex-direction:column;align-items:center;gap:28px}
@@ -1102,7 +1110,9 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
       <div class="case-card cc-g">
         <div class="cc-head">
           <div class="cc-badge ccb-g">Database Reactivation</div>
-          <div style="background:rgba(0,255,115,.05);border:1.5px dashed rgba(0,255,115,.3);border-radius:10px;height:52px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(0,255,115,.45)">Client Logo</div>
+          <div class="cc-logo cc-logo-g">
+            <img src="/images/uploads/activatedyou-logo.png" alt="ActivatedYou" title="ActivatedYou — Database Reactivation case study" loading="lazy" decoding="async">
+          </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(248,247,246,.06);border-radius:12px;overflow:hidden;margin-bottom:0">
             <div style="background:#0d1220;padding:20px 20px 16px">
               <div class="cc-big-stat cbs-g" style="font-size:clamp(38px,5vw,58px)">26%</div>
@@ -1127,7 +1137,9 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
       <div class="case-card cc-b">
         <div class="cc-head">
           <div class="cc-badge ccb-b">AI Recommended™</div>
-          <div style="background:rgba(77,168,255,.05);border:1.5px dashed rgba(77,168,255,.3);border-radius:10px;height:52px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(77,168,255,.45)">Client Logo</div>
+          <div class="cc-logo cc-logo-b">
+            <img src="/images/uploads/blingle-logo.png" alt="Blingle Premier Lighting" title="Blingle Premier Lighting — AI Recommended™ case study" loading="lazy" decoding="async">
+          </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(248,247,246,.06);border-radius:12px;overflow:hidden;margin-bottom:0">
             <div style="background:#0d1220;padding:20px 20px 16px">
               <div class="cc-big-stat cbs-b" style="font-size:clamp(38px,5vw,58px)">312%</div>
@@ -1162,11 +1174,11 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
     <div class="lstrip">
       <h2 class="lsl-heading">Trusted <span>By.</span></h2>
             <div class="lrow">
-        <div class="litem-ph lph-light">ActivatedYou</div>
-        <div class="litem-ph lph-light">Blingle Premier Lighting</div>
-        <div class="litem-ph lph-dark">Vault Metal</div>
-        <div class="litem-ph lph-dark">GoldenCrest Metals</div>
-        <div class="litem-ph lph-light">Craft Food Tours</div>
+        <div class="litem"><img src="/images/uploads/activatedyou-logo.png" alt="ActivatedYou" title="ActivatedYou — AudienceIntent client" loading="lazy" decoding="async"></div>
+        <div class="litem"><img src="/images/uploads/blingle-logo.png" alt="Blingle Premier Lighting" title="Blingle Premier Lighting — AudienceIntent client" loading="lazy" decoding="async"></div>
+        <div class="litem"><img src="/images/uploads/vault-metal-logo.png" alt="Vault Metal" title="Vault Metal — AudienceIntent client" loading="lazy" decoding="async"></div>
+        <div class="litem"><img src="/images/uploads/goldencrest-metals-logo.png" alt="GoldenCrest Metals" title="GoldenCrest Metals — AudienceIntent client" loading="lazy" decoding="async"></div>
+        <div class="litem"><img src="/images/uploads/craft-food-tours-logo.png" alt="Craft Food Tours" title="Craft Food Tours — AudienceIntent client" loading="lazy" decoding="async"></div>
       </div></div>
       <p style="text-align:center;font-size:10.5px;color:rgba(248,247,246,.16);margin-top:14px;font-style:italic">AI Recommended™ case study data from an active campaign. Individual results vary.</p>
     </div>

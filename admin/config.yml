@@ -11,6 +11,25 @@ collections:
     folder: "insights"
     create: true
     slug: "{{slug}}"
+    summary: "{{title}}  ·  {{category | default('⚠ NO CATEGORY')}}  ·  {{date | date('MMM D YYYY')}}  ·  {{description | default('⚠ NO DESCRIPTION') | truncate(60)}}"
+    view_filters:
+      - label: "Database Reactivation only"
+        field: category
+        pattern: "Database Reactivation"
+      - label: "AI Recommended only"
+        field: category
+        pattern: "AI Recommended"
+      - label: "Company News only"
+        field: category
+        pattern: "Company News"
+      - label: "⚠ Missing category"
+        field: category
+        pattern: "^$"
+    view_groups:
+      - label: "By Category"
+        field: category
+      - label: "By Author"
+        field: author
     fields:
 
       - label: "Title"

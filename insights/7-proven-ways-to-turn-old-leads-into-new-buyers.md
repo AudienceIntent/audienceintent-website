@@ -2,7 +2,7 @@
 title: 7 Proven Ways To Turn Old Leads Into New Buyers
 meta_title: 7 Proven Ways to Turn Old Leads Into Buyers
 date: 2026-05-03T21:17:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: "Kevin Bovett - AudienceIntent "
 description: Turn dormant CRM contacts into booked revenue with segmentation,
   trigger-based outreach, proof, and fast follow-up. Start with the leads you

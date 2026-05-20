@@ -3,7 +3,7 @@ title: Why Every Service Business Should Automate Their Inbound Lead Response
   (And What It's Costing You Not To)
 meta_title: Why Service Businesses Should Automate Lead Response
 date: 2026-03-06
-category: Lead Reactivation
+category: AI Recommended
 author: Kevin Bovett
 description: Slow lead response costs service businesses revenue every day.
   Learn how automating calls, forms, chat, and DMs helps capture more leads.

@@ -2,7 +2,7 @@
 title: Stop Burning Your Ad Budgets And Reactivate The Leads You Already Paid For
 meta_title: "Lead Reactivation vs New Leads: 2026 Stats"
 date: 2026-05-08T22:41:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Stop paying for cold traffic before you mine your CRM. See why
   reactivating old leads can beat new acquisition on cost, speed, and ROI.

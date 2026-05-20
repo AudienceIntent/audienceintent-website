@@ -2,7 +2,7 @@
 title: Your CRM Isn’t Dead—You Just Forgot to Follow Up
 meta_title: "Lead Reactivation: 5 Steps to Recover Old Leads"
 date: 2026-05-04T14:28:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Reactivate stale leads with faster follow-up, AI SMS, and a simple
   process that books more appointments from your CRM. See how it works.

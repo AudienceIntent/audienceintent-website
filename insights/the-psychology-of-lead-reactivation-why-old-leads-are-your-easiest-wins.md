@@ -2,7 +2,7 @@
 title: "The Psychology of Lead Reactivation: Why Old Leads Are Your Easiest Wins"
 meta_title: "Lead Reactivation Psychology: Why Old Leads Convert"
 date: 2026-05-04T17:25:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Old leads convert faster because trust, intent, and timing are
   already in place. See why reactivation wins and estimate the revenue in your

@@ -2,7 +2,7 @@
 title: Conversation Beats Sales Speak Every Time in SMS
 meta_title: "Conversational SMS Wins: 5 Proof-Backed Tactics"
 date: 2026-05-06T14:01:00.000-04:00
-category: Growth
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Conversational SMS gets more replies, clicks, and bookings than
   sales-heavy texts. See the proof, examples, and the best way to write it.

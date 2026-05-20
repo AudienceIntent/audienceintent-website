@@ -2,7 +2,7 @@
 title: Are Expensive Leads Wasting Away In Your CRM?
 meta_title: "Expensive Leads in CRM: 4 Ways to Stop Waste"
 date: 2026-05-03T21:04:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Paid leads should not sit idle. Learn how slow follow-up and weak
   reactivation waste revenue, and how to fix your CRM fast.

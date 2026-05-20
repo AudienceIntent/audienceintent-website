@@ -2,7 +2,7 @@
 title: Best AEO Agencies for Local Businesses (And Why Most Get It Wrong)
 meta_title: Best AEO Agencies for Local Businesses in 2026
 date: 2026-04-28T18:14:00.000-04:00
-category: AI Visibility
+category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Compare the best AEO agencies for local businesses, see what local
   operators need, and choose a vendor built for AI citations, reviews, and lead

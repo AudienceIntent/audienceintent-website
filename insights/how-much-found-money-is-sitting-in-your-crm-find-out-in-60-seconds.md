@@ -2,7 +2,7 @@
 title: How Much "Found Money" Is Sitting in Your CRM? Find Out in 60 Seconds.
 meta_title: "Found Money in CRM: 5 Benchmarks to Know"
 date: 2026-05-06T14:30:00.000-04:00
-category: Growth
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: See how much revenue is sitting in your CRM with hard benchmarks on
   reactivation, response time, and ROI. Try the 60-second calculator.

@@ -3,7 +3,7 @@ title: How AI Lead Reactivation Works (And Why Your Old Leads Are Your Fastest
   Revenue Source)
 meta_title: "AI Lead Reactivation: 2026 Guide to Old Leads"
 date: 2026-05-04T16:44:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn dormant CRM leads into booked revenue with AI lead
   reactivation. Learn how it works, what compliance requires, and what results

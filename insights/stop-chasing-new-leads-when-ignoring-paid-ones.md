@@ -2,7 +2,7 @@
 title: Stop Buying New Leads While Old Ones Collect Dust
 meta_title: "Lead Reactivation: 5 Ways to Recover Lost Revenue"
 date: 2026-05-06T13:19:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Stop buying new leads while old ones sit idle. Reactivate dormant
   CRM contacts, recover revenue faster, and use the Lost Revenue Calculator to

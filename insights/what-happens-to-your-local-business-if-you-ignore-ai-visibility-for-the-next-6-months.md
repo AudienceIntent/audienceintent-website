@@ -2,8 +2,9 @@
 title: What Happens to Your Local Business If You Ignore AI Visibility for the
   Next 6 Months
 date: 2026-03-04
-category: AI Visibility
+category: AI Recommended
 image: https://framerusercontent.com/images/LTn21yQxPSyNolSFZJZrUescZE.jpg
+author: Kevin Bovett - AudienceIntent
 description: Your Google rankings look fine. Your calls are down. Your leads are
   slower. You're spending more on ads just to stay even. Nothing changed on your
   end. That's t...

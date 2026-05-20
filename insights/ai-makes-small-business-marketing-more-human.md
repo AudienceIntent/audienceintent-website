@@ -2,7 +2,7 @@
 title: AI Makes Small Business Marketing More Human
 meta_title: AI Makes Marketing More Human | 2026 Guide
 date: 2026-05-04T19:21:00.000-04:00
-category: AI Visibility
+category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Why AI makes marketing more human for service businesses, with
   data, examples, and practical steps to improve speed, trust, and

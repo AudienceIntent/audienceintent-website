@@ -7,7 +7,7 @@ author: Kevin Bovett - AudienceIntent
 description: Reactivate dormant CRM leads with AI and recover revenue you
   already paid for. See why reactivation beats buying more leads in 2026.
 focus_keyword: Old Leads
-og_image: /images/uploads/SocialShareJPEG.jpg
+og_image: /images/uploads/lead-conversion.jpg
 schema: >-
   {
     "@graph": [

@@ -2,7 +2,7 @@
 title: "New Leads vs. Dormant Leads: How to Balance Both for Maximum Revenue"
 meta_title: "New vs Old Leads: 2026 Balance Guide"
 date: 2026-05-04T20:03:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Learn when to prioritize lead reactivation or new acquisition, how
   to balance both, and where your CRM is hiding recoverable revenue.

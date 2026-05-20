@@ -2,7 +2,7 @@
 title: Why Your Old Leads Are Worth More Than You Think
 meta_title: Why Old Leads Are Worth More in 2026
 date: 2026-05-03T21:44:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Dormant leads cost less to win back and often convert better than
   new ones. See why reactivation beats fresh acquisition for local service

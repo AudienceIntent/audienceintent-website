@@ -2,7 +2,7 @@
 title: Your CRM Is a Goldmine. Here's How to Extract It with AI Lead Reactivation
 meta_title: "AI Lead Reactivation: Recover Old CRM Leads"
 date: 2026-05-04T14:06:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Reactivate old leads with AI and SMS. See how dormant CRM contacts
   convert, why follow-up fails, and what performance-based reactivation can

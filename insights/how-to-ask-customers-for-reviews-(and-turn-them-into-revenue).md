@@ -2,7 +2,7 @@
 title: How to Ask Customers for Reviews (and Turn Them Into Revenue)
 meta_title: "Ask for Reviews: Best Way to Turn Them Into Revenue"
 date: 2026-03-12
-category: Reviews
+category: AI Recommended
 author: Kevin Bovett
 description: Most service businesses ask for reviews when they remember. Use the
   system that captures them consistently, boosts AI visibility, and drives more

@@ -1,11 +1,13 @@
 ---
 title: "SMS Lead Reactivation Made Simple: Honest Answers to Every Question We Get"
 date: 2026-01-15
-category: Lead Reactivation
+category: Database Reactivation
 image: https://framerusercontent.com/images/6G2ERt50ZhwzepVKiIQC4d5GYs.jpg
+author: Kevin Bovett - AudienceIntent
 description: "If you’re here, you already suspect something: **There’s money
   hiding in your CRM.** Not new leads. Not more ad spend. Just the leads you
   already paid for — now..."
+focus_keyword: "SMS Lead Reactivation "
 ---
 
 If you’re here, you already suspect something:

@@ -2,7 +2,7 @@
 title: "Lead Reactivation vs. Buying More Leads: Which Wins on ROI?"
 meta_title: "Lead Reactivation vs Buying More Leads: ROI Guide"
 date: 2026-05-08T22:56:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Compare lead reactivation vs buying more leads, see the speed and
   ROI gap, and learn how AudienceIntent turns dormant leads into booked revenue.

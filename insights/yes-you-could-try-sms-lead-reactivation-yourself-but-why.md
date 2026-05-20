@@ -3,7 +3,7 @@ title: Yes, You Could Build SMS Lead Reactivation Yourself. Here's What That
   Actually Costs You.
 meta_title: "SMS Lead Reactivation: DIY vs Done-for-You"
 date: 2026-05-06T13:42:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: DIY SMS lead reactivation looks cheaper. It usually costs more in
   time, risk, and missed revenue. See why done-for-you wins.

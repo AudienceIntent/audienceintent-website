@@ -1,8 +1,9 @@
 ---
 title: How AI Search is Replacing Google for Local Business Discovery
 date: 2026-02-16
-category: AI Visibility
+category: AI Recommended
 image: https://framerusercontent.com/images/gZjnzucxKeX280dFiSGB0vYmagY.jpg
+author: Kevin Bovett - AudienceIntent
 description: If you want to understand the shift currently happening in the
   local economy, try searching for your own business using a voice assistant or
   an AI chat interfac...

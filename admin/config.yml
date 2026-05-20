@@ -11,7 +11,7 @@ collections:
     folder: "insights"
     create: true
     slug: "{{slug}}"
-    summary: "{{title}}  ·  {{category | default('⚠ NO CATEGORY')}}  ·  {{date | date('MMM D YYYY')}}  ·  {{description | default('⚠ NO DESCRIPTION') | truncate(60)}}"
+    summary: "{{title}}"
     view_filters:
       - label: "Database Reactivation only"
         field: category

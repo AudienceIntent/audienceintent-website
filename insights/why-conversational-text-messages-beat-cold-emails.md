@@ -3,7 +3,7 @@ title: "Conversational SMS vs. Cold Email for Lead Reactivation: Which One
   Actually Recovers Revenue?"
 meta_title: "Conversational SMS vs Cold Email: 2026 Benchmarks"
 date: 2026-05-06T14:42:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: See why conversational SMS outperforms cold email for reactivating
   opted-in leads. Compare open rates, replies, compliance, and revenue impact.

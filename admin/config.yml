@@ -22,8 +22,32 @@ collections:
       - label: "Company News only"
         field: category
         pattern: "Company News"
-      - label: "⚠ Missing category"
+      - label: "⚠ Missing Category"
         field: category
+        pattern: "^$"
+      - label: "⚠ Missing Meta Title"
+        field: meta_title
+        pattern: "^$"
+      - label: "⚠ Missing Description"
+        field: description
+        pattern: "^$"
+      - label: "⚠ Missing Focus Keyword"
+        field: focus_keyword
+        pattern: "^$"
+      - label: "⚠ Missing Author"
+        field: author
+        pattern: "^$"
+      - label: "⚠ Missing Canonical URL"
+        field: canonical
+        pattern: "^$"
+      - label: "⚠ Missing Featured Image"
+        field: featured_image
+        pattern: "^$"
+      - label: "⚠ Missing OG Image"
+        field: og_image
+        pattern: "^$"
+      - label: "⚠ Missing Schema"
+        field: schema
         pattern: "^$"
     view_groups:
       - label: "By Category"

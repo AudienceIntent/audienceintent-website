@@ -32,10 +32,11 @@ collections:
         widget: "select"
         required: false
         default: "Database Reactivation"
-        hint: "Pick the service this article relates to. This controls the category badge on the insights index card."
+        hint: "Pick the category this article relates to. This controls the category badge on the insights index card."
         options:
           - "Database Reactivation"
           - "AI Recommended"
+          - "Company News"
 
       - label: "Author"
         name: "author"

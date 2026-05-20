@@ -1,9 +1,12 @@
 ---
-title: "The Top 10 Benefits of Lead Reactivation"
-date: "2026-01-19"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/zY0moQLnGfY9jbKJF2hRKWM1Mug.jpg"
-description: "**(And Why SMS Quietly Outperforms Everything Else)** *From one business owner to another.* If you’re like most people I talk to, you’re sitting on more opportu..."
+title: The Top 10 Benefits of Lead Reactivation
+date: 2026-01-19
+category: Database Reactivation
+image: https://framerusercontent.com/images/zY0moQLnGfY9jbKJF2hRKWM1Mug.jpg
+author: "Kevin Bovett - AudienceIntent "
+description: "**(And Why SMS Quietly Outperforms Everything Else)** *From one
+  business owner to another.* If you’re like most people I talk to, you’re
+  sitting on more opportu..."
 ---
 
 **(And Why SMS Quietly Outperforms Everything Else)**

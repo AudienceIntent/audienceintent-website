@@ -3,7 +3,7 @@ title: Is AI Visibility the Same as SEO? No - and the Difference Is Costing You
   Customers
 meta_title: "AI Visibility vs SEO: Why It Costs You Customers"
 date: 2026-03-18
-category: AI Visibility
+category: AI Recommended
 author: Kevin Bovett
 description: AI visibility and SEO are not the same. Learn how AI search changes
   rankings, citations, and customer acquisition, and what to do now.

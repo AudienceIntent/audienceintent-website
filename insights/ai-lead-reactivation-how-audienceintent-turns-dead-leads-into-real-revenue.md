@@ -2,7 +2,7 @@
 title: "AI Lead Reactivation: How to Turn Dead Leads Into Real Revenue"
 meta_title: "AI Lead Reactivation: Turn Dead Leads Into Revenue"
 date: 2026-05-04T16:10:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Recover dormant leads with AI SMS reactivation. Compare it to
   retargeting ads and manual follow-up, then see how much revenue is sitting in

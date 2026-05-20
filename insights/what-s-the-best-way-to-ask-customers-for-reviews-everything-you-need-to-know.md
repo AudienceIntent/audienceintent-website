@@ -1,7 +1,7 @@
 ---
 title: "What's The Best Way To Ask Customers For Reviews: Everything You Need to Know"
 date: 2026-02-25
-category: Reviews
+category: AI Recommended
 image: https://framerusercontent.com/images/enkkRdOaDqjncxqWHQs7FX0RQg.jpg
 description: You finish a job, the client is thrilled, and you walk away
   thinking you’ve won. But if you didn't ask for a review, you left money on the

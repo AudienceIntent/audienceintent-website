@@ -2,7 +2,7 @@
 title: Your Biggest Lead Generation Mistake
 meta_title: "Lead Reactivation: Recover Revenue From Old Leads"
 date: 2026-05-07T11:53:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Dormant leads are cheaper to convert than new ones. See how lead
   reactivation recovers revenue, improves speed-to-lead, and reduces wasted

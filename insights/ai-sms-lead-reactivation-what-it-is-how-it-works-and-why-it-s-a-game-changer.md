@@ -2,7 +2,7 @@
 title: "AI SMS Lead Reactivation: What It Is, How It Works, and Why It Converts"
 meta_title: "AI SMS Lead Reactivation: Recover Revenue Faster"
 date: 2026-05-04T16:06:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Wake up dormant leads with AI SMS. See how fast follow-up,
   compliance, and human handoff turn old contacts into booked revenue.

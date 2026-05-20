@@ -2,8 +2,9 @@
 title: Stuck With a Mountain of Old Leads? Here’s Exactly How to Turn Them Into
   Revenue — Fast.
 date: 2026-01-18
-category: AI Visibility
+category: Database Reactivation
 image: https://framerusercontent.com/images/i41xpP3hZBeECR9kW9OTOS5lCc.jpg
+author: "Kevin Bovett - AudienceIntent "
 description: "Let me start with something most business owners *don’t* want to
   admit: **You don’t need more leads. You need to wake up the ones you already
   paid for. ** Right..."

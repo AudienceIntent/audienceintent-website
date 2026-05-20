@@ -2,7 +2,7 @@
 title: The Customer Journey Didn’t End — You Just Stopped Following Up
 meta_title: Lead Reactivation for Service Businesses | AudienceIntent
 date: 2026-05-04T23:00:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 schema: >-
   {

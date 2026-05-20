@@ -8,7 +8,8 @@ description: See why competitors appear in ChatGPT, Google AI, and Perplexity
   when you don't, and learn the fixes that improve your AI visibility fast.
 focus_keyword: AI Search
 canonical: https://audienceintent.ai/insights/why-your-competitor-shows-up-in-ai-search-and-you-dont
-og_image: ""
+featured_image: /images/uploads/ai-search.jpg
+og_image: /images/uploads/ai-search.jpg
 schema: >-
   {
     "@graph": [

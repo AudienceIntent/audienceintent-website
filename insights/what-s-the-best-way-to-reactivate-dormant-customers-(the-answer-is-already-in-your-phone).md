@@ -3,7 +3,7 @@ title: What's the Best Way to Reactivate Dormant Customers? (The Answer Is
   Already in Your Phone)
 meta_title: "SMS Lead Reactivation: Best Way to Win Back Dormant Leads"
 date: 2026-03-14
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett
 description: SMS is the fastest way to reactivate dormant customers. See why it
   outperforms email and phone, plus the exact multi-channel cadence that works.

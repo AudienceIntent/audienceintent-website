@@ -2,7 +2,7 @@
 title: Why Your Lead Database Became a Graveyard (And How to Fix It)
 meta_title: "Lead Reactivation: Why Old Leads Go Cold in 2026"
 date: 2026-05-05T22:57:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Your CRM is probably hiding recoverable revenue. See why leads go
   cold, how to revive them, and what the numbers say about reactivation.

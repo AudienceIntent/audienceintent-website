@@ -1,11 +1,13 @@
 ---
 title: Don’t Be Scared of AI — Embrace It and Watch Your Business Grow
 date: 2026-01-31
-category: AI Visibility
+category: AI Recommended
 image: https://framerusercontent.com/images/SCE3czbaxfPRCLIfrDXN8ftLnjI.jpg
+author: Kevin Bovett - AudienceIntent
 description: Artificial Intelligence has become one of the most misunderstood
   business tools of the modern era. For some business owners, AI feels exciting.
   For many others,...
+focus_keyword: AI Search
 ---
 
 Artificial Intelligence has become one of the most misunderstood business tools of the modern era.

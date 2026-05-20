@@ -1,7 +1,10 @@
 ---
 title: Why Do Your Competitor Shows Up in AI Search?
+meta_title: You searched. Your competitor's name came up. Yours didn't. It's not a fluke.
 date: 2026-03-21
-category: AI Visibility
+category: AI Recommended
+author: Kevin Bovett
+focus_keyword: AI Search
 image: https://framerusercontent.com/images/4UcdrhnFJfdOOn7HfNQiHI1H8.jpg
 description: You searched. Your competitor's name came up. Yours didn't. It's
   not a fluke. It's not because they have a bigger budget or a better product.

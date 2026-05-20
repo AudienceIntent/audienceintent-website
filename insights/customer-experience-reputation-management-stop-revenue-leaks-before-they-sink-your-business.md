@@ -3,7 +3,7 @@ title: "Customer Experience & Reputation Management: Stop Revenue Leaks Before
   They Cost You More Business"
 meta_title: Customer Experience Revenue Leaks | AudienceIntent
 date: 2026-05-07T15:34:00.000-04:00
-category: Reviews
+category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: See how customer experience and reviews drive revenue, where
   businesses lose money, and how to close the leaks with faster follow-up and

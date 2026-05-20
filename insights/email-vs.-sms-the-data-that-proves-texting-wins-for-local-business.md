@@ -1,9 +1,12 @@
 ---
 title: "Email vs. SMS: The Data That Proves Texting Wins for Local Business"
-date: "2026-02-07"
-category: "AI Visibility"
-image: "https://framerusercontent.com/images/jhAfcvVT8UshS40eGmYpZMF8pIQ.jpg"
-description: "### **The Inbox Black Hole** For most local businesses, the daily reality is a constant battle for attention where opportunity disappears in moments of delay. C..."
+date: 2026-02-07
+category: Database Reactivation
+image: https://framerusercontent.com/images/jhAfcvVT8UshS40eGmYpZMF8pIQ.jpg
+author: Kevin Bovett - AudienceIntent
+description: "### **The Inbox Black Hole** For most local businesses, the daily
+  reality is a constant battle for attention where opportunity disappears in
+  moments of delay. C..."
 ---
 
 ### **The Inbox Black Hole**

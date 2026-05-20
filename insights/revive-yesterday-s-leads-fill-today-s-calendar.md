@@ -2,7 +2,7 @@
 title: "Lead Reactivation for Service Businesses: Turn Old Leads Into Booked Jobs"
 meta_title: Lead Reactivation for Service Businesses | AudienceIntent
 date: 2026-05-08T00:03:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Reactivate old leads with personalized SMS and automation. Turn
   dormant CRM contacts into booked jobs without more ad spend.

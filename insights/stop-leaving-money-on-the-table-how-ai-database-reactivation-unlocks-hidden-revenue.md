@@ -2,7 +2,7 @@
 title: Your Cold Leads Aren't Dead. You Just Stopped Following Up.
 meta_title: "AI Lead Reactivation: Unlock Hidden Revenue in 2026"
 date: 2026-05-04T16:47:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Recover dormant leads with AI lead reactivation. Compare it against
   hiring staff, agencies, and manual follow-up, then use the Lost Revenue

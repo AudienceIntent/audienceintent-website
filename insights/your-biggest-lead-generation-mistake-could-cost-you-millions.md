@@ -3,7 +3,7 @@ title: Your Biggest Lead Generation Mistake Is Buying More Leads Before Fixing
   the Ones You Already Have
 meta_title: "Lead Generation Mistake: Stop Buying More Leads"
 date: 2026-05-04T17:11:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Buying more leads before fixing follow-up wastes spend. See how
   speed-to-lead and dormant lead reactivation recover more revenue from your

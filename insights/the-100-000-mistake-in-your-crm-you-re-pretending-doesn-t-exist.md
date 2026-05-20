@@ -2,7 +2,7 @@
 title: The $100,000 Mistake in Your CRM You’re Pretending Doesn’t Exist
 meta_title: "Lead Reactivation: Recover CRM Revenue | AudienceIntent"
 date: 2026-05-04T14:26:00.000-04:00
-category: Growth
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn old CRM leads into booked appointments with AI lead
   reactivation. Recover dormant revenue, cut waste, and book more calls from

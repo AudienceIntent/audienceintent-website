@@ -3,7 +3,7 @@ title: Why Buying More Leads Is the Wrong Move (And AI SMS Reactivation Is the
   Right One)
 meta_title: "AI SMS Reactivation: Beat Buying Leads | AudienceIntent"
 date: 2026-05-09T15:49:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Stop buying leads you already own. See how AI SMS reactivation
   revives dormant CRM contacts, boosts bookings, and lowers acquisition cost.

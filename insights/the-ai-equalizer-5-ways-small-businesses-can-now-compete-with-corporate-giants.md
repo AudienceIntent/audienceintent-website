@@ -1,9 +1,13 @@
 ---
-title: "The AI Equalizer: 5 Ways Small Businesses Can Now Compete with Corporate Giants"
-date: "2026-02-08"
-category: "AI Visibility"
-image: "https://framerusercontent.com/images/hy2wL8Dm3Wnx2eknTwim3QglI1E.jpg"
-description: "### **The Unfair Fight is Over** For years, small business owners have felt like they're in an unfair fight. You're up against large corporations with seemingly..."
+title: "The AI Equalizer: 5 Ways Small Businesses Can Now Compete with Corporate
+  Giants"
+date: 2026-02-08
+category: AI Recommended
+image: https://framerusercontent.com/images/hy2wL8Dm3Wnx2eknTwim3QglI1E.jpg
+author: Kevin Bovett - AudienceIntent
+description: "### **The Unfair Fight is Over** For years, small business owners
+  have felt like they're in an unfair fight. You're up against large
+  corporations with seemingly..."
 ---
 
 ### **The Unfair Fight is Over**

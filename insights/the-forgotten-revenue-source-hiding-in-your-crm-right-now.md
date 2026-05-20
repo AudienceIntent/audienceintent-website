@@ -2,7 +2,7 @@
 title: The Forgotten Revenue Source Hiding in Your CRM Right Now
 meta_title: "CRM Lead Reactivation: Turn Old Leads Into Revenue"
 date: 2026-05-04T12:54:00.000-04:00
-category: Growth
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Learn how CRM lead reactivation turns dormant leads into booked
   revenue. See why old leads outperform new ones and how to build a simple

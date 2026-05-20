@@ -2,7 +2,7 @@
 title: Are You Ignoring the Easiest Sale in Your Business?
 meta_title: "Lead Reactivation: Recover Revenue From Old Leads"
 date: 2026-05-04T14:53:00.000-04:00
-category: Growth
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Recover revenue from dormant leads with a proven reactivation
   system. See why old leads convert faster, and how to turn them into booked

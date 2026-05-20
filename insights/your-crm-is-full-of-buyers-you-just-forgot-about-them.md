@@ -1,9 +1,13 @@
 ---
-title: "Your CRM Is Full of Buyers—You Just Forgot About Them"
-date: "2025-12-10"
-category: "Growth"
-image: "https://framerusercontent.com/images/NWMW8FZAVSnC4Db57envkFsUg.jpg"
-description: "We're watching businesses burn money on strangers while goldmines collect dust in their databases. Every day, companies spend thousands chasing cold prospects o..."
+title: Your CRM Is Full of Buyers—You Just Forgot About Them
+date: 2025-12-10
+category: Database Reactivation
+image: https://framerusercontent.com/images/NWMW8FZAVSnC4Db57envkFsUg.jpg
+author: "Kevin Bovett - AudienceIntent "
+description: We're watching businesses burn money on strangers while goldmines
+  collect dust in their databases. Every day, companies spend thousands chasing
+  cold prospects o...
+focus_keyword: "SMS Database Reactivation "
 ---
 
 We're watching businesses burn money on strangers while goldmines collect dust in their databases.

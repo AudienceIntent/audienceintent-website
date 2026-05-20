@@ -2,7 +2,7 @@
 title: AI Recommended Your Competitor, Not You. Here's the Revenue Math.
 meta_title: AI Recommended Your Competitor, Not You. Here's the Revenue Math.
 date: 2026-04-25T23:31:00.000-04:00
-category: AI Visibility
+category: AI Recommended
 author: Kevin Bovett
 description: See why AI recommends competitors first, what that gap costs in
   revenue, and how to diagnose the trust signals AI uses to choose who gets

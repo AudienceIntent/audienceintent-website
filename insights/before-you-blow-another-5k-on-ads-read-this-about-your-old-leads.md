@@ -2,7 +2,7 @@
 title: Before You Spend Another $5K on Ads, Look at the Leads You Already Bought
 meta_title: "Lead Reactivation: 5 Reasons Old Leads Convert"
 date: 2026-05-06T13:08:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Stop buying cold traffic before you reactivate dormant CRM leads.
   See the stats, speed-to-lead advantage, and one proof example.

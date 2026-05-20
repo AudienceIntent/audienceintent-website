@@ -2,7 +2,7 @@
 title: "How to Manage Your Online Reputation: A Complete Guide for Service Businesses"
 meta_title: How to Manage Online Reputation in 2026
 date: 2026-03-09
-category: Reviews
+category: AI Recommended
 author: Kevin Bovett
 description: Learn how service businesses can manage online reputation, earn
   more reviews, improve AI visibility, and protect revenue in 2026.

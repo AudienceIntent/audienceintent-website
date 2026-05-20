@@ -2,7 +2,7 @@
 title: "Why AudienceIntent Supports charity: water"
 meta_title: "Why AudienceIntent Supports charity: water"
 date: 2026-05-04T13:00:00.000-04:00
-category: Growth
+category: Company News
 author: "Kevin Bovett - AudienceIntent "
 description: "AudienceIntent supports charity: water because 2.1 billion people
   still lack safe drinking water. See why this nonprofit earns trust and

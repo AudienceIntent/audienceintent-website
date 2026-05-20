@@ -2,7 +2,7 @@
 title: "SMS Lead Reactivation: How to Turn Cold Leads Into Revenue in 2026"
 meta_title: "SMS Lead Reactivation: Found Revenue in 2026"
 date: 2026-05-09T15:24:00.000-04:00
-category: SMS Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn old CRM leads into booked appointments with compliant SMS
   reactivation. See why speed, segmentation, and follow-up drive revenue.

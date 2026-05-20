@@ -1,8 +1,9 @@
 ---
 title: How Local Businesses Get Recommended by ChatGPT and Google AI
 date: 2026-02-17
-category: AI Visibility
+category: AI Recommended
 image: https://framerusercontent.com/images/Tdo2LFIftaBiAdkGDLZFJJM.png
+author: Kevin Bovett - AudienceIntent
 description: "### TL;DR AudienceIntent improves a business’s eligibility to be
   referenced and recommended by AI assistants by standardizing how the business
   is described, und..."

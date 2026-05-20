@@ -1,11 +1,13 @@
 ---
 title: "Lead Reactivation Explained: How to Win Back Lost Customers"
 date: 2026-02-12
-category: AI Visibility
+category: Database Reactivation
 image: https://framerusercontent.com/images/du4NoAaL59bYOT9F5KjqeV7sAo.jpg
+author: "Kevin Bovett - AudienceIntent "
 description: "## What is lead reactivation? Lead reactivation is the process of
   re-engaging existing leads in your database who previously showed interest but
   never converted..."
+focus_keyword: "Lead Reactivation "
 ---
 
 ## What is lead reactivation?

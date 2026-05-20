@@ -2,7 +2,7 @@
 title: Why Online Reviews Matter More Than Ever for Service Businesses
 meta_title: Why Online Reviews Matter in 2026
 date: 2026-05-07T16:53:00.000-04:00
-category: Reviews
+category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 schema: >-
   {

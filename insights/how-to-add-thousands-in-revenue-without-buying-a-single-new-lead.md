@@ -2,7 +2,7 @@
 title: How To Add Thousands in Revenue Without Buying a Single New Lead
 meta_title: How to Add Revenue Without Buying New Leads
 date: 2026-05-07T14:55:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Reactivate dormant CRM leads with compliant SMS, fast follow-up,
   and service-specific timing to unlock revenue you already paid for.

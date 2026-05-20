@@ -1,9 +1,12 @@
 ---
 title: "Lead Reactivation: The Zero-Risk Revenue Channel Most Businesses Ignore"
-date: "2026-01-26"
-category: "Lead Reactivation"
-image: "https://framerusercontent.com/images/wSy2Sltyak7x0gN1cAQGC3QqhPQ.jpg"
-description: "## Introduction: The Highest-ROI Leads You Already Own Every business has them. Old inquiries. Missed calls. No-shows. People who once raised their hand and the..."
+date: 2026-01-26
+category: Database Reactivation
+image: https://framerusercontent.com/images/wSy2Sltyak7x0gN1cAQGC3QqhPQ.jpg
+author: "Kevin Bovett - AudienceIntent "
+description: "## Introduction: The Highest-ROI Leads You Already Own Every
+  business has them. Old inquiries. Missed calls. No-shows. People who once
+  raised their hand and the..."
 ---
 
 ## Introduction: The Highest-ROI Leads You Already Own

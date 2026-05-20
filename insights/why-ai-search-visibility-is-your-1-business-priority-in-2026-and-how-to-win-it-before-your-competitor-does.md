@@ -3,7 +3,7 @@ title: "Why AI Search Visibility Is Your #1 Business Priority in 2026 (And How
   to Win It Before Your Competitor Does)"
 meta_title: "AI Search Visibility in 2026: Win the Shift"
 date: 2026-04-23T13:51:00.000-04:00
-category: AI Visibility
+category: AI Recommended
 author: Kevin Bovett
 description: AI search is changing how customers choose businesses. Learn why
   visibility now matters more than blue links and how to get cited by AI.

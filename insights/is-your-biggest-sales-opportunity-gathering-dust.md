@@ -2,7 +2,7 @@
 title: Is Your Biggest Sales Opportunity Gathering Dust?
 meta_title: "Lead Reactivation: 5 ROI Wins for Service Businesses"
 date: 2026-05-05T22:43:00.000-04:00
-category: Growth
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Dormant leads are cheaper to convert than new ones. See the CAC
   math, conversion odds, and a simple reactivation framework that recovers

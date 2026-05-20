@@ -1,11 +1,13 @@
 ---
 title: Why Most Local Businesses Don't Show Up in AI Search Results
 date: 2026-02-15
-category: AI Visibility
+category: AI Recommended
 image: https://framerusercontent.com/images/qIbUaOsPBjz2a6bGZcr2dVI0GSs.jpg
+author: "Kevin Bovett - AudienceIntent "
 description: For two decades, the 'game' of business visibility was simple to
   understand, even if it was hard to execute. You optimized for Google. You
   fought for the ten bl...
+focus_keyword: AI Search
 ---
 
 For two decades, the "game" of business visibility was simple to understand, even if it was hard to execute. You optimized for Google. You fought for the ten blue links. If you were on page one, you existed. If you were on page two, you were a ghost.

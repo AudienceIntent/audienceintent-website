@@ -3,7 +3,7 @@ title: 5 Silent Revenue Killers Hiding in Your Business Operations (And How to
   Stop the Bleeding)
 meta_title: 5 Revenue Leaks Costing Local Businesses | AudienceIntent
 date: 2026-05-01T09:23:00.000-04:00
-category: Growth
+category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Find the five operational leaks draining revenue from local service
   businesses and learn how to fix them before competitors capture the demand.

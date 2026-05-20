@@ -2,7 +2,7 @@
 title: Your 200 Reviews Don't Matter If They're From 2022
 meta_title: Review Recency Matters More Than Volume | AudienceIntent
 date: 2026-03-16
-category: Reviews
+category: AI Recommended
 author: Kevin Bovett
 description: 74% of consumers only trust reviews from the last 3 months. See why
   review recency beats volume and what service businesses need to do now.

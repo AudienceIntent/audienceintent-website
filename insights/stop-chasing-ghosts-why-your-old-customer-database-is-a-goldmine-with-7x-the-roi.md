@@ -1,9 +1,13 @@
 ---
-title: "Stop Chasing Ghosts: Why Your Old Customer Database is a Goldmine with 7x the ROI"
-date: "2026-02-06"
-category: "Growth"
-image: "https://framerusercontent.com/images/J9cwDKMS3uDaQPmLMVwZjF0q1V4.jpg"
-description: "For most businesses, growth is a constant, relentless hunt for new leads. It’s an expensive cycle of running more ads, creating more content, and spending more ..."
+title: "Stop Chasing Ghosts: Why Your Old Customer Database is a Goldmine with
+  7x the ROI"
+date: 2026-02-06
+category: Database Reactivation
+image: https://framerusercontent.com/images/J9cwDKMS3uDaQPmLMVwZjF0q1V4.jpg
+author: "Kevin Bovett - AudienceIntent "
+description: For most businesses, growth is a constant, relentless hunt for new
+  leads. It’s an expensive cycle of running more ads, creating more content, and
+  spending more ...
 ---
 
 For most businesses, growth is a constant, relentless hunt for new leads. It’s an expensive cycle of running more ads, creating more content, and spending more on marketing, often just to keep the pipeline full. Many business owners find themselves on a treadmill, pouring an ever-increasing budget into acquiring new customers, only to see their return on investment shrink over time. The pressure to find the *next* client can be all-consuming.

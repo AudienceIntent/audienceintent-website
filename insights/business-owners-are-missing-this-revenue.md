@@ -3,7 +3,7 @@ title: "Business Owners Are Missing This Revenue: The Case for Dormant Lead
   Reactivation"
 meta_title: "Dormant Leads: The Hidden Revenue You’re Ignoring"
 date: 2026-05-07T13:13:00.000-04:00
-category: Growth
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Dormant leads convert faster and cheaper than cold prospects. See
   the current data, compliance risks, and how reactivation unlocks revenue.

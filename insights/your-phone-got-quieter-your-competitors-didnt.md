@@ -2,7 +2,7 @@
 title: Your Phone Got Quieter. Your Competitor's Didn't.
 meta_title: Why Your Phone Got Quieter in 2026
 date: 2026-04-14T10:59:00.000-04:00
-category: Growth
+category: AI Recommended
 author: Kevin Bovett
 description: AI search and zero-click results are intercepting leads before they
   call. See why your competitor stayed busy, and what to fix now.

@@ -2,7 +2,7 @@
 title: Are You Spending More on Ads and Still Getting Less in Return?
 meta_title: Ads Costs Up? Reactivate Leads First | AudienceIntent
 date: 2026-05-04T16:22:00.000-04:00
-category: Growth
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Ad costs are rising and returns are slipping. Learn why dormant
   leads and faster follow-up can beat more spend, then use your CRM to recover

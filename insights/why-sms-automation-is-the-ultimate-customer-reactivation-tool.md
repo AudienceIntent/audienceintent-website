@@ -2,7 +2,7 @@
 title: Why SMS Customer Reactivation Still Works in 2026
 meta_title: "SMS Customer Reactivation: Turn Dormant Leads into Revenue"
 date: 2026-05-03T22:02:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn old leads and past customers into booked revenue with SMS
   customer reactivation. See why it works, and calculate what dormant contacts

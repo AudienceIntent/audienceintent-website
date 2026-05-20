@@ -8,7 +8,7 @@ author: Kevin Bovett - AudienceIntent
 description: Stop buying leads you already own. See how AI SMS reactivation
   revives dormant CRM contacts, boosts bookings, and lowers acquisition cost.
 focus_keyword: Buying More Leads
-og_image: /images/uploads/SocialShareJPEG.jpg
+og_image: ""
 schema: >-
   {
     "@graph": [

@@ -1,8 +1,9 @@
 ---
 title: Why You Should Never Neglect Reactivating Your Old Leads
 date: 2026-01-24
-category: Lead Reactivation
+category: Database Reactivation
 image: https://framerusercontent.com/images/CQ6ARrqJqJUebDbq4bqLAQrFgo.jpg
+author: "Kevin Bovett - AudienceIntent "
 description: "*Your CRM is sitting on more revenue than your ad platforms —
   here’s how Conversational AI unlocks it.* Most businesses don’t have a
   lead-generation problem. Th..."

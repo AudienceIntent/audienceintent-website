@@ -1,8 +1,10 @@
 backend:
   name: git-gateway
   branch: main
+
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
+
 collections:
   - name: "insights"
     label: "Insights"
@@ -10,14 +12,72 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Title", name: "meta_title", widget: "string", required: false, hint: "SEO title tag — keep under 60 characters" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Author", name: "author", widget: "string", default: "AudienceIntent", required: false }
-      - { label: "Description", name: "description", widget: "string", hint: "Meta description — keep under 160 characters" }
-      - { label: "Focus Keyword", name: "focus_keyword", widget: "string", required: false, hint: "Primary keyword this article targets" }
-      - { label: "Canonical URL", name: "canonical", widget: "string", required: false, hint: "Full URL e.g. https://audienceintent.ai/insights/article-slug" }
-      - { label: "OG Image", name: "og_image", widget: "image", required: false, hint: "Social share image — 1200x630px recommended" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Schema JSON-LD", name: "schema", widget: "text", required: false, hint: "Paste full JSON-LD schema block here (without script tags)" }
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Meta Title"
+        name: "meta_title"
+        widget: "string"
+        required: false
+        hint: "SEO title tag — keep under 60 characters"
+
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        required: false
+        default: "Database Reactivation"
+        hint: "Pick the service this article relates to. This controls the category badge on the insights index card."
+        options:
+          - "Database Reactivation"
+          - "AI Recommended"
+
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        default: "AudienceIntent"
+        required: false
+
+      - label: "Description"
+        name: "description"
+        widget: "string"
+        hint: "Meta description — keep under 160 characters"
+
+      - label: "Focus Keyword"
+        name: "focus_keyword"
+        widget: "string"
+        required: false
+        hint: "Primary keyword this article targets"
+
+      - label: "Canonical URL"
+        name: "canonical"
+        widget: "string"
+        required: false
+        hint: "Full URL e.g. https://audienceintent.ai/insights/article-slug"
+
+      - label: "Featured Image"
+        name: "featured_image"
+        widget: "image"
+        required: false
+        hint: "Hero image shown at the top of the article AND on the insights index card. Recommended 1600x900px. If left blank, the insights card will fall back to the AudienceIntent logo."
+
+      - label: "OG Image"
+        name: "og_image"
+        widget: "image"
+        required: false
+        hint: "Social share preview image — 1200x630px recommended. If blank, the Featured Image above will be used as a fallback for social shares."
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+      - label: "Schema JSON-LD"
+        name: "schema"
+        widget: "text"
+        required: false
+        hint: "Paste full JSON-LD schema block here (without script tags)"

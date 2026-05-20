@@ -4,7 +4,7 @@ title: 10 Ways to Reactivate Dormant Leads in Your CRM (And Why Most Businesses
 meta_title: Recover dormant CRM leads with AI SMS reactivation. See 10 proven
   scenarios, response benchmarks, and a faster way to book more appointments.
 date: 2026-05-01T00:49:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Your CRM is packed with leads that once raised their hands… then
   disappeared. We call them the “almost-customers”—and they’re often the most

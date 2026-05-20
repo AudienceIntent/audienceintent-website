@@ -2,7 +2,7 @@
 title: "Reactivate What You Already Own: The Power of SMS Lead Reactivation"
 meta_title: "SMS Lead Reactivation: Recover Leads Faster | AudienceIntent"
 date: 2026-05-08T16:44:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn dormant CRM contacts into booked appointments with SMS lead
   reactivation. See why texting outperforms email, how compliance works, and

@@ -1,8 +1,9 @@
 ---
 title: The Future of Growth Is Personal, Not Promotional
 date: 2026-01-20
-category: Growth
+category: Company News
 image: https://framerusercontent.com/images/4mAGTXvQIaBHJCQOXWMcCg9mZm4.jpg
+author: "Kevin Bovett - AudienceIntent "
 description: Marketing is facing a reckoning. You can feel it in every inbox,
   every ad feed, every landing page, and every customer conversation. Trust—real
   trust—is at an a...

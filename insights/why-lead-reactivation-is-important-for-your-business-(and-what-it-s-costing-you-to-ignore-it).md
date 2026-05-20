@@ -3,7 +3,7 @@ title: Why Lead Reactivation Is Important for Your Business (And What It's
   Costing You to Ignore It)
 meta_title: "Lead Reactivation: Why It Matters for Your Business"
 date: 2026-03-17
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett
 description: 60-80% of leads go dormant before converting. Lead reactivation
   turns sunk CRM costs into new revenue at a fraction of new lead acquisition

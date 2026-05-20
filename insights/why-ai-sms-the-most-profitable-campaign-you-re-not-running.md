@@ -3,7 +3,7 @@ title: Why AI-Powered SMS Lead Reactivation Is One of the Highest-ROI Campaigns
   in Your CRM
 meta_title: "AI SMS Lead Reactivation: Recover More Revenue"
 date: 2026-05-04T22:35:00.000-04:00
-category: AI Visibility
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn old leads into booked jobs with AI-powered SMS, segmentation,
   and timing. See why reactivation beats buying more leads.

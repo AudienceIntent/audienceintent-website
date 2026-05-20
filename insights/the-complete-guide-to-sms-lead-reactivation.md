@@ -2,7 +2,7 @@
 title: The Complete Guide to SMS Lead Reactivation (2026)
 meta_title: "SMS Lead Reactivation: 2026 Guide to More Revenue"
 date: 2026-05-09T15:46:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn old leads into booked conversations with SMS. Learn the 2026
   system for faster follow-up, compliance, and measurable revenue recovery.

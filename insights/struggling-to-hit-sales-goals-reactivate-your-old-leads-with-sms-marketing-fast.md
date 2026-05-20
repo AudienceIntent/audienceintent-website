@@ -2,7 +2,7 @@
 title: Struggling to Hit Sales Goals? Reactivate Your Old Leads with SMS Marketing
 meta_title: Reactivating Old Leads with SMS Marketing | AudienceIntent
 date: 2026-05-04T20:13:00.000-04:00
-category: Lead Reactivation
+category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Reactivate old leads with SMS and AI-driven follow-up. See why fast
   response times and compliant sequences turn stale CRM records into booked

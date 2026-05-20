@@ -2,7 +2,7 @@
 title: AI Agents Are Not Robots — They’re Revenue Machines
 meta_title: "AI Agents vs Chatbots: 5 Revenue Gaps to Close"
 date: 2026-05-07T16:02:00.000-04:00
-category: AI Visibility
+category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: AI agents do more than answer questions. They book leads, recover
   sales, and fill calendars. See how AudienceIntent closes revenue leaks.

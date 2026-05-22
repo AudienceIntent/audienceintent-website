@@ -830,7 +830,18 @@ function handleSubmit(){
   if(typeof gtag==='function'){gtag('event','referral_submit',{service:service.value});}
 
   var btn=document.querySelector('.submit-btn');btn.textContent='Submitting…';btn.disabled=true;btn.style.opacity='0.7';
-  function finish(){document.getElementById('formContent').style.display='none';var s=document.getElementById('formSuccess');s.classList.add('show');s.focus();}
+  function finish(){
+    document.getElementById('formContent').style.display='none';
+    var s=document.getElementById('formSuccess');
+    s.classList.add('show');
+    // Anchor back to the referral section so the success box is in view,
+    // accounting for the fixed nav height.
+    var sec=document.getElementById('refer');
+    var top=sec.getBoundingClientRect().top+window.pageYOffset-80;
+    window.scrollTo({top:top,behavior:'smooth'});
+    s.setAttribute('tabindex','-1');
+    setTimeout(function(){try{s.focus({preventScroll:true});}catch(e){}},400);
+  }
 
   if(GHL_WEBHOOK_URL){
     // GHL inbound webhooks don't return CORS headers, so we send the request in

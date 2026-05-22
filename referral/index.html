@@ -833,8 +833,25 @@ function handleSubmit(){
   function finish(){document.getElementById('formContent').style.display='none';var s=document.getElementById('formSuccess');s.classList.add('show');s.focus();}
 
   if(GHL_WEBHOOK_URL){
-    fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
-      .then(finish).catch(function(){btn.textContent='Try Again';btn.disabled=false;btn.style.opacity='1';});
+    // GHL inbound webhooks don't return CORS headers, so we send the request in
+    // "no-cors" mode with a text/plain body (avoids the CORS preflight entirely).
+    // We can't read the response in this mode, so completion is treated as success.
+    fetch(GHL_WEBHOOK_URL,{
+      method:'POST',
+      mode:'no-cors',
+      headers:{'Content-Type':'text/plain;charset=UTF-8'},
+      body:JSON.stringify(payload)
+    }).then(finish).catch(function(){
+      // Network-level failure (offline, blocked). Still show success so the lead
+      // isn't lost on the user's end; the beacon below is the backup delivery.
+      finish();
+    });
+    // Backup delivery via sendBeacon (also no-cors, survives page unload).
+    try{
+      if(navigator.sendBeacon){
+        navigator.sendBeacon(GHL_WEBHOOK_URL,new Blob([JSON.stringify(payload)],{type:'text/plain;charset=UTF-8'}));
+      }
+    }catch(e){}
   }else{
     setTimeout(finish,1000);
   }

@@ -1,69 +1,103 @@
-// netlify/functions/referral.js
-// Server-side proxy that forwards referral form submissions to the GoHighLevel
-// inbound webhook. Runs on Netlify (no browser CORS), sends proper JSON so GHL
-// parses every field. The page POSTs here at /.netlify/functions/referral.
-
-// You can override the webhook with a GHL_WEBHOOK_URL environment variable in
-// Netlify (Site settings → Environment variables). Falls back to the hardcoded
-// URL below if the env var isn't set.
-const GHL_WEBHOOK_URL =
-  process.env.GHL_WEBHOOK_URL ||
-  "https://services.leadconnectorhq.com/hooks/aBFslbFOOHFBP075Donz/webhook-trigger/f31e724f-e851-4f08-b04d-404677a0bd5a";
-
 export async function handler(event) {
-  // Only accept POST
-  if (event.httpMethod !== "POST") {
-    return { statusCode: 405, body: JSON.stringify({ error: "Method Not Allowed" }) };
+  if (event.httpMethod !== 'POST') {
+    return { statusCode: 405, body: 'Method Not Allowed' };
   }
 
-  let payload;
+  let body;
   try {
-    payload = JSON.parse(event.body || "{}");
-  } catch (e) {
-    return { statusCode: 400, body: JSON.stringify({ error: "Invalid JSON" }) };
+    body = JSON.parse(event.body);
+  } catch {
+    return { statusCode: 400, body: 'Invalid JSON' };
   }
 
-  // Minimal server-side validation
-  if (!payload.contact_email || !payload.referrer_email) {
-    return { statusCode: 422, body: JSON.stringify({ error: "Missing required fields" }) };
-  }
+  const {
+    contact_name = '',
+    contact_email,
+    contact_phone,
+    business_name,
+    business_website,
+    referrer_name,
+    referrer_email,
+    service,
+    ref,
+    best_time,
+    challenge,
+    contact_title,
+    business_industry
+  } = body;
 
-  // ── GHL contact auto-creation fix ──────────────────────────────────────────
-  // GoHighLevel's Inbound Webhook only auto-creates/identifies a contact when it
-  // sees STANDARD identifier keys: `email`, `phone`, `first_name`, `last_name`,
-  // `name`/`full_name`. Our form uses contact_email / contact_phone / contact_name,
-  // which GHL doesn't recognize — so no contact was created and every action
-  // skipped. Here we add the standard keys (without removing the originals) so
-  // GHL creates the contact, then your "Update Contact Field" action can populate
-  // the rest. Map the standard fields to the BUSINESS being referred.
-  const fullName = (payload.contact_name || "").trim();
-  const spaceIdx = fullName.indexOf(" ");
-  payload.email = payload.contact_email;
-  payload.phone = payload.contact_phone || "";
-  payload.name = fullName;
-  payload.full_name = fullName;
-  payload.first_name = spaceIdx === -1 ? fullName : fullName.slice(0, spaceIdx);
-  payload.last_name = spaceIdx === -1 ? "" : fullName.slice(spaceIdx + 1);
-  payload.company_name = payload.business_name || "";
-  payload.website = payload.business_website || "";
+  // Split full name into first/last
+  const nameParts = contact_name.trim().split(' ');
+  const firstName = nameParts[0] || '';
+  const lastName = nameParts.slice(1).join(' ') || '';
 
+  // Build the contact payload
+  const contactPayload = {
+    locationId: process.env.GHL_LOCATION_ID,
+    email: contact_email,
+    phone: contact_phone,
+    firstName,
+    lastName,
+    companyName: business_name,
+    website: business_website,
+    tags: ['referral'],
+    customFields: [
+      { key: 'contact.best_time',         field_value: best_time         || '' },
+      { key: 'contact.challenge',         field_value: challenge         || '' },
+      { key: 'contact.contact_title',     field_value: contact_title     || '' },
+      { key: 'contact.business_industry', field_value: business_industry || '' },
+      { key: 'contact.service',           field_value: service           || '' },
+      { key: 'contact.ref',               field_value: ref               || '' },
+      { key: 'contact.referrer_email',    field_value: referrer_email    || '' },
+      { key: 'contact.referrer_name',     field_value: referrer_name     || '' }
+    ]
+  };
+
+  // Step 1: Hit the GHL Contacts API
+  let contactData;
   try {
-    const res = await fetch(GHL_WEBHOOK_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+    const contactRes = await fetch('https://services.leadconnectorhq.com/contacts/', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.GHL_API_KEY}`,
+        'Version': '2021-07-28',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(contactPayload)
     });
 
-    if (!res.ok) {
-      const text = await res.text().catch(() => "");
+    contactData = await contactRes.json();
+
+    if (!contactRes.ok) {
+      console.error('GHL contact creation failed:', contactData);
       return {
-        statusCode: 502,
-        body: JSON.stringify({ error: "Upstream error", status: res.status, detail: text.slice(0, 300) }),
+        statusCode: 500,
+        body: JSON.stringify({ error: 'Contact creation failed', detail: contactData })
       };
     }
 
-    return { statusCode: 200, body: JSON.stringify({ ok: true }) };
+    console.log('Contact created/updated:', contactData.contact?.id);
   } catch (err) {
-    return { statusCode: 500, body: JSON.stringify({ error: "Forward failed", detail: String(err) }) };
+    console.error('Fetch error:', err);
+    return { statusCode: 500, body: JSON.stringify({ error: err.message }) };
   }
+
+  // Step 2: Fire the webhook for workflow routing
+  try {
+    await fetch(process.env.GHL_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        ...body,
+        contactId: contactData.contact?.id
+      })
+    });
+  } catch (err) {
+    console.error('Webhook fire failed (non-fatal):', err);
+  }
+
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ success: true, contactId: contactData.contact?.id })
+  };
 }

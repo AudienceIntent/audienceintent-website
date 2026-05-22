@@ -747,9 +747,12 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
 
 <script>
 /* === GHL INTEGRATION ===
-   Paste your GHL inbound webhook URL below. The form POSTs the referral as JSON
-   (creates/updates a contact in GHL). Leave blank to run in demo mode. */
-const GHL_WEBHOOK_URL = "https://services.leadconnectorhq.com/hooks/aBFslbFOOHFBP075Donz/webhook-trigger/f31e724f-e851-4f08-b04d-404677a0bd5a";
+   Submissions POST to the Netlify Function at /.netlify/functions/referral,
+   which forwards them to GoHighLevel server-side (no browser CORS, proper JSON).
+   ENDPOINT is the same-origin function. GHL_FALLBACK is a last-resort direct
+   no-cors send used only if the function endpoint is unreachable. */
+const ENDPOINT = "/.netlify/functions/referral";
+const GHL_FALLBACK = "https://services.leadconnectorhq.com/hooks/aBFslbFOOHFBP075Donz/webhook-trigger/f31e724f-e851-4f08-b04d-404677a0bd5a";
 
 /* UTM + REFERRAL ATTRIBUTION CAPTURE */
 function getUTMs(){
@@ -843,28 +846,32 @@ function handleSubmit(){
     setTimeout(function(){try{s.focus({preventScroll:true});}catch(e){}},400);
   }
 
-  if(GHL_WEBHOOK_URL){
-    // GHL inbound webhooks don't return CORS headers, so we send the request in
-    // "no-cors" mode with a text/plain body (avoids the CORS preflight entirely).
-    // We can't read the response in this mode, so completion is treated as success.
-    fetch(GHL_WEBHOOK_URL,{
-      method:'POST',
-      mode:'no-cors',
-      headers:{'Content-Type':'text/plain;charset=UTF-8'},
-      body:JSON.stringify(payload)
-    }).then(finish).catch(function(){
-      // Network-level failure (offline, blocked). Still show success so the lead
-      // isn't lost on the user's end; the beacon below is the backup delivery.
-      finish();
-    });
-    // Backup delivery via sendBeacon (also no-cors, survives page unload).
+  // Primary: POST to the same-origin Netlify Function (forwards to GHL server-side).
+  // It returns a real response we can verify. If that endpoint is missing/unreachable
+  // (e.g. function not deployed), fall back to a direct no-cors send to GHL.
+  fetch(ENDPOINT,{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(payload)
+  }).then(function(res){
+    if(res && res.ok){ finish(); return; }
+    directFallback();
+  }).catch(function(){
+    directFallback();
+  });
+
+  function directFallback(){
     try{
+      fetch(GHL_FALLBACK,{
+        method:'POST',
+        mode:'no-cors',
+        headers:{'Content-Type':'text/plain;charset=UTF-8'},
+        body:JSON.stringify(payload)
+      }).then(finish).catch(finish);
       if(navigator.sendBeacon){
-        navigator.sendBeacon(GHL_WEBHOOK_URL,new Blob([JSON.stringify(payload)],{type:'text/plain;charset=UTF-8'}));
+        navigator.sendBeacon(GHL_FALLBACK,new Blob([JSON.stringify(payload)],{type:'text/plain;charset=UTF-8'}));
       }
-    }catch(e){}
-  }else{
-    setTimeout(finish,1000);
+    }catch(e){ finish(); }
   }
 }
 </script>

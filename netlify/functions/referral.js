@@ -28,6 +28,25 @@ export async function handler(event) {
     return { statusCode: 422, body: JSON.stringify({ error: "Missing required fields" }) };
   }
 
+  // ── GHL contact auto-creation fix ──────────────────────────────────────────
+  // GoHighLevel's Inbound Webhook only auto-creates/identifies a contact when it
+  // sees STANDARD identifier keys: `email`, `phone`, `first_name`, `last_name`,
+  // `name`/`full_name`. Our form uses contact_email / contact_phone / contact_name,
+  // which GHL doesn't recognize — so no contact was created and every action
+  // skipped. Here we add the standard keys (without removing the originals) so
+  // GHL creates the contact, then your "Update Contact Field" action can populate
+  // the rest. Map the standard fields to the BUSINESS being referred.
+  const fullName = (payload.contact_name || "").trim();
+  const spaceIdx = fullName.indexOf(" ");
+  payload.email = payload.contact_email;
+  payload.phone = payload.contact_phone || "";
+  payload.name = fullName;
+  payload.full_name = fullName;
+  payload.first_name = spaceIdx === -1 ? fullName : fullName.slice(0, spaceIdx);
+  payload.last_name = spaceIdx === -1 ? "" : fullName.slice(spaceIdx + 1);
+  payload.company_name = payload.business_name || "";
+  payload.website = payload.business_website || "";
+
   try {
     const res = await fetch(GHL_WEBHOOK_URL, {
       method: "POST",

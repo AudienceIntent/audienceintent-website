@@ -26,12 +26,10 @@ export async function handler(event) {
     business_industry
   } = body;
 
-  // Split full name into first/last
   const nameParts = contact_name.trim().split(' ');
   const firstName = nameParts[0] || '';
   const lastName = nameParts.slice(1).join(' ') || '';
 
-  // Build the contact payload
   const contactPayload = {
     locationId: process.env.GHL_LOCATION_ID,
     email: contact_email,
@@ -42,18 +40,17 @@ export async function handler(event) {
     website: business_website,
     tags: ['referral'],
     customFields: [
-      { key: 'contact.best_time',         field_value: best_time         || '' },
-      { key: 'contact.challenge',         field_value: challenge         || '' },
-      { key: 'contact.contact_title',     field_value: contact_title     || '' },
-      { key: 'contact.business_industry', field_value: business_industry || '' },
-      { key: 'contact.service',           field_value: service           || '' },
-      { key: 'contact.ref',               field_value: ref               || '' },
-      { key: 'contact.referrer_email',    field_value: referrer_email    || '' },
-      { key: 'contact.referrer_name',     field_value: referrer_name     || '' }
+      { key: 'best_time',         value: best_time         || '' },
+      { key: 'challenge',         value: challenge         || '' },
+      { key: 'contact_title',     value: contact_title     || '' },
+      { key: 'business_industry', value: business_industry || '' },
+      { key: 'service',           value: service           || '' },
+      { key: 'ref',               value: ref               || '' },
+      { key: 'referrer_email',    value: referrer_email    || '' },
+      { key: 'referrer_name',     value: referrer_name     || '' }
     ]
   };
 
-  // Step 1: Hit the GHL Contacts API
   let contactData;
   try {
     const contactRes = await fetch('https://services.leadconnectorhq.com/contacts/', {
@@ -69,7 +66,7 @@ export async function handler(event) {
     contactData = await contactRes.json();
 
     if (!contactRes.ok) {
-      console.error('GHL contact creation failed:', contactData);
+      console.error('GHL contact creation failed:', JSON.stringify(contactData));
       return {
         statusCode: 500,
         body: JSON.stringify({ error: 'Contact creation failed', detail: contactData })
@@ -77,12 +74,12 @@ export async function handler(event) {
     }
 
     console.log('Contact created/updated:', contactData.contact?.id);
+    console.log('Full response:', JSON.stringify(contactData));
   } catch (err) {
     console.error('Fetch error:', err);
     return { statusCode: 500, body: JSON.stringify({ error: err.message }) };
   }
 
-  // Step 2: Fire the webhook for workflow routing
   try {
     await fetch(process.env.GHL_WEBHOOK_URL, {
       method: 'POST',

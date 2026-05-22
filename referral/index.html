@@ -819,10 +819,23 @@ function handleSubmit(){
   }
   if(!valid)return;
 
+  var fullName=val('contact-name');
+  var firstName=fullName.split(' ')[0]||fullName;
+  var lastName=fullName.split(' ').slice(1).join(' ')||'';
+
   var payload=Object.assign({
+    // GHL-standard keys — these let the inbound webhook AUTO-CREATE the contact
+    email:val('contact-email'),
+    phone:val('contact-phone'),
+    name:fullName,
+    full_name:fullName,
+    first_name:firstName,
+    last_name:lastName,
+    company_name:val('biz-name'),
+    // Original keys (kept for custom-field mapping / readability)
     service:service.value,
     business_name:val('biz-name'),business_industry:val('biz-industry'),
-    contact_name:val('contact-name'),contact_title:val('contact-title'),
+    contact_name:fullName,contact_title:val('contact-title'),
     contact_email:val('contact-email'),contact_phone:val('contact-phone'),
     business_website:val('biz-website'),
     referrer_name:val('ref-name'),referrer_email:val('ref-email'),

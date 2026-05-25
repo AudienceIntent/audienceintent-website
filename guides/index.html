@@ -490,7 +490,7 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
 </section>
 
 <!-- ═══ PICK + FORM ═══ -->
-<section class="pick">
+<section class="pick" id="pickView">
   <div class="si">
     <div class="pick-head">
       <div class="sec-label">Step 1 — Choose your guide</div>
@@ -652,7 +652,7 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
    │    incoming fields (firstName, lastName, email, phone).  │
    │    No API key / scope needed — the URL is the auth.      │
    └─────────────────────────────────────────────────────────┘ */
-const GHL_WEBHOOK_URL = "PASTE_YOUR_GHL_INBOUND_WEBHOOK_URL_HERE";
+const GHL_WEBHOOK_URL = "https://services.leadconnectorhq.com/hooks/aBFslbFOOHFBP075Donz/webhook-trigger/69b33f73-30a1-4d87-8b65-3d3bc76bb614";
 
 /* 2) Your existing PDF files (already hosted in GHL media). */
 const GUIDES = {
@@ -825,6 +825,7 @@ const GUIDES = {
     });
 
     document.getElementById('formView').style.display='none';
+    document.getElementById('pickView').style.display='none';
     var c=document.getElementById('confirmView');
     c.classList.add('show');
     window.scrollTo({top:0,behavior:'smooth'});

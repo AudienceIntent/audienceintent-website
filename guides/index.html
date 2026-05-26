@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -652,7 +653,7 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
    │    incoming fields (firstName, lastName, email, phone).  │
    │    No API key / scope needed — the URL is the auth.      │
    └─────────────────────────────────────────────────────────┘ */
-const GHL_WEBHOOK_URL = "https://services.leadconnectorhq.com/hooks/aBFslbFOOHFBP075Donz/webhook-trigger/69b33f73-30a1-4d87-8b65-3d3bc76bb614";
+const GHL_WEBHOOK_URL = "https://services.leadconnectorhq.com/hooks/aBFslbFOOHFBP075Donz/webhook-trigger/543d06cb-2ebd-4549-bf83-b5e67b971b67";
 
 /* 2) Your existing PDF files (already hosted in GHL media). */
 const GUIDES = {
@@ -767,14 +768,14 @@ const GUIDES = {
       name:      fn.value.trim()+' '+ln.value.trim(),
       email:     em.value.trim().toLowerCase(),
       phone:     phone,
-      smsConsent: true,
-      emailConsent: true,
+      smsConsent: 'true',
+      emailConsent: 'true',
       consentText: consentText,
       consentTimestamp: new Date().toISOString(),
-      guides: chosen,
-      guideTitles: chosen.map(function(k){return GUIDES[k].title;}),
+      guides: chosen.join(', '),
+      guideTitles: chosen.map(function(k){return GUIDES[k].title;}).join(', '),
       source: 'Free Guides Landing Page',
-      tags: ['Free Guide Lead','SMS Opt-In'].concat(chosen.map(function(k){return GUIDES[k].tag;})),
+      tags: ['Free Guide Lead','SMS Opt-In'].concat(chosen.map(function(k){return GUIDES[k].tag;})).join(', '),
       pageUrl: location.href
     };
 
@@ -788,12 +789,15 @@ const GUIDES = {
 
     function finish(){ btn.classList.remove('loading'); btn.disabled=false; showConfirm(payload.firstName, chosen); }
 
-    // Send to GHL Inbound Webhook
+    // Send to GHL Inbound Webhook as form-encoded (no CORS preflight → always delivered)
     if(GHL_WEBHOOK_URL && GHL_WEBHOOK_URL.indexOf('PASTE_')===-1){
+      var body=Object.keys(payload).map(function(k){
+        return encodeURIComponent(k)+'='+encodeURIComponent(payload[k]);
+      }).join('&');
       fetch(GHL_WEBHOOK_URL,{
         method:'POST',
-        headers:{'Content-Type':'application/json'},
-        body:JSON.stringify(payload)
+        headers:{'Content-Type':'application/x-www-form-urlencoded'},
+        body:body
       }).then(function(){ finish(); })
         .catch(function(){ finish(); }); // don't trap the user if the webhook hiccups
     } else {

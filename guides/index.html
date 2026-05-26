@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -245,6 +244,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:14px 32px;display:fl
 .sec-h{font-size:clamp(28px,3.8vw,48px);font-weight:800;line-height:1.06;letter-spacing:-.03em;color:#f8f7f6;margin-bottom:14px}
 .sec-h span{color:#00ff73}
 .sec-s{font-size:15.5px;color:rgba(248,247,246,0.78);font-weight:300;margin-bottom:0;max-width:560px;line-height:1.75}
+/* prominent step headings (Step 1 / Step 2) */
+.step-h{font-size:clamp(23px,3.8vw,34px);font-weight:800;letter-spacing:-.025em;line-height:1.12;color:#f8f7f6;margin-bottom:14px;text-align:center}
+.step-h span{color:#00ff73}
 
 /* ── HERO ── */
 .hero{position:relative;overflow:hidden;background:#1f283f;padding:150px 24px 70px;text-align:center}
@@ -261,7 +263,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:14px 32px;display:fl
 .hsub strong{color:#f8f7f6;font-weight:700}
 .htrust{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;font-size:12.5px;font-weight:600;color:rgba(248,247,246,.5)}
 .htrust span{display:inline-flex;align-items:center;gap:7px}
-.htrust svg{color:#00ff73;flex-shrink:0}
+.htrust svg{color:#00ff73;flex-shrink:0;filter:drop-shadow(0 0 6px rgba(0,255,115,.6))}
 
 /* ── PICK + FORM SECTION ── */
 .pick{padding:24px 24px 100px;background:#1f283f}
@@ -481,11 +483,11 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
       Two free guides · No call required
     </div>
     <h1 class="h1">Recover <span class="hg">What's Yours.</span><br>Own <span class="hb">What's Next.</span></h1>
-    <p class="hsub">We wrote down exactly how we do both. One guide shows you how to turn dormant leads into <strong>booked revenue</strong>. The other shows you why AI keeps recommending your competitor — and how to <strong>take that spot</strong>. Read them before you ever talk to us.</p>
+    <p class="hsub">One guide shows you exactly how to turn dormant leads into <strong>booked revenue</strong>. The other shows you why AI keeps recommending your competitor — and how to <strong>take that spot</strong>.</p>
     <div class="htrust">
-      <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Free, no payment</span>
-      <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Instant download</span>
-      <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Written by AudienceIntent</span>
+      <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Free</span>
+      <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Instant Download</span>
+      <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Honest &amp; Transparent</span>
     </div>
   </div>
 </section>
@@ -494,7 +496,7 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
 <section class="pick" id="pickView">
   <div class="si">
     <div class="pick-head">
-      <div class="sec-label">Step 1 — Choose your guide</div>
+      <div class="step-h"><span>Step 1</span> — Choose your guide</div>
       <p class="sec-s">Grab the one you need — or take both. Tap a guide to select it.</p>
     </div>
 
@@ -535,7 +537,7 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
 
     <!-- FORM -->
     <div class="formwrap">
-      <div class="sec-label" style="justify-content:center">Step 2 — Where to send it</div>
+      <div class="step-h"><span>Step 2</span> — Where to send it</div>
       <h2 class="form-h">Tell us where to send your guide</h2>
       <p class="form-sub">Fill this out and your download unlocks instantly.</p>
 
@@ -736,6 +738,26 @@ const GUIDES = {
     return d?'+'+d:'';
   }
   function validEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+
+  // ── Live US phone formatting → (555) 123-4567 ──
+  (function(){
+    var ph=document.getElementById('phone');
+    if(!ph) return;
+    function fmtUS(value){
+      var d=(value||'').replace(/\D/g,'');
+      if(d.length===11 && d[0]==='1'){ d=d.slice(1); } // drop leading country code
+      d=d.slice(0,10);
+      if(d.length===0) return '';
+      if(d.length<4)  return '('+d;
+      if(d.length<7)  return '('+d.slice(0,3)+') '+d.slice(3);
+      return '('+d.slice(0,3)+') '+d.slice(3,6)+'-'+d.slice(6);
+    }
+    ph.addEventListener('input',function(){
+      var atEnd=this.selectionStart===this.value.length;
+      this.value=fmtUS(this.value);
+      if(atEnd){ this.selectionStart=this.selectionEnd=this.value.length; }
+    });
+  })();
 
   // ── Submit ──
   form.addEventListener('submit',function(e){

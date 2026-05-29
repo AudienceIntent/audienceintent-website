@@ -9,7 +9,7 @@ description: Straight answers to the objections that stop business owners from
   actually happens.
 focus_keyword: Database Reactivation
 canonical: https://www.audienceintent.ai/insights/database-reactivation-faq
-image: /images/uploads/database.jpg
+featured_image: /images/uploads/database.jpg
 og_image: /images/uploads/database.jpg
 schema: >-
   {
@@ -86,6 +86,7 @@ schema: >-
     ],
     "@context": "https://schema.org"
   }
+image: /images/uploads/database.jpg
 ---
 # Questions We Get Asked About Database Reactivation (And the Honest Answers)
 

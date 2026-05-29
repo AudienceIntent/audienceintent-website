@@ -105,7 +105,7 @@ collections:
         hint: "Full URL e.g. https://audienceintent.ai/insights/article-slug"
 
       - label: "Featured Image"
-        name: "featured_image"
+        name: "image"
         widget: "image"
         required: false
         hint: "Hero image shown at the top of the article AND on the insights index card. Recommended 1600x900px. If left blank, the insights card will fall back to the AudienceIntent logo."

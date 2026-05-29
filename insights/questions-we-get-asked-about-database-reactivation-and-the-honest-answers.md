@@ -9,7 +9,7 @@ description: Straight answers to the objections that stop business owners from
   actually happens.
 focus_keyword: Database Reactivation
 canonical: https://www.audienceintent.ai/insights/database-reactivation-faq
-featured_image: /images/uploads/database.jpg
+image: /images/uploads/database.jpg
 og_image: /images/uploads/database.jpg
 schema: >-
   {

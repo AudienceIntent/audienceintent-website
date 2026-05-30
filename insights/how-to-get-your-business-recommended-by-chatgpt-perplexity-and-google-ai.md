@@ -81,11 +81,11 @@ If that name is not yours, you are invisible to that customer, regardless of whe
 
 > **TL;DR**
 
-- More than 35% of consumers now use AI tools to find local service providers, up 527% year-over-year in AI search traffic.
-- AI assistants name one or a few businesses, not a list. Being absent from the answer is a harder problem than ranking #3.
-- 93% of local businesses are recognized by AI, but only 55% have accurate, current details. That gap is what AI uses to decide who to trust.
-- The fastest fixes are not content rewrites. They are data accuracy, recency, and machine-readable trust signals.
-- This article gives you a practical 7-day playbook and an audit framework to find exactly where your visibility breaks down.
+> - More than 35% of consumers now use AI tools to find local service providers, up 527% year-over-year in AI search traffic.
+> - AI assistants name one or a few businesses, not a list. Being absent from the answer is a harder problem than ranking #3.
+> - 93% of local businesses are recognized by AI, but only 55% have accurate, current details. That gap is what AI uses to decide who to trust.
+> - The fastest fixes are not content rewrites. They are data accuracy, recency, and machine-readable trust signals.
+> - This article gives you a practical 7-day playbook and an audit framework to find exactly where your visibility breaks down.
 
 The businesses AI recommends first are not always the ones with the best websites or the most backlinks. They are the ones with the cleanest, most consistent, most current signals across the web. That is a fixable problem, and for most local service businesses, the fix is faster than any SEO campaign.
 

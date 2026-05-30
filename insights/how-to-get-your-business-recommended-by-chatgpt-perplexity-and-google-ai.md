@@ -80,7 +80,6 @@ AI assistants no longer just search the web. They decide. When someone asks Chat
 If that name is not yours, you are invisible to that customer, regardless of where you rank in traditional search.
 
 > **TL;DR**
-
 > - More than 35% of consumers now use AI tools to find local service providers, up 527% year-over-year in AI search traffic.
 > - AI assistants name one or a few businesses, not a list. Being absent from the answer is a harder problem than ranking #3.
 > - 93% of local businesses are recognized by AI, but only 55% have accurate, current details. That gap is what AI uses to decide who to trust.

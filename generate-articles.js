@@ -74,8 +74,30 @@ function markdownToHtml(md) {
   // Inline code
   html = html.replace(/`([^`]+)`/g, '<code style="background:rgba(0,255,115,0.08);color:#00ff73;padding:2px 6px;border-radius:4px;font-size:0.9em">$1</code>');
 
-  // Blockquotes
-  html = html.replace(/^>\s+(.+)$/gm, '<blockquote><p>$1</p></blockquote>');
+  // Blockquotes — group all consecutive > lines into one block,
+  // then convert inner list items and paragraphs properly.
+  html = html.replace(/((?:^>[ \t]?.*\n?)+)/gm, function(block) {
+    // Strip the leading > from every line
+    var inner = block.replace(/^>[ \t]?/gm, '').trimEnd();
+
+    // Convert inner list items (- or * or +) to <li> wrapped in <ul>
+    inner = inner.replace(/((?:^[-*+]\s+.+\n?)+)/gm, function(listBlock) {
+      var items = listBlock.trim().split('\n').map(function(line) {
+        return '<li>' + line.replace(/^[-*+]\s+/, '') + '</li>';
+      }).join('');
+      return '<ul>' + items + '</ul>';
+    });
+
+    // Wrap remaining non-tag lines in <p>
+    inner = inner.split('\n').map(function(line) {
+      line = line.trim();
+      if (!line) return '';
+      if (/^</.test(line)) return line;
+      return '<p>' + line + '</p>';
+    }).filter(Boolean).join('\n');
+
+    return '<blockquote>' + inner + '</blockquote>\n';
+  });
 
   // Images and links
   html = html.replace(/!\[([^\]]*)\]\(([^\)]+)\)/g, '<img src="$2" alt="$1" title="$1" loading="lazy" style="max-width:100%;border-radius:8px;margin:16px 0;">');

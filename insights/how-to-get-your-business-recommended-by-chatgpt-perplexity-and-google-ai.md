@@ -166,21 +166,13 @@ Google AI Overviews reference Google Business Profile data in [67% of local AI-g
 Log into your profile and verify or update:
 
 1.  **Business name** - must be identical to every other listing, no keyword stuffing
-    
 2.  **Primary category** - choose the most specific available (e.g., "HVAC Contractor" not just "Contractor")
-    
 3.  **Secondary categories** - add all relevant service types
-    
 4.  **Service areas** - list every city or zip code you actually serve
-    
 5.  **Hours** - update for current schedule, add special hours for holidays
-    
 6.  **Business description** - 750 characters, plain language, describe what you do and who you serve
-    
 7.  **Services section** - add individual service entries with descriptions and prices where applicable
-    
 8.  **Photos** - upload at least 3 new photos: your team, your work, your location
-    
 
 **Where to find this:** Log into [business.google.com](https://business.google.com) and click "Edit profile." Every field listed above is accessible from that single dashboard view. If you have not logged in recently, the interface will also surface a "Profile completeness" prompt showing exactly which fields are missing.
 

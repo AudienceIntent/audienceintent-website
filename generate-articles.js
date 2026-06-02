@@ -640,6 +640,82 @@ ${articleUrls}
 }
 
 // ============================================================
+// PER-ARTICLE STATIC HTML (fixes social share previews)
+// LinkedIn / Facebook / X / iMessage do NOT run JavaScript, so
+// JS-updated OG tags are never seen — they only get the static
+// homepage defaults baked into article.html. This generator reads
+// article.html as a template and stamps per-article meta into the
+// head, writing one real file per slug at /insights/<slug>/index.html.
+// ============================================================
+const TEMPLATE_FILE = path.join(__dirname, 'article.html');
+
+// HTML-escape a value destined for an attribute (content="...").
+function escAttr(s) {
+  return String(s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function generatePageHtml(template, article) {
+  const canonical = article.canonical || `${SITE_URL}/insights/${article.slug}`;
+  const metaTitle = article.meta_title || article.title;
+  const desc      = normaliseDescription(article.description || article.excerpt || '');
+  const ogImage   = article.og_image || article.image || LOGO_URL;
+  const published = article.date || '';
+  const modified  = article.updated_at || article.date || '';
+  const author    = article.author || 'Kevin Bovett';
+  const section   = article.category || 'Insights';
+
+  let html = template;
+
+  // <title id="page-title">
+  html = html.replace(
+    /<title id="page-title">[\s\S]*?<\/title>/,
+    `<title id="page-title">${escAttr(metaTitle)}</title>`
+  );
+
+  // Replace the content="" of a <meta id="..."> tag, regardless of
+  // attribute order (handles both name="" and property="" tags).
+  const setById = (id, value) => {
+    const re = new RegExp(`(<meta id="${id}"[^>]*?\\bcontent=")[^"]*(")`);
+    html = html.replace(re, `$1${escAttr(value)}$2`);
+  };
+
+  setById('page-desc', desc);
+  setById('og-title', metaTitle);
+  setById('og-desc', desc);
+  setById('og-image', ogImage);
+  setById('og-url', canonical);
+  setById('og-published', published);
+  setById('og-modified', modified);
+  setById('og-author', author);
+  setById('og-section', section);
+  setById('tw-title', metaTitle);
+  setById('tw-desc', desc);
+  setById('tw-image', ogImage);
+
+  // canonical <link id="page-canonical">
+  html = html.replace(
+    /(<link id="page-canonical" rel="canonical" href=")[^"]*(")/,
+    `$1${escAttr(canonical)}$2`
+  );
+
+  // Bake the Article + BreadcrumbList JSON-LD into the static
+  // <script id="page-schema"> so crawlers without JS get it too.
+  const schema = article.schema && article.schema.trim()
+    ? article.schema
+    : generateAutoSchema(article);
+  html = html.replace(
+    /(<script type="application\/ld\+json" id="page-schema">)[\s\S]*?(<\/script>)/,
+    `$1\n${schema}\n$2`
+  );
+
+  return html;
+}
+
+// ============================================================
 // IMAGE SITEMAP GENERATOR
 // Referenced in robots.txt as sitemap-images.xml
 // ============================================================
@@ -827,6 +903,21 @@ async function main() {
     fs.writeFileSync(SITEMAP_IMG_FILE, imageSitemap);
     const imgCount = cleanArticles.filter(a => a.og_image || a.image).length;
     console.log(`SUCCESS: sitemap-images.xml — ${imgCount} image${imgCount !== 1 ? 's' : ''}`);
+
+    // Write per-article static HTML (social share previews)
+    if (fs.existsSync(TEMPLATE_FILE)) {
+      const template = fs.readFileSync(TEMPLATE_FILE, 'utf8');
+      let pageCount = 0;
+      cleanArticles.forEach(article => {
+        const dir = path.join(INSIGHTS_DIR, article.slug);
+        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(path.join(dir, 'index.html'), generatePageHtml(template, article));
+        pageCount++;
+      });
+      console.log(`SUCCESS: ${pageCount} per-article HTML page${pageCount !== 1 ? 's' : ''} written to /insights/<slug>/index.html`);
+    } else {
+      console.log('  WARNING: article.html template not found — skipped per-article HTML generation');
+    }
 
     // Summary
     console.log('\n' + '─'.repeat(56));

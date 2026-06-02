@@ -44,6 +44,13 @@
 # ARTICLE ROUTING
 # ============================================================
 
+# Legacy URL → canonical slug (TCPA article renamed to match canonical)
+[[redirects]]
+  from   = "/insights/tcpa-compliance-for-sms-lead-reactivation-what-every-business-owner-must-know-in-2026"
+  to     = "/insights/tcpa-compliance-sms-lead-reactivation-2026"
+  status = 301
+  force  = true
+
 # Serve raw markdown if requested directly
 [[redirects]]
   from   = "/insights/*.md"
@@ -51,24 +58,13 @@
   status = 200
   force  = false
 
-# Per-article static HTML (generated at build time) wins.
-# This rewrite maps the bare slug to its generated index.html,
-# which carries correct per-article OG tags for social previews.
-# force = false ensures Netlify serves the real file when present.
-[[redirects]]
-  from   = "/insights/:slug"
-  to     = "/insights/:slug/index.html"
-  status = 200
-  force  = false
-
-# Final fallback: any /insights/* path with no matching file
-# falls back to the JS-hydrated template (preserves old behavior
-# for slugs not yet rebuilt).
-[[redirects]]
-  from   = "/insights/*"
-  to     = "/article.html"
-  status = 200
-  force  = false
+# NOTE: No /insights/:slug → article.html rewrites here, by design.
+# The build generates a real /insights/<slug>/index.html for every
+# article, and Netlify serves those physical files automatically.
+# A catch-all rewrite to article.html OVERRIDES those real files and
+# serves the tagless JS template instead — which breaks both the page
+# and its social share preview. Leaving routing to Netlify's default
+# static-file resolution is what makes per-article OG tags work.
 
 # ============================================================
 # NETLIFY IDENTITY

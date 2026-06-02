@@ -188,7 +188,7 @@ A compliant lead has three things: an affirmative opt-in, a consent record that 
 ### Compliant vs. Non-Compliant: A Direct Comparison
 
 |  | Compliant Lead | Non-Compliant Lead |
-| --- | --- | --- |
+| Criteria | --- | --- |
 | **Opt-in method** | Checked a box, submitted a form, or texted a keyword | Pre-checked box, verbal-only, or no opt-in recorded |
 | **Disclosure** | Named your business as the sender | Generic "marketing partners" language or no disclosure |
 | **Documentation** | Timestamp, source, and consent language on file | No record, or records older than 5 years |

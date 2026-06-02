@@ -144,15 +144,10 @@ The [FCC extended the law](https://www.fcc.gov/consumers/guides/stop-unwanted-ro
 For marketing and promotional messages, the TCPA requires **prior express written consent (PEWC)**. This is the higher standard, and it has six specific requirements:
 
 1.  The consumer must take an **affirmative action** to opt in. A pre-checked box does not count.
-    
 2.  The consent must be **in writing**, which includes web forms, digital checkboxes, and text keyword opt-ins.
-    
 3.  The disclosure must **identify your business by name** as the sender.
-    
 4.  It must state **what types of messages** the consumer will receive.
-    
 5.  It must include a notice that **message and data rates may apply**.
-    
 6.  Consent **cannot be a condition of purchase**. The opt-in must be separate and optional.
     
 

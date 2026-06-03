@@ -9,6 +9,8 @@ description: Old leads and missed calls are still revenue. See the stats, then
 focus_keyword: Found Money
 image: https://framerusercontent.com/images/NyOtqcsX27LpcbN65NEpOKlGIg.jpg
 schema: >-
+  <script type="application/ld+json">
+
   {
     "@graph": [
       {
@@ -26,7 +28,7 @@ schema: >-
           "name": "AudienceIntent",
           "@type": "Organization"
         },
-        "description": "Old leads and missed calls are still revenue. See the stats, then use Revenue Capture Engine to recover it without adding staff or ad spend.",
+        "description": "Old leads and missed calls are still revenue. See the stats, then use Database Reactivation to recover it without adding staff or ad spend.",
         "dateModified": "2026-05-09",
         "datePublished": "2026-05-09",
         "mainEntityOfPage": {
@@ -70,10 +72,10 @@ schema: >-
             }
           },
           {
-            "name": "What does Revenue Capture Engine do?",
+            "name": "What does Database Reactivation do?",
             "@type": "Question",
             "acceptedAnswer": {
-              "text": "Revenue Capture Engine combines lead reactivation, 60-second speed-to-lead, after-hours voice coverage, chat, social DM automation, reviews, and AI search visibility into one done-for-you system. It is built to capture more of the demand you already have without adding staff or extra ad spend.",
+              "text": "Database Reactivation re-engages your old leads and past customers through automated outreach to recover revenue you already paid to generate. It runs on a pure performance model with no monthly fee, so you only pay on the revenue it brings back, without adding staff or extra ad spend.",
               "@type": "Answer"
             }
           }
@@ -82,6 +84,8 @@ schema: >-
     ],
     "@context": "https://schema.org"
   }
+
+  </script>
 ---
 # You're Sitting on Found Money - You Just Don't Know It Yet
 
@@ -111,7 +115,6 @@ Most service businesses are leaking revenue from the same three sources:
     
 -   **Past customers** who went quiet and were never re-engaged
     
-
 The scale of this problem is significant. [U.S. small businesses lose an estimated $75 to $81.2 billion annually](https://greet.now/blog/missed-calls) from missed calls alone. Research from Launch Leads puts the waste even higher, estimating that **70 to 80% of acquired leads are never re-engaged** after the initial contact attempt fails.
 
 That is not a lead generation problem. That is a follow-up problem.
@@ -168,7 +171,3 @@ Yes. Dormant CRM contacts re-engage at a rate of 5 to 15% when contacted with a 
 ### How fast does a business need to respond to a new lead?
 
 Within five minutes is the standard. [Research shows](https://www.getnextphone.com/blog/speed-to-lead) that leads contacted within five minutes are 21 times more likely to qualify than leads contacted after 30 minutes. The conversion rate under five minutes is 21%. Wait 24 hours and it drops to 2.3%. Most businesses are responding in 42 to 47 hours, which means they are losing the majority of leads not to bad marketing, but to slow follow-up.
-
-### What does Revenue Capture Engine do to fix these problems?
-
-Revenue Capture Engine is a done-for-you system that combines Lead Reactivation Campaigns, Speed-to-Lead within 60 seconds, an After-Hours Voice Agent, and Chat across website and social channels. It is built to stop revenue from leaking at every stage: new inquiries, after-hours calls, unanswered DMs, and dormant contacts. It comes with a 30-day money-back guarantee and most clients are live within 10 to 14 days.

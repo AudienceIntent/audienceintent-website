@@ -7,6 +7,7 @@ author: Kevin Bovett - AudienceIntent
 description: Old leads and missed calls are still revenue. See the stats, then
   use Revenue Capture Engine to recover it without adding staff or ad spend.
 focus_keyword: Found Money
+image: https://framerusercontent.com/images/NyOtqcsX27LpcbN65NEpOKlGIg.jpg
 schema: >-
   {
     "@graph": [
@@ -81,9 +82,7 @@ schema: >-
     ],
     "@context": "https://schema.org"
   }
-image: https://framerusercontent.com/images/NyOtqcsX27LpcbN65NEpOKlGIg.jpg
 ---
-
 # You're Sitting on Found Money - You Just Don't Know It Yet
 
 Most businesses think growth starts with more leads. More ads. More spend. More campaigns.
@@ -146,7 +145,7 @@ You already paid to generate these opportunities.
 
 Every click, every call, every form fill, you spent real money to make those happen. So before you buy more leads, look at the revenue sitting untouched in your CRM.
 
-That is where the fastest wins usually are.
+That is where the fastest wins usually live. 
 
 Revenue Capture Engine comes with a **30-day money-back guarantee**, and most clients are live within 10 to 14 days.
 

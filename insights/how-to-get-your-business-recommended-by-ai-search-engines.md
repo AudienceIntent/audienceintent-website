@@ -264,17 +264,11 @@ At scale, the AEO priorities shift toward catalog-level optimization and feed qu
 **You don't need a six-month roadmap to start your AEO strategy.** These seven steps cover the highest-leverage actions across all business types. Start at step one and work through the list.
 
 1.  **Audit your current AI visibility.** Before you optimize anything, find out where you stand. Run your business through a few prompts in ChatGPT and Perplexity. Ask "who are the best \[your category\] in \[your city/niche\]" and see if your business appears. A [free AI Visibility Report](https://report.audienceintent.ai) can give you a structured baseline.
-    
 2.  **Lock down your NAP consistency.** Check your business name, address, and phone number across your website, Google Business Profile, Yelp, and any other directory you're listed in. Fix every discrepancy. This takes a few hours and pays dividends immediately.
-    
 3.  **Add or update schema markup.** Implement the appropriate schema for your business type: LocalBusiness for service businesses, Product schema for DTC, FAQPage for content pages. If you're on WordPress, a plugin handles most of this. If you're on Shopify, it's built in for products.
-    
 4.  **Reformat your top five pages to be answer-first.** Take your homepage, your top service or category pages, and your most-visited blog posts. Rewrite the opening of each section so the first sentence directly answers the question that section addresses. No preamble, no context-setting. Answer first.
-    
 5.  **Add a FAQ section to every major page.** Three to five questions per page, answered in two to three sentences each. Write the questions the way a customer would actually ask them to an AI assistant. This is the single fastest way to get extracted and cited.
-    
 6.  **Build or clean up your third-party presence.** Identify the top five directories, review platforms, or publications in your category. Make sure your business is listed, your information is accurate, and you have recent reviews. For local businesses, that's Google, Yelp, and two or three industry directories. For DTC, that's Amazon, your product category's top review sites, and Reddit.
-    
 7.  **Publish one piece of answer-optimized content per month.** Pick a question your customers commonly ask. Write a 600-900 word page that answers it directly, with structured subheadings, a FAQ block, and the appropriate schema. One page per month, done properly, compounds into significant AI citation authority over 90 days.
     
 

@@ -598,14 +598,21 @@ function escAttr(s) {
   return String(s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-function makeCard(a, isFeatured) {
+function makeCard(a, isFeatured, eager) {
   var imgSrc = a.og_image || a.image || '';
   var readTime = a.read_time ? a.read_time + ' min read' : '';
   var titleEsc = escAttr(a.title);
 
+  // Above-the-fold images load eagerly with high priority so they paint on
+  // first load. Lazy-loading an in-viewport image is what was leaving the
+  // top grid card blank until a manual reflow.
+  var loadAttrs = eager
+    ? 'loading="eager" fetchpriority="high" decoding="async"'
+    : 'loading="lazy" decoding="async"';
+
   if (isFeatured && imgSrc) {
     return '<a class="card-featured" href="/insights/' + a.slug + '" aria-label="' + titleEsc + '">'
-      + '<img class="card-feat-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" loading="lazy" decoding="async">'
+      + '<img class="card-feat-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + '>'
       + '<div class="card-feat-body">'
       + '<div class="card-feat-cat">' + (a.category || '') + '</div>'
       + '<h2 class="card-feat-title">' + (a.title || '') + '</h2>'
@@ -617,7 +624,7 @@ function makeCard(a, isFeatured) {
   }
 
   var imgHtml = imgSrc
-    ? '<div class="card-img-wrap"><img class="card-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" loading="lazy" decoding="async">' + (readTime ? '<span class="card-read-time">' + readTime + '</span>' : '') + '</div>'
+    ? '<div class="card-img-wrap"><img class="card-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + '>' + (readTime ? '<span class="card-read-time">' + readTime + '</span>' : '') + '</div>'
     : '<div class="card-img-wrap" style="height:120px"><div class="card-no-img" aria-hidden="true">' + (a.category || 'AI').substring(0,2).toUpperCase() + '</div></div>';
 
   return '<a class="card" href="/insights/' + a.slug + '" aria-label="' + titleEsc + '">'
@@ -655,10 +662,14 @@ function render() {
   var start = (pg - 1) * PER;
   var page = list.slice(start, start + PER);
 
-  // First card on page 1 is featured (larger layout)
+  // First card on page 1 is featured (larger layout).
+  // Eager-load the images that are above the fold on first paint:
+  // the featured card + the first row of grid cards. The rest stay lazy.
   var html = '';
   page.forEach(function(a, idx) {
-    html += makeCard(a, idx === 0 && pg === 1 && !q && cat === 'All');
+    var isFeatured = idx === 0 && pg === 1 && !q && cat === 'All';
+    var eager = pg === 1 && idx < 4; // featured + first 3 grid cards
+    html += makeCard(a, isFeatured, eager);
   });
   grid.innerHTML = html;
 

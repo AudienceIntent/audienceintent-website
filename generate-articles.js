@@ -2,9 +2,22 @@
 // generate-articles.js — AudienceIntent
 // Netlify build script
 // Generates: articles.json, articles-data.js, sitemap.xml, sitemap-images.xml
-// Updated: May 2026
+// Updated: June 2026
 //
 // CHANGES THIS REVISION:
+//   • IMAGE PATH FIX (images always resolve):
+//       - normalizeImagePath()  → forces leading slash on
+//         relative paths so root-relative <img>/cards/JSON work
+//         on nested /insights/<slug>/ URLs (Decap saves media
+//         picks WITHOUT a leading slash, which broke previews).
+//       - toAbsoluteUrl()       → full https:// URL for og:image,
+//         twitter:image, schema image, and image sitemap, since
+//         LinkedIn/Facebook/iMessage scrapers reject root-relative.
+//       - Applied to: frontmatter image + og_image, inline body
+//         <img> tags in markdownToHtml, schema, social tags,
+//         and both sitemaps.
+//
+// PRIOR REVISION:
 //   • SEO audit tightened to checklist targets:
 //       - title         50–60 chars
 //       - description  120–140 chars
@@ -47,6 +60,44 @@ const STOP_WORDS = new Set([
   'shall','should','some','that','the','this','to','was','we','were',
   'will','with','would','you','your','any','all'
 ]);
+
+// ============================================================
+// IMAGE PATH NORMALISATION
+// Decap saves media-library picks as relative paths
+// (e.g. "images/uploads/foo.jpg" — no leading slash). Those
+// resolve fine in the CMS preview but break on nested article
+// URLs like /insights/<slug>/ where the browser resolves them
+// against the slug dir instead of the site root. We force a
+// leading slash for on-page use, and a full https:// URL for
+// social/OG tags and sitemaps (LinkedIn/Facebook/iMessage
+// scrapers reject root-relative og:image values).
+// ============================================================
+
+// Root-absolute path for in-page <img src> and JSON data.
+// "images/uploads/x.jpg"  → "/images/uploads/x.jpg"
+// "/images/uploads/x.jpg" → unchanged
+// "https://cdn/x.jpg"     → unchanged (external / full URL)
+// "//cdn/x.jpg"           → unchanged (protocol-relative)
+function normalizeImagePath(p) {
+  if (!p) return '';
+  p = String(p).trim();
+  if (!p) return '';
+  if (/^https?:\/\//i.test(p)) return p; // already absolute URL
+  if (/^\/\//.test(p))         return p; // protocol-relative
+  if (/^(data|blob):/i.test(p)) return p; // inline data URIs
+  return p.startsWith('/') ? p : '/' + p;
+}
+
+// Full https:// URL for og:image, twitter:image, schema, sitemaps.
+function toAbsoluteUrl(p) {
+  if (!p) return '';
+  p = String(p).trim();
+  if (!p) return '';
+  if (/^https?:\/\//i.test(p)) return p;          // already full URL
+  if (/^\/\//.test(p))         return 'https:' + p; // protocol-relative
+  if (/^(data|blob):/i.test(p)) return p;          // can't absolutise
+  return SITE_URL + (p.startsWith('/') ? p : '/' + p);
+}
 
 // ============================================================
 // MARKDOWN → HTML CONVERTER
@@ -100,7 +151,14 @@ function markdownToHtml(md) {
   });
 
   // Images and links
-  html = html.replace(/!\[([^\]]*)\]\(([^\)]+)\)/g, '<img src="$2" alt="$1" title="$1" loading="lazy" style="max-width:100%;border-radius:8px;margin:16px 0;">');
+  // Inline body images: normalise the src so relative paths
+  // (Decap default) resolve from the site root on nested URLs.
+  html = html.replace(/!\[([^\]]*)\]\(([^\)]+)\)/g, function(_match, alt, src) {
+    var safeSrc = normalizeImagePath(src.trim());
+    var safeAlt = (alt || '').trim();
+    return '<img src="' + safeSrc + '" alt="' + safeAlt + '" title="' + safeAlt +
+           '" loading="lazy" style="max-width:100%;border-radius:8px;margin:16px 0;">';
+  });
   html = html.replace(/\[([^\]]+)\]\(([^\)]+)\)/g,  '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
   // Unordered lists
@@ -296,7 +354,8 @@ function normaliseDescription(text) {
 // <script type="application/ld+json"> tag.
 function generateAutoSchema(article) {
   const canonical = article.canonical || `${SITE_URL}/insights/${article.slug}`;
-  const articleImage = article.og_image || article.image || LOGO_URL;
+  // Schema image must be an absolute URL for Google rich results.
+  const articleImage = toAbsoluteUrl(article.og_image || article.image) || LOGO_URL;
   const datePublished = article.date;
   const dateModified  = article.updated_at || article.date;
 
@@ -460,6 +519,14 @@ function parseFrontmatter(text, filename) {
   // ── OG Image ──
   const ogm = fm.match(/^og_image:\s*"?([^"\n]+)"?\s*$/m);
   if (ogm) { result.og_image = ogm[1].trim().replace(/^"|"$/g, ''); }
+
+  // ── Normalise image paths (force leading slash) ──
+  // Runs before content render + auto-fill so the inline hero,
+  // JSON data, schema, and social tags all inherit the corrected
+  // root-absolute path. Fixes Decap saving "images/uploads/x.jpg"
+  // without a leading slash, which broke nested /insights/<slug>/.
+  result.image    = normalizeImagePath(result.image);
+  result.og_image = normalizeImagePath(result.og_image);
 
   // ── Author ──
   const autm = fm.match(/^author:\s*"?([^"\n]+)"?\s*$/m);
@@ -662,7 +729,9 @@ function generatePageHtml(template, article) {
   const canonical = article.canonical || `${SITE_URL}/insights/${article.slug}`;
   const metaTitle = article.meta_title || article.title;
   const desc      = normaliseDescription(article.description || article.excerpt || '');
-  const ogImage   = article.og_image || article.image || LOGO_URL;
+  // OG / Twitter image MUST be a full https:// URL — social
+  // scrapers (LinkedIn/Facebook/iMessage) reject root-relative.
+  const ogImage   = toAbsoluteUrl(article.og_image || article.image) || LOGO_URL;
   const published = article.date || '';
   const modified  = article.updated_at || article.date || '';
   const author    = article.author || 'Kevin Bovett';
@@ -730,7 +799,8 @@ function generateImageSitemap(articles) {
   }
 
   const urls = articlesWithImages.map(article => {
-    const imgSrc = article.og_image || article.image;
+    // Image sitemap entries must be absolute URLs.
+    const imgSrc = toAbsoluteUrl(article.og_image || article.image);
     const imgTitle = (article.title || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     return `  <url>
     <loc>${SITE_URL}/insights/${article.slug}</loc>
@@ -833,7 +903,8 @@ async function main() {
         console.log(`  author:     ${parsed.author}`);
         console.log(`  category:   ${parsed.category || '—'}`);
         console.log(`  read_time:  ${parsed.read_time} min`);
-        console.log(`  image:      ${parsed.image ? '✓' : '✗ NONE'}`);
+        console.log(`  image:      ${parsed.image ? '✓ ' + parsed.image : '✗ NONE'}`);
+        console.log(`  og_image:   ${parsed.og_image ? '✓ ' + parsed.og_image : '— (falls back to image)'}`);
         console.log(`  desc chars: ${(parsed.description || parsed.excerpt || '').length}`);
 
         // Auto-fill log (informational, not warnings)

@@ -9,8 +9,8 @@ description: Use dormant leads to fund AI visibility without new ad spend. Learn
   the self-funding playbook, the math, and the steps to start.
 focus_keyword: Database Reactivation
 canonical: self-funding-ai-presence
-image: /images/uploads/playbook.jpg
-og_image: /images/uploads/playbook.jpg
+image: images/uploads/playbook.jpg
+og_image: images/uploads/playbook.jpg
 schema: >-
   {
     "@graph": [

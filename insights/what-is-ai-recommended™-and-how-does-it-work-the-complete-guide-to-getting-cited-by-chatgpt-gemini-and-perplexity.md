@@ -9,7 +9,7 @@ description: See the real ROI of lead reactivation with benchmarks, case
   studies, and a simple database value formula. Learn what to expect before you
   spend more on ads.
 focus_keyword: ChatGPT, Gemini, and Perplexity
-canonical: lead-reactivation-roi
+canonical: ""
 image: /images/uploads/what-is-ai.jpg
 og_image: /images/uploads/what-is-ai.jpg
 schema: >-

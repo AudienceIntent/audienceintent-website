@@ -36,7 +36,7 @@ schema: >-
         "dateModified": "2026-06-07",
         "datePublished": "2026-06-07",
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/lead-reactivation-roi",
+          "@id": "https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity/",
           "@type": "WebPage"
         }
       },

@@ -1,5 +1,5 @@
 ---
-title: What Is AI Recommended™ and How Does It Work? The Complete Guide to
+title: What Is AI Recommended and How Does It Work? The Complete Guide to
   Getting Cited by ChatGPT, Gemini, and Perplexity
 meta_title: "Lead Reactivation ROI: Benchmarks, Data & Expectations"
 date: 2026-06-07T14:54:00.000-04:00

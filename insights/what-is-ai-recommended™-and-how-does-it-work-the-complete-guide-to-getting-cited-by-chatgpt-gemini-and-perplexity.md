@@ -9,7 +9,7 @@ description: See the real ROI of lead reactivation with benchmarks, case
   studies, and a simple database value formula. Learn what to expect before you
   spend more on ads.
 focus_keyword: ChatGPT, Gemini, and Perplexity
-canonical: ""
+canonical: https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity/
 image: /images/uploads/what-is-ai.jpg
 og_image: /images/uploads/what-is-ai.jpg
 schema: >-

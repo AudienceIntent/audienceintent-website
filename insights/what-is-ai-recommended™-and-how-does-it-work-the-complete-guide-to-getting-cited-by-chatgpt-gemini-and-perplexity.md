@@ -110,7 +110,7 @@ schema: >-
     ]
   }
 ---
-# What Is AI Recommended™ and How Does It Work? The Complete Guide to Getting Cited by ChatGPT, Gemini, and Perplexity
+# What Is AI Recommended and How Does It Work? The Complete Guide to Getting Cited by ChatGPT, Gemini, and Perplexity
 
 Your customers are asking AI assistants for recommendations right now. They're typing "best outdoor lighting company near me" or "who should I use for home security systems" or "what's the best supplement brand for energy" into ChatGPT, Gemini, Perplexity, Claude, and Grok. And those AI assistants are answering with specific business names.
 

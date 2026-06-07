@@ -1,5 +1,5 @@
 ---
-title: What Is AI Recommended™ and How Does It Work? The Complete Guide to
+title: What Is AI Recommended and How Does It Work? The Complete Guide to
   Getting Cited by ChatGPT, Gemini, and Perplexity
 meta_title: "AI Search Visibility in 2026: Why It Matters"
 date: 2026-06-07T15:12:00.000-04:00

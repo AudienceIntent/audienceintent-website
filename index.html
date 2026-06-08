@@ -494,6 +494,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:14px 32px;display:fl
 .ais-pitch{font-size:clamp(18px,2.5vw,26px);font-weight:300;color:rgba(248,247,246,.88);line-height:1.65;margin-bottom:20px;font-style:italic}
 .ais-pitch strong{color:#f8f7f6;font-weight:700;font-style:normal}
 .ais-pitch span{color:#4da8ff}
+/* Searchable Agency Partner badge */
+.ais-partner-badge{display:flex;justify-content:center;margin-top:32px}
+.ais-partner-badge img{width:160px;height:auto;display:block}
+@media(max-width:640px){.ais-partner-badge{margin-top:24px}.ais-partner-badge img{width:128px}}
 /* Big stat blocks */
 .ais-big-row{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:rgba(248,247,246,.06);border:.5px solid rgba(248,247,246,.08);border-radius:24px;overflow:hidden;margin-bottom:2px;position:relative;z-index:1}
 .ais-big-row-3{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(248,247,246,.06);border:.5px solid rgba(248,247,246,.08);border-radius:24px;overflow:hidden;margin-bottom:2px;position:relative;z-index:1}
@@ -1058,6 +1062,9 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
       <h2 style="font-size:clamp(36px,5vw,64px);font-weight:800;letter-spacing:-.04em;color:#f8f7f6;text-align:center;margin-bottom:14px;line-height:1.0">AI <span style="color:#4da8ff">Recommended™</span></h2>
       <h2 class="sec-h" style="text-align:center;margin-bottom:16px">When your customers ask AI —<br><span style="color:#4da8ff">are you in the answer?</span></h2>
       <p class="ais-pitch">That's what <strong>AI Recommended™</strong> ensures.<br>It's the difference between being <span>cited by ChatGPT, Claude, Perplexity, Google AI</span> — and being invisible to the customers who are ready to buy.</p>
+      <div class="ais-partner-badge">
+        <img src="/images/uploads/certified-agency-partner-badge-stone-partner-badge.png" alt="Searchable Certified Agency Partner" title="Searchable Certified Agency Partner" width="160" height="193" loading="lazy" decoding="async">
+      </div>
     </div>
 
     <!-- Row 1: Two big stats -->

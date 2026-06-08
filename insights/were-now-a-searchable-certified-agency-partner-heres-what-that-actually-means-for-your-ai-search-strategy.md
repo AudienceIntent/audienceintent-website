@@ -98,8 +98,6 @@ AudienceIntent has been named a **Searchable Certified Agency Partner** after co
 
 We're sharing this not to wave a badge around, but because the training itself changed how we work. This post breaks down what the program actually covers, how it sharpened the methodology behind AI Recommended™, and why it matters if you're evaluating whether an agency actually knows this space.
 
-![Searchable Certified Agency Partner Certificate](/images/uploads/certificate-kevin-bovett-jpg.jpg "Searchable Certified Agency Partner")
-
 *AI Search Accelerator Certification — issued to Kevin Bovett, June 8, 2026, signed by Chris Donnelly, CEO @ Searchable. Valid through June 8, 2027.*
 
 > **TL;DR:**

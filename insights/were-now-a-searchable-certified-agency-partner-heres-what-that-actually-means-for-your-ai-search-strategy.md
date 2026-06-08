@@ -98,22 +98,17 @@ AudienceIntent has been named a **Searchable Certified Agency Partner** after co
 
 We're sharing this not to wave a badge around, but because the training itself changed how we work. This post breaks down what the program actually covers, how it sharpened the methodology behind AI Recommended™, and why it matters if you're evaluating whether an agency actually knows this space.
 
-![AI Search Accelerator Certification issued to Kevin Bovett by Searchable, signed by CEO Chris Donnelly, June 2026](your-certificate-image-url-here)
+![Searchable Certified Agency Partner Certificate](/images/uploads/certificate-kevin-bovett-jpg.jpg "Searchable Certified Agency Partner")
 
 *AI Search Accelerator Certification — issued to Kevin Bovett, June 8, 2026, signed by Chris Donnelly, CEO @ Searchable. Valid through June 8, 2027.*
 
 > **TL;DR:**
-> 
-> -   AudienceIntent completed a six-week, live AI search training program and earned Certified Agency Partner status.
->     
-> -   The program covers AEO, GEO, schema markup, entity optimization, and content built for AI citation — the full stack.
->     
-> -   AI Recommended™ now runs on a formally trained, independently verified methodology.
->     
-> -   Only 12% of pages cited by ChatGPT rank in Google's top 10. AI search and SEO are separate ecosystems.
->     
-> -   Get a free AI Visibility Audit at [report.audienceintent.ai](https://report.audienceintent.ai) to see where your business stands right now.
->     
+>
+> * AudienceIntent completed a six-week, live AI search training program and earned Certified Agency Partner status.
+> * The program covers AEO, GEO, schema markup, entity optimization, and content built for AI citation — the full stack.
+> * AI Recommended™ now runs on a formally trained, independently verified methodology.
+> * Only 12% of pages cited by ChatGPT rank in Google's top 10. AI search and SEO are separate ecosystems.
+> * Get a free AI Visibility Audit at [report.audienceintent.ai](https://report.audienceintent.ai) to see where your business stands right now.
 
 ## Most "AI Search" Agencies Are Just Rebranded SEO Shops
 
@@ -139,14 +134,10 @@ Most businesses have no idea whether ChatGPT, Claude, Gemini, Perplexity, or Gro
 
 This is where the methodology gets specific. Phase two covers:
 
--   **Content optimization for AI citation** — how to structure and write content so AI engines extract it, not just index it
-    
--   **Schema markup implementation** — the structured data signals that help AI assistants understand what a business does, who it serves, and why it's authoritative
-    
--   **Entity optimization** — how AI systems build knowledge graphs, and how to make sure your business is correctly represented across them
-    
--   **Technical improvements** — crawlability, page structure, and the signals that determine whether AI assistants can actually read and use your content
-    
+* **Content optimization for AI citation** — how to structure and write content so AI engines extract it, not just index it
+* **Schema markup implementation** — the structured data signals that help AI assistants understand what a business does, who it serves, and why it's authoritative
+* **Entity optimization** — how AI systems build knowledge graphs, and how to make sure your business is correctly represented across them
+* **Technical improvements** — crawlability, page structure, and the signals that determine whether AI assistants can actually read and use your content
 
 ### Phase 3: Competitive Strategy and Scale (Weeks 5–6)
 

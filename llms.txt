@@ -164,7 +164,7 @@ The AI presence is now effectively paid for by revenue recovered from leads the 
 ### ActivatedYou — Database Reactivation
 
 - **Contact:** Hannah Ruiz, Head of Business Development
-- **Result:** 26% conversion rate, $17.62 revenue per click
+- **Result:** 26.19% conversion rate, $17.62 revenue per click
 - **Context:** AudienceIntent's campaign was run head-to-head against ActivatedYou's own internal marketing team's reactivation campaign. AudienceIntent ranked #1 on every metric: CTR, Average Order Value, and Revenue Per Message.
 - **Quote:** "We put AudienceIntent up against our own internal marketing team's reactivation campaign. AudienceIntent won on CTR, Average Order Value, and Revenue Per Message. It wasn't close."
 

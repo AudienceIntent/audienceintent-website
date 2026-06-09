@@ -82,22 +82,12 @@
   status = 301
   force  = true
 
-  [[redirects]]
-  from  = "/#recovery_token=*"
-  to    = "/admin/#recovery_token=:splat"
-  status = 301
-  force  = true
-
 # 404 — ghost page, return real 404 status
 [[redirects]]
   from   = "/blog/how-much-money-can-we-reactivate-for-you"
   to     = "/404"
   status = 404
   force  = true
-
-# ============================================================
-# EDGE FUNCTIONS
-# ============================================================
 
 # ============================================================
 # EDGE FUNCTIONS

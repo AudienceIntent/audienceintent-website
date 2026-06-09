@@ -47,6 +47,19 @@ const SITEMAP_FILE       = path.join(__dirname, 'sitemap.xml');
 const SITEMAP_IMG_FILE   = path.join(__dirname, 'sitemap-images.xml');
 const SITE_URL           = 'https://www.audienceintent.ai';
 const LOGO_URL           = SITE_URL + '/images/uploads/audienceintent-logo.png';
+// Fallback image used when an article still points at the retired
+// Framer CDN (framerusercontent.com). Lets the site cancel Framer
+// without every article showing a broken hero/social image.
+const PLACEHOLDER_IMAGE  = '/images/uploads/SocialShareJPEG.jpg';
+
+// Rewrites any framerusercontent.com image URL to the placeholder.
+// Returns other values untouched. Applied to article image +
+// og_image at parse time, so JSON data, schema, social tags, the
+// inline hero, and the image sitemap all inherit the clean path.
+function stripFramerImage(p) {
+  if (!p) return p;
+  return /framerusercontent\.com/i.test(String(p)) ? PLACEHOLDER_IMAGE : p;
+}
 const ORG_ID             = SITE_URL + '/#organization';
 
 // Today's date in ISO format for sitemap lastmod on static pages
@@ -154,7 +167,7 @@ function markdownToHtml(md) {
   // Inline body images: normalise the src so relative paths
   // (Decap default) resolve from the site root on nested URLs.
   html = html.replace(/!\[([^\]]*)\]\(([^\)]+)\)/g, function(_match, alt, src) {
-    var safeSrc = normalizeImagePath(src.trim());
+    var safeSrc = normalizeImagePath(stripFramerImage(src.trim()));
     var safeAlt = (alt || '').trim();
     return '<img src="' + safeSrc + '" alt="' + safeAlt + '" title="' + safeAlt +
            '" loading="lazy" style="max-width:100%;border-radius:8px;margin:16px 0;">';
@@ -519,6 +532,12 @@ function parseFrontmatter(text, filename) {
   // ── OG Image ──
   const ogm = fm.match(/^og_image:\s*"?([^"\n]+)"?\s*$/m);
   if (ogm) { result.og_image = ogm[1].trim().replace(/^"|"$/g, ''); }
+
+  // ── Strip retired Framer CDN URLs → placeholder ──
+  // Must run before normalizeImagePath so the result flows into
+  // the hero img, JSON data, schema, social tags, and sitemaps.
+  result.image    = stripFramerImage(result.image);
+  result.og_image = stripFramerImage(result.og_image);
 
   // ── Normalise image paths (force leading slash) ──
   // Runs before content render + auto-fill so the inline hero,

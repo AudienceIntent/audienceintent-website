@@ -843,6 +843,108 @@ function buildArticleBodyHtml(article) {
     + ctaBox;
 }
 
+// ============================================================
+// INSIGHTS INDEX — SERVER-SIDE GRID PRE-RENDER
+// The /insights grid is JS-injected at runtime (makeCard() in
+// index.html), so crawlers without JS saw only "Loading
+// articles…". This pre-renders the first page of article cards
+// into #grid at build time — the SAME markup makeCard()
+// produces — so every article title and link is crawlable.
+// The client script still runs for search/filter/pagination
+// and harmlessly re-renders identical cards for JS visitors.
+// ============================================================
+const INDEX_FILE       = path.join(INSIGHTS_DIR, 'index.html');
+const INDEX_PER_PAGE   = 9;   // must match PER in index.html
+const INDEX_EAGER_MAX  = 4;   // featured + first 3 (matches index.html)
+
+// Short month date — mirrors fmtDate() in index.html.
+function fmtDateShort(d) {
+  if (!d) return '';
+  const p = String(d).split('-');
+  const m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const mi = parseInt(p[1], 10) - 1;
+  if (isNaN(mi) || mi < 0 || mi > 11) return d;
+  return m[mi] + ' ' + parseInt(p[2], 10) + ', ' + p[0];
+}
+
+// Category accent class — mirrors catColor() in index.html.
+function catColor(category) {
+  if (!category) return '';
+  const c = category.toLowerCase();
+  if (c.indexOf('ai') > -1) return ' card-cat-b';
+  if (c.indexOf('company') > -1 || c.indexOf('news') > -1) return ' card-cat-w';
+  return '';
+}
+
+// Build one card — byte-aligned with makeCard() in index.html.
+function buildIndexCard(a, isFeatured, eager) {
+  const imgSrc   = normalizeImagePath(stripFramerImage(a.og_image || a.image || ''));
+  const readTime = a.read_time ? a.read_time + ' min read' : '';
+  const titleEsc = escAttr(a.title);
+  const loadAttrs = eager
+    ? 'loading="eager" fetchpriority="high" decoding="async"'
+    : 'loading="lazy" decoding="async"';
+
+  if (isFeatured && imgSrc) {
+    return '<a class="card-featured" href="/insights/' + a.slug + '" aria-label="' + titleEsc + '">'
+      + '<img class="card-feat-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + ' onerror="aiRetryImg(this)">'
+      + '<div class="card-feat-body">'
+      + '<div class="card-feat-cat">' + escHtml(a.category || '') + '</div>'
+      + '<h2 class="card-feat-title">' + escHtml(a.title || '') + '</h2>'
+      + '<div class="card-feat-excerpt">' + escHtml(a.excerpt || '') + '</div>'
+      + '<div class="card-feat-foot">'
+      + '<span class="card-feat-meta">' + escHtml(fmtDateShort(a.date)) + (readTime ? ' &middot; ' + escHtml(readTime) : '') + ' &middot; ' + escHtml(a.author || 'Kevin Bovett') + '</span>'
+      + '<span class="card-feat-cta">Read article &rarr;</span>'
+      + '</div></div></a>';
+  }
+
+  const imgHtml = imgSrc
+    ? '<div class="card-img-wrap"><img class="card-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + ' onerror="aiRetryImg(this)">' + (readTime ? '<span class="card-read-time">' + escHtml(readTime) + '</span>' : '') + '</div>'
+    : '<div class="card-img-wrap" style="height:120px"><div class="card-no-img" aria-hidden="true">' + escHtml((a.category || 'AI').substring(0,2).toUpperCase()) + '</div></div>';
+
+  const exc = (a.excerpt || '');
+  return '<a class="card" href="/insights/' + a.slug + '" aria-label="' + titleEsc + '">'
+    + imgHtml
+    + '<div class="card-body">'
+    + '<div class="card-cat' + catColor(a.category) + '">' + escHtml(a.category || '') + '</div>'
+    + '<h2 class="card-title">' + escHtml(a.title || '') + '</h2>'
+    + '<div class="card-excerpt">' + escHtml(exc.substring(0, 140)) + (exc.length > 140 ? '&hellip;' : '') + '</div>'
+    + '<div class="card-foot">'
+    + '<span class="card-meta">' + escHtml(fmtDateShort(a.date)) + (a.author ? ' &middot; ' + escHtml(a.author.split(' ')[0]) : '') + '</span>'
+    + '<span class="card-arrow" aria-hidden="true">&rarr;</span>'
+    + '</div></div></a>';
+}
+
+// Build the first-page grid markup (newest first, default "All").
+function buildIndexGridHtml(articles) {
+  const page = articles.slice(0, INDEX_PER_PAGE);
+  return page.map((a, idx) => {
+    const isFeatured = idx === 0;            // page 1, All filter, no query
+    const eager      = idx < INDEX_EAGER_MAX;
+    return buildIndexCard(a, isFeatured, eager);
+  }).join('');
+}
+
+// Read /insights/index.html, inject the pre-rendered grid into
+// #grid (replacing the "Loading articles…" placeholder), write back.
+function injectInsightsIndex(articles) {
+  if (!fs.existsSync(INDEX_FILE)) {
+    console.log('  WARNING: insights/index.html not found — skipped index grid pre-render');
+    return;
+  }
+  let html = fs.readFileSync(INDEX_FILE, 'utf8');
+  const grid = buildIndexGridHtml(articles);
+
+  const re = /(<div class="grid" id="grid">)[\s\S]*?(<\/div>\s*<div class="no-results")/;
+  if (!re.test(html)) {
+    console.log('  WARNING: #grid container not matched in index.html — skipped (markup changed?)');
+    return;
+  }
+  html = html.replace(re, `$1\n${grid}\n$2`);
+  fs.writeFileSync(INDEX_FILE, html);
+  console.log(`SUCCESS: insights/index.html grid pre-rendered — ${Math.min(articles.length, INDEX_PER_PAGE)} cards baked in (crawlable)`);
+}
+
 function generatePageHtml(template, article) {
   const canonical = article.canonical || `${SITE_URL}/insights/${article.slug}`;
   const metaTitle = article.meta_title || article.title;
@@ -1119,6 +1221,9 @@ async function main() {
     } else {
       console.log('  WARNING: article.html template not found — skipped per-article HTML generation');
     }
+
+    // Pre-render the /insights index grid (crawlable article cards)
+    injectInsightsIndex(cleanArticles);
 
     // Summary
     console.log('\n' + '─'.repeat(56));

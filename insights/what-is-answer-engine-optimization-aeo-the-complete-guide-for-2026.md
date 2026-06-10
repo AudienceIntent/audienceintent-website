@@ -159,7 +159,7 @@ When a user asks a current or specific question, AI platforms like Perplexity an
 
 AEO is not a replacement for SEO — it's an evolution of it. Most of what makes great SEO also makes great AEO. But the goals and success metrics are distinct, and conflating them leads to a strategy that underserves both.
 
-|  | **SEO** | **AEO** |
+| **-** | **SEO** | **AEO** |
 | --- | --- | --- |
 | **Primary goal** | Drive clicks from search results | Get mentioned in AI-generated answers |
 | **Success metrics** | Rankings, CTR, organic traffic | Mentions, citations, share of voice |

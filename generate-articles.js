@@ -744,6 +744,105 @@ function escAttr(s) {
     .replace(/>/g, '&gt;');
 }
 
+// HTML-escape a value destined for visible text (not an attribute).
+function escHtml(s) {
+  return String(s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+// Format an ISO date (YYYY-MM-DD) as "Month D, YYYY".
+// Mirrors formatDate() in the client template so the static
+// and client-rendered output read identically.
+function formatDateLong(d) {
+  if (!d) return '';
+  const p = String(d).split('-');
+  const months = ['January','February','March','April','May','June',
+                  'July','August','September','October','November','December'];
+  const mi = parseInt(p[1], 10) - 1;
+  if (isNaN(mi) || mi < 0 || mi > 11) return d;
+  return months[mi] + ' ' + p[2] + ', ' + p[0];
+}
+
+// ============================================================
+// SERVER-SIDE ARTICLE BODY RENDERER
+// Produces the SAME markup the client script writes into
+// #article-wrap, but at build time, so the article body is
+// present in the static HTML on disk. AI crawlers (GPTBot,
+// ClaudeBot, PerplexityBot, etc.) and any non-JS client read
+// the full article from this output — no JS execution needed.
+// Kept byte-for-byte aligned with render() in article.html so
+// users and crawlers see identical content.
+// ============================================================
+function buildArticleBodyHtml(article) {
+  const cat       = article.category || '';
+  const title     = article.title || '';
+  const author    = article.author || 'Kevin Bovett';
+  const dateLong  = formatDateLong(article.date);
+  const updLong   = formatDateLong(article.updated_at);
+  const hasUpdate = article.updated_at && article.updated_at !== article.date;
+
+  // Hero image (eager-loaded, high priority — matches client)
+  const imgAlt   = escAttr(article.image_alt || article.title || '');
+  const imgTitle = escAttr(article.title || '');
+  const imgSrc   = normalizeImagePath(stripFramerImage(article.image));
+  const imgHTML  = article.image
+    ? '<div class="art-img-wrap"><img class="art-img" src="' + escAttr(imgSrc) +
+      '" alt="' + imgAlt + '" title="' + imgTitle +
+      '" loading="eager" decoding="async" fetchpriority="high"></div>'
+    : '';
+
+  const updatedLine = hasUpdate
+    ? '<p class="art-updated">Updated: ' + escHtml(updLong) + '</p>'
+    : '';
+
+  const authorBlock = '<div class="art-author-block">'
+    + '<div class="art-author-avatar" aria-hidden="true">KB</div>'
+    + '<div class="art-author-info">'
+    + '<span class="art-author-name">Written by ' + escHtml(author) + '</span>'
+    + '<span class="art-author-role">Founder &amp; CEO, AudienceIntent &nbsp;&middot;&nbsp; Published '
+    + escHtml(dateLong)
+    + (hasUpdate ? ' &nbsp;&middot;&nbsp; Updated ' + escHtml(updLong) : '')
+    + '</span>'
+    + '</div></div>';
+
+  const breadcrumb = '<nav class="breadcrumb" aria-label="Breadcrumb">'
+    + '<a href="https://www.audienceintent.ai">AudienceIntent</a>'
+    + '<span class="breadcrumb-sep" aria-hidden="true">&rsaquo;</span>'
+    + '<a href="/insights">Insights</a>'
+    + '<span class="breadcrumb-sep" aria-hidden="true">&rsaquo;</span>'
+    + '<span>' + escHtml(cat || 'Article') + '</span>'
+    + '</nav>';
+
+  const metaLine = '<div class="art-meta">'
+    + '<span>' + escHtml(dateLong) + '</span>'
+    + '<span class="art-meta-dot" aria-hidden="true">&middot;</span>'
+    + '<span>' + escHtml(author) + '</span>'
+    + '<span class="art-meta-dot" aria-hidden="true">&middot;</span>'
+    + '<span>' + (article.read_time ? escHtml(article.read_time + ' min read') : '') + '</span>'
+    + '</div>';
+
+  const ctaBox = '<div class="cta-box">'
+    + '<h3>Recover What&#39;s Yours. Own What&#39;s Next.</h3>'
+    + '<p>Run the lost revenue calculator in 2 minutes, or find out if your business is invisible to AI search right now.</p>'
+    + '<div class="cta-box-btns">'
+    + '<a href="https://lostrevenue.audienceintent.ai" target="_blank" rel="noopener" class="cta-btn">Calculate My Lost Revenue &rarr;</a>'
+    + '<a href="https://report.audienceintent.ai" target="_blank" rel="noopener" class="cta-btn cta-btn-sec" style="background:rgba(248,247,246,.1);color:#f8f7f6;border:1px solid rgba(248,247,246,.2)">Is My Business Invisible to AI?</a>'
+    + '</div></div>';
+
+  return breadcrumb
+    + '<a class="back" href="/insights">&larr; Back to Insights</a>'
+    + '<div class="art-cat">' + escHtml(cat) + '</div>'
+    + '<h1 class="art-title">' + escHtml(title) + '</h1>'
+    + updatedLine
+    + metaLine
+    + authorBlock
+    + imgHTML
+    + '<div class="art-body">' + (article.content || '') + '</div>'
+    + ctaBox;
+}
+
 function generatePageHtml(template, article) {
   const canonical = article.canonical || `${SITE_URL}/insights/${article.slug}`;
   const metaTitle = article.meta_title || article.title;
@@ -798,6 +897,18 @@ function generatePageHtml(template, article) {
   html = html.replace(
     /(<script type="application\/ld\+json" id="page-schema">)[\s\S]*?(<\/script>)/,
     `$1\n${schema}\n$2`
+  );
+
+  // ── Inject the pre-rendered article body into the static page ──
+  // Replaces the entire #article-wrap inner content (build marker +
+  // "Loading article…" placeholder) with the fully rendered article.
+  // This is what makes the content visible to AI crawlers and any
+  // non-JS client. The client script in the template still runs and
+  // harmlessly re-renders identical markup for JS visitors.
+  const bodyHtml = buildArticleBodyHtml(article);
+  html = html.replace(
+    /(<main class="article-wrap" id="article-wrap">)[\s\S]*?(<\/main>)/,
+    `$1\n${bodyHtml}\n$2`
   );
 
   return html;

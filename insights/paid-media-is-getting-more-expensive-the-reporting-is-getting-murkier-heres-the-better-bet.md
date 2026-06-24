@@ -32,7 +32,7 @@ schema: >-
 
 # Paid Media Is Getting More Expensive. The Reporting Is Getting Murkier. Here's the Better Bet.
 
-## TL;DR: The problem is not just higher ad costs. It is lower accountability.
+## The problem is not just higher ad costs. It is lower accountability.
 
 If you have been feeling like your paid media budget is working harder for smaller returns, you are not imagining it. And the problem runs deeper than platform pricing.
 

@@ -940,7 +940,7 @@ function injectInsightsIndex(articles) {
     console.log('  WARNING: #grid container not matched in index.html — skipped (markup changed?)');
     return;
   }
-  html = html.replace(re, `$1\n${grid}\n$2`);
+  html = html.replace(re, (_m, open, tail) => open + '\n' + grid + '\n' + tail);
   fs.writeFileSync(INDEX_FILE, html);
   console.log(`SUCCESS: insights/index.html grid pre-rendered — ${Math.min(articles.length, INDEX_PER_PAGE)} cards baked in (crawlable)`);
 }
@@ -969,7 +969,10 @@ function generatePageHtml(template, article) {
   // attribute order (handles both name="" and property="" tags).
   const setById = (id, value) => {
     const re = new RegExp(`(<meta id="${id}"[^>]*?\\bcontent=")[^"]*(")`);
-    html = html.replace(re, `$1${escAttr(value)}$2`);
+    const safe = escAttr(value);
+    // Function replacement so any "$" in the value is inserted literally
+    // and never read as a $1/$2 replacement pattern.
+    html = html.replace(re, (_m, pre, post) => pre + safe + post);
   };
 
   setById('page-desc', desc);
@@ -986,9 +989,10 @@ function generatePageHtml(template, article) {
   setById('tw-image', ogImage);
 
   // canonical <link id="page-canonical">
+  const safeCanonical = escAttr(canonical);
   html = html.replace(
     /(<link id="page-canonical" rel="canonical" href=")[^"]*(")/,
-    `$1${escAttr(canonical)}$2`
+    (_m, pre, post) => pre + safeCanonical + post
   );
 
   // Bake the Article + BreadcrumbList JSON-LD into the static
@@ -998,7 +1002,7 @@ function generatePageHtml(template, article) {
     : generateAutoSchema(article);
   html = html.replace(
     /(<script type="application\/ld\+json" id="page-schema">)[\s\S]*?(<\/script>)/,
-    `$1\n${schema}\n$2`
+    (_m, open, close) => open + '\n' + schema + '\n' + close
   );
 
   // ── Inject the pre-rendered article body into the static page ──
@@ -1008,10 +1012,21 @@ function generatePageHtml(template, article) {
   // non-JS client. The client script in the template still runs and
   // harmlessly re-renders identical markup for JS visitors.
   const bodyHtml = buildArticleBodyHtml(article);
-  html = html.replace(
-    /(<main class="article-wrap" id="article-wrap">)[\s\S]*?(<\/main>)/,
-    `$1\n${bodyHtml}\n$2`
-  );
+  // CRITICAL: insert bodyHtml via a replacement FUNCTION, not a template
+  // string. String.prototype.replace() treats "$1", "$2", "$&" etc. in the
+  // replacement as special patterns. Article content containing dollar
+  // amounts like "$20,000" or "$3,000" would otherwise be corrupted —
+  // "$2" read as capture-group-2, mangling the text and breaking the
+  // <main> structure so the tail spilled below the footer. A function
+  // replacement inserts the body verbatim, $ and all. The regex is also
+  // greedy to the template's single real </main>, so a stray </main>
+  // inside content can never close the wrapper early.
+  const wrapRe = /(<main class="article-wrap" id="article-wrap">)[\s\S]*<\/main>/;
+  if (wrapRe.test(html)) {
+    html = html.replace(wrapRe, function (_match, open) {
+      return open + '\n' + bodyHtml + '\n</main>';
+    });
+  }
 
   return html;
 }

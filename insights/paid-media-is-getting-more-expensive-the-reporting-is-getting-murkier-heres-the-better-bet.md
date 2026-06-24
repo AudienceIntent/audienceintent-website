@@ -123,7 +123,7 @@ That is the core logic of Database Reactivation: reach back out to dormant leads
 
 **Paid media acquisition vs. Database Reactivation: the core tradeoff**
 
-|  | Paid Media Acquisition | Database Reactivation |
+| . | Paid Media Acquisition | Database Reactivation |
 | --- | --- | --- |
 | Lead source | Cold, new audience | Warm, previously opted-in |
 | Cost model | Pay per click or impression | Performance only, revenue share |

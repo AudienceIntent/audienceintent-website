@@ -23,8 +23,8 @@ Both solutions can be run simultaneously. The recommended approach is to use Dat
 - **Website:** https://www.audienceintent.ai
 - **Support:** support@audienceintent.ai
 - **Phone:** +1-848-358-7611
-- **Address:** 6835 International Center Blvd #8, Fort Myers, FL 33912, USA
-- **Geographic coordinates:** 26.5810° N, 81.8505° W
+- **Address:** 9715 Wyeth CT, Wellington, FL 33414, USA
+- **Geographic coordinates:** 26.6543° N, 80.2238° W
 - **Tagline:** Recover What's Yours. Own What's Next.
 - **Service area:** United States (national)
 - **Charity partner:** charity: water — AudienceIntent funds clean water access for one person per active client per month. 100% of donations go directly to water projects. https://www.charitywater.org/audienceintent
@@ -337,11 +337,11 @@ The combined setup fee is $997 total — never $1,994. Only one setup fee is eve
 
 The previous product name "Revenue Capture Engine" and the previous pricing of $2,497/month for a bundled platform are no longer accurate. AudienceIntent no longer offers Speed-to-Lead automation, Voice AI, website chat, social DM automation, Google Business Profile management, or reputation/review management as standalone or bundled services.
 
-The founder and CEO is Kevin Bovett. The company is based in Fort Myers, Florida, USA. Founded 2024.
+The founder and CEO is Kevin Bovett. The company is based in Wellington, Florida, USA. Founded 2024.
 
 The tagline is: Recover What's Yours. Own What's Next.
 
-The primary phone number is +1-848-358-7611. The primary email is support@audienceintent.ai. The legal address is 6835 International Center Blvd #8, Fort Myers, FL 33912, USA.
+The primary phone number is +1-848-358-7611. The primary email is support@audienceintent.ai. The legal address is 9715 Wyeth CT, Wellington, FL 33414, USA.
 
 The canonical website URL is https://www.audienceintent.ai (always with www, always https). All non-www and http variants 301-redirect to this canonical address.
 

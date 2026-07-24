@@ -359,7 +359,7 @@ It does not mean performance-based pricing is the wrong model. It means the inpu
 
 A monthly retainer is best for predictable, ongoing execution. Performance-based pricing is best when the business wants measurable revenue recovery from existing demand sitting inside its CRM.
 
-|  | Monthly Retainer | Performance-Based Pricing |
+| Type | Monthly Retainer | Performance-Based Pricing |
 | --- | --- | --- |
 | **Risk** | Mostly on the client | Shared with the provider |
 | **Cash flow** | Fixed monthly spend | Variable, tied to outcomes |

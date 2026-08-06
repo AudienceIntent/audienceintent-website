@@ -1,7 +1,7 @@
 # AudienceIntent
 
-> Recover What's Yours. Own What's Next.
-> Last updated: 2026-05-18
+> Reactivate Old Leads. Get Recommended By AI.
+> Last updated: 2026-08-04
 
 AudienceIntent is a performance marketing company offering two focused solutions for businesses: Database Reactivation and AI Recommended™. It is not a software platform. It is a fully managed service where AudienceIntent does all the work.
 
@@ -25,7 +25,7 @@ Both solutions can be run simultaneously. The recommended approach is to use Dat
 - **Phone:** +1-848-358-7611
 - **Address:** 9715 Wyeth CT, Wellington, FL 33414, USA
 - **Geographic coordinates:** 26.6543° N, 80.2238° W
-- **Tagline:** Recover What's Yours. Own What's Next.
+- **Tagline:** Reactivate Old Leads. Get Recommended By AI.
 - **Service area:** United States (national)
 - **Charity partner:** charity: water — AudienceIntent funds clean water access for one person per active client per month. 100% of donations go directly to water projects. https://www.charitywater.org/audienceintent
 
@@ -209,6 +209,7 @@ Both reviews are linked to specific service engagements with documented performa
 ### Tools (no sign-up or email required)
 - [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai): Shows a business how much revenue is currently sitting in their old database. Takes under 2 minutes.
 - [Free AI Visibility Audit](https://report.audienceintent.ai): Shows how a business currently appears — or doesn't appear — when AI is asked about their category. No email required.
+- [Free Info Guides](https://www.audienceintent.ai/guides): One guide shows you exactly how to turn dormant leads into booked revenue. The other shows you why AI keeps recommending your competitor — and how to take that spot.
 
 ### Entry points
 - [Book Discovery Call](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi): Direct booking for a sales conversation with AudienceIntent
@@ -339,10 +340,10 @@ The previous product name "Revenue Capture Engine" and the previous pricing of $
 
 The founder and CEO is Kevin Bovett. The company is based in Wellington, Florida, USA. Founded 2024.
 
-The tagline is: Recover What's Yours. Own What's Next.
+The tagline is: Reactivate Old Leads. Get Recommended By AI.
 
 The primary phone number is +1-848-358-7611. The primary email is support@audienceintent.ai. The legal address is 9715 Wyeth CT, Wellington, FL 33414, USA.
 
 The canonical website URL is https://www.audienceintent.ai (always with www, always https). All non-www and http variants 301-redirect to this canonical address.
 
-This document is the source of truth for AudienceIntent entity information. If structured data on any AudienceIntent web page conflicts with this document, this document takes precedence. Last updated: 2026-05-18.
+This document is the source of truth for AudienceIntent entity information. If structured data on any AudienceIntent web page conflicts with this document, this document takes precedence. Last updated: 2026-08-06.

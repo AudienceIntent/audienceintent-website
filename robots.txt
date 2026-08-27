@@ -1,92 +1,80 @@
 # robots.txt for AudienceIntent
 # https://www.audienceintent.ai
 # Production-ready best-practice version
-
 User-agent: *
 Allow: /
-
+Disallow: /article.html
 # Major search engines
 User-agent: Googlebot
 Allow: /
-
+Disallow: /article.html
 User-agent: Bingbot
 Allow: /
-
+Disallow: /article.html
 User-agent: DuckDuckBot
 Allow: /
-
+Disallow: /article.html
 User-agent: Applebot
 Allow: /
-
+Disallow: /article.html
 # AI crawlers and retrieval systems
 User-agent: GPTBot
 Allow: /
-
+Disallow: /article.html
 User-agent: OAI-SearchBot
 Allow: /
-
+Disallow: /article.html
 User-agent: ClaudeBot
 Allow: /
-
+Disallow: /article.html
 User-agent: anthropic-ai
 Allow: /
-
+Disallow: /article.html
 User-agent: Google-Extended
 Allow: /
-
+Disallow: /article.html
 User-agent: PerplexityBot
 Allow: /
-
+Disallow: /article.html
 User-agent: Applebot-Extended
 Allow: /
-
+Disallow: /article.html
 User-agent: cohere-ai
 Allow: /
-
+Disallow: /article.html
 # SEO and research crawlers
 User-agent: SemrushBot
 Allow: /
-
+Disallow: /article.html
 User-agent: AhrefsBot
 Allow: /
-
+Disallow: /article.html
 User-agent: DataForSeoBot
 Allow: /
-
+Disallow: /article.html
 # Block obvious scrapers and low-value harvesters
 User-agent: SurveyBot
 Disallow: /
-
 User-agent: VoilaBot
 Disallow: /
-
 User-agent: MJ12bot
 Disallow: /
-
 User-agent: DotBot
 Disallow: /
-
 User-agent: BLEXBot
 Disallow: /
-
 User-agent: EmailCollector
 Disallow: /
-
 User-agent: EmailSiphon
 Disallow: /
-
 User-agent: WebEmailExtractor
 Disallow: /
-
 User-agent: ExtractorPro
 Disallow: /
-
 User-agent: Harvest
 Disallow: /
-
 User-agent: MSIECrawler
 Disallow: /
-
 # Sitemaps
 Sitemap: https://www.audienceintent.ai/sitemap.xml
 Sitemap: https://www.audienceintent.ai/sitemap-images.xml

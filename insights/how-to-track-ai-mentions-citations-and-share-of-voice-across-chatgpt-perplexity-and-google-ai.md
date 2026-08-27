@@ -8,7 +8,7 @@ author: AudienceIntent - Kevin Bovett
 description: Learn how to measure AI mentions, citations, and share of voice
   across ChatGPT, Perplexity, and Google AI with a repeatable weekly system.
 focus_keyword: AI Mentions
-canonical: https://audienceintent.ai/insights/track-ai-mentions-citations-share-of-voice
+canonical: ""
 image: /images/uploads/ai-mentions.jpg
 og_image: /images/uploads/ai-mentions.jpg
 schema: >-

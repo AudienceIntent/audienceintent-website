@@ -9,7 +9,7 @@ description: A Miami roofing case study showing why local customers ask AI who
   to hire, what that means for revenue, and how to get visible before
   competitors do.
 focus_keyword: Asks AI
-canonical: https://audienceintent.ai/insights/miami-roofing-ai-visibility
+canonical: ""
 image: /images/uploads/homeowner.jpg
 og_image: /images/uploads/homeowner.jpg
 schema: >-

@@ -2,9 +2,26 @@
 // generate-articles.js — AudienceIntent
 // Netlify build script
 // Generates: articles.json, articles-data.js, sitemap.xml, sitemap-images.xml
-// Updated: June 2026
+// Updated: August 2026
 //
 // CHANGES THIS REVISION:
+//   • CANONICAL HOST FIX (server-rendered links always resolve
+//     to www, matching the client-side fix already applied to
+//     index.html's makeCard()):
+//       - buildIndexCard()      → article card hrefs on the
+//         pre-rendered /insights grid now use SITE_URL instead
+//         of a relative "/insights/<slug>" path. This is the
+//         server-side twin of index.html's client makeCard();
+//         injectInsightsIndex() overwrites the static #grid
+//         markup with this function's output on every build, so
+//         fixing only the client-side script left the crawler-
+//         visible pre-rendered cards still relative.
+//       - buildArticleBodyHtml() → breadcrumb "Insights" link and
+//         "Back to Insights" link now use SITE_URL too, for the
+//         same reason: consistency with every other link on the
+//         site now being absolute to the canonical www host.
+//
+// PRIOR REVISION:
 //   • IMAGE PATH FIX (images always resolve):
 //       - normalizeImagePath()  → forces leading slash on
 //         relative paths so root-relative <img>/cards/JSON work
@@ -807,10 +824,15 @@ function buildArticleBodyHtml(article) {
     + '</span>'
     + '</div></div>';
 
+  // Breadcrumb + back link use the absolute SITE_URL for the
+  // Insights link, matching every other canonical/site link on
+  // the page (nav, footer, OG tags). Kept consistent with the
+  // index-card href fix below rather than relying solely on the
+  // ai-tracker edge-function redirect to catch a relative miss.
   const breadcrumb = '<nav class="breadcrumb" aria-label="Breadcrumb">'
-    + '<a href="https://www.audienceintent.ai">AudienceIntent</a>'
+    + '<a href="' + SITE_URL + '">AudienceIntent</a>'
     + '<span class="breadcrumb-sep" aria-hidden="true">&rsaquo;</span>'
-    + '<a href="/insights">Insights</a>'
+    + '<a href="' + SITE_URL + '/insights">Insights</a>'
     + '<span class="breadcrumb-sep" aria-hidden="true">&rsaquo;</span>'
     + '<span>' + escHtml(cat || 'Article') + '</span>'
     + '</nav>';
@@ -832,7 +854,7 @@ function buildArticleBodyHtml(article) {
     + '</div></div>';
 
   return breadcrumb
-    + '<a class="back" href="/insights">&larr; Back to Insights</a>'
+    + '<a class="back" href="' + SITE_URL + '/insights">&larr; Back to Insights</a>'
     + '<div class="art-cat">' + escHtml(cat) + '</div>'
     + '<h1 class="art-title">' + escHtml(title) + '</h1>'
     + updatedLine
@@ -876,17 +898,24 @@ function catColor(category) {
   return '';
 }
 
-// Build one card — byte-aligned with makeCard() in index.html.
+// Build one card — byte-aligned with makeCard() in index.html,
+// including that function's SITE_ORIGIN fix: hrefs are absolute
+// to SITE_URL rather than relative "/insights/<slug>". This is
+// the server-side twin of the client makeCard(); injectInsightsIndex()
+// overwrites the static #grid markup with this function's output
+// on every build, so the pre-rendered, crawler-visible cards need
+// the same absolute-host fix as the client-rendered ones.
 function buildIndexCard(a, isFeatured, eager) {
-  const imgSrc   = normalizeImagePath(stripFramerImage(a.og_image || a.image || ''));
-  const readTime = a.read_time ? a.read_time + ' min read' : '';
-  const titleEsc = escAttr(a.title);
+  const imgSrc     = normalizeImagePath(stripFramerImage(a.og_image || a.image || ''));
+  const readTime   = a.read_time ? a.read_time + ' min read' : '';
+  const titleEsc   = escAttr(a.title);
+  const articleUrl = SITE_URL + '/insights/' + a.slug;
   const loadAttrs = eager
     ? 'loading="eager" fetchpriority="high" decoding="async"'
     : 'loading="lazy" decoding="async"';
 
   if (isFeatured && imgSrc) {
-    return '<a class="card-featured" href="/insights/' + a.slug + '" aria-label="' + titleEsc + '">'
+    return '<a class="card-featured" href="' + articleUrl + '" aria-label="' + titleEsc + '">'
       + '<img class="card-feat-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + ' onerror="aiRetryImg(this)">'
       + '<div class="card-feat-body">'
       + '<div class="card-feat-cat">' + escHtml(a.category || '') + '</div>'
@@ -903,7 +932,7 @@ function buildIndexCard(a, isFeatured, eager) {
     : '<div class="card-img-wrap" style="height:120px"><div class="card-no-img" aria-hidden="true">' + escHtml((a.category || 'AI').substring(0,2).toUpperCase()) + '</div></div>';
 
   const exc = (a.excerpt || '');
-  return '<a class="card" href="/insights/' + a.slug + '" aria-label="' + titleEsc + '">'
+  return '<a class="card" href="' + articleUrl + '" aria-label="' + titleEsc + '">'
     + imgHtml
     + '<div class="card-body">'
     + '<div class="card-cat' + catColor(a.category) + '">' + escHtml(a.category || '') + '</div>'

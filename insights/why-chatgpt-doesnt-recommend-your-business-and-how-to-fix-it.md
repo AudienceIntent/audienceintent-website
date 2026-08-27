@@ -7,7 +7,7 @@ author: AudienceIntent - Kevin Bovett
 description: Learn why ChatGPT skips your business, what causes AI mention gaps,
   and the exact steps to fix AI visibility. Start with the free audit.
 focus_keyword: ChatGPT
-canonical: chatgpt-business-recommendation
+canonical: ""
 image: /images/uploads/chatgpt-article.jpg
 og_image: /images/uploads/chatgpt-article.jpg
 schema: >-

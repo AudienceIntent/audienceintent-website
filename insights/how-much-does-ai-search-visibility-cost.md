@@ -79,8 +79,6 @@ schema: >-
     "@context": "https://schema.org"
   }
 ---
-# How Much Does AI Search Visibility Cost — and Is AI Recommended™ Worth It?
-
 When a customer asks ChatGPT or Perplexity to recommend a plumber, a financial advisor, or a lighting company, one business gets named. The rest get nothing. That reality is driving a wave of business owners to ask a very practical question: what does it actually cost to show up in those answers?
 
 The short answer is: it depends on who you hire, what they actually do, and whether they lock you into a contract before you see a single result.

@@ -8,7 +8,7 @@ author: AudienceIntent - Kevin Bovett
 description: AudienceIntent completed the Searchable AI Search Accelerator.
   Here's what we learned, how it sharpens AI Recommended™, and why it matters.
 focus_keyword: Searchable Certified Agency Partner
-canonical: searchable-certified-agency-partner
+canonical: ""
 image: /images/uploads/searchable-partner.png
 og_image: /images/uploads/searchable-partner.png
 schema: >-

@@ -3,7 +3,7 @@
 # https://www.audienceintent.ai
 # Optimized for: SEO, AEO, LLM crawlers, Core Web Vitals,
 # Security audits, Lighthouse, and PageSpeed Insights
-# Last updated: May 2026
+# Last updated: August 2026
 # ============================================================
 
 [build]
@@ -65,6 +65,13 @@
 # serves the tagless JS template instead — which breaks both the page
 # and its social share preview. Leaving routing to Netlify's default
 # static-file resolution is what makes per-article OG tags work.
+#
+# article.html itself is still directly reachable at its own literal
+# URL (it's the template file, not routed to), and JS-less crawlers
+# see its generic fallback meta/canonical rather than a real article.
+# It's kept out of the index via robots.txt + the noindex header rule
+# below rather than removed, since generate-articles.js still needs
+# it as the per-article template at build time.
 
 # ============================================================
 # NETLIFY IDENTITY
@@ -168,6 +175,24 @@
 
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+# ============================================================
+# ARTICLE.HTML TEMPLATE — NOINDEX
+# This is the client-rendered per-article template, kept in the
+# publish directory so generate-articles.js can use it at build
+# time. Real article pages are the physical /insights/<slug>/
+# files Netlify serves directly (see ARTICLE ROUTING note above)
+# — this literal URL should never be indexed on its own, since
+# JS-less crawlers see generic hub-level meta and no article
+# content here. robots.txt disallows it too; this header rule
+# backs that up for anything that fetches it anyway.
+# ============================================================
+
+[[headers]]
+  for = "/article.html"
+
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
 
 # ============================================================
 # ROBOTS.TXT — NO CACHE

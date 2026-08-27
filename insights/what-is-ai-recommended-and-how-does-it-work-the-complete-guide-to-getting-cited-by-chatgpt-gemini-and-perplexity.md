@@ -8,7 +8,7 @@ author: AudienceIntent - Kevin Bovett
 description: AI search is changing how customers choose businesses. Learn why AI
   visibility matters, how it differs from SEO, and what to do now.
 focus_keyword: AI Recommended
-canonical: ai-search-visibility-2026
+canonical: ""
 image: /images/uploads/what-is-ai.jpg
 og_image: /images/uploads/what-is-ai.jpg
 schema: >-

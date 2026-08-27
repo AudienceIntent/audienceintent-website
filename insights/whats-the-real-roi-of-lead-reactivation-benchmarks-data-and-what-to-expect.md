@@ -9,7 +9,7 @@ description: See the real ROI of lead reactivation with benchmarks, case
   studies, and a simple database value formula. Learn what to expect before you
   spend more on ads.
 focus_keyword: Lead Reactivation
-canonical: lead-reactivation-roi
+canonical: ""
 image: /images/uploads/real-roi.jpg
 og_image: /images/uploads/real-roi.jpg
 ---

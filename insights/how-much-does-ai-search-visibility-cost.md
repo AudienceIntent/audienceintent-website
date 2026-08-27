@@ -7,6 +7,7 @@ author: AudienceIntent - Kevin Bovett
 description: See what AI search visibility costs in 2026, how AI Recommended™
   compares, and what local businesses should expect before they buy.
 focus_keyword: AI Search Visibility
+canonical: https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost
 image: /images/uploads/ai-search-cost.jpg
 og_image: /images/uploads/ai-search-cost.jpg
 schema: >-

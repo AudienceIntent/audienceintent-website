@@ -8,7 +8,7 @@ author: AudienceIntent - Kevin Bovett
 description: No one can guarantee number 1 AI search placement. Learn what
   actually improves AI visibility and get your free AI Search Visibility Score.
 focus_keyword: AI Search
-canonical: no-one-can-guarantee-ai-search-rankings
+canonical: ""
 image: /images/uploads/number-1.jpg
 og_image: /images/uploads/number-1.jpg
 schema: >-

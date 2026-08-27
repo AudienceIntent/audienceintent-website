@@ -8,7 +8,7 @@ author: AudienceIntent - Kevin Bovett
 description: Learn how ChatGPT, Gemini, Claude, Perplexity, and Grok choose
   businesses, and what to fix so your brand shows up more often.
 focus_keyword: Answer Engine Optimization
-canonical: ai-recommended-business
+canonical: ""
 image: /images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png
 og_image: /images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png
 schema: >-

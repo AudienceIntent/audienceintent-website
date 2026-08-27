@@ -545,6 +545,7 @@ footer a:hover{color:#00ff73}
 <script>
 var ARTICLES = [];
 var PER = 12, pg = 1, cat = 'All', q = '';
+var SITE_ORIGIN = 'https://www.audienceintent.ai';
 
 function loadArticles() {
   // Try articles-data.js first (static, faster), fallback to articles.json
@@ -635,6 +636,7 @@ function makeCard(a, isFeatured, eager) {
   var imgSrc = a.og_image || a.image || '';
   var readTime = a.read_time ? a.read_time + ' min read' : '';
   var titleEsc = escAttr(a.title);
+  var articleUrl = SITE_ORIGIN + '/insights/' + a.slug;
 
   // Above-the-fold images load eagerly with high priority so they paint on
   // first load. Lazy-loading an in-viewport image is what was leaving the
@@ -644,7 +646,7 @@ function makeCard(a, isFeatured, eager) {
     : 'loading="lazy" decoding="async"';
 
   if (isFeatured && imgSrc) {
-    return '<a class="card-featured" href="/insights/' + a.slug + '" aria-label="' + titleEsc + '">'
+    return '<a class="card-featured" href="' + articleUrl + '" aria-label="' + titleEsc + '">'
       + '<img class="card-feat-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + ' onerror="aiRetryImg(this)">'
       + '<div class="card-feat-body">'
       + '<div class="card-feat-cat">' + (a.category || '') + '</div>'
@@ -660,7 +662,7 @@ function makeCard(a, isFeatured, eager) {
     ? '<div class="card-img-wrap"><img class="card-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + ' onerror="aiRetryImg(this)">' + (readTime ? '<span class="card-read-time">' + readTime + '</span>' : '') + '</div>'
     : '<div class="card-img-wrap" style="height:120px"><div class="card-no-img" aria-hidden="true">' + (a.category || 'AI').substring(0,2).toUpperCase() + '</div></div>';
 
-  return '<a class="card" href="/insights/' + a.slug + '" aria-label="' + titleEsc + '">'
+  return '<a class="card" href="' + articleUrl + '" aria-label="' + titleEsc + '">'
     + imgHtml
     + '<div class="card-body">'
     + '<div class="card-cat' + catColor(a.category) + '">' + (a.category || '') + '</div>'

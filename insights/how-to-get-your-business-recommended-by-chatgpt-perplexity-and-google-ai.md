@@ -7,7 +7,7 @@ author: AudienceIntent - Kevin Bovett
 description: Learn how to get recommended by ChatGPT, Perplexity, and Google AI
   with faster fixes for data accuracy, recency, and trust signals.
 focus_keyword: AI Search
-canonical: https://www.audienceintent.ai/insights/how-businesses-get-recommended-by-ai
+canonical: ""
 image: /images/uploads/visibility-ai-search.jpg
 og_image: /images/uploads/visibility-ai-search.jpg
 schema: >-

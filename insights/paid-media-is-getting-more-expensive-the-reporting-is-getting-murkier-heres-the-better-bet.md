@@ -8,7 +8,7 @@ author: AudienceIntent - Kevin Bovett
 description: Paid media is pricier and harder to trust. See why Database
   Reactivation is the lower-risk next move before you spend more on ads.
 focus_keyword: Database Reactivation
-canonical: paid-media-database-reactivation
+canonical: ""
 image: /images/uploads/chatgpt-image-jun-24-2026-10_50_18-am.jpg
 og_image: /images/uploads/chatgpt-image-jun-24-2026-10_50_18-am.jpg
 schema: >-

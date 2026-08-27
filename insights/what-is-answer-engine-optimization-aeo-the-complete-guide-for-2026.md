@@ -7,7 +7,7 @@ author: AudienceIntent - Kevin Bovett
 description: Learn what answer engine optimization is, why it matters in 2026,
   and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.
 focus_keyword: Answer Engine Optimization
-canonical: what-is-aeo-guide
+canonical: ""
 image: /images/uploads/what-is-aeo-.jpg
 og_image: /images/uploads/what-is-aeo-.jpg
 schema: >-

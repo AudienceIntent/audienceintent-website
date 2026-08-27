@@ -4,11 +4,16 @@
 // Runs on every request via netlify.toml: path = "/*"
 //
 // What it does:
+//   0. Enforces https + www canonical host BEFORE anything else
+//      (Edge Functions run ahead of netlify.toml redirects, so
+//      this function must handle the canonical redirect itself —
+//      otherwise it swallows every request before those rules
+//      ever get a chance to fire)
 //   1. Detects AI crawler and search bot user agents (O(1) lookup)
 //   2. Adds AI-friendly response headers when a bot is detected
 //   3. Logs the visit to Searchable with platform + geo + referrer
 //
-// Updated: May 2026
+// Updated: August 2026 — added canonical host redirect
 // Crawler list synced with robots.txt
 // ============================================================
 
@@ -86,6 +91,9 @@ const TRACKER_TIMEOUT  = 3000; // ms — never let tracking stall
 const SITE_TOKEN       = 'st_1627587e11627fb2ed494c94';
 const API_TOKEN        = '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.eeb4d4e1aad192805a110c97900e576bd3c52248cb52ece68caf5c80eb8017a8';
 
+// Canonical host — every request must land here.
+const CANONICAL_HOST = 'www.audienceintent.ai';
+
 // ── DETECT CRAWLER ───────────────────────────────────────────
 // Case-insensitive scan across all known bot tokens.
 // Returns { token, platform } or null.
@@ -102,6 +110,21 @@ function detectCrawler(userAgent) {
 
 // ── EDGE FUNCTION ────────────────────────────────────────────
 export default async (request, context) => {
+  const url = new URL(request.url);
+
+  // ── CANONICAL HOST REDIRECT — must run first ──────────────
+  // Edge Functions execute before netlify.toml redirect rules,
+  // so this function intercepts every request ahead of the
+  // apex→www / http→https redirects declared there. Without
+  // this check, any request this function sees skips those
+  // rules entirely and gets served on whatever host/protocol
+  // it arrived on. Handling it here closes that gap.
+  if (url.hostname !== CANONICAL_HOST || url.protocol !== 'https:') {
+    url.hostname = CANONICAL_HOST;
+    url.protocol = 'https:';
+    return Response.redirect(url.toString(), 301);
+  }
+
   const ua      = request.headers.get('user-agent') || '';
   const crawler = detectCrawler(ua);
 
@@ -109,7 +132,6 @@ export default async (request, context) => {
   const response = await context.next();
   if (!crawler) return response;
 
-  const url       = new URL(request.url);
   const referrer  = request.headers.get('referer') || '';
   const requestId = crypto.randomUUID();
   const startTime = Date.now();

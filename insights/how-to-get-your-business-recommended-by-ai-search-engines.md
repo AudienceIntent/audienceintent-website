@@ -7,7 +7,7 @@ author: AudienceIntent - Kevin Bovett
 description: Learn how to get your business recommended by AI search engines in
   2026, with AEO tactics for local services, DTC brands, and e-commerce.
 focus_keyword: AEO
-canonical: recommended-by-ai-search-engines
+canonical: ""
 image: /images/uploads/ai-search-guide.jpg
 og_image: /images/uploads/ai-search-guide.jpg
 schema: >-

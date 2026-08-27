@@ -102,7 +102,7 @@ collections:
         name: "canonical"
         widget: "string"
         required: false
-        hint: "Full URL e.g. https://audienceintent.ai/insights/article-slug"
+        hint: "Full URL e.g. https://www.audienceintent.ai/insights/article-slug"
 
       - label: "Featured Image"
         name: "image"

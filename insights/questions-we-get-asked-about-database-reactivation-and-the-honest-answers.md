@@ -8,7 +8,7 @@ description: Straight answers to the objections that stop business owners from
   trying database reactivation. Compliance, list quality, economics, and what
   actually happens.
 focus_keyword: Database Reactivation
-canonical: https://www.audienceintent.ai/insights/database-reactivation-faq
+canonical: ""
 image: /images/uploads/database.jpg
 og_image: /images/uploads/database.jpg
 schema: >-

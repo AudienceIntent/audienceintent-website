@@ -7,7 +7,7 @@ author: AudienceIntent - Kevin Bovett
 description: Learn how to calculate lead reactivation ROI, benchmark results,
   and estimate your own number with real examples from dormant lead campaigns.
 focus_keyword: Lead Reactivation
-canonical: lead-reactivation-roi-calculator
+canonical: ""
 image: /images/uploads/roi.jpg
 og_image: /images/uploads/roi.jpg
 schema: >-

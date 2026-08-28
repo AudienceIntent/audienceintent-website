@@ -11,6 +11,83 @@ description: Seven re-engagement channels compared — email, phone, SMS,
 focus_keyword: Re-Engage Old Leads
 image: /images/uploads/annoying.jpg
 og_image: /images/uploads/annoying.jpg
+schema: >
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "How to Re-Engage Old Leads Without Being Annoying (And Which Channel Actually Works)",
+        "description": "Seven re-engagement channels compared — email, phone, SMS, retargeting, and more. See which one wins on every metric, then calculate what your dormant list is actually worth.",
+        "url": "https://www.audienceintent.ai/insights/how-to-re-engage-old-leads-without-being-annoying",
+        "datePublished": "2026-08-28",
+        "dateModified": "2026-08-28",
+        "author": {
+          "@type": "Person",
+          "name": "Kevin Bovett",
+          "url": "https://www.audienceintent.ai"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "AudienceIntent",
+          "url": "https://www.audienceintent.ai",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.audienceintent.ai/logo.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-to-re-engage-old-leads-without-being-annoying"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best way to re-engage old leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Conversational SMS consistently outperforms other channels — 98% open rate, 30-45% response rate, and 20-30% reactivation rate on average. The key is writing messages that feel personal and one-on-one, not like a broadcast. Segment your list by recency and intent before sending anything."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you re-engage leads without being annoying?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Have a real reason to reach out — a relevant result, a new offer, or an honest acknowledgment that timing may have been off. Limit outreach to 2-3 attempts over 2-3 weeks. Make it easy for the lead to say no. Never re-send the same message if the first one did not land."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it worth contacting old leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Reactivated leads close at 15-25%, compared to 5-10% for cold new leads, and you have already paid to acquire them. The ROI of re-engagement is strong even on lists dormant for a year or more, though results vary by industry, list quality, and how the outreach is executed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before a lead is too old to contact?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Leads contacted within 90 days of going cold are significantly more likely to reactivate than those dormant for two years or more. Older lists are not worthless — the message needs to acknowledge the time gap and give the lead a concrete reason to reconsider now."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does SMS work for lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. SMS delivers a 98% open rate versus 20-35% for email, and most messages are read within three minutes. In a documented head-to-head test, a conversational SMS reactivation campaign achieved a 26.19% conversion rate and $17.62 revenue per click, outperforming an internal marketing team on the same list."
+            }
+          }
+        ]
+      }
+    ]
+  }
 ---
 Old leads are not dead leads. They are leads that did not buy yet.
 

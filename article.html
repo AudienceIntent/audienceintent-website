@@ -508,9 +508,9 @@ function init() {
       render(article);
     })
     .catch(function(err) {
-      console.error('Failed to load articles.json:', err);
-      render(null);
-    });
+  console.error('Failed to load articles.json:', err);
+  // leave the existing server-rendere
+});
 }
  
 init();

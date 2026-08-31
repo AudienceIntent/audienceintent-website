@@ -180,7 +180,6 @@ ChatGPT mentions brands 3.2 times more often than it cites them, [according to a
 Citations are the stronger signal for two reasons:
 
 1.  **Attribution clarity:** A cited response tells you exactly which source the AI trusted enough to surface. That is actionable intelligence: you know which pages are working and which are not.
-    
 2.  **Traffic potential:** Cited sources generate referral traffic. A mention without a citation generates awareness but no measurable visit.
     
 
@@ -433,17 +432,11 @@ All of the metrics above assume one thing: that AI systems can actually find and
 [Research from Zerply](https://zerply.ai/resources/blog/chatgpt-citations) describes AI citation as a multi-stage pipeline. A page must pass every stage to earn a visible citation. Failing at any stage removes the page from consideration entirely.
 
 1.  **Crawl access:** The AI platform's crawler must be able to fetch the page. Robots.txt rules, blocked resources, or rendering issues stop the process here.
-    
 2.  **Index eligibility:** The page must be eligible for storage and later retrieval. Canonical errors, duplicate content, and thin pages reduce eligibility.
-    
 3.  **Retrieval:** The page must be retrieved as a candidate for a given query. Weak topical relevance or poor entity signals reduce retrieval frequency.
-    
 4.  **Passage extraction:** The platform extracts answerable passages from the page. If the content is buried in JavaScript, locked behind a login, or structured in a way that prevents clean extraction, the page fails here.
-    
 5.  **Source filtering:** Sources are filtered for quality, freshness, authority, and redundancy. A page that passes extraction can still be filtered out at this stage.
-    
 6.  **Synthesis:** The model composes the answer. Pages that contributed to synthesis may not receive visible attribution.
-    
 7.  **Visible citation:** The interface decides which sources to show. This is the stage that determines whether your URL appears in the response.
     
 
@@ -495,9 +488,7 @@ Each metric in the reporting framework has a direct line to revenue. The connect
 The ROI calculation for AI-driven search traffic runs through three data points that are tracked concurrently:
 
 1.  **Prompt wins (from prompt tracking):** The specific queries where your business is the top AI recommendation
-    
 2.  **AI-referred traffic (from your analytics):** Sessions where the referring source is a known AI platform (ChatGPT.com, Perplexity.ai, and similar)
-    
 3.  **Conversion rate benchmark:** AI search traffic converts at 14.2% based on verified data across AI-referred traffic studies
     
 

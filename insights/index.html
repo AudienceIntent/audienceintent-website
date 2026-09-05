@@ -668,7 +668,7 @@ function makeCard(a, isFeatured, eager) {
     + '<h2 class="card-title">' + (a.title || '') + '</h2>'
     + '<div class="card-excerpt">' + (a.excerpt || '').substring(0, 140) + (a.excerpt && a.excerpt.length > 140 ? '&hellip;' : '') + '</div>'
     + '<div class="card-foot">'
-    + '<span class="card-meta">' + fmtDate(a.date) + (a.author ? ' &middot; ' + a.author.split(' ')[0] : '') + '</span>'
+    + '<span class="card-meta">' + fmtDate(a.date) + (a.author ? ' &middot; ' + a.author : '') + '</span>'
     + '<span class="card-arrow" aria-hidden="true">&rarr;</span>'
     + '</div></div></a>';
 }

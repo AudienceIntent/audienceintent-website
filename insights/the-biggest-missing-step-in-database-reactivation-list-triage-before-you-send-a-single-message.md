@@ -4,7 +4,7 @@ title: "The Biggest Missing Step in Database Reactivation: List Triage Before
 meta_title: "Lead Reactivation List Triage: The Step Most Campaigns Skip"
 date: 2026-07-03T17:37:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: "Most database reactivation campaigns fail before because the list
   is dirty, mixed, and misclassified. "
 focus_keyword: Database Reactivation

@@ -1,14 +1,14 @@
 ---
 title: "Google Business Profile Optimization: What Local Businesses Must Do in 2026"
 meta_title: Google Business Profile Optimization in 2026
-date: 2026-04-06T17:30:00.000-04:00
+date: 2026-07-06T17:30:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett
 description: Learn what local businesses need to fix first in their Google
   Business Profile in 2026, from categories and reviews to photos, services, and
   website alignment.
 focus_keyword: "Google Business Profile "
-canonical: https://www.audienceintent.ai/insights/google-business-profile-optimization
+canonical: ""
 schema: >-
   {
     "@graph": [

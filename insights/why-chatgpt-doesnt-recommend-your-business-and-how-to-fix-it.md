@@ -3,7 +3,7 @@ title: Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)
 meta_title: Why ChatGPT Doesn't Recommend Your Business
 date: 2026-06-03T15:30:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn why ChatGPT skips your business, what causes AI mention gaps,
   and the exact steps to fix AI visibility. Start with the free audit.
 focus_keyword: ChatGPT

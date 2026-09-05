@@ -4,7 +4,7 @@ title: "How AudienceIntent Measures AI Visibility: Every Metric, Score, and
 meta_title: "AI Visibility Metrics: ROI, Scores, and Attribution"
 date: 2026-08-31T18:05:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: See how AudienceIntent measures AI visibility with scores,
   mentions, citations, sentiment, prompt tracking, and ROI attribution across AI
   platforms.

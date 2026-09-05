@@ -3,7 +3,7 @@ title: "Performance-Based Lead Reactivation vs Monthly Retainers: Which Is Cheap
 meta_title: Performance-Based Lead Reactivation vs Monthly Retainers
 date: 2026-07-24T11:31:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Compare performance-based lead reactivation with monthly retainers.
   Learn when results-based pricing is cheaper, how it reduces marketing risk,
   and how to calculate ROI.

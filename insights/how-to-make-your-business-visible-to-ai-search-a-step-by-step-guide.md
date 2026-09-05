@@ -3,7 +3,7 @@ title: How to Make Your Business Visible to AI Search (A Step-by-Step Guide)
 meta_title: How to Make Your Business Visible to AI Search
 date: 2026-07-13T13:04:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: A beginner-friendly guide to getting found in AI search. Learn the
   exact steps to reduce invisibility and show up more often in AI answers.
 focus_keyword: AI Search

@@ -4,7 +4,7 @@ title: How to Re-Engage Old Leads Without Being Annoying (And Which Channel
 meta_title: How to Re-Engage Old Leads Without Being Annoying
 date: 2026-08-27T20:27:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Seven re-engagement channels compared — email, phone, SMS,
   retargeting, and more. See which one wins on every metric, then calculate what
   your dormant list is actually worth.

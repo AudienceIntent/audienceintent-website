@@ -4,7 +4,7 @@ title: What Is AI Recommended and How Does It Work? The Complete Guide to
 meta_title: "AI Search Visibility in 2026: Why It Matters"
 date: 2026-06-07T15:16:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: AI search is changing how customers choose businesses. Learn why AI
   visibility matters, how it differs from SEO, and what to do now.
 focus_keyword: AI Recommended

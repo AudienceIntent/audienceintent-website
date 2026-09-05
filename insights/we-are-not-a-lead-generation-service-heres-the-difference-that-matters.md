@@ -3,7 +3,7 @@ title: We Are Not a Lead Generation Service. Here's the Difference That Matters.
 meta_title: "Lead Generation vs Reactivation: What We Actually Do"
 date: 2026-09-01T21:46:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: AudienceIntent does not buy leads or run lead gen. We reactivate
   your TCPA-compliant opt-in database, with clear rules for SMS, quiet hours,
   and opt-outs.

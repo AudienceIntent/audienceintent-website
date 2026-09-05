@@ -3,7 +3,7 @@ title: "Database Reactivation vs. Paid Ads: Which Produces Revenue Faster?"
 meta_title: "Database Reactivation vs Paid Ads: Faster Revenue 2026"
 date: 2026-07-20T11:43:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: See which channel produces revenue faster, what each one costs, and
   when reactivation should come before paid ads. Real numbers, clear tradeoffs.
 focus_keyword: Database Reactivation

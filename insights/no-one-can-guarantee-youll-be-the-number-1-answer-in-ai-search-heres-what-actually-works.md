@@ -4,7 +4,7 @@ title: No One Can Guarantee You'll Be the Number 1 Answer in AI Search. Here's
 meta_title: No One Can Guarantee AI Search Rankings
 date: 2026-07-08T14:40:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: No one can guarantee number 1 AI search placement. Learn what
   actually improves AI visibility and get your free AI Search Visibility Score.
 focus_keyword: AI Search

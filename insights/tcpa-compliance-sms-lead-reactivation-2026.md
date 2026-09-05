@@ -4,7 +4,7 @@ title: "TCPA Compliance for SMS Lead Reactivation: What Every Business Owner
 meta_title: "TCPA Compliance for SMS Lead Reactivation: 2026 Guide"
 date: 2026-06-02T11:52:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn TCPA compliance for SMS lead reactivation, A2P 10DLC rules,
   and opt-in requirements so you can message old leads without unnecessary risk.
 focus_keyword: TCPA Compliance For SMS Lead Reactivation

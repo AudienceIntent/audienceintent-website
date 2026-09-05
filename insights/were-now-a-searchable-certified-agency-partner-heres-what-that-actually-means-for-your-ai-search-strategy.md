@@ -4,7 +4,7 @@ title: We're Now a Searchable Certified Agency Partner. Here's What That
 meta_title: "Searchable Certified Agency Partner: What It Means"
 date: 2026-06-08T14:10:00.000-04:00
 category: Company News
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: AudienceIntent completed the Searchable AI Search Accelerator.
   Here's what we learned, how it sharpens AI Recommended™, and why it matters.
 focus_keyword: Searchable Certified Agency Partner

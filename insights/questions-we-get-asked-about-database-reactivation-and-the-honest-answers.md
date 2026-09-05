@@ -3,7 +3,7 @@ title: Questions We Get Asked About Database Reactivation (And the Honest Answer
 meta_title: "Database Reactivation FAQ: Honest Answers That Matter"
 date: 2026-05-29T20:01:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Straight answers to the objections that stop business owners from
   trying database reactivation. Compliance, list quality, economics, and what
   actually happens.

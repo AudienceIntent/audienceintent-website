@@ -4,7 +4,7 @@ title: How to Track AI Mentions, Citations, and Share of Voice Across ChatGPT,
 meta_title: Track AI Mentions, Citations, and Share of Voice
 date: 2026-08-24T12:24:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn how to measure AI mentions, citations, and share of voice
   across ChatGPT, Perplexity, and Google AI with a repeatable weekly system.
 focus_keyword: AI Mentions

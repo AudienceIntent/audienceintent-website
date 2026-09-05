@@ -944,12 +944,14 @@ function buildIndexCard(a, isFeatured, eager) {
     + '</div></div></a>';
 }
 
-// Build the first-page grid markup (newest first, default "All").
+// Bake EVERY article into the static grid so crawlers without JS
+// can reach all of them via real <a href> links. The client script
+// still re-renders the visible grid for filtering/pagination/search
+// — this only changes what's present in the raw HTML on first load.
 function buildIndexGridHtml(articles) {
-  const page = articles.slice(0, INDEX_PER_PAGE);
-  return page.map((a, idx) => {
-    const isFeatured = idx === 0;            // page 1, All filter, no query
-    const eager      = idx < INDEX_EAGER_MAX;
+  return articles.map((a, idx) => {
+    const isFeatured = idx === 0;            // still just the first card
+    const eager      = idx < INDEX_EAGER_MAX; // still only eager-load the first 4 images
     return buildIndexCard(a, isFeatured, eager);
   }).join('');
 }
@@ -971,7 +973,7 @@ function injectInsightsIndex(articles) {
   }
   html = html.replace(re, (_m, open, tail) => open + '\n' + grid + '\n' + tail);
   fs.writeFileSync(INDEX_FILE, html);
-  console.log(`SUCCESS: insights/index.html grid pre-rendered — ${Math.min(articles.length, INDEX_PER_PAGE)} cards baked in (crawlable)`);
+  console.log(`SUCCESS: insights/index.html grid pre-rendered — ${articles.length} cards baked in (crawlable)`);
 }
 
 function generatePageHtml(template, article) {

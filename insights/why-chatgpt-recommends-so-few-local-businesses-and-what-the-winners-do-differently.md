@@ -4,7 +4,7 @@ title: Why ChatGPT Recommends So Few Local Businesses, and What the Winners Do
 meta_title: How ChatGPT Recommends Local Businesses in 2026
 date: 2026-08-03T12:05:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn why ChatGPT recommends so few local businesses and the
   signals that help your company earn AI search mentions and citations.
 focus_keyword: ChatGPT

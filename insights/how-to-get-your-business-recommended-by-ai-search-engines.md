@@ -3,7 +3,7 @@ title: How to Get Your Business Recommended by AI Search Engines
 meta_title: "AEO Strategy in 2026: How to Get Recommended by AI"
 date: 2026-06-03T09:53:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn how to get your business recommended by AI search engines in
   2026, with AEO tactics for local services, DTC brands, and e-commerce.
 focus_keyword: AEO

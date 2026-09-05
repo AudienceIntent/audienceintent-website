@@ -3,7 +3,7 @@ title: How Vault Metal Went From Invisible in AI to 7,808 Mentions in 90 Days
 meta_title: Vault Metal AI Visibility Case Study | AudienceIntent
 date: 2026-09-03T11:40:00.000-04:00
 category: Company News
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: See how Vault Metal grew from 169 AI mentions to 7,808 in 90 days
   with AI Recommended™. Read the results and get your free AI Visibility Report.
 focus_keyword: Vault Metal

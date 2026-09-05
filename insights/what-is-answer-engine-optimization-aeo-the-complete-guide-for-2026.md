@@ -3,7 +3,7 @@ title: What Is Answer Engine Optimization (AEO)? The Complete Guide for 2026
 meta_title: What Is AEO? Complete 2026 Guide | AudienceIntent
 date: 2026-06-10T16:01:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn what answer engine optimization is, why it matters in 2026,
   and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.
 focus_keyword: Answer Engine Optimization

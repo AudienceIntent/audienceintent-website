@@ -3,7 +3,7 @@ title: How Old Can a Lead Be Before It Is No Longer Worth Contacting?
 meta_title: How Old Can a Lead Be Before It Is Worth Contacting?
 date: 2026-08-10T13:43:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Old leads are not automatically dead. Learn when dormant CRM
   contacts are still worth outreach, what to verify first, and when to stop.
 focus_keyword: Database Reactivation

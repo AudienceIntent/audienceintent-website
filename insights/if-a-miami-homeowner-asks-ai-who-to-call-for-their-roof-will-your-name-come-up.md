@@ -4,7 +4,7 @@ title: If a Miami Homeowner Asks AI Who to Call for Their Roof, Will Your Name
 meta_title: "Miami Roofing AI Visibility: Why Owners Must Act Now"
 date: 2026-08-17T15:21:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: A Miami roofing case study showing why local customers ask AI who
   to hire, what that means for revenue, and how to get visible before
   competitors do.

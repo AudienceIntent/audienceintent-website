@@ -4,7 +4,7 @@ title: What's the Real ROI of Lead Reactivation? (Benchmarks, Data, and What to
 meta_title: "Lead Reactivation ROI: Benchmarks, Data & Expectations"
 date: 2026-06-07T14:45:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: See the real ROI of lead reactivation with benchmarks, case
   studies, and a simple database value formula. Learn what to expect before you
   spend more on ads.

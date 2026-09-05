@@ -3,7 +3,7 @@ title: How Much Does AI Search Visibility Cost?
 meta_title: How Much Does AI Search Visibility Cost?
 date: 2026-06-29T16:33:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: See what AI search visibility costs in 2026, how AI Recommended™
   compares, and what local businesses should expect before they buy.
 focus_keyword: AI Search Visibility

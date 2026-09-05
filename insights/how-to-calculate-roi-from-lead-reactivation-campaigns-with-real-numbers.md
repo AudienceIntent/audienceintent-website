@@ -3,7 +3,7 @@ title: How to Calculate ROI from Lead Reactivation Campaigns (With Real Numbers)
 meta_title: "Lead Reactivation ROI: 5 Variables + Real Numbers"
 date: 2026-06-05T16:24:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn how to calculate lead reactivation ROI, benchmark results,
   and estimate your own number with real examples from dormant lead campaigns.
 focus_keyword: Lead Reactivation

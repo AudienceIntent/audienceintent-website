@@ -4,7 +4,7 @@ title: Paid Media Is Getting More Expensive. The Reporting Is Getting Murkier.
 meta_title: Paid Media Costs More. Reclaim Revenue First
 date: 2026-06-24T10:28:00.000-04:00
 category: Database Reactivation
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Paid media is pricier and harder to trust. See why Database
   Reactivation is the lower-risk next move before you spend more on ads.
 focus_keyword: Database Reactivation

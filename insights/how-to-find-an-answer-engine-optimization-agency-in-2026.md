@@ -3,7 +3,7 @@ title: How to Find an Answer Engine Optimization Agency in 2026
 meta_title: How to Find an Answer Engine Optimization Agency in 2026
 date: 2026-07-29T10:51:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn how to choose an answer engine optimization agency that helps
   your business appear in ChatGPT, Perplexity, Google AI Overviews, and other AI
   search results.

@@ -4,7 +4,7 @@ title: How to Get Your Business Recommended by ChatGPT, Gemini, and Perplexity
 meta_title: "AI Recommended: Get Your Business Cited by AI"
 date: 2026-06-22T15:32:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn how ChatGPT, Gemini, Claude, Perplexity, and Grok choose
   businesses, and what to fix so your brand shows up more often.
 focus_keyword: Answer Engine Optimization

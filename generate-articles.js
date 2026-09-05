@@ -459,7 +459,7 @@ function parseFrontmatter(text, filename) {
     focus_keyword: '',
     canonical:     '',
     og_image:      '',
-    author:        'Kevin Bovett',
+    author:        'Kevin Bovett - AudienceIntent',
     schema:        '',
     read_time:     0,
     content:       '',
@@ -939,7 +939,7 @@ function buildIndexCard(a, isFeatured, eager) {
     + '<h2 class="card-title">' + escHtml(a.title || '') + '</h2>'
     + '<div class="card-excerpt">' + escHtml(exc.substring(0, 140)) + (exc.length > 140 ? '&hellip;' : '') + '</div>'
     + '<div class="card-foot">'
-    + '<span class="card-meta">' + escHtml(fmtDateShort(a.date)) + (a.author ? ' &middot; ' + escHtml(a.author.split(' ')[0]) : '') + '</span>'
+    + '<span class="card-meta">' + escHtml(fmtDateShort(a.date)) + (a.author ? ' &middot; ' + escHtml(a.author) : '') + '</span>'
     + '<span class="card-arrow" aria-hidden="true">&rarr;</span>'
     + '</div></div></a>';
 }

@@ -4,7 +4,7 @@ title: "The Self-Funding AI Playbook: Use Database Reactivation to Pay for AI
 meta_title: "Database Reactivation: Fund AI Visibility Without New Spend"
 date: 2026-06-04T14:13:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Use dormant leads to fund AI visibility without new ad spend. Learn
   the self-funding playbook, the math, and the steps to start.
 focus_keyword: Database Reactivation

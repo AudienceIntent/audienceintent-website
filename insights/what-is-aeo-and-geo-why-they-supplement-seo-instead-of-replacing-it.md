@@ -3,7 +3,7 @@ title: What Is AEO and GEO? Why They Supplement SEO Instead of Replacing It
 meta_title: "AEO vs GEO vs SEO: Why They Work Together"
 date: 2026-08-19T09:56:00.000-04:00
 category: AI Recommended
-author: AudienceIntent - Kevin Bovett
+author: Kevin Bovett - AudienceIntent
 description: Learn what AEO and GEO mean, how they differ from SEO, and why all
   three work as a layered visibility strategy in 2026.
 focus_keyword: AEO

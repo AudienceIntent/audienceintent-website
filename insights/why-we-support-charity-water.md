@@ -11,15 +11,19 @@ focus_keyword: "Charity:Water "
 image: https://framerusercontent.com/images/tuvMepgC3veaBBLgllDlxZux80.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
-        "url": "https://audienceintent.ai/insights/why-we-support-charity-water",
+        "url": "https://www.audienceintent.ai/insights/why-we-support-charity-water",
         "@type": "Article",
         "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder"
         },
         "headline": "Why AudienceIntent Supports charity: water",
+        "image": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
         "publisher": {
           "logo": {
             "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
@@ -81,8 +85,7 @@ schema: >-
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 At AudienceIntent, we help businesses capture more revenue. But from day one, we also wanted our work to mean something beyond growth.

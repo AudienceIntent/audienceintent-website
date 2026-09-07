@@ -145,7 +145,15 @@ function markdownToHtml(md) {
   html = html.replace(/^####\s+(.+)$/gm,   '<h4>$1</h4>');
   html = html.replace(/^###\s+(.+)$/gm,    '<h3>$1</h3>');
   html = html.replace(/^##\s+(.+)$/gm,     '<h2>$1</h2>');
-  html = html.replace(/^#\s+(.+)$/gm,      '<h1>$1</h1>');
+  // A single '#' inside the article BODY must never become a second
+  // <h1> — buildArticleBodyHtml() already renders the frontmatter
+  // title as the page's one true <h1>. If a writer's markdown body
+  // happens to start with (or contain) a '# Title' line duplicating
+  // that title, this used to render a second real <h1> on the page
+  // (confirmed on the AEO/GEO article). Downgrading to <h2> here
+  // both fixes the duplicate-H1 bug and gives correct document
+  // hierarchy for any body heading that isn't the page title.
+  html = html.replace(/^#\s+(.+)$/gm,      '<h2>$1</h2>');
 
   // Bold and italic
   html = html.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');

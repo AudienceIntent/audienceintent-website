@@ -1,6 +1,6 @@
 ---
 title: Your Old Leads Are a Goldmine. You're Just Not Digging.
-meta_title: "Lead Reactivation with SMS AI: The Fastest ROI for Local Service Businesses"
+meta_title: "Lead Reactivation with SMS AI: The Fastest ROI"
 date: 2026-04-08T18:21:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett

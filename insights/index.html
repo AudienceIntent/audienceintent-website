@@ -77,7 +77,11 @@
 <meta name="twitter:image:alt" content="AudienceIntent Insights">
 
 <!-- FONTS — Plus Jakarta Sans, brand standard -->
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- Loaded non-blocking: media="print" makes the browser fetch it
+     without holding up render, then onload swaps it to "all" once
+     ready. noscript fallback covers non-JS clients/crawlers. -->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
 
 <!-- GOOGLE ANALYTICS — async, in head -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPXQWGBR60"></script>

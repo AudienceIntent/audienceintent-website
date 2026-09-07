@@ -17,8 +17,10 @@ schema: >-
       {
         "@type": "Article",
         "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder"
         },
         "headline": "How Much Does AI Search Visibility Cost and Is AI Recommended™ Worth It?",
         "image": "https://www.audienceintent.ai/images/uploads/ai-search-cost.jpg",
@@ -55,7 +57,33 @@ schema: >-
             }
           },
           {
-            "name": "Why is AI search visibility priced differently from
+            "name": "Why is AI search visibility priced differently from SEO?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "AI search visibility is priced differently because it targets AI assistants that cite third-party sources, not just Google rankings. The work usually includes crawlability, content optimization, citation building, and prompt tracking, which most standard SEO retainers do not cover.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Do I need a long contract for AI search visibility?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "No, not with AI Recommended™. It is month-to-month and can be canceled anytime, while many other agencies require 6 to 12 month contracts plus higher setup fees before execution begins.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How do I know if AI search is worth the investment?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "AI search can be worth the investment because AI traffic converts at a higher rate than standard organic traffic, and the buying intent is usually stronger. A free AI Visibility Audit can show whether your business is already being skipped in AI answers.",
+              "@type": "Answer"
+            }
+          }
+        ]
+      }
+    ]
+  }
 ---
 When a customer asks ChatGPT or Perplexity to recommend a plumber, a financial advisor, or a lighting company, one business gets named. The rest get nothing. That reality is driving a wave of business owners to ask a very practical question: what does it actually cost to show up in those answers?
 

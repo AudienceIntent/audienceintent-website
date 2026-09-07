@@ -2,7 +2,7 @@
 title: How to Get Your Business Recommended by ChatGPT, Gemini, and Perplexity
   (And Why Most Businesses Are Invisible)
 meta_title: "AI Recommended: Get Your Business Cited by AI"
-date: 2026-06-22T15:32:00.000-04:00
+date: 2026-08-22T15:32:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Learn how ChatGPT, Gemini, Claude, Perplexity, and Grok choose
@@ -13,14 +13,18 @@ image: /images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png
 og_image: /images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
         "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder"
         },
         "headline": "AI Recommended: Get Your Business Cited by AI",
+        "image": "PASTE_REAL_IMAGE_URL_HERE",
         "publisher": {
           "logo": {
             "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
@@ -33,7 +37,7 @@ schema: >-
         "dateModified": "2026-06-22",
         "datePublished": "2026-06-22",
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai",
+          "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible",
           "@type": "WebPage"
         }
       },
@@ -107,12 +111,9 @@ schema: >-
         },
         "foundingDate": "2024"
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
-# How to Get Your Business Recommended by ChatGPT, Gemini, and Perplexity (And Why Most Businesses Are Invisible)
-
 > **TL;DR:** Most businesses are invisible to AI assistants because they've never been optimized for how AI makes recommendations. Getting recommended by ChatGPT, Gemini, Claude, Perplexity, and Grok requires a different strategy than SEO. The signals that matter are: consistent business information across directories, detailed reviews on multiple platforms, third-party mentions from credible sources, structured data markup on your website, and content that directly answers the questions your customers ask AI. None of this happens by accident. Here's exactly how it works.
 
 **Key facts before you read on:**

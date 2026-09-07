@@ -7,9 +7,7 @@ author: Kevin Bovett
 description: See why competitors appear in ChatGPT, Google AI, and Perplexity
   when you don't, and learn the fixes that improve your AI visibility fast.
 focus_keyword: AI Search
-canonical: https://audienceintent.ai/insights/why-your-competitor-shows-up-in-ai-search-and-you-dont
-featured_image: /images/uploads/ai-search.jpg
-og_image: /images/uploads/ai-search.jpg
+canonical: ""
 schema: >-
   {
     "@graph": [
@@ -56,6 +54,8 @@ schema: >-
     ],
     "@context": "https://schema.org"
   }
+featured_image: /images/uploads/ai-search.jpg
+og_image: /images/uploads/ai-search.jpg
 ---
 ![Competitor AI search visibility example for local businesses](/images/uploads/ai-search.jpg "Why competitors appear in AI search and you don't")
 

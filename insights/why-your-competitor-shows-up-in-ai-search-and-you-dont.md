@@ -10,14 +10,18 @@ focus_keyword: AI Search
 canonical: ""
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
         "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder"
         },
         "headline": "Why Competitors Show Up in AI Search | AudienceIntent",
+        "image": "https://www.audienceintent.ai/images/uploads/ai-search.jpg",
         "publisher": {
           "logo": {
             "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
@@ -30,7 +34,7 @@ schema: >-
         "dateModified": "2026-04-22",
         "datePublished": "2026-04-22",
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/competitor-ai-search-visibility",
+          "@id": "https://www.audienceintent.ai/insights/why-your-competitor-shows-up-in-ai-search-and-you-dont",
           "@type": "WebPage"
         }
       },
@@ -51,8 +55,7 @@ schema: >-
         ],
         "foundingDate": "2024"
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 featured_image: /images/uploads/ai-search.jpg
 og_image: /images/uploads/ai-search.jpg

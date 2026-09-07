@@ -1,8 +1,7 @@
 ---
 title: 10 Ways to Reactivate Dormant Leads in Your CRM (And Why Most Businesses
   Leave This Revenue on the Table)
-meta_title: Recover dormant CRM leads with AI SMS reactivation. See 10 proven
-  scenarios, response benchmarks, and a faster way to book more appointments.
+meta_title: "Recover dormant CRM leads with AI SMS reactivation. "
 date: 2026-05-01T00:49:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
@@ -10,6 +9,7 @@ description: Your CRM is packed with leads that once raised their hands… then
   disappeared. We call them the “almost-customers”—and they’re often the most
   profitable group yo...
 focus_keyword: "Reactive Leads "
+image: https://framerusercontent.com/images/l1s2kQokQ8XsYl2HQNhZ96i2i4.jpg
 schema: >-
   {
     "@graph": [
@@ -98,7 +98,6 @@ schema: >-
       }
     ]
   }
-image: https://framerusercontent.com/images/l1s2kQokQ8XsYl2HQNhZ96i2i4.jpg
 ---
 Your CRM is a revenue asset most businesses treat like a graveyard.
 

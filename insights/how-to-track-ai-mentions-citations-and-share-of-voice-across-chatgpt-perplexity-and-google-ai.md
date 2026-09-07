@@ -2,7 +2,7 @@
 title: How to Track AI Mentions, Citations, and Share of Voice Across ChatGPT,
   Perplexity, and Google AI
 meta_title: Track AI Mentions, Citations, and Share of Voice
-date: 2026-08-24T12:24:00.000-04:00
+date: 2026-08-29T12:24:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Learn how to measure AI mentions, citations, and share of voice
@@ -13,6 +13,7 @@ image: /images/uploads/ai-mentions.jpg
 og_image: /images/uploads/ai-mentions.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
@@ -23,6 +24,7 @@ schema: >-
           "jobTitle": "Founder"
         },
         "headline": "Track AI Mentions, Citations, and Share of Voice Across ChatGPT, Perplexity, and Google AI",
+        "image": "https://www.audienceintent.ai/images/uploads/ai-mentions.jpg",
         "publisher": {
           "url": "https://www.audienceintent.ai",
           "logo": {
@@ -36,57 +38,11 @@ schema: >-
         "dateModified": "2026-08-24",
         "datePublished": "2026-08-24",
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/track-ai-mentions-citations-share-of-voice",
+          "@id": "https://www.audienceintent.ai/insights/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity-and-google-ai",
           "@type": "WebPage"
         }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "name": "What is the difference between an AI mention and a citation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "A mention is when an AI names your brand in the answer. A citation is when it links to your page as a source. Mentions show awareness, but citations show the model trusts your content enough to use it. Track both separately so you can see whether the problem is visibility, authority, or both.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How many prompts should I track for AI visibility?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Start with 15 to 25 prompts. That gives you enough coverage to spot patterns without creating a tracking process you will stop using. Include awareness, consideration, and decision-stage queries so you are measuring the prompts that actually influence buying decisions.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How often should I check AI mentions and citations?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Weekly is the minimum for a useful signal. AI results can change from one run to the next, so a single check is noise. Run a smaller set of high-intent prompts every week and the full library once a month so you can see movement without overreacting to one-off changes.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How do I calculate AI share of voice?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Use a weighted formula: mentions count less than citations, and recommendations count more than both. Divide your weighted appearances by the total weighted appearances for all tracked brands, then multiply by 100. That tells you how much of the visible conversation you actually own.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What should I do if competitors appear more often than I do?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Treat that as a content and authority gap. First, publish or update pages that answer the exact prompts where you are absent. Then build more third-party signals around the topics AI already trusts, such as citations, reviews, and relevant mentions on authoritative sites.",
-              "@type": "Answer"
-            }
-          }
-        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 Most businesses that ask "are we showing up in AI?" check ChatGPT once, see their name somewhere in a paragraph, and call it done. That is not tracking. That is guessing.

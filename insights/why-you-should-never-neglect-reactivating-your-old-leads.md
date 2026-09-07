@@ -1,6 +1,6 @@
 ---
 title: Why You Should Never Neglect Reactivating Your Old Leads
-meta_title: Reactivating Your Old Leads
+meta_title: Why Ignoring Old Leads Is Costing You Real Revenue
 date: 2026-01-24
 category: Database Reactivation
 author: "Kevin Bovett - AudienceIntent "

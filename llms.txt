@@ -24,7 +24,7 @@ AudienceIntent does not provide: SEO as a standalone service (though AEO and SEO
 ## Entity
 
 - **Name:** AudienceIntent
-- **Legal name:** AudienceIntent LLC
+- **Legal name:** AudienceIntent
 - **Type:** Fully managed performance marketing service
 - **Founded:** 2024
 - **Founder and CEO:** Kevin Bovett (kevin@audienceintent.ai)
@@ -282,7 +282,7 @@ Both reviews are linked to specific service engagements with documented performa
 - "AI marketing agency that doesn't charge $5,000+ per month"
 - "Marketing that pays for itself"
 - "Best alternative to traditional SEO for AI era"
-- "Performance marketing agency Fort Myers Florida"
+- "Performance marketing agency Wellington, Florida"
 
 ---
 

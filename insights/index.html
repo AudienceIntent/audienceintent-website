@@ -196,6 +196,52 @@
         {"@type": "ListItem", "position": 1, "name": "AudienceIntent", "item": "https://www.audienceintent.ai/"},
         {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://www.audienceintent.ai/insights"}
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.audienceintent.ai/insights#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What topics does this library cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two areas: Database Reactivation, which covers turning dormant CRM leads into booked revenue with AI-powered SMS, and AI Recommended\u2122, which covers getting a business cited by ChatGPT, Claude, Gemini, Perplexity, and Grok. Occasional company updates are filed under Company News."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who writes these articles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kevin Bovett, founder and CEO of AudienceIntent, writes based on direct client work. Portions of some articles are drafted with AI assistance, and every factual claim is reviewed and approved before publishing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is any of this behind a paywall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Everything in this library is free to read. Database Reactivation and AI Recommended\u2122 are the two paid services referenced throughout, and both are described in full on the main site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often is this library updated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It grows on an ongoing basis as we document real client work, results, and changes in how AI platforms surface businesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get advice specific to my business instead of reading through articles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Run the Lost Revenue Calculator or book a call directly \u2014 both are linked throughout this library and take a few minutes."
+          }
+        }
+      ]
     }
   ]
 }
@@ -323,6 +369,17 @@ nav{position:sticky;top:0;z-index:100;padding:14px 32px;display:flex;align-items
 .no-results{text-align:center;padding:80px 24px;color:rgba(248,247,246,.4);font-size:15px}
 .no-results a{color:#00ff73;text-decoration:none}
 .loading-state{text-align:center;padding:80px 24px;color:rgba(248,247,246,.3);font-size:14px}
+
+/* ── HUB FAQ — native details/summary, minimal footprint ── */
+.hub-faq{padding:64px 32px;background:#161d30;border-top:.5px solid rgba(248,247,246,.07)}
+.hub-faq-inner{max-width:760px;margin:0 auto}
+.hub-faq-inner h2{font-size:clamp(24px,3vw,32px);font-weight:800;letter-spacing:-.03em;color:#f8f7f6;margin-bottom:24px}
+.hub-faq-item{border-bottom:.5px solid rgba(248,247,246,.08);padding:16px 0}
+.hub-faq-item summary{cursor:pointer;font-size:15.5px;font-weight:700;color:#f8f7f6;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.hub-faq-item summary::-webkit-details-marker{display:none}
+.hub-faq-item summary::after{content:'+';font-size:20px;color:rgba(248,247,246,.4);flex-shrink:0}
+.hub-faq-item[open] summary::after{content:'\2013'}
+.hub-faq-item p{font-size:14px;color:rgba(248,247,246,.7);line-height:1.7;font-weight:300;margin-top:12px}
 
 /* ── PAGINATION ── */
 .pagination{display:flex;align-items:center;justify-content:center;gap:8px;padding:0 32px 64px}
@@ -483,6 +540,40 @@ footer a:hover{color:#00ff73}
   </div>
 </div>
 <div class="pagination" id="pagination"></div>
+
+<!-- HUB FAQ — native details/summary, no added JS, minimal CSS.
+     Real crawlable text underneath the grid, matching FAQPage
+     schema in <head> for AEO. -->
+<section class="hub-faq" aria-labelledby="hub-faq-heading">
+  <div class="hub-faq-inner">
+    <h2 id="hub-faq-heading">Insights FAQ</h2>
+
+    <details class="hub-faq-item" open>
+      <summary>What topics does this library cover?</summary>
+      <p>Two areas: Database Reactivation, which covers turning dormant CRM leads into booked revenue with AI-powered SMS, and AI Recommended&trade;, which covers getting a business cited by ChatGPT, Claude, Gemini, Perplexity, and Grok. Occasional company updates are filed under Company News.</p>
+    </details>
+
+    <details class="hub-faq-item">
+      <summary>Who writes these articles?</summary>
+      <p>Kevin Bovett, founder and CEO of AudienceIntent, writes based on direct client work. Portions of some articles are drafted with AI assistance, and every factual claim is reviewed and approved before publishing.</p>
+    </details>
+
+    <details class="hub-faq-item">
+      <summary>Is any of this behind a paywall?</summary>
+      <p>No. Everything in this library is free to read. Database Reactivation and AI Recommended&trade; are the two paid services referenced throughout, and both are described in full on the main site.</p>
+    </details>
+
+    <details class="hub-faq-item">
+      <summary>How often is this library updated?</summary>
+      <p>It grows on an ongoing basis as we document real client work, results, and changes in how AI platforms surface businesses.</p>
+    </details>
+
+    <details class="hub-faq-item">
+      <summary>Can I get advice specific to my business instead of reading through articles?</summary>
+      <p>Yes. Run the Lost Revenue Calculator or book a call directly &mdash; both are linked throughout this library and take a few minutes.</p>
+    </details>
+  </div>
+</section>
 
 <!-- NOSCRIPT — for AI crawlers and users without JS -->
 <noscript>

@@ -1,13 +1,14 @@
 ---
 title: "Why AudienceIntent Supports charity: water"
 meta_title: "Why AudienceIntent Supports charity: water"
-date: 2026-05-04T13:00:00.000-04:00
+date: 2026-08-04T13:00:00.000-04:00
 category: Company News
 author: "Kevin Bovett - AudienceIntent "
 description: "AudienceIntent supports charity: water because 2.1 billion people
   still lack safe drinking water. See why this nonprofit earns trust and
   impact."
 focus_keyword: "Charity:Water "
+image: https://framerusercontent.com/images/tuvMepgC3veaBBLgllDlxZux80.jpg
 schema: >-
   {
     "@graph": [
@@ -31,7 +32,7 @@ schema: >-
         "dateModified": "2026-05-04",
         "datePublished": "2026-05-04",
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/why-we-support-charity-water",
+          "@id": "https://www.audienceintent.ai/insights/why-we-support-charity-water",
           "@type": "WebPage"
         }
       },
@@ -83,11 +84,7 @@ schema: >-
     ],
     "@context": "https://schema.org"
   }
-image: https://framerusercontent.com/images/tuvMepgC3veaBBLgllDlxZux80.jpg
 ---
-
-# Why AudienceIntent Supports charity: water
-
 At AudienceIntent, we help businesses capture more revenue. But from day one, we also wanted our work to mean something beyond growth.
 
 That is why we support charity: water.

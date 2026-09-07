@@ -1,11 +1,11 @@
 ---
 title: How Much Does AI Search Visibility Cost?
-meta_title: How Much Does AI Search Visibility Cost?
+meta_title: How Much Does AI Search Visibility Cost in 2026?
 date: 2026-08-29T16:33:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
-description: Explore the costs of AI search visibility services and how they can
-  help your business be recommended by AI.
+description: See what AI search visibility costs in 2026, how AI Recommended™
+  compares, and what local businesses should expect before they buy.
 focus_keyword: AI Search Visibility
 canonical: ""
 image: /images/uploads/ai-search-cost.jpg
@@ -30,7 +30,7 @@ schema: >-
           "@type": "Organization"
         },
         "description": "See what AI search visibility costs in 2026, how AI Recommended™ compares, and what local businesses should expect before they buy.",
-        "dateModified": "2026-06-29",
+        "dateModified": "2026-09-06",
         "datePublished": "2026-06-29",
         "mainEntityOfPage": {
           "@id": "https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost",

@@ -1,6 +1,6 @@
 ---
 title: AI Recommended Your Competitor, Not You. Here's the Revenue Math.
-meta_title: AI Recommended Your Competitor, Not You. Here's the Revenue Math.
+meta_title: "AI Recommended Your Competitor, Not You. "
 date: 2026-04-25T23:31:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett

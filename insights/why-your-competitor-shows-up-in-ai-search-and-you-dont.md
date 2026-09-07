@@ -30,7 +30,7 @@ schema: >-
         "dateModified": "2026-04-22",
         "datePublished": "2026-04-22",
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/competitor-ai-search-visibility",
+          "@id": "https://www.audienceintent.ai/insights/competitor-ai-search-visibility",
           "@type": "WebPage"
         }
       },

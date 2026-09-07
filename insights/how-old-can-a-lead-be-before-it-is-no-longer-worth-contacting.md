@@ -1,7 +1,7 @@
 ---
 title: How Old Can a Lead Be Before It Is No Longer Worth Contacting?
 meta_title: How Old Can a Lead Be Before It Is Worth Contacting?
-date: 2026-08-10T13:43:00.000-04:00
+date: 2026-08-29T13:43:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Old leads are not automatically dead. Learn when dormant CRM
@@ -11,14 +11,18 @@ image: /images/uploads/how-old.jpg
 og_image: /images/uploads/how-old.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
         "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder"
         },
-        "headline": "How Old Can a Lead Be Before It Is Worth Contacting?",
+        "headline": "How Old Can a Lead Be Before It Is No Longer Worth Contacting?",
+        "image": "https://www.audienceintent.ai/images/uploads/how-old.jpg",
         "publisher": {
           "name": "AudienceIntent",
           "@type": "Organization"
@@ -27,16 +31,66 @@ schema: >-
         "dateModified": "2026-08-10",
         "datePublished": "2026-08-10",
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting",
+          "@id": "https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting",
           "@type": "WebPage"
         }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "name": "Is a five-year-old lead worth contacting?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Possibly, but only after confirming permission, data quality, relevance, and that you have a genuine reason to reconnect. A five-year-old lead who booked a recurring service and never opted out is a different situation than a five-year-old form fill with no engagement history. Evaluate the record on its own merits before deciding.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Is it legal to contact leads from years ago?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Lead age is not the primary legal consideration. Businesses must evaluate consent, opt-out status, the channel being used, and applicable rules for that channel and message type. This is operational guidance, not legal advice. Consult qualified legal counsel before launching any automated outreach campaign.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How often should you follow up with a dormant lead?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Use a short, respectful sequence with clear opt-out handling. Two to three touches over a defined window is a reasonable starting point. Stop if there is no engagement after the sequence. Repeated outreach to someone who has not responded is not persistence — it is noise, and it creates compliance risk.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Should old leads receive SMS, email, or phone calls?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Choose the channel based on documented permission, the original relationship, data quality, and the type of message being sent. SMS typically produces higher open and response rates, but it requires explicit consent. The channel should follow the consent, not the other way around.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "What should you say to a lead that went cold?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Reference the original reason they contacted you, ask whether the need is still relevant, and offer a low-pressure next step. Keep it short. The goal is a reply, not a sale.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "When should a business stop contacting a lead?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Stop when the person opts out, the contact information is invalid, permission cannot be supported for the channel being used, the original need is no longer relevant, or repeated outreach produces no engagement. Any one of these conditions is sufficient reason to remove the record from active campaigns.",
+              "@type": "Answer"
+            }
+          }
+        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
-# How Old Can a Lead Be Before It Is No Longer Worth Contacting?
-
 Lead age alone does not make a lead worthless. A lead from years ago may still be worth contacting if consent is documented, the contact information is usable, the original need is still relevant, and the business has a helpful reason to reconnect. Before writing off an old database, [estimate what your dormant leads could be worth](https://lostrevenue.audienceintent.ai).
 
 ## The Short Answer: Most Leads Are Not Too Old, They Are Just Poorly Segmented

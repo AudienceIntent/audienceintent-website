@@ -25,7 +25,7 @@ Traditional search engines work like a library index: they point you to the book
 
 Google ranks pages. AI systems cite sources. Those are different jobs with different criteria.
 
-|  | Traditional Google | AI Search (ChatGPT, Perplexity, Gemini) |
+| Type | Traditional Google | AI Search (ChatGPT, Perplexity, Gemini) |
 | --- | --- | --- |
 | **Output** | A list of ranked links | A direct answer with cited sources |
 | **What it rewards** | Backlinks, keyword relevance, page authority | Third-party validation, extractable facts, entity clarity |

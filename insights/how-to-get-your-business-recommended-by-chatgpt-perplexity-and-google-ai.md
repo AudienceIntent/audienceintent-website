@@ -1,7 +1,7 @@
 ---
 title: How to Get Your Business Recommended by ChatGPT, Perplexity, and Google AI
 meta_title: "AI Recommendations: 7 Fixes for Visibility"
-date: 2026-05-29T19:07:00.000-04:00
+date: 2026-08-29T19:07:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Learn how to get recommended by ChatGPT, Perplexity, and Google AI
@@ -12,14 +12,18 @@ image: /images/uploads/visibility-ai-search.jpg
 og_image: /images/uploads/visibility-ai-search.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
         "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder"
         },
         "headline": "AI Recommendations: 7 Fixes for Visibility",
+        "image": "https://www.audienceintent.ai/images/uploads/visibility-ai-search.jpg",
         "publisher": {
           "name": "AudienceIntent",
           "@type": "Organization"
@@ -28,7 +32,7 @@ schema: >-
         "dateModified": "2026-05-29",
         "datePublished": "2026-05-29",
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-businesses-get-recommended-by-ai",
+          "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai",
           "@type": "WebPage"
         }
       },
@@ -69,12 +73,9 @@ schema: >-
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
-# How to Get Your Business Recommended by ChatGPT, Perplexity, and Google AI
-
 AI assistants no longer just search the web. They decide. When someone asks ChatGPT "who's the best HVAC company near me" or asks Perplexity "which dentist should I call in \[city\]," they get one answer, maybe two. Not a list of ten links. Not a map pack. One name.
 
 If that name is not yours, you are invisible to that customer, regardless of where you rank in traditional search.

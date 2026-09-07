@@ -1,12 +1,13 @@
 ---
 title: How One Simple Shift Unlocks More Revenue—Without Buying a Single New Lead
-meta_title: "Lead Reactivation: Recover More Revenue Fast | AudienceIntent"
+meta_title: "Lead Reactivation: Recover More Revenue Fast"
 date: 2026-05-05T22:45:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
 description: Turn dormant leads into booked revenue with SMS and AI. See why
   reactivation beats new lead gen and where your CRM is leaking money.
 focus_keyword: New Leads
+image: https://framerusercontent.com/images/DSASe6Bm0J8AjfQTBIJ6KvDy7g.jpg
 schema: >-
   {
     "@graph": [
@@ -90,7 +91,6 @@ schema: >-
       }
     ]
   }
-image: https://framerusercontent.com/images/DSASe6Bm0J8AjfQTBIJ6KvDy7g.jpg
 ---
 
 # How One Simple Shift Unlocks More Revenue Without Buying a Single New Lead

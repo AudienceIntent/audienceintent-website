@@ -1,12 +1,12 @@
 ---
 title: How to Get Your Business Recommended by ChatGPT, Perplexity, and Google AI
-meta_title: "AI Recommendations: 7 Fixes for Visibility"
+meta_title: How to Get Recommended by ChatGPT, Perplexity & Google AI
 date: 2026-08-29T19:07:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Learn how to get recommended by ChatGPT, Perplexity, and Google AI
   with faster fixes for data accuracy, recency, and trust signals.
-focus_keyword: AI Search
+focus_keyword: Get Recommended by ChatGPT
 canonical: ""
 image: /images/uploads/visibility-ai-search.jpg
 og_image: /images/uploads/visibility-ai-search.jpg

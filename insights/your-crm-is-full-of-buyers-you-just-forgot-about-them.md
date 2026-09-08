@@ -14,11 +14,23 @@ schema: >-
       {
         "@type": "Article",
         "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "url": "https://www.audienceintent.ai",
+          "name": "Kevin Bovett",
+          "@type": "Person",
+          "jobTitle": "Founder & CEO",
+          "worksFor": {
+            "url": "https://www.audienceintent.ai",
+            "logo": {
+              "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
+              "@type": "ImageObject"
+            },
+            "name": "AudienceIntent",
+            "@type": "Organization"
+          }
         },
-        "headline": "CRM Lead Reactivation: 7 Data Points That Matter",
+        "headline": "CRM Lead Reactivation: 7 Stats That Matter in 2026",
         "publisher": {
+          "url": "https://www.audienceintent.ai",
           "logo": {
             "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
             "@type": "ImageObject"
@@ -27,19 +39,19 @@ schema: >-
           "@type": "Organization"
         },
         "inLanguage": "en-US",
-        "description": "Old CRM leads are usually warm, not dead. See the data on reactivation rates, SMS benchmarks, follow-up timing, and the cost of ignoring them.",
+        "description": "Old CRM leads are warm, not dead. See the stats on reactivation rates, SMS benchmarks, follow-up timing, and the cost of ignoring your database.",
         "dateModified": "2026-09-08",
-        "datePublished": "2026-09-08",
-        "mainEntityOfPage": "https://www.audienceintent.ai/insights/crm-lead-reactivation"
+        "datePublished": "2026-09-01",
+        "mainEntityOfPage": "https://www.audienceintent.ai/insights/your-crm-is-full-of-buyers-you-just-forgot-about-them"
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
           {
-            "name": "How old can a lead be before it is not worth contacting?",
+            "name": "How old can a lead be and still be worth contacting?",
             "@type": "Question",
             "acceptedAnswer": {
-              "text": "It depends on lead source, consent, and why the lead stalled. Leads under 90 days dormant are often the easiest to recover, but older leads can still work if they were qualified and you have permission to text them.",
+              "text": "Leads under 90 days dormant are usually the easiest to recover, but older leads can still be worth contacting if they were qualified and you have valid SMS consent. Once a lead is 12 to 24 months old, response rates usually fall and segmentation matters more.",
               "@type": "Answer"
             }
           },
@@ -52,10 +64,10 @@ schema: >-
             }
           },
           {
-            "name": "Is SMS better than email for reactivating dormant leads?",
+            "name": "Is SMS better than email for dormant lead reactivation?",
             "@type": "Question",
             "acceptedAnswer": {
-              "text": "Usually yes. SMS gets seen far more often than email, so it is better suited for short reactivation campaigns where timing and reply rate matter. It still has to be compliant and conversational, not promotional.",
+              "text": "Usually yes. SMS gets seen far more often than email, which makes it better for short reactivation campaigns where timing and reply rate matter. It still has to be compliant, personal, and conversational.",
               "@type": "Answer"
             }
           },

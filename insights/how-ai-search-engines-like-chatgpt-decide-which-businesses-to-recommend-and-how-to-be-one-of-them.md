@@ -8,7 +8,7 @@ author: Kevin Bovett - AudienceIntent
 description: AI search doesn't rank businesses. It eliminates most first, then
   recommends the easiest ones to verify. Learn the signals that matter.
 focus_keyword: ChatGPT
-canonical: https://www.audienceintent.ai/chatgpt-business-recommendations
+canonical: ""
 image: /images/uploads/ai-search-engines.jpg
 og_image: /images/uploads/ai-search-engines.jpg
 schema: >-
@@ -33,7 +33,7 @@ schema: >-
         "dateModified": "2026-09-09",
         "datePublished": "2026-09-09",
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/chatgpt-business-recommendations",
+          "@id": "https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them",
           "@type": "WebPage"
         }
       },

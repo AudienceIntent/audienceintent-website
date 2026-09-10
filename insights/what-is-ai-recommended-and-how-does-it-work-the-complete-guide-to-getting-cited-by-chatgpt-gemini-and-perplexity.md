@@ -1,116 +1,150 @@
 ---
 title: What Is AI Recommended and How Does It Work? The Complete Guide to
   Getting Cited by ChatGPT, Gemini, and Perplexity
-meta_title: "AI Search Visibility in 2026: Why It Matters"
+meta_title: What Is AI Recommended™? The Complete Guide to AI Citations
 date: 2026-06-07T15:16:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
-description: AI search is changing how customers choose businesses. Learn why AI
-  visibility matters, how it differs from SEO, and what to do now.
+description: See how AI Recommended™ gets your business cited by ChatGPT,
+  Gemini, and Perplexity — what it costs, how it works, and real 90-day results.
 focus_keyword: AI Recommended
 canonical: ""
 image: /images/uploads/what-is-ai.jpg
 og_image: /images/uploads/what-is-ai.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "AI Search Visibility in 2026: Why It Matters",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity#article",
+        "headline": "What Is AI Recommended and How Does It Work? The Complete Guide to Getting Cited by ChatGPT, Gemini, and Perplexity",
         "description": "AI search is changing how customers choose businesses. Learn why AI visibility matters, how it differs from SEO, and what to do now.",
-        "dateModified": "2026-06-07",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/what-is-ai.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-06-07",
+        "dateModified": "2026-06-07",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT21M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/ai-search-visibility-2026",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "What Is AI Recommended and How Does It Work? The Complete Guide to Getting Cited by ChatGPT, Gemini, and Perplexity",
+            "item": "https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity#faq",
         "mainEntity": [
           {
-            "name": "What is AI Search Visibility?",
             "@type": "Question",
+            "name": "What is AI Recommended™?",
             "acceptedAnswer": {
-              "text": "AI Search Visibility is the practice of optimizing your business so AI platforms like ChatGPT, Google AI Overviews, Perplexity, and Gemini recommend you by name. It depends on structured content, third-party mentions, reviews, and consistent business information that AI systems can trust and cite.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month with no contract, plus a one-time $997 setup fee."
             }
           },
           {
-            "name": "How is AI Search Visibility different from SEO?",
             "@type": "Question",
+            "name": "How do I get my business recommended by ChatGPT and other AI assistants?",
             "acceptedAnswer": {
-              "text": "SEO focuses on ranking in Google’s list of blue links. AI Search Visibility focuses on being cited inside AI-generated answers. The signals overlap a bit, but AI visibility depends more on third-party sources, structured data, and clear entity signals than on classic ranking factors alone.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "AI assistants recommend businesses they can verify across multiple credible sources. To get cited, a business needs consistent NAP data across directories and listings, third-party editorial mentions in publications and comparison content, detailed and recent reviews on major platforms, structured data markup on its own website, and category-specific authority signals such as awards and certifications. Building this footprint is the core work of AI Recommended™."
             }
           },
           {
-            "name": "How fast can AI Search Visibility produce results?",
             "@type": "Question",
+            "name": "Is AI Recommended™ the same as SEO?",
             "acceptedAnswer": {
-              "text": "Early citation improvements can show up within 30 to 60 days in some categories, with more meaningful results often appearing within 90 days. Faster movement is possible because AI platforms can surface new sources and entity signals more quickly than traditional SEO ranking cycles.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. SEO and AI Recommended™ are separate ecosystems. SEO improves a business's visibility in Google search results. AI Recommended™ improves a business's visibility in AI assistant answers. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means the two channels have almost no overlap. A business can rank well on Google and be completely invisible to AI assistants, and vice versa."
             }
           },
           {
-            "name": "Does ranking well on Google guarantee AI visibility?",
             "@type": "Question",
+            "name": "How long does it take to see results from AI Recommended™?",
             "acceptedAnswer": {
-              "text": "No. Google rankings do not guarantee placement in ChatGPT, Perplexity, or Gemini answers. Each platform uses a different citation ecosystem, so a business can rank well in Google and still be missing from AI recommendations if the supporting signals are weak.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Measurable citation growth typically appears within 30 days. Meaningful, trackable AI-referred traffic usually becomes visible within 60 to 90 days. The compounding effect accelerates from month two onward as new citation sources accumulate. This timeline is faster than traditional SEO, where significant ranking movement typically takes three to twelve months."
             }
           },
           {
-            "name": "What should local businesses prioritize first?",
             "@type": "Question",
+            "name": "What results can I realistically expect from AI Recommended™?",
             "acceptedAnswer": {
-              "text": "Local businesses should start with the platforms their customers actually use, then build consistent signals across the web. In practice, that means structured content, review velocity, directory consistency, and third-party mentions that help AI systems trust and recommend the business.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Results vary by industry, market, and starting footprint. Blingle Premier Lighting saw a 312% increase in AI citations, 641 verified AI-referred visits, and 47 new citation sources in 90 days, going from invisible in AI search to the top recommendation in its category. AudienceIntent does not guarantee that any specific business will appear in any specific AI answer, because AI assistants make their own determinations based on source evidence. What the service builds is the evidence. Measurable citation growth within 30 days is the verified benchmark."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does AI Recommended™ work if my business already has good SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, and businesses with strong SEO often see faster results because their website content is already well-structured. The gap AI Recommended™ closes is the third-party footprint, not on-site optimization. Blingle Premier Lighting is a direct example: strong Google rankings, near-zero AI visibility before the engagement. The two services address different gaps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if I cancel AI Recommended™?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The citation sources and third-party mentions built during the engagement don't disappear when you cancel. The footprint persists. What stops is the ongoing work of adding new sources, creating new content, and monitoring prompt tracking. The compounding effect slows but doesn't reverse. Most businesses that cancel do so because they've achieved a dominant position in their category and want to maintain it with internal resources, not because results stopped."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org",
-    "internalLinks": [
-      {
-        "context": "Strong adjacent guide that expands on getting cited and recommended across AI platforms.",
-        "targetUrl": "/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai",
-        "anchorText": "AI Recommendations: 7 Fixes for Visibility"
-      },
-      {
-        "context": "Useful deeper read on the strategic case for AI visibility and why it matters now.",
-        "targetUrl": "/insights/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-before-your-competitor-does",
-        "anchorText": "Why AI Search Visibility Is Your #1 Business Priority in 2026"
-      },
-      {
-        "context": "Service explainer that supports readers who want the practical implementation side.",
-        "targetUrl": "/insights/how-audienceintent-helps-businesses-get-recommended-by-ai",
-        "anchorText": "How AudienceIntent Helps Businesses Get Recommended by AI"
-      },
-      {
-        "context": "Hub page for related AI and reactivation content.",
-        "targetUrl": "/insights",
-        "anchorText": "AudienceIntent Insights"
-      }
     ]
   }
 ---
-# What Is AI Recommended and How Does It Work? The Complete Guide to Getting Cited by ChatGPT, Gemini, and Perplexity
 
 Your customers are asking AI assistants for recommendations right now. They're typing "best outdoor lighting company near me" or "who should I use for home security systems" or "what's the best supplement brand for energy" into ChatGPT, Gemini, Perplexity, Claude, and Grok. And those AI assistants are answering with specific business names.
 

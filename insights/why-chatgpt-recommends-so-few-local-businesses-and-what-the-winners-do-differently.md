@@ -12,33 +12,128 @@ image: /images/uploads/chatgpt.jpg
 og_image: /images/uploads/chatgpt.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "How ChatGPT Recommends Local Businesses in 2026",
-        "publisher": {
-          "url": "https://www.audienceintent.ai",
-          "logo": {
-            "url": "https://www.audienceintent.ai/logo.png",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently#article",
+        "headline": "Why ChatGPT Recommends So Few Local Businesses, and What the Winners Do Differently",
         "description": "Learn why ChatGPT recommends so few local businesses and the signals that help your company earn AI search mentions and citations.",
-        "dateModified": "2026-08-03",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/chatgpt.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-08-03",
+        "dateModified": "2026-08-03",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT14M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/chatgpt-local-business-recommendations",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently"
         }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why ChatGPT Recommends So Few Local Businesses, and What the Winners Do Differently",
+            "item": "https://www.audienceintent.ai/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does ChatGPT decide which local businesses to recommend?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ChatGPT recommends local businesses based on the information it can find and verify across websites, listings, reviews, and cited sources. Strong recommendations require clear service and location details, a trustworthy reputation, consistent business information, and content that directly matches the customer's question. Businesses that are easier to verify get recommended more often."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a business rank on Google but not appear in ChatGPT recommendations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The SOCi Local Visibility Index 2026 found that less than half of businesses leading in Google local search also appear in AI local recommendations. Making the AI shortlist requires entity consistency, contextual relevance, and supporting signals that go beyond standard SEO."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I improve my local business visibility in AI search?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start by making your business information consistent across your website and major listings. Then build out individual service pages, publish direct answers to customer questions, earn recent reviews, add location-specific proof, and build credible third-party mentions. A free AI visibility audit can show you your current baseline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Google Business Profile affect AI search visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A complete and accurate Google Business Profile supports AI visibility by confirming your category, location, hours, reviews, and contact information. It works best when the profile matches the information on your website and other trusted directory listings. Inconsistencies between your GBP and your website are one of the most common reasons businesses get filtered out of AI recommendations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What content helps local businesses get cited by ChatGPT and Perplexity?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The most useful content answers specific customer questions clearly and includes evidence. Strong examples include service explainers, cost guides, local FAQs, comparison pages, case studies, and customer outcome stories. Business websites account for 58% of ChatGPT's local search sources, so your content is a direct input into AI recommendations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to improve AI visibility for a local business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Foundational improvements, such as fixing inconsistent listings and adding dedicated service pages, can make a business easier for AI systems to understand within weeks. Consistent citations and unbranded recommendation visibility typically require 60 to 90 days or more of ongoing content, reputation, and authority-building work. Results vary by industry, market, and starting point."
+            }
+          }
+        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 # Why ChatGPT Recommends So Few Local Businesses, and What the Winners Do Differently

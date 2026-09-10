@@ -4,48 +4,88 @@ meta_title: "Lead Reactivation with SMS AI: The Fastest ROI"
 date: 2026-04-08T18:21:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett
-description: New leads are getting more expensive and harder to win. Learn how
-  AI-powered SMS lead reactivation helps local service businesses turn dormant
-  leads into booked revenue — faster than buying more traffic.
+description: Learn how AI-powered SMS lead reactivation helps local service
+  businesses turn dormant leads into booked revenue.
 focus_keyword: lead reactivation
-schema: >
+schema: >-
   {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/your-old-leads-are-a-goldmine-youre-just-not-digging#article",
         "headline": "Your Old Leads Are a Goldmine. You're Just Not Digging.",
         "description": "How AI-powered SMS lead reactivation helps local service businesses turn dormant CRM leads into booked revenue faster than buying new traffic.",
-        "author": {
-          "@type": "Organization",
-          "name": "AudienceIntent",
-          "url": "https://audienceintent.ai"
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/lead-reactivation.jpg",
+          "width": 1200,
+          "height": 630
         },
-        "publisher": {
-          "@type": "Organization",
-          "name": "AudienceIntent",
-          "url": "https://audienceintent.ai",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png"
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
           }
         },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-04-08",
-        "dateModified": "2026-04-22",
+        "dateModified": "2026-04-08",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT14M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://audienceintent.ai/insights/lead-reactivation-sms-ai-local-service-businesses"
+          "@id": "https://www.audienceintent.ai/insights/your-old-leads-are-a-goldmine-youre-just-not-digging"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/your-old-leads-are-a-goldmine-youre-just-not-digging#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Your Old Leads Are a Goldmine. You're Just Not Digging.",
+            "item": "https://www.audienceintent.ai/insights/your-old-leads-are-a-goldmine-youre-just-not-digging"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/your-old-leads-are-a-goldmine-youre-just-not-digging#faq",
         "mainEntity": [
           {
             "@type": "Question",
             "name": "What is lead reactivation?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Lead reactivation is the process of re-engaging contacts in your database who previously expressed interest in your business but never converted into customers. This includes past quote requests, missed calls, unclosed consultations, and lapsed customers."
+              "text": "Lead reactivation is the process of re-engaging contacts in your database who previously expressed interest in your business but never converted into customers. This includes past quote requests, missed calls, unclosed consultations, and lapsed customers. Rather than buying new traffic, reactivation campaigns reach people who already know who you are and have shown prior intent."
             }
           },
           {
@@ -53,7 +93,7 @@ schema: >
             "name": "Why is SMS better than email for lead reactivation?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "SMS open rates consistently reach 90% to 98%, with most messages read within minutes. Email averages 20% to 30% open rates and is often read hours later. For reactivation, where timing and immediacy drive responses, SMS has a structural advantage email cannot match."
+              "text": "SMS consistently outperforms email on the metrics that matter most for reactivation: speed and visibility. Industry benchmarks place SMS open rates at 90% to 98%, with most messages read within minutes. Email averages 20% to 30% open rates and is often read hours later. For reactivation, where timing and immediacy drive responses, SMS has a structural advantage email cannot match."
             }
           },
           {
@@ -61,7 +101,7 @@ schema: >
             "name": "How many old leads should a business try to reactivate at one time?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Start with your highest-intent segments: recent unclosed leads, missed calls, and past customers due for repeat work. Sending to a smaller, well-segmented group outperforms blasting the full database with a generic message."
+              "text": "Start with your highest-intent segments rather than your entire list. Recent unclosed leads, missed calls, and past customers due for repeat work typically produce the best results because intent was highest and the relationship is freshest. Sending to a smaller, well-segmented group outperforms blasting the full database with a generic message."
             }
           },
           {
@@ -69,7 +109,7 @@ schema: >
             "name": "Is AI-powered SMS compliant for local businesses?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, when set up correctly. Compliant SMS campaigns require proper consent from recipients, clear opt-out language, suppression list management, and adherence to TCPA guidelines in the U.S."
+              "text": "Yes, when set up correctly. Compliant SMS campaigns require proper consent from recipients, clear opt-out language, suppression list management, and adherence to sending windows. TCPA guidelines in the U.S. govern commercial text messaging. Any done-for-you reactivation system should handle compliance setup as part of onboarding, not as an afterthought."
             }
           },
           {
@@ -77,7 +117,7 @@ schema: >
             "name": "How fast should a business respond to a reactivated lead who replies?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Immediately. 78% of buyers choose the first business to respond, and conversion rates drop sharply with every minute of delay. AI-powered SMS handles this by responding in under a minute, around the clock."
+              "text": "Immediately. Speed-to-lead data shows that 78% of buyers choose the first business to respond, and conversion rates drop sharply with every minute of delay. AI-powered SMS handles this by responding in under a minute, around the clock, which is the primary reason it outperforms manual follow-up for reactivation campaigns."
             }
           }
         ]

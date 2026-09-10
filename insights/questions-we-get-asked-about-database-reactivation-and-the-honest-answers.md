@@ -13,82 +13,162 @@ image: /images/uploads/database.jpg
 og_image: /images/uploads/database.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "Database Reactivation FAQ: Honest Answers That Matter",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/questions-we-get-asked-about-database-reactivation-and-the-honest-answers#article",
+        "headline": "Questions We Get Asked About Database Reactivation (And the Honest Answers)",
         "description": "Straight answers to the objections that stop business owners from trying database reactivation. Compliance, list quality, economics, and what actually happens.",
-        "dateModified": "2026-05-29",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/database.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-05-29",
+        "dateModified": "2026-05-29",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT13M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/sms-lead-reactivation-made-simple-honest-answers-to-every-question-we-get",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/questions-we-get-asked-about-database-reactivation-and-the-honest-answers"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/questions-we-get-asked-about-database-reactivation-and-the-honest-answers#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Is an old CRM list still worth reactivating?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Usually, yes. Old leads do not expire just because time passed. If the contact showed intent once and your list is TCPA-compliant, there is often still value in reaching back out, especially when the campaign is performance-based and you are not paying monthly retainers upfront.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "What makes a database reactivation list eligible for SMS?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "The list needs valid prior consent for marketing texts, and you should be able to document it. In practice, that usually means the contact opted in through a form, inquiry, point-of-sale signup, or another clearly disclosed lead capture process. Purchased or scraped lists are not a fit.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "How is database reactivation different from email reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "SMS usually wins on visibility because messages are read far more often than email. Email can still help with nurturing, but it rarely matches text for immediate response. The strongest programs use SMS for quick engagement and email for longer-term follow-up when appropriate.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What happens when someone replies and says no?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "They should be removed immediately and handled politely. A good reactivation system treats negative replies as both a compliance event and a learning signal. That means honoring opt-outs fast, avoiding escalation, and using the response data to improve future messaging.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How much revenue can dormant leads actually recover?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "It depends on list size, offer value, and response quality, but the upside is real when your CRM has enough dormant intent in it. The right way to judge it is by average customer value, not list age alone. That is why a calculator or pre-launch estimate is so useful before you start.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Questions We Get Asked About Database Reactivation (And the Honest Answers)",
+            "item": "https://www.audienceintent.ai/insights/questions-we-get-asked-about-database-reactivation-and-the-honest-answers"
           }
         ]
       },
-      "internalLinks\":[{"
-    ],
-    "@context": "https://schema.org"
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/questions-we-get-asked-about-database-reactivation-and-the-honest-answers#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "My list is old. Like, really old. Is it even worth trying?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Leads don't have an expiration date. Campaigns have been run on lists that were two-plus years dormant and still generated 20%+ reactivation rates. The age of the list matters less than the quality of the original intent. With a performance model, the worst case is that a portion of the list doesn't respond and you owe nothing beyond the setup fee."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does \"TCPA-compliant\" actually mean, and how do I know if my list qualifies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TCPA requires that contacts gave prior express written consent, documented, to receive marketing messages from your business. If your leads came in through normal business development (forms, inquiries, referrals, inbound calls), they almost certainly qualify. Purchased lists, scraped data, or contacts who only gave a number for a one-time transactional purpose typically do not."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the performance model actually work? What am I paying?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is a one-time setup fee of $997 covering onboarding, copy, and campaign configuration. After that, the model is pure performance: an agreed revenue share percentage locked in writing before launch. If the campaign generates $0, you owe nothing beyond the setup fee. There are no monthly retainers or hidden platform fees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens when someone replies and says they're not interested?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The AI handles it immediately, politely, and without escalation, then removes them from the sequence. STOP or opt-out language triggers immediate, permanent suppression. A frustrated or hostile reply gets de-escalated gracefully without matching the tone. No client has reported reputation damage from this process."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "My list is only a few hundred contacts. Is that too small?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No minimum list size is required. The right question isn't whether the list is big enough, but what the average value of a reactivated customer is worth to your business. Even a few hundred contacts can produce meaningful revenue if the average transaction value supports it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to see results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Campaigns go live within 3 to 5 days of onboarding. Replies typically start coming in within hours of launch, and booked appointments usually follow within 24 to 72 hours. The 30-day mark is when the full campaign performance picture is reviewed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to be involved in the campaign once it's running?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Minimal involvement is required. The copy, sequences, and responses are all handled end to end. What the business does need is a team ready to close the deal once an interested lead is handed off — the campaign generates the conversation and the intent, but closing is the business's side of the equation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "We already tried email reactivation and it didn't work. Why would SMS be different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS gets a 98% open rate compared to roughly 20% for email, so the message actually gets seen. Combined with conversational, personalized outreach instead of a generic blast, that combination is what produces the 20 to 30% reactivation rates seen across campaigns — a result email can't replicate even with strong copy, because it rarely gets opened in the first place."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a result actually look like? Show me a real example.",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ActivatedYou ran a controlled head-to-head test between their internal marketing team's reactivation campaign and an AI-powered SMS reactivation campaign on the same list, in the same window. The AI-powered campaign delivered a 26% conversion rate and $17.62 revenue per click, ranking first above the internal team on CTR, Average Order Value, and Revenue Per Message."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there anything that would make you tell me not to run a campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A campaign won't be recommended if the list isn't TCPA-compliant, the average transaction value is too low to support the economics, the business can't handle the inbound interest a campaign generates, or the list came from a third-party purchase. The performance-based structure keeps the incentive honest: there's no reason to take on a campaign unlikely to work."
+            }
+          }
+        ]
+      }
+    ]
   }
 ---
-# Questions We Get Asked About Database Reactivation (And the Honest Answers)
-
 We get a lot of questions about database reactivation. Most of them aren't the ones you'd expect.
 
 The basic questions — "what is it?" and "does it work?" — are easy. We've answered those before. But the questions that actually stop business owners from moving forward are messier. They're about risk, compliance, list quality, what happens when contacts push back, and whether the economics actually make sense for their situation.

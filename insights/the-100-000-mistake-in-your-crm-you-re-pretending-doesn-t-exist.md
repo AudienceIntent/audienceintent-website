@@ -8,113 +8,149 @@ description: Turn old CRM leads into booked appointments with AI lead
   reactivation. Recover dormant revenue, cut waste, and book more calls from
   leads you already paid for.
 focus_keyword: Lead Reactivation
+image: https://framerusercontent.com/images/KbPbfDUxHqUNvyd0yxwNsPBfQ.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "Lead Reactivation: Recover CRM Revenue | AudienceIntent",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/the-100-000-mistake-in-your-crm-you-re-pretending-doesn-t-exist#article",
+        "headline": "The $100,000 Mistake in Your CRM You're Pretending Doesn't Exist",
         "description": "Turn old CRM leads into booked appointments with AI lead reactivation. Recover dormant revenue, cut waste, and book more calls from leads you already paid for.",
-        "dateModified": "2026-05-04",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-05-04",
+        "dateModified": "2026-05-04",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT7M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/the-100-000-mistake-in-your-crm-you-re-pretending-doesn-t-exist",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/the-100-000-mistake-in-your-crm-you-re-pretending-doesn-t-exist"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/the-100-000-mistake-in-your-crm-you-re-pretending-doesn-t-exist#breadcrumb",
+        "itemListElement": [
           {
-            "name": "What is AI lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "AI lead reactivation uses automated SMS conversations to re-engage old leads in your CRM, detect buying intent, and route interested prospects to booking or sales follow-up. It is a faster way to recover revenue from contacts you already paid to acquire.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Why do old CRM leads still matter?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Old leads still matter because most were never truly disqualified. They were delayed, distracted, or under-followed up. If you already spent money to generate them, reactivating even a small percentage can outperform buying more traffic.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "Is SMS better than email for lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Usually, yes. SMS gets seen faster and creates a lower-friction reply path, which is critical when you are trying to restart dormant conversations. For service businesses, that speed often produces better engagement than email alone.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How old can a lead be and still convert?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "It depends on the industry and original offer, but leads can convert months or even years later if the timing, message, and follow-up are right. The key is whether there was enough original interest to justify reactivation.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What happens after a lead replies?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Once a lead replies, the response can be routed to a booking calendar, inbox, or sales rep for immediate follow-up. That shortens response time and helps convert interest before it goes cold again.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "The $100,000 Mistake in Your CRM You're Pretending Doesn't Exist",
+            "item": "https://www.audienceintent.ai/insights/the-100-000-mistake-in-your-crm-you-re-pretending-doesn-t-exist"
           }
         ]
       },
       {
-        "url": "https://www.audienceintent.ai",
-        "logo": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-        "name": "AudienceIntent",
-        "@type": "Organization",
-        "sameAs": [
-          "https://x.com/audienceintentx",
-          "https://www.linkedin.com/company/audienceintent/",
-          "https://www.facebook.com/audienceintent",
-          "https://www.instagram.com/audienceintent",
-          "https://www.youtube.com/@audienceintent",
-          "https://www.tiktok.com/@audienceintent",
-          "https://www.threads.com/@audienceintent",
-          "https://www.pinterest.com/audienceintent/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "postalCode": "33912",
-          "addressRegion": "FL",
-          "streetAddress": "6835 International Center Blvd #8",
-          "addressCountry": "US",
-          "addressLocality": "Fort Myers"
-        },
-        "founder": {
-          "name": "Kevin Bovett",
-          "@type": "Person"
-        },
-        "foundingDate": "2024"
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/the-100-000-mistake-in-your-crm-you-re-pretending-doesn-t-exist#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lead reactivation is the process of re-engaging old prospects who previously showed interest but never converted. The goal is to restart the conversation, qualify current interest, and turn dormant leads into booked appointments or revenue."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do old leads actually convert?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Many old leads were never truly unqualified. They were just not ready, not contacted quickly enough, or not followed up with consistently. When re-engagement is timed and messaged well, a meaningful percentage comes back into the pipeline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why use SMS for lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS gets opened quickly and makes it easier to start low-friction conversations. For many service businesses, text is faster, more direct, and more likely to get a response than long email sequences or repeated call attempts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How old can a lead be and still be worth reactivating?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on the industry, offer, and original source, but even leads that are 12 to 36 months old can still produce results. If the contact was once interested, there is usually enough signal to justify testing a reactivation campaign."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this better than buying more ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Often, yes - especially if your CRM already holds a large backlog of untouched leads. Reactivation usually costs less than acquiring net-new leads because you are working with contacts you already paid to generate."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which businesses benefit most from lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Appointment-driven and inquiry-driven businesses usually see the biggest upside. That includes home services, healthcare and wellness, legal, financial services, consultants, and other businesses with a history of lead generation and inconsistent follow-up."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens when a lead replies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Interested leads can be routed automatically to a booking flow, inbox, or sales rep for immediate follow-up. That reduces delay and helps convert intent while it is still hot."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if this is worth doing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If you have a CRM full of old leads, rising customer acquisition costs, or inconsistent follow-up, it is worth evaluating. The fastest way to know is to estimate how much you originally spent acquiring those contacts, then compare that number against what reactivation could recover."
+            }
+          }
+        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
-image: https://framerusercontent.com/images/KbPbfDUxHqUNvyd0yxwNsPBfQ.jpg
 ---
-
-# The $100,000 Mistake Hiding in Your CRM
 
 Most businesses think they have a lead generation problem.
 

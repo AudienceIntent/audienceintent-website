@@ -8,104 +8,140 @@ description: Dormant leads cost less to win back and often convert better than
   new ones. See why reactivation beats fresh acquisition for local service
   businesses.
 focus_keyword: Old Leads
+image: https://framerusercontent.com/images/0S1AmPc2iQSliUTHQMHGXzyyW8.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "Why Old Leads Are Worth More Than You Think",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "inLanguage": "en-US",
+        "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#article",
+        "headline": "Why Your Old Leads Are Worth More Than You Think",
         "description": "Dormant leads cost less to win back and often convert better than new ones. See why reactivation beats fresh acquisition for local service businesses.",
-        "dateModified": "2026-05-04",
-        "datePublished": "2026-05-04",
-        "mainEntityOfPage": "https://audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think"
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-03",
+        "dateModified": "2026-05-03",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think"
+        }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#breadcrumb",
+        "itemListElement": [
           {
-            "name": "What is lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Lead reactivation is the process of re-engaging contacts in your CRM who showed interest before but never booked or bought. It uses email, SMS, calls, or automation to restart the conversation and turn dormant leads into revenue without starting from zero.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Why are old leads cheaper than new leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Old leads are cheaper because you already paid to acquire them. Reactivation avoids the full top-of-funnel cost of fresh lead generation, which is why dormant contacts can often be re-engaged for a fraction of the cost of buying new leads.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "Do dormant leads still convert?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes. Dormant leads often convert well because they already know your business and raised their hand once. When the timing and message are right, reactivation can turn old inquiries into booked jobs at a much higher rate than cold traffic.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What is the best way to reactivate old leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "The best approach is segmented and value-first. Group leads by recency, interest, and source, then use personalized SMS, email, and follow-up sequences with a clear reason to re-engage, such as a new offer, updated availability, or seasonal urgency.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How fast should I follow up when a lead re-engages?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Immediately. Speed matters again the moment a dormant lead replies. If you wait hours, you risk losing them a second time. A fast automated response keeps the conversation alive and improves the chance of booking.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why Your Old Leads Are Worth More Than You Think",
+            "item": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think"
           }
         ]
       },
       {
-        "url": "https://www.audienceintent.ai",
-        "logo": {
-          "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-          "@type": "ImageObject"
-        },
-        "name": "AudienceIntent",
-        "@type": "Organization",
-        "sameAs": [
-          "https://x.com/audienceintentx",
-          "https://www.linkedin.com/company/audienceintent/",
-          "https://www.facebook.com/audienceintent",
-          "https://www.instagram.com/audienceintent",
-          "https://www.youtube.com/@audienceintent",
-          "https://www.tiktok.com/@audienceintent",
-          "https://www.threads.com/@audienceintent",
-          "https://www.pinterest.com/audienceintent/"
-        ],
-        "founder": {
-          "name": "Kevin Bovett",
-          "@type": "Person"
-        }
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lead reactivation is the process of re-engaging contacts in your existing database who previously showed interest but never converted into paying customers. Rather than acquiring new leads, reactivation uses email, SMS, and phone outreach to restart conversations with people who already know your business."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does lead reactivation cost compared to new lead generation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reactivating a dormant lead typically costs between $0.30 and $1.50 per contact. Acquiring a brand-new lead from paid channels costs $40 to $150 per contact on average. On a per-1,000-contact basis, reactivation runs $300 to $1,500 versus $5,000 to $15,000 for new lead generation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What conversion rate can I expect from a reactivation campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reactivated leads convert to appointments at rates of 10% to 25%, compared to 2% to 8% for new paid leads. Results vary based on how the database is segmented, how long leads have been dormant, and the quality of the outreach sequence."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How old is too old for a dormant lead?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no hard cutoff. Many leads go quiet because of timing, not disinterest. With the right message and offer, leads that have been dormant for 6 to 18 months can still convert. The key is segmenting by recency and tailoring the message accordingly. Leads that are 2 or more years old may need a lighter, value-first touch before any direct ask."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What channels work best for lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS consistently produces the highest open and response rates for reactivation. Email works well for nurture-style sequences. Phone calls are most effective once a lead has already re-engaged via text or email. A multi-channel sequence using all three outperforms any single channel alone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly should I respond when a dormant lead re-engages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Immediately. Research shows first responders capture 50% of opportunities. If a dormant lead replies and waits hours for a response, the window closes fast. Automated speed-to-lead systems that trigger within 60 seconds of a reply dramatically improve conversion rates on reactivated contacts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I run lead reactivation myself, or do I need a system?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can run basic reactivation manually, but a systematic approach produces far better results. Automated sequences, proper segmentation, and fast follow-up are difficult to manage manually at scale. Most businesses that see consistent results from reactivation use a done-for-you system or dedicated automation to handle outreach, responses, and booking."
+            }
+          }
+        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
-image: https://framerusercontent.com/images/0S1AmPc2iQSliUTHQMHGXzyyW8.jpg
 ---
 
 Most businesses keep pouring money into new lead generation while ignoring the contacts already sitting in their CRM.

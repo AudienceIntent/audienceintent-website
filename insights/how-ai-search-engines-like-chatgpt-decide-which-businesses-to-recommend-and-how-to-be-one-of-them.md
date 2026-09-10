@@ -13,79 +13,136 @@ image: /images/uploads/ai-search-engines.jpg
 og_image: /images/uploads/ai-search-engines.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them#article",
         "headline": "How ChatGPT Decides Which Businesses to Recommend",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "AI search doesn't rank businesses. It eliminates most first, then recommends the easiest ones to verify. Learn the signals that matter.",
-        "dateModified": "2026-09-09",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/ai-search-engines.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT22M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How ChatGPT Decides Which Businesses to Recommend",
+            "item": "https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "How does ChatGPT decide which businesses to recommend?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "ChatGPT looks for businesses it can verify from multiple trusted sources, then cites the ones that best match the query. It is not a fixed ranking. In practice, consistent business details, third-party mentions, and recent relevant content matter more than any single page on your site.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "ChatGPT runs a live web search at the moment of the query, retrieves pages it considers relevant and trustworthy, synthesizes an answer in natural language, and cites the sources it used. A business gets named only if a page containing credible, consistent information about it was retrieved and trusted during that search. There is no fixed leaderboard. The results change with every query, which is why building a presence across multiple independent sources matters more than optimizing any single page."
             }
           },
           {
+            "@type": "Question",
             "name": "Why isn't my business showing up in AI search results?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Most businesses get skipped because AI systems cannot verify them confidently. The usual causes are inconsistent business information, weak third-party coverage, stale content, or no clear page that answers the query. If the system cannot confirm enough about the business, it moves on.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "The most common reasons are: no independent footprint (the business exists only on its own website with no third-party mentions), inconsistent information across platforms (different name, address, or phone number in different directories), or website content that describes services rather than answering the specific questions customers are asking. AI systems verify businesses against third-party sources before recommending them. If those sources don't exist or conflict with each other, the business gets eliminated before the selection stage even begins."
             }
           },
           {
+            "@type": "Question",
             "name": "Is AI visibility the same as SEO?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "No. SEO helps you rank in search engines. AI visibility helps you become a source AI systems can verify and cite. Some overlap exists, but the selection rules are different, and strong Google rankings do not guarantee AI recommendations.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. Only 12% of pages cited by ChatGPT rank in Google's top 10. They are separate ecosystems with different selection criteria. SEO optimizes for Google's ranking algorithm. AI visibility builds a presence across the third-party sources, forum discussions, editorial content, and structured data that AI systems read when deciding who to recommend. A strong Google ranking does not transfer to AI citations, and vice versa."
             }
           },
           {
-            "name": "What signals matter most for AI recommendations?",
             "@type": "Question",
+            "name": "How long does it take to start showing up in AI recommendations?",
             "acceptedAnswer": {
-              "text": "The biggest signals are business consistency across the web, third-party mentions, review quality, content that answers specific questions, structured data, and freshness. AI systems use those signals to decide whether a business is easy to trust and worth naming in an answer.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "For businesses starting from near-zero AI visibility, the pattern across documented campaigns is: measurable citation growth within 30 days after fixing information consistency and implementing structured data, trackable AI traffic within 60 days, and meaningful citation compounding by 90 days. Businesses in less competitive local markets can see significant gains faster. This is not a one-time project. AI visibility compounds over time, and the gap between early movers and late entrants grows each month."
             }
           },
           {
-            "name": "How do I know if my business is visible to AI search?",
             "@type": "Question",
+            "name": "What is the difference between AI citations and regular backlinks?",
             "acceptedAnswer": {
-              "text": "Run an audit of the queries you want to win and check whether your business appears in ChatGPT, Perplexity, and Google AI results. If you are not being cited, or your competitors are showing up more often, you have a visibility gap worth fixing.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "A backlink is a hyperlink from one website to another, used primarily as a signal in Google's ranking algorithm. An AI citation is when an AI assistant names or references your business in a generated answer, with or without a clickable link. The sources that generate AI citations are often the same sources that generate backlinks, but AI systems weight them differently, prioritizing corroboration across multiple independent sources over the authority of any single link."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which AI platforms should I focus on first?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The most efficient approach is building citations across all major platforms simultaneously, because the third-party sources AI systems trust overlap significantly. ChatGPT rewards recency and editorial mentions. Perplexity rewards corroboration across multiple sources and indexes Reddit heavily. Google AI Mode integrates your Google Business Profile and local search authority. Claude and Gemini prefer well-structured, authoritative sources with strong corroboration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if my business is currently visible to AI search?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Run the free AI Visibility Audit at report.audienceintent.ai. It shows which AI platforms are currently recommending your business, for which queries, and how your citation count compares to competitors in your category. It takes about two minutes and gives you a concrete baseline before you invest in any optimization work."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org",
-    "dateModified": "2026-09-09",
-    "datePublished": "2026-09-09"
+    ]
   }
 ---
 When a potential customer types "best HVAC company in Austin" or "who's the top marketing agency in Denver" into ChatGPT, Perplexity, or Google's AI Mode, they're not getting a ranked list based on star ratings. They're getting a recommendation built from whatever those systems can verify about your business at that exact moment.

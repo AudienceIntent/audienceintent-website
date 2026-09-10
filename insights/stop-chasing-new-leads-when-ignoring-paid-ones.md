@@ -8,113 +8,133 @@ description: Stop buying new leads while old ones sit idle. Reactivate dormant
   CRM contacts, recover revenue faster, and use the Lost Revenue Calculator to
   estimate upside.
 focus_keyword: Lead Reactivation
+image: https://framerusercontent.com/images/8iLt5AwkoDp7Y4LjMtJ17pdunhc.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/stop-chasing-new-leads-when-ignoring-paid-ones#article",
         "headline": "Stop Buying New Leads While Old Ones Collect Dust",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Stop buying new leads while old ones sit idle. Reactivate dormant CRM contacts, recover revenue faster, and use the Lost Revenue Calculator to estimate upside.",
-        "dateModified": "2026-05-06",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-05-06",
+        "dateModified": "2026-05-06",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT8M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/stop-chasing-new-leads-when-ignoring-paid-ones"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/stop-chasing-new-leads-when-ignoring-paid-ones#breadcrumb",
+        "itemListElement": [
           {
-            "name": "What is lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Lead reactivation is the process of re-engaging contacts in your CRM who showed interest but did not buy. Instead of starting from zero, you reach out with context, timing, and a reason to respond now.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Why do dormant leads convert better than cold leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Dormant leads already know your brand and already raised their hand once. That makes them cheaper and faster to convert than new prospects who still need awareness, trust, and education.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "How quickly should I reactivate old leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Start with leads from the last 30 to 90 days. Those contacts are usually the warmest. Older leads can still convert, but the message should get more specific and more personal as the gap grows.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What channel works best for lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "SMS usually gets the fastest response because it is seen quickly. Email still matters, especially as a follow-up channel, but text is usually stronger for the first touch when the lead has gone cold.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Is lead reactivation worth it for a small database?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes. Even a small list can produce meaningful revenue because those leads already cost money to acquire. If your average job value is high, a modest reactivation rate can pay for the campaign many times over.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Stop Buying New Leads While Old Ones Collect Dust",
+            "item": "https://www.audienceintent.ai/insights/stop-chasing-new-leads-when-ignoring-paid-ones"
           }
         ]
       },
       {
-        "url": "https://audienceintent.ai",
-        "logo": {
-          "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-          "@type": "ImageObject"
-        },
-        "name": "AudienceIntent",
-        "@type": "Organization",
-        "sameAs": [
-          "https://x.com/audienceintentx",
-          "https://www.linkedin.com/company/audienceintent/",
-          "https://www.facebook.com/audienceintent",
-          "https://www.instagram.com/audienceintent",
-          "https://www.youtube.com/@audienceintent",
-          "https://www.tiktok.com/@audienceintent",
-          "https://www.threads.com/@audienceintent",
-          "https://www.pinterest.com/audienceintent/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "postalCode": "33912",
-          "addressRegion": "FL",
-          "streetAddress": "6835 International Center Blvd #8",
-          "addressCountry": "US",
-          "addressLocality": "Fort Myers"
-        },
-        "legalName": "AudienceIntent LLC",
-        "foundingDate": "2024"
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/stop-chasing-new-leads-when-ignoring-paid-ones#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lead reactivation is the process of re-engaging contacts in your CRM who expressed interest in your business but never converted. Instead of acquiring new leads, you reach back out to people who already raised their hand, using personalized messaging, updated offers, and sequenced follow-up to restart the conversation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long should I wait before reactivating a dormant lead?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There's no universal cutoff, but leads from 30 to 90 days ago are the warmest starting point. Leads from 6 to 18 months ago still convert at meaningful rates, especially when your message references the original conversation. Anything older than two years requires a softer approach, but even those contacts can still surprise you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the best channel for lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS outperforms email for initial re-engagement in most service categories. Open rates for text messages average above 90%, compared to 20-30% for email. A short, personalized text referencing the original inquiry cuts through far better than a generic email blast. Follow up with email for leads who don't respond to SMS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many touchpoints does a reactivation sequence need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Three is the minimum. An initial outreach, a follow-up with added value (a case study, a seasonal offer, a relevant result), and a final \"closing the loop\" message. Space them 3 to 5 days apart. More than five touchpoints with no response typically signals the lead is genuinely gone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lead reactivation worth it if my database is small?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The math works at any scale. If you have 100 dormant leads with a $1,500 average job value, a 10% reactivation rate returns $15,000 in revenue from contacts you already paid to acquire. The cost of the campaign is a fraction of what new lead generation would cost to produce the same result."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is lead reactivation different from a drip campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Drip campaigns are automated sequences triggered by new lead activity. Reactivation is a targeted effort aimed at contacts who went cold after initial engagement. The key difference is personalization: drip campaigns send the same message to everyone, while effective reactivation references the specific conversation, timing, or objection from the original inquiry."
+            }
+          }
+        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
-image: https://framerusercontent.com/images/8iLt5AwkoDp7Y4LjMtJ17pdunhc.jpg
 ---
-
-# Stop Buying New Leads While Old Ones Collect Dust
 
 An outdoor lighting franchise spent two years with a lead sitting untouched in their CRM. No follow-up. No check-in. Nothing. Then they ran a reactivation campaign in April 2025 and recovered a $19,000 job from that same contact.
 

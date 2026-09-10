@@ -3,11 +3,82 @@ title: What Happens to Your Local Business If You Ignore AI Visibility for the
   Next 6 Months
 date: 2026-03-04
 category: AI Recommended
-image: https://framerusercontent.com/images/LTn21yQxPSyNolSFZJZrUescZE.jpg
 author: Kevin Bovett - AudienceIntent
 description: Your Google rankings look fine. Your calls are down. Your leads are
   slower. You're spending more on ads just to stay even. Nothing changed on your
   end. That's t...
+image: https://framerusercontent.com/images/LTn21yQxPSyNolSFZJZrUescZE.jpg
+schema: >-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-months#article",
+        "headline": "What Happens to Your Local Business If You Ignore AI Visibility for the Next 6 Months",
+        "description": "Your Google rankings look fine. Your calls are down. Your leads are slower. You're spending more on ads just to stay even.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-03-04",
+        "dateModified": "2026-03-04",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-months"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-months#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "What Happens to Your Local Business If You Ignore AI Visibility for the Next 6 Months",
+            "item": "https://www.audienceintent.ai/insights/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-months"
+          }
+        ]
+      }
+    ]
+  }
 ---
 
 Your Google rankings look fine. Your calls are down. Your leads are slower. You're spending more on ads just to stay even.

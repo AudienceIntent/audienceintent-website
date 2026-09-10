@@ -16,59 +16,103 @@ schema: >-
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "AI Recommendations: 7 Fixes for Visibility",
-        "image": "https://www.audienceintent.ai/images/uploads/visibility-ai-search.jpg",
-        "publisher": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai#article",
+        "headline": "How to Get Your Business Recommended by ChatGPT, Perplexity, and Google AI",
         "description": "Learn how to get recommended by ChatGPT, Perplexity, and Google AI with faster fixes for data accuracy, recency, and trust signals.",
-        "dateModified": "2026-05-29",
-        "datePublished": "2026-05-29",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/visibility-ai-search.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-08-29",
+        "dateModified": "2026-08-29",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT16M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Get Your Business Recommended by ChatGPT, Perplexity, and Google AI",
+            "item": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai#faq",
         "mainEntity": [
           {
-            "name": "Does SEO still matter for AI recommendations?",
             "@type": "Question",
+            "name": "Does SEO still matter if I want to show up in AI recommendations?",
             "acceptedAnswer": {
-              "text": "Yes, but it is not enough by itself. SEO helps AI systems find and understand your site, but recommendation engines also weigh data accuracy, recency, reviews, and third-party trust signals. If those are weak, a strong SEO foundation can still leave you out of the answer.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes, but it is not sufficient on its own. Traditional SEO builds the authority and content foundation that AI systems draw from. However, AI recommendations also require data accuracy, third-party citations, review recency, and structured schema that standard SEO work does not automatically cover. Think of SEO as the floor, not the ceiling."
             }
           },
           {
-            "name": "How long does it take to see changes in AI visibility?",
             "@type": "Question",
+            "name": "How long does it take to see results from these fixes?",
             "acceptedAnswer": {
-              "text": "Simple data fixes can influence AI outputs within 30 to 60 days as systems recrawl and update their understanding. Content and citation improvements usually take longer, often 60 to 90 days or more. The fastest wins usually come from correcting business data and strengthening trust signals first.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Data fixes like NAP standardization and Google Business Profile updates can influence AI recommendation outputs within 30 to 60 days as models re-crawl and update their understanding of your business. Content and citation-building compounds over 60 to 90 days. There is no overnight fix, but the data accuracy work is the fastest-moving lever available."
             }
           },
           {
-            "name": "Do reviews matter more than backlinks for AI recommendations?",
             "@type": "Question",
+            "name": "Do reviews matter more than backlinks for AI visibility?",
             "acceptedAnswer": {
-              "text": "For local service businesses, reviews often matter more in recommendation contexts than backlinks do. Backlinks still help SEO, but AI assistants pay close attention to review recency, review volume, and the language customers use. Those signals help them decide which business sounds most credible.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "For local service businesses, yes. Backlinks drive traditional SEO authority. But AI recommendation systems weight review recency, review volume, and review language heavily when evaluating which business to name. A business with 150 recent reviews and consistent data will typically outperform a business with strong backlinks but stale or thin reputation signals."
             }
           },
           {
-            "name": "Is Google Business Profile enough to get recommended by AI?",
             "@type": "Question",
+            "name": "Is Google Business Profile alone enough to get recommended by AI?",
             "acceptedAnswer": {
-              "text": "No. Google Business Profile is one of the highest-leverage inputs, especially for Google AI, but it is only one signal. ChatGPT and Perplexity rely on a broader mix of sources, including directories, reviews, structured data, and third-party mentions.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. Google Business Profile is the highest-leverage single fix, especially for Google AI Overviews, but it is one input among many. ChatGPT and Perplexity pull from a much broader set of sources. Businesses that appear consistently across directories, review platforms, local press, and industry sites have significantly stronger AI recommendation signals than those relying on Google Business Profile alone."
             }
           }
         ]

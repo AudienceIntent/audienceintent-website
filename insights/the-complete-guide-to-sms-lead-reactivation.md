@@ -7,86 +7,141 @@ author: Kevin Bovett - AudienceIntent
 description: Turn old leads into booked conversations with SMS. Learn the 2026
   system for faster follow-up, compliance, and measurable revenue recovery.
 focus_keyword: SMS Lead Reactivation
+image: https://framerusercontent.com/images/RaSTkEFIp1Lk4m0B0EXOyrbhxwo.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "SMS Lead Reactivation: 2026 Guide to More Revenue",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/the-complete-guide-to-sms-lead-reactivation#article",
+        "headline": "The Complete Guide to SMS Lead Reactivation (2026)",
         "description": "Turn old leads into booked conversations with SMS. Learn the 2026 system for faster follow-up, compliance, and measurable revenue recovery.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-09",
         "dateModified": "2026-05-09",
-        "datePublished": "2026-01-11",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/the-complete-guide-to-sms-lead-reactivation",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/the-complete-guide-to-sms-lead-reactivation"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/the-complete-guide-to-sms-lead-reactivation#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "The Complete Guide to SMS Lead Reactivation (2026)",
+            "item": "https://www.audienceintent.ai/insights/the-complete-guide-to-sms-lead-reactivation"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/the-complete-guide-to-sms-lead-reactivation#faq",
         "mainEntity": [
           {
-            "name": "What is SMS lead reactivation?",
             "@type": "Question",
-            "acceptedAnswer": {
-              "text": "SMS lead reactivation is the process of texting old or inactive leads to restart a conversation and move them back toward booking. The best campaigns use context, segmentation, and fast reply handling instead of generic blasts.",
-              "@type": "Answer"
-            }
-          },
-          {
             "name": "Is SMS lead reactivation legal?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Yes, if you have explicit consent, follow TCPA rules, honor opt-outs immediately, and register A2P 10DLC where required. The key is documented permission and a clean compliance process, not just sending fewer texts.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes, provided you have documented consent, follow TCPA rules, register your numbers under A2P 10DLC if sending at scale, and honor opt-outs immediately. Consent must be explicit and verifiable. \"We had their number from a form fill three years ago\" is not sufficient without documentation of what they agreed to receive."
             }
           },
           {
-            "name": "How old can a lead be and still convert?",
             "@type": "Question",
+            "name": "How old can a lead be and still respond?",
             "acceptedAnswer": {
-              "text": "Older leads can still respond, especially when the message references the original inquiry and feels relevant. Many reactivation programs see results from leads that are months or even years old if the list is clean and the follow-up is timely.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Older leads can still convert if the context is strong. Many businesses see responses from leads 12 to 24 months old, especially when the outreach references the original inquiry rather than leading with a promotion."
             }
           },
           {
-            "name": "What should the first reactivation text say?",
             "@type": "Question",
+            "name": "Is SMS better than email for reactivation?",
             "acceptedAnswer": {
-              "text": "The first text should be short, personal, and easy to answer. Use the lead’s name, mention prior context, and ask a simple question that invites a reply instead of forcing a pitch.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "For restarting a stalled conversation, usually yes. SMS gets seen faster and earns more replies. Email works better as a support channel for additional context, longer explanations, or multi-touch nurture sequences. The strongest programs use both."
             }
           },
           {
-            "name": "What metrics matter most for SMS reactivation?",
             "@type": "Question",
+            "name": "Should reactivation be manual or automated?",
             "acceptedAnswer": {
-              "text": "Reply rate, qualified conversations, booked appointments, revenue recovered, opt-out rate, and time to first response matter most. Open rate is useful, but it does not tell you whether the campaign produced real business results.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Both. Automation handles speed, consistency, and first response. People step in for nuanced sales conversations, objections, and closes. The goal is not to replace human judgment but to make sure no lead waits hours for an answer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How often should you text?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For ongoing SMS programs, 2026 data suggests 4 to 6 messages per month as a healthy frequency. Reactivation campaigns should be shorter and more intentional. The goal is to restart the conversation, not maintain a broadcast schedule."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is A2P 10DLC and do I need it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A2P 10DLC (Application-to-Person 10-Digit Long Code) is a carrier registration system required for businesses sending promotional or conversational SMS at scale in the US. If you are running reactivation campaigns through a platform rather than manually texting from your personal phone, registration is required. Unregistered traffic faces filtering and delivery issues in addition to compliance risk."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should a first reactivation message include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The highest-performing first messages include the lead's first name, a reference to their prior interaction, a soft open-ended question, and no hard pitch. The goal of the first message is a reply, not a sale."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
-image: https://framerusercontent.com/images/RaSTkEFIp1Lk4m0B0EXOyrbhxwo.jpg
 ---
-
-# The Complete Guide to SMS Lead Reactivation (2026)
 
 SMS lead reactivation is the process of turning old leads into booked conversations through timely, personalized text outreach.
 

@@ -7,98 +7,133 @@ author: Kevin Bovett - AudienceIntent
 description: Reactivate old leads with personalized SMS and automation. Turn
   dormant CRM contacts into booked jobs without more ad spend.
 focus_keyword: Reactivate Old Leads
+image: https://framerusercontent.com/images/j3t8iQeZTnOV1VeTJ1z7nIkc.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "Lead Reactivation for Service Businesses | AudienceIntent",
-        "publisher": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "inLanguage": "en-US",
+        "@id": "https://www.audienceintent.ai/insights/revive-yesterday-s-leads-fill-today-s-calendar#article",
+        "headline": "Lead Reactivation for Service Businesses: Turn Old Leads Into Booked Jobs",
         "description": "Reactivate old leads with personalized SMS and automation. Turn dormant CRM contacts into booked jobs without more ad spend.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-08",
+        "dateModified": "2026-05-08",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT11M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/revive-yesterday-s-leads-fill-today-s-calendar"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/revive-yesterday-s-leads-fill-today-s-calendar#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lead Reactivation for Service Businesses: Turn Old Leads Into Booked Jobs",
+            "item": "https://www.audienceintent.ai/insights/revive-yesterday-s-leads-fill-today-s-calendar"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/revive-yesterday-s-leads-fill-today-s-calendar#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "What is lead reactivation?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Lead reactivation is the process of re-engaging dormant contacts in your CRM - people who previously asked for a quote, called, or filled out a form but never booked. The goal is to restart the conversation and turn existing interest into appointments or sales.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Lead reactivation is the process of re-engaging dormant contacts in your database — people who previously expressed interest in your service but never converted. Using personalized SMS outreach and automated follow-up sequences, reactivation campaigns restart conversations and book new appointments without requiring new ad spend."
             }
           },
           {
-            "name": "How fast does lead reactivation work?",
             "@type": "Question",
+            "name": "How long does it take to see results from a reactivation campaign?",
             "acceptedAnswer": {
-              "text": "Most well-run campaigns start producing replies and booked appointments within 7 to 14 days. Because you're reaching people who already know your business, results usually come faster than cold lead generation or paid ads.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Most campaigns produce bookings within the first 7-14 days of launch. Unlike paid advertising, which requires ramp time and audience warm-up, reactivation targets contacts who already know your business. The first messages go out and conversations start immediately."
             }
           },
           {
-            "name": "Why does SMS work better than email for reactivation?",
             "@type": "Question",
+            "name": "What response rates should I expect from SMS reactivation?",
             "acceptedAnswer": {
-              "text": "SMS gets seen faster and gets more responses. Text messages routinely outperform email for open rate, response rate, and speed to reply, which makes them a stronger channel for waking up dormant leads and moving them back into a sales conversation.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "SMS reactivation campaigns average a 45% response rate, compared to roughly 6% for email. Of contacts who respond, 10-25% typically convert to appointments or purchases in well-segmented lists."
             }
           },
           {
-            "name": "How many dormant leads do I need for reactivation to be worth it?",
             "@type": "Question",
+            "name": "Why SMS instead of email for reactivation?",
             "acceptedAnswer": {
-              "text": "There is no strict minimum. Even a few hundred old contacts can produce meaningful revenue if they were previously interested in your service. The larger and warmer the database, the more leverage you usually get from a reactivation campaign.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "SMS has a 90-98% open rate, with 80-90% of messages read within five minutes of delivery. Email open rates for generic reactivation campaigns average under 10%. For re-engaging cold contacts who may have tuned out your email list, SMS is the only channel with reliable reach."
             }
           },
           {
-            "name": "Do I need someone on my team to run it?",
             "@type": "Question",
+            "name": "How many contacts do I need for reactivation to be worth it?",
             "acceptedAnswer": {
-              "text": "Not necessarily. A done-for-you reactivation system can handle outreach, reply handling, and booking logic for you. That makes it practical for service businesses that want results without adding more sales labor or another software dashboard.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "There's no minimum, but the ROI math becomes compelling quickly. If you have 500 dormant contacts and reactivate 5% at a $500 average job value, that's $12,500 in recovered revenue. Most service businesses have far more than 500 contacts sitting untouched in their CRM."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does my team need to manage the campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. AudienceIntent's Lead Reactivation Campaigns is a done-for-you service. The team writes the scripts, builds the sequences, configures reply handling, and connects to your calendar. Your team's only job is showing up for the booked appointments."
             }
           }
         ]
       }
-    ],
-    "noIndex": false,
-    "@context": "https://schema.org",
-    "noFollow": false,
-    "internalLinks": [
-      {
-        "context": "Connects the article to the current product positioning and broader system.",
-        "targetUrl": "https://audienceintent.ai",
-        "anchorText": "Revenue Capture Engine"
-      },
-      {
-        "context": "Gives readers a direct path to quantify dormant lead value.",
-        "targetUrl": "https://lostrevenue.audienceintent.ai",
-        "anchorText": "Lost Revenue Calculator"
-      },
-      {
-        "context": "Provides a conversion path for businesses ready to evaluate lead reactivation.",
-        "targetUrl": "https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi",
-        "anchorText": "book a demo"
-      }
     ]
   }
-image: https://framerusercontent.com/images/j3t8iQeZTnOV1VeTJ1z7nIkc.jpg
 ---
-
-# Lead Reactivation for Service Businesses: Turn Old Leads Into Booked Jobs
 
 Most service businesses spend thousands every month buying new leads. Meanwhile, their CRM holds hundreds — sometimes thousands — of people who already raised their hand, asked for a quote, or booked a call. Those contacts went cold. Nobody followed up. The revenue walked out the door.
 

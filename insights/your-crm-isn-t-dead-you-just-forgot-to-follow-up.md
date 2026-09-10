@@ -7,84 +7,133 @@ author: Kevin Bovett - AudienceIntent
 description: Reactivate stale leads with faster follow-up, AI SMS, and a simple
   process that books more appointments from your CRM. See how it works.
 focus_keyword: Lead Reactivation
+image: https://framerusercontent.com/images/LmmmwsyNyNPQyG94RhZ2pSIxfY.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/your-crm-isn-t-dead-you-just-forgot-to-follow-up#article",
         "headline": "Your CRM Isn't Dead - You Just Forgot to Follow Up",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Most businesses do not have a lead problem. They have a follow-up problem. Learn how to reactivate stale leads with AI SMS and a simple process that books more appointments.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-04",
         "dateModified": "2026-05-04",
-        "datePublished": "2025-11-23",
-        "mainEntityOfPage": "https://audienceintent.ai/insights"
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT8M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/your-crm-isn-t-dead-you-just-forgot-to-follow-up"
+        }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/your-crm-isn-t-dead-you-just-forgot-to-follow-up#breadcrumb",
+        "itemListElement": [
           {
-            "name": "What is lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Lead reactivation is the process of reconnecting with old leads who showed interest but never booked, bought, or replied. It uses timely follow-up, often by SMS, to restart the conversation and recover revenue from leads you already paid to acquire.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Are old leads still worth contacting?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes. Many old leads were not a bad fit - they were just not ready yet, or your follow-up stopped too soon. A structured reactivation campaign can reopen those conversations and turn stale CRM records into booked appointments.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "Why does SMS work so well for reactivating leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "SMS usually gets seen faster than email and feels more conversational than a cold call. That makes it a strong channel for reactivating dormant leads, especially when the message is short, relevant, and tied to a clear next step.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How many follow-ups should a lead get?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "More than most teams send. A single message is rarely enough. Strong reactivation uses a short sequence across multiple touches so you stay visible long enough for timing to change and the lead to respond.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How does AudienceIntent help with lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "AudienceIntent builds a done-for-you Revenue Capture Engine that can re-engage old leads with AI SMS, handle basic objections, and route warm prospects to booking. The goal is to recover missed revenue without adding more work for your team.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Your CRM Isn't Dead - You Just Forgot to Follow Up",
+            "item": "https://www.audienceintent.ai/insights/your-crm-isn-t-dead-you-just-forgot-to-follow-up"
           }
         ]
       },
-      "internalLinks",
-      "isPillar",
-      "pillarTopic"
-    ],
-    "@context": "https://schema.org"
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/your-crm-isn-t-dead-you-just-forgot-to-follow-up#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lead reactivation is the process of reconnecting with old leads who previously showed interest but never booked, bought, or replied. The goal is to restart the conversation and convert leads you already paid to acquire, rather than paying again for new ones."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are leads from 6 or 12 months ago still worth contacting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Many leads do not convert because of timing, not lack of interest. If your original follow-up was weak or stopped too early, a structured reactivation campaign can recover missed revenue even from leads that are a year or two old."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does SMS work better than email for reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS open rates run above 90%, compared to roughly 20-30% for email. It is faster, more direct, and feels more conversational. That makes it far more effective at reopening a stalled relationship and moving a lead toward a booking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many follow-up attempts should you make?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "More than most teams make. Research consistently shows most conversions happen after the third, fourth, or fifth contact. If your team stops at one or two, you are leaving a significant portion of your pipeline on the table."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes AI reactivation different from a generic chatbot?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A purpose-built AI reactivation system is trained on your offer, your objections, and your sales language. It does not blast canned messages. It holds real conversations, qualifies leads, handles pushback, and routes warm prospects directly to booking. The difference in conversion rate is significant."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is lead reactivation best for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It works best for appointment-based or high-ticket businesses with an existing CRM, a backlog of stale leads, and a clear next step like a call, quote, consultation, or appointment. Home services, medical, legal, financial, and dealership businesses see the strongest results."
+            }
+          }
+        ]
+      }
+    ]
   }
-image: https://framerusercontent.com/images/LmmmwsyNyNPQyG94RhZ2pSIxfY.jpg
 ---
-
-# Your CRM Isn't Dead - You Just Forgot to Follow Up
 
 Most businesses do not have a lead problem. They have a follow-up problem.
 
@@ -249,6 +298,3 @@ A purpose-built AI reactivation system is trained on your offer, your objections
 
 It works best for appointment-based or high-ticket businesses with an existing CRM, a backlog of stale leads, and a clear next step like a call, quote, consultation, or appointment. Home services, medical, legal, financial, and dealership businesses see the strongest results.
 
-### How does AudienceIntent handle lead reactivation?
-
-It is done for you as part of the Revenue Capture Engine. AudienceIntent writes the scripts, builds the follow-up sequences, configures the automation, and manages the system. You do not touch a dashboard. Leads that re-engage get routed to booking automatically.

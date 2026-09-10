@@ -11,77 +11,120 @@ image: /images/uploads/vault-example.jpg
 og_image: /images/uploads/vault-example.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "Vault Metal AI Visibility Case Study | AudienceIntent",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days#article",
+        "headline": "How Vault Metal Went From Invisible in AI to 7,808 Mentions in 90 Days",
         "description": "See how Vault Metal grew from 169 AI mentions to 7,808 in 90 days with AI Recommended™. Read the results and get your free AI Visibility Report.",
-        "dateModified": "2026-09-03",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/vault-example.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-09-03",
+        "dateModified": "2026-09-03",
+        "articleSection": "Company News",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT5M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/vault-metal-ai-visibility-case-study",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How Vault Metal Went From Invisible in AI to 7,808 Mentions in 90 Days",
+            "item": "https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days#faq",
         "mainEntity": [
           {
-            "name": "What changed for Vault Metal in 90 days?",
             "@type": "Question",
+            "name": "What is AI visibility and why does it matter?",
             "acceptedAnswer": {
-              "text": "Vault Metal moved from 169 total AI mentions and 3 citations in June to 7,808 mentions and 751 citations by August. The main change was not just more references, but more credible references that pointed back to the business.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "AI visibility is how often your business appears in answers from tools like ChatGPT, Claude, Gemini, Perplexity, and Grok. It matters because more people are using these tools to find and evaluate businesses before making a decision. If AI assistants don't know your business exists, they can't recommend you — regardless of how good you are at what you do."
             }
           },
           {
+            "@type": "Question",
             "name": "What is the difference between an AI mention and an AI citation?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "A mention means an AI assistant named the brand. A citation means it pointed back to the brand as a source or supporting result. Citations matter more because they show stronger credibility and give the business a better chance of being recommended again.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "A mention means an AI assistant named your business in an answer. A citation means it pointed back to your business as a source. Citations carry more weight — they signal that AI platforms treat your business as credible and referable, not just recognizable."
             }
           },
           {
-            "name": "What is AI Recommended™?",
             "@type": "Question",
-            "acceptedAnswer": {
-              "text": "AI Recommended™ is AudienceIntent's service for building a business's presence across the sources AI assistants use when forming answers. It focuses on crawlability, content that answers real questions, and citation signals that make a business easier for AI systems to understand and reference.",
-              "@type": "Answer"
-            }
-          },
-          {
             "name": "How long does it take to see results from AI visibility work?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Vault Metal saw major movement within 90 days. In general, timelines vary by category, market, and how much accurate information already exists online. Some campaigns show early citation growth inside 30 days, while stronger results usually take longer.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Vault Metal's numbers moved significantly within 90 days. Based on what we've seen across campaigns, measurable citation growth typically starts within 30 days. Meaningful, trackable results tend to follow within 60 to 90 days. Results vary by industry, category, and how much accurate information about your business already exists online."
             }
           },
           {
-            "name": "How do I find out if my business is visible to AI?",
             "@type": "Question",
+            "name": "Does AI visibility replace SEO?",
             "acceptedAnswer": {
-              "text": "The fastest first step is to run an AI visibility audit and check what AI assistants currently say about your business. If they do not mention you, or they mention competitors instead, you have a visibility gap worth fixing.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. They serve different ecosystems. SEO gets your site ranked in Google. AI visibility gets your business cited by AI assistants. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means strong Google rankings don't automatically translate to AI recommendations — and vice versa."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I find out if my business is visible to AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The fastest way is to run a free AI Visibility Report at report.audienceintent.ai. It shows what AI assistants are currently saying about your business across the major platforms — and where the gaps are."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 Most businesses have no idea what AI assistants say about them. Not a vague idea. No idea at all.

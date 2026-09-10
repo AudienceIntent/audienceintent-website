@@ -8,6 +8,131 @@ description: AI answers favor cited sources, not just rankings. Learn why brands
   disappear in search and what to fix to show up in AI results.
 focus_keyword: AI Search
 image: https://framerusercontent.com/images/qIbUaOsPBjz2a6bGZcr2dVI0GSs.jpg
+schema: >-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/is-your-business-invisible-to-ai-search#article",
+        "headline": "Is Your Business Invisible to AI Search? Here's Why — and How to Fix It",
+        "description": "AI answers favor cited sources, not just rankings. Learn why brands disappear in search and what to fix to show up in AI results.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-08-15",
+        "dateModified": "2026-08-15",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/is-your-business-invisible-to-ai-search"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/is-your-business-invisible-to-ai-search#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Is Your Business Invisible to AI Search? Here's Why — and How to Fix It",
+            "item": "https://www.audienceintent.ai/insights/is-your-business-invisible-to-ai-search"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/is-your-business-invisible-to-ai-search#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does ranking in Google still matter for AI search visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but it's no longer the primary signal. Only 17% of AI Overview citations come from the top 10 organic results, and 61.7% of AI chatbot citations point to URLs outside the organic top 100. Traditional rankings help, but they don't transfer automatically into AI citations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does my business show up on Google but not in AI answers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google and AI search systems use different criteria. Google ranks pages based on backlinks, relevance, and authority signals. AI systems prioritize pages they can extract clean facts from, combined with third-party validation across reviews, directories, and community platforms. A strong Google ranking doesn't guarantee AI citation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kind of content helps AI systems cite a business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Clear service pages with specific facts, case studies with real results, reviews on third-party platforms, and direct answers to the questions your customers actually ask. The goal is to give the model clean, verifiable information it can trust and reuse without guessing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why are third-party mentions so important?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI systems are more likely to trust what other sources say about a business than what the business says about itself. According to Nobori's analysis of over 200,000 commercial prompt runs, approximately 85% of brand mentions in AI-generated commercial answers come from external domains. Reviews, press mentions, listings, and community references all reduce the model's uncertainty about whether to recommend you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to show up in AI search?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "New content can begin generating citations within a few days of publication. Meaningful, trackable AI visibility across multiple platforms — ChatGPT, Perplexity, Gemini, Claude, and Grok — typically takes 60 to 90 days of consistent effort. Results vary by industry, market, and starting point."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the fastest way to improve AI search visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with an audit to establish your current baseline across the major AI platforms. Fix the pages on your site that are too thin or vague to be extracted. Then build the off-site signals — reviews, directory listings, and earned mentions — that the model uses to validate what your site says."
+            }
+          }
+        ]
+      }
+    ]
+  }
 ---
 When a potential customer opens ChatGPT, Perplexity, or Gemini and asks "who's the best \[your category\] in \[your city\]," your Google ranking is irrelevant. The AI pulls from its own sources. If your business isn't one of them, the AI recommends someone else — and the customer never sees your name.
 

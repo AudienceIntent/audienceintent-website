@@ -7,98 +7,76 @@ author: Kevin Bovett
 description: See why AI recommends competitors first, what that gap costs in
   revenue, and how to diagnose the trust signals AI uses to choose who gets
   named.
-focus_keyword: Lost Revenue Math
+focus_keyword: AI Recommended
 og_image: /images/uploads/lost-revenue.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#article",
         "headline": "AI Recommended Your Competitor, Not You. Here's the Revenue Math.",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "See why AI recommends competitors first, what that gap costs in revenue, and how to diagnose the trust signals AI uses to choose who gets named.",
-        "dateModified": "2026-04-26",
-        "datePublished": "2026-04-26",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/lost-revenue.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-04-25",
+        "dateModified": "2026-04-25",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT15M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/ai-competitor-revenue-gap",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Why is my competitor showing up in AI search instead of my business?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "AI systems recommend businesses they can verify with the strongest trust signals. That usually means cleaner listings, fresher reviews, more answer-focused content, and more consistent mentions across trusted sources. If your competitor has more of those signals, they get named first.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Does ranking well in Google mean we'll show up in AI answers?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "No. Google rankings and AI recommendations are related, but they are not the same thing. A business can rank on page one and still be absent from ChatGPT, Google AI Overviews, or Perplexity if the AI lacks enough evidence to trust it.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "What hurts AI visibility the most for multi-location brands?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "The biggest issues are inconsistent business data across locations, weak review velocity, thin local content, and incomplete Google Business Profiles. When those signals vary by market, AI systems tend to favor the competitor with the cleaner footprint.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How do we measure whether AI visibility is costing us revenue?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Track AI citation frequency, AI share of voice, AI-attributed lead volume, and review velocity by location. Then compare those numbers against lead volume and conversion rates. If AI traffic converts better and you're missing it, the gap is a revenue problem, not just a visibility problem.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What should we do first if a competitor is being recommended instead of us?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Start with a visibility diagnosis. Audit reviews, structured data, local listings, answer-led content, and third-party mentions. That tells you whether the gap is a content issue, a trust issue, or both, and which markets need attention first.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AI Recommended Your Competitor, Not You. Here's the Revenue Math.",
+            "item": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math"
           }
         ]
-      }
-    ],
-    "noIndex": false,
-    "@context": "https://schema.org",
-    "noFollow": false,
-    "internalLinks": [
-      {
-        "context": "Explains the difference between traditional search rankings and AI recommendations, which supports the measurement section.",
-        "targetUrl": "https://audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)",
-        "anchorText": "AI visibility is not the same as SEO"
-      },
-      {
-        "context": "Supports the compounding gap argument and adds a related strategic perspective.",
-        "targetUrl": "https://audienceintent.ai/insights/how-ai-search-is-changing-local-customer-behavior-and-why-early-movers-are-becoming-the-default-recommendation",
-        "anchorText": "early movers build compounding advantages"
-      },
-      {
-        "context": "Useful follow-up for readers who want a broader diagnosis of why they are not appearing in AI search.",
-        "targetUrl": "https://audienceintent.ai/insights/is-your-business-invisible-to-ai-search",
-        "anchorText": "AI visibility gap you're experiencing"
       }
     ]
   }

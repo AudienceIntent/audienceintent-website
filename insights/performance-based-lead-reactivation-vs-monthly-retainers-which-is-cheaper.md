@@ -12,97 +12,144 @@ image: /images/uploads/vs-monthly-retainers.jpg
 og_image: /images/uploads/vs-monthly-retainers.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/performance-based-lead-reactivation-vs-monthly-retainers-which-is-cheaper#article",
         "headline": "Performance-Based Lead Reactivation vs Monthly Retainers: Which Is Cheaper?",
-        "publisher": {
-          "url": "https://www.audienceintent.ai",
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Compare performance-based lead reactivation with monthly retainers. Learn when results-based pricing is cheaper, how it reduces marketing risk, and how to calculate ROI.",
-        "dateModified": "2026-07-24",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/vs-monthly-retainers.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-07-24",
+        "dateModified": "2026-07-24",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT21M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/performance-based-lead-reactivation-retainers",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/performance-based-lead-reactivation-vs-monthly-retainers-which-is-cheaper"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/performance-based-lead-reactivation-vs-monthly-retainers-which-is-cheaper#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Is performance-based pricing cheaper than a monthly retainer?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "It can be cheaper when you already have dormant leads, strong customer value, and clear attribution. A monthly retainer charges a fixed amount regardless of outcome, while performance-based pricing ties cost to measurable results such as booked appointments, recovered revenue, or qualified opportunities.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "How does results-based pricing reduce marketing risk?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "It reduces risk by tying compensation to outcomes instead of activity. You are not only paying for hours, reports, or campaign management. You pay based on agreed results, which gives the provider a stronger incentive to focus on revenue-producing work.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "What happens if a results-based campaign underperforms?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Review lead quality, opt-in status, offer strength, follow-up speed, attribution rules, and sales capacity. Underperformance may come from bad data, weak messaging, or a broken handoff process rather than the pricing model itself.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "When is a monthly retainer better than performance-based pricing?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "A retainer is better for long-term campaigns where outcomes are harder to attribute, such as SEO, brand building, content strategy, PR, or ongoing creative work. It also fits businesses that want predictable deliverables instead of outcome-based compensation.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How do I calculate ROI from lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Use this formula: dormant leads x reactivation rate x close rate x average customer value. For example, 1,000 dormant leads x 10% reactivation x 20% close rate x $2,500 customer value equals $50,000 in potential recovered revenue.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Performance-Based Lead Reactivation vs Monthly Retainers: Which Is Cheaper?",
+            "item": "https://www.audienceintent.ai/insights/performance-based-lead-reactivation-vs-monthly-retainers-which-is-cheaper"
           }
         ]
       },
       {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/performance-based-lead-reactivation-vs-monthly-retainers-which-is-cheaper#faq",
+        "mainEntity": [
           {
-            "item": "https://www.audienceintent.ai",
-            "name": "Home",
-            "@type": "ListItem",
-            "position": 1
+            "@type": "Question",
+            "name": "Is performance-based pricing cheaper than a monthly retainer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Performance-based pricing can be cheaper when the business has existing leads, strong customer value, and clear attribution. A monthly retainer charges a fixed amount regardless of outcome, while performance-based pricing ties cost to measurable results such as booked appointments, recovered revenue, or qualified opportunities. Whether it is cheaper depends on how much revenue is actually recovered relative to the revenue-share cost."
+            }
           },
           {
-            "item": "https://www.audienceintent.ai/insights",
-            "name": "Insights",
-            "@type": "ListItem",
-            "position": 2
+            "@type": "Question",
+            "name": "How does results-based pricing reduce marketing risk?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Results-based pricing reduces marketing risk by tying compensation to outcomes instead of activity. The business is not paying for hours worked, reports generated, or campaigns launched. It pays based on agreed results, which gives the provider a direct financial incentive to focus on revenue-producing work rather than activity that looks productive on paper."
+            }
           },
           {
-            "item": "https://www.audienceintent.ai/insights/performance-based-lead-reactivation-retainers",
-            "name": "Performance-Based Lead Reactivation vs Monthly Retainers",
-            "@type": "ListItem",
-            "position": 3
+            "@type": "Question",
+            "name": "What happens if a results-based campaign underperforms?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If a results-based campaign underperforms, review lead quality, opt-in status, offer strength, follow-up speed, attribution rules, and sales capacity. Underperformance most often comes from bad or outdated data, a weak reason to re-engage, slow response to inbound replies, or a sales team that was not prepared to handle re-engaged contacts. The pricing model is rarely the cause."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When is a monthly retainer better than performance-based pricing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A monthly retainer is better for long-term campaigns where outcomes are harder to attribute, such as SEO, brand building, content strategy, PR, or ongoing creative work. Retainers are also better when a business wants predictable deliverables, has no existing lead database, or cannot reliably track revenue outcomes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I look for in a results-based pricing contract?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Look for a clear definition of what counts as a result, attribution windows, lead source rules, reporting cadence, compliance requirements, underperformance terms, and cancellation terms. The contract should define whether payment is tied to booked appointments, revenue, qualified leads, or another measurable outcome, and both parties should be able to independently verify when a result has occurred."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lead reactivation better than buying new leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lead reactivation can be more cost-efficient than buying new leads because the business already paid to acquire those contacts. If the old leads are still relevant and properly opted in, reactivation can recover revenue without increasing ad spend or starting from a cold audience. The comparison depends on the age and quality of the existing database."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate ROI from lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use this formula: dormant leads × reactivation rate × close rate × average customer value. For example, 1,000 dormant leads × 10% reactivation × 20% close rate × $2,500 average customer value equals $50,000 in potential recovered revenue. Compare that figure against the total cost of the campaign (setup fee plus revenue share) to assess whether the economics work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should not use performance-based lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Businesses should avoid performance-based lead reactivation if they do not have opted-in leads, have very low average customer value, lack sales capacity to handle re-engaged contacts, cannot track outcomes reliably, or have a database that is too old or too small to produce meaningful reactivation rates."
+            }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 # Performance-Based Lead Reactivation vs Monthly Retainers: Which Is Cheaper?

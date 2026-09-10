@@ -15,75 +15,119 @@ schema: >-
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting#article",
         "headline": "How Old Can a Lead Be Before It Is No Longer Worth Contacting?",
-        "image": "https://www.audienceintent.ai/images/uploads/how-old.jpg",
-        "publisher": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Old leads are not automatically dead. Learn when dormant CRM contacts are still worth outreach, what to verify first, and when to stop.",
-        "dateModified": "2026-08-10",
-        "datePublished": "2026-08-10",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/how-old.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-08-29",
+        "dateModified": "2026-08-29",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT16M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How Old Can a Lead Be Before It Is No Longer Worth Contacting?",
+            "item": "https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "Is a five-year-old lead worth contacting?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Possibly, but only after confirming permission, data quality, relevance, and that you have a genuine reason to reconnect. A five-year-old lead who booked a recurring service and never opted out is a different situation than a five-year-old form fill with no engagement history. Evaluate the record on its own merits before deciding.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Possibly, but only after confirming permission, data quality, relevance, and that you have a genuine reason to reconnect. A five-year-old lead who booked a recurring service and never opted out is a different situation than a five-year-old form fill with no engagement history. Evaluate the record on its own merits before deciding."
             }
           },
           {
+            "@type": "Question",
             "name": "Is it legal to contact leads from years ago?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Lead age is not the primary legal consideration. Businesses must evaluate consent, opt-out status, the channel being used, and applicable rules for that channel and message type. This is operational guidance, not legal advice. Consult qualified legal counsel before launching any automated outreach campaign.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Lead age is not the primary legal consideration. Businesses must evaluate consent, opt-out status, the channel being used, and applicable rules for that channel and message type. The FCC's guidance on unwanted robocalls and texts is a useful starting point. This article is operational guidance, not legal advice. Consult qualified legal counsel before launching any automated outreach campaign."
             }
           },
           {
+            "@type": "Question",
             "name": "How often should you follow up with a dormant lead?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Use a short, respectful sequence with clear opt-out handling. Two to three touches over a defined window is a reasonable starting point. Stop if there is no engagement after the sequence. Repeated outreach to someone who has not responded is not persistence — it is noise, and it creates compliance risk.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Use a short, respectful sequence with clear opt-out handling. Two to three touches over a defined window is a reasonable starting point. Stop if there is no engagement after the sequence. Repeated outreach to someone who has not responded is not persistence — it is noise, and it creates compliance risk."
             }
           },
           {
+            "@type": "Question",
             "name": "Should old leads receive SMS, email, or phone calls?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Choose the channel based on documented permission, the original relationship, data quality, and the type of message being sent. SMS typically produces higher open and response rates, but it requires explicit consent. The channel should follow the consent, not the other way around.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Choose the channel based on documented permission, the original relationship, data quality, and the type of message being sent. SMS typically produces higher open and response rates, but it requires explicit consent. Email has a lower barrier in some contexts but lower engagement. Phone calls are appropriate for high-value leads where a direct conversation is warranted and consent is in place. The channel should follow the consent, not the other way around."
             }
           },
           {
+            "@type": "Question",
             "name": "What should you say to a lead that went cold?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Reference the original reason they contacted you, ask whether the need is still relevant, and offer a low-pressure next step. Keep it short. The goal is a reply, not a sale.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Reference the original reason they contacted you, ask whether the need is still relevant, and offer a low-pressure next step. Keep it short. The goal is a reply, not a sale. A message like \"You reached out about [service] a while back — are you still looking for help, or has that been handled?\" gives the person an easy way to respond without feeling sold to."
             }
           },
           {
-            "name": "When should a business stop contacting a lead?",
             "@type": "Question",
+            "name": "When should a business stop contacting a lead?",
             "acceptedAnswer": {
-              "text": "Stop when the person opts out, the contact information is invalid, permission cannot be supported for the channel being used, the original need is no longer relevant, or repeated outreach produces no engagement. Any one of these conditions is sufficient reason to remove the record from active campaigns.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Stop when the person opts out, the contact information is invalid, permission cannot be supported for the channel being used, the original need is no longer relevant, or repeated outreach produces no engagement. Any one of these conditions is sufficient reason to remove the record from active campaigns."
             }
           }
         ]

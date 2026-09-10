@@ -12,65 +12,122 @@ image: /images/uploads/dbr-list.jpg
 og_image: /images/uploads/dbr-list.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
-        "@id": "https://www.audienceintent.ai/insights/database-reactivation-list-triage#article",
-        "url": "https://www.audienceintent.ai/insights/database-reactivation-list-triage",
         "@type": "Article",
-        "about": {
-          "name": "Database Reactivation",
-          "@type": "Thing"
+        "@id": "https://www.audienceintent.ai/insights/the-biggest-missing-step-in-database-reactivation-list-triage-before-you-send-a-single-message#article",
+        "headline": "The Biggest Missing Step in Database Reactivation: List Triage Before You Send a Single Message",
+        "description": "Most database reactivation campaigns fail before message one because the list is dirty, mixed, and misclassified. Fix triage first - compliance, lead classification, and handoff.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/dbr-list.jpg",
+          "width": 1200,
+          "height": 630
         },
         "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
           "url": "https://www.audienceintent.ai",
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
         },
-        "headline": "Database Reactivation List Triage: The Step Most Campaigns Skip",
-        "keywords": "database reactivation, list triage, SMS reactivation, TCPA compliance, lead classification, CRM hygiene, dormant leads",
         "publisher": {
-          "@id": "https://www.audienceintent.ai#org",
-          "url": "https://www.audienceintent.ai",
-          "logo": {
-            "url": "https://www.audienceintent.ai/logo.png",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "@id": "https://www.audienceintent.ai/#organization"
         },
-        "description": "Most database reactivation campaigns fail before message one because the list is dirty, mixed, and misclassified. Fix triage first - compliance, lead classification, and handoff.",
-        "dateModified": "2026-07-03",
         "datePublished": "2026-07-03",
+        "dateModified": "2026-07-03",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, list triage, SMS reactivation, TCPA compliance, lead classification, CRM hygiene, dormant leads",
+        "timeRequired": "PT14M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/database-reactivation-list-triage",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/the-biggest-missing-step-in-database-reactivation-list-triage-before-you-send-a-single-message"
         }
       },
       {
-        "@id": "https://www.audienceintent.ai#org",
-        "url": "https://www.audienceintent.ai",
-        "name": "AudienceIntent",
-        "@type": "Organization",
-        "sameAs": [
-          "https://www.linkedin.com/company/audienceintent",
-          "https://x.com/audienceintentx",
-          "https://www.facebook.com/audienceintent"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "postalCode": "33912",
-          "addressRegion": "FL",
-          "streetAddress": "6835 International Center Blvd #8",
-          "addressCountry": "US",
-          "addressLocality": "Fort Myers"
-        },
-        "telephone": "+18483587611"
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/the-biggest-missing-step-in-database-reactivation-list-triage-before-you-send-a-single-message#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "The Biggest Missing Step in Database Reactivation: List Triage Before You Send a Single Message",
+            "item": "https://www.audienceintent.ai/insights/the-biggest-missing-step-in-database-reactivation-list-triage-before-you-send-a-single-message"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/the-biggest-missing-step-in-database-reactivation-list-triage-before-you-send-a-single-message#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is list triage in database reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "List triage in database reactivation is the process of classifying every contact in your CRM into actionable categories before outreach begins. The goal is to separate contacts who are ready to reactivate (valid number, confirmed TCPA-compliant opt-in, no prior opt-out) from those who need re-consent, those who must be suppressed, and those who are unworkable due to disconnected or reassigned numbers. Skipping this step is the most common reason reactivation campaigns underperform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if my database is TCPA-compliant for SMS reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your database is TCPA-compliant for SMS reactivation if every contact you plan to message has a documented, dated opt-in that names your specific business, has not subsequently opted out through any channel, and was not sourced through a third-party lead generation form that bundled multiple brands in a single opt-in. Under the FCC's January 2026 one-to-one consent rule, bundled third-party consent is no longer valid for SMS marketing. If you cannot verify the consent source for a contact, treat that record as requiring re-consent before sending."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How old is too old for a lead to reactivate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no universal cutoff, but consent status and original intent matter more than age alone. A lead from 18 months ago with documented opt-in, a known source, and a clear buying signal is worth a reactivation attempt. A three-year-old record with no provable consent, one cold touch, and no engagement history carries more risk than potential. The practical rule: if you cannot confirm documented, dated consent still on file, win it again before you send."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens to contacts who previously opted out informally?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Since April 2025, businesses must honor opt-out requests made through any reasonable method, not just STOP keywords. That includes emails, voicemails, and informal language like \"please stop texting me.\" Any contact who communicated a desire to stop receiving messages through any channel must be permanently suppressed. If your suppression list only captures keyword replies, it is incomplete and needs to be audited before any campaign launches."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What reactivation rate should I expect from a clean, triaged list?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AudienceIntent sees 20-30% reactivation rates across campaigns run against properly triaged lists of TCPA-compliant, opted-in contacts. Results vary by industry, list age, and offer relevance. A raw, untriaged list will typically produce 5-8% response rates at best, diluted by bad numbers, opted-out contacts, and misclassified leads. The difference is not the message. It is the quality of the list the message goes to."
+            }
+          }
+        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
-# The Biggest Missing Step in Database Reactivation: List Triage Before You Send a Single Message
 
 > **TL;DR:** Most database reactivation campaigns underperform not because of the message, the timing, or the channel. They fail because the list was never triaged. Dirty data, misclassified leads, and non-compliant contacts sink results before the first text is sent. Fix the list first. Then write the copy.
 

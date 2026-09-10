@@ -7,90 +7,134 @@ author: Kevin Bovett - AudienceIntent
 description: Reactivate dormant CRM leads with AI and recover revenue you
   already paid for. See why reactivation beats buying more leads in 2026.
 focus_keyword: Old Leads
+image: https://framerusercontent.com/images/88NnpnIHQ9Lj6S9STKyFxZSPw.jpg
 og_image: /images/uploads/lead-conversion.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "Kevin Bovett",
-          "@type": "Person"
-        },
+        "@id": "https://www.audienceintent.ai/insights/your-dead-leads-are-worth-millions#article",
         "headline": "Your Dead Leads Are Worth More Than Your Next Ad Campaign",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Reactivate dormant CRM leads with AI and recover revenue you already paid for. See why reactivation beats buying more leads in 2026.",
-        "dateModified": "2026-05-09",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-05-09",
+        "dateModified": "2026-05-09",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT11M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/your-dead-leads-are-worth-millions"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/your-dead-leads-are-worth-millions#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Are old leads still worth contacting?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes. Most old leads are not bad leads, they are delayed opportunities. If the timing was off, a change in budget, season, or need can make them ready later. Reaching out again with a relevant message often uncovers revenue already sitting in the CRM.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Why is lead reactivation better than buying more leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Reactivation usually costs far less than net-new acquisition because the contact already knows your brand. You are not starting from zero. That creates a better ROI when CAC is rising and sales teams need more efficient ways to book revenue.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "How does AI improve lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "AI speeds up first contact, personalizes the message, and filters responses so sales teams only handle warm prospects. That matters because fast follow-up drives much higher qualification rates than manual outreach that happens hours or days later.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What channels work best for dormant leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Multi-channel outreach usually works best. SMS gets attention quickly, email adds context, and calls can close the loop when a lead shows interest. The right mix depends on how the lead originally came in and how long they have been dormant.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How quickly can a reactivation campaign go live?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "A done-for-you system can usually go live within days, not months, once the CRM data, messaging, and compliance setup are in place. The key is having a clear workflow for segmentation, outreach, and follow-up before the campaign starts.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Your Dead Leads Are Worth More Than Your Next Ad Campaign",
+            "item": "https://www.audienceintent.ai/insights/your-dead-leads-are-worth-millions"
           }
         ]
       },
-      "internalLinks\":[{",
-      "targetUrl",
-      "context"
-    ],
-    "@context": "https://schema.org",
-    "isPillar": false,
-    "pillarTopic": null
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/your-dead-leads-are-worth-millions#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How old is too old for a lead to be reactivated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no universal cutoff, but leads from the past 6 to 24 months tend to produce the strongest reactivation results. Leads older than two years can still convert, but the messaging needs to account for a longer gap and more significant circumstance changes. Age matters less than context: a lead who inquired about a high-consideration purchase two years ago may be more valuable than a cold contact from six months ago."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why not just have the sales team follow up with old leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sales teams are built to close warm, active opportunities. Asking them to manually sift through thousands of dormant records is not selling, it's data archaeology. The work does not get done consistently, and even when it does, the response time is far too slow to compete. AI handles the first-pass outreach at scale, so sales reps only enter the conversation when a lead has already re-engaged."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is AI reactivation compliant with SMS and email regulations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, when done correctly. Compliant reactivation uses verified contact data, respects opt-out requests, and follows A2P (Application-to-Person) messaging registration requirements for SMS. Cutting corners on compliance is how campaigns get flagged and blacklisted. A properly structured reactivation system builds compliance into the workflow from the start."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What response rates should businesses expect?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reactivated leads typically convert at 10 to 25%, compared to 3 to 8% for cold leads. Response rates vary based on lead age, industry, message quality, and channel mix. SMS tends to outperform email for initial outreach because it bypasses inbox filtering and gets seen faster."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is this different from just sending a mass email to old leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mass email blasts to cold lists are one of the fastest ways to destroy deliverability. AI-powered reactivation uses CRM data to personalize every message, segments leads by behavior and history, and uses multi-channel sequencing rather than a single blast. The result is higher response rates, no spam penalties, and conversations that feel like genuine follow-ups rather than bulk marketing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly can a reactivation campaign go live?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With a done-for-you system like AudienceIntent's Revenue Capture Engine, campaigns are typically live within 10 to 14 days. That includes contact verification, message sequencing, A2P registration, and CRM integration. There is no software for the business owner to manage."
+            }
+          }
+        ]
+      }
+    ]
   }
-image: https://framerusercontent.com/images/88NnpnIHQ9Lj6S9STKyFxZSPw.jpg
 ---
-
-# Your Dead Leads Are Worth More Than Your Next Ad Campaign
 
 You spent $50 to $150 acquiring that lead. Your sales team called three times. No answer. They moved on.
 

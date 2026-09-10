@@ -16,68 +16,111 @@ schema: >-
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "How Much Does AI Search Visibility Cost and Is AI Recommended™ Worth It?",
-        "image": "https://www.audienceintent.ai/images/uploads/ai-search-cost.jpg",
-        "publisher": {
-          "url": "https://www.audienceintent.ai",
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost#article",
+        "headline": "How Much Does AI Search Visibility Cost?",
         "description": "See what AI search visibility costs in 2026, how AI Recommended™ compares, and what local businesses should expect before they buy.",
-        "dateModified": "2026-09-06",
-        "datePublished": "2026-06-29",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/ai-search-cost.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-08-29",
+        "dateModified": "2026-08-29",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT10M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How Much Does AI Search Visibility Cost?",
+            "item": "https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost#faq",
         "mainEntity": [
           {
-            "name": "How much does AI search visibility cost in 2026?",
             "@type": "Question",
+            "name": "How long before I see results from AI search visibility work?",
             "acceptedAnswer": {
-              "text": "AI search visibility typically costs $1,000 to $25,000+ per month in 2026, depending on scope, competition, and whether the provider is doing real execution or just selling software. Most local businesses land in the $1,997 to $5,000 range for meaningful work.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Measurable citation growth typically begins within 30 days of active work. Meaningful, trackable AI traffic usually follows within 60-90 days. This is faster than traditional SEO, which typically takes 6-12 months to show movement. The key word is \"active\" — passive monitoring tools don't move the needle."
             }
           },
           {
-            "name": "What does AI Recommended™ cost?",
             "@type": "Question",
+            "name": "Do I need to cancel my SEO agency to start AI visibility work?",
             "acceptedAnswer": {
-              "text": "AI Recommended™ costs $1,997 per month, cancel anytime, plus a one-time $997 setup fee. The setup fee is charged once, even if a client uses both AI Recommended™ and Database Reactivation.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. SEO and AI search visibility are separate ecosystems with different ranking signals. Running both in parallel makes sense — SEO builds your Google presence, AI Recommended™ builds your presence in ChatGPT, Claude, Gemini, Perplexity, and Grok. They don't conflict."
             }
           },
           {
-            "name": "Why is AI search visibility priced differently from SEO?",
             "@type": "Question",
+            "name": "Why do some agencies charge $10,000+ per month for this?",
             "acceptedAnswer": {
-              "text": "AI search visibility is priced differently because it targets AI assistants that cite third-party sources, not just Google rankings. The work usually includes crawlability, content optimization, citation building, and prompt tracking, which most standard SEO retainers do not cover.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "At the high end, you're paying for enterprise infrastructure: large content production teams, coordinated PR campaigns, cross-platform monitoring, and custom reporting. Most local businesses don't need that level of operation. The $1,997-$5,000 range covers the core execution that drives results for businesses operating in regional or local markets."
             }
           },
           {
-            "name": "Do I need a long contract for AI search visibility?",
             "@type": "Question",
+            "name": "What happens if I cancel?",
             "acceptedAnswer": {
-              "text": "No, not with AI Recommended™. It is month-to-month and can be canceled anytime, while many other agencies require 6 to 12 month contracts plus higher setup fees before execution begins.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "With AI Recommended™, you can cancel anytime. There's no contract, no penalty, and no lock-in. The citations and content built during your time in the program don't disappear overnight — but ongoing citation building and prompt optimization stop. Most clients stay because the results compound over time."
             }
           },
           {
-            "name": "How do I know if AI search is worth the investment?",
             "@type": "Question",
+            "name": "How do I know if AI search is even sending customers to my competitors right now?",
             "acceptedAnswer": {
-              "text": "AI search can be worth the investment because AI traffic converts at a higher rate than standard organic traffic, and the buying intent is usually stronger. A free AI Visibility Audit can show whether your business is already being skipped in AI answers.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Start with a free AI Visibility Audit at report.audienceintent.ai. It shows you which AI prompts in your category are being answered, whether your business is appearing, and where your competitors are already positioned. Takes about two minutes and requires no signup."
             }
           }
         ]

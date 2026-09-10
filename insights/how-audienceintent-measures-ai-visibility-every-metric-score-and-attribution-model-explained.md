@@ -13,99 +13,74 @@ image: /images/uploads/ai-visibility.jpg
 og_image: /images/uploads/ai-visibility.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "AI Visibility Metrics: ROI, Scores, and Attribution",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained#article",
+        "headline": "How AudienceIntent Measures AI Visibility: Every Metric, Score, and Attribution Model Explained",
         "description": "See how AudienceIntent measures AI visibility with scores, mentions, citations, sentiment, prompt tracking, and ROI attribution across AI platforms.",
-        "dateModified": "2026-08-31",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/ai-visibility.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-08-31",
+        "dateModified": "2026-08-31",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT25M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained#breadcrumb",
+        "itemListElement": [
           {
-            "name": "What is the Overall Visibility Score in AudienceIntent reporting?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "The Overall Visibility Score is a 0 to 100 composite that summarizes how visible and credible your business is across tracked AI platforms. It combines mention rate, position quality, numbered list ranking, sentiment, and citation tracking so you can see whether visibility is broad, prominent, and trustworthy.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "What is the difference between mentions and citations?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "A mention means an AI platform named your business in an answer. A citation means that mention included a visible source link, either to your site or a third-party page. Mentions show awareness. Citations show attribution and are the stronger signal for traffic and source trust.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "How does AudienceIntent measure ROI from AI-driven search traffic?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "ROI is estimated by connecting prompt wins, AI-referred sessions, and conversion rate benchmarks. AudienceIntent uses prompt tracking to identify where you are being recommended, then compares that with analytics data from AI referrals to estimate attributable revenue from the channel.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Why does platform-specific tracking matter for ChatGPT, Perplexity, and AI Overviews?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Each platform cites different source types and behaves differently. ChatGPT is more selective and synthesis-heavy, Perplexity is freshness-first and citation-dense, and Google AI Overviews are more tightly tied to Google’s index and structured content. One strategy does not perform the same way everywhere.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What technical issues can reduce AI visibility?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Common blockers include robots.txt problems, JavaScript-only rendering, weak internal linking, duplicate canonical tags, poor schema coverage, and pages that are too deep in the site architecture. If crawlers cannot access or extract the page cleanly, citations and mentions drop.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How AudienceIntent Measures AI Visibility: Every Metric, Score, and Attribution Model Explained",
+            "item": "https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained"
           }
         ]
-      },
-      {
-        "url": "https://www.audienceintent.ai",
-        "logo": {
-          "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-          "@type": "ImageObject"
-        },
-        "name": "AudienceIntent",
-        "@type": "Organization",
-        "sameAs": [
-          "https://x.com/audienceintentx",
-          "https://www.linkedin.com/company/audienceintent/",
-          "https://www.facebook.com/audienceintent",
-          "https://www.instagram.com/audienceintent",
-          "https://www.youtube.com/@audienceintent",
-          "https://www.tiktok.com/@audienceintent",
-          "https://www.threads.com/@audienceintent",
-          "https://www.pinterest.com/audienceintent/"
-        ],
-        "foundingDate": "2024"
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 Most marketing reports tell you how many people visited your website. That is a useful number, but it answers the wrong question when half of your potential customers are asking AI assistants for recommendations instead of clicking on search results.

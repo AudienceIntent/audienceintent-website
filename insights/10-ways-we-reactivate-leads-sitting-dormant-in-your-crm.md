@@ -12,89 +12,126 @@ focus_keyword: "Reactive Leads "
 image: https://framerusercontent.com/images/l1s2kQokQ8XsYl2HQNhZ96i2i4.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "10 Ways to Reactivate Dormant Leads in Your CRM",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/10-ways-we-reactivate-leads-sitting-dormant-in-your-crm#article",
+        "headline": "10 Ways to Reactivate Dormant Leads in Your CRM (And Why Most Businesses Leave This Revenue on the Table)",
         "description": "Recover dormant CRM leads with AI SMS reactivation. See 10 proven scenarios, response benchmarks, and a faster way to book more appointments.",
-        "dateModified": "2026-05-01",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-05-01",
+        "dateModified": "2026-05-01",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT11M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/reactivate-dormant-leads-crm",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/10-ways-we-reactivate-leads-sitting-dormant-in-your-crm"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/10-ways-we-reactivate-leads-sitting-dormant-in-your-crm#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "10 Ways to Reactivate Dormant Leads in Your CRM (And Why Most Businesses Leave This Revenue on the Table)",
+            "item": "https://www.audienceintent.ai/insights/10-ways-we-reactivate-leads-sitting-dormant-in-your-crm"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/10-ways-we-reactivate-leads-sitting-dormant-in-your-crm#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "What is dormant lead reactivation?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Dormant lead reactivation is the process of re-engaging prospects who once showed interest but stopped responding. The goal is to reopen the conversation, uncover changed timing or objections, and move them back toward a booked call or sale without starting from scratch.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Dormant lead reactivation is the process of re-engaging prospects who once showed interest but stopped responding. The goal is to reopen the conversation, uncover changed timing or objections, and move them back toward a booked call or sale - without starting from scratch or spending on new lead acquisition."
             }
           },
           {
+            "@type": "Question",
             "name": "Why does SMS work better than email for lead reactivation?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "SMS works better because it gets seen faster and replied to more often. Current benchmarks show SMS open rates around 90-98% and reply rates around 45%, while email trails far behind. For dormant leads, speed and visibility matter more than long-form messaging.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "SMS gets seen faster and replied to more often. Current benchmarks show SMS open rates of 90-98% and reply rates around 45%, while email averages 20-30% open rates and 6% reply rates. For dormant leads, speed and visibility matter more than long-form messaging - and 90% of SMS messages are read within three minutes of receipt."
             }
           },
           {
+            "@type": "Question",
             "name": "How many follow-ups should a reactivation sequence include?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "A strong reactivation sequence usually includes 4-7 messages. That gives you enough repetition to catch attention without becoming intrusive. Most replies come from follow-up texts, not the first message, so stopping after one or two sends leaves money behind.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "A strong reactivation sequence includes 4-7 messages. That gives you enough repetition to catch attention without becoming intrusive. Most replies come from follow-up texts, not the first message - so stopping after one or two sends leaves the majority of your potential responses on the table."
             }
           },
           {
+            "@type": "Question",
             "name": "When is the best time to send a reactivation text?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Late morning is the strongest window for most service businesses. Messages sent between 10 AM and 12 PM tend to perform best because they land when people are active but not buried in the start-of-day rush. Triggered messages also outperform scheduled blasts.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Late morning is the strongest window for most service businesses. Messages sent between 10 AM and 12 PM tend to perform best because they land when people are active but not buried in the start-of-day rush. Behaviorally triggered messages - sent within 5 minutes of a user action - also significantly outperform scheduled broadcasts."
             }
           },
           {
-            "name": "How does AI improve dormant lead reactivation?",
             "@type": "Question",
+            "name": "How does AI improve dormant lead reactivation?",
             "acceptedAnswer": {
-              "text": "AI improves reactivation by making follow-up faster, more consistent, and more personalized. It can segment leads by behavior, trigger the right message at the right time, and keep the sequence moving without relying on a human to remember every contact.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "AI improves reactivation by making follow-up faster, more consistent, and more personalized. It segments leads by behavior and scenario, triggers the right message at the right time, and keeps the sequence moving without relying on a human to remember every contact. AI-driven sequences achieve reactivation rates of 15-35%, compared to 5-8% with manual outreach."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How old can leads be and still be reactivated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Leads can respond even after 12-24 months if the message is personalized to their context and delivered at the right time. The key variable isn't age - it's relevance. A message that references what the lead originally inquired about will outperform a generic check-in regardless of how long ago they first made contact."
             }
           }
         ]
-      }
-    ],
-    "@context": "https://schema.org",
-    "isPillar": false,
-    "pillarTopic": null,
-    "internalLinks": [
-      {
-        "context": "Useful internal link to the service page for readers who want the done-for-you system behind the strategy.",
-        "targetUrl": "https://audienceintent.ai",
-        "anchorText": "lead reactivation campaigns"
-      },
-      {
-        "context": "Strong CTA link for readers who want to see how many dormant leads they already have.",
-        "targetUrl": "https://report.audienceintent.ai",
-        "anchorText": "free Business Performance Report"
       }
     ]
   }

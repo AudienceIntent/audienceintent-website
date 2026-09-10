@@ -10,72 +10,120 @@ focus_keyword: Database Reactivation
 image: https://framerusercontent.com/images/6G2ERt50ZhwzepVKiIQC4d5GYs.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-made-simple-honest-answers-to-every-question-we-get#article",
         "headline": "SMS Lead Reactivation Made Simple: Honest Answers to Every Question We Get",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Learn how SMS lead reactivation works, what results are realistic, what TCPA compliance requires, and when your old list is worth using.",
-        "mainEntityOfPage": "https://www.audienceintent.ai/insights/sms-lead-reactivation-made-simple-honest-answers-to-every-question-we-get"
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-09-01",
+        "dateModified": "2026-09-01",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-made-simple-honest-answers-to-every-question-we-get"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-made-simple-honest-answers-to-every-question-we-get#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "SMS Lead Reactivation Made Simple: Honest Answers to Every Question We Get",
+            "item": "https://www.audienceintent.ai/insights/sms-lead-reactivation-made-simple-honest-answers-to-every-question-we-get"
+          }
+        ]
       },
       {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-made-simple-honest-answers-to-every-question-we-get#faq",
         "mainEntity": [
           {
-            "name": "What is SMS lead reactivation?",
             "@type": "Question",
+            "name": "Does this replace my CRM or existing marketing?",
             "acceptedAnswer": {
-              "text": "SMS lead reactivation is the process of texting old leads or past customers who already gave your business permission to contact them. The goal is to reopen a real conversation, qualify interest, and recover revenue from contacts you already paid to acquire.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. Database Reactivation runs alongside your existing CRM, nurture sequences, and sales team. It doesn't interfere with active campaigns or replace any tool you're already using. It works on the dormant segment of your database, the contacts no current campaign is touching."
             }
           },
           {
-            "name": "Is SMS lead reactivation legal?",
             "@type": "Question",
+            "name": "Can you match our brand voice?",
             "acceptedAnswer": {
-              "text": "Yes, if the leads were collected with proper TCPA-compliant SMS consent and you follow current opt-out, timing, and carrier registration rules. Purchased lists, scraped contacts, and unclear consent records are not safe to use.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes. Before any messages go out, the team builds sequences to match your tone, vocabulary, and offer. You review and approve everything. Whether your brand is formal, casual, high-ticket, or trade-focused, the messages are written to sound like they came from your business, not a generic automation."
             }
           },
           {
-            "name": "What results are realistic from dormant lead reactivation?",
             "@type": "Question",
+            "name": "What happens when someone responds negatively or opts out?",
             "acceptedAnswer": {
-              "text": "Results vary by list quality, offer, timing, and compliance. Strong programs can see open rates around 95% to 98%, while reactivation and conversion rates depend heavily on how fresh the list is and whether the message matches the lead’s original intent.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Negative responses are flagged immediately. Opt-outs are processed and removed from the list. Carrier reputation and compliance status are monitored throughout the campaign. No contact receives a message after opting out."
             }
           },
           {
-            "name": "How much does Database Reactivation cost?",
             "@type": "Question",
+            "name": "How does this interact with my sales team?",
             "acceptedAnswer": {
-              "text": "AudienceIntent’s Database Reactivation uses a revenue-share model with a one-time $997 setup fee. There is no monthly retainer, and the ongoing fee is tied to revenue generated from the campaign.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Qualified, interested leads are routed directly to your calendar or sales team. The reactivation campaign handles the outreach and initial qualification. Your team picks up from there with contacts who have already expressed interest."
             }
           },
           {
-            "name": "How do I know if my old leads are worth texting?",
             "@type": "Question",
+            "name": "What if I've tried SMS reactivation before and it didn't work?",
             "acceptedAnswer": {
-              "text": "Start with whether the contacts originally opted in for SMS, then look at list size, lead age, and average transaction value. If the list is consented and the business can profit from a small percentage of reactivated leads, it may be worth running numbers through the Lost Revenue Calculator.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "The most common reasons campaigns underperform: the list wasn't properly segmented, the messages were generic and impersonal, the offer wasn't relevant to the lead's original interest, or the contacts weren't actually opted in for SMS. All four are fixable. If you've run a campaign before that didn't perform, it's worth understanding why before writing off the channel."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 If you have a list of old leads sitting in your CRM, you've probably wondered whether it's worth doing anything with them. Not in a hopeful way. In a skeptical way: *Is this just another marketing thing that sounds good and delivers nothing?*

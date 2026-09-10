@@ -1,7 +1,7 @@
 ---
 title: "Lead Reactivation Explained: How to Win Back Lost Customers"
 meta_title: "Lead Reactivation Guide: SMS, Compliance, ROI"
-date: 2026-02-12
+date: 2026-09-01T00:00:00.000-04:00
 category: Database Reactivation
 author: "Kevin Bovett - AudienceIntent "
 description: Learn how lead reactivation works, why SMS beats email, what TCPA

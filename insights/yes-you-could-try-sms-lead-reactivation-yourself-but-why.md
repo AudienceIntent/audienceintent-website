@@ -8,99 +8,125 @@ author: Kevin Bovett - AudienceIntent
 description: DIY SMS lead reactivation looks cheaper. It usually costs more in
   time, risk, and missed revenue. See why done-for-you wins.
 focus_keyword: SMS Lead Reactivation
+image: https://framerusercontent.com/images/zp9yMrooAUev8GWCHbXtejMA9r8.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "SMS Lead Reactivation: DIY vs Done-for-You",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/yes-you-could-try-sms-lead-reactivation-yourself-but-why#article",
+        "headline": "Yes, You Could Build SMS Lead Reactivation Yourself. Here's What That Actually Costs You.",
         "description": "DIY SMS lead reactivation looks cheaper. It usually costs more in time, risk, and missed revenue. See why done-for-you wins.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-06",
+        "dateModified": "2026-05-06",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT12M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-diy-vs-done-for-you",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/yes-you-could-try-sms-lead-reactivation-yourself-but-why"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/yes-you-could-try-sms-lead-reactivation-yourself-but-why#breadcrumb",
+        "itemListElement": [
           {
-            "name": "How long does SMS lead reactivation take to launch?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Most DIY builds take weeks because of number setup, A2P approval, compliance review, and testing. A done-for-you setup is much faster because the provider handles the technical work, messaging logic, and deployment.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "What is A2P 10DLC and why does it matter?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "A2P 10DLC is the registration system carriers use for business texting in the United States. If you skip it, messages can get blocked or throttled. It also helps prove your texts are legitimate and compliant.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "Why is DIY SMS reactivation risky?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "DIY puts compliance, deliverability, and campaign performance on your team. One mistake in opt-in handling, timing, or message structure can create blocked messages, bad response rates, or legal exposure.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What kind of results can dormant lead reactivation produce?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Results depend on the database and offer, but cold leads often respond because they already know the business. The value is in reaching people who were already interested instead of starting from zero.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What do I need to provide to get started?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "You usually need access to your existing lead database and basic business details. A done-for-you provider handles the setup, compliance, messaging, and campaign management from there.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Yes, You Could Build SMS Lead Reactivation Yourself. Here's What That Actually Costs You.",
+            "item": "https://www.audienceintent.ai/insights/yes-you-could-try-sms-lead-reactivation-yourself-but-why"
           }
         ]
       },
       {
-        "url": "https://www.audienceintent.ai",
-        "logo": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-        "name": "AudienceIntent",
-        "@type": "Organization",
-        "sameAs": [
-          "https://x.com/audienceintentx",
-          "https://www.linkedin.com/company/audienceintent/",
-          "https://www.facebook.com/audienceintent",
-          "https://www.instagram.com/audienceintent",
-          "https://www.youtube.com/@audienceintent",
-          "https://www.tiktok.com/@audienceintent",
-          "https://www.threads.com/@audienceintent",
-          "https://www.pinterest.com/audienceintent/"
-        ],
-        "foundingDate": "2024"
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/yes-you-could-try-sms-lead-reactivation-yourself-but-why#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long does it take to launch an SMS reactivation campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With AudienceIntent, campaigns go live within 10-14 days. That includes phone number provisioning, A2P registration, AI agent build, compliance review, and full deployment. DIY operators typically spend 6-12 weeks reaching the same point, assuming no rejections or technical setbacks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is A2P 10DLC and why does it matter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A2P (Application-to-Person) 10DLC is the federal registration standard for all business text messaging in the United States. As of February 2025, any unregistered SMS traffic is blocked outright by carriers. Registration requires brand verification, campaign documentation, and approval from The Campaign Registry. Without it, your messages never reach the recipient."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the TCPA penalties for non-compliant SMS campaigns?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Telephone Consumer Protection Act carries penalties of $500 to $1,500 per message, per recipient, for violations. That includes texting without explicit written consent, failing to honor opt-out requests, or sending outside permitted hours. A single class-action suit can cost more than years of outsourcing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kind of results can I expect from SMS lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Results vary by industry and database size, but client benchmarks include $36,000 in recovered booked jobs (Blingle), a 22% conversion rate outperforming an internal marketing team (ActivatedYou), and 5 new sales calls booked in week one (GoldenCrest Metals). SMS open rates run 90-98%, with conversion rates of 21-40% across industries when campaigns are built and managed correctly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to provide anything to get started?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You provide access to your existing lead database. AudienceIntent handles everything else: setup, registration, AI training, compliance, monitoring, and booking. No dashboards to manage, no tools to learn, no ongoing tasks on your end."
+            }
+          }
+        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
-image: https://framerusercontent.com/images/zp9yMrooAUev8GWCHbXtejMA9r8.jpg
 ---
-
-# Yes, You Could Build SMS Lead Reactivation Yourself. Here's What That Actually Costs You.
 
 Your CRM is full of leads you already paid to acquire. They filled out a form, clicked an ad, called your number, and then went cold. Most business owners write those leads off as dead. They're not.
 
@@ -326,8 +352,6 @@ If you're ready to find out what's sitting in your database, [schedule a call wi
 **What is A2P 10DLC and why does it matter?** A2P (Application-to-Person) 10DLC is the federal registration standard for all business text messaging in the United States. As of February 2025, any unregistered SMS traffic is blocked outright by carriers. Registration requires brand verification, campaign documentation, and approval from The Campaign Registry. Without it, your messages never reach the recipient.
 
 **What are the TCPA penalties for non-compliant SMS campaigns?** The Telephone Consumer Protection Act carries penalties of $500 to $1,500 per message, per recipient, for violations. That includes texting without explicit written consent, failing to honor opt-out requests, or sending outside permitted hours. A single class-action suit can cost more than years of outsourcing.
-
-**What does AudienceIntent's Lead Reactivation service cost?** Lead Reactivation Campaigns are included in the Revenue Capture Engine at $2,497/month. There are no onboarding fees, no long-term contracts, and a 30-day money-back guarantee. After the initial 90 days, the service runs month-to-month.
 
 **What kind of results can I expect from SMS lead reactivation?** Results vary by industry and database size, but client benchmarks include $36,000 in recovered booked jobs (Blingle), a 22% conversion rate outperforming an internal marketing team (ActivatedYou), and 5 new sales calls booked in week one (GoldenCrest Metals). SMS open rates run 90-98%, with conversion rates of 21-40% across industries when campaigns are built and managed correctly.
 

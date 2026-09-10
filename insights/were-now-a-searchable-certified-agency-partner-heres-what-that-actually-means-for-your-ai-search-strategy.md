@@ -13,86 +13,130 @@ image: /images/uploads/searchable-partner.png
 og_image: /images/uploads/searchable-partner.png
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "Kevin Bovett",
-          "@type": "Person"
-        },
-        "headline": "Searchable Certified Agency Partner: What It Means",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy#article",
+        "headline": "We're Now a Searchable Certified Agency Partner. Here's What That Actually Means for Your AI Search Strategy.",
         "description": "AudienceIntent completed the Searchable AI Search Accelerator. Here's what we learned, how it sharpens AI Recommended™, and why it matters.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/searchable-partner.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-06-08",
         "dateModified": "2026-06-08",
-        "datePublished": "2026-06-08"
+        "articleSection": "Company News",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT7M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "We're Now a Searchable Certified Agency Partner. Here's What That Actually Means for Your AI Search Strategy.",
+            "item": "https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy"
+          }
+        ]
       },
       {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy#faq",
         "mainEntity": [
           {
-            "name": "What is the Searchable Certified Agency Partner credential?",
             "@type": "Question",
+            "name": "What is the Searchable Certified Agency Partner designation?",
             "acceptedAnswer": {
-              "text": "It is a certification earned by completing the Searchable AI Search Accelerator, a six-week live agency training program focused on AI search, AEO, GEO, schema, entity optimization, and content strategy.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "It's a credential awarded to agencies that complete the Searchable AI Search Accelerator — a six-week, live cohort program covering AI search optimization, AEO, GEO, schema markup, entity optimization, and content strategy for AI citation. AudienceIntent's certification was issued June 8, 2026, signed by Chris Donnelly, CEO @ Searchable, and is valid through June 8, 2027. It's a structured program with defined phases, live instruction, and an evaluation component — not a quiz at the end of a video series."
             }
           },
           {
-            "name": "How is AEO different from SEO?",
             "@type": "Question",
+            "name": "What is AEO, and how is it different from SEO?",
             "acceptedAnswer": {
-              "text": "AEO is built to help AI assistants extract and cite content in answers. SEO is built to help pages rank in search engines like Google. They overlap, but they are not the same system.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Claude, Gemini, Perplexity, Grok — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means these are genuinely separate ecosystems requiring separate strategies."
             }
           },
           {
-            "name": "Does this certification guarantee AI citations?",
             "@type": "Question",
+            "name": "What is GEO?",
             "acceptedAnswer": {
-              "text": "No. No agency can guarantee placement in a specific AI answer. What the certification does is strengthen the methodology behind our work so we can improve the odds with better structure, schema, and content.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Generative Engine Optimization (GEO) is the practice of optimizing content for generative AI platforms specifically — systems that synthesize answers from multiple sources rather than returning a list of links. Where AEO focuses on getting cited in AI answers, GEO focuses on how your content is represented and weighted when an AI engine generates a response. The Accelerator covers both."
             }
           },
           {
-            "name": "How quickly can AI Recommended™ produce results?",
             "@type": "Question",
+            "name": "Does AI Recommended™ guarantee placement in AI answers?",
             "acceptedAnswer": {
-              "text": "Measurable citation growth can show up within about 30 days, with more meaningful AI traffic usually building over 60 to 90 days. Timing varies by category, competition, and the strength of the starting point.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No, and any agency claiming otherwise is misrepresenting how AI systems work. What we do guarantee is a documented strategy: structured content, entity and schema optimization, citation building across verified third-party sources, and real-time reporting on AI citation frequency. Results vary by industry, competition, and timing."
             }
           },
           {
-            "name": "How do I know if my business is visible in AI search?",
             "@type": "Question",
+            "name": "How quickly does AI Recommended™ show results?",
             "acceptedAnswer": {
-              "text": "Run the free AI Visibility Audit at report.audienceintent.ai. It shows how your business appears across major AI platforms and highlights where the gaps are.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Measurable citation growth typically appears within 30 days. Meaningful, trackable AI search traffic typically builds within 60 to 90 days. The strategy compounds — early citation gains create authority signals that accelerate further citations over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I find out if my business is currently visible to AI assistants?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AudienceIntent offers a free AI Visibility Audit that shows exactly how your business appears across the major AI platforms. It takes about two minutes and requires no signup. Run yours at report.audienceintent.ai."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org",
-    "isPillar": false,
-    "pillarTopic": null,
-    "twitterCard": "summary_large_image",
-    "internalLinks": [
-      {
-        "context": "Useful supporting read for readers who want the compliance side of lead reactivation before booking.",
-        "targetUrl": "https://audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026",
-        "anchorText": "TCPA-compliant SMS opt-in leads"
-      }
     ]
   }
 ---
-# We're Now a Searchable Certified Agency Partner. Here's What That Actually Means for Your AI Search Strategy.
 
 AudienceIntent has been named a **Searchable Certified Agency Partner** after completing the Searchable AI Search Accelerator — a six-week live cohort program built specifically for agencies delivering AI search optimization services.
 

@@ -17,30 +17,68 @@ schema: >-
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "Track AI Mentions, Citations, and Share of Voice Across ChatGPT, Perplexity, and Google AI",
-        "image": "https://www.audienceintent.ai/images/uploads/ai-mentions.jpg",
-        "publisher": {
-          "url": "https://www.audienceintent.ai",
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity-and-google-ai#article",
+        "headline": "How to Track AI Mentions, Citations, and Share of Voice Across ChatGPT, Perplexity, and Google AI",
         "description": "Learn how to measure AI mentions, citations, and share of voice across ChatGPT, Perplexity, and Google AI with a repeatable weekly system.",
-        "dateModified": "2026-08-24",
-        "datePublished": "2026-08-24",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/ai-mentions.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-08-29",
+        "dateModified": "2026-08-29",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT13M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity-and-google-ai",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity-and-google-ai"
         }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity-and-google-ai#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Track AI Mentions, Citations, and Share of Voice Across ChatGPT, Perplexity, and Google AI",
+            "item": "https://www.audienceintent.ai/insights/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity-and-google-ai"
+          }
+        ]
       }
     ]
   }

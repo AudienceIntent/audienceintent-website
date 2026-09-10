@@ -154,7 +154,6 @@ schema: >-
     ]
   }
 ---
-# If a Miami Homeowner Asks AI Who to Call for Their Roof, Will Your Name Come Up?
 
 It's a Tuesday morning in Coral Gables. A homeowner walks outside after last night's storm and spots a dark water stain spreading across her living room ceiling. She doesn't open Google. She picks up her phone, opens ChatGPT, and types: *"Who is the best roofing company in Miami for storm damage repair?"*
 

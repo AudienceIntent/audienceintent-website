@@ -11,79 +11,74 @@ image: /images/uploads/ai-search-guide-step-by-syep.jpg
 og_image: /images/uploads/ai-search-guide-step-by-syep.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "How to Make Your Business Visible to AI Search",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "inLanguage": "en-US",
+        "@id": "https://www.audienceintent.ai/insights/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide#article",
+        "headline": "How to Make Your Business Visible to AI Search (A Step-by-Step Guide)",
         "description": "A beginner-friendly guide to getting found in AI search. Learn the exact steps to reduce invisibility and show up more often in AI answers.",
-        "dateModified": "2026-07-13",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/ai-search-guide-step-by-syep.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-07-13",
+        "dateModified": "2026-07-13",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide#breadcrumb",
+        "itemListElement": [
           {
-            "name": "What does AI search visibility mean?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "AI search visibility means your business is easy for AI tools to find, understand, and mention when someone asks for a recommendation. It depends on clear business info, consistent listings, helpful content, and signs that your business is active and trusted.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "How do I know if my business is invisible to AI search?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Search for the kinds of questions your customers ask in tools like ChatGPT, Perplexity, and Google AI. If your business does not appear, or your competitors show up instead, that is a sign your visibility is weak and needs work.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "What is the first thing I should fix?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Start with consistency. Make sure your business name, address, phone number, and website match across your Google Business Profile, website, Yelp, Facebook, Apple Maps, and other major listings. Inconsistent details make it harder for AI to trust your business.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Do reviews matter for AI search visibility?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes. Reviews help AI systems judge whether your business is active, real, and trusted. A steady stream of recent reviews, plus responses from your business, is stronger than a large number of old reviews with no activity.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Do I need a blog to show up in AI answers?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Not necessarily, but you do need pages that answer real customer questions clearly. AI tools prefer content that is direct, specific, and useful. Even a few strong service pages or FAQ pages can help more than a generic blog.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Make Your Business Visible to AI Search (A Step-by-Step Guide)",
+            "item": "https://www.audienceintent.ai/insights/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide"
           }
         ]
-      },
-      "internalLinks:[{"
-    ],
-    "@context": "https://schema.org"
+      }
+    ]
   }
 ---
 # How to Make Your Business Visible to AI Search (A Step-by-Step Guide)

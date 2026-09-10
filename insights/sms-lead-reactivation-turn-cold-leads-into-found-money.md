@@ -7,84 +7,125 @@ author: Kevin Bovett - AudienceIntent
 description: Turn old CRM leads into booked appointments with compliant SMS
   reactivation. See why speed, segmentation, and follow-up drive revenue.
 focus_keyword: SMS Lead Reactivation
+image: https://framerusercontent.com/images/jaYfiRcDoCCiHc4HvBstHV1iM8.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "SMS Lead Reactivation: Found Revenue in 2026",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-turn-cold-leads-into-found-money#article",
+        "headline": "SMS Lead Reactivation: How to Turn Cold Leads Into Revenue in 2026",
         "description": "Turn old CRM leads into booked appointments with compliant SMS reactivation. See why speed, segmentation, and follow-up drive revenue.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-09",
         "dateModified": "2026-05-09",
-        "datePublished": "2026-01-10",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT8M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/sms-lead-reactivation-turn-cold-leads-into-found-money",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-turn-cold-leads-into-found-money"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-turn-cold-leads-into-found-money#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "SMS Lead Reactivation: How to Turn Cold Leads Into Revenue in 2026",
+            "item": "https://www.audienceintent.ai/insights/sms-lead-reactivation-turn-cold-leads-into-found-money"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-turn-cold-leads-into-found-money#faq",
         "mainEntity": [
           {
-            "name": "What is SMS lead reactivation?",
             "@type": "Question",
+            "name": "How old can a lead be before SMS reactivation stops working?",
             "acceptedAnswer": {
-              "text": "SMS lead reactivation is the process of texting old or inactive leads with personalized messages to restart the conversation. It works best when the list is segmented, compliant, and tied to a clear next step like booking or replying.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "There is no hard cutoff, but leads that inquired within the last 6-18 months tend to perform best. Leads older than two years often require more aggressive segmentation and a stronger re-engagement hook. The most important factor is not age - it is whether the original consent was properly captured and documented."
             }
           },
           {
-            "name": "Why does SMS work better than email for dormant leads?",
             "@type": "Question",
+            "name": "Is SMS lead reactivation legal for my business?",
             "acceptedAnswer": {
-              "text": "SMS gets seen faster and more often than email. Most texts are opened within minutes, which makes them a better fit for leads who need a quick, low-friction way to respond after going quiet.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes, provided you have prior express written consent from the contacts you are texting. The FCC's One-to-One Consent Rule, which took effect January 27, 2026, eliminated the \"prior business relationship\" loophole for marketing messages. If your leads opted in through a form, ad, or booking flow that included SMS consent language, you are in good shape. If consent is unclear, those contacts should be suppressed."
             }
           },
           {
-            "name": "How old can a lead be and still respond to SMS?",
             "@type": "Question",
+            "name": "What kind of response rates should I expect?",
             "acceptedAnswer": {
-              "text": "Many leads can still respond after months of inactivity, especially if they originally showed strong intent. The best results usually come from contacts who inquired in the last 6 to 18 months and still match your service fit.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Benchmarks for SMS reactivation campaigns vary by industry, list quality, and message quality. Broadly, re-engagement rates of 5-15% are common, with well-segmented campaigns hitting the higher end. Response rates for SMS in general average around 45%, which is far above email's roughly 6%. Conversion to booked appointment depends on your offer, follow-up speed, and qualification process."
             }
           },
           {
-            "name": "Is SMS lead reactivation compliant?",
             "@type": "Question",
+            "name": "How is SMS reactivation different from a win-back email campaign?",
             "acceptedAnswer": {
-              "text": "Yes, if you have proper consent, A2P 10DLC registration, clear opt-out language, and suppression rules in place. Compliance matters because it affects both deliverability and legal risk.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "The core difference is reach and speed. SMS messages are opened within seconds by most recipients. Email win-back campaigns may take days to be seen, if they are seen at all. SMS also produces a two-way conversation, which email rarely does. For service businesses where the goal is a booked appointment, that immediacy is a significant advantage."
             }
           },
           {
-            "name": "What makes an SMS reactivation campaign perform well?",
             "@type": "Question",
+            "name": "What does AudienceIntent's Lead Reactivation Campaign include?",
             "acceptedAnswer": {
-              "text": "The strongest campaigns are segmented, fast, and conversation-driven. They use short messages, real-time follow-up, and a booking path instead of generic blast-style texts that feel spammy.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "AudienceIntent builds and manages the full campaign: database cleaning, segmentation, message scripting, A2P 10DLC compliance setup, real-time response handling, and booking integration. It is part of the Revenue Capture Engine, a done-for-you system that runs without requiring any dashboard access or daily management from the business owner."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
-image: https://framerusercontent.com/images/jaYfiRcDoCCiHc4HvBstHV1iM8.jpg
 ---
-
-# SMS Lead Reactivation: How to Turn Cold Leads Into Revenue in 2026
 
 Old leads are not dead leads. In many service businesses, they are one of the fastest paths to recovered revenue.
 

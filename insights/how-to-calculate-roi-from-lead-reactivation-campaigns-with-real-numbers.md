@@ -12,83 +12,106 @@ image: /images/uploads/roi.jpg
 og_image: /images/uploads/roi.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "Lead Reactivation ROI: 5 Variables + Real Numbers",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-to-calculate-roi-from-lead-reactivation-campaigns-with-real-numbers#article",
+        "headline": "How to Calculate ROI from Lead Reactivation Campaigns (With Real Numbers)",
         "description": "Learn how to calculate lead reactivation ROI, benchmark results, and estimate your own number with real examples from dormant lead campaigns.",
-        "dateModified": "2026-06-05",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/roi.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-06-05",
-        "mainEntityOfPage": "https://audienceintent.ai/blog/lead-reactivation-roi-calculator"
+        "dateModified": "2026-06-05",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT10M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-to-calculate-roi-from-lead-reactivation-campaigns-with-real-numbers"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-to-calculate-roi-from-lead-reactivation-campaigns-with-real-numbers#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Calculate ROI from Lead Reactivation Campaigns (With Real Numbers)",
+            "item": "https://www.audienceintent.ai/insights/how-to-calculate-roi-from-lead-reactivation-campaigns-with-real-numbers"
+          }
+        ]
       },
       {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-to-calculate-roi-from-lead-reactivation-campaigns-with-real-numbers#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "What is a good ROI for lead reactivation?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "A good lead reactivation ROI is 300% or higher, meaning you recover at least three dollars for every dollar spent. At 300% to 499%, the campaign is performing well. At 500% or above, it is excellent and usually points to a strong list, good messaging, and a cost structure tied to results.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "A good lead reactivation ROI is 300% or higher, meaning you recover at least three dollars for every dollar spent on the campaign. A 300% to 499% ROI indicates a well-run campaign with solid execution. An ROI of 500% or above is excellent and typically reflects a strong list, effective personalized messaging, and a performance-based cost structure. Anything below 100% means the campaign cost more than it recovered, which usually points to a channel, messaging, or list quality problem."
             }
           },
           {
+            "@type": "Question",
             "name": "How long does it take to see ROI from lead reactivation?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Most SMS lead reactivation campaigns start producing replies within days, and closed revenue often shows up within 1 to 4 weeks depending on the sales cycle. Faster sales cycles can show ROI in the first week. Longer or higher-ticket sales may take 30 to 60 days to fully close.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Most well-executed SMS reactivation campaigns begin producing results within the first 7 to 14 days of launch, because SMS messages are typically read within minutes of delivery. The first wave of re-engaged leads usually responds in the first 48 to 72 hours. Closed revenue depends on your sales cycle — a home services business may close deals in the same week, while a higher-ticket B2B sale may take 30 to 60 days to close. The full ROI picture is typically clear within 30 to 45 days of campaign launch."
             }
           },
           {
+            "@type": "Question",
             "name": "Is performance-based lead reactivation worth it?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Yes, for most businesses with a real dormant lead list. Performance-based pricing caps downside because you are not paying a fixed fee before results come in. If the campaign produces revenue, the provider gets paid from that revenue. If it does not, you avoid the same upfront risk a flat retainer creates.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What inputs do I need to calculate lead reactivation ROI?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "You need five numbers: database size, reactivation rate, close rate on reactivated leads, average deal value, and total campaign cost. Once you have those, plug them into the ROI formula and calculate the revenue recovered, net revenue, and percentage return.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes, for most businesses with a qualified list of past leads. Performance-based reactivation aligns the provider's incentive with your outcome: they only earn when you earn. This eliminates the risk of paying a flat fee for zero results. The trade-off is that your cost per deal is a percentage of revenue rather than a fixed amount, which means the absolute cost scales with success. For a business owner evaluating ROI before committing, a performance-only model is the most defensible structure because your downside is capped and your upside is proportional to the quality of your list and execution."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org",
-    "isPillar": false,
-    "pillarTopic": null,
-    "internalLinks": [
-      {
-        "context": "Best CTA for readers who want to estimate their own lead reactivation ROI from a dormant database.",
-        "targetUrl": "https://lostrevenue.audienceintent.ai",
-        "anchorText": "Lost Revenue Calculator"
-      },
-      {
-        "context": "Relevant supporting read for the compliance considerations that affect SMS reactivation performance and cost.",
-        "targetUrl": "https://audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026",
-        "anchorText": "TCPA Compliance for SMS Lead Reactivation: 2026 Guide"
-      }
     ]
   }
 ---
-# How to Calculate ROI from Lead Reactivation Campaigns (With Real Numbers)
 
 **Lead reactivation ROI is calculated by dividing the net revenue recovered from dormant leads by the total cost of the campaign, then multiplying by 100.** Spend $2,000 running a reactivation campaign and recover $18,000 in closed revenue from leads who went quiet, and your lead reactivation ROI is 800%. That is not a projection — it is the actual return on money you already spent acquiring those leads the first time.
 

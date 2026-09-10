@@ -12,75 +12,136 @@ image: /images/uploads/lead-generation.jpg
 og_image: /images/uploads/lead-generation.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "Lead Generation vs Reactivation: What We Actually Do",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "inLanguage": "en-US",
+        "@id": "https://www.audienceintent.ai/insights/we-are-not-a-lead-generation-service-heres-the-difference-that-matters#article",
+        "headline": "We Are Not a Lead Generation Service. Here's the Difference That Matters.",
         "description": "AudienceIntent does not buy leads or run lead gen. We reactivate your TCPA-compliant opt-in database, with clear rules for SMS, quiet hours, and opt-outs.",
-        "dateModified": "2026-09-02",
-        "datePublished": "2026-09-02",
-        "mainEntityOfPage": "https://audienceintent.ai/insights/lead-generation-vs-reactivation"
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/lead-generation.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-09-01",
+        "dateModified": "2026-09-01",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT11M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/we-are-not-a-lead-generation-service-heres-the-difference-that-matters"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/we-are-not-a-lead-generation-service-heres-the-difference-that-matters#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "We Are Not a Lead Generation Service. Here's the Difference That Matters.",
+            "item": "https://www.audienceintent.ai/insights/we-are-not-a-lead-generation-service-heres-the-difference-that-matters"
+          }
+        ]
       },
       {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/we-are-not-a-lead-generation-service-heres-the-difference-that-matters#faq",
         "mainEntity": [
           {
-            "name": "What is the difference between lead generation and database reactivation?",
             "@type": "Question",
+            "name": "Can you help me build a new list from scratch?",
             "acceptedAnswer": {
-              "text": "Lead generation finds new people and tries to turn them into leads. Database reactivation works with contacts you already own and already have permission to contact. AudienceIntent does the second one. We do not buy lists, scrape contacts, or source strangers from third-party databases.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. We do not source, purchase, or build new contact lists. If you need lead generation, that is a separate service category. What we do is work with the contacts you already have permission to reach."
             }
           },
           {
-            "name": "What does TCPA require for SMS marketing?",
             "@type": "Question",
+            "name": "What if my list is old? Does the opt-in still count?",
             "acceptedAnswer": {
-              "text": "TCPA requires valid consent before you send marketing texts. For AudienceIntent, that means your contacts must have opted in to hear from your business specifically, and we need proof that consent was captured properly. If that record is missing or unclear, we do not run the campaign.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Age alone does not invalidate consent. A contact who opted in two years ago and never opted out still has valid consent on record. That said, very old lists can have higher rates of disconnected numbers, changed numbers, and contacts who have moved on. We triage lists before launch to identify and remove these, which improves deliverability and keeps your campaign metrics clean."
             }
           },
           {
-            "name": "What are SMS quiet hours?",
             "@type": "Question",
+            "name": "What if some contacts on my list opted in through a third-party form?",
             "acceptedAnswer": {
-              "text": "Marketing texts generally must be sent between 8 a.m. and 9 p.m. in the recipient's local time zone. Some states are stricter. We send inside those windows and avoid gray-area timing, because SMS violations create real legal exposure.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "This is where you need to be careful. The FCC attempted to close the shared-consent loophole with a one-to-one consent rule, but that rule was vacated by the 11th Circuit in January 2025 before it took effect. The previous standard still applies: consent from a third-party form is technically valid if the language was clear and your business was named. That said, vague \"marketing partners\" language remains legally risky and is the basis for a significant volume of active TCPA litigation. If the form named your business specifically and the language was unambiguous, the record is likely usable. If it was a generic multi-seller opt-in, treat it as contested. We will help you identify which records fall into which category before the campaign launches."
             }
           },
           {
-            "name": "What happens if someone opts out?",
             "@type": "Question",
+            "name": "What happens when someone replies STOP?",
             "acceptedAnswer": {
-              "text": "They are removed immediately. We honor STOP requests and any reasonable opt-out method, then suppress that contact from future sends. The only follow-up allowed is a brief confirmation text, and it cannot include marketing content.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "They are removed from the campaign immediately. No additional promotional messages are sent. Per FCC rules, we may send one brief confirmation text acknowledging the opt-out, with no marketing content. After that, the contact is permanently suppressed from all future sends."
             }
           },
           {
-            "name": "Can you work from an old CRM list?",
             "@type": "Question",
+            "name": "Do you handle the compliance side, or is that my responsibility?",
             "acceptedAnswer": {
-              "text": "Yes, if the list is compliant. Age alone does not kill consent. What matters is whether the person opted in to hear from your business, whether the record is retrievable, and whether they have not opted out since then. We help triage lists before launch.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Both. You are responsible for providing a list of contacts who genuinely opted in to hear from your business. We are responsible for running the campaign within TCPA requirements, including quiet hours, opt-out processing, 10DLC registration, and message content standards. We do not run campaigns on lists where the opt-in status is uncertain. If there is a question about a batch of contacts, we address it before the campaign launches, not after."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does \"performance-based\" mean exactly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It means we do not charge a monthly retainer. We agree on a revenue share percentage before the campaign launches, locked in writing. If the campaign generates revenue, we take our agreed percentage of that revenue. If it does not generate revenue, you owe nothing beyond the one-time setup fee. The definition of \"a result\" (booked job, confirmed sale, etc.) is defined in writing before we start."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I see what my database might be worth before committing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The Lost Revenue Calculator estimates the potential value of your dormant list based on your industry, list size, and average transaction value. It is free and takes about 60 seconds. If the numbers make sense, book a call and we will walk through your specific situation."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 If you found us searching for "lead generation" or "lead gen agency," you're in the right place to get the record straight.

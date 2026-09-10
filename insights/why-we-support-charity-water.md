@@ -5,82 +5,122 @@ date: 2026-08-04T13:00:00.000-04:00
 category: Company News
 author: "Kevin Bovett - AudienceIntent "
 description: "AudienceIntent supports charity: water because 2.1 billion people
-  still lack safe drinking water. See why this nonprofit earns trust and
-  impact."
+  still lack safe drinking water. See why this nonprofit earns our trust, and
+  how to donate."
 focus_keyword: "Charity:Water "
-image: https://framerusercontent.com/images/tuvMepgC3veaBBLgllDlxZux80.jpg
+image: /images/uploads/opencity-inc-charity-spotlight-charitywater-uganda.jpg
+og_image: /images/uploads/opencity-inc-charity-spotlight-charitywater-uganda.jpg
 schema: >-
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "url": "https://www.audienceintent.ai/insights/why-we-support-charity-water",
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
+        "@id": "https://www.audienceintent.ai/insights/why-we-support-charity-water#article",
         "headline": "Why AudienceIntent Supports charity: water",
-        "image": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "AudienceIntent supports charity: water because 2.1 billion people still lack safe drinking water. See why this nonprofit earns trust and impact.",
-        "dateModified": "2026-05-04",
-        "datePublished": "2026-05-04",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/opencity-inc-charity-spotlight-charitywater-uganda.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-08-04",
+        "dateModified": "2026-08-04",
+        "articleSection": "Company News",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT4M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/why-we-support-charity-water",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/why-we-support-charity-water"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/why-we-support-charity-water#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why AudienceIntent Supports charity: water",
+            "item": "https://www.audienceintent.ai/insights/why-we-support-charity-water"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/why-we-support-charity-water#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "Why does AudienceIntent support charity: water?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "AudienceIntent supports charity: water because clean water is a basic need and the organization combines global impact with unusual transparency. It aligns with how we think about responsible business and measurable help.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "We support charity: water because clean water is a foundational need, and the organization combines global impact with unusually strong financial transparency. It aligns with how we think about building a responsible business."
             }
           },
           {
+            "@type": "Question",
             "name": "How many people still lack safe drinking water?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "WHO and UNICEF report that 2.1 billion people still lack safely managed drinking water worldwide. That is roughly 1 in 4 people, which makes the crisis urgent and still far from solved.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "WHO and UNICEF report that 2.1 billion people still lack safely managed drinking water worldwide as of 2026. That figure represents roughly 1 in 4 people on the planet."
             }
           },
           {
+            "@type": "Question",
             "name": "What makes charity: water different from other nonprofits?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Its 100% model is the clearest differentiator. Public donations go directly to water projects, while separate private funding covers operating costs. Donors also get project tracking and updates.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Its 100% model is the clearest differentiator: every dollar donated by the public goes directly to water projects. Operational costs are funded separately by a private group of donors, so nothing is skimmed from public contributions."
             }
           },
           {
+            "@type": "Question",
             "name": "Is charity: water a credible organization?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Yes. charity: water has strong public reporting and a 4 out of 4 star rating from Charity Navigator for accountability and finance. That combination makes it easier for donors to trust the work.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes. charity: water earned a 4 out of 4 star rating from Charity Navigator for accountability and finance. It also provides GPS-tracked project data and real-time donor reports so contributors can verify exactly where their money went."
             }
           },
           {
-            "name": "Where can I donate through AudienceIntent?",
             "@type": "Question",
+            "name": "Where can I donate?",
             "acceptedAnswer": {
-              "text": "You can donate through the AudienceIntent campaign page at https://www.charitywater.org/audienceintent. Donations help fund clean water projects in communities that need them most.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "You can donate through our campaign page at charitywater.org/audienceintent. Donations go directly to funding clean water projects in communities that need them most."
             }
           }
         ]

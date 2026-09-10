@@ -17,94 +17,133 @@ schema: >-
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "AI Recommended: Get Your Business Cited by AI",
-        "image": "https://www.audienceintent.ai/images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible#article",
+        "headline": "How to Get Your Business Recommended by ChatGPT, Gemini, and Perplexity (And Why Most Businesses Are Invisible)",
         "description": "Learn how ChatGPT, Gemini, Claude, Perplexity, and Grok choose businesses, and what to fix so your brand shows up more often.",
-        "dateModified": "2026-08-22",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-08-22",
+        "dateModified": "2026-08-22",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT20M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Can I pay to get my business recommended by ChatGPT or Perplexity?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "No. There is no paid placement in AI assistant recommendations. ChatGPT, Perplexity, Claude, Gemini, and Grok all assemble recommendations from sources they consider most credible and consistent — not from ad spend. The only way to earn a recommendation is to build the signals those platforms look for: consistent directory data, detailed reviews, third-party mentions, structured content, and schema markup.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "How is AI visibility different from SEO?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "SEO gets your website ranked in Google's search results. AI visibility gets your business cited when someone asks an AI assistant for a recommendation. They use almost entirely different signals. Only 12% of pages cited by ChatGPT rank in Google's top 10 — meaning your SEO performance has almost no bearing on whether AI recommends you.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "Which AI assistant should I prioritize first?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Start with Perplexity. It has the highest recommendation rate (88%) and the fastest indexing cycle. Businesses typically see their first Perplexity citations within 6 to 8 weeks of starting an optimization program. Simultaneously, complete your Google Business Profile to 100% for Gemini visibility.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How do I know if AI assistants are already recommending me?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Open ChatGPT, Perplexity, Claude, and Gemini and ask what's the best version of your service in your city, and who should be hired for what you do near your location. Screenshot the results to establish your baseline, or run the free audit at report.audienceintent.ai.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How many reviews do I need to get recommended?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "There's no specific threshold, but recency and detail matter more than volume. A business with 20 detailed, descriptive reviews from the last three months will often outperform one with 200 generic star ratings from 2022.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Does AI visibility replace my SEO strategy?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "No. They are separate ecosystems that serve different customer behaviors. SEO captures people who open Google and search. AI visibility captures people who ask an AI assistant for a recommendation. You need both.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What does a done-for-you AI visibility program actually include?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "A complete AI visibility program covers auditing your current citation footprint, fixing directory inconsistencies, deploying schema markup, optimizing existing website content, publishing new content that answers customer questions, building third-party citation sources, and tracking your AI recommendation status monthly. AudienceIntent's AI Recommended™ program handles all of this for $1,997/month with no contract and no lock-in.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Get Your Business Recommended by ChatGPT, Gemini, and Perplexity (And Why Most Businesses Are Invisible)",
+            "item": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible"
           }
         ]
       },
       {
-        "url": "https://www.audienceintent.ai",
-        "logo": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&w
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I pay to get my business recommended by ChatGPT or Perplexity?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. There is no paid placement in AI assistant recommendations. ChatGPT, Perplexity, Claude, Gemini, and Grok all assemble recommendations from sources they consider most credible and consistent — not from ad spend. The only way to earn a recommendation is to build the signals those platforms look for: consistent directory data, detailed reviews, third-party mentions, structured content, and schema markup. Any service claiming to \"guarantee\" placement in a specific AI answer is not being honest with you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is AI visibility different from SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO gets your website ranked in Google's search results. AI visibility gets your business cited when someone asks an AI assistant for a recommendation. They use almost entirely different signals. Only 12% of pages cited by ChatGPT rank in Google's top 10 — meaning your SEO performance has almost no bearing on whether AI recommends you. You need to build both, and they require separate strategies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which AI assistant should I prioritize first?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with Perplexity. It has the highest recommendation rate (88%) and the fastest indexing cycle. Businesses typically see their first Perplexity citations within 6 to 8 weeks of starting an optimization program. Simultaneously, complete your Google Business Profile to 100% for Gemini visibility, since that's a single high-leverage action. ChatGPT and Claude follow as your content and third-party mentions build up over 10 to 16 weeks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if AI assistants are already recommending me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Open ChatGPT, Perplexity, Claude, and Gemini and ask: \"What's the best [your service] in [your city]?\" and \"Who should I hire for [what you do] near [your location]?\" Screenshot the results. If you're not appearing, you have your baseline. For a faster automated check, run the free audit at report.audienceintent.ai. You can also check Google Analytics 4 for referral traffic from chatgpt.com, perplexity.ai, claude.ai, and gemini.google.com."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many reviews do I need to get recommended?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There's no specific threshold, but recency and detail matter more than volume. A business with 20 detailed, descriptive reviews from the last three months will often outperform one with 200 generic star ratings from 2022. AI models read review content to determine when and for what to recommend you. Focus on getting customers to describe their specific experience, the service they received, and the outcome — not just leave a star rating."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does AI visibility replace my SEO strategy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. They are separate ecosystems that serve different customer behaviors. SEO captures people who open Google and search. AI visibility captures people who ask an AI assistant for a recommendation. The overlap is small — only 12% of AI-cited pages rank in Google's top 10. You need both. Think of AI visibility as a new customer acquisition channel that runs in parallel to your existing SEO and marketing, not as a replacement for it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a done-for-you AI visibility program actually include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A complete AI visibility program covers: auditing your current citation footprint, fixing directory inconsistencies, deploying schema markup, optimizing existing website content, publishing new content that answers customer questions, building third-party citation sources, and tracking your AI recommendation status monthly. AudienceIntent's AI Recommended™ program handles all of this for $1,997/month with no contract and no lock-in. Book a call to see what your current visibility score looks like and what it would take to move it."
+            }
+          }
+        ]
+      }
+    ]
+  }
 ---
 > **TL;DR:** Most businesses are invisible to AI assistants because they've never been optimized for how AI makes recommendations. Getting recommended by ChatGPT, Gemini, Claude, Perplexity, and Grok requires a different strategy than SEO. The signals that matter are: consistent business information across directories, detailed reviews on multiple platforms, third-party mentions from credible sources, structured data markup on your website, and content that directly answers the questions your customers ask AI. None of this happens by accident. Here's exactly how it works.
 

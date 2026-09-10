@@ -8,81 +8,149 @@ author: Kevin Bovett - AudienceIntent
 description: Use SMS lead reactivation to win back dormant leads fast, stay
   compliant, and recover revenue from your CRM without buying more traffic.
 focus_keyword: SMS Lead Reactivation
+image: https://framerusercontent.com/images/Q9O7GwKOHEPzDbk7XKl3WL7GRQ.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "SMS Lead Reactivation: 4 Steps to Recover Revenue",
-        "publisher": {
-          "url": "https://audienceintent.ai",
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-how-to-win-back-customers-and-unlock-hidden-revenue#article",
+        "headline": "SMS Lead Reactivation: How to Win Back Dormant Leads and Recover Hidden Revenue",
         "description": "Use SMS lead reactivation to win back dormant leads fast, stay compliant, and recover revenue from your CRM without buying more traffic.",
-        "dateModified": "2026-05-06",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-05-06",
+        "dateModified": "2026-05-06",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/sms-lead-reactivation",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-how-to-win-back-customers-and-unlock-hidden-revenue"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-how-to-win-back-customers-and-unlock-hidden-revenue#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "SMS Lead Reactivation: How to Win Back Dormant Leads and Recover Hidden Revenue",
+            "item": "https://www.audienceintent.ai/insights/sms-lead-reactivation-how-to-win-back-customers-and-unlock-hidden-revenue"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-how-to-win-back-customers-and-unlock-hidden-revenue#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "What is SMS lead reactivation?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "SMS lead reactivation is the process of sending targeted text messages to inactive leads or past customers to bring them back into your sales pipeline. It works best when messages are segmented, personalized, and timed around real buying behavior.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "SMS lead reactivation is the practice of sending targeted text messages to inactive leads or past customers to re-engage them and move them back into your sales pipeline. Unlike cold outreach, these contacts already have some familiarity with your business, which is why response rates are significantly higher than traditional prospecting."
             }
           },
           {
-            "name": "How many SMS messages should a reactivation sequence include?",
             "@type": "Question",
+            "name": "How long should I wait before reactivating a lead?",
             "acceptedAnswer": {
-              "text": "A three-message sequence is usually the sweet spot for service businesses. Start with a warm check-in, follow with a reason to act, then send one final close-the-loop message if there’s no response.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "It depends on your business cycle, but most service businesses see the best results starting reactivation sequences at 30-60 days of inactivity. Waiting longer than 90-120 days reduces response rates and increases the likelihood that the contact has already hired a competitor."
             }
           },
           {
+            "@type": "Question",
             "name": "Do I need consent to text dormant leads?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Yes. If you do not have valid prior express written consent, you should re-permission contacts before sending marketing texts. TCPA compliance is part of campaign performance, not just legal protection.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes. Under TCPA regulations, you need prior express written consent before sending marketing texts. If a contact opted in when they first inquired, that consent may still be valid. If they came from a third-party source or opted in more than a year ago, you likely need to re-permission them before sending any reactivation messages. Violations carry fines of $500-$1,500 per message."
             }
           },
           {
-            "name": "Why does SMS work better than email for dormant leads?",
             "@type": "Question",
+            "name": "How many messages should a reactivation sequence include?",
             "acceptedAnswer": {
-              "text": "SMS gets seen faster and more often than email. That speed matters when you’re trying to recover revenue from old leads, because the message reaches people while the business is still top of mind.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Three messages over 7-10 days is the standard for service businesses. A warm check-in, a value-added follow-up with an incentive, and a final close-the-loop message. More than three without a reply typically generates opt-outs rather than conversions."
             }
           },
           {
-            "name": "What should a reactivation text include?",
             "@type": "Question",
+            "name": "What should a reactivation SMS actually say?",
             "acceptedAnswer": {
-              "text": "It should include your business name, a clear reason for reaching out, a simple next step, and opt-out language. Short, direct messages usually outperform long or overly promotional copy.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Keep it short, personal, and direct. Include your business name, a specific reason to respond now (an offer, a seasonal angle, or a simple check-in), and a clear next step. Every message needs an opt-out option."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's a realistic conversion rate for SMS reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Service businesses running segmented SMS campaigns report conversion rates of 25-35% on offers and follow-ups. The overall response rate for SMS offers sits around 45%, compared to 6% for email. Results vary based on list quality, segmentation, and how long the leads have been inactive."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is SMS reactivation different from regular SMS marketing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Regular SMS marketing targets your active audience to drive repeat purchases or promote new offers. Reactivation specifically targets contacts who have gone quiet, with messaging designed to rebuild engagement rather than push a product. The segmentation, tone, and sequencing are different because the goal is re-establishing trust, not maintaining it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I run SMS reactivation myself, or do I need a service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can run it yourself if you have a compliant SMS platform, a clean CRM, and the time to build and monitor sequences. The risk is in the compliance layer: consent verification, opt-out processing, and message formatting all have legal requirements that are easy to misconfigure. Done-for-you services handle that risk and typically deliver faster results because the sequences are built from proven frameworks rather than starting from scratch."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
-image: https://framerusercontent.com/images/Q9O7GwKOHEPzDbk7XKl3WL7GRQ.jpg
 ---
-
-# SMS Lead Reactivation: How to Win Back Dormant Leads and Recover Hidden Revenue
 
 Your CRM is full of leads you already paid for. Most of them never converted, and most businesses never follow up again. That's not a lead problem. It's a revenue recovery problem.
 

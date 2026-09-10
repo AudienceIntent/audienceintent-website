@@ -12,102 +12,136 @@ image: /images/uploads/lead-reactivation-2.jpg
 og_image: /images/uploads/lead-reactivation-2.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/the-top-10-benefits-of-lead-reactivation#article",
         "headline": "The Top 10 Benefits of Lead Reactivation",
-        "publisher": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Old leads can still drive revenue. See the top benefits of lead reactivation, plus SMS, compliance, FAQs, and a calculator to estimate lost value.",
-        "dateModified": "2026-09-07",
-        "datePublished": "2026-09-07"
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "name": "What is lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Lead reactivation is the process of reaching back out to old leads, inactive contacts, or past customers who have already shown some level of interest. The goal is to restart a conversation and turn dormant data into booked appointments, sales, or repeat business.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Why is SMS usually the best channel for reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "SMS usually wins because it gets seen quickly and invites a reply. Benchmarks in 2026 still put SMS visibility far ahead of email. That matters when the real job is not broad reach, but getting a stalled prospect to respond.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How old is too old for a lead to reactivate?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "There is no universal cutoff. Some leads go cold after a few weeks, others stay viable for months or years. The real question is whether the lead has prior intent, clean consent, and a reason to respond now.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Do dormant leads still convert?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes, but not all of them. Dormant leads convert best when the offer is relevant, the message is short, and the timing is right. List quality and prior intent matter more than age alone.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Is lead reactivation compliant?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "It can be, but only if you have proper consent, accurate records, and a working opt-out process. For marketing texts in the U.S., prior express written consent is generally required, and STOP handling must work across every campaign.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What should I measure in a reactivation campaign?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Measure replies, bookings, recovered revenue, and suppression quality. Opens matter less than action. If a campaign gets seen but does not create conversations or revenue, it is not doing its job.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Should I use email too?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes, but as support, not as the main event. Email can help reinforce the message, especially if the list needs more than one touch. SMS usually earns the first response, then email and phone can back it up.",
-              "@type": "Answer"
-            }
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/lead-reactivation-2.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
           }
-        ]
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-09-07",
+        "dateModified": "2026-09-07",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT15M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/the-top-10-benefits-of-lead-reactivation"
+        }
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/the-top-10-benefits-of-lead-reactivation#breadcrumb",
         "itemListElement": [
           {
-            "item": "https://www.audienceintent.ai/insights",
-            "name": "Insights",
             "@type": "ListItem",
-            "position": 1
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "item": "https://www.audienceintent.ai/insights/lead-reactivation-benefits",
-            "name": "The Top 10 Benefits of Lead Reactivation",
             "@type": "ListItem",
-            "position": 2
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "The Top 10 Benefits of Lead Reactivation",
+            "item": "https://www.audienceintent.ai/insights/the-top-10-benefits-of-lead-reactivation"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/the-top-10-benefits-of-lead-reactivation#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lead reactivation is the process of reaching back out to old leads, inactive contacts, or past customers who have already shown some level of interest. The goal is to restart a conversation and turn dormant data into booked appointments, sales, or repeat business."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is SMS usually the best channel for reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS usually wins because it gets seen quickly and invites a reply. Benchmarks in 2026 still put SMS visibility far ahead of email. That matters when the real job is not broad reach, but getting a stalled prospect to respond."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How old is too old for a lead to reactivate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no universal cutoff. Some leads go cold after a few weeks, others stay viable for months or years. The real question is whether the lead has prior intent, clean consent, and a reason to respond now."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do dormant leads still convert?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but not all of them. Dormant leads convert best when the offer is relevant, the message is short, and the timing is right. List quality and prior intent matter more than age alone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lead reactivation compliant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can be, but only if you have proper consent, accurate records, and a working opt-out process. For marketing texts in the U.S., prior express written consent is generally required, and STOP handling must work across every campaign."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I measure in a reactivation campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Measure replies, bookings, recovered revenue, and suppression quality. Opens matter less than action. If a campaign gets seen but does not create conversations or revenue, it is not doing its job."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I use email alongside SMS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but as support rather than the main event. Email can reinforce the message, especially if the list needs more than one touch. SMS usually earns the first response, then email and phone can back it up."
+            }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 ## Lead Reactivation Benefits: Why Old Leads Still Matter

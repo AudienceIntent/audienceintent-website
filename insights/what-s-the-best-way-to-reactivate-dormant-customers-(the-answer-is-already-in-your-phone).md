@@ -7,45 +7,125 @@ category: Database Reactivation
 author: Kevin Bovett
 description: SMS is the fastest way to reactivate dormant customers. See why it
   outperforms email and phone, plus the exact multi-channel cadence that works.
-focus_keyword: Dormant Customers
+focus_keyword: Lead Reactivation
+image: https://framerusercontent.com/images/NVcbIzTpEtutYjCgFoED2i8J9M.jpg
 schema: >-
   {
-    "url": "https://www.audienceintent.ai/insights/best-way-to-reactivate-dormant-customers",
-    "@type": "Article",
-    "author": {
-      "url": "https://www.audienceintent.ai",
-      "name": "AudienceIntent",
-      "@type": "Organization"
-    },
     "@context": "https://schema.org",
-    "headline": "What's the Best Way to Reactivate Dormant Customers? (The Answer Is Already in Your Phone)",
-    "keywords": [
-      "reactivate dormant customers",
-      "SMS lead reactivation",
-      "dormant lead reactivation",
-      "multi-channel reactivation",
-      "lead reactivation strategy"
-    ],
-    "publisher": {
-      "url": "https://www.audienceintent.ai",
-      "logo": {
-        "url": "https://www.audienceintent.ai/logo.png",
-        "@type": "ImageObject"
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#article",
+        "headline": "What's the Best Way to Reactivate Dormant Customers? (The Answer Is Already in Your Phone)",
+        "description": "SMS-led reactivation is the fastest way to bring dormant customers back. Learn the best channel mix, timing, and outreach cadence for service businesses.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-03-14",
+        "dateModified": "2026-03-14",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT8M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)"
+        }
       },
-      "name": "AudienceIntent",
-      "@type": "Organization"
-    },
-    "inLanguage": "en-US",
-    "description": "SMS-led reactivation is the fastest way to bring dormant customers back. Learn the best channel mix, timing, and outreach cadence for service businesses.",
-    "dateModified": "2026-04-22",
-    "datePublished": "2026-03-14",
-    "articleSection": "Lead Reactivation",
-    "mainEntityOfPage": {
-      "@id": "https://www.audienceintent.ai/insights/best-way-to-reactivate-dormant-customers",
-      "@type": "WebPage"
-    }
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "What's the Best Way to Reactivate Dormant Customers? (The Answer Is Already in Your Phone)",
+            "item": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best way to reactivate dormant customers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS-led, multi-channel outreach is the strongest approach. Start with a short, personal text within 90 days of the lead going cold, then follow up with email and a phone call if needed. The goal of the first message is a reply, not a sale."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How soon should you reach out to a dormant lead?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Within 90 days. Leads contacted inside that window are 10x more likely to re-engage than leads that have been cold for two years or more. The longer you wait, the harder the conversation gets."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does SMS work better than email for reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS gets opened. The average text is read within 3 minutes. Email sits unopened for 90 minutes or more — if it gets opened at all. SMS also feels personal. A text reads like a person checking in. An email reads like a campaign. That difference matters when you are trying to restart a relationship."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should reactivation be a one-time campaign or an ongoing system?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An ongoing system outperforms one-off campaigns every time. A campaign recovers a segment of your database once. A system keeps working continuously — identifying dormant leads, triggering outreach at the right time, and routing re-engaged contacts to booking before the window closes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What reactivation rate should I expect?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A well-run campaign targeting leads from the past 12 to 24 months should see a 10 to 25% reactivation rate. Pest control and pool services tend to see the highest rates. Roofing and electrical take longer to convert. Across every trade, SMS is the top-performing channel."
+            }
+          }
+        ]
+      }
+    ]
   }
-image: https://framerusercontent.com/images/NVcbIzTpEtutYjCgFoED2i8J9M.jpg
 ---
 > **Quick answer:** The best way to reactivate dormant customers is SMS-led, multi-channel outreach — starting within 90 days of the lead going cold. SMS delivers a 98% open rate and a 45% response rate on reactivation campaigns, compared to 21-28% open rates for email. The strongest results come from a coordinated sequence of SMS, email, and phone over 3 weeks.
 

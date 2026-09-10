@@ -261,11 +261,8 @@ Sources: [SalesMessage 2026 SMS benchmarks](https://www.salesmessage.com/blog/sm
 The spread between "typical" and "stronger" programs comes down to four controllable factors:
 
 1.  **List age and quality.** Leads from the last 12–18 months outperform older contacts. Leads that originally opted in to a specific offer outperform general inquiry lists.
-    
 2.  **Message relevance.** A generic "just checking in" message produces generic results. A message tied to a specific, timely reason to reconnect performs significantly better.
-    
 3.  **Timing and sequencing.** Single-message campaigns underperform multi-touch sequences. The second and third follow-up often produce more conversions than the first.
-    
 4.  **Whether the message sounds human.** Conversational tone outperforms broadcast tone. If a recipient can tell it's automated, response rates drop.
     
 

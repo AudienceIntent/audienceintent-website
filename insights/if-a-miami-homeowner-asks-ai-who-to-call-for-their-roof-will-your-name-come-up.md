@@ -14,78 +14,144 @@ image: /images/uploads/homeowner.jpg
 og_image: /images/uploads/homeowner.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
-        "url": "https://www.audienceintent.ai/insights/",
         "@type": "Article",
-        "author": {
-          "name": "Kevin Bovett",
-          "@type": "Person"
-        },
-        "headline": "Miami Roofing AI Visibility: Why Owners Must Act Now",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up#article",
+        "headline": "If a Miami Homeowner Asks AI Who to Call for Their Roof, Will Your Name Come Up?",
         "description": "A Miami roofing case study showing why local customers ask AI who to hire, what that means for revenue, and how to get visible before competitors do.",
-        "dateModified": "2026-08-17",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/homeowner.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-08-17",
-        "mainEntityOfPage": "https://www.audienceintent.ai/insights/"
+        "dateModified": "2026-08-17",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT20M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up"
+        }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Why is Miami roofing a strong AI visibility example?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Miami roofing is a strong example because the buying moment is urgent, local, and high-value. Homeowners ask AI who to call after storms, when they need fast repair help, and when trust matters. That makes recommendation visibility directly tied to booked revenue, not just brand awareness.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Does AI visibility matter if a roofer already ranks on Google?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes. Google rankings do not reliably transfer into AI answers. AI systems often cite different sources and can recommend businesses that do not rank in the traditional top results. A roofer can be strong in SEO and still be absent when a homeowner asks ChatGPT or Perplexity who to hire.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "What should a roofing company do first to improve AI visibility?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Start by making the business easy for AI systems to read and verify. That means complete third-party profiles, visible license details, service area pages, clear emergency service information, and content that answers real customer questions like pricing, storm response, and permit or code concerns.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How soon can AI visibility affect a local business?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "It can matter as soon as customers start asking AI for recommendations in your category. In practice, visibility usually builds over time as third-party signals, content, and citations accumulate. The key point is that waiting gives competitors time to own the recommendation space first.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How do I know whether customers are already using AI to find my business?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Ask them directly in your intake process and add AI assistant as an option alongside Google, referral, and social media. You can also test your own visibility by asking ChatGPT, Perplexity, and Google AI questions a customer would naturally ask before hiring a local contractor.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "If a Miami Homeowner Asks AI Who to Call for Their Roof, Will Your Name Come Up?",
+            "item": "https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up"
           }
         ]
       },
-      "internalLinks\":[{",
-      "targetUrl",
-      "context"
-    ],
-    "@context": "https://schema.org"
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does AI visibility replace SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. They're separate systems that serve different discovery channels. SEO gets your website ranked in Google's blue-link results. AI visibility gets your business cited when someone asks an AI assistant for a recommendation. Only about 12% of pages cited by ChatGPT rank in Google's top 10 for the same query, meaning the two ecosystems have very little overlap. A Miami roofing company needs both, because different customers use different tools. Treating AI visibility as an either/or with SEO is a mistake."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to start showing up in AI recommendations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It varies by market, competition, and how much foundational work needs to be done. In categories with low AI visibility adoption (which includes most local roofing markets right now), businesses that build out their third-party platform presence and publish relevant content can see measurable citation growth within 30 to 60 days. Broader, consistent visibility across multiple AI platforms typically develops over 60 to 90 days. There is no shortcut, but there is a clear sequence of steps that produces results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "My Google reviews are strong. Doesn't that help with AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It helps, but it's not sufficient on its own. AI assistants pull from multiple sources, and Google reviews are just one of them. Yelp, Angi, Facebook, Reddit, and other third-party platforms are heavily cited in AI answers. A business with 200 Google reviews and a thin Yelp profile is still partially invisible to AI. The goal is a consistent, complete presence across all the platforms AI engines trust."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kinds of content does AI use to recommend local businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI systems favor content that directly answers the questions users are asking. For roofing companies, that means pages that state specific pricing ranges for common jobs in your market, pages that describe your response time for emergency situations, service area pages that list specific neighborhoods and zip codes by name, and content that explains your credentials, license numbers, and any specialty certifications. Content buried in images or behind JavaScript that AI crawlers can't read does not count."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is AI visibility only relevant during hurricane season in Miami?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Hurricane season amplifies the urgency because search volume spikes sharply, but Miami homeowners are asking AI for roofing recommendations year-round. Roof inspections before selling a home, tile roof replacements on aging properties, and flat roof maintenance for commercial buildings are all year-round categories. Building AI visibility now means capturing those leads throughout the year, not just during storm season."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between AI visibility and being listed in AI directories?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI visibility isn't about being listed in a specific directory. It's about building a presence across the sources that AI assistants actually pull from when generating recommendations, including Yelp, Angi, Google Business Profile, Reddit, Facebook, and your own website. There is no single \"AI directory\" to submit to. The work is building a consistent, credible, and machine-readable presence across multiple platforms that AI engines already trust."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if a customer found me through AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask. The most reliable method is adding \"how did you hear about us?\" to your intake process and including AI assistants as an explicit option alongside Google, referral, and social media. Some tracking platforms are beginning to attribute AI-sourced leads through referral URL patterns, but direct inquiry remains the most practical method for most small businesses. As AI traffic grows, the pattern will become visible in your data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can any agency guarantee my business will appear in ChatGPT's answers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No legitimate agency can guarantee placement in a specific AI answer. AI platforms generate recommendations dynamically, and no third party controls what any AI engine decides to say. What a reputable agency can do is build the citation footprint, content, and platform presence that makes your business significantly more likely to be cited, and track your visibility over time across the major AI platforms. Be skeptical of any vendor claiming guaranteed placement."
+            }
+          }
+        ]
+      }
+    ]
   }
 ---
 # If a Miami Homeowner Asks AI Who to Call for Their Roof, Will Your Name Come Up?

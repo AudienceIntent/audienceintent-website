@@ -8,103 +8,133 @@ description: Recover revenue from dormant leads with a proven reactivation
   system. See why old leads convert faster, and how to turn them into booked
   jobs.
 focus_keyword: Lead Reactivation
+image: https://framerusercontent.com/images/oVOE28XFzeP5XNP5dfbb4xjsatc.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "Lead Reactivation: Recover Revenue From Old Leads",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/are-you-ignoring-the-easiest-sale-in-your-business#article",
+        "headline": "Are You Ignoring the Easiest Sale in Your Business?",
         "description": "Recover revenue from dormant leads with a proven reactivation system. See why old leads convert faster, and how to turn them into booked jobs.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-04",
         "dateModified": "2026-05-04",
-        "datePublished": "2025-11-25",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT6M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/lead-reactivation-old-leads",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/are-you-ignoring-the-easiest-sale-in-your-business"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/are-you-ignoring-the-easiest-sale-in-your-business#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Are You Ignoring the Easiest Sale in Your Business?",
+            "item": "https://www.audienceintent.ai/insights/are-you-ignoring-the-easiest-sale-in-your-business"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/are-you-ignoring-the-easiest-sale-in-your-business#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "What is lead reactivation?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Lead reactivation is the process of reconnecting with old leads who previously showed interest but never converted. That includes form fills, missed calls, quote requests, or stalled sales conversations that are still worth revisiting.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Lead reactivation is the process of reconnecting with old leads who previously showed interest in your business but never converted. That includes form fills, missed calls, quote requests, demo requests, or past conversations that stalled out."
             }
           },
           {
-            "name": "Are old leads worth contacting again?",
             "@type": "Question",
+            "name": "Are old leads really worth contacting again?",
             "acceptedAnswer": {
-              "text": "Yes. Old leads are often easier to convert than cold traffic because they already know your business and previously showed intent. In many cases, the problem was timing, not interest, so a better follow-up can recover revenue.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes. Old leads are often easier to convert than cold traffic because they already know your business and previously showed intent. In many cases, the issue was timing, not lack of interest."
             }
           },
           {
-            "name": "Why does lead reactivation work?",
             "@type": "Question",
+            "name": "How long should you wait before reactivating old leads?",
             "acceptedAnswer": {
-              "text": "Lead reactivation works because timing changes. A lead who was not ready six months ago may now have budget, urgency, or a different priority. The right follow-up restarts the conversation and gives the business another shot at conversion.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "There is no single rule, but businesses commonly reactivate leads that are 30 days, 90 days, 6 months, or even 12 months old. The right window depends on your sales cycle and service type."
             }
           },
           {
-            "name": "What makes lead reactivation fail?",
             "@type": "Question",
+            "name": "Why do lead reactivation campaigns fail?",
             "acceptedAnswer": {
-              "text": "Most campaigns fail because the outreach is generic, too slow, or disconnected from real conversation handling. To work, reactivation needs segmentation, fast responses, and a clear path to booking or sales follow-up.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Most fail because the outreach is too generic, too slow, or not tied to real conversation handling. A single message is not enough. You need fast responses, relevant follow-up, and a clear path to booking."
             }
           },
           {
-            "name": "How is AudienceIntent different from a CRM?",
             "@type": "Question",
+            "name": "What types of businesses benefit most from lead reactivation?",
             "acceptedAnswer": {
-              "text": "AudienceIntent is not just software to log into. The Revenue Capture Engine is done-for-you, so the team builds the sequences, manages the outreach, and helps move qualified leads toward booking without adding work for the owner.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Service businesses with inbound leads, appointment requests, quote requests, or missed-call volume benefit the most. If your CRM has unworked or aging leads, reactivation can usually uncover missed revenue."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is AudienceIntent different from a CRM or follow-up tool?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AudienceIntent does not give you software to manage yourself. The Revenue Capture Engine is a fully done-for-you system. AudienceIntent builds the sequences, runs the outreach, handles real-time conversations, and routes qualified leads toward booking, without adding tasks to your day."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org",
-    "isPillar": false,
-    "pillarTopic": "Lead reactivation",
-    "internalLinks": [
-      {
-        "context": "Relevant hub page covering lead reactivation, AI visibility, reviews, and conversion topics.",
-        "targetUrl": "https://audienceintent.ai/insights",
-        "anchorText": "Insights"
-      },
-      {
-        "context": "Useful CTA for readers who want to uncover missed revenue opportunities before booking a demo.",
-        "targetUrl": "https://report.audienceintent.ai",
-        "anchorText": "Free Business Performance Report"
-      },
-      {
-        "context": "Primary conversion path for readers ready to evaluate AudienceIntent's lead reactivation system.",
-        "targetUrl": "https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi",
-        "anchorText": "Book Discovery Call"
-      }
     ]
   }
-image: https://framerusercontent.com/images/oVOE28XFzeP5XNP5dfbb4xjsatc.jpg
 ---
-
-# Are You Ignoring the Easiest Sale in Your Business?
 
 Most businesses looking for more revenue make the same move first: buy more traffic.
 

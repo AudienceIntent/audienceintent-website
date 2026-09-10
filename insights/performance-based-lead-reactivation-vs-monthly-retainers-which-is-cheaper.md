@@ -152,7 +152,6 @@ schema: >-
     ]
   }
 ---
-# Performance-Based Lead Reactivation vs Monthly Retainers: Which Is Cheaper?
 
 Most marketing conversations start with the wrong question. Business owners ask "how much does it cost?" when the real question is "how much risk am I taking on?"
 

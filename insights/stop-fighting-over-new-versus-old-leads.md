@@ -7,95 +7,125 @@ author: Kevin Bovett - AudienceIntent
 description: Learn when to prioritize lead reactivation or new acquisition, how
   to balance both, and where your CRM is hiding recoverable revenue.
 focus_keyword: Dormant Leads
+image: https://framerusercontent.com/images/53cmVBpstF73IjO7ITmCrlg7dI.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
+        "@id": "https://www.audienceintent.ai/insights/stop-fighting-over-new-versus-old-leads#article",
         "headline": "New Leads vs. Dormant Leads: How to Balance Both for Maximum Revenue",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Learn when to prioritize lead reactivation or new acquisition, how to balance both, and where your CRM is hiding recoverable revenue.",
-        "dateModified": "2026-05-05",
-        "datePublished": "2025-12-07",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-04",
+        "dateModified": "2026-05-04",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT10M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/new-vs-old-leads-balance",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/stop-fighting-over-new-versus-old-leads"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/stop-fighting-over-new-versus-old-leads#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "New Leads vs. Dormant Leads: How to Balance Both for Maximum Revenue",
+            "item": "https://www.audienceintent.ai/insights/stop-fighting-over-new-versus-old-leads"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/stop-fighting-over-new-versus-old-leads#faq",
         "mainEntity": [
           {
-            "name": "Should I focus on new leads or dormant leads first?",
             "@type": "Question",
+            "name": "How do I know if my dormant leads are still worth contacting?",
             "acceptedAnswer": {
-              "text": "Start with dormant leads if you already have a healthy CRM. They usually convert faster because intent exists, and the cost to reach them is lower. If your database is thin or outdated, acquisition has to run first so you can build the pool you’ll later reactivate.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Age and original objection are the two best signals. Leads that went quiet within the last 6-18 months are the most recoverable. Leads who cited timing or budget as their reason for not closing are more actionable than those who had a fundamental mismatch with your service. If your database is older than two years, audit it first - CRM data decays at 22-30% per year, so working from a stale list wastes effort and hurts deliverability."
             }
           },
           {
-            "name": "How do I know which dormant leads are worth reactivating?",
             "@type": "Question",
+            "name": "What is a realistic conversion rate for reactivated leads?",
             "acceptedAnswer": {
-              "text": "Prioritize leads that went quiet recently, showed strong intent, or stalled for reasons like timing or budget. Those contacts are usually easier to recover than people who were never a fit. Segmenting by original objection makes your outreach more relevant and improves response rates.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Reactivated leads convert at roughly 3x the rate of cold prospects, according to MarketingSherpa research on lead nurturing. Results vary by industry, offer, and how targeted your outreach is. Segmenting by original objection and matching your offer to that specific barrier consistently outperforms generic \"we miss you\" broadcasts."
             }
           },
           {
-            "name": "What makes reactivation different from new lead acquisition?",
             "@type": "Question",
+            "name": "Should I run both strategies at the same time or one after the other?",
             "acceptedAnswer": {
-              "text": "Reactivation recovers revenue from people who already engaged with your business. Acquisition creates new opportunities from people who have not yet raised their hand. The strategies serve different jobs, so they should be measured separately instead of judged by the same metric.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "For most service businesses, the right sequence is reactivation first, then acquisition. Reactivation generates near-term cash flow with lower cost per conversion. That revenue can then fund acquisition campaigns without straining your operating budget. The exception is startups with no existing database - in that case, acquisition is the only option until you have contacts to reactivate."
             }
           },
           {
-            "name": "How should I measure both strategies without confusing the results?",
             "@type": "Question",
+            "name": "How do I measure reactivation and acquisition without comparing them unfairly?",
             "acceptedAnswer": {
-              "text": "Track reactivation by conversion rate, speed to close, and revenue recovered per contact. Track acquisition by cost per qualified lead, lead-to-appointment rate, and pipeline value added. Comparing the two directly can hide the fact that each one is solving a different revenue problem.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Track them against separate benchmarks. For reactivation, measure conversion rate, speed-to-close, and revenue recovered per contact touched. For acquisition, measure cost per qualified lead, lead-to-appointment rate, and pipeline value added. Comparing reactivation close rates directly to acquisition close rates will almost always favor reactivation - which can create a misleading case for abandoning acquisition entirely."
             }
           },
           {
+            "@type": "Question",
             "name": "How often should I run reactivation campaigns?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Run reactivation whenever pipeline slows, after a new offer is launched, or when a segment has not been contacted in 60 to 90 days. Quarterly sweeps work well for most service businesses, but timing should follow your sales cycle and the age of your database.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "There is no universal cadence, but a good rule is to run a reactivation sequence any time your pipeline slows, you have a new offer that addresses a known objection, or you have not touched your database in 90 or more days. Quarterly reactivation sweeps work well for most service businesses as a baseline, with targeted sequences layered in around seasonal demand shifts or promotions."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org",
-    "isPillar": false,
-    "pillarTopic": null,
-    "internalLinks": [
-      {
-        "context": "Relevant hub for readers who want more lead reactivation and AI visibility content after finishing this guide.",
-        "targetUrl": "https://audienceintent.ai/insights",
-        "anchorText": "Insights"
-      }
     ]
   }
-image: https://framerusercontent.com/images/53cmVBpstF73IjO7ITmCrlg7dI.jpg
 ---
-
-# New Leads vs. Dormant Leads: How to Balance Both for Maximum Revenue
 
 The debate is real: spend on new leads or go back to the ones already in your CRM? Business owners face this question constantly, and most treat it like a forced choice.
 

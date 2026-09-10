@@ -12,105 +12,72 @@ canonical: ai-revenue-leaks
 og_image: /images/uploads/invisible.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "headline": "98.8% of Local Businesses Are Invisible to AI",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#article",
+        "headline": "Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other Revenue Leaks Killing Growth)",
         "description": "Learn the five revenue leaks hurting local service growth in 2026, from AI invisibility to dead CRM leads, and see what they're costing you.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/invisible.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-04-27",
+        "dateModified": "2026-04-27",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT12M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/ai-revenue-leaks",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Why are local businesses invisible to AI search?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Most local businesses are missing the structured signals AI tools use to make recommendations. That includes FAQ content, schema markup, consistent location data, review recency, and clear service context. Strong Google rankings alone do not guarantee visibility in ChatGPT, Gemini, or Perplexity.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "How much revenue does a slow lead response cost?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "A slow response can cost real appointments fast. Research shows responding within 60 seconds can lift conversion by 391% compared with waiting an hour. For service businesses, even a small improvement in response speed can create thousands in monthly revenue without more ad spend.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "Why do missed calls matter so much?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Missed calls are usually high-intent opportunities. If a caller reaches voicemail, 85% never call back. That means every missed call can become lost revenue, especially after hours, on weekends, or during busy job windows when nobody is available to answer.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Do old reviews still help local SEO?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Old reviews help less than most owners think. Review recency and velocity matter more than raw total count because they signal that the business is active and trusted right now. Fresh reviews and responses can improve both local rankings and AI recommendation visibility.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How can old CRM leads still generate revenue?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Old leads often convert because they already showed interest once. A timely follow-up, seasonal offer, or simple reactivation sequence can bring them back without new ad spend. In many cases, cold leads convert at a much lower cost than acquiring new ones.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other Revenue Leaks Killing Growth)",
+            "item": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth"
           }
         ]
-      }
-    ],
-    "@context": "https://schema.org",
-    "internalLinks": [
-      {
-        "context": "Supports the AI search visibility section with a related article on the shift away from traditional search.",
-        "targetUrl": "https://audienceintent.ai/insights/the-search-bar-is-dying-and-local-businesses-are-unprepared-for-what-comes-next",
-        "anchorText": "the search bar is dying"
-      },
-      {
-        "context": "Explains why Google rankings do not guarantee AI recommendations.",
-        "targetUrl": "https://audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)",
-        "anchorText": "AI vs. SEO visibility"
-      },
-      {
-        "context": "Reinforces the argument for faster lead response in service businesses.",
-        "targetUrl": "https://audienceintent.ai/insights/why-every-service-business-should-automate-their-inbound-lead-response-(and-what-it-s-costing-you-not-to)",
-        "anchorText": "inbound lead response"
-      },
-      {
-        "context": "Provides supporting detail for the missed calls section.",
-        "targetUrl": "https://audienceintent.ai/insights/the-high-cost-of-silence-why-every-missed-call-could-be-costing-you-250",
-        "anchorText": "the high cost of silence"
-      },
-      {
-        "context": "Supports the review recency section with a focused article on stale reviews.",
-        "targetUrl": "https://audienceintent.ai/insights/your-200-reviews-don-t-matter-if-they-re-from-2022",
-        "anchorText": "your 200 reviews don’t matter if they’re from 2022"
-      },
-      {
-        "context": "Backs up the CRM reactivation section with a concrete lead recovery example.",
-        "targetUrl": "https://audienceintent.ai/insights/sms-lead-reactivation-turn-cold-leads-into-found-money",
-        "anchorText": "SMS lead reactivation"
       }
     ]
   }

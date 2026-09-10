@@ -8,89 +8,133 @@ description: Old leads are not dead, they are under-messaged. Learn how
   AI-powered SMS reactivation works, how to stay compliant, and how to unlock
   revenue from your CRM.
 focus_keyword: SMS Reactivation
+image: https://framerusercontent.com/images/nIr8VhTcR0vuXh6qRxyAynCEs.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
+        "@id": "https://www.audienceintent.ai/insights/how-to-turn-old-leads-into-revenue-with-ai-powered-text-messaging#article",
         "headline": "How to Turn Old Leads Into Revenue With AI-Powered Text Messaging",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Old leads are not dead, they are under-messaged. Learn how AI-powered SMS reactivation works, how to stay compliant, and how to unlock revenue from your CRM.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-05-07",
         "dateModified": "2026-05-07",
-        "datePublished": "2025-12-29",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT10M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/how-to-turn-old-leads-into-revenue-with-ai-powered-text-messaging",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/how-to-turn-old-leads-into-revenue-with-ai-powered-text-messaging"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-to-turn-old-leads-into-revenue-with-ai-powered-text-messaging#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Do old leads really convert again?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes. Old leads already know your business and showed intent at some point. Many did not reject you, they just never got the right follow-up at the right time. With a relevant message and a fast response path, they can become booked conversations again.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Why is SMS better than email for lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "SMS is faster and harder to miss. Messages are usually seen within minutes, while email competes with inbox clutter and spam filtering. For stale leads, that speed and visibility can be the difference between a reply and silence.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "How does AI help with SMS reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "AI handles the back-and-forth after the first text. It can qualify the lead, answer common questions, route hot prospects to a human, and stop messaging when someone opts out. That lets you scale follow-up without adding more manual work.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How do I stay compliant when texting old leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Only text contacts you have permission to message, include clear opt-out language, and honor revocations immediately. Keep consent records tied to each contact and avoid sending broad blasts without segmentation. Compliance is not optional, especially for SMS.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How many follow-up texts should I send?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "More than one. A short sequence usually works better than a single send because many replies come after the first message. Keep the cadence tight, keep the copy conversational, and stop as soon as the lead is not interested or opts out.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Turn Old Leads Into Revenue With AI-Powered Text Messaging",
+            "item": "https://www.audienceintent.ai/insights/how-to-turn-old-leads-into-revenue-with-ai-powered-text-messaging"
           }
         ]
       },
-      "internalLinks\":[{"
-    ],
-    "@context": "https://schema.org",
-    "isPillar": false,
-    "pillarTopic": null
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-to-turn-old-leads-into-revenue-with-ai-powered-text-messaging#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do old leads actually convert?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Old leads already know your business and showed intent at some point. Many did not say no; they just never got the right follow-up. Because they have prior brand awareness, reactivation campaigns typically outperform cold outreach on conversion efficiency."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SMS really better than email for reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For time-sensitive outreach, yes. SMS gets seen faster, read more often, and replied to more often. Benchmark data puts SMS response rates at 45% versus 6% for email. For leads that have gone cold, the channel difference is often the deciding factor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will AI-powered texting feel robotic to the recipient?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not if it is built correctly. The best systems use short, conversational openers and respond naturally to what the lead says. The goal is to sound like a helpful person checking in, not a broadcast campaign. Message length discipline matters here: shorter messages consistently outperform longer ones."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if I am not sure I have consent to text my old leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Do not send until you confirm. Check your original opt-in records and verify whether SMS was explicitly included. If it was not, you have a few options: re-permission the list via email first, or work only with the segment where SMS consent is documented. A compliance-aware reactivation system should flag this automatically."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many follow-up messages should I send?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "More than one. Platform data shows 42% of all replies in reactivation sequences come from follow-up messages, not the first text. A short sequence of two to three messages, spaced appropriately, outperforms a single send almost every time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is this different from just blasting my list?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A blast is one message to everyone with no follow-up logic. An AI-powered reactivation campaign segments the list, personalizes the opener, responds dynamically to replies, routes qualified leads to your team, and stops automatically when someone opts out or is not a fit. The difference in both results and compliance exposure is significant."
+            }
+          }
+        ]
+      }
+    ]
   }
-image: https://framerusercontent.com/images/nIr8VhTcR0vuXh6qRxyAynCEs.jpg
 ---
-
-# How to Turn Old Leads Into Revenue With AI-Powered Text Messaging
 
 Most old leads are not dead. They just never got the right follow-up.
 

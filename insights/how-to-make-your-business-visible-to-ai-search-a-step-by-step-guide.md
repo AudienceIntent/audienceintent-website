@@ -81,8 +81,6 @@ schema: >-
     ]
   }
 ---
-# How to Make Your Business Visible to AI Search (A Step-by-Step Guide)
-
 More and more people are skipping Google and asking AI tools like ChatGPT, Perplexity, and Google's AI Overview a direct question: "What's the best \[type of business\] near me?" or "Who should I hire for \[service\]?"
 
 The AI gives them an answer. It names specific businesses. Those businesses get the call.

@@ -13,24 +13,130 @@ image: /images/uploads/chatgpt-image-jun-24-2026-10_50_18-am.jpg
 og_image: /images/uploads/chatgpt-image-jun-24-2026-10_50_18-am.jpg
 schema: >-
   {
-    "@type": "Article",
-    "author": {
-      "name": "AudienceIntent",
-      "@type": "Organization"
-    },
     "@context": "https://schema.org",
-    "headline": "Paid Media Is Getting More Expensive. The Reporting Is Getting Murkier. Here’s the Better Bet.",
-    "publisher": {
-      "name": "AudienceIntent",
-      "@type": "Organization"
-    },
-    "description": "Paid media is getting pricier and less accountable. See why Database Reactivation can recover revenue from leads you already paid for, with performance-based pricing.",
-    "dateModified": "2026-06-24",
-    "datePublished": "2026-06-24"
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/paid-media-is-getting-more-expensive-the-reporting-is-getting-murkier-heres-the-better-bet#article",
+        "headline": "Paid Media Is Getting More Expensive. The Reporting Is Getting Murkier. Here's the Better Bet.",
+        "description": "Paid media is getting pricier and less accountable. See why Database Reactivation can recover revenue from leads you already paid for, with performance-based pricing.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/chatgpt-image-jun-24-2026-10_50_18-am.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-06-24",
+        "dateModified": "2026-06-24",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT12M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/paid-media-is-getting-more-expensive-the-reporting-is-getting-murkier-heres-the-better-bet"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/paid-media-is-getting-more-expensive-the-reporting-is-getting-murkier-heres-the-better-bet#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Paid Media Is Getting More Expensive. The Reporting Is Getting Murkier. Here's the Better Bet.",
+            "item": "https://www.audienceintent.ai/insights/paid-media-is-getting-more-expensive-the-reporting-is-getting-murkier-heres-the-better-bet"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/paid-media-is-getting-more-expensive-the-reporting-is-getting-murkier-heres-the-better-bet#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Database Reactivation and how is it different from running more ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Database Reactivation reaches back out to leads and past customers already in your CRM using AI-powered conversational SMS. No new ad spend, no cold audience, no auction. The difference from paid media is structural: you are working a warm list you already paid to acquire, with a partner who only earns when revenue is produced, not when budget is spent."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the pricing model work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is performance-only. There is a one-time setup fee of $997, and beyond that AudienceIntent earns an agreed percentage of the revenue generated. No monthly retainer. No percentage of ad spend. If the campaign does not produce revenue, you do not owe anything beyond setup."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kind of results can I expect?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Across campaigns, AudienceIntent sees a 20–30% average reactivation rate. In a documented head-to-head test with ActivatedYou, the AI-powered SMS reactivation campaign produced a 26% conversion rate and $17.62 revenue per click, outperforming the client's own internal team on the same list. Results vary by industry, list quality, and timing, and prior outcomes are not a guarantee of yours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need a large database for this to work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No minimum list size is required. Campaigns have run on lists ranging from a few hundred contacts to tens of thousands. What matters more than size is list quality: contacts must be TCPA-compliant with valid SMS opt-in. If your list does not meet that standard, that is the first thing to address before anything else."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly can a campaign go live?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Once onboarding is complete and a compliant list is supplied, campaigns are typically live within 3–5 days. AudienceIntent handles the copy, sequences, and campaign management end to end."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this a replacement for paid media?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The argument here is not that paid media never works. It is that before increasing acquisition spend in an environment where costs are rising and accountability is murky, it makes sense to recover revenue from leads already in your CRM first. Many businesses run both in parallel once reactivation has demonstrated its return."
+            }
+          }
+        ]
+      }
+    ]
   }
 ---
-
-# Paid Media Is Getting More Expensive. The Reporting Is Getting Murkier. Here's the Better Bet.
 
 ## The problem is not just higher ad costs. It is lower accountability.
 

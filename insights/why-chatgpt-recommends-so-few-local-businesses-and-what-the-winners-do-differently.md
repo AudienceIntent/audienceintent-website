@@ -136,7 +136,6 @@ schema: >-
     ]
   }
 ---
-# Why ChatGPT Recommends So Few Local Businesses, and What the Winners Do Differently
 
 ChatGPT recommends relatively few local businesses because it needs more than a strong Google ranking. It looks for consistent business information, credible reviews, clear service and location pages, third-party proof, and content that directly answers customer questions. Businesses that make those signals easy to verify are more likely to appear in AI-generated recommendations.
 

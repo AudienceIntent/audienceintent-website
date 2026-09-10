@@ -81,7 +81,6 @@ schema: >-
     ]
   }
 ---
-# Database Reactivation vs. Paid Ads: Which Produces Revenue Faster?
 
 If you're running paid ads and wondering why revenue feels slow, the answer might not be your targeting, your creative, or your budget. It might be that you're solving the wrong problem first.
 

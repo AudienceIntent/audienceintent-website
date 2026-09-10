@@ -10,87 +10,136 @@ focus_keyword: "SMS Database Reactivation "
 image: https://framerusercontent.com/images/NWMW8FZAVSnC4Db57envkFsUg.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/your-crm-is-full-of-buyers-you-just-forgot-about-them#article",
+        "headline": "Your CRM Is Full of Buyers. You Just Stopped Following Up.",
+        "description": "Old CRM leads are warm, not dead. See the stats on reactivation rates, SMS benchmarks, follow-up timing, and the cost of ignoring your database.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
         "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
           "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
           "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
           "worksFor": {
-            "url": "https://www.audienceintent.ai",
-            "logo": {
-              "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-              "@type": "ImageObject"
-            },
-            "name": "AudienceIntent",
-            "@type": "Organization"
+            "@id": "https://www.audienceintent.ai/#organization"
           }
         },
-        "headline": "CRM Lead Reactivation: 7 Stats That Matter in 2026",
         "publisher": {
-          "url": "https://www.audienceintent.ai",
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
+          "@id": "https://www.audienceintent.ai/#organization"
         },
-        "inLanguage": "en-US",
-        "description": "Old CRM leads are warm, not dead. See the stats on reactivation rates, SMS benchmarks, follow-up timing, and the cost of ignoring your database.",
-        "dateModified": "2026-09-08",
         "datePublished": "2026-09-01",
-        "mainEntityOfPage": "https://www.audienceintent.ai/insights/your-crm-is-full-of-buyers-you-just-forgot-about-them"
+        "dateModified": "2026-09-01",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT10M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/your-crm-is-full-of-buyers-you-just-forgot-about-them"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/your-crm-is-full-of-buyers-you-just-forgot-about-them#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Your CRM Is Full of Buyers. You Just Stopped Following Up.",
+            "item": "https://www.audienceintent.ai/insights/your-crm-is-full-of-buyers-you-just-forgot-about-them"
+          }
+        ]
       },
       {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/your-crm-is-full-of-buyers-you-just-forgot-about-them#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "How old can a lead be and still be worth contacting?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Leads under 90 days dormant are usually the easiest to recover, but older leads can still be worth contacting if they were qualified and you have valid SMS consent. Once a lead is 12 to 24 months old, response rates usually fall and segmentation matters more.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Leads contacted within 90 days of going dormant are significantly more likely to reactivate than older ones. That said, leads aged 3 to 16 months often show strong reactivation potential because they expressed interest relatively recently and are likely still in the market or approaching a new decision cycle. Leads older than 24 months can still be worth contacting, but conversion rates drop and list hygiene becomes more important."
             }
           },
           {
-            "name": "What is a good reactivation rate for dormant leads?",
             "@type": "Question",
+            "name": "Do I need a clean, organized CRM to run a reactivation campaign?",
             "acceptedAnswer": {
-              "text": "A practical planning range is 5% to 15%, with stronger lists and tighter segmentation sometimes reaching 20% to 30%. Results vary by industry, list quality, and how recently the lead went inactive.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No, but it helps. A well-segmented database with notes on why leads didn't convert will outperform a raw, unsorted export. If your CRM is messy, a list triage step before the campaign begins is worth the time. Sorting contacts by lead age, lead source, and any available notes can meaningfully improve results."
             }
           },
           {
-            "name": "Is SMS better than email for dormant lead reactivation?",
             "@type": "Question",
+            "name": "What response rate should I realistically expect?",
             "acceptedAnswer": {
-              "text": "Usually yes. SMS gets seen far more often than email, which makes it better for short reactivation campaigns where timing and reply rate matter. It still has to be compliant, personal, and conversational.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Conservative programs on older or less-segmented lists typically see 5–10% reactivation. Well-run campaigns with clean lists, conversational messaging, and fast follow-up on replies land in the 20–30% range. Plan conservatively. If your list has 10,000 contacts and you expect 10% reactivation, that's 1,000 warm conversations restarted at zero ad spend."
             }
           },
           {
-            "name": "What makes a dormant lead campaign work?",
             "@type": "Question",
+            "name": "Is SMS outreach legal for dormant leads?",
             "acceptedAnswer": {
-              "text": "The list has to be segmented, the message has to sound human, and replies have to be handled quickly. The best campaigns use lead age, source, and prior notes to send a relevant first message instead of blasting everyone the same way.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Outreach must comply with TCPA regulations. This means contacts need to have provided prior written consent to receive SMS messages from your business. If your leads opted in through a web form, quote request, or intake process that included SMS consent language, you're typically covered. If you're unsure about your list's compliance status, review it before sending."
             }
           },
           {
-            "name": "Do I need TCPA consent to text old leads?",
             "@type": "Question",
+            "name": "How is this different from a mass marketing blast?",
             "acceptedAnswer": {
-              "text": "Yes. If you are texting dormant leads, you need to confirm that the contacts gave proper consent for SMS outreach. If the opt-in history is unclear, clean the list before sending anything.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "The approach that works is conversational, not promotional. The goal is to restart a one-on-one dialogue, not push a coupon to a list. Messages are short, personal, and reference the prior relationship. The AI handles the opening conversation, qualifies intent, and hands off to a human when someone is ready to move forward."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a performance-based model mean in practice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With a performance-based reactivation model, you pay an agreed percentage of revenue generated, not a flat monthly fee. If no revenue comes in, the cost beyond a one-time setup fee is zero. This structure works because the economics of reactivation are predictable enough to support it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to see results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A campaign can be live within 3 to 5 days of onboarding. Initial replies typically come in within the first 24 to 72 hours of the first send. Meaningful revenue from those conversations depends on your sales cycle, but most businesses see results within the first two to three weeks of a campaign."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
 Most businesses have two lead problems. The first one they know about: not enough new leads. The second one they ignore: thousands of old leads sitting in a CRM, already paid for, never properly followed up.

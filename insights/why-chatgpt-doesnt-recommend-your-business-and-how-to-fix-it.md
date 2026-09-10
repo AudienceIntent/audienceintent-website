@@ -12,86 +12,76 @@ image: /images/uploads/chatgpt-article.jpg
 og_image: /images/uploads/chatgpt-article.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person"
-        },
-        "headline": "Why ChatGPT Doesn't Recommend Your Business",
-        "publisher": {
-          "url": "https://audienceintent.ai",
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#article",
+        "headline": "Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)",
         "description": "Learn why ChatGPT skips your business, what causes AI mention gaps, and the exact steps to fix AI visibility. Start with the free audit.",
-        "dateModified": "2026-06-03",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/chatgpt-article.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-06-03",
+        "dateModified": "2026-06-03",
+        "articleSection": "AI Recommended",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT14M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/chatgpt-business-recommendation",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#breadcrumb",
+        "itemListElement": [
           {
-            "name": "Why doesn’t ChatGPT recommend my business?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "ChatGPT usually skips a business when it cannot find enough consistent, credible signals to recommend it confidently. Weak third-party mentions, inconsistent business data, and thin source-worthy content are the usual causes.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Is this an SEO problem or an AI visibility problem?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "It is related to SEO, but it is not the same thing. A business can rank well in Google and still be absent from AI answers because AI assistants rely more on entity clarity, third-party validation, and source diversity.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "How long does it take to improve AI recommendations?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Meaningful improvement usually takes weeks, not days. You can often see early citation growth within about 30 days, but the bigger gains come after entity data, content, and third-party signals start compounding.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What should I fix first if I am not mentioned in AI answers?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Start with entity consistency. Make sure your name, address, phone, category, and description match everywhere, then strengthen third-party proof and publish content that answers recommendation-style questions clearly.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Do reviews and third-party sites matter more than my website?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Yes, often they do. Your website still matters, but AI assistants rely heavily on outside validation, so reviews, directories, press mentions, and community sources can have more influence on whether you get recommended.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)",
+            "item": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it"
           }
         ]
-      },
-      "internalLinks:[{",
-      "anchorText:"
-    ],
-    "@context": "https://schema.org",
-    "isPillar": true,
-    "pillarTopic": "AI visibility and ChatGPT business recommendations"
+      }
+    ]
   }
 ---
-# Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)
 
 Someone asks ChatGPT: *"Who are the best \[your category\] businesses in \[your city\]?"* Your competitor gets named. You don't.
 

@@ -16,88 +16,130 @@ schema: >-
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder"
-        },
-        "headline": "AI SMS Lead Reactivation: Recover More Revenue",
-        "publisher": {
-          "url": "https://www.audienceintent.ai",
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
+        "@id": "https://www.audienceintent.ai/insights/why-ai-sms-the-most-profitable-campaign-you-re-not-running#article",
+        "headline": "Why AI-Powered SMS Lead Reactivation Is One of the Highest-ROI Campaigns in Your CRM",
         "description": "Turn old leads into booked jobs with AI-powered SMS, segmentation, and timing. See why reactivation beats buying more leads.",
-        "dateModified": "2026-05-05",
-        "datePublished": "2026-05-05",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-08-04",
+        "dateModified": "2026-08-04",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/ai-sms-lead-reactivation",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/why-ai-sms-the-most-profitable-campaign-you-re-not-running"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/why-ai-sms-the-most-profitable-campaign-you-re-not-running#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why AI-Powered SMS Lead Reactivation Is One of the Highest-ROI Campaigns in Your CRM",
+            "item": "https://www.audienceintent.ai/insights/why-ai-sms-the-most-profitable-campaign-you-re-not-running"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/why-ai-sms-the-most-profitable-campaign-you-re-not-running#faq",
         "mainEntity": [
           {
-            "name": "What is SMS lead reactivation?",
             "@type": "Question",
+            "name": "How old is too old for a lead to reactivate?",
             "acceptedAnswer": {
-              "text": "SMS lead reactivation is the process of texting old leads or past customers to restart a conversation and move them back into your pipeline. AI makes it more effective by segmenting contacts, personalizing messages, and timing follow-up so the outreach feels relevant instead of generic.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "There is no hard cutoff. Leads from 12 to 24 months ago routinely respond to well-timed, relevant follow-up. What matters more than age is context: did they show genuine interest, and has their situation likely changed since then? Timing, life changes, and budget cycles all shift. A lead who was not ready in Q1 may be actively looking by Q3. The right message at the right moment matters far more than how long the contact has been sitting in your CRM."
             }
           },
           {
-            "name": "Why does SMS work better than email for old leads?",
             "@type": "Question",
+            "name": "Is SMS lead reactivation the same as spam texting?",
             "acceptedAnswer": {
-              "text": "SMS usually gets seen faster than email and has much higher engagement rates. That matters when you are trying to revive people who already showed interest once. For reactivation, speed and visibility usually beat a crowded inbox.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No, and the distinction matters both legally and practically. Spam texting is unsolicited, bulk, and untargeted. SMS lead reactivation targets people who already expressed interest in your business, typically by filling out a form, requesting a quote, or calling in. When paired with AI-driven personalization, the message is relevant to that specific person's prior interaction, not a generic blast. Done correctly, it feels like a timely check-in, not a sales push."
             }
           },
           {
-            "name": "How does AI improve SMS reactivation?",
             "@type": "Question",
+            "name": "What kind of response rate should I expect?",
             "acceptedAnswer": {
-              "text": "AI helps identify which leads are most likely to respond, tailor the message to their prior interest, and automate follow-up without sounding robotic. It also helps keep campaigns organized so older, warmer, and better-fit leads get the right message at the right time.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Results vary by industry, list quality, and message quality. Across published benchmarks, SMS reactivation campaigns typically see response rates of 11% to 45% depending on personalization and timing, appointment booking rates of 5% to 15% from those who respond, and conversion rates of 21% to 35% for service businesses with strong follow-up sequences. These numbers consistently outperform email reactivation, which typically sees response rates under 6%."
             }
           },
           {
+            "@type": "Question",
             "name": "Do I need consent to text old leads?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Yes. In the United States, marketing texts require proper consent under TCPA rules. You also need an opt-out option in every message and should keep records of consent and unsubscribes. If the documentation is unclear, do not text the contact until consent is verified.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes. Under the TCPA, you need prior express written consent before sending marketing texts, even to people who previously contacted your business. Verbal consent or a general contact form submission is not enough. Consent must be documented, brand-specific, and tied to the phone number you are texting. If your records do not clearly show opt-in consent for SMS marketing, those contacts should not receive reactivation texts until consent is obtained through another channel first."
             }
           },
           {
-            "name": "Is reactivating old leads cheaper than buying new ones?",
             "@type": "Question",
+            "name": "How is AI actually used in SMS reactivation, beyond just sending texts?",
             "acceptedAnswer": {
-              "text": "Usually yes, because you already paid to acquire those contacts. The only incremental cost is the reactivation campaign itself. Since the lead is already familiar with your brand, the cost per booked appointment is often much lower than cold acquisition.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "AI adds several layers that a basic SMS blast cannot replicate: segmentation identifies which leads are most likely to respond based on behavior, lead source, and time since contact; personalization references the specific service the lead inquired about, not a generic offer; timing optimization determines the best send window per contact, with research pointing to 10 a.m. to 12 p.m. as the highest-response window for most audiences; conversation handling lets AI agents respond to replies, qualify interest, and route warm leads to booking without human intervention; and suppression automatically removes contacts who opt out or respond negatively from future sequences. The result is a system that scales personalized outreach without adding manual work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does SMS outperform email for reactivation specifically?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Email is easy to ignore. SMS is not. When someone has not engaged with your brand in months, an email is unlikely to break through a crowded inbox. SMS, by contrast, reaches 90% to 98% of recipients and is typically read within minutes. For reactivation, that immediacy is the difference between a response and another ignored message. The channel also feels more direct and personal, which raises the perceived relevance of the follow-up."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the ROI compared to running new lead generation campaigns?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reactivating existing leads almost always costs less per conversion than acquiring new ones. You have already paid for the initial lead. The only incremental cost is the reactivation campaign itself. Industry data puts SMS marketing ROI at roughly $71 per $1 spent, compared to $36 for email. When you factor in that reactivated leads already have brand familiarity and prior intent, the cost-per-booked-appointment is typically far lower than cold acquisition through paid ads."
             }
           }
         ]
-      }
-    ],
-    "internalLinks": [
-      {
-        "targetUrl": "/insights/sms-lead-reactivation-every-question-business-owners-ask",
-        "context": "Closest supporting guide for readers who want the full FAQ version and deeper practical answers."
-      },
-      {
-        "targetUrl": "/insights/why-fast-moving-sales-teams-choose-ai-sms-reactivation",
-        "context": "Relevant companion piece on why AI plus SMS works well for fast follow-up and response speed."
-      },
-      {
-        "targetUrl": "/insights/why-lead-reactivation-is-the-most-profitable-way-to-end-q4",
-        "context": "Useful related article for the revenue-recovery angle and seasonal urgency."
       }
     ]
   }

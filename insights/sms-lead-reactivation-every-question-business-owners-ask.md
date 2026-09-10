@@ -10,6 +10,171 @@ description: "Answers to every SMS lead reactivation question: what it costs,
 focus_keyword: Lead Reactivation
 image: /images/uploads/sms-lead-reactivation.jpg
 og_image: /images/uploads/sms-lead-reactivation.jpg
+schema: >-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-every-question-business-owners-ask#article",
+        "headline": "SMS Lead Reactivation: Every Question Business Owners Ask (Answered Honestly)",
+        "description": "Answers to every SMS lead reactivation question: what it costs, what results to expect, TCPA compliance, launch timelines, and which industries benefit most.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/sms-lead-reactivation.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-09-01",
+        "dateModified": "2026-09-01",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT9M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-every-question-business-owners-ask"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-every-question-business-owners-ask#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "SMS Lead Reactivation: Every Question Business Owners Ask (Answered Honestly)",
+            "item": "https://www.audienceintent.ai/insights/sms-lead-reactivation-every-question-business-owners-ask"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/sms-lead-reactivation-every-question-business-owners-ask#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can SMS reactivation work on really old leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, though results decline with age. Leads from the past 12–18 months perform best. Leads 2–3 years old can still reactivate, particularly when the original intent was high (a quote request, a consultation booking, a product inquiry). The key variable isn't age alone; it's whether the lead's circumstances may have changed. Budgets shift. Projects get delayed. A contact who wasn't ready 18 months ago might be ready now."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many leads do I need for a campaign to make sense?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We recommend a minimum of 1,000 contacts. Campaigns with 5,000–50,000 leads tend to produce the strongest economics because the fixed costs of setup, compliance, and sequencing are spread across a larger pool. Enterprise lists of 100,000+ dormant records work well too. Smaller lists can still produce strong ROI if the original leads were high-intent, but the math gets tighter below 500 contacts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How fast does a campaign go live?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "3–5 days from onboarding. That covers setup, compliance registration, copy, integration, and activation. The first replies typically come in within hours of launch, and booked appointments usually follow within 24–72 hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What CRMs and data sources does this work with?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Any system you can export from. That includes GHL, HubSpot, Salesforce, ActiveCampaign, Keap, and any CSV or Google Sheets export. The requirement is that your contacts include a phone number and that the leads are TCPA-compliant opt-ins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SMS lead reactivation compliant with TCPA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Compliance is non-negotiable and built into every campaign. That means TCPA adherence, A2P 10DLC registration, opt-out processing, carrier quiet hours, and number reputation management. The one requirement on your side: your leads must have originally opted in to receive SMS communications from your business. We cannot reactivate contacts who never consented to SMS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens when someone responds negatively or asks to opt out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The system handles it immediately. Opt-out requests trigger instant suppression. Negative or hostile replies receive a polite, brand-safe exit response. The contact is removed from all future sequences. Your brand is never exposed to a conversation that can't be managed gracefully."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the message tone match my brand?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Before launch, we build the copy, tone, and follow-up logic around your brand's voice. Whether your business is formal, conversational, medical, technical, or high-energy, the messaging is written to match. You review and approve before anything goes out."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does SMS lead reactivation cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AudienceIntent's Database Reactivation runs on a performance model: a one-time $997 setup fee, then a revenue share on results generated. There is no monthly retainer. If the campaign doesn't produce revenue, you don't pay beyond the setup fee. The exact revenue share percentage is agreed in writing before launch."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which industries get the best results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Industries where appointments drive revenue tend to see the strongest reactivation rates. Pest control (18.5%), pool services (15.8%), and landscaping (14.2%) lead by reactivation rate. Home services, med spas, real estate, coaching, financial services, automotive, and health and wellness all consistently perform well. If your business books appointments or closes sales from conversations, SMS reactivation is a fit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I run an SMS reactivation campaign myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but the execution complexity is higher than it appears. A2P 10DLC registration alone can take weeks if not done correctly, and carrier filtering will suppress messages from numbers with poor reputation. Beyond compliance, the copy quality and sequencing logic have a significant impact on results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will a reactivation campaign conflict with my existing marketing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It runs alongside email, paid ads, sales outreach, and any existing automation without interference. Contacts who respond and book are flagged in your CRM so your sales team knows the source. Contacts who opt out are suppressed across all channels."
+            }
+          }
+        ]
+      }
+    ]
+  }
 ---
 If you have a database of old leads and you're wondering whether SMS reactivation is worth it, this guide answers every question we hear from business owners before they get started. No fluff, no vague promises. Just straight answers backed by current data.
 

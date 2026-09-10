@@ -7,8 +7,8 @@ author: "Kevin Bovett - AudienceIntent "
 description: Learn how lead reactivation works, why SMS beats email, what TCPA
   requires, and how to turn dormant CRM contacts into revenue.
 focus_keyword: "Lead Reactivation "
-image: /images/uploads/chatgpt-image-sep-10-2026-09_01_32-am.png
-og_image: /images/uploads/chatgpt-image-sep-10-2026-09_01_32-am.png
+image: /images/uploads/lead-reactivation-explained.jpg
+og_image: /images/uploads/lead-reactivation-explained.jpg
 ---
 
 Most businesses have already paid for the leads sitting unused in their CRM. They came in through ads, referrals, or organic search, showed enough interest to opt in, and then went quiet. The standard response is to run more ads and buy more leads. The smarter move is to work what you already own.

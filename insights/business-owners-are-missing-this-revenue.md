@@ -8,109 +8,79 @@ author: Kevin Bovett - AudienceIntent
 description: Dormant leads convert faster and cheaper than cold prospects. See
   the current data, compliance risks, and how reactivation unlocks revenue.
 focus_keyword: Dormant Lead Reactivation
+image: https://framerusercontent.com/images/OMKkipyR4M7jueu57vW2GLnz4.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "name": "Kevin Bovett",
-          "@type": "Person"
-        },
+        "@id": "https://www.audienceintent.ai/insights/business-owners-are-missing-this-revenue#article",
         "headline": "Business Owners Are Missing This Revenue: The Case for Dormant Lead Reactivation",
-        "publisher": {
-          "logo": {
-            "url": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-            "@type": "ImageObject"
-          },
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
         "description": "Dormant leads convert faster and cheaper than cold prospects. See the current data, compliance risks, and how reactivation unlocks revenue.",
-        "dateModified": "2026-05-07",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-05-07",
+        "dateModified": "2026-05-07",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT10M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://audienceintent.ai/insights/dormant-leads-hidden-revenue",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/business-owners-are-missing-this-revenue"
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/business-owners-are-missing-this-revenue#breadcrumb",
+        "itemListElement": [
           {
-            "name": "What are dormant leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Dormant leads are people who already showed interest in your business but never bought. They may have requested a quote, filled out a form, or talked to your team, then went quiet. They are not cold prospects. They already know your brand and have higher conversion potential.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
           },
           {
-            "name": "Why do dormant leads convert better than cold leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Dormant leads convert better because trust already exists. They have seen your pricing, offer, or process, so the sales cycle starts farther along than with a stranger. That usually means higher response rates, shorter sales cycles, and lower acquisition costs.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "name": "What is the best channel for lead reactivation?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "SMS is usually the strongest first-touch channel because open and response rates are far higher than email. Email can still support the campaign, but text messaging is better for fast engagement and back-and-forth conversations that move leads toward booking.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Is SMS reactivation legal for old leads?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Only if you have the right consent. SMS marketing needs clear, documented opt-in, and compliance rules vary by use case and jurisdiction. A legitimate reactivation process should audit your list before sending anything and avoid texting contacts without valid permission.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How much revenue can dormant leads recover?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "It depends on list size, offer quality, and follow-up speed, but the upside can be meaningful. Case studies show reactivated lists producing booked appointments, closed deals, and six-figure to seven-figure pipeline recovery when the process is done well.",
-              "@type": "Answer"
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Business Owners Are Missing This Revenue: The Case for Dormant Lead Reactivation",
+            "item": "https://www.audienceintent.ai/insights/business-owners-are-missing-this-revenue"
           }
         ]
-      },
-      {
-        "url": "https://www.audienceintent.ai",
-        "logo": "https://framerusercontent.com/images/n46NR6emM1zQVpdQzLNiMAcUv4.png?scale-down-to=512&width=3938&height=590",
-        "name": "AudienceIntent",
-        "@type": "Organization",
-        "sameAs": [
-          "https://x.com/audienceintentx",
-          "https://www.linkedin.com/company/audienceintent/",
-          "https://www.facebook.com/audienceintent",
-          "https://www.instagram.com/audienceintent",
-          "https://www.youtube.com/@audienceintent",
-          "https://www.tiktok.com/@audienceintent",
-          "https://www.threads.com/@audienceintent",
-          "https://www.pinterest.com/audienceintent/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "postalCode": "33912",
-          "addressRegion": "FL",
-          "streetAddress": "6835 International Center Blvd #8",
-          "addressCountry": "US",
-          "addressLocality": "Fort Myers"
-        },
-        "foundingDate": "2024"
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
-image: https://framerusercontent.com/images/OMKkipyR4M7jueu57vW2GLnz4.jpg
 ---
-
-# Business Owners Are Missing This Revenue: The Case for Dormant Lead Reactivation
 
 Your business is sitting on a goldmine, and you're probably ignoring it.
 

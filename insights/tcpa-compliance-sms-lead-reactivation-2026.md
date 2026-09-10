@@ -13,104 +13,122 @@ image: /images/uploads/tcpa.jpg
 og_image: /images/uploads/tcpa.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "author": {
-          "url": "https://www.audienceintent.ai",
-          "name": "Kevin Bovett",
-          "@type": "Person",
-          "jobTitle": "Founder & CEO"
-        },
+        "@id": "https://www.audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026#article",
         "headline": "TCPA Compliance for SMS Lead Reactivation: What Every Business Owner Must Know in 2026",
-        "publisher": {
-          "url": "https://www.audienceintent.ai",
-          "name": "AudienceIntent",
-          "@type": "Organization"
-        },
-        "inLanguage": "en-US",
         "description": "Learn TCPA compliance for SMS lead reactivation, A2P 10DLC rules, and opt-in requirements so you can message old leads without unnecessary risk.",
-        "dateModified": "2026-06-02",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/tcpa.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "name": "Kevin Bovett",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.audienceintent.ai",
+          "sameAs": [
+            "https://www.linkedin.com/in/kevinbovett"
+          ],
+          "worksFor": {
+            "@id": "https://www.audienceintent.ai/#organization"
+          }
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
         "datePublished": "2026-06-02",
+        "dateModified": "2026-06-02",
+        "articleSection": "Database Reactivation",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "timeRequired": "PT17M",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026",
-          "@type": "WebPage"
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026"
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "TCPA Compliance for SMS Lead Reactivation: What Every Business Owner Must Know in 2026",
+            "item": "https://www.audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026#faq",
         "mainEntity": [
           {
+            "@type": "Question",
             "name": "Is SMS lead reactivation legal?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Yes, SMS lead reactivation is legal when you text people who gave prior express written consent to receive messages from your business and you send through properly registered messaging infrastructure. If the lead was purchased, shared, or lacks clear consent records, treat it as high risk until compliance is verified.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes. SMS lead reactivation is legal when conducted with leads who have given prior express written consent to receive marketing messages from your specific business, and when messages are sent through a registered A2P 10DLC number. The key requirements are documented consent, proper carrier registration, and compliant opt-out handling. Without these, any SMS marketing campaign creates TCPA exposure."
             }
           },
           {
+            "@type": "Question",
             "name": "What is TCPA compliance for SMS?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "TCPA compliance for SMS means following the consent, disclosure, opt-out, and timing rules that apply to automated text messaging. For marketing texts, that includes documented prior express written consent, accurate sender identification, and immediate suppression of revocation requests.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "TCPA compliance for SMS means meeting the consent, disclosure, opt-out, and timing requirements of the Telephone Consumer Protection Act before sending automated text messages to consumers. For marketing messages, this requires prior express written consent: an affirmative opt-in, a written disclosure naming your business, documentation of when and how consent was captured, and real-time opt-out processing. Violations carry statutory damages of $500 to $1,500 per message."
             }
           },
           {
+            "@type": "Question",
             "name": "Do I need to register for A2P 10DLC?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "Yes. If you send business texts through a 10-digit long code in the United States, you need A2P 10DLC registration through The Campaign Registry. Since February 2025, unregistered traffic has been blocked by major carriers rather than merely throttled.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Yes. Any business sending automated text messages through a 10-digit long code in the U.S. must register with The Campaign Registry (TCR). Since February 2025, AT&T, Verizon, and T-Mobile block 100% of unregistered A2P 10DLC traffic. Registration requires a two-step process: brand registration (your business entity) and campaign registration (your specific use case and message samples). Unregistered messages do not arrive."
             }
           },
           {
+            "@type": "Question",
             "name": "What happens if I send SMS to non-compliant leads?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "You can trigger TCPA exposure, carrier filtering, and in some cases class-action risk. Statutory damages can be $500 to $1,500 per violation, and the practical cost can be much higher if your numbers get blocked or your campaign gets shut down.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Sending marketing texts to leads who have not given prior express written consent to your business is a TCPA violation. Statutory damages are $500 per message for standard violations and $1,500 per message for willful violations, with no cap on total liability. In a class-action scenario covering thousands of contacts, exposure can reach into the millions. Beyond legal liability, carriers can blacklist your number, which ends your ability to send SMS campaigns entirely."
             }
           },
           {
-            "name": "How do I know if my CRM leads are TCPA compliant?",
             "@type": "Question",
+            "name": "How do I know if my CRM leads are TCPA compliant?",
             "acceptedAnswer": {
-              "text": "You need to verify three things for each contact: when they opted in, how they opted in, and what disclosure language they saw. If you cannot prove those details, or if the consent was generic or shared with other businesses, the lead should not be messaged until it is reviewed.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "For each number in your database, you need to answer three questions: When did this person opt in? How did they opt in? What disclosure language did they see at the time? If you can answer all three and the disclosure named your business specifically, the lead is likely compliant. If you can't answer all three, or if the leads were purchased or came from a shared lead-gen form, they should not be messaged until compliance is verified. AudienceIntent reviews your lead list as part of the pre-launch process for every reactivation campaign."
             }
           }
         ]
       }
-    ],
-    "@context": "https://schema.org",
-    "isPillar": false,
-    "pillarTopic": null,
-    "internalLinks": [
-      {
-        "context": "Supports readers who want the broader playbook and definitions behind SMS lead reactivation.",
-        "targetUrl": "https://www.audienceintent.ai/insights/sms-lead-reactivation-every-question-business-owners-ask",
-        "anchorText": "SMS lead reactivation"
-      },
-      {
-        "context": "Connects compliance guidance to the full database reactivation process and campaign setup.",
-        "targetUrl": "https://www.audienceintent.ai/insights/the-complete-guide-to-sms-lead-reactivation",
-        "anchorText": "database reactivation"
-      },
-      {
-        "context": "Points readers to the pricing requirement that leads must meet the TCPA compliance standard before launch.",
-        "targetUrl": "https://www.audienceintent.ai/#pricing",
-        "anchorText": "TCPA Compliant Opt-In Leads"
-      },
-      {
-        "context": "Provides the conversion-focused next step for estimating revenue in a compliant CRM database.",
-        "targetUrl": "https://lostrevenue.audienceintent.ai",
-        "anchorText": "lost revenue calculator"
-      }
     ]
   }
 ---
-# TCPA Compliance for SMS Lead Reactivation: What Every Business Owner Must Know in 2026
 
 SMS lead reactivation is legal. Done right, with properly consented leads and registered messaging infrastructure, it is one of the most compliant outreach channels available to a business. The problem is that "done right" has specific requirements, the rules have changed significantly in the past 18 months, and most businesses running reactivation campaigns have no idea.
 

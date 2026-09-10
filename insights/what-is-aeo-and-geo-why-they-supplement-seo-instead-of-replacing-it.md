@@ -81,7 +81,6 @@ schema: >-
     ]
   }
 ---
-# What Is AEO and GEO? Why They Supplement SEO Instead of Replacing It
 
 Every few years, a new acronym arrives and the marketing industry declares SEO dead. It happened with social media, with voice search, and with mobile. None of those predictions came true. The same pattern is playing out now with AEO and GEO.
 

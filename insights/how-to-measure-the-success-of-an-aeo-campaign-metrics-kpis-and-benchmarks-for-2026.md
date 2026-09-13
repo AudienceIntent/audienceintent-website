@@ -11,6 +11,215 @@ description: Measure AEO success with the right KPIs, benchmarks, and revenue
 focus_keyword: AEO
 image: /images/uploads/aeo-success.jpg
 og_image: /images/uploads/aeo-success.jpg
+schema: >-
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "url": "https://www.audienceintent.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "caption": "AudienceIntent"
+        },
+        "image": { "@id": "https://www.audienceintent.ai/#logo" },
+        "founder": { "@id": "https://www.audienceintent.ai/#person-kevin-bovett" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Wellington",
+          "addressRegion": "FL",
+          "postalCode": "33414",
+          "addressCountry": "US"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "support@audienceintent.ai"
+        },
+        "sameAs": [
+          "https://twitter.com/audienceintentx",
+          "https://www.linkedin.com/company/audienceintent"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai",
+        "name": "AudienceIntent",
+        "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/#person-kevin-bovett",
+        "name": "Kevin Bovett",
+        "url": "https://www.linkedin.com/in/kevinbovett",
+        "jobTitle": "Founder & CEO",
+        "worksFor": { "@id": "https://www.audienceintent.ai/#organization" },
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026/#webpage",
+        "url": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026",
+        "name": "How to Measure the Success of an AEO Campaign: Metrics, KPIs, and Benchmarks for 2026",
+        "isPartOf": { "@id": "https://www.audienceintent.ai/#website" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/aeo-success.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "datePublished": "2026-09-13T15:10:00-04:00",
+        "dateModified": "2026-09-13T15:10:00-04:00",
+        "breadcrumb": { "@id": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026/#breadcrumb" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Measure the Success of an AEO Campaign: Metrics, KPIs, and Benchmarks for 2026",
+            "item": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026/#article",
+        "mainEntityOfPage": { "@id": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026/#webpage" },
+        "headline": "How to Measure the Success of an AEO Campaign: Metrics, KPIs, and Benchmarks for 2026",
+        "alternativeHeadline": "How to Measure AEO Campaign Success in 2026",
+        "description": "A layer-by-layer framework for measuring AEO campaign performance — visibility, quality, traffic, and revenue attribution — with 2026 benchmarks, KPI formulas, and a tracking protocol you can run without paid tools.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/aeo-success.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": { "@id": "https://www.audienceintent.ai/#person-kevin-bovett" },
+        "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
+        "datePublished": "2026-09-13T15:10:00-04:00",
+        "dateModified": "2026-09-13T15:10:00-04:00",
+        "articleSection": "AI Recommended",
+        "keywords": "AEO measurement, AI visibility score, AI citation rate, AEO KPIs, AI referral traffic, GEO benchmarks 2026, answer engine optimization metrics",
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "isPartOf": { "@id": "https://www.audienceintent.ai/#website" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the most important metric to track first in an AEO campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with AI mention rate and AI referral sessions in GA4. Mention rate tells you whether your brand is appearing in AI answers at all. AI referral sessions tell you whether those appearances are generating measurable traffic. Together, they establish the baseline for everything else. If you have zero AI referral sessions and a low mention rate, the campaign has not yet produced visible results. If you have a rising mention rate but flat referral sessions, citation link quality is the problem to solve."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to see results from an AEO campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Technical fixes, such as schema markup, robots.txt corrections, and structured content updates, can show impact within weeks. Broader citation growth typically compounds over 60 to 90 days as AI platforms update their reference patterns. The first AI-attributed leads in a CRM typically appear in the second or third month. Revenue attribution becomes clearly measurable by month three or four. AudienceIntent achieved a 312% citation increase for Blingle Premier Lighting within 90 days. Results vary by market, category, and starting footprint."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a good AI visibility rate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "According to WebFX 2026 GEO benchmarks, a visibility rate below 20% is underperforming for most categories. Between 20% and 40% is competitive. Above 40% means you are outperforming most category competitors. For local and service businesses in less competitive markets, the threshold for competitive may be lower because fewer businesses have optimized for AI visibility at all."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I measure AEO performance without a paid tool?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The manual protocol is: build a library of 15 to 20 buyer-intent prompts, test them across ChatGPT, Perplexity, Google AI Overviews, and Claude weekly using incognito mode, and log four data points per response: brand appears, position, citation link present, description accuracy. Set up a GA4 custom channel group for AI referral sources. Track branded search volume in Google Search Console as a lagging indicator. These three inputs produce a measurable AEO baseline without any specialist tooling. The limitation is time: a full audit of 50 prompts across five platforms takes four to six hours manually."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a mention and a citation in AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A mention is any instance where an AI platform includes your brand name in a response, with or without a source link. A citation is a mention that includes a visible link to a specific source page. Citations drive direct referral traffic; mentions build brand awareness without a measurable visit path. ChatGPT mentions brands 3.2 times more often than it cites them, which means a significant portion of brand appearances in AI answers carry no source link. The gap between your mention rate and citation rate is the clearest signal of where third-party source building will have the most impact."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is my AEO visibility score not translating into referral traffic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Three common causes: First, your brand is being mentioned without citation links, so users have no path to click through. Second, the cited page does not match the intent created by the AI's description, causing high bounce rates. Third, the AI platforms citing you are primarily ChatGPT, which accounts for 87.4% of AI referral traffic but also has the most selective citation behavior. Focus on building third-party sources that earn linked citations, not just brand mentions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does AEO replace SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. AEO extends SEO rather than replacing it. The technical foundations, content quality, and authority signals that power great SEO also power great AEO. The critical difference is that only 12% of pages cited by ChatGPT rank in Google's top 10. These are separate ecosystems with separate rules. Optimizing for one does not guarantee visibility in the other. The brands winning in 2026 are building for both simultaneously."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know which AI platforms to prioritize?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Prioritize based on where your customers spend time and the citation behavior of each platform. ChatGPT accounts for 87.4% of AI referral traffic across industries, making it the highest-priority platform for traffic generation. Perplexity has the highest citation density per response, averaging 21.87 citations versus ChatGPT's 6.88, making it easier to earn a citation slot. Google AI Overviews matter most if your business has strong existing organic rankings. Track your visibility score per platform and invest first in the platforms where your category has the most search activity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a healthy citation source count?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "More is better, and diversity matters as much as volume. A business with citations from 47 distinct sources, as Blingle Premier Lighting achieved after 90 days, is significantly more resilient than a business whose AI visibility depends on two or three sources. If 80% of your citations come from two sources, a policy change or indexing shift on either of those sources can cut your citation rate significantly. Aim for breadth across review platforms, editorial content, directories, and community sources."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I do if my AI visibility drops suddenly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Check four things in order: run your top 10 prompts manually in incognito mode to confirm the drop is real and not a measurement artifact; check your robots.txt file for accidental blocks on AI crawlers such as GPTBot, ClaudeBot, and PerplexityBot; search for recent negative content about your brand on Reddit, review platforms, and news sources; and check whether a key citation source has changed or removed content that mentioned your business. A sudden drop without an obvious cause often traces back to one of these four issues."
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+  </script>
 ---
 Most businesses running an AEO campaign ask the wrong question first. They ask: "Are we being mentioned?" The better question is: "Are we being mentioned, cited, ranked first, described accurately, and converting the traffic that arrives?" Those are five different questions, and each one requires a different metric to answer.
 

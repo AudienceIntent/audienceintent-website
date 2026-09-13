@@ -44,11 +44,8 @@ The practical differences between the two frameworks:
 AEO measurement works in four sequential layers, each feeding the next:
 
 1.  **Visibility:** Is your brand appearing in AI answers at all? Tracked through mention rate, citation rate, and AI Visibility Score.
-    
 2.  **Traffic:** Are those mentions generating clicks? Tracked through AI referral sessions in GA4.
-    
 3.  **Demand:** Is AI exposure driving branded search and direct visits? Tracked through Google Search Console branded impressions.
-    
 4.  **Revenue:** Are AI-referred visitors converting? Tracked through conversion rates, assisted conversions, and CRM tagging.
     
 
@@ -359,13 +356,9 @@ The single most common reason AEO measurement fails is not that businesses track
 If you are starting from zero, the sequence is:
 
 1.  **Run a free AI Visibility Audit.** Get your current AI Visibility Score across ChatGPT, Perplexity, Google AI Overviews, and Claude. This is your baseline. It tells you your current mention rate, citation count, position quality, and which prompts your business is winning or missing. The [free AI Visibility Audit at report.audienceintent.ai](https://report.audienceintent.ai) generates this in minutes, without requiring any technical setup.
-    
 2.  **Set up GA4 for AI traffic tracking.** Create the custom channel group for AI referral sources. This takes 20 minutes and means that from the moment you start, you are capturing the traffic data you will need to demonstrate progress.
-    
 3.  **Build your prompt library.** Start with 20 prompts: 10 branded, 10 non-branded category-level queries. This is your weekly spot-check set.
-    
 4.  **Run your first manual audit.** Test all 20 prompts across four platforms. Log the four data points for each. This is your month-one baseline.
-    
 5.  **Set your review cadence.** Weekly spot checks on your top 10 prompts. Monthly full audit. Quarterly competitive benchmark.
     
 

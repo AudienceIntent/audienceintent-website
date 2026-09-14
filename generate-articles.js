@@ -406,11 +406,7 @@ function generateAutoSchema(article) {
       "image": articleImage,
       "datePublished": datePublished,
       "dateModified": dateModified,
-      "author": {
-        "@type": "Person",
-        "name": article.author || "Kevin Bovett",
-        "url": SITE_URL + "/about"
-      },
+      "author": {"@id": "https://www.audienceintent.ai/#kevin-bovett"},
       "publisher": {
         "@type": "Organization",
         "@id": ORG_ID,
@@ -723,6 +719,7 @@ function generateSitemap(articles) {
   const staticPages = [
     { url: '/',         priority: '1.0', changefreq: 'weekly',  lastmod: TODAY },
     { url: '/insights', priority: '0.9', changefreq: 'daily',   lastmod: TODAY },
+    { url: '/about',    priority: '0.6', changefreq: 'monthly', lastmod: TODAY },
     { url: '/legal',    priority: '0.4', changefreq: 'monthly', lastmod: TODAY },
   ];
 
@@ -825,7 +822,7 @@ function buildArticleBodyHtml(article) {
   const authorBlock = '<div class="art-author-block">'
     + '<div class="art-author-avatar" aria-hidden="true">KB</div>'
     + '<div class="art-author-info">'
-    + '<span class="art-author-name">Written by ' + escHtml(author) + '</span>'
+    + '<span class="art-author-name">Written by <a href="' + SITE_URL + '/about" style="color:inherit;text-decoration:underline">' + escHtml(author) + '</a></span>'
     + '<span class="art-author-role">Founder &amp; CEO, AudienceIntent &nbsp;&middot;&nbsp; Published '
     + escHtml(dateLong)
     + (hasUpdate ? ' &nbsp;&middot;&nbsp; Updated ' + escHtml(updLong) : '')
@@ -1253,7 +1250,7 @@ async function main() {
     // Write sitemap.xml
     const sitemap = generateSitemap(cleanArticles);
     fs.writeFileSync(SITEMAP_FILE, sitemap);
-    console.log(`SUCCESS: sitemap.xml — ${cleanArticles.length + 3} URLs (3 static + ${cleanArticles.length} articles)`);
+    console.log(`SUCCESS: sitemap.xml — ${cleanArticles.length + 4} URLs (4 static + ${cleanArticles.length} articles)`);
 
     // Write sitemap-images.xml
     const imageSitemap = generateImageSitemap(cleanArticles);

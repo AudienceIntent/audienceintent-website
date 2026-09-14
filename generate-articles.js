@@ -447,6 +447,47 @@ function generateAutoSchema(article) {
 }
 
 // ============================================================
+// AUTHOR ENFORCEMENT — runs on EVERY article's schema, whether
+// auto-generated above or hand-written in frontmatter. Manually
+// authored schema is common in this workflow (added per-article
+// in Decap), so relying only on generateAutoSchema() means the
+// correct author link never reaches those articles. This parses
+// whatever schema string is already set, finds every node that
+// has an "author" key, and overwrites it to point at the one
+// canonical Person entity — regardless of what was typed in.
+// If the existing schema fails to parse as JSON, it's left
+// untouched and a warning is logged rather than crashing the
+// build.
+// ============================================================
+const CANONICAL_AUTHOR_REF = { "@id": "https://www.audienceintent.ai/#kevin-bovett" };
+
+function enforceCorrectAuthor(schemaString, slugForLog) {
+  let parsed;
+  try {
+    parsed = JSON.parse(schemaString);
+  } catch (e) {
+    console.log(`  ⚠  schema for "${slugForLog}" is not valid JSON — author NOT patched (${e.message})`);
+    return schemaString; // leave as-is, don't break the build
+  }
+
+  let patchedCount = 0;
+  const nodes = Array.isArray(parsed["@graph"]) ? parsed["@graph"] : [parsed];
+  nodes.forEach(node => {
+    if (node && typeof node === 'object' && 'author' in node) {
+      node.author = CANONICAL_AUTHOR_REF;
+      patchedCount++;
+    }
+  });
+
+  if (patchedCount === 0) {
+    console.log(`  ⚠  schema for "${slugForLog}" has no "author" field to patch — left unchanged`);
+    return schemaString;
+  }
+
+  return JSON.stringify(parsed, null, 2);
+}
+
+// ============================================================
 // FRONTMATTER PARSER
 // ============================================================
 function parseFrontmatter(text, filename) {
@@ -669,6 +710,11 @@ function parseFrontmatter(text, filename) {
   if (!result.schema && result.title && result.date) {
     result.schema = generateAutoSchema(result);
     result._auto_filled.push('schema');
+  } else if (result.schema) {
+    // Manually-provided schema (common in this workflow) — still force
+    // the author field to reference the canonical Person entity, on
+    // every build, regardless of what was originally typed in.
+    result.schema = enforceCorrectAuthor(result.schema, result.slug);
   }
 
   return result;

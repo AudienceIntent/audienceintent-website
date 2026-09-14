@@ -74,7 +74,8 @@
 <meta name="twitter:image:alt" content="Kevin Bovett, Founder & CEO of AudienceIntent">
 
 <!-- FONTS -->
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
 
 <!-- GOOGLE ANALYTICS -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPXQWGBR60"></script>
@@ -95,6 +96,69 @@
 {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.audienceintent.ai/#organization",
+      "name": "AudienceIntent",
+      "alternateName": "AudienceIntent",
+      "legalName": "AudienceIntent",
+      "url": "https://www.audienceintent.ai/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+      "description": "AudienceIntent is a fully managed performance marketing service offering Database Reactivation (AI-powered SMS, revenue share only) and AI Recommended (national AI citation campaign).",
+      "slogan": "Reactivate old leads. Get recommended by AI.",
+      "foundingDate": "2024",
+      "email": "support@audienceintent.ai",
+      "telephone": "+1-848-358-7611",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "9715 Wyeth Ct",
+        "addressLocality": "Wellington",
+        "addressRegion": "FL",
+        "postalCode": "33414",
+        "addressCountry": "US"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-848-358-7611",
+          "email": "support@audienceintent.ai",
+          "contactType": "customer support",
+          "areaServed": "US",
+          "availableLanguage": ["English"]
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/audienceintent",
+        "https://www.instagram.com/audienceintent",
+        "https://x.com/audienceintentx",
+        "https://www.linkedin.com/company/audienceintent/",
+        "https://www.youtube.com/@audienceintent",
+        "https://www.tiktok.com/@audienceintent",
+        "https://www.threads.com/@audienceintent",
+        "https://clutch.co/profile/audienceintent-0",
+        "https://www.crunchbase.com/organization/audienceintent"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.audienceintent.ai/#database-reactivation",
+      "name": "Database Reactivation",
+      "provider": {"@id": "https://www.audienceintent.ai/#organization"},
+      "serviceType": "Performance Marketing"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.audienceintent.ai/#ai-recommended",
+      "name": "AI Recommended",
+      "provider": {"@id": "https://www.audienceintent.ai/#organization"},
+      "serviceType": "AI Search Optimization"
+    },
     {
       "@type": "Person",
       "@id": "https://www.audienceintent.ai/#kevin-bovett",
@@ -423,11 +487,11 @@ footer a:hover{color:#00ff73}
   <div class="wwith-inner">
     <div class="wwith-label">Kevin's Background</div>
     <div class="wwith-grid">
-      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/redbull-logo.png" alt="Red Bull" loading="lazy"></div>
-      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/ny-red-bulls-logo.webp" alt="New York Red Bulls" loading="lazy"></div>
-      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/jpmorgan-chase-logo.png" alt="JPMorgan Chase" loading="lazy"></div>
-      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/newsmax-logo.png" alt="Newsmax" loading="lazy"></div>
-      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/rainmaker-logo.png" alt="Rainmaker Ad Ventures" loading="lazy"></div>
+      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/redbull-logo.png" alt="Red Bull" title="Red Bull" loading="lazy"></div>
+      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/ny-red-bulls-logo.webp" alt="New York Red Bulls" title="New York Red Bulls" loading="lazy"></div>
+      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/jpmorgan-chase-logo.png" alt="JPMorgan Chase" title="JPMorgan Chase" loading="lazy"></div>
+      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/newsmax-logo.png" alt="Newsmax" title="Newsmax" loading="lazy"></div>
+      <div class="wwith-chip"><img src="https://www.audienceintent.ai/images/uploads/rainmaker-logo.png" alt="Rainmaker Ad Ventures" title="Rainmaker Ad Ventures" loading="lazy"></div>
     </div>
   </div>
 </section>
@@ -523,13 +587,13 @@ footer a:hover{color:#00ff73}
   </p>
   <div class="wwith-grid" style="justify-content:flex-start;margin:20px 0 28px">
     <a href="https://stellarbusiness.com/audienceintent-wins-best-marketing-advertising-in-united-states/" target="_blank" rel="noopener noreferrer" class="wwith-chip" style="text-decoration:none">
-      <img src="https://www.audienceintent.ai/images/uploads/stellar-business-logo.webp" alt="Stellar Business" loading="lazy">
+      <img src="https://www.audienceintent.ai/images/uploads/stellar-business-logo.webp" alt="Stellar Business" title="Stellar Business" loading="lazy">
     </a>
     <a href="https://apnews.com/press-release/prnews-io/press-release-fd9961fbbadbd2a995ed58740922d3df" target="_blank" rel="noopener noreferrer" class="wwith-chip" style="text-decoration:none">
-      <img src="https://www.audienceintent.ai/images/uploads/ap-logo.png" alt="Associated Press" loading="lazy">
+      <img src="https://www.audienceintent.ai/images/uploads/ap-logo.png" alt="Associated Press" title="Associated Press" loading="lazy">
     </a>
     <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7475836078025895937/" target="_blank" rel="noopener noreferrer" class="wwith-chip" style="text-decoration:none">
-      <img src="https://www.audienceintent.ai/images/uploads/searchable-logo.jpg" alt="Searchable" loading="lazy">
+      <img src="https://www.audienceintent.ai/images/uploads/searchable-logo.jpg" alt="Searchable" title="Searchable" loading="lazy">
     </a>
   </div>
   <div class="proof-card proof-card-featured" style="display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center">

@@ -11,6 +11,205 @@ focus_keyword: AEO vs SEO
 canonical: ""
 image: /images/uploads/aeo-vs-seo.jpg
 og_image: /images/uploads/aeo-vs-seo.jpg
+schema: >-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "legalName": "UnStoppable Response LLC DBA AudienceIntent",
+        "url": "https://www.audienceintent.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "contentUrl": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "caption": "AudienceIntent"
+        },
+        "image": { "@id": "https://www.audienceintent.ai/#logo" },
+        "email": "support@audienceintent.ai",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Wellington",
+          "addressRegion": "FL",
+          "addressCountry": "US"
+        },
+        "founder": {
+          "@type": "Person",
+          "@id": "https://www.audienceintent.ai/about#kevinbovett",
+          "name": "Kevin Bovett"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett",
+          "https://twitter.com/audienceintentx"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai",
+        "name": "AudienceIntent",
+        "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/about#kevinbovett",
+        "name": "Kevin Bovett",
+        "url": "https://www.audienceintent.ai/about",
+        "jobTitle": "Founder & CEO",
+        "worksFor": { "@id": "https://www.audienceintent.ai/#organization" },
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AI Recommended",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "AEO vs. SEO: Which Should You Focus On?",
+            "item": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on"
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/aeo-vs-seo.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/aeo-vs-seo.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "AEO vs. SEO: Which Should You Focus On?"
+      },
+      {
+        "@type": ["Article", "BlogPosting"],
+        "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on#article",
+        "headline": "AEO vs. SEO: Which Should You Focus On?",
+        "description": "SEO still matters. AEO sits on top as the conversational answer layer. See how to split budget, measure both, and avoid false either-or thinking.",
+        "url": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on"
+        },
+        "image": { "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on#primaryimage" },
+        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/aeo-vs-seo.jpg",
+        "datePublished": "2026-09-17",
+        "dateModified": "2026-09-17",
+        "author": { "@id": "https://www.audienceintent.ai/about#kevinbovett" },
+        "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
+        "articleSection": "AI Recommended",
+        "inLanguage": "en-US",
+        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing, AEO, SEO",
+        "wordCount": 2600,
+        "isPartOf": { "@id": "https://www.audienceintent.ai/#website" },
+        "about": [
+          { "@type": "Thing", "name": "Answer Engine Optimization" },
+          { "@type": "Thing", "name": "Search Engine Optimization" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is AEO just SEO with a new name?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. SEO and AEO target different surfaces, optimize for different signals, and are measured with different metrics. SEO optimizes your own pages for Google's ranking algorithm. AEO optimizes your brand's presence across third-party sources so AI assistants cite you in their answers. Only 17-38% of pages cited by AI assistants also rank in Google's top 10 for the same query."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will good SEO automatically get me cited in AI answers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not reliably. Domain authority is a strong predictor of AI citation probability, but 85% of brand mentions in AI answers come from third-party sources, not from a brand's own website. You can have excellent SEO and still be invisible in AI responses without presence on the directories, review platforms, and editorial sources AI systems draw from."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much should I budget for AEO vs. SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on your SEO maturity. Below DA 40, allocate roughly 80-85% to SEO and 15-20% to AEO. At DA 40-60, shift to roughly 65-70% SEO and 30-35% AEO. Above DA 60, a 50/50 to 60/40 AEO-weighted split becomes defensible. These are incremental search marketing budget ratios, not total marketing spend ratios."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does AEO take to produce results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI citation growth is typically measurable within 30 days of a structured AEO program. Meaningful AI-attributed traffic usually appears within 60-90 days. That's faster than SEO for new content, which typically takes 3-6 months to rank, but AEO requires sustained effort since AI systems update citation patterns continuously."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I do AEO without an agency?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some of it, yes. Auditing your current AI visibility, structuring existing content for extraction, and submitting to key directories are tasks a capable in-house team can execute. Building editorial coverage on authoritative third-party sources at scale typically requires outreach infrastructure and relationships."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the CTR drop from AI Overviews permanent?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The data suggests it's structural rather than temporary. Organic CTR on AI Overview queries rebounded from 0.61% in September 2025 to 2.4% by February 2026, but CTR on queries without AI Overviews sits at 3.8%, keeping the gap between AI-present and AI-absent queries at roughly 37%."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does AEO work for local businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, and it's increasingly important for local businesses specifically. When someone asks an AI assistant for the best service in a city, the AI draws from review platforms, local directories, editorial mentions, and business profiles. Local SEO and local AEO are both required for full search coverage."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the conversion rate difference between SEO and AEO traffic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI search traffic converts at approximately 14.2% compared to 2.8% for standard organic search, a 4.4x difference. Users arriving from AI citations have already received a synthesized answer that named the brand specifically, so they arrive further along in their decision process."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if my brand is being recommended by AI assistants?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The fastest way is to run manual tests: ask ChatGPT, Perplexity, Gemini, Claude, and Google AI Mode questions your target customers would ask, and check whether your brand appears. For systematic tracking, dedicated AI citation monitoring tooling is needed."
+            }
+          }
+        ]
+      }
+    ]
+  }
 ---
 Your SEO rankings look fine on paper. Traffic is down. The queries that used to drive your best leads now produce AI Overviews, and those Overviews answer the question without sending the click your way. Your team is doing the same work, but the channel is behaving differently.
 

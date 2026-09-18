@@ -2,7 +2,7 @@
 title: Kevin Bovett Earns HubSpot Academy AEO Fundamentals Certification
 meta_title: Kevin Bovett's AEO Certification | AudienceIntent
 date: 2026-09-06T21:34:00.000-04:00
-category: Database Reactivation
+category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Kevin Bovett completed HubSpot Academy's AEO Fundamentals
   Certification. See the verified badge, curriculum, and why it matters for AI
@@ -10,6 +10,101 @@ description: Kevin Bovett completed HubSpot Academy's AEO Fundamentals
 focus_keyword: AI Recommended
 image: /images/uploads/hubspot.jpg
 og_image: /images/uploads/hubspot.jpg
+schema: >-
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#article",
+        "headline": "Kevin Bovett Earns HubSpot Academy AEO Fundamentals Certification",
+        "name": "Kevin Bovett Earns HubSpot Academy AEO Fundamentals Certification",
+        "description": "AudienceIntent founder Kevin Bovett completed HubSpot Academy's AEO Fundamentals Certification, covering how AI platforms like ChatGPT and Perplexity select and cite sources.",
+        "url": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification",
+        "image": {"@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#primaryimage"},
+        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/hubspot.jpg",
+        "author": {"@id": "https://www.audienceintent.ai/#kevin-bovett"},
+        "publisher": {"@id": "https://www.audienceintent.ai/#organization"},
+        "datePublished": "2026-09-06",
+        "dateModified": "2026-09-06",
+        "mainEntityOfPage": {"@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#webpage"},
+        "isPartOf": {"@id": "https://www.audienceintent.ai/#website"},
+        "inLanguage": "en-US",
+        "articleSection": "AI Recommended",
+        "keywords": [
+          "Answer Engine Optimization",
+          "AEO",
+          "HubSpot Academy",
+          "AI Search Visibility",
+          "AI Citation Tracking",
+          "Generative Engine Optimization"
+        ],
+        "about": [
+          {"@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#credential"},
+          {"@id": "https://www.audienceintent.ai/#ai-recommended"}
+        ],
+        "mentions": [
+          {
+            "@type": "Organization",
+            "name": "HubSpot Academy",
+            "url": "https://academy.hubspot.com/"
+          },
+          {"@type": "SoftwareApplication", "name": "ChatGPT"},
+          {"@type": "SoftwareApplication", "name": "Perplexity"}
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/hubspot.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/hubspot.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "Kevin Bovett, Founder of AudienceIntent, earns HubSpot Academy's AEO Fundamentals Certification"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#webpage",
+        "url": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification",
+        "name": "Kevin Bovett Earns HubSpot Academy AEO Fundamentals Certification",
+        "description": "AudienceIntent founder Kevin Bovett completed HubSpot Academy's AEO Fundamentals Certification, covering how AI platforms like ChatGPT and Perplexity select and cite sources.",
+        "isPartOf": {"@id": "https://www.audienceintent.ai/#website"},
+        "primaryImageOfPage": {"@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#primaryimage"},
+        "about": {"@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#article"},
+        "breadcrumb": {"@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#breadcrumb"},
+        "publisher": {"@id": "https://www.audienceintent.ai/#organization"},
+        "datePublished": "2026-09-06",
+        "dateModified": "2026-09-06",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.audienceintent.ai/"},
+          {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://www.audienceintent.ai/insights"},
+          {"@type": "ListItem", "position": 3, "name": "Kevin Bovett Earns HubSpot Academy AEO Fundamentals Certification", "item": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification"}
+        ]
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#credential",
+        "name": "AEO Fundamentals Certification",
+        "credentialCategory": "certificate",
+        "description": "A six-module certification covering how AI answer engines like ChatGPT and Perplexity select and cite sources, and how to build content strategies for AI discoverability.",
+        "url": "https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals",
+        "recognizedBy": {
+          "@type": "EducationalOrganization",
+          "name": "HubSpot Academy",
+          "url": "https://academy.hubspot.com/"
+        }
+      }
+    ]
+  }
+
+  </script>
 ---
 AudienceIntent founder Kevin Bovett has completed the [AEO Fundamentals Certification](https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals) from HubSpot Academy, the worldwide leader in free online training for inbound marketing, sales, and customer service professionals.
 

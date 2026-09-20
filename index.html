@@ -512,18 +512,24 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:14px 32px;display:fl
 .ais-pitch{font-size:clamp(18px,2.5vw,26px);font-weight:300;color:rgba(248,247,246,.88);line-height:1.65;margin-bottom:20px;font-style:italic}
 .ais-pitch strong{color:#f8f7f6;font-weight:700;font-style:normal}
 .ais-pitch span{color:#4da8ff}
-/* Searchable Agency Partner + HubSpot Academy badges — matched by height, since one badge is portrait and one is square */
+/* Searchable Agency Partner + HubSpot Academy + Semrush Academy badges — matched by height, since they differ in shape */
 .ais-partner-badge{display:flex;justify-content:center;align-items:center;gap:28px;flex-wrap:wrap;margin-top:32px}
 .ais-partner-badge img{height:170px;width:auto;display:block}
 .ais-badge-link{display:block;line-height:0}
 .ais-badge-link.hubspot{background:#f8f7f6;border-radius:20px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.3);transition:transform .2s;display:flex;align-items:center;justify-content:center}
 .ais-badge-link.hubspot:hover{transform:translateY(-2px)}
 .ais-badge-link.hubspot img{height:134px;width:134px;display:block}
+/* Semrush Academy — wide wordmark, same card + same 170px total height as the HubSpot badge */
+.ais-badge-link.semrush{background:#f8f7f6;border-radius:20px;padding:18px 32px;height:170px;box-sizing:border-box;box-shadow:0 10px 30px rgba(0,0,0,.3);transition:transform .2s;display:flex;align-items:center;justify-content:center}
+.ais-badge-link.semrush:hover{transform:translateY(-2px)}
+.ais-badge-link.semrush img{height:auto;width:220px;display:block}
 @media(max-width:640px){
   .ais-partner-badge{margin-top:24px;gap:18px}
   .ais-partner-badge img{height:120px}
   .ais-badge-link.hubspot{padding:12px;border-radius:16px}
   .ais-badge-link.hubspot img{height:96px;width:96px}
+  .ais-badge-link.semrush{padding:12px 20px;border-radius:16px;height:120px}
+  .ais-badge-link.semrush img{height:auto;width:150px}
 }
 /* Big stat blocks */
 .ais-big-row{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:rgba(248,247,246,.06);border:.5px solid rgba(248,247,246,.08);border-radius:24px;overflow:hidden;margin-bottom:2px;position:relative;z-index:1}
@@ -1096,6 +1102,9 @@ footer{background:#080e1a;border-top:.5px solid rgba(248,247,246,0.07)}
         <img src="/images/uploads/certified-agency-partner-badge-stone-partner-badge.png" alt="Searchable Certified Agency Partner" title="Searchable Certified Agency Partner" width="160" height="193" loading="lazy" decoding="async">
         <a href="https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals" target="_blank" rel="noopener noreferrer" class="ais-badge-link hubspot" title="HubSpot Academy — AEO Fundamentals">
           <img src="https://www.audienceintent.ai/images/uploads/hubspot-aeo-badge.webp" alt="HubSpot Academy — AEO Fundamentals" width="132" height="132" loading="lazy" decoding="async">
+        </a>
+        <a href="https://static.semrush.com/academy/certificates/1f6242b744/kevin-bovett_37.pdf" target="_blank" rel="noopener noreferrer" class="ais-badge-link semrush" title="Semrush Academy Certification">
+          <img src="/images/uploads/semrush-logo.png" alt="Semrush Academy Certification" width="358" height="50" loading="lazy" decoding="async">
         </a>
       </div>
     </div>

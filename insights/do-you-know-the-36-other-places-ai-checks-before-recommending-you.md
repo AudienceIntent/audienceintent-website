@@ -9,6 +9,181 @@ description: AI assistants trust third-party signals more than your website. See
 focus_keyword: Answer Engine Optimization
 image: /images/uploads/ai-checks.jpg
 og_image: /images/uploads/ai-checks.jpg
+schema: >-
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#article",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#webpage"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#webpage"
+        },
+        "url": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you",
+        "headline": "Do You Know the 36 Other Places AI Checks Before Recommending You?",
+        "alternativeHeadline": "AI Search Visibility: 36 Places AI Checks First",
+        "description": "AI assistants trust third-party signals more than your website. See the 36 source types they check, what matters most, and where to start.",
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#primaryimage"
+        },
+        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/ai-checks.jpg",
+        "datePublished": "2026-09-20",
+        "dateModified": "2026-09-20",
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "copyrightHolder": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "copyrightYear": 2026,
+        "articleSection": "AI Recommended",
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "wordCount": 3800,
+        "timeRequired": "PT16M",
+        "keywords": [
+          "AI search visibility",
+          "AI recommendations",
+          "earned media",
+          "third-party citations",
+          "review platforms",
+          "business directories",
+          "local citations",
+          "ChatGPT",
+          "Gemini",
+          "Claude",
+          "Perplexity",
+          "AI Recommended"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "AI search visibility"
+          },
+          {
+            "@type": "Thing",
+            "name": "Earned media"
+          },
+          {
+            "@type": "Thing",
+            "name": "Third-party citation sources"
+          }
+        ],
+        "mentions": [
+          { "@type": "SoftwareApplication", "name": "ChatGPT", "applicationCategory": "AI assistant" },
+          { "@type": "SoftwareApplication", "name": "Gemini", "applicationCategory": "AI assistant" },
+          { "@type": "SoftwareApplication", "name": "Claude", "applicationCategory": "AI assistant" },
+          { "@type": "SoftwareApplication", "name": "Perplexity", "applicationCategory": "AI assistant" },
+          { "@type": "Organization", "name": "Yext" },
+          { "@type": "Organization", "name": "Feefo" },
+          { "@type": "Organization", "name": "Rankability" },
+          { "@type": "Organization", "name": "Acromatico" },
+          { "@type": "Organization", "name": "Google Business Profile" },
+          { "@type": "Organization", "name": "Yelp" },
+          { "@type": "Organization", "name": "Bing Places" },
+          { "@type": "Organization", "name": "Foursquare" },
+          { "@type": "Organization", "name": "Apple Business Connect" },
+          { "@type": "Organization", "name": "Better Business Bureau" }
+        ],
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": ["h1", "article > p:first-of-type"]
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#webpage",
+        "url": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you",
+        "name": "AI Search Visibility: 36 Places AI Checks First",
+        "description": "AI assistants trust third-party signals more than your website. See the 36 source types they check, what matters most, and where to start.",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "about": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#primaryimage"
+        },
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#breadcrumb"
+        },
+        "datePublished": "2026-09-20",
+        "dateModified": "2026-09-20",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you"
+          ]
+        }
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/ai-checks.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/ai-checks.jpg",
+        "caption": "Do You Know the 36 Other Places AI Checks Before Recommending You?",
+        "encodingFormat": "image/jpeg",
+        "inLanguage": "en-US",
+        "creditText": "AudienceIntent",
+        "creator": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "copyrightHolder": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Do You Know the 36 Other Places AI Checks Before Recommending You?"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "name": "Kevin Bovett",
+        "jobTitle": "Founder & CEO",
+        "worksFor": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett"
+        ]
+      }
+    ]
+  }
+
+  </script>
 ---
 Most business owners assume AI recommendations work like Google search: build a good website, maybe keep a Google Business Profile current, and the algorithm takes care of the rest. That assumption is wrong, and it is costing businesses real customers every day.
 

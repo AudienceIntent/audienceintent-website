@@ -9,6 +9,589 @@ description: Clear answers to the biggest AI search questions, plus what to do
 focus_keyword: AI Search
 image: /images/uploads/7-questions.jpg
 og_image: /images/uploads/7-questions.jpg
+schema: >-
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "alternateName": "AudienceIntent",
+        "legalName": "AudienceIntent",
+        "url": "https://www.audienceintent.ai/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "contentUrl": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "width": 512,
+          "height": 512,
+          "caption": "AudienceIntent"
+        },
+        "image": {
+          "@id": "https://www.audienceintent.ai/#logo"
+        },
+        "description": "AudienceIntent is a fully managed performance marketing service offering Database Reactivation (AI-powered SMS, revenue share only) and AI Recommended (national AI citation campaign across ChatGPT, Claude, Gemini, Perplexity and Grok).",
+        "slogan": "Reactivate old leads. Get recommended by AI.",
+        "foundingDate": "2024",
+        "email": "support@audienceintent.ai",
+        "telephone": "+1-848-358-7611",
+        "priceRange": "$$",
+        "currenciesAccepted": "USD",
+        "paymentAccepted": "Credit Card, ACH, Wire Transfer",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "9715 Wyeth CT",
+          "addressLocality": "Wellington",
+          "addressRegion": "FL",
+          "postalCode": "33414",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 26.6587,
+          "longitude": -80.2414
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+1-848-358-7611",
+            "email": "support@audienceintent.ai",
+            "contactType": "customer support",
+            "areaServed": "US",
+            "availableLanguage": ["English"]
+          },
+          {
+            "@type": "ContactPoint",
+            "email": "kevin@audienceintent.ai",
+            "contactType": "sales",
+            "areaServed": "US",
+            "availableLanguage": ["English"]
+          }
+        ],
+        "founder": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "employee": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "knowsAbout": [
+          "Database Reactivation",
+          "AI Search Optimization",
+          "Answer Engine Optimization (AEO)",
+          "AI Citation Building",
+          "Generative Engine Optimization (GEO)",
+          "Performance Marketing",
+          "SMS Marketing",
+          "Lead Reactivation",
+          "TCPA Compliance",
+          "ChatGPT Marketing",
+          "Claude Search Optimization",
+          "Perplexity Marketing",
+          "Gemini Marketing"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "AudienceIntent Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@id": "https://www.audienceintent.ai/#database-reactivation"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Revenue share only — no monthly fee. One-time $997 setup."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@id": "https://www.audienceintent.ai/#ai-recommended"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1997",
+                "priceCurrency": "USD",
+                "billingIncrement": "P1M",
+                "description": "$1,997 per month, month-to-month, no contract. One-time $997 setup."
+              }
+            }
+          ]
+        },
+        "sameAs": [
+          "https://www.facebook.com/audienceintent",
+          "https://www.instagram.com/audienceintent",
+          "https://x.com/audienceintentx",
+          "https://www.linkedin.com/company/audienceintent/",
+          "https://www.youtube.com/@audienceintent",
+          "https://www.tiktok.com/@audienceintent",
+          "https://www.threads.com/@audienceintent"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "name": "Kevin Bovett",
+        "givenName": "Kevin",
+        "familyName": "Bovett",
+        "jobTitle": "Founder & CEO",
+        "email": "kevin@audienceintent.ai",
+        "url": "https://www.audienceintent.ai/about",
+        "worksFor": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "knowsAbout": [
+          "Database Reactivation",
+          "AI Search Optimization",
+          "Answer Engine Optimization",
+          "Performance Marketing"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "description": "Reactivate old leads. Get recommended by AI. — Database Reactivation and AI Recommended marketing services.",
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.audienceintent.ai/#database-reactivation",
+        "name": "Database Reactivation",
+        "alternateName": "Lead Reactivation",
+        "description": "Performance-based fully managed service that reactivates dormant leads, unconverted enquiries and past customers using AI-powered conversational SMS. Zero monthly fee. Revenue share only — businesses pay only when revenue is generated. Live within 3–5 days of onboarding. Requires TCPA compliant opt-in leads. One-time $997 setup fee.",
+        "provider": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "serviceType": "Performance Marketing",
+        "category": "Lead Reactivation Marketing",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "Businesses with dormant lead databases"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Performance-based revenue share — no monthly fee. One-time setup fee $997."
+          },
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.audienceintent.ai/#ai-recommended",
+        "name": "AI Recommended",
+        "alternateName": [
+          "AI Search Visibility",
+          "Answer Engine Optimization",
+          "AI Citation Building"
+        ],
+        "description": "Monthly national campaign that builds and maintains your business's citation presence across the data sources used by AI platforms — ChatGPT, Claude, Gemini, Perplexity and Grok. We optimise existing pages, create new content that answers customer queries, and track AI citations monthly. $1,997/month. Month-to-month. No contract. Cancel anytime. One-time $997 setup fee.",
+        "provider": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "serviceType": "AI Search Optimization",
+        "category": "Generative Engine Optimization",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "Businesses seeking AI search visibility"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "1997",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "1997",
+            "priceCurrency": "USD",
+            "billingIncrement": "P1M",
+            "description": "Month-to-month. Cancel anytime. No contract. One-time $997 setup fee."
+          },
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#article",
+        "url": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#webpage"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#webpage"
+        },
+        "headline": "7 Questions Business Owners Are Asking About AI Search (Answered Straight)",
+        "alternativeHeadline": "7 AI Search Questions Business Owners Are Asking in 2026",
+        "description": "Straight answers to seven questions business owners are asking about AI search, including SEO, AI citations, crawlers, visibility, traffic, measurement, and where to start.",
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#primaryimage"
+        },
+        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/7-questions.jpg",
+        "datePublished": "2026-09-23",
+        "dateModified": "2026-09-23",
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "copyrightHolder": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "copyrightYear": 2026,
+        "articleSection": "AI Recommended",
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "timeRequired": "PT12M",
+        "keywords": [
+          "AI search",
+          "AI search visibility",
+          "AI visibility",
+          "AI recommendations",
+          "AI citations",
+          "AI search optimization",
+          "SEO",
+          "Answer Engine Optimization",
+          "AEO",
+          "Generative Engine Optimization",
+          "GEO",
+          "AI crawlers",
+          "ChatGPT",
+          "Claude",
+          "Gemini",
+          "Perplexity",
+          "Grok",
+          "Google AI Overviews",
+          "GPTBot",
+          "PerplexityBot",
+          "ClaudeBot",
+          "Googlebot",
+          "robots.txt",
+          "AI referral traffic",
+          "third-party citations",
+          "AI Visibility Score",
+          "AI Recommended"
+        ],
+        "about": [
+          {
+            "@id": "https://www.audienceintent.ai/#ai-recommended"
+          },
+          {
+            "@type": "Thing",
+            "name": "AI Search"
+          },
+          {
+            "@type": "Thing",
+            "name": "AI Search Visibility"
+          },
+          {
+            "@type": "Thing",
+            "name": "Artificial Intelligence"
+          },
+          {
+            "@type": "Thing",
+            "name": "Search Engine Optimization"
+          },
+          {
+            "@type": "Thing",
+            "name": "Answer Engine Optimization"
+          },
+          {
+            "@type": "Thing",
+            "name": "Generative Engine Optimization"
+          },
+          {
+            "@type": "Thing",
+            "name": "AI Citations"
+          },
+          {
+            "@type": "Thing",
+            "name": "AI Recommendations"
+          },
+          {
+            "@type": "Thing",
+            "name": "AI Crawlers"
+          },
+          {
+            "@type": "Thing",
+            "name": "Third-Party Citations"
+          }
+        ],
+        "mentions": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "ChatGPT",
+            "applicationCategory": "AI Assistant",
+            "url": "https://chatgpt.com/"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Claude",
+            "applicationCategory": "AI Assistant",
+            "url": "https://claude.ai/"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Gemini",
+            "applicationCategory": "AI Assistant",
+            "url": "https://gemini.google.com/"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Perplexity",
+            "applicationCategory": "AI Search Engine",
+            "url": "https://www.perplexity.ai/"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Grok",
+            "applicationCategory": "AI Assistant",
+            "url": "https://grok.com/"
+          },
+          {
+            "@type": "Thing",
+            "name": "Google AI Overviews"
+          },
+          {
+            "@type": "Thing",
+            "name": "GPTBot"
+          },
+          {
+            "@type": "Thing",
+            "name": "Googlebot"
+          },
+          {
+            "@type": "Thing",
+            "name": "PerplexityBot"
+          },
+          {
+            "@type": "Thing",
+            "name": "ClaudeBot"
+          },
+          {
+            "@type": "Thing",
+            "name": "robots.txt"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Google Search Console",
+            "applicationCategory": "Search Performance Tool"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Google Analytics",
+            "applicationCategory": "Web Analytics"
+          }
+        ],
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#faq"
+        },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            "h1",
+            "article > p:first-of-type"
+          ]
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#webpage",
+        "url": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight",
+        "name": "7 Questions Business Owners Are Asking About AI Search (Answered Straight)",
+        "description": "Straight answers to seven questions business owners are asking about AI search, including SEO, AI citations, crawlers, visibility, traffic, measurement, and where to start.",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "about": [
+          {
+            "@id": "https://www.audienceintent.ai/#ai-recommended"
+          },
+          {
+            "@type": "Thing",
+            "name": "AI Search"
+          },
+          {
+            "@type": "Thing",
+            "name": "AI Search Visibility"
+          },
+          {
+            "@type": "Thing",
+            "name": "Artificial Intelligence"
+          }
+        ],
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#primaryimage"
+        },
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#faq"
+        },
+        "datePublished": "2026-09-23",
+        "dateModified": "2026-09-23",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight"
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#faq",
+        "url": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight",
+        "name": "AI Search Questions Business Owners Are Asking",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#webpage"
+        },
+        "about": {
+          "@id": "https://www.audienceintent.ai/#ai-recommended"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#question-1",
+            "name": "Has SEO Become Irrelevant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. SEO is still important, but its role has changed. Google search and AI assistants operate as separate ecosystems. Traditional SEO helps businesses rank in search results, while AI assistants generate answers using sources they can crawl, trust, and verify. Businesses should continue investing in SEO while also paying attention to their visibility in AI-generated answers."
+            }
+          },
+          {
+            "@type": "Question",
+            "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#question-2",
+            "name": "What Makes an AI Platform Choose One Source Over Another?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI platforms tend to cite sources they can crawl, trust, and verify. Three important factors are accessibility, third-party corroboration, and content that directly answers the user's question. Reviews, industry directories, press mentions, authoritative publications, and other independent references can help AI systems verify information about a business."
+            }
+          },
+          {
+            "@type": "Question",
+            "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#question-3",
+            "name": "Can a Business Rank Well on Google But Still Be Invisible to AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Strong Google rankings do not guarantee that a business will appear in AI-generated answers. Search engines and AI assistants evaluate and surface information differently. A business can perform well in traditional search while having limited third-party mentions, citations, reviews, or structured content for AI systems to use when generating recommendations."
+            }
+          },
+          {
+            "@type": "Question",
+            "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#question-4",
+            "name": "Do AI Crawlers Require Their Own Setup to Access Your Site?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not always, but businesses should check that AI crawlers are not being blocked. AI platforms use crawlers such as GPTBot, PerplexityBot, ClaudeBot, and Googlebot to access web content. Businesses should review their robots.txt rules, make sure important content is accessible without problematic JavaScript rendering, and keep their sitemap current."
+            }
+          },
+          {
+            "@type": "Question",
+            "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#question-5",
+            "name": "If There Are No Rankings to Track, How Do You Measure Progress?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI visibility can be measured using citations rather than traditional ranking positions. Useful metrics include citation frequency, AI Visibility Score, citation source count, prompt coverage, AI referral traffic, and conversion rates from AI-referred visitors. Tracking a consistent set of relevant prompts across multiple AI platforms provides a baseline for measuring changes over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#question-6",
+            "name": "Will AI Search Reduce the Traffic Coming to My Website?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For some types of searches, yes. AI platforms can answer informational questions without requiring a website visit. Commercial and transactional searches can still generate clicks, however, and visitors arriving after receiving an AI recommendation may have stronger intent because they have already asked a specific question and received a specific recommendation."
+            }
+          },
+          {
+            "@type": "Question",
+            "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#question-7",
+            "name": "What Is the Right First Step for a Business That Wants to Show Up in AI Search?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start by establishing a baseline. Check which AI platforms can crawl your website, whether your business appears for relevant questions across major AI assistants, which third-party sources reference your brand, and your current AI visibility. Once those gaps are identified, businesses can address technical accessibility and strengthen the third-party citations, reviews, directory listings, and authoritative mentions AI platforms use."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/7-questions.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/7-questions.jpg",
+        "caption": "7 Questions Business Owners Are Asking About AI Search (Answered Straight)",
+        "encodingFormat": "image/jpeg",
+        "inLanguage": "en-US",
+        "creditText": "AudienceIntent",
+        "creator": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "copyrightHolder": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "7 Questions Business Owners Are Asking About AI Search (Answered Straight)",
+            "item": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight"
+          }
+        ]
+      }
+    ]
+  }
+
+  </script>
 ---
 Your customers are already using ChatGPT, Perplexity, and Google's AI Overviews to find businesses like yours. Most owners know that. What they don't know is whether it changes anything they should actually do, or whether the whole thing is just noise.
 

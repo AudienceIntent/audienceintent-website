@@ -628,7 +628,7 @@ There is no public algorithm for how ChatGPT, Perplexity, or Gemini decide what 
 
 **1\. Crawlability** If an AI crawler cannot access your content, your content does not exist to that platform. This means your site needs to be technically accessible, with no blocks in place that prevent AI indexing. More on this in Question 4.
 
-**2\. Third-party corroboration**[Research shows that 85% of brand mentions in AI answers come from third-party sources](https://www.audienceintent.ai/insights/ai-search-visibility-2026), not from the brand's own website. AI platforms trust what others say about you more than what you say about yourself. Review sites, industry directories, press mentions, and authoritative publications carry more weight than your homepage.
+**2\. Third-party corroboration** [Research shows that 85% of brand mentions in AI answers come from third-party sources](https://www.audienceintent.ai/insights/ai-search-visibility-2026), not from the brand's own website. AI platforms trust what others say about you more than what you say about yourself. Review sites, industry directories, press mentions, and authoritative publications carry more weight than your homepage.
 
 **3\. Content that directly answers the question** AI platforms are optimized to answer questions. Content that is structured around specific questions, with clear, direct answers, is more likely to be extracted and cited. A page that meanders through general information is less useful to an AI than a page that answers a specific question in the first paragraph.
 

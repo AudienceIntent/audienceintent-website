@@ -1,7 +1,7 @@
 ---
 title: What Is AI Recommended and How Does It Work? The Complete Guide to
   Getting Cited by ChatGPT, Gemini, and Perplexity
-meta_title: What Is AI Recommended™? The Complete Guide to AI Citations
+meta_title: What Is AI Recommended? The Complete Guide to AI Citations
 date: 2026-06-07T15:16:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
@@ -89,7 +89,7 @@ schema: >-
             "name": "What is AI Recommended™?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month with no contract, plus a one-time $997 setup fee."
+              "text": "AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month with no contract, with no setup fee."
             }
           },
           {
@@ -168,7 +168,7 @@ This guide explains exactly what that means, how it works, why it's different fr
 >     
 > -   Blingle Premier Lighting went from invisible in AI search to the top recommendation in its category in 90 days: 312% citation increase, 641 verified AI visits, 47 new citation sources
 >     
-> -   AI Recommended™ is $1,997/month, cancel anytime, with a one-time $997 setup fee
+> -   AI Recommended™ is $1,997/month, cancel anytime, with no setup fee
 >     
 
 **What this guide covers:**
@@ -192,7 +192,7 @@ This guide explains exactly what that means, how it works, why it's different fr
 
 ## Why AI Search Is a Completely Different Ecosystem from Google
 
-AI Recommended™ is $1,997/month, with a one-time $997 setup fee and no contract. But before pricing makes sense, the ecosystem does. Most marketing leaders assume that if they rank well on Google, they're covered. That assumption is wrong, and the data is unambiguous about it.
+AI Recommended™ is $1,997/month, with no setup fee and no contract. But before pricing makes sense, the ecosystem does. Most marketing leaders assume that if they rank well on Google, they're covered. That assumption is wrong, and the data is unambiguous about it.
 
 ### The 12% Overlap Problem
 
@@ -453,7 +453,7 @@ Second, the trend line is not ambiguous. [Gartner's projection of 25% search vol
 
 ## Pricing, Timeline, and What to Expect
 
-AI Recommended™ is $1,997 per month with no contract. Cancel anytime. There is a one-time $997 setup fee charged once at the start, whether a business takes AI Recommended™ alone or in combination with Database Reactivation.
+AI Recommended™ is $1,997 per month with no contract. Cancel anytime. There is no setup fee charged once at the start, whether a business takes AI Recommended™ alone or in combination with Database Reactivation.
 
 ### What the Pricing Covers
 
@@ -494,13 +494,13 @@ AI Recommended™ is the right fit for businesses whose customers are starting t
 
 For businesses that also have a database of dormant leads, AudienceIntent's full model is straightforward: use Database Reactivation to recover revenue from the existing CRM (performance-based, no monthly fee), then use that recovered revenue to fund AI Recommended™. The reactivation campaign is typically live within three to five days. The recovered revenue often covers the AI Recommended™ investment within the first month.
 
-**The setup fee is charged once, regardless of which service or combination a business takes.** A business that starts with Database Reactivation and later adds AI Recommended™ pays $997 once total, not twice.
+**There is no setup fee.**
 
 ## Frequently Asked Questions About AI Recommended™
 
 ### What is AI Recommended™?
 
-AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month with no contract, plus a one-time $997 setup fee.
+AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month with no contract, with no setup fee.
 
 ### How do I get my business recommended by ChatGPT and other AI assistants?
 

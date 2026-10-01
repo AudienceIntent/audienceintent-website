@@ -143,7 +143,7 @@ This guide breaks down what the market charges, what you actually get at each pr
 >     
 > -   Most local businesses fit the $1,997-$5,000/month range for meaningful results
 >     
-> -   AI Recommended™ from AudienceIntent is $1,997/month, cancel anytime, with a one-time $997 setup fee
+> -   AI Recommended™ from AudienceIntent is $1,997/month, cancel anytime, with no setup fee
 >     
 > -   Most agencies require 6-12 month contracts with setup fees of $2,500-$12,000+
 >     
@@ -217,7 +217,7 @@ AI Recommended™ from AudienceIntent is built specifically for businesses that 
 
 -   **Monthly:** $1,997/month, cancel anytime — no contract, no lock-in
     
--   **Setup fee:** $997 one-time, charged once (covers both AI Recommended™ and Database Reactivation if you take both)
+-   **No Setup fee:**
     
 -   **What's included:** AI crawlability audit and fixes, page optimization, new content targeting the questions your customers are actually asking AI, third-party citation building, and real-time prompt tracking and reporting
     
@@ -229,7 +229,7 @@ That puts AI Recommended™ at the entry point of the mid-market range — where
 |  | AI Recommended™ | Typical Mid-Market Agency |
 | --- | --- | --- |
 | Monthly cost | $1,997 | $2,000 – $8,000 |
-| Setup fee | $997 (one-time) | $2,500 – $12,000 |
+| Setup fee | $0  | $2,500 – $12,000 |
 | Contract | None — cancel anytime | 6-12 months |
 | Execution included | Yes — done for you | Varies |
 | Prompt tracking | Yes | Sometimes |

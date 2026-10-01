@@ -144,7 +144,7 @@ schema: >-
     ]
   }
 ---
-## Lead Reactivation Benefits: Why Old Leads Still Matter
+Lead Reactivation Benefits: Why Old Leads Still Matter
 
 **TLDR:** Old leads are often the cheapest and fastest revenue source you already own. If the contact opted in and showed prior intent, lead reactivation can recover booked calls and sales without starting from zero. The upside is real, but it only holds when the list is consented, the message is relevant, and the follow-up is built to produce replies.
 
@@ -343,7 +343,7 @@ That changes the risk profile.
 | Monthly retainer | Time and effort | You pay whether it works or not |
 | Performance / revenue share | Actual revenue generated | You only pay when results come in |
 
-At AudienceIntent, Database Reactivation runs on a revenue-share model. There is a one-time setup fee to get the campaign built and live. After that, you pay an agreed percentage of the revenue generated. No results means no ongoing cost.
+At AudienceIntent, Database Reactivation runs on a revenue-share model. There is no setup fee to get the campaign built and live. You pay an agreed percentage of the revenue generated. No results means no cost.
 
 That structure matters because it aligns incentives. Every message sent is designed to produce revenue, not just activity. There is no padding the campaign to justify a retainer. The goal is the same as yours: booked appointments and closed sales.
 

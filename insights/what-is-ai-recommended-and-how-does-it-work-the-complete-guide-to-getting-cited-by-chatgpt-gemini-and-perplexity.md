@@ -453,7 +453,7 @@ Second, the trend line is not ambiguous. [Gartner's projection of 25% search vol
 
 ## Pricing, Timeline, and What to Expect
 
-AI Recommended™ is $1,997 per month with no contract. Cancel anytime. There is no setup fee charged once at the start, whether a business takes AI Recommended™ alone or in combination with Database Reactivation.
+AI Recommended™ is $1,997 per month with no contract. Cancel anytime. There is no setup fee.
 
 ### What the Pricing Covers
 

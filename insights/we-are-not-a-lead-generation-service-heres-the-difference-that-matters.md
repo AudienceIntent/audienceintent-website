@@ -128,7 +128,7 @@ schema: >-
             "name": "What does \"performance-based\" mean exactly?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "It means we do not charge a monthly retainer. We agree on a revenue share percentage before the campaign launches, locked in writing. If the campaign generates revenue, we take our agreed percentage of that revenue. If it does not generate revenue, you owe nothing beyond the one-time setup fee. The definition of \"a result\" (booked job, confirmed sale, etc.) is defined in writing before we start."
+              "text": "It means we do not charge a monthly retainer. We agree on a revenue share percentage before the campaign launches, locked in writing. If the campaign generates revenue, we take our agreed percentage of that revenue. If it does not generate revenue, you owe nothing. The definition of \"a result\" (booked job, confirmed sale, etc.) is defined in writing before we start."
             }
           },
           {
@@ -275,7 +275,7 @@ Both. You are responsible for providing a list of contacts who genuinely opted i
 
 ### What does "performance-based" mean exactly?
 
-It means we do not charge a monthly retainer. We agree on a revenue share percentage before the campaign launches, locked in writing. If the campaign generates revenue, we take our agreed percentage of that revenue. If it does not generate revenue, you owe nothing beyond the one-time setup fee. The definition of "a result" (booked job, confirmed sale, etc.) is defined in writing before we start.
+It means we do not charge a monthly retainer. We agree on a revenue share percentage before the campaign launches, locked in writing. If the campaign generates revenue, we take our agreed percentage of that revenue. If it does not generate revenue, you owe nothing. The definition of "a result" (booked job, confirmed sale, etc.) is defined in writing before we start.
 
 ### Can I see what my database might be worth before committing?
 

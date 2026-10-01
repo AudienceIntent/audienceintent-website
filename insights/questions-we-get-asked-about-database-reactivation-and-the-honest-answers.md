@@ -89,7 +89,7 @@ schema: >-
             "name": "My list is old. Like, really old. Is it even worth trying?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Leads don't have an expiration date. Campaigns have been run on lists that were two-plus years dormant and still generated 20%+ reactivation rates. The age of the list matters less than the quality of the original intent. With a performance model, the worst case is that a portion of the list doesn't respond and you owe nothing beyond the setup fee."
+              "text": "Yes. Leads don't have an expiration date. Campaigns have been run on lists that were two-plus years dormant and still generated 20%+ reactivation rates. The age of the list matters less than the quality of the original intent. With a performance model, the worst case is that a portion of the list doesn't respond and you owe nothing."
             }
           },
           {
@@ -105,7 +105,7 @@ schema: >-
             "name": "How does the performance model actually work? What am I paying?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "There is a one-time setup fee of $997 covering onboarding, copy, and campaign configuration. After that, the model is pure performance: an agreed revenue share percentage locked in writing before launch. If the campaign generates $0, you owe nothing beyond the setup fee. There are no monthly retainers or hidden platform fees."
+              "text": "There is no setup fee. The model is pure performance: an agreed revenue share percentage locked in writing before launch. If the campaign generates $0, you owe nothing. There are no monthly retainers or hidden platform fees."
             }
           },
           {
@@ -229,9 +229,9 @@ This is the question people ask in two different ways. Some ask because they're 
 
 Both are fair reactions. Here's exactly how it works.
 
-There is a one-time setup fee of $997. That covers onboarding, copy, sequence build, and campaign configuration. It's charged once, regardless of whether you later add other services.
+There is no setup fee. 
 
-After that, the model is pure performance. We agree on a revenue share percentage before the campaign launches, locked in writing. When revenue comes in from the campaign, we take our agreed percentage. When nothing comes in, you owe nothing beyond the setup fee.
+The model is pure performance. We agree on a revenue share percentage before the campaign launches, locked in writing. When revenue comes in from the campaign, we take our agreed percentage. When nothing comes in, you owe nothing.
 
 ### What counts as "revenue generated"
 
@@ -241,13 +241,13 @@ This is the part most people don't think to ask, and it matters. We define what 
 
 | Scenario | What you pay |
 | --- | --- |
-| Campaign generates $0 in revenue | $997 setup only |
+| Campaign generates $0 in revenue | $0 setup  |
 | Campaign generates $10,000 | $997 + agreed % of $10,000 |
 | Campaign generates $50,000 | $997 + agreed % of $50,000 |
 
 The percentage is agreed upfront and doesn't change. There are no hidden fees, no monthly retainers, and no "platform fees" layered on top.
 
-**The honest version of "what's the catch":** The catch is that this model only makes sense for us if the campaign actually generates revenue. So we're selective. If we don't think your list and situation have a real shot at results, we'll tell you that before taking your setup fee.
+**The honest version of "what's the catch":** The catch is that this model only makes sense for us if the campaign actually generates revenue. So we're selective. If we don't think your list and situation have a real shot at results, we'll tell you that before we begin.
 
 ## What happens when someone replies and says they're not interested?
 
@@ -371,7 +371,7 @@ There are a few situations where we'll tell you honestly that reactivation isn't
 
 -   **Your list isn't TCPA-compliant.** If you can't confirm opt-in consent, we won't run it. The compliance risk is yours, and it's not worth it.
     
--   **Your average transaction value is too low.** If a reactivated customer is worth $30, the math doesn't work even at a 25% conversion rate. We'll tell you that before you pay a setup fee.
+-   **Your average transaction value is too low.** If a reactivated customer is worth $30, the math doesn't work even at a 25% conversion rate. We'll tell you that before we start.
     
 -   **You don't have the capacity to handle inbound.** If your team is already overwhelmed and can't follow up on new inquiries within the same day, you'll waste the leads we generate. It's better to fix that first.
     

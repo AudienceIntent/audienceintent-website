@@ -229,7 +229,8 @@
 
 # ============================================================
 # CLIENT ONBOARDING — NOINDEX
-# /onboarding is a private page for paid AI Recommended clients.
+# /onboarding (AI Recommended) and /onboarding-dbr (Database
+# Reactivation) are private pages for paid clients.
 # Not in the nav, sitemap or llms.txt; this keeps it out of
 # search and AI indexes even if the URL gets shared.
 # ============================================================
@@ -242,6 +243,18 @@
 
 [[headers]]
   for = "/onboarding/*"
+
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/onboarding-dbr"
+
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/onboarding-dbr/*"
 
   [headers.values]
     X-Robots-Tag = "noindex, nofollow, noarchive"

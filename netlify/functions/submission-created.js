@@ -2,10 +2,14 @@
 // submission-created — runs automatically after every verified
 // Netlify Forms submission on this site.
 //
-// Handles: ai-recommended-onboarding (/onboarding)
+// Handles:
+//   ai-recommended-onboarding (/onboarding)      → tag "air-onboarded"
+//     (+ "air-addon-interest" if they ticked Claude/Grok)
+//   dbr-onboarding (/onboarding-dbr)             → tag "dbr-onboarded"
+//
+// For each:
 //   1. Upserts the client as a GHL contact (matched by email)
-//   2. Adds tag "air-onboarded" (+ "air-addon-interest" if they
-//      ticked Claude/Grok) — use "Contact Tag Added" as the GHL
+//   2. Adds the tag(s) — use "Contact Tag Added" as the GHL
 //      workflow trigger
 //   3. Saves every answer as a note on the contact
 //   4. Optional: if GHL_ONBOARDING_WEBHOOK_URL is set, also POSTs
@@ -17,9 +21,7 @@
 // ============================================================
 
 const GHL = 'https://services.leadconnectorhq.com';
-const FORM = 'ai-recommended-onboarding';
-
-const LABELS = [
+const AIR_LABELS = [
   ['company_name', 'Company'],
   ['website', 'Website'],
   ['contact_name', 'Contact name'],
@@ -53,6 +55,63 @@ const LABELS = [
   ['submitted_at', 'Submitted at'],
 ];
 
+const DBR_LABELS = [
+  ['contact_name', '1. Day-to-day contact'],
+  ['contact_email', 'Contact email'],
+  ['contact_phone', 'Contact phone'],
+  ['legal_name', '2. Legal business name'],
+  ['dba_name', 'Name customers know them by'],
+  ['business_address', '3. Business address'],
+  ['website', '4. Website'],
+  ['business_email', 'Business email'],
+  ['business_phone', 'Business phone'],
+  ['industry', 'Industry'],
+  ['primary_offer', '5. Main service / product'],
+  ['timezone', '6. Time zone'],
+  ['business_hours', 'Business hours'],
+  ['faq_link', '7. FAQ / knowledge base'],
+  ['primary_objective', '8. Primary objective'],
+  ['reactivation_offer', '9. Reactivation offer'],
+  ['qualifying_questions', '10. Qualifying questions'],
+  ['talking_points', '11. Questions / objections / talking points'],
+  ['handoff_contact', '12. Receives appointments / transfers'],
+  ['handoff_link', 'Calendar link / transfer number'],
+  ['handoff_hours', 'Handoff availability'],
+  ['avg_sale_value', '13. Average sale value'],
+  ['close_rate', 'Close rate'],
+  ['sales_reporting', 'How sales are confirmed'],
+  ['lead_count', '14. Leads with valid SMS opt-in'],
+  ['lead_type', '15. Lead type'],
+  ['lead_age', '16. Lead age'],
+  ['last_contacted', 'Last contacted / how'],
+  ['recent_sms', '17. Recent SMS reactivation attempt'],
+  ['lead_source', '18. Where leads are kept'],
+  ['dnc_list', '19. Do-not-contact / opt-out list'],
+  ['optin_url', '20. Opt-in page / form'],
+  ['optin_language', '21. Opt-in language'],
+  ['optin_confirmation', '22. Opt-in confirmation message'],
+  ['anything_else', '23. Anything else'],
+  ['compliance_confirm', 'SMS consent confirmation'],
+  ['submitted_at', 'Submitted at'],
+];
+
+const FORMS = {
+  'ai-recommended-onboarding': {
+    labels: AIR_LABELS,
+    title: 'AI RECOMMENDED ONBOARDING',
+    source: 'AI Recommended Onboarding',
+    company: (d) => d.company_name,
+    tags: (d) => ['air-onboarded', ...(String(d.addon_interest || '').trim() ? ['air-addon-interest'] : [])],
+  },
+  'dbr-onboarding': {
+    labels: DBR_LABELS,
+    title: 'DATABASE REACTIVATION ONBOARDING',
+    source: 'Database Reactivation Onboarding',
+    company: (d) => d.dba_name || d.legal_name,
+    tags: () => ['dbr-onboarded'],
+  },
+};
+
 async function ghl(path, body) {
   const res = await fetch(GHL + path, {
     method: 'POST',
@@ -77,14 +136,16 @@ export async function handler(event) {
     return { statusCode: 400, body: 'Invalid payload' };
   }
 
-  if (!payload || payload.form_name !== FORM) {
-    return { statusCode: 200, body: 'Ignored (not onboarding form)' };
+  const cfg = payload && FORMS[payload.form_name];
+  if (!cfg) {
+    return { statusCode: 200, body: 'Ignored (not an onboarding form)' };
   }
+  const LABELS = cfg.labels;
 
   const d = payload.data || {};
   const fullName = String(d.contact_name || '').trim();
   const [firstName = '', ...rest] = fullName.split(/\s+/);
-  const addonInterest = String(d.addon_interest || '').trim();
+  const companyName = cfg.company(d);
 
   let contactId = null;
   try {
@@ -95,17 +156,16 @@ export async function handler(event) {
       phone: d.contact_phone || undefined,
       firstName,
       lastName: rest.join(' '),
-      companyName: d.company_name,
+      companyName,
       website: d.website,
-      source: 'AI Recommended Onboarding',
+      source: cfg.source,
     });
     contactId = up.contact?.id;
     console.log('GHL contact upserted:', contactId, up.new ? '(new)' : '(existing)');
 
     if (contactId) {
       // 2. Tags (added, never replaces existing tags)
-      const tags = ['air-onboarded'];
-      if (addonInterest) tags.push('air-addon-interest');
+      const tags = cfg.tags(d);
       await ghl(`/contacts/${contactId}/tags`, { tags });
 
       // 3. Full answers as a contact note
@@ -113,7 +173,7 @@ export async function handler(event) {
         .filter(([k]) => String(d[k] ?? '').trim() !== '')
         .map(([k, label]) => `${label}:\n${String(d[k]).trim()}`);
       await ghl(`/contacts/${contactId}/notes`, {
-        body: `AI RECOMMENDED ONBOARDING\n\n${lines.join('\n\n')}`,
+        body: `${cfg.title}\n\n${lines.join('\n\n')}`,
       });
     }
   } catch (err) {
@@ -133,9 +193,9 @@ export async function handler(event) {
           email: d.contact_email,
           first_name: firstName,
           last_name: rest.join(' '),
-          company_name: d.company_name,
+          company_name: companyName,
           contactId,
-          source: 'ai-recommended-onboarding',
+          source: payload.form_name,
         }),
       });
     } catch (err) {

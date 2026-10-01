@@ -239,6 +239,6 @@ The actual number depends on your list size, your average transaction value, you
 
 The [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai) is built for exactly this. Enter your list size, average customer value, and a few other inputs, and it will show you what a realistic reactivation campaign could recover based on documented benchmarks. It takes about two minutes and gives you a concrete number to work with before you decide whether and how to act.
 
-If the number is significant and you want it done for you rather than figuring out the SMS infrastructure, sequencing, and copywriting yourself, [Database Reactivation](https://www.audienceintent.ai) is a done-for-you service that runs on a performance basis. You supply the TCPA-compliant list. The campaign goes live within 3-5 days. You pay a percentage of the revenue generated, not a monthly retainer. If there are no results, there is no cost beyond the one-time setup fee.
+If the number is significant and you want it done for you rather than figuring out the SMS infrastructure, sequencing, and copywriting yourself, [Database Reactivation](https://www.audienceintent.ai) is a done-for-you service that runs on a performance basis. You supply the TCPA-compliant list. The campaign goes live within 3-5 days. You pay a percentage of the revenue generated, not a monthly retainer. If there are no results, there is no cost.
 
 The leads are already there. The question is whether you reach them before someone else does.

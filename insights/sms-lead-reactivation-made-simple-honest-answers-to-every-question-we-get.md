@@ -213,7 +213,7 @@ Most campaigns go live within 3-5 business days of onboarding. First responses t
 
 Database Reactivation is priced on a revenue-share model. There is no monthly retainer and no ad spend required.
 
--   **One-time setup fee:** $997, charged once. This covers compliance setup, carrier registration, copy build, and campaign configuration.
+-   **No setup fee:** $0
     
 -   **Ongoing cost:** an agreed percentage of the revenue generated. Nothing is charged until revenue comes in. The exact percentage is defined in writing before the campaign launches.
     
@@ -222,7 +222,6 @@ This structure means AudienceIntent only makes money when you do. There's no sce
 
 **What qualifies as revenue** is defined clearly before launch, in writing, between you and the AudienceIntent team. Booked jobs, confirmed sales, whatever the relevant conversion event is for your business. That definition doesn't change mid-campaign.
 
-If you take both Database Reactivation and [AI Recommended](https://www.audienceintent.ai), the setup fee is charged once, not twice.
 
 ## What businesses does this work for?
 
@@ -279,7 +278,7 @@ The most common reasons campaigns underperform: the list wasn't properly segment
 
 That depends on three things: list size, list quality, and whether the contacts originally opted in for SMS.
 
-If you have at least 1,500 TCPA-compliant contacts and a business where the average transaction has real value, there's a reasonable chance a reactivation campaign recovers more than it costs. The setup fee is $997. The revenue share is defined before launch. The math isn't complicated.
+If you have at least 1,500 TCPA-compliant contacts and a business where the average transaction has real value, there's a reasonable chance a reactivation campaign recovers more than it costs. There is no setup fee. The revenue share is defined before launch. The math isn't complicated.
 
 The harder question is what you're leaving on the table by not running one. A list of 5,000 leads at a conservative 16% reactivation rate and a modest average transaction value adds up quickly. [Run your own numbers here](https://lostrevenue.audienceintent.ai) before deciding.
 

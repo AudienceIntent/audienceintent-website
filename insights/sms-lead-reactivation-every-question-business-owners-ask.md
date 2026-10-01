@@ -144,7 +144,7 @@ schema: >-
             "name": "What does SMS lead reactivation cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AudienceIntent's Database Reactivation runs on a performance model: a one-time $997 setup fee, then a revenue share on results generated. There is no monthly retainer. If the campaign doesn't produce revenue, you don't pay beyond the setup fee. The exact revenue share percentage is agreed in writing before launch."
+              "text": "AudienceIntent's Database Reactivation runs on a performance model: Then a revenue share on results generated. There is no monthly retainer. If the campaign doesn't produce revenue, you don't pay. The exact revenue share percentage is agreed in writing before launch."
             }
           },
           {
@@ -306,7 +306,7 @@ Yes. Before launch, we build the copy, tone, and follow-up logic around your bra
 
 ### What does SMS lead reactivation cost?
 
-AudienceIntent's Database Reactivation runs on a performance model: a one-time $997 setup fee, then a revenue share on results generated. There is no monthly retainer. If the campaign doesn't produce revenue, you don't pay beyond the setup fee. The exact revenue share percentage is agreed in writing before launch.
+AudienceIntent's Database Reactivation runs on a performance model: A revenue share on results generated. There is no monthly retainer. If the campaign doesn't produce revenue, you don't pay. The exact revenue share percentage is agreed in writing before launch.
 
 ### Which industries get the best results?
 

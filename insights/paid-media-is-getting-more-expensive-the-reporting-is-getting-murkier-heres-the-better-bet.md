@@ -97,7 +97,7 @@ schema: >-
             "name": "How does the pricing model work?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "It is performance-only. There is a one-time setup fee of $997, and beyond that AudienceIntent earns an agreed percentage of the revenue generated. No monthly retainer. No percentage of ad spend. If the campaign does not produce revenue, you do not owe anything beyond setup."
+              "text": "It is performance-only. There is no setup fee. AudienceIntent earns an agreed percentage of the revenue generated. No monthly retainer. No percentage of ad spend. If the campaign does not produce revenue, you do not owe anything."
             }
           },
           {
@@ -137,9 +137,6 @@ schema: >-
     ]
   }
 ---
-
-## The problem is not just higher ad costs. It is lower accountability.
-
 If you have been feeling like your paid media budget is working harder for smaller returns, you are not imagining it. And the problem runs deeper than platform pricing.
 
 > **TL;DR**
@@ -238,7 +235,7 @@ That is the core logic of Database Reactivation: reach back out to dormant leads
 | Cost model | Pay per click or impression | Performance only, revenue share |
 | Accountability | Activity metrics, blended attribution | Revenue generated, defined in writing |
 | Time to launch | Days to weeks for setup | Live within 3–5 days |
-| Risk | Budget spent regardless of outcome | No results = no cost beyond setup |
+| Risk | Budget spent regardless of outcome | No results = no cost |
 | Requirement | Ad spend budget | TCPA-compliant opt-in lead list |
 
 ### The trust problem, fixed by design
@@ -296,7 +293,7 @@ Database Reactivation reaches back out to leads and past customers already in yo
 
 ### How does the pricing model work?
 
-It is performance-only. There is a one-time setup fee of $997, and beyond that AudienceIntent earns an agreed percentage of the revenue generated. No monthly retainer. No percentage of ad spend. If the campaign does not produce revenue, you do not owe anything beyond setup.
+It is performance-only. AudienceIntent earns an agreed percentage of the revenue generated. No monthly retainer. No percentage of ad spend. If the campaign does not produce revenue, you do not owe anything.
 
 ### What kind of results can I expect?
 

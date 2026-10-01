@@ -136,7 +136,7 @@ schema: >-
             "name": "How do I calculate ROI from lead reactivation?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Use this formula: dormant leads × reactivation rate × close rate × average customer value. For example, 1,000 dormant leads × 10% reactivation × 20% close rate × $2,500 average customer value equals $50,000 in potential recovered revenue. Compare that figure against the total cost of the campaign (setup fee plus revenue share) to assess whether the economics work."
+              "text": "Use this formula: dormant leads × reactivation rate × close rate × average customer value. For example, 1,000 dormant leads × 10% reactivation × 20% close rate × $2,500 average customer value equals $50,000 in potential recovered revenue. Compare that figure against the total cost of the campaign to assess whether the economics work."
             }
           },
           {
@@ -176,7 +176,7 @@ The contacts being targeted are not cold. They already had some relationship wit
 -   **Event or form leads** that went cold after the initial touch
     
 
-Follow-up can happen through SMS, email, AI-assisted voice, human outreach, or a combination. The billing structure is tied to results: a booked appointment, a recovered sale, a revenue share on closed deals, or another agreed outcome. If the campaign produces nothing, the business pays nothing beyond any agreed setup costs.
+Follow-up can happen through SMS, email, AI-assisted voice, human outreach, or a combination. The billing structure is tied to results: a booked appointment, a recovered sale, a revenue share on closed deals, or another agreed outcome. If the campaign produces nothing, the business pays nothing.
 
 [AudienceIntent](https://www.audienceintent.ai) uses a managed, human-plus-AI hybrid model for database reactivation. Businesses supply their TCPA-compliant opt-in leads, and the service focuses on converting those dormant contacts into revenue opportunities through conversational SMS outreach, handled end to end.
 
@@ -313,7 +313,7 @@ That is $50,000 in potential revenue from contacts the business already paid to 
 
 AudienceIntent reports average re-engagement rates of 8 to 22% across [database reactivation campaigns](https://www.audienceintent.ai/insights). Actual results vary based on lead quality, offer strength, consent status, industry, and follow-up speed. No reactivation rate is typical across all businesses or all databases.
 
-**What the formula tells you:** if the recovered revenue potential is meaningfully larger than the total cost of the campaign (setup fee plus revenue share), the economics favor reactivation. If the numbers are close, the risk-adjusted comparison shifts toward a retainer with more predictable scope.
+**What the formula tells you:** if the recovered revenue potential is meaningfully larger than the total cost of the campaign, the economics favor reactivation. If the numbers are close, the risk-adjusted comparison shifts toward a retainer with more predictable scope.
 
 Use [AudienceIntent's Lost Revenue Calculator](https://lostrevenue.audienceintent.ai) to run this estimate against your own database before making a decision.
 
@@ -333,7 +333,7 @@ The headline price of either model rarely reflects the total cost. Both have exp
 
 ### Hidden costs in performance-based pricing
 
-**Setup fees.** Most legitimate performance-based arrangements include a one-time setup fee to cover onboarding, copy development, sequence builds, and campaign configuration. This is a real upfront cost that should be factored into the ROI calculation.
+**Setup fees.** Most performance-based arrangements include a one-time setup fee to cover onboarding, copy development, sequence builds, and campaign configuration. This is a real upfront cost that should be factored into the ROI calculation. AudienceIntent charges no setup fee. 
 
 **Revenue-share terms.** The percentage of recovered revenue owed to the provider should be clearly defined before the campaign starts. Vague terms like "a percentage of results" create disputes later. Get the exact rate in writing.
 
@@ -371,7 +371,7 @@ At minimum, weekly or monthly reporting should include: total contacts attempted
 
 ### Underperformance terms
 
-What happens if the campaign does not produce results within the agreed window? Does the provider extend the campaign at no additional cost? Is the setup fee refundable? Are there minimum outcome thresholds? This clause protects the client and forces the provider to take the risk allocation seriously.
+What happens if the campaign does not produce results within the agreed window? Does the provider extend the campaign at no additional cost? Are there minimum outcome thresholds? This clause protects the client and forces the provider to take the risk allocation seriously.
 
 ### Cancellation terms
 
@@ -421,7 +421,7 @@ The table above shows the structural difference. The practical implication is si
 
 AudienceIntent is built for businesses that already have opt-in leads, missed inquiries, old CRM contacts, or past customers that are not being followed up with consistently.
 
-Its [Database Reactivation](https://www.audienceintent.ai/database-reactivation) service uses conversational SMS outreach, managed end to end, to turn dormant contacts into revenue opportunities. The model is pure performance: no monthly fee, no retainer, no ongoing commitment beyond the agreed revenue share. Businesses pay a one-time setup fee to get the campaign built and launched, and then pay a percentage of revenue generated. If the campaign produces no measurable impact, AudienceIntent offers a 30-day money-back provision on the setup fee.
+Its [Database Reactivation](https://www.audienceintent.ai/database-reactivation) service uses conversational SMS outreach, managed end to end, to turn dormant contacts into revenue opportunities. The model is pure performance: no monthly fee, no retainer, no ongoing commitment beyond the agreed revenue share. Businesses pay no setup fee to get the campaign built and launched, only a percentage of revenue generated.
 
 ### What the model requires
 
@@ -476,7 +476,7 @@ Lead reactivation can be more cost-efficient than buying new leads because the b
 
 ### How do I calculate ROI from lead reactivation?
 
-Use this formula: dormant leads × reactivation rate × close rate × average customer value. For example, 1,000 dormant leads × 10% reactivation × 20% close rate × $2,500 average customer value equals $50,000 in potential recovered revenue. Compare that figure against the total cost of the campaign (setup fee plus revenue share) to assess whether the economics work.
+Use this formula: dormant leads × reactivation rate × close rate × average customer value. For example, 1,000 dormant leads × 10% reactivation × 20% close rate × $2,500 average customer value equals $50,000 in potential recovered revenue. Compare that figure against the total cost of the campaign to assess whether the economics work.
 
 ### Who should not use performance-based lead reactivation?
 

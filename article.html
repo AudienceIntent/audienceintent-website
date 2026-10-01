@@ -134,7 +134,7 @@
       "email": "kevin@audienceintent.ai",
       "worksFor": {"@id": "https://www.audienceintent.ai/#organization"},
       "url": "https://www.audienceintent.ai/",
-      "sameAs": ["https://www.linkedin.com/company/audienceintent/"]
+      "sameAs": ["https://www.linkedin.com/in/kevinbovett/"]
     },
     {
       "@type": "WebSite",
@@ -343,7 +343,7 @@ function getSlug() {
   var parts = window.location.pathname.split('/').filter(Boolean);
   return parts[parts.length - 1] || '';
 }
- 
+
 function formatDate(d) {
   if (!d) return '';
   var p = d.split('-');
@@ -356,7 +356,7 @@ function formatDate(d) {
 function escAttr(s) {
   return String(s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
- 
+
 function buildArticleSchema(article, canonical) {
   return {
     "@context": "https://schema.org",
@@ -387,14 +387,14 @@ function buildArticleSchema(article, canonical) {
     "inLanguage": "en-US"
   };
 }
- 
+
 function render(article) {
   var wrap = document.getElementById('article-wrap');
   if (!article) {
     wrap.innerHTML = '<div class="not-found"><p style="font-size:18px;font-weight:700;margin-bottom:12px">Article not found</p><a href="/insights" style="color:#00ff73;text-decoration:none;font-size:14px">&larr; Back to Insights</a></div>';
     return;
   }
- 
+
   // Title: keep within 50-60 chars wherever possible.
   // Article meta_title is already capped at 60 by generate-articles.js;
   // here we only append the brand if there's room.
@@ -403,18 +403,18 @@ function render(article) {
   var metaTitle = baseTitle.length + brandSuffix.length <= 60
     ? baseTitle + brandSuffix
     : baseTitle.substring(0, 60).replace(/\s+\S*$/, '');
- 
+
   document.title = metaTitle;
   document.getElementById('page-title').textContent = metaTitle;
- 
+
   var desc = article.description || article.excerpt || '';
   document.getElementById('page-desc').content = desc;
- 
+
   var canonical = article.canonical || ('https://www.audienceintent.ai/insights/' + (article.slug || ''));
   document.getElementById('page-canonical').href = canonical;
- 
+
   document.getElementById('page-author').content = (article.author || 'Kevin Bovett') + ' — AudienceIntent';
- 
+
   document.getElementById('og-title').content = metaTitle;
   document.getElementById('og-desc').content = desc;
   document.getElementById('og-url').content = canonical;
@@ -426,12 +426,12 @@ function render(article) {
   if (article.category) document.getElementById('og-section').content = article.category;
   if (article.og_image) document.getElementById('og-image').content = article.og_image;
   else if (article.image) document.getElementById('og-image').content = article.image;
- 
+
   document.getElementById('tw-title').content = metaTitle;
   document.getElementById('tw-desc').content = desc;
   if (article.og_image) document.getElementById('tw-image').content = article.og_image;
   else if (article.image) document.getElementById('tw-image').content = article.image;
- 
+
   var schemaEl = document.getElementById('page-schema');
   if (schemaEl) {
     if (article.schema && article.schema.trim()) {
@@ -453,14 +453,14 @@ function render(article) {
       schemaEl.textContent = JSON.stringify({"@context":"https://schema.org","@graph":[articleSchema, breadcrumbSchema]}, null, 2);
     }
   }
- 
+
   // Image with required title attribute + lazy loading
   var imgAlt = escAttr(article.image_alt || article.title || '');
   var imgTitle = escAttr(article.title || '');
   var imgHTML = article.image
     ? '<div class="art-img-wrap"><img class="art-img" src="' + escAttr(article.image) + '" alt="' + imgAlt + '" title="' + imgTitle + '" loading="eager" decoding="async" fetchpriority="high"></div>'
     : '';
- 
+
   var updatedLine = article.updated_at && article.updated_at !== article.date
     ? '<p class="art-updated">Updated: ' + formatDate(article.updated_at) + '</p>'
     : '';
@@ -492,7 +492,7 @@ function render(article) {
     + '<div class="art-body">' + (article.content || '') + '</div>'
     + '<div class="cta-box"><h3>Recover What&#39;s Yours. Own What&#39;s Next.</h3><p>Run the lost revenue calculator in 2 minutes, or find out if your business is invisible to AI search right now.</p><div class="cta-box-btns"><a href="https://lostrevenue.audienceintent.ai" target="_blank" rel="noopener" class="cta-btn">Calculate My Lost Revenue &rarr;</a><a href="https://report.audienceintent.ai" target="_blank" rel="noopener" class="cta-btn cta-btn-sec" style="background:rgba(248,247,246,.1);color:#f8f7f6;border:1px solid rgba(248,247,246,.2)">Is My Business Invisible to AI?</a></div></div>';
 }
- 
+
 function init() {
   var slug = getSlug();
   fetch('/articles.json')
@@ -508,11 +508,11 @@ function init() {
       render(article);
     })
     .catch(function(err) {
-  console.error('Failed to load articles.json:', err);
-  // leave the existing server-rendere
+  console.error('Failed to load articles.json:', err);
+  // leave the existing server-rendere
 });
 }
- 
+
 init();
 </script>
 <!-- GHL Chat Widget — 7s delay, non-blocking -->

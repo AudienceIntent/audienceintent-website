@@ -241,9 +241,9 @@ This is the part most people don't think to ask, and it matters. We define what 
 
 | Scenario | What you pay |
 | --- | --- |
-| Campaign generates $0 in revenue | $0 setup  |
-| Campaign generates $10,000 | $997 + agreed % of $10,000 |
-| Campaign generates $50,000 | $997 + agreed % of $50,000 |
+| Campaign generates $0 in revenue | $0 costs  |
+| Campaign generates $10,000 | Agreed % of $10,000 |
+| Campaign generates $50,000 | Agreed % of $50,000 |
 
 The percentage is agreed upfront and doesn't change. There are no hidden fees, no monthly retainers, and no "platform fees" layered on top.
 

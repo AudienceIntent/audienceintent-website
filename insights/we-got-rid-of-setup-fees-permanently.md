@@ -9,6 +9,150 @@ description: No setup fee for Database Reactivation or AI Recommended. We cover
 focus_keyword: AudienceIntent
 image: /images/uploads/setup-fees.jpg
 og_image: /images/uploads/setup-fees.jpg
+schema: >-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#article",
+        "url": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently",
+        "headline": "We Got Rid of Setup Fees. Permanently.",
+        "description": "AudienceIntent has permanently removed setup fees for both services. Database Reactivation operates on a 50/50 revenue share with no upfront or monthly fees. AI Recommended costs $1,997 per month, includes setup, and lets clients cancel anytime.",
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#webpage"
+        },
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights#blog"
+        },
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#primaryimage"
+        },
+        "datePublished": "2026-10-01",
+        "dateModified": "2026-10-01",
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "articleSection": "Company News",
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "timeRequired": "PT6M",
+        "keywords": [
+          "AudienceIntent",
+          "no setup fees",
+          "Database Reactivation",
+          "SMS lead reactivation",
+          "performance-based marketing",
+          "revenue share",
+          "AI Recommended",
+          "AI search visibility",
+          "transparent pricing"
+        ],
+        "about": [
+          {
+            "@id": "https://www.audienceintent.ai/#database-reactivation"
+          },
+          {
+            "@id": "https://www.audienceintent.ai/#ai-recommended"
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#webpage",
+        "url": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently",
+        "name": "We Got Rid of Setup Fees. Permanently.",
+        "description": "AudienceIntent permanently eliminates setup fees for Database Reactivation and AI Recommended, explaining what each service includes and how its pricing works.",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#article"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#breadcrumb"
+        },
+        "datePublished": "2026-10-01",
+        "dateModified": "2026-10-01",
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/setup-fees.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/setup-fees.jpg",
+        "caption": "We Got Rid of Setup Fees. Permanently.",
+        "encodingFormat": "image/jpeg"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.audienceintent.ai/#database-reactivation",
+        "name": "Database Reactivation",
+        "serviceType": "AI-powered SMS lead reactivation",
+        "description": "A managed service that reactivates existing SMS opt-in leads using AI-powered conversations. AudienceIntent covers campaign setup, SMS sending, A2P 10DLC registration, dedicated phone numbers, copywriting, agent knowledge base development, and campaign management. There are no setup or monthly fees. Campaign-generated revenue is split 50/50 under an agreement made before launch. If no revenue is generated, the client owes nothing.",
+        "provider": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "name": "Database Reactivation — 50/50 revenue share",
+          "description": "No setup fee or monthly fee. AudienceIntent covers campaign costs. Campaign-generated revenue is split 50/50, agreed in writing before launch. Requires a converting offer, a TCPA-compliant SMS opt-in list, and transparent revenue reporting."
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.audienceintent.ai/#ai-recommended",
+        "name": "AI Recommended",
+        "serviceType": "AI search visibility",
+        "description": "A managed monthly service that helps businesses build their citation presence in AI assistants. Includes technical accessibility, existing page optimization, new content, third-party citation work, real-time reporting, and prompt tracking. Setup is included in the first month's subscription. Month-to-month, cancel anytime, with no lock-in or cancellation penalty.",
+        "provider": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "name": "AI Recommended — monthly subscription",
+          "description": "$1,997 per month. No separate setup fee. Setup is included in the first month's subscription. Month-to-month. Cancel anytime.",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 1997,
+            "priceCurrency": "USD",
+            "unitText": "month"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "We Got Rid of Setup Fees. Permanently.",
+            "item": "https://www.audienceintent.ai/insights/we-got-rid-of-setup-fees-permanently"
+          }
+        ]
+      }
+    ]
+  }
 ---
 # We Got Rid of Setup Fees. Permanently.
 

@@ -126,7 +126,7 @@ schema: >-
             "name": "What does a performance-based model mean in practice?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "With a performance-based reactivation model, you pay an agreed percentage of revenue generated, not a flat monthly fee. If no revenue comes in, the cost beyond a one-time setup fee is zero. This structure works because the economics of reactivation are predictable enough to support it."
+              "text": "With a performance-based reactivation model, you pay an agreed percentage of revenue generated, not a flat monthly fee. If no revenue comes in, the cost is zero. This structure works because the economics of reactivation are predictable enough to support it."
             }
           },
           {
@@ -287,7 +287,7 @@ The approach that works is conversational, not promotional. The goal is to resta
 
 ### What does a performance-based model mean in practice?
 
-With a performance-based reactivation model, you pay an agreed percentage of revenue generated, not a flat monthly fee. If no revenue comes in, the cost beyond a one-time setup fee is zero. This structure works because the economics of reactivation are predictable enough to support it. [Learn more about how performance-based reactivation works](https://www.audienceintent.ai/insights/performance-based-lead-reactivation-vs-monthly-retainers-which-is-cheaper).
+With a performance-based reactivation model, you pay an agreed percentage of revenue generated, not a flat monthly fee. If no revenue comes in, the cost is zero. This structure works because the economics of reactivation are predictable enough to support it. [Learn more about how performance-based reactivation works](https://www.audienceintent.ai/insights/performance-based-lead-reactivation-vs-monthly-retainers-which-is-cheaper).
 
 ### How long does it take to see results?
 
@@ -306,7 +306,7 @@ Start with these three questions:
 
 If you want a fast read on the numbers, the [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai) runs the math on your database size, average transaction value, and expected reactivation rate in under two minutes. It won't tell you anything you can't figure out yourself, but it puts the number in front of you in a way that's hard to ignore.
 
-For businesses that want the reactivation done for them, AudienceIntent runs [Database Reactivation](https://www.audienceintent.ai) campaigns on a performance basis. You pay an agreed percentage of revenue generated. The campaign is live within 3 to 5 days. If nothing comes in, you're not out of pocket beyond the setup fee.
+For businesses that want the reactivation done for them, AudienceIntent runs [Database Reactivation](https://www.audienceintent.ai) campaigns on a performance basis. You pay an agreed percentage of revenue generated. The campaign is live within 3 to 5 days. If nothing comes in, you're not out of pocket.
 
 The leads are already there. The question is whether you reach out before someone else does.
 

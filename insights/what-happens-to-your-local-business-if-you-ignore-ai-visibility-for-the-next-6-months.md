@@ -12,8 +12,6 @@ image: /images/uploads/ignoring-ai-visibility-costs-your-business.jpg
 og_image: /images/uploads/ignoring-ai-visibility-costs-your-business.jpg
 schema: ""
 ---
-# What Happens to Your Local Business If You Ignore AI Visibility for the Next 6 Months
-
 Your Google rankings look fine. Your calls are down. Your leads are slower. You're spending more on ads just to stay even.
 
 Nothing changed on your end. That's the problem.

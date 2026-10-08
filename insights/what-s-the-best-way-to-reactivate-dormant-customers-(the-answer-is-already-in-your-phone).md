@@ -11,7 +11,298 @@ description: Learn how to reactivate dormant customers with SMS-first,
 focus_keyword: Database Reactivation
 image: /images/uploads/reactivating-dormant-customers.jpg
 og_image: /images/uploads/reactivating-dormant-customers.jpg
-schema: ""
+schema: >-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "url": "https://www.audienceintent.ai/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "contentUrl": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png"
+        },
+        "description": "AudienceIntent provides managed Database Reactivation and AI Recommended services to help businesses reconnect with dormant leads and improve their visibility in AI search.",
+        "email": "support@audienceintent.ai",
+        "founder": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "sameAs": [
+          "https://www.facebook.com/audienceintent",
+          "https://www.instagram.com/audienceintent",
+          "https://x.com/audienceintentx",
+          "https://www.linkedin.com/company/audienceintent/",
+          "https://www.youtube.com/@audienceintent",
+          "https://www.tiktok.com/@audienceintent",
+          "https://www.threads.com/@audienceintent"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "name": "Kevin Bovett",
+        "url": "https://www.audienceintent.ai/about",
+        "jobTitle": "Founder & CEO",
+        "worksFor": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "inLanguage": "en-US",
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@type": "Blog",
+        "@id": "https://www.audienceintent.ai/insights#blog",
+        "url": "https://www.audienceintent.ai/insights",
+        "name": "AudienceIntent Insights",
+        "description": "Educational articles on database reactivation, AI search visibility, and recovering revenue from dormant leads.",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)",
+        "url": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)",
+        "name": "What's the Best Way to Reactivate Dormant Customers? (SMS-Led, Multi-Channel, and TCPA-Compliant)",
+        "description": "How to reactivate dormant customers through SMS-led, multi-channel outreach, including lead segmentation, campaign timing, consent, opt-outs, and performance measurement.",
+        "inLanguage": "en-US",
+        "datePublished": "2026-10-08",
+        "dateModified": "2026-10-08",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#article"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#breadcrumb"
+        }
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#article",
+        "url": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)",
+        "headline": "What's the Best Way to Reactivate Dormant Customers? (SMS-Led, Multi-Channel, and TCPA-Compliant)",
+        "description": "How to reactivate dormant customers through SMS-led, multi-channel outreach, including lead segmentation, campaign timing, consent, opt-outs, and performance measurement.",
+        "datePublished": "2026-10-08",
+        "dateModified": "2026-10-08",
+        "inLanguage": "en-US",
+        "articleSection": "Database Reactivation",
+        "isAccessibleForFree": true,
+        "keywords": [
+          "dormant customer reactivation",
+          "SMS lead reactivation",
+          "database reactivation",
+          "multi-channel marketing",
+          "TCPA compliance",
+          "customer retention"
+        ],
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights#blog"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)"
+        },
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#primaryimage"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Customer reactivation"
+          },
+          {
+            "@type": "Thing",
+            "name": "SMS marketing"
+          },
+          {
+            "@type": "Thing",
+            "name": "Telephone Consumer Protection Act"
+          }
+        ],
+        "hasPart": [
+          {
+            "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#faq"
+          },
+          {
+            "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#howto"
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/reactivating-dormant-customers.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/reactivating-dormant-customers.jpg",
+        "caption": "What's the Best Way to Reactivate Dormant Customers? (SMS-Led, Multi-Channel, and TCPA-Compliant)",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "What's the Best Way to Reactivate Dormant Customers? (SMS-Led, Multi-Channel, and TCPA-Compliant)",
+            "item": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#faq",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best channel for reactivating dormant customers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS is the strongest channel for reactivation, with open rates of 97–98% and response rates around 45%. The most effective campaigns combine SMS with email and a follow-up call for high-value contacts. Single-channel outreach produces roughly half the reactivation rate of a coordinated multi-channel sequence."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How old can a lead be before it is no longer worth contacting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no hard cutoff, but dormancy window significantly affects results. Leads contacted within 90 days of going cold convert at roughly 18%. Leads that have been dormant for two or more years convert at around 1.8%. For a detailed breakdown by lead age, see How Old Can a Lead Be Before It Is Worth Contacting?"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need consent to send reactivation SMS to past customers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Under the TCPA, prior express written consent is required before sending marketing SMS, regardless of whether the contact was a past customer. A previous purchase or inquiry does not establish consent for promotional texts. You need documented opt-in consent — typically captured at the point of original lead collection. If your list predates proper consent documentation, start with email before moving to SMS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many messages should a reactivation sequence include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most service businesses see strong results from three touches over 10 days: a warm check-in on Day 1, an incentive or reason to act on Day 4, and a close-the-loop message on Day 10. Longer sequences can work for B2B or high-value contacts, but more messages without engagement increases opt-out risk."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What opt-out rate is acceptable for SMS reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keep your opt-out rate under 2% before scaling. An opt-out rate above 2% is a signal that your list segmentation is too broad, your messaging is too aggressive, or both. Reduce cadence, tighten your segment, and revise your opening message before sending to a larger batch."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is reactivation cheaper than running new ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Consistently, yes. Reactivating a past customer or dormant lead costs 5–7x less than acquiring a brand-new one, because there is no ad spend, no cold audience, and no trust-building required. The contact already knows your business — the only question is whether the timing is right now."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#howto",
+        "name": "How to structure a dormant customer reactivation campaign",
+        "description": "Segment dormant contacts, verify consent, and run a measured SMS-led sequence with email and phone follow-up.",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#article"
+        },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Segment dormant contacts",
+            "text": "Group contacts by dormancy window and customer value. Prioritize more recent dormant contacts and test older segments in smaller batches."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify consent before sending",
+            "text": "Check documented consent for promotional SMS from your business and exclude contacts who have opted out."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Send a warm check-in on Day 1",
+            "text": "Start with a short, personal SMS that identifies your business, acknowledges the gap, and asks whether you can help."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Follow up with SMS and email on Day 4",
+            "text": "Provide a relevant reason to respond, such as a seasonal service or priority booking opportunity."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Add a call for high-value contacts",
+            "text": "Between the second and third touches, consider a phone follow-up for high-value customers who engaged with earlier outreach."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 6,
+            "name": "Close the loop on Day 10",
+            "text": "Send a final check-in that makes it easy to respond or opt out. Respect requests to stop further messages."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 7,
+            "name": "Review results before scaling",
+            "text": "Measure reactivation rate, response rate, opt-out rate, and revenue per message. Adjust segmentation, messaging, and cadence before expanding the campaign."
+          }
+        ]
+      }
+    ]
+  }
 ---
 **Quick answer:** The best way to reactivate dormant customers is SMS-led, multi-channel outreach — starting within 90 days of the lead going cold. SMS delivers a [98% open rate](https://www.actito.com/en/blog/how-to-reactivate-inactive-customers-guide-with-9-examples) and a 45% response rate on reactivation campaigns, compared to 21–28% open rates for email. The strongest results come from a coordinated sequence of SMS, email, and a follow-up call over two to three weeks — with documented TCPA-compliant consent in place before you send a single message.
 

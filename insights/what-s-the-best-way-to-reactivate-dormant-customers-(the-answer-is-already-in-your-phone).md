@@ -1,285 +1,210 @@
 ---
-title: What's the Best Way to Reactivate Dormant Customers? (The Answer Is
-  Already in Your Phone)
-meta_title: "SMS Lead Reactivation: Best Way to Win Back Dormant Leads"
-date: 2026-03-14
+title: What's the Best Way to Reactivate Dormant Customers? (SMS-Led,
+  Multi-Channel, and TCPA-Compliant)
+meta_title: "SMS Lead Reactivation: 2026 Guide to More Revenue"
+date: 2026-10-08T18:30:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett
-description: SMS is the fastest way to reactivate dormant customers. See why it
-  outperforms email and phone, plus the exact multi-channel cadence that works.
-focus_keyword: Lead Reactivation
-image: https://framerusercontent.com/images/NVcbIzTpEtutYjCgFoED2i8J9M.jpg
-schema: >-
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#article",
-        "headline": "What's the Best Way to Reactivate Dormant Customers? (The Answer Is Already in Your Phone)",
-        "description": "SMS-led reactivation is the fastest way to bring dormant customers back. Learn the best channel mix, timing, and outreach cadence for service businesses.",
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
-          "width": 1200,
-          "height": 630
-        },
-        "author": {
-          "@type": "Person",
-          "@id": "https://www.audienceintent.ai/#kevin-bovett",
-          "name": "Kevin Bovett",
-          "jobTitle": "Founder & CEO",
-          "url": "https://www.audienceintent.ai",
-          "sameAs": [
-            "https://www.linkedin.com/in/kevinbovett"
-          ],
-          "worksFor": {
-            "@id": "https://www.audienceintent.ai/#organization"
-          }
-        },
-        "publisher": {
-          "@id": "https://www.audienceintent.ai/#organization"
-        },
-        "datePublished": "2026-03-14",
-        "dateModified": "2026-03-14",
-        "articleSection": "Database Reactivation",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
-        "timeRequired": "PT8M",
-        "inLanguage": "en-US",
-        "isPartOf": {
-          "@id": "https://www.audienceintent.ai/#website"
-        },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)"
-        }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "AudienceIntent",
-            "item": "https://www.audienceintent.ai"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Insights",
-            "item": "https://www.audienceintent.ai/insights"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "What's the Best Way to Reactivate Dormant Customers? (The Answer Is Already in Your Phone)",
-            "item": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)"
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the best way to reactivate dormant customers?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "SMS-led, multi-channel outreach is the strongest approach. Start with a short, personal text within 90 days of the lead going cold, then follow up with email and a phone call if needed. The goal of the first message is a reply, not a sale."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How soon should you reach out to a dormant lead?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Within 90 days. Leads contacted inside that window are 10x more likely to re-engage than leads that have been cold for two years or more. The longer you wait, the harder the conversation gets."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why does SMS work better than email for reactivation?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "SMS gets opened. The average text is read within 3 minutes. Email sits unopened for 90 minutes or more — if it gets opened at all. SMS also feels personal. A text reads like a person checking in. An email reads like a campaign. That difference matters when you are trying to restart a relationship."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Should reactivation be a one-time campaign or an ongoing system?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "An ongoing system outperforms one-off campaigns every time. A campaign recovers a segment of your database once. A system keeps working continuously — identifying dormant leads, triggering outreach at the right time, and routing re-engaged contacts to booking before the window closes."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What reactivation rate should I expect?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A well-run campaign targeting leads from the past 12 to 24 months should see a 10 to 25% reactivation rate. Pest control and pool services tend to see the highest rates. Roofing and electrical take longer to convert. Across every trade, SMS is the top-performing channel."
-            }
-          }
-        ]
-      }
-    ]
-  }
+description: Learn how to reactivate dormant customers with SMS-first,
+  multi-channel outreach, TCPA compliance, timing, and real benchmarks that
+  convert.
+focus_keyword: Database Reactivation
+image: /images/uploads/reactivating-dormant-customers.jpg
+og_image: /images/uploads/reactivating-dormant-customers.jpg
+schema: ""
 ---
-> **Quick answer:** The best way to reactivate dormant customers is SMS-led, multi-channel outreach — starting within 90 days of the lead going cold. SMS delivers a 98% open rate and a 45% response rate on reactivation campaigns, compared to 21-28% open rates for email. The strongest results come from a coordinated sequence of SMS, email, and phone over 3 weeks.
+**Quick answer:** The best way to reactivate dormant customers is SMS-led, multi-channel outreach — starting within 90 days of the lead going cold. SMS delivers a [98% open rate](https://www.actito.com/en/blog/how-to-reactivate-inactive-customers-guide-with-9-examples) and a 45% response rate on reactivation campaigns, compared to 21–28% open rates for email. The strongest results come from a coordinated sequence of SMS, email, and a follow-up call over two to three weeks — with documented TCPA-compliant consent in place before you send a single message.
 
-Most businesses spend thousands chasing new leads while sitting on a goldmine they have already paid for.
+Most businesses have hundreds or thousands of contacts sitting in their CRM that never got a proper follow-up. Those leads are not dead. They are delayed. The question is not whether to reach back out. The question is which channel to lead with and when.
 
-[According to HubSpot](https://www.hubspot.com), 79% of marketing leads never convert — not because they were bad leads, but because they were ignored, followed up with too slowly, or simply fell through the cracks. Research from MarketingSherpa found that 60 to 70% of those dormant leads will still buy within 24 months — just not from the company that originally earned their attention.
+Here is what the data says, what compliance requires in 2026, and how to structure a sequence that actually converts.
 
-That is the brutal reality of lead decay. And it is also the biggest untapped revenue opportunity most service businesses have.
+## Why SMS Outperforms Every Other Reactivation Channel
 
-**The data is clear on the best channel to bring them back: SMS.**
+The channel debate is settled. SMS is not just convenient — it is structurally superior for reactivation because of where and how people read it.
 
-## Why Dormant Leads Are Worth Fighting For
+Email lands in a crowded inbox, competes with dozens of other promotional messages, and gets skimmed or deleted. A phone call from an unknown number rarely gets answered. SMS arrives in the same thread as messages from a contact's family and friends. That proximity changes everything.
 
-Before diving into channel strategy, it is worth reframing how you think about your CRM.
+### Channel Performance Comparison
 
-Every name in that list represents money you already spent to acquire — through ads, referrals, word of mouth, or time. When a lead goes cold, you do not lose the opportunity. You lose the follow-through.
+| Channel | Open Rate | Response Rate | Reactivation Rate |
+| --- | --- | --- | --- |
+| SMS | 97–98% | 45% | 16.5% |
+| Email | 21–28% | 6% | 7.2% |
+| Phone | 28% answer rate | 62% (if answered) | 13.2% |
 
-**The window matters.** [According to Suparev's 2026 trade benchmarks](https://suparev.com/benchmarks/lead-reactivation), leads contacted within 90 days of going dormant are **10x more likely to reactivate** than leads that have been cold for two years or more. Fresh leads convert at 18% versus 1.8% for leads over two years old.
+Sources: [Actito reactivation benchmarks](https://www.actito.com/en/blog/how-to-reactivate-inactive-customers-guide-with-9-examples), [AudienceIntent 2026 campaign data](https://www.audienceintent.ai/insights/sms-lead-reactivation-how-to-win-back-customers-and-unlock-hidden-revenue)
 
-Timing is everything. The longer you wait, the harder the conversation gets — and the more of that sunk acquisition cost you write off permanently.
+**The gap is not marginal.** SMS open rates are roughly 4x higher than email, and response rates are more than 7x higher. Industries running SMS reactivation campaigns consistently see 21–40% conversion rates — roughly double what email produces on the same lists.
 
-## Why SMS Is the Most Effective Reactivation Channel
+The average SMS is read within 90 seconds of delivery. That speed matters for reactivation because timing and recency are the two biggest predictors of whether a dormant contact converts.
 
-SMS consistently outperforms every other reactivation channel because it meets people where they already are.
+### Why Multi-Channel Still Beats SMS Alone
 
-Here is how SMS compares to email and phone across the metrics that matter most:
+SMS leads. But businesses running coordinated SMS, email, and phone sequences see [2.3x higher reactivation rates](https://www.callloop.com/blog/reactivation-campaigns) than single-channel outreach. The reason is simple: different contacts respond to different triggers. Some will reply to a text immediately. Others need to see your name in their inbox before they feel comfortable engaging.
 
-| Channel | Open Rate       | Response Rate     | Reactivation Rate |
-| ------- | --------------- | ----------------- | ----------------- |
-| SMS     | 98%             | 45%               | 16.5%             |
-| Email   | 21-28%          | 6%                | 7.2%              |
-| Phone   | 28% answer rate | 62% (if answered) | 13.2%             |
+The right structure is not SMS instead of email. It is SMS first, email as reinforcement, and a call for high-value contacts who opened but did not respond.
 
+## Timing: The Window That Determines Whether Reactivation Works
 
+The single biggest variable in reactivation is not your copy. It is how long you waited.
 
-The average text is read within 3 minutes of delivery. Emails sit unopened for 90 minutes or more — if they get opened at all.
+According to [Suparev's 2026 trade benchmarks](https://www.audienceintent.ai/insights/what-s-the-best-way-to-reactivate-dormant-customers-(the-answer-is-already-in-your-phone)/), leads contacted within 90 days of going dormant are 10x more likely to reactivate than leads that have been cold for two years or more. Fresh dormant leads convert at around 18%. Leads that have been cold for more than two years convert at approximately 1.8%.
 
-But the real reason SMS works for reactivation is not just the open rate. It is the tone. A text feels like a person reaching out, not a company running a campaign. That distinction matters enormously when you are trying to restart a relationship that went cold.
+**The window matters more than the message.**
 
-**Industries using SMS for reactivation consistently see 21 to 40% conversion rates** — double the numbers email produces. That is not a marginal improvement. That is a different category of result.
+That does not mean two-year-old leads are worthless. It means they need a different approach — smaller batches, lower expectations, and a warm check-in rather than a hard offer. But if you have leads that went cold in the last 30 to 180 days, those are your highest-priority segment and they should be contacted first.
 
-### The 90-day rule
+### Dormancy Segmentation by Priority
 
-The channel advantage is real, but timing amplifies it. SMS campaigns targeting leads within the 30 to 90 day dormancy window see dramatically better results than campaigns targeting leads that have been cold for a year or more. If you have a mixed database, segment by age and start with the warmest contacts first.
+| Dormancy Window | Expected Reactivation Rate | Recommended Approach |
+| --- | --- | --- |
+| 30–90 days | 15–25% | Full SMS + email + call sequence |
+| 91–180 days | 10–18% | SMS + email, call for high-value contacts |
+| 181 days–1 year | 5–12% | SMS-first, softer offer, longer sequence |
+| 1–2 years | 3–7% | Warm check-in, no hard pitch |
+| 2+ years | 1–3% | Small test batch only |
 
-## The Multi-Channel Edge: SMS as the Lead, Not the Only Play
+The [2025–2026 data from CallLoop](https://www.callloop.com/blog/reactivation-campaigns) reinforces this: businesses using RFM-based recency scoring — prioritizing 90-to-180-day lapsed contacts over two-year dormant ones — achieve 2.3x higher reactivation rates than businesses treating all dormant contacts the same.
 
-SMS wins the channel battle, but the biggest reactivation results come from using it as the anchor of a coordinated sequence.
+The practical takeaway: segment before you send. Do not blast your entire database with one campaign. Triage by recency first, then by value.
 
-Businesses running coordinated SMS, email, and phone sequences see **2.3x higher reactivation rates** than single-channel outreach. The optimal cadence is 6 to 8 touches over 3 weeks, with SMS leading each sequence.
+## How to Structure a Reactivation Sequence That Converts
 
-### The cadence that works
+A reactivation sequence is not a blast. It is a short, structured conversation with a clear entry point, a reason to act, and an easy exit. Most service businesses get strong results from a three-touch sequence over 10 days.
 
-| Day    | Action                                     |
-| ------ | ------------------------------------------ |
-| Day 1  | SMS opener — short, personal, low pressure |
-| Day 3  | Follow-up SMS if no response               |
-| Day 5  | Email with more context or an offer        |
-| Day 8  | SMS check-in                               |
-| Day 12 | Phone call attempt                         |
-| Day 16 | Final SMS                                  |
+### The Three-Touch Sequence
 
+**Touch 1 — Day 1: Warm check-in (SMS)** No pressure, no hard pitch. Acknowledge the gap and open a door.
 
+> "Hi \[Name\], it's \[Business\]. It's been a while — wanted to reach out and see if there's anything we can help you with. No pressure at all."
 
-The goal is not to bombard. It is to show up consistently across the channels your prospect actually uses, until they are ready to respond.
+Keep it under 160 characters. Personal tone. First name only. No promotional language in the first message.
 
-Each touchpoint should feel like a natural continuation — not a new campaign starting from scratch. Reference the previous message. Keep the tone conversational. Give them an easy way to say yes or no.
+**Touch 2 — Day 4: Incentive or reason to act (SMS + email)** Add a specific reason to move now. A seasonal angle, a limited availability window, or a priority booking offer. This is where you give the contact something to respond to.
 
-> **Key insight:** The businesses seeing the best reactivation results are not the ones with the cleverest messages. They are the ones who show up the most consistently, across the right channels, at the right time.
+**Touch 3 — Day 10: Close the loop (SMS)** Make it easy to say yes or opt out cleanly. A simple "Last check-in from us — let us know if now's a better time, or reply STOP and we'll leave you alone" respects the contact's time and keeps your opt-out rate low.
 
-## Reactivation Rates by Industry
+### For Higher-Value Contacts
 
-Not all dormant leads are equal. Reactivation rates vary significantly by trade, and so does the conversion window. Here is how the numbers break down, based on [Suparev's February 2026 benchmark data](https://suparev.com/benchmarks/lead-reactivation):
+If a contact was a past customer with significant transaction value, add a phone call between Touch 2 and Touch 3. [Research from Nutshell](https://www.nutshell.com/engagement/resources/5-ways-recapture-inactive-customers) confirms that phone follow-up for high-value dormant accounts materially lifts conversion when the contact has already engaged with a prior SMS.
 
-| Industry      | Avg. Reactivation Rate | Best Channel | Days to Convert |
-| ------------- | ---------------------- | ------------ | --------------- |
-| Pest Control  | 18.5%                  | SMS          | 10              |
-| Pool Services | 15.8%                  | SMS (22.4%)  | 18              |
-| Landscaping   | 14.2%                  | SMS          | 16              |
-| HVAC          | 12.4%                  | SMS          | 14              |
-| Garage Doors  | 11.5%                  | SMS (16.8%)  | 12              |
-| Plumbing      | 9.8%                   | SMS          | 21              |
-| Electrical    | 8.3%                   | SMS (12.1%)  | 28              |
-| Roofing       | 6.2%                   | SMS (9.8%)   | 45              |
+### What to Track
 
+Run your pilot on a controlled batch before scaling. Track these metrics in layers:
 
+-   **Reactivation rate:** What percentage of dormant contacts returned to active status
+    
+-   **Response rate:** Replies per message sent (target above 10% on Touch 1)
+    
+-   **Opt-out rate:** Keep this under 2% before scaling. Above 2% means your list needs tighter segmentation or your messaging needs revision
+    
+-   **Revenue per message:** The metric that actually tells you whether the campaign is worth running
+    
 
-Across every single trade, SMS is the top-performing channel. The conversion window varies — roofing leads take longer to close than pest control leads — but the channel winner does not change.
+For more on how to calculate what a reactivation campaign is worth before you launch, see [Lead Reactivation ROI: 5 Variables + Real Numbers](https://www.audienceintent.ai/insights/how-to-calculate-roi-from-lead-reactivation-campaigns-with-real-numbers).
 
-**Best send times:** Tuesday through Thursday, 10am to 12pm or 2pm to 4pm local time. Avoid Monday mornings and Friday afternoons.
+## TCPA Compliance in 2026: What You Must Have Before Sending
 
-The practical implication: if you are in a trade with a shorter conversion window, speed matters even more. A plumbing lead that goes unanswered for a month is far harder to recover than one you reach within the first two weeks.
+This section is not optional. Sending marketing SMS without documented prior express written consent creates real legal exposure under the [Telephone Consumer Protection Act](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts). The baseline penalty is $500 per violation, which can rise to $1,500 per message for willful violations. On a list of 1,000 contacts, that math gets serious fast.
 
-## What a Good Reactivation SMS Actually Looks Like
+Here is what the law actually requires in 2026, based on [the FCC's current rules](https://www.voxie.com/blog/tcpa-compliance-checklist-sms/):
 
-Short. Personal. Low pressure. No corporate language.
+### What Is Required
 
-The goal of the first message is a reply — not a sale. Once someone responds, the conversation is live, and that is where conversions happen.
+-   **Prior express written consent** before any promotional SMS. This means a clear, affirmative opt-in — a checkbox on a web form, an SMS keyword opt-in, or documented written agreement. A past purchase, a website visit, or a period of inactivity does not establish consent.
+    
+-   **Consent must name your business specifically.** Generic disclosures that do not identify the sender are legally risky.
+    
+-   **Opt-out processing within 10 business days.** Since April 11, 2025, the FCC requires businesses to honor opt-outs submitted through any reasonable method — not just the STOP keyword. A reply of "please stop texting me" or "remove me" counts as a valid opt-out.
+    
+-   **One confirmation text only.** After an opt-out, you may send a single non-promotional confirmation. No promotional content in that message.
+    
+-   **Record retention for at least four years.** Keep the date, time, method, and exact consent language the contact saw.
+    
 
-### What works
+### What Changed in 2025–2026
 
-> *"Hey \[First Name], it's \[Your Name] from \[Business]. We helped you with \[service] a while back — just checking in to see if you have anything coming up we could help with. No pressure at all, just wanted to reach out. — \[Name]"*
+| Rule | Status |
+| --- | --- |
+| One-to-one consent rule | Vacated by the Eleventh Circuit (Jan 2025). Not in effect. |
+| FCC consent revocation rules | In effect as of April 11, 2025. Honor opt-outs within 10 business days. |
+| "Revoke-all" provision | Delayed to January 31, 2027. |
+| Virginia 10-year DNC requirement | In effect as of January 1, 2026. |
 
-Notice what this message does:
+Source: [Voxie TCPA Compliance Checklist 2026](https://www.voxie.com/blog/tcpa-compliance-checklist-sms/), [Prospeo TCPA Guide 2026](https://prospeo.io/s/tcpa-compliance)
 
-* Uses a first name, not "valued customer"
-* References the specific service — signals you remember them
-* Keeps the ask small — a reply, not a booking
-* Signs off with a real name — feels human, not automated
+### The Practical Rule
 
-### What does not work
+If your leads opted in to receive communications from your business — on a web form, at point of sale, or through a documented intake process — you likely have valid consent for reactivation SMS. If your list came from a third-party lead generator or a co-registration form without a specific disclosure naming your business, you need to verify consent before sending anything.
 
-> *"Dear valued customer, we are reaching out to inform you of our current promotional offerings and would like to schedule a time to discuss your needs..."*
+When in doubt, run those contacts through an email re-permission sequence first. It is slower, but it protects you.
 
-This reads like a campaign. Dormant leads have seen this before. They ignore it.
+For a full breakdown of what compliance looks like in practice for reactivation campaigns, see our [TCPA Compliance for SMS Lead Reactivation: 2026 Guide](https://www.audienceintent.ai/insights/tcpa-compliance-sms-lead-reactivation-2026).
 
-**The single most important rule:** write like a person, not a company. If you would not send that message to a friend, do not send it to a dormant lead.
+## What Results Look Like in Practice
 
-### Response handling matters as much as the message
+Reactivation results vary by industry, list quality, dormancy window, and how the campaign is structured. The ranges below reflect real campaign data, not projections.
 
-[Responding within the first minute](https://www.audienceintent.ai/insights/the-first-minute-how-a-60-second-response-time-lifts-lead-conversion-by-391) of a lead re-engaging lifts conversion rates by 391%. When someone replies to a reactivation SMS, the window to book them is short. An automated system that responds instantly and routes to booking is the difference between recovered revenue and a missed opportunity.
+**Across automated reactivation campaigns:**
 
-## The Bottom Line
+-   20–30% average reactivation rate on dormant contacts
+    
+-   Conversion rates for re-engaged leads: 8–26%
+    
+-   Reactivating a past customer costs 5–7x less than acquiring a new one
+    
 
-Your dormant leads are not dead. They are waiting.
+Source: [CallLoop reactivation campaign benchmarks](https://www.callloop.com/blog/reactivation-campaigns)
 
-They already know you. They already showed enough interest to enter your pipeline. The only thing standing between you and recovered revenue is a timely, personal outreach — and SMS gives you the highest probability of making that connection.
+### Industry Benchmarks
 
-The channel strategy is clear: lead with SMS, support with email and phone, move fast. The 90-day window is real. Every day you wait, the odds drop.
+Different industries see different results based on average deal size, customer relationship length, and how well contacts were originally qualified.
 
-The money is already in your CRM. You just have to go get it.
+| Industry | Avg. Reactivation Rate | Best Channel | Notes |
+| --- | --- | --- | --- |
+| Home services | 22–35% | SMS | High intent, seasonal triggers work well |
+| Health / wellness | 18–28% | SMS + email | Appointment-based, easy re-entry offer |
+| Professional services | 15–22% | Email + SMS | Longer decision cycle, trust-first messaging |
+| E-commerce | 12–20% | SMS | Discount or expiring credit performs well |
+| B2B / SaaS | 8–15% | Email + call | Longer sales cycle, higher-value contacts |
 
-AudienceIntent's Lead Reactivation Campaigns — part of the [Revenue Capture Engine](https://report.audienceintent.ai) — run SMS-led multi-channel sequences automatically, identifying which dormant leads are most likely to convert and reaching out before the window closes.
+**The cost advantage is the part most businesses underestimate.** When you factor in what it costs to acquire a new lead versus what it costs to reactivate a contact who already knows your business, reactivation is almost always the better first move. There is no ad spend, no cold audience, and no trust-building from scratch.
 
-[Get a free Business Performance Report](https://report.audienceintent.ai) to see how much revenue is sitting unclaimed in your database right now.
+For a real-world example of what this looks like with a named client, see the [ActivatedYou case study](https://results.audienceintent.ai) — a head-to-head test where an SMS reactivation campaign produced a 26.19% conversion rate and $17.62 revenue per click, outperforming the client's internal marketing team on the same list.
 
 ## Frequently Asked Questions
 
-### What is the best way to reactivate dormant customers?
+### What is the best channel for reactivating dormant customers?
 
-SMS-led, multi-channel outreach is the strongest approach. Start with a short, personal text within 90 days of the lead going cold, then follow up with email and a phone call if needed. The goal of the first message is a reply, not a sale.
+SMS is the strongest channel for reactivation, with open rates of 97–98% and response rates around 45%. The most effective campaigns combine SMS with email and a follow-up call for high-value contacts. Single-channel outreach produces roughly half the reactivation rate of a coordinated multi-channel sequence.
 
-### How soon should you reach out to a dormant lead?
+### How old can a lead be before it is no longer worth contacting?
 
-Within 90 days. Leads contacted inside that window are 10x more likely to re-engage than leads that have been cold for two years or more. The longer you wait, the harder the conversation gets.
+There is no hard cutoff, but dormancy window significantly affects results. Leads contacted within 90 days of going cold convert at roughly 18%. Leads that have been dormant for two or more years convert at around 1.8%. For a detailed breakdown by lead age, see [How Old Can a Lead Be Before It Is Worth Contacting?](https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting)
 
-### Why does SMS work better than email for reactivation?
+### Do I need consent to send reactivation SMS to past customers?
 
-SMS gets opened. The average text is read within 3 minutes. Email sits unopened for 90 minutes or more — if it gets opened at all. SMS also feels personal. A text reads like a person checking in. An email reads like a campaign. That difference matters when you are trying to restart a relationship.
+Yes. Under the TCPA, prior express written consent is required before sending marketing SMS, regardless of whether the contact was a past customer. A previous purchase or inquiry does not establish consent for promotional texts. You need documented opt-in consent — typically captured at the point of original lead collection. If your list predates proper consent documentation, start with email before moving to SMS.
 
-### Should reactivation be a one-time campaign or an ongoing system?
+### How many messages should a reactivation sequence include?
 
-An ongoing system outperforms one-off campaigns every time. A campaign recovers a segment of your database once. A system keeps working continuously — identifying dormant leads, triggering outreach at the right time, and routing re-engaged contacts to booking before the window closes.
+Most service businesses see strong results from three touches over 10 days: a warm check-in on Day 1, an incentive or reason to act on Day 4, and a close-the-loop message on Day 10. Longer sequences can work for B2B or high-value contacts, but more messages without engagement increases opt-out risk.
 
-### What reactivation rate should I expect?
+### What opt-out rate is acceptable for SMS reactivation?
 
-A well-run campaign targeting leads from the past 12 to 24 months should see a 10 to 25% reactivation rate. Pest control and pool services tend to see the highest rates. Roofing and electrical take longer to convert. Across every trade, SMS is the top-performing channel.
+Keep your opt-out rate under 2% before scaling. An opt-out rate above 2% is a signal that your list segmentation is too broad, your messaging is too aggressive, or both. Reduce cadence, tighten your segment, and revise your opening message before sending to a larger batch.
+
+### Is reactivation cheaper than running new ads?
+
+Consistently, yes. Reactivating a past customer or dormant lead costs 5–7x less than acquiring a brand-new one, because there is no ad spend, no cold audience, and no trust-building required. The contact already knows your business — the only question is whether the timing is right now.
+
+## The Bottom Line
+
+The best way to reactivate dormant customers is not a single tactic. It is a structured sequence built on the right channel (SMS first), the right timing (within 90 days of going cold), proper consent documentation, and a message that opens a conversation rather than pushes a sale.
+
+Most businesses already have the raw material — a CRM full of contacts who expressed interest, got quoted, or bought once and never came back. That list represents revenue that has already been partially earned. The only thing missing is a follow-up.
+
+**If you want to see how much revenue is sitting in your existing database before you decide whether to run a campaign**, use the [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai) to estimate what your dormant list is worth based on your average deal size and list size.
+
+If you want a done-for-you reactivation campaign — where we write the copy, build the sequence, and only get paid when revenue comes in — [see how Database Reactivation works](https://www.audienceintent.ai).

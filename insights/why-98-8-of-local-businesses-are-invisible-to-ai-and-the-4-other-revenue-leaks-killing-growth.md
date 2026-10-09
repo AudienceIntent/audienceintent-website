@@ -11,7 +11,157 @@ focus_keyword: AEO
 canonical: ""
 image: /images/uploads/why-local-businesses-are-invisible-to-ai.jpg
 og_image: /images/uploads/why-local-businesses-are-invisible-to-ai.jpg
-schema: ""
+schema: >
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "url": "https://www.audienceintent.ai/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "contentUrl": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png"
+        },
+        "founder": {
+          "@id": "https://www.audienceintent.ai/about#person"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/about#person",
+        "name": "Kevin Bovett",
+        "url": "https://www.audienceintent.ai/about",
+        "jobTitle": "Founder & CEO",
+        "worksFor": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/why-local-businesses-are-invisible-to-ai.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/why-local-businesses-are-invisible-to-ai.jpg",
+        "caption": "Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other Revenue Leaks Killing Growth)",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#webpage",
+        "url": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth",
+        "name": "Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other Revenue Leaks Killing Growth)",
+        "description": "Learn how limited AI visibility, slow lead follow-up, unanswered calls, outdated reviews, and neglected CRM contacts can cost local businesses revenue—and which operational gaps to address.",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#article"
+        },
+        "datePublished": "2026-10-09",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Five Local Business Revenue Leaks",
+            "item": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth"
+          }
+        ]
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#article",
+        "url": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth",
+        "headline": "Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other Revenue Leaks Killing Growth)",
+        "description": "Learn how limited AI visibility, slow lead follow-up, unanswered calls, outdated reviews, and neglected CRM contacts can cost local businesses revenue—and which operational gaps to address.",
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#primaryimage"
+        },
+        "author": {
+          "@id": "https://www.audienceintent.ai/about#person"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#webpage"
+        },
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "datePublished": "2026-10-09",
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "articleSection": "AI Recommended",
+        "keywords": [
+          "AI visibility",
+          "local business marketing",
+          "answer engine optimization",
+          "lead response",
+          "missed calls",
+          "review management",
+          "database reactivation"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "AI search visibility"
+          },
+          {
+            "@type": "Thing",
+            "name": "Lead response speed"
+          },
+          {
+            "@type": "Thing",
+            "name": "Missed business calls"
+          },
+          {
+            "@type": "Thing",
+            "name": "Customer review recency"
+          },
+          {
+            "@type": "Thing",
+            "name": "Dormant lead reactivation"
+          }
+        ]
+      }
+    ]
+  }
 ---
 Most local service businesses think their biggest growth problem is lead generation. It isn't.
 

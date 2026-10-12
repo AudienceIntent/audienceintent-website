@@ -9,7 +9,168 @@ description: See why AI recommends competitors, what that costs you, and how to
 focus_keyword: AI Recommended
 image: /images/uploads/when-ai-recommends-your-competitor.jpg
 og_image: /images/uploads/when-ai-recommends-your-competitor.jpg
-schema: ""
+schema: >
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "url": "https://www.audienceintent.ai/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "contentUrl": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png"
+        },
+        "founder": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "name": "Kevin Bovett",
+        "jobTitle": "Founder & CEO",
+        "url": "https://www.linkedin.com/in/kevinbovett/",
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett/"
+        ],
+        "worksFor": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Blog",
+        "@id": "https://www.audienceintent.ai/insights#blog",
+        "url": "https://www.audienceintent.ai/insights",
+        "name": "AudienceIntent Insights",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/when-ai-recommends-your-competitor.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/when-ai-recommends-your-competitor.jpg",
+        "caption": "AI Recommended Your Competitor, Not You. Here's the Revenue Math.",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math",
+        "url": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math",
+        "name": "AI Recommended Your Competitor, Not You. Here's the Revenue Math.",
+        "description": "Learn how competitors gain AI recommendations, how to assess the revenue impact of an AI visibility gap, and how to audit reviews, business listings, content, and third-party mentions.",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#article"
+        },
+        "datePublished": "2026-10-12",
+        "dateModified": "2026-10-12",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#article",
+        "url": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math",
+        "headline": "AI Recommended Your Competitor, Not You. Here's the Revenue Math.",
+        "description": "Learn how competitors gain AI recommendations, how to assess the revenue impact of an AI visibility gap, and how to audit reviews, business listings, content, and third-party mentions.",
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#primaryimage"
+        },
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math"
+        },
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights#blog"
+        },
+        "datePublished": "2026-10-12",
+        "dateModified": "2026-10-12",
+        "articleSection": "AI Recommended",
+        "keywords": [
+          "AI visibility",
+          "AI recommendations",
+          "AI search",
+          "competitor analysis",
+          "AI referral traffic",
+          "revenue impact",
+          "answer engine optimization",
+          "multi-location marketing"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "AI search visibility"
+          },
+          {
+            "@type": "Thing",
+            "name": "AI referral conversions"
+          },
+          {
+            "@type": "Thing",
+            "name": "Competitive analysis"
+          }
+        ],
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AI Recommended Your Competitor, Not You. Here's the Revenue Math.",
+            "item": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math"
+          }
+        ]
+      }
+    ]
+  }
 ---
 You searched. Your competitor showed up. You didn't.
 

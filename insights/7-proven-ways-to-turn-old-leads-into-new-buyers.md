@@ -10,7 +10,270 @@ description: Turn dormant CRM leads into revenue with segmentation, SMS,
 focus_keyword: Database Reactivation
 image: /images/uploads/7-proven-ways-to-revive-old-leads.jpg
 og_image: /images/uploads/7-proven-ways-to-revive-old-leads.jpg
-schema: ""
+schema: >
+  
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "legalName": "AudienceIntent LLC",
+        "url": "https://www.audienceintent.ai/",
+        "description": "AudienceIntent provides Database Reactivation and AI search visibility services for businesses.",
+        "founder": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "name": "Kevin Bovett",
+        "jobTitle": "Founder & CEO",
+        "worksFor": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/7-proven-ways-to-revive-old-leads.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/7-proven-ways-to-revive-old-leads.jpg",
+        "caption": "7 Proven Ways to Turn Old Leads Into New Buyers",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#webpage",
+        "url": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers",
+        "name": "7 Proven Ways to Turn Old Leads Into New Buyers",
+        "description": "Seven practical strategies for reactivating dormant leads through segmentation, relevant outreach, consent-based SMS, multi-channel follow-up and faster response times.",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#article"
+        },
+        "hasPart": {
+          "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#faq"
+        },
+        "datePublished": "2026-10-13",
+        "dateModified": "2026-10-13",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#article",
+        "url": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers",
+        "headline": "7 Proven Ways to Turn Old Leads Into New Buyers",
+        "description": "Learn seven ways to reconnect with dormant leads, use segmented outreach and compliant SMS campaigns, and turn existing CRM contacts into new customers.",
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#webpage"
+        },
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#primaryimage"
+        },
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-10-13",
+        "dateModified": "2026-10-13",
+        "articleSection": "Database Reactivation",
+        "inLanguage": "en-US",
+        "keywords": [
+          "lead reactivation",
+          "reactivate old leads",
+          "database reactivation",
+          "dormant leads",
+          "SMS lead reactivation",
+          "CRM reactivation",
+          "lead nurturing",
+          "multi-channel outreach",
+          "customer reactivation",
+          "lead conversion",
+          "revenue recovery"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Lead Reactivation"
+          },
+          {
+            "@type": "Thing",
+            "name": "Database Reactivation"
+          },
+          {
+            "@type": "Thing",
+            "name": "Customer Relationship Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Lead Nurturing"
+          },
+          {
+            "@type": "Thing",
+            "name": "SMS Marketing"
+          }
+        ],
+        "hasPart": [
+          {
+            "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#strategies"
+          },
+          {
+            "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#faq"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#strategies",
+        "name": "7 Proven Ways to Turn Old Leads Into New Buyers",
+        "numberOfItems": 7,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Segment Before You Send Anything"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Lead With Value, Not a Generic Check-In"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Use SMS as Your First Touch (With Proper Consent)"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Run Multi-Channel Sequences, Not One-Off Messages"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Use Timing Triggers to Make Outreach Feel Relevant"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Add Social Proof Matched to the Lead's Original Hesitation"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Respond Faster Than Your Competitors When a Lead Re-Engages"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#faq",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#webpage"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lead reactivation is the process of re-engaging contacts in your CRM who previously expressed interest but stopped responding. Instead of treating these contacts as lost, reactivation campaigns use segmented, multi-channel outreach to bring them back into the buying conversation. The goal is to recover revenue from leads you already paid to generate."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long should you wait before reactivating a cold lead?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most high-performing campaigns start reactivation at the 30–60 day mark for leads that stalled mid-funnel. Leads that went cold 6–12 months ago are still worth contacting, but they need a stronger re-entry hook: a new case study, updated offer, or relevant market change. Lead data decays at roughly 25–30% annually, so older lists should be cleaned and verified before outreach begins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a realistic response rate for lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "2026 benchmarks from CallLoop and Suparev put re-engagement rates at 5–15% for structured, segmented campaigns, rising to 15–30% for well-segmented programs with strong multi-touch sequences. Treat these as directional planning ranges, not guarantees. Results vary by industry, list quality, dormancy period, and outreach quality."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many touchpoints does a reactivation campaign need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Research consistently points to 7–10 touchpoints over 2–3 weeks as the benchmark for high-performing reactivation campaigns. Each touch should vary by channel and message angle. Manual outreach should be triggered once a lead shows a buying signal: opening multiple emails, revisiting your website, or replying to any automated message."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lead reactivation worth the effort compared to generating new leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In most cases, yes. Reactivating a dormant lead costs less than acquiring a net-new one, and these contacts already know your brand, which reduces the trust barrier. The challenge is building a repeatable system for segmentation, sequencing, and fast follow-up when a lead re-engages. Without that system, even good leads slip through again."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What channels work best for lead reactivation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SMS and email in combination outperform either channel alone. Suparev's 2026 data shows SMS reactivation rates of 16.5% versus 7.2% for email, and multi-channel campaigns produce 2.3 times the results of single-channel outreach. SMS requires TCPA-compliant opt-in consent. If you do not have documented consent, start with email and use SMS only after the lead re-engages."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AudienceIntent",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "7 Proven Ways to Turn Old Leads Into New Buyers",
+            "item": "https://www.audienceintent.ai/insights/7-proven-ways-to-turn-old-leads-into-new-buyers"
+          }
+        ]
+      }
+    ]
+  }
 ---
 
 Most businesses treat their CRM like a waiting room that nobody checks. They keep buying new leads while thousands of contacts who already raised their hand sit untouched, getting older and colder by the week.

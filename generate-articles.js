@@ -646,8 +646,10 @@ function parseFrontmatter(text, filename) {
       // which is how Decap CMS saves multi-line JSON. Previously the
       // ">-" indicator leaked into the output, so every hand-written
       // schema was invalid JSON-LD and crawlers ignored it entirely.
-      const schm3 = fm.match(/^schema:[ \t]*([>|][+-]?[0-9]?)?[ \t]*((?:.*)(?:\n[ \t]+.*)*)/m);
-      if (schm3) { result.schema = schm3[2].replace(/\n[ \t]+/g, ' ').trim(); }
+      const schm3 = fm.match(/^schema:[ \t]*([>|][+-]?[0-9]?)?[ \t]*((?:.*)(?:\n(?:[ \t]+.*|[ \t]*(?=\n)))*)/m);
+      // Blank lines inside the block are legal YAML (Decap keeps them
+      // after a pasted <script> tag) and must not end the block.
+      if (schm3) { result.schema = schm3[2].replace(/\n[ \t]*/g, ' ').trim(); }
     }
   }
 

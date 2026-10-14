@@ -9,7 +9,167 @@ description: Dormant leads cost less to re-engage and often convert better than
 focus_keyword: Database Reactivation
 image: /images/uploads/rediscovering-value-in-old-leads.jpg
 og_image: /images/uploads/rediscovering-value-in-old-leads.jpg
-schema: ""
+schema: >-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "url": "https://www.audienceintent.ai/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "contentUrl": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "caption": "AudienceIntent"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "name": "Kevin Bovett",
+        "url": "https://www.audienceintent.ai/about",
+        "jobTitle": "Founder & CEO",
+        "worksFor": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Blog",
+        "@id": "https://www.audienceintent.ai/insights#blog",
+        "url": "https://www.audienceintent.ai/insights",
+        "name": "AudienceIntent Insights",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/rediscovering-value-in-old-leads.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/rediscovering-value-in-old-leads.jpg",
+        "name": "Why Your Old Leads Are Worth More Than You Think",
+        "caption": "Why Your Old Leads Are Worth More Than You Think",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think",
+        "url": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think",
+        "name": "Why Your Old Leads Are Worth More Than You Think",
+        "description": "Explore the value of dormant leads, how lead age affects reactivation, and how segmentation, timely follow-up, and multi-channel outreach can restart conversations.",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#article"
+        },
+        "datePublished": "2026-10-14",
+        "dateModified": "2026-10-14",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#article",
+        "url": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think",
+        "headline": "Why Your Old Leads Are Worth More Than You Think",
+        "description": "Explore the value of dormant leads, how lead age affects reactivation, and how segmentation, timely follow-up, and multi-channel outreach can restart conversations.",
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#primaryimage"
+        },
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think"
+        },
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/insights#blog"
+        },
+        "datePublished": "2026-10-14",
+        "dateModified": "2026-10-14",
+        "articleSection": "Database Reactivation",
+        "keywords": [
+          "lead reactivation",
+          "dormant leads",
+          "database reactivation",
+          "SMS reactivation",
+          "lead nurturing",
+          "first-party data",
+          "customer acquisition costs",
+          "multi-channel outreach"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Lead reactivation"
+          },
+          {
+            "@type": "Thing",
+            "name": "Database reactivation"
+          },
+          {
+            "@type": "Thing",
+            "name": "First-party customer data"
+          }
+        ],
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why Your Old Leads Are Worth More Than You Think",
+            "item": "https://www.audienceintent.ai/insights/why-your-old-leads-are-worth-more-than-you-think"
+          }
+        ]
+      }
+    ]
+  }
 ---
 Most businesses keep pouring money into new lead generation while a more profitable option sits untouched in their CRM.
 
@@ -36,10 +196,10 @@ This article makes the case for treating your dormant leads as a primary revenue
 
 The math on lead reactivation is not subtle. It is a 30 to 50 times cost advantage over new acquisition, with better conversion rates on top.
 
-|  | New Lead Acquisition | Dormant Lead Reactivation |
+| Metric | New Lead Acquisition | Dormant Lead Reactivation |
 | --- | --- | --- |
 | Cost per contact | $40–$150 | $0.30–$1.50 |
-| Cost per 1,000 contacts | $5,000–$15,000 | $300–$1,500 |
+| Cost per 1,000 contacts | $40,000–$150,000 | $300–$1,500 |
 | Typical conversion rate | 2–8% | 10–25% |
 
 The reason reactivated leads convert at higher rates is straightforward. You are not starting from zero. The trust barrier has already been crossed. The brand recognition is already there. A dormant lead who showed interest six months ago is a fundamentally different conversation than a cold prospect who has never heard of you.

@@ -110,7 +110,7 @@ schema: >-
                 "@type": "PriceSpecification",
                 "price": "0",
                 "priceCurrency": "USD",
-                "description": "Revenue share only — no monthly fee. One-time $997 setup."
+                "description": "Revenue share only — no monthly fee. No setup fee."
               }
             },
             {
@@ -123,7 +123,7 @@ schema: >-
                 "price": "1997",
                 "priceCurrency": "USD",
                 "billingIncrement": "P1M",
-                "description": "$1,997 per month, month-to-month, no contract. One-time $997 setup."
+                "description": "$1,997 per month, month-to-month, no contract. No setup fee."
               }
             }
           ]
@@ -176,7 +176,7 @@ schema: >-
         "@id": "https://www.audienceintent.ai/#database-reactivation",
         "name": "Database Reactivation",
         "alternateName": "Lead Reactivation",
-        "description": "Performance-based fully managed service that reactivates dormant leads, unconverted enquiries and past customers using AI-powered conversational SMS. Zero monthly fee. Revenue share only — businesses pay only when revenue is generated. Live within 3–5 days of onboarding. Requires TCPA compliant opt-in leads. One-time $997 setup fee.",
+        "description": "Performance-based fully managed service that reactivates dormant leads, unconverted enquiries and past customers using AI-powered conversational SMS. Zero monthly fee. Revenue share only — businesses pay only when revenue is generated. Live within 3–5 days of onboarding. Requires TCPA compliant opt-in leads. No setup fee.",
         "provider": {
           "@id": "https://www.audienceintent.ai/#organization"
         },
@@ -196,7 +196,7 @@ schema: >-
             "@type": "UnitPriceSpecification",
             "price": "0",
             "priceCurrency": "USD",
-            "description": "Performance-based revenue share — no monthly fee. One-time setup fee $997."
+            "description": "Performance-based revenue share — no monthly fee. No setup fee."
           },
           "availability": "https://schema.org/InStock"
         }
@@ -210,7 +210,7 @@ schema: >-
           "Answer Engine Optimization",
           "AI Citation Building"
         ],
-        "description": "Monthly national campaign that builds and maintains your business's citation presence across the data sources used by AI platforms — ChatGPT, Claude, Gemini, Perplexity and Grok. We optimise existing pages, create new content that answers customer queries, and track AI citations monthly. $1,997/month. Month-to-month. No contract. Cancel anytime. One-time $997 setup fee.",
+        "description": "Monthly national campaign that builds and maintains your business's citation presence across the data sources used by AI platforms — ChatGPT, Claude, Gemini, Perplexity and Grok. We optimise existing pages, create new content that answers customer queries, and track AI citations monthly. $1,997/month. Month-to-month. No contract. Cancel anytime. No setup fee.",
         "provider": {
           "@id": "https://www.audienceintent.ai/#organization"
         },
@@ -233,7 +233,7 @@ schema: >-
             "price": "1997",
             "priceCurrency": "USD",
             "billingIncrement": "P1M",
-            "description": "Month-to-month. Cancel anytime. No contract. One-time $997 setup fee."
+            "description": "Month-to-month. Cancel anytime. No contract. No setup fee."
           },
           "availability": "https://schema.org/InStock"
         }

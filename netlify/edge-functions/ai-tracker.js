@@ -119,7 +119,12 @@ export default async (request, context) => {
   // this check, any request this function sees skips those
   // rules entirely and gets served on whatever host/protocol
   // it arrived on. Handling it here closes that gap.
-  if (url.hostname !== CANONICAL_HOST || url.protocol !== 'https:') {
+  // Exception: Netlify deploy previews (deploy-preview-N--*.netlify.app)
+  // are left alone so PR changes can be checked before merging.
+  // Netlify serves previews with X-Robots-Tag: noindex, so they
+  // never compete with the real site in search.
+  const isDeployPreview = /^deploy-preview-\d+--.+\.netlify\.app$/.test(url.hostname);
+  if (!isDeployPreview && (url.hostname !== CANONICAL_HOST || url.protocol !== 'https:')) {
     url.hostname = CANONICAL_HOST;
     url.protocol = 'https:';
     return Response.redirect(url.toString(), 301);

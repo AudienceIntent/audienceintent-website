@@ -1,6 +1,6 @@
 ---
 title: Conversation Beats Sales Speak Every Time in SMS
-meta_title: "Conversational SMS Wins: 5 Proof-Backed Tactics"
+meta_title: "Conversation Beats Sales Speak Every Time in SMS"
 date: 2026-05-06T14:01:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

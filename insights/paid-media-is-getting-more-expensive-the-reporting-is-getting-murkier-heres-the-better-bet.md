@@ -1,7 +1,7 @@
 ---
 title: Paid Media Is Getting More Expensive. The Reporting Is Getting Murkier.
   Here's the Better Bet.
-meta_title: Paid Media Costs More. Reclaim Revenue First
+meta_title: "Paid Media Is Getting More Expensive. Reporting Is Murkier"
 date: 2026-06-24T10:28:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

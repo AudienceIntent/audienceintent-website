@@ -1,6 +1,6 @@
 ---
 title: Do You Know the 36 Other Places AI Checks Before Recommending You?
-meta_title: "AI Search Visibility: 36 Places AI Checks First"
+meta_title: "The 36 Other Places AI Checks Before Recommending You"
 date: 2026-09-20T17:21:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent

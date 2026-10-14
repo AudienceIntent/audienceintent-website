@@ -1,6 +1,6 @@
 ---
 title: "Lead Reactivation Explained: How to Win Back Lost Customers"
-meta_title: "Lead Reactivation Guide: SMS, Compliance, ROI"
+meta_title: "Lead Reactivation Explained: How to Win Back Lost Customers"
 date: 2026-09-01T00:00:00.000-04:00
 category: Database Reactivation
 author: "Kevin Bovett - AudienceIntent "

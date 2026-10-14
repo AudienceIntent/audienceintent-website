@@ -1,6 +1,6 @@
 ---
 title: Before You Spend Another $5K on Ads, Look at the Leads You Already Bought
-meta_title: "Lead Reactivation: 5 Reasons Old Leads Convert"
+meta_title: "Before You Spend Another $5K on Ads, Check Your Old Leads"
 date: 2026-05-06T13:08:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

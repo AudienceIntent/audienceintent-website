@@ -1,6 +1,6 @@
 ---
 title: "New Leads vs. Dormant Leads: How to Balance Both for Maximum Revenue"
-meta_title: "New vs Old Leads: 2026 Balance Guide"
+meta_title: "New Leads vs. Dormant Leads: How to Balance Both"
 date: 2026-05-04T20:03:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

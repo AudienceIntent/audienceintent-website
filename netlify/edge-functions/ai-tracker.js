@@ -119,10 +119,31 @@ export default async (request, context) => {
   // this check, any request this function sees skips those
   // rules entirely and gets served on whatever host/protocol
   // it arrived on. Handling it here closes that gap.
-  if (url.hostname !== CANONICAL_HOST || url.protocol !== 'https:') {
+  // Exception: Netlify deploy previews (deploy-preview-N--*.netlify.app)
+  // are left alone so PR changes can be checked before merging.
+  // Netlify serves previews with X-Robots-Tag: noindex, so they
+  // never compete with the real site in search.
+  const isDeployPreview = /^deploy-preview-\d+--.+\.netlify\.app$/.test(url.hostname);
+  if (!isDeployPreview && (url.hostname !== CANONICAL_HOST || url.protocol !== 'https:')) {
     url.hostname = CANONICAL_HOST;
     url.protocol = 'https:';
     return Response.redirect(url.toString(), 301);
+  }
+
+  // ── GONE PAGES — 410 ───────────────────────────────────────
+  // Pages removed on purpose. Netlify redirect rules can't send a
+  // 410, so it's done here. 410 tells Google the page is gone for
+  // good, so it drops out of the index faster than a 404.
+  const GONE_PATHS = [
+    '/blog/how-much-money-can-we-reactivate-for-you',
+  ];
+  if (GONE_PATHS.includes(url.pathname.replace(/\/+$/, ''))) {
+    return new Response(
+      '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex"><title>Page removed | AudienceIntent</title></head>'
+      + '<body style="font-family:sans-serif;background:#1f283f;color:#f8f7f6;text-align:center;padding:80px 20px">'
+      + '<h1>This page has been removed</h1><p><a style="color:#00ff73" href="https://www.audienceintent.ai/insights">Browse our latest insights</a></p></body></html>',
+      { status: 410, headers: { 'content-type': 'text/html; charset=UTF-8', 'x-robots-tag': 'noindex' } }
+    );
   }
 
   const ua      = request.headers.get('user-agent') || '';

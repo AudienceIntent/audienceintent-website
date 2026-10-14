@@ -1,6 +1,6 @@
 ---
 title: The $100,000 Mistake in Your CRM You’re Pretending Doesn’t Exist
-meta_title: "Lead Reactivation: Recover CRM Revenue | AudienceIntent"
+meta_title: "The $100,000 CRM Mistake You're Pretending Doesn't Exist"
 date: 2026-05-04T14:26:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

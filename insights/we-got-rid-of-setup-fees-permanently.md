@@ -1,6 +1,6 @@
 ---
 title: We Got Rid of Setup Fees. Permanently.
-meta_title: "No Setup Fee: Shared-Risk SMS Reactivation"
+meta_title: "We Got Rid of Setup Fees on SMS Reactivation. Permanently."
 date: 2026-10-01T17:51:00.000-04:00
 category: Company News
 author: Kevin Bovett - AudienceIntent

@@ -1,6 +1,6 @@
 ---
 title: Why Your Competitor Shows Up in AI Search (And You Don't)
-meta_title: Why Competitors Show Up in AI Search | AudienceIntent
+meta_title: "Why Your Competitor Shows Up in AI Search (And You Don't)"
 date: 2026-08-16T15:23:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett

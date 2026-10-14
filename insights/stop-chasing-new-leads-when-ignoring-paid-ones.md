@@ -1,6 +1,6 @@
 ---
 title: Stop Buying New Leads While Old Ones Collect Dust
-meta_title: "Lead Reactivation: 5 Ways to Recover Lost Revenue"
+meta_title: "Stop Buying New Leads While Old Ones Collect Dust"
 date: 2026-05-06T13:19:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

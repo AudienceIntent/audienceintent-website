@@ -1,6 +1,6 @@
 ---
 title: Are You Ignoring the Easiest Sale in Your Business?
-meta_title: "Lead Reactivation: Recover Revenue From Old Leads"
+meta_title: "Are You Ignoring the Easiest Sale in Your Business?"
 date: 2026-05-04T14:53:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

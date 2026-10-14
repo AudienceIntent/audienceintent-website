@@ -1,7 +1,7 @@
 ---
 title: What's the Best Way to Reactivate Dormant Customers? (SMS-Led,
   Multi-Channel, and TCPA-Compliant)
-meta_title: "SMS Lead Reactivation: 2026 Guide to More Revenue"
+meta_title: "Best Way to Reactivate Dormant Customers? Start With SMS"
 date: 2026-10-08T18:30:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett

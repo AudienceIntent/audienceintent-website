@@ -122,7 +122,9 @@
   status = 301
   force  = true
 
-# 404 — ghost page, return real 404 status
+# Removed page. The ai-tracker edge function answers this path with
+# 410 Gone (Netlify redirects can't send 410). This 404 rule is only
+# a fallback if the edge function is ever switched off.
 [[redirects]]
   from   = "/blog/how-much-money-can-we-reactivate-for-you"
   to     = "/404"

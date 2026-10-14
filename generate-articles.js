@@ -488,6 +488,28 @@ function enforceCorrectAuthor(schemaString, slugForLog) {
 }
 
 // ============================================================
+// SCHEMA CLEAN-UP — strip pasted <script> wrappers
+// ============================================================
+function unwrapSchemaScripts(schemaString, slugForLog) {
+  const parts = schemaString
+    .split(/<script[^>]*>|<\/script>/i)
+    .map(p => p.trim())
+    .filter(Boolean);
+  if (parts.length === 1) return parts[0];
+  const graph = [];
+  for (const p of parts) {
+    try {
+      const obj = JSON.parse(p);
+      const nodes = Array.isArray(obj) ? obj : (obj['@graph'] || [obj]);
+      nodes.forEach(n => { const { ['@context']: _c, ...rest } = n; graph.push(rest); });
+    } catch (e) {
+      console.log(`  ⚠  schema block in "${slugForLog}" is not valid JSON — skipped (${e.message})`);
+    }
+  }
+  return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 2);
+}
+
+// ============================================================
 // FRONTMATTER PARSER
 // ============================================================
 function parseFrontmatter(text, filename) {
@@ -620,9 +642,24 @@ function parseFrontmatter(text, filename) {
     const schm2 = fm.match(/^schema:\s*'((?:[^'\\]|\\[\s\S])*)'/m);
     if (schm2) { result.schema = schm2[1].trim(); }
     else {
-      const schm3 = fm.match(/^schema:\s*(.+(?:\n[ \t]+.+)*)/m);
-      if (schm3) { result.schema = schm3[1].replace(/\n[ \t]+/g, ' ').trim(); }
+      // Also handles YAML block scalars (schema: >- / | / |- / >),
+      // which is how Decap CMS saves multi-line JSON. Previously the
+      // ">-" indicator leaked into the output, so every hand-written
+      // schema was invalid JSON-LD and crawlers ignored it entirely.
+      const schm3 = fm.match(/^schema:[ \t]*([>|][+-]?[0-9]?)?[ \t]*((?:.*)(?:\n(?:[ \t]+.*|[ \t]*(?=\n)))*)/m);
+      // Blank lines inside the block are legal YAML (Decap keeps them
+      // after a pasted <script> tag) and must not end the block.
+      if (schm3) { result.schema = schm3[2].replace(/\n[ \t]*/g, ' ').trim(); }
     }
+  }
+
+  // Some hand-written schemas were pasted with their own
+  // <script type="application/ld+json"> wrapper, which nests a
+  // script inside the template's script and breaks the JSON.
+  // Strip wrappers; if several blocks were pasted, merge them
+  // into a single @graph.
+  if (result.schema && /<\/?script/i.test(result.schema)) {
+    result.schema = unwrapSchemaScripts(result.schema, result.slug);
   }
 
   // ── Content + read time ──
@@ -956,6 +993,10 @@ function catColor(category) {
 // overwrites the static #grid markup with this function's output
 // on every build, so the pre-rendered, crawler-visible cards need
 // the same absolute-host fix as the client-rendered ones.
+// Lean markup on purpose (content-to-code ratio): no aria-label (the
+// card's own <h2> already names the link) and no per-image onerror —
+// a single capture-phase error listener in insights/index.html <head>
+// retries failed card images instead.
 function buildIndexCard(a, isFeatured, eager) {
   const imgSrc     = normalizeImagePath(stripFramerImage(a.og_image || a.image || ''));
   const readTime   = a.read_time ? a.read_time + ' min read' : '';
@@ -966,8 +1007,8 @@ function buildIndexCard(a, isFeatured, eager) {
     : 'loading="lazy" decoding="async"';
 
   if (isFeatured && imgSrc) {
-    return '<a class="card-featured" href="' + articleUrl + '" aria-label="' + titleEsc + '">'
-      + '<img class="card-feat-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + ' onerror="aiRetryImg(this)">'
+    return '<a class="card-featured" href="' + articleUrl + '">'
+      + '<img class="card-feat-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + '>'
       + '<div class="card-feat-body">'
       + '<div class="card-feat-cat">' + escHtml(a.category || '') + '</div>'
       + '<h2 class="card-feat-title">' + escHtml(a.title || '') + '</h2>'
@@ -979,11 +1020,11 @@ function buildIndexCard(a, isFeatured, eager) {
   }
 
   const imgHtml = imgSrc
-    ? '<div class="card-img-wrap"><img class="card-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + ' onerror="aiRetryImg(this)">' + (readTime ? '<span class="card-read-time">' + escHtml(readTime) + '</span>' : '') + '</div>'
+    ? '<div class="card-img-wrap"><img class="card-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + '>' + (readTime ? '<span class="card-read-time">' + escHtml(readTime) + '</span>' : '') + '</div>'
     : '<div class="card-img-wrap" style="height:120px"><div class="card-no-img" aria-hidden="true">' + escHtml((a.category || 'AI').substring(0,2).toUpperCase()) + '</div></div>';
 
   const exc = (a.excerpt || '');
-  return '<a class="card" href="' + articleUrl + '" aria-label="' + titleEsc + '">'
+  return '<a class="card" href="' + articleUrl + '">'
     + imgHtml
     + '<div class="card-body">'
     + '<div class="card-cat' + catColor(a.category) + '">' + escHtml(a.category || '') + '</div>'
@@ -1050,7 +1091,12 @@ function generatePageHtml(template, article) {
   // Replace the content="" of a <meta id="..."> tag, regardless of
   // attribute order (handles both name="" and property="" tags).
   const setById = (id, value) => {
-    const re = new RegExp(`(<meta id="${id}"[^>]*?\\bcontent=")[^"]*(")`);
+    // Match the tag by id wherever the id sits among the attributes
+    // (e.g. <meta name="description" id="page-desc" ...>). The old
+    // pattern required id to come first, so the meta description and
+    // author were never replaced and every article shipped the generic
+    // Insights-hub description.
+    const re = new RegExp(`(<meta\\b[^>]*?\\bid="${id}"[^>]*?\\bcontent=")[^"]*(")`);
     const safe = escAttr(value);
     // Function replacement so any "$" in the value is inserted literally
     // and never read as a $1/$2 replacement pattern.

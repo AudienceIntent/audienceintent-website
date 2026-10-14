@@ -1,6 +1,6 @@
 ---
 title: Your Dead Leads Are Worth More Than Your Next Ad Campaign
-meta_title: "Dead Leads Reactivation: 2026 Revenue Guide"
+meta_title: "Your Dead Leads Are Worth More Than Your Next Ad Campaign"
 date: 2026-05-09T16:01:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

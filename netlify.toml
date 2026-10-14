@@ -122,11 +122,19 @@
   status = 301
   force  = true
 
-# 404 — ghost page, return real 404 status
+# 410 Gone — old page that no longer exists. 410 tells Google it was
+# removed on purpose, so it drops out of the index faster than a 404.
+# Both the slash and no-slash versions are covered.
 [[redirects]]
   from   = "/blog/how-much-money-can-we-reactivate-for-you"
   to     = "/404"
-  status = 404
+  status = 410
+  force  = true
+
+[[redirects]]
+  from   = "/blog/how-much-money-can-we-reactivate-for-you/"
+  to     = "/404"
+  status = 410
   force  = true
 
 # ============================================================

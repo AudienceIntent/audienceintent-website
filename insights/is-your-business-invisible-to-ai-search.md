@@ -1,6 +1,6 @@
 ---
 title: Is Your Business Invisible to AI Search? Here's Why — and How to Fix It
-meta_title: "AI Search Visibility: Why Brands Disappear in 2026"
+meta_title: "Is Your Business Invisible to AI Search? Here's the Fix"
 date: 2026-08-15T00:00:00.000-04:00
 category: AI Recommended
 author: "Kevin Bovett - AudienceIntent "

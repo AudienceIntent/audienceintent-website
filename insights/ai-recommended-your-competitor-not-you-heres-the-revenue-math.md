@@ -1,6 +1,6 @@
 ---
 title: AI Recommended Your Competitor, Not You. Here's the Revenue Math.
-meta_title: Why Your Competitor Shows Up in AI Search
+meta_title: "AI Recommended Your Competitor, Not You. Here's the Math"
 date: 2026-10-12T10:42:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent

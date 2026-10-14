@@ -1,7 +1,7 @@
 ---
 title: Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other
   Revenue Leaks Killing Growth)
-meta_title: 5 Local Business Revenue Leaks in 2026
+meta_title: "Why 98.8% of Local Businesses Are Invisible to AI"
 date: 2026-10-09T13:14:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent

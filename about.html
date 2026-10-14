@@ -14,8 +14,6 @@
 <link rel="preconnect" href="https://searchable-tracker.searchable.workers.dev" crossorigin>
 <link rel="dns-prefetch" href="https://cdn.leadconnectorhq.com">
 <link rel="dns-prefetch" href="https://api.leadconnectorhq.com">
-<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <!-- ═══ FAVICON — AudienceIntent canonical block ═══ -->
 <link rel="icon" type="image/png" href="/images/uploads/favicon-96x96.png" sizes="96x96" />
@@ -73,9 +71,10 @@
 <meta name="twitter:image" content="https://www.audienceintent.ai/images/uploads/kevin-bovett-og-image.jpg">
 <meta name="twitter:image:alt" content="Kevin Bovett, Founder & CEO of AudienceIntent">
 
-<!-- FONTS -->
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+<!-- FONTS — self-hosted Plus Jakarta Sans (variable, latin). No third-party
+     stylesheet, so nothing render-blocking; font-display:swap shows text instantly. -->
+<link rel="preload" href="/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:200 800;font-display:swap;src:url(/fonts/plus-jakarta-sans-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
 
 <!-- GOOGLE ANALYTICS -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPXQWGBR60"></script>
@@ -130,7 +129,9 @@
           "email": "support@audienceintent.ai",
           "contactType": "customer support",
           "areaServed": "US",
-          "availableLanguage": ["English"]
+          "availableLanguage": [
+            "English"
+          ]
         }
       ],
       "sameAs": [
@@ -149,15 +150,70 @@
       "@type": "Service",
       "@id": "https://www.audienceintent.ai/#database-reactivation",
       "name": "Database Reactivation",
-      "provider": {"@id": "https://www.audienceintent.ai/#organization"},
-      "serviceType": "Performance Marketing"
+      "alternateName": "Lead Reactivation",
+      "description": "Performance-based fully managed service that reactivates dormant leads, unconverted enquiries and past customers using AI-powered conversational SMS. Zero monthly fee. Revenue share only — businesses pay only when revenue is generated. Live within 3–5 days of onboarding. Requires TCPA compliant opt-in leads. No setup fee.",
+      "provider": {
+        "@id": "https://www.audienceintent.ai/#organization"
+      },
+      "serviceType": "Performance Marketing",
+      "category": "Lead Reactivation Marketing",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Businesses with dormant lead databases"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Performance-based revenue share — no monthly fee. No setup fee."
+        },
+        "availability": "https://schema.org/InStock"
+      },
+      "url": "https://www.audienceintent.ai/"
     },
     {
       "@type": "Service",
       "@id": "https://www.audienceintent.ai/#ai-recommended",
       "name": "AI Recommended",
-      "provider": {"@id": "https://www.audienceintent.ai/#organization"},
-      "serviceType": "AI Search Optimization"
+      "alternateName": [
+        "AI Search Visibility",
+        "Answer Engine Optimization",
+        "AI Citation Building"
+      ],
+      "description": "Monthly national campaign that builds and maintains your business's citation presence across the data sources used by AI platforms — ChatGPT, Claude, Gemini, Perplexity and Grok. We optimise existing pages, create new content that answers customer queries, and track AI citations monthly. $1,997/month. Month-to-month. No contract. Cancel anytime. No setup fee.",
+      "provider": {
+        "@id": "https://www.audienceintent.ai/#organization"
+      },
+      "serviceType": "AI Search Optimization",
+      "category": "Generative Engine Optimization",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Businesses seeking AI search visibility"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "1997",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "1997",
+          "priceCurrency": "USD",
+          "billingIncrement": "P1M",
+          "description": "Month-to-month. Cancel anytime. No contract. No setup fee."
+        },
+        "availability": "https://schema.org/InStock"
+      },
+      "url": "https://www.audienceintent.ai/"
     },
     {
       "@type": "Person",
@@ -166,7 +222,9 @@
       "givenName": "Kevin",
       "familyName": "Bovett",
       "jobTitle": "Founder & CEO",
-      "worksFor": {"@id": "https://www.audienceintent.ai/#organization"},
+      "worksFor": {
+        "@id": "https://www.audienceintent.ai/#organization"
+      },
       "url": "https://www.audienceintent.ai/about",
       "image": "https://www.audienceintent.ai/images/uploads/kevin-bovett-headshot.jpeg",
       "knowsAbout": [
@@ -179,11 +237,26 @@
         "TCPA-Compliant SMS Marketing"
       ],
       "alumniOf": [
-        {"@type": "Organization", "name": "Red Bull"},
-        {"@type": "Organization", "name": "New York Red Bulls"},
-        {"@type": "Organization", "name": "Newsmax"},
-        {"@type": "Organization", "name": "Rainmaker Ad Ventures"},
-        {"@type": "Organization", "name": "JPMorgan Chase"}
+        {
+          "@type": "Organization",
+          "name": "Red Bull"
+        },
+        {
+          "@type": "Organization",
+          "name": "New York Red Bulls"
+        },
+        {
+          "@type": "Organization",
+          "name": "Newsmax"
+        },
+        {
+          "@type": "Organization",
+          "name": "Rainmaker Ad Ventures"
+        },
+        {
+          "@type": "Organization",
+          "name": "JPMorgan Chase"
+        }
       ],
       "award": "Stellar Business Award — Best Marketing & Advertising, United States",
       "subjectOf": [
@@ -191,19 +264,28 @@
           "@type": "NewsArticle",
           "headline": "AudienceIntent Wins Best Marketing & Advertising in United States",
           "url": "https://stellarbusiness.com/audienceintent-wins-best-marketing-advertising-in-united-states/",
-          "publisher": {"@type": "Organization", "name": "Stellar Business"}
+          "publisher": {
+            "@type": "Organization",
+            "name": "Stellar Business"
+          }
         },
         {
           "@type": "NewsArticle",
           "headline": "AudienceIntent press release",
           "url": "https://apnews.com/press-release/prnews-io/press-release-fd9961fbbadbd2a995ed58740922d3df",
-          "publisher": {"@type": "Organization", "name": "Associated Press"}
+          "publisher": {
+            "@type": "Organization",
+            "name": "Associated Press"
+          }
         },
         {
           "@type": "CreativeWork",
           "headline": "Searchable AI Search Accelerator — Cohort feature",
           "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475836078025895937/",
-          "publisher": {"@type": "Organization", "name": "Searchable"}
+          "publisher": {
+            "@type": "Organization",
+            "name": "Searchable"
+          }
         }
       ],
       "sameAs": [
@@ -217,21 +299,106 @@
       "url": "https://www.audienceintent.ai/about",
       "name": "About Kevin Bovett — Founder & CEO, AudienceIntent",
       "description": "Kevin Bovett founded AudienceIntent to help businesses recover lost revenue and get recommended by AI. Here's his story.",
-      "isPartOf": {"@id": "https://www.audienceintent.ai/#website"},
-      "about": {"@id": "https://www.audienceintent.ai/#kevin-bovett"},
-      "mainEntity": {"@id": "https://www.audienceintent.ai/#kevin-bovett"},
-      "publisher": {"@id": "https://www.audienceintent.ai/#organization"},
+      "isPartOf": {
+        "@id": "https://www.audienceintent.ai/#website"
+      },
+      "about": {
+        "@id": "https://www.audienceintent.ai/#kevin-bovett"
+      },
+      "mainEntity": {
+        "@id": "https://www.audienceintent.ai/#kevin-bovett"
+      },
+      "publisher": {
+        "@id": "https://www.audienceintent.ai/#organization"
+      },
       "datePublished": "2026-09-05",
       "dateModified": "2026-09-13",
       "inLanguage": "en-US",
-      "breadcrumb": {"@id": "https://www.audienceintent.ai/about#breadcrumb"}
+      "breadcrumb": {
+        "@id": "https://www.audienceintent.ai/about#breadcrumb"
+      }
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://www.audienceintent.ai/about#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "AudienceIntent", "item": "https://www.audienceintent.ai/"},
-        {"@type": "ListItem", "position": 2, "name": "About", "item": "https://www.audienceintent.ai/about"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AudienceIntent",
+          "item": "https://www.audienceintent.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://www.audienceintent.ai/about"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.audienceintent.ai/about#faq",
+      "isPartOf": {
+        "@id": "https://www.audienceintent.ai/about#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who founded AudienceIntent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kevin Bovett founded AudienceIntent and runs it as Founder and CEO. He grew up in England, moved to America in 2006, and now lives in Florida with his family."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is AudienceIntent based?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AudienceIntent is based in Wellington, Florida, and works with businesses across the United States. Team members can live anywhere in the world."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does AudienceIntent do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AudienceIntent runs two fully managed services. Database Reactivation uses AI-powered text conversations to turn old leads and past customers back into paying customers. AI Recommended helps your business get found and cited by AI tools like ChatGPT, Claude, Gemini, Perplexity and Grok."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does AudienceIntent get paid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Database Reactivation, we only get paid from the revenue we generate for you. No revenue, no payment. AI Recommended is a fixed $1,997 a month, month-to-month, and the price is the same whether your business makes $100,000 a year or $10 million."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why doesn't AudienceIntent charge a percentage of ad spend?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because then we'd make more money when you spend more, whether that spending helps you or not. Kevin has watched businesses get pushed to raise budgets just to grow someone else's fees, and he didn't want to build a company that works that way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Kevin Bovett's background?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before AudienceIntent, Kevin worked with brands including Red Bull, the New York Red Bulls, JPMorgan Chase, Newsmax and Rainmaker Ad Ventures. He is a Searchable Certified Partner and holds HubSpot Academy AEO Fundamentals, Semrush Academy and Ahrefs Academy certifications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What charity does AudienceIntent support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AudienceIntent supports charity: water, which brings clean drinking water to families who don't have it. Kevin's personal goal is to fund a new well project in 2027."
+          }
+        }
       ]
     }
   ]
@@ -336,6 +503,9 @@ nav{position:sticky;top:0;z-index:100;padding:14px 32px;display:flex;align-items
 .placeholder-note strong{color:#4da8ff}
 
 /* ── KNOWS-ABOUT PILLS ── */
+.faq-item{border-top:1px solid rgba(248,247,246,.1);padding:20px 0}
+.faq-item h3{font-size:17px;font-weight:700;color:#f8f7f6;margin-bottom:8px}
+.faq-item p{margin-bottom:0}
 .pill-wrap{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
 .pill{font-size:12px;font-weight:700;padding:7px 14px;border-radius:100px;background:rgba(0,255,115,.08);color:#00ff73;border:1px solid rgba(0,255,115,.2)}
 
@@ -499,16 +669,16 @@ footer a:hover{color:#00ff73}
       <div class="cred-label">Accreditations</div>
       <div class="cred-row">
         <a href="https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy" target="_blank" rel="noopener noreferrer" class="cred-badge" title="Searchable Certified Agency Partner">
-          <img src="https://www.audienceintent.ai/images/uploads/searchable-certified-badge.png" alt="Searchable Certified Agency Partner" loading="lazy">
+          <img src="https://www.audienceintent.ai/images/uploads/searchable-certified-badge.png" alt="Searchable Certified Agency Partner" title="Searchable Certified Agency Partner" loading="lazy">
         </a>
         <a href="https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals" target="_blank" rel="noopener noreferrer" class="cred-badge solid" title="HubSpot Academy — AEO Fundamentals">
-          <img src="https://www.audienceintent.ai/images/uploads/hubspot-aeo-badge.webp" alt="HubSpot Academy — AEO Fundamentals" loading="lazy">
+          <img src="https://www.audienceintent.ai/images/uploads/hubspot-aeo-badge.webp" alt="HubSpot Academy — AEO Fundamentals" title="HubSpot Academy — AEO Fundamentals Certification" loading="lazy">
         </a>
         <a href="https://static.semrush.com/academy/certificates/1f6242b744/kevin-bovett_37.pdf" target="_blank" rel="noopener noreferrer" class="cred-badge semrush" title="Semrush Academy Certification">
-          <img src="https://www.audienceintent.ai/images/uploads/semrush-logo.png" alt="Semrush Academy Certification" width="358" height="50" loading="lazy">
+          <img src="https://www.audienceintent.ai/images/uploads/semrush-logo.png" alt="Semrush Academy Certification" title="Semrush Academy Certification" width="358" height="50" loading="lazy">
         </a>
         <a href="https://ahrefs.com/academy/certificate/3ba8b57b7e77422fbb508352a21ffcaa" target="_blank" rel="noopener noreferrer" class="cred-badge ahrefs" title="Ahrefs Academy Certification">
-          <img src="https://www.audienceintent.ai/images/uploads/ahrefs-logo.png" alt="Ahrefs Academy Certification" width="668" height="202" loading="lazy">
+          <img src="https://www.audienceintent.ai/images/uploads/ahrefs-logo.png" alt="Ahrefs Academy Certification" title="Ahrefs Academy Certification" width="668" height="202" loading="lazy">
         </a>
       </div>
     </div>
@@ -583,6 +753,40 @@ footer a:hover{color:#00ff73}
     <span class="pill">Generative Engine Optimization (GEO)</span>
     <span class="pill">AI Citation Tracking</span>
     <span class="pill">TCPA-Compliant SMS Marketing</span>
+  </div>
+</section>
+
+
+<!-- FAQ — visible Q&A that the FAQPage schema below mirrors word for word -->
+<section class="section faq" id="faq" style="padding-top:0">
+  <h2>Frequently Asked <span>Questions</span></h2>
+  <div class="faq-item">
+    <h3>Who founded AudienceIntent?</h3>
+    <p>Kevin Bovett founded AudienceIntent and runs it as Founder and CEO. He grew up in England, moved to America in 2006, and now lives in Florida with his family.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Where is AudienceIntent based?</h3>
+    <p>AudienceIntent is based in Wellington, Florida, and works with businesses across the United States. Team members can live anywhere in the world.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What does AudienceIntent do?</h3>
+    <p>AudienceIntent runs two fully managed services. Database Reactivation uses AI-powered text conversations to turn old leads and past customers back into paying customers. AI Recommended helps your business get found and cited by AI tools like ChatGPT, Claude, Gemini, Perplexity and Grok.</p>
+  </div>
+  <div class="faq-item">
+    <h3>How does AudienceIntent get paid?</h3>
+    <p>For Database Reactivation, we only get paid from the revenue we generate for you. No revenue, no payment. AI Recommended is a fixed $1,997 a month, month-to-month, and the price is the same whether your business makes $100,000 a year or $10 million.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Why doesn't AudienceIntent charge a percentage of ad spend?</h3>
+    <p>Because then we'd make more money when you spend more, whether that spending helps you or not. Kevin has watched businesses get pushed to raise budgets just to grow someone else's fees, and he didn't want to build a company that works that way.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What is Kevin Bovett's background?</h3>
+    <p>Before AudienceIntent, Kevin worked with brands including Red Bull, the New York Red Bulls, JPMorgan Chase, Newsmax and Rainmaker Ad Ventures. He is a Searchable Certified Partner and holds HubSpot Academy AEO Fundamentals, Semrush Academy and Ahrefs Academy certifications.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What charity does AudienceIntent support?</h3>
+    <p>AudienceIntent supports charity: water, which brings clean drinking water to families who don't have it. Kevin's personal goal is to fund a new well project in 2027.</p>
   </div>
 </section>
 

@@ -1,6 +1,6 @@
 ---
 title: Why Your Lead Database Became a Graveyard (And How to Fix It)
-meta_title: "Lead Reactivation: Why Old Leads Go Cold in 2026"
+meta_title: "Why Your Lead Database Became a Graveyard & How to Fix It"
 date: 2026-05-05T22:57:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

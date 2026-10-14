@@ -1,6 +1,6 @@
 ---
 title: Your CRM Isn’t Dead—You Just Forgot to Follow Up
-meta_title: "Lead Reactivation: 5 Steps to Recover Old Leads"
+meta_title: "Your CRM Isn't Dead. You Just Forgot to Follow Up"
 date: 2026-05-04T14:28:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

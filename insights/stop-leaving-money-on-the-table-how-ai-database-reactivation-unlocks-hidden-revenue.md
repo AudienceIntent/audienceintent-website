@@ -1,6 +1,6 @@
 ---
 title: Your Cold Leads Aren't Dead. You Just Stopped Following Up.
-meta_title: "AI Lead Reactivation: Unlock Hidden Revenue in 2026"
+meta_title: "Your Cold Leads Aren't Dead. You Just Stopped Following Up"
 date: 2026-05-04T16:47:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent

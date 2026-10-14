@@ -1,7 +1,7 @@
 ---
 title: "How AudienceIntent Measures AI Visibility: Every Metric, Score, and
   Attribution Model Explained"
-meta_title: "AI Visibility Metrics: ROI, Scores, and Attribution"
+meta_title: "How AudienceIntent Measures AI Visibility: Metrics & Scores"
 date: 2026-08-31T18:05:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent

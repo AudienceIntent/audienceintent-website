@@ -122,19 +122,13 @@
   status = 301
   force  = true
 
-# 410 Gone — old page that no longer exists. 410 tells Google it was
-# removed on purpose, so it drops out of the index faster than a 404.
-# Both the slash and no-slash versions are covered.
+# Removed page. The ai-tracker edge function answers this path with
+# 410 Gone (Netlify redirects can't send 410). This 404 rule is only
+# a fallback if the edge function is ever switched off.
 [[redirects]]
   from   = "/blog/how-much-money-can-we-reactivate-for-you"
   to     = "/404"
-  status = 410
-  force  = true
-
-[[redirects]]
-  from   = "/blog/how-much-money-can-we-reactivate-for-you/"
-  to     = "/404"
-  status = 410
+  status = 404
   force  = true
 
 # ============================================================

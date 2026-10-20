@@ -9,7 +9,148 @@ description: Learn how AI lead reactivation works, why SMS outperforms email,
 focus_keyword: Lead Reactivation
 image: /images/uploads/how-ai-lead-reactivation-works.jpg
 og_image: /images/uploads/how-ai-lead-reactivation-works.jpg
-schema: ""
+schema: >-
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "url": "https://www.audienceintent.ai/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "contentUrl": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png",
+          "caption": "AudienceIntent"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/about#person",
+        "name": "Kevin Bovett",
+        "url": "https://www.audienceintent.ai/about",
+        "jobTitle": "Founder & CEO",
+        "worksFor": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/how-ai-lead-reactivation-works.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/how-ai-lead-reactivation-works.jpg",
+        "name": "How AI Lead Reactivation Works",
+        "caption": "How AI Lead Reactivation Works",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How AI Lead Reactivation Works",
+            "item": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)"
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#webpage",
+        "url": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)",
+        "name": "How AI Lead Reactivation Works",
+        "description": "Learn how AI-powered SMS reconnects with dormant leads, qualifies interest, books appointments, and tracks revenue from an existing customer database.",
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#article"
+        },
+        "datePublished": "2026-10-20",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#article",
+        "url": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)",
+        "headline": "How AI Lead Reactivation Works",
+        "description": "An explanation of AI lead reactivation, covering database segmentation, SMS outreach, automated conversations, sales handoffs, and revenue measurement.",
+        "mainEntityOfPage": {
+          "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#webpage"
+        },
+        "isPartOf": {
+          "@id": "https://www.audienceintent.ai/#website"
+        },
+        "image": {
+          "@id": "https://www.audienceintent.ai/insights/lead-reactivation-ai-will-supercharge-your-business-(even-when-everything-else-feels-stuck)#primaryimage"
+        },
+        "author": {
+          "@id": "https://www.audienceintent.ai/about#person"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "datePublished": "2026-10-20",
+        "articleSection": "Database Reactivation",
+        "keywords": [
+          "AI lead reactivation",
+          "database reactivation",
+          "SMS lead reactivation",
+          "dormant leads",
+          "lead qualification",
+          "appointment booking",
+          "customer reactivation"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "AI lead reactivation"
+          },
+          {
+            "@type": "Thing",
+            "name": "Database reactivation"
+          },
+          {
+            "@type": "Thing",
+            "name": "SMS marketing"
+          }
+        ],
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true
+      }
+    ]
+  }
 ---
 Most businesses have a lead problem they already paid to create. They ran ads, collected inquiries, sent a few follow-ups, and then moved on. Those contacts didn't disappear. They're still sitting in the CRM, thousands of them in many cases, and nobody has touched them in months or years.
 

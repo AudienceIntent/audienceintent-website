@@ -35,7 +35,7 @@ A well-structured reactivation message is short, direct, and opens with context 
 
 That's it. No discount code. No urgency language. No three-paragraph email. The brevity is intentional. Messages under 100 characters consistently outperform longer ones. The goal of the first message is a response, not a sale.
 
-Once someone replies, the conversation continues. The AI handles follow-up exchanges, qualifies the lead's current need, and either books them directly into the calendar or flags them for a human to call. The rep only steps in when the lead is warm.
+Once someone replies, the conversation continues. The system handles follow-up exchanges, qualifies the lead's current need, and either books them directly into the calendar or flags them for a human to call. The rep only steps in when the lead is warm.
 
 ## What Happens Step by Step
 
@@ -44,7 +44,7 @@ Here's how a database reactivation campaign runs from start to revenue:
 1.  **List intake and triage.** The client provides their existing contacts: old leads, past inquiries, lapsed customers. These must be TCPA-compliant opt-in leads. The list gets segmented by recency, service type, and engagement history before a single message goes out. [Skipping this step is one of the most common reasons campaigns underperform.](https://www.audienceintent.ai/insights/the-biggest-missing-step-in-database-reactivation-list-triage-before-you-send-a-single-message)
 2.  **Copy and sequence build.** The outreach messages are written for the specific business and audience. Timing, tone, and follow-up cadence are set before launch. Nothing generic goes out.
 3.  **Campaign goes live.** Typically within 3 to 5 days of onboarding. Messages go out in staggered batches, not all at once, to keep response volume manageable and conversations human-feeling.
-4.  **AI handles the conversation.** Replies are managed by the AI in real time. It qualifies intent, answers basic questions, and moves interested contacts toward booking. Uninterested contacts are marked and removed from further outreach.
+4.  **The system handles the conversation.** Replies are managed in real time. It qualifies intent, answers basic questions, and moves interested contacts toward booking. Uninterested contacts are marked and removed from further outreach.
 5.  **Warm leads route to the team.** Once a contact confirms interest or books, the human team takes over. The handoff is clean: the rep gets context on what was said, what the lead needs, and where they are in the conversation.
 6.  **Revenue is tracked.** Results are measured against the baseline: booked jobs, confirmed sales, revenue generated. That's what "a result" means in this context, not clicks or opens.
     
@@ -53,7 +53,7 @@ The full cycle from first message to booked appointment often happens within 48 
 
 ## Why Old Leads Convert Better Than New Ones
 
-This is the part most businesses don't think through. When you run a new ad campaign, you're reaching people who have never heard of you. You're paying for attention, trust-building, and conversion all at once. That's expensive, and the conversion rates reflect it.
+When you run a new ad campaign, you're reaching people who have never heard of you. You're paying for attention, trust-building, and conversion all at once. That's expensive, and the conversion rates reflect it.
 
 Old leads are different. They already went through the attention and trust phases. They filled out a form, called your office, or clicked through from an ad. Something made them raise their hand. The reason they didn't convert was almost never that they hated the idea. It was timing, distraction, or the fact that nobody followed up consistently.
 
@@ -113,15 +113,13 @@ The results weren't close.
 
 The internal team wasn't bad at their jobs. The difference was the channel, the copy, and the speed of follow-up. SMS at the right cadence, with the right message, outperformed a manual email-based effort on every metric that mattered.
 
-That's what the channel advantage looks like in practice.
-
 ## How the Pricing Works
 
-Database Reactivation runs on a performance model. There is no monthly retainer. AudienceIntent takes an agreed percentage of the revenue the campaign generates, locked in writing before launch. If the campaign produces nothing, the cost beyond the one-time setup fee is nothing.
+Database Reactivation runs on a performance model. There is no monthly retainer and no upfront cost. AudienceIntent takes an agreed percentage of the revenue the campaign generates, locked in writing before launch. If the campaign produces nothing, the cost is nothing.
 
 That structure exists because it aligns incentives. A retainer model gets paid regardless of results. A performance model only works if the campaign works.
 
-The setup fee covers list review, copy, sequence build, and campaign configuration. It's charged once. If a business also runs [AI Recommended™](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity), the setup fee covers both services, not each separately.
+If a business also runs [AI Recommended™](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity), the recovered revenue from reactivation can fund that investment directly. One campaign pays for the next phase of growth.
 
 Results vary by industry, list quality, and how long the leads have been dormant. [How old a lead can be before it's no longer worth contacting](https://www.audienceintent.ai/insights/how-old-can-a-lead-be-before-it-is-no-longer-worth-contacting) depends on the category and the original opt-in context. Some lists from two or three years ago still produce strong results. Others don't. That assessment happens before the campaign launches, not after.
 

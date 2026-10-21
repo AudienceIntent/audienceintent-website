@@ -1,249 +1,170 @@
 ---
-title: Why SMS Customer Reactivation Still Works in 2026
-meta_title: "Why SMS Customer Reactivation Still Works in 2026"
-date: 2026-05-03T22:02:00.000-04:00
+title: "SMS Customer Reactivation: Why It Works and How to Do It Right in 2026"
+meta_title: "SMS Customer Reactivation: Turn Dormant Leads into Revenue"
+date: 2026-10-21T16:55:00.000-04:00
 category: Database Reactivation
 author: Kevin Bovett - AudienceIntent
-description: Turn old leads and past customers into booked revenue with SMS
-  customer reactivation. See why it works, and calculate what dormant contacts
-  are costing you.
+description: See why SMS still beats email for reactivating dormant leads, what
+  compliance now requires, and how to turn old contacts into booked revenue.
 focus_keyword: Lead Reactivation
-image: https://framerusercontent.com/images/rruPIfXnzOs2NJJKHWHxBf2cYUs.jpg
-schema: >-
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "@id": "https://www.audienceintent.ai/insights/why-sms-automation-is-the-ultimate-customer-reactivation-tool#article",
-        "headline": "Why SMS Customer Reactivation Still Works in 2026",
-        "description": "Turn old leads and past customers into booked revenue with SMS customer reactivation. See why it works, and calculate what dormant contacts are costing you.",
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/SocialShareJPEG.jpg",
-          "width": 1200,
-          "height": 630
-        },
-        "author": {
-          "@type": "Person",
-          "@id": "https://www.audienceintent.ai/#kevin-bovett",
-          "name": "Kevin Bovett",
-          "jobTitle": "Founder & CEO",
-          "url": "https://www.audienceintent.ai",
-          "sameAs": [
-            "https://www.linkedin.com/in/kevinbovett"
-          ],
-          "worksFor": {
-            "@id": "https://www.audienceintent.ai/#organization"
-          }
-        },
-        "publisher": {
-          "@id": "https://www.audienceintent.ai/#organization"
-        },
-        "datePublished": "2026-05-03",
-        "dateModified": "2026-05-03",
-        "articleSection": "Database Reactivation",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
-        "timeRequired": "PT6M",
-        "inLanguage": "en-US",
-        "isPartOf": {
-          "@id": "https://www.audienceintent.ai/#website"
-        },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://www.audienceintent.ai/insights/why-sms-automation-is-the-ultimate-customer-reactivation-tool"
-        }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://www.audienceintent.ai/insights/why-sms-automation-is-the-ultimate-customer-reactivation-tool#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "AudienceIntent",
-            "item": "https://www.audienceintent.ai"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Insights",
-            "item": "https://www.audienceintent.ai/insights"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Why SMS Customer Reactivation Still Works in 2026",
-            "item": "https://www.audienceintent.ai/insights/why-sms-automation-is-the-ultimate-customer-reactivation-tool"
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.audienceintent.ai/insights/why-sms-automation-is-the-ultimate-customer-reactivation-tool#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is SMS better than email for customer reactivation?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "For visibility and speed, usually yes. Current 2025 and 2026 benchmark data continues to show SMS outperforming email on open rate, read speed, and response rate. Email still has a role, but SMS is the stronger channel when immediate attention is the goal."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How quickly can SMS reactivation produce results?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It depends on your contact list, your offer, and your timing. Some businesses see replies and booked appointments within days. First wins often appear within 48 to 96 hours of launch."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do dormant leads actually convert?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, if the message is relevant and the timing is right. Typical dormant lead campaigns produce re-engagement rates of 8% to 22%, with 3% to 12% converting into booked appointments. Old leads often outperform expectations because prior intent already exists."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What businesses benefit most from SMS reactivation?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Appointment-based and inquiry-driven businesses see the strongest results. That includes home services, legal, healthcare, wellness, financial services, and other local businesses with old leads or past customers sitting in a CRM."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is SMS reactivation compliant?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It can be, but only when set up correctly. Businesses need to follow TCPA, CTIA, and A2P 10DLC requirements, respect quiet hours, and provide proper opt-out handling. Compliance is not optional."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What should an SMS reactivation message say?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Keep it short, relevant, and easy to answer. The best reactivation texts acknowledge prior interest and give one clear next step. Generic promotional copy consistently underperforms direct, human-sounding language."
-            }
-          }
-        ]
-      }
-    ]
-  }
+image: /images/uploads/text-messages-bring-coffee-customers-back.jpg
+og_image: /images/uploads/text-messages-bring-coffee-customers-back.jpg
+schema: ""
 ---
-
 Most businesses are sitting on revenue they already paid to acquire.
 
-It's sitting in old leads, past customers, and inactive contacts inside the CRM. These people already showed intent. Some requested a quote. Some booked once. Some started the buying process and disappeared. Most businesses keep spending to generate new leads while this list keeps getting older.
+It is stored in old leads, past customers, and inactive contacts inside the CRM. These people already showed intent. Some requested a quote. Some booked once. Some started the buying process and disappeared. Most businesses keep spending on new lead generation while this list keeps getting older and colder.
 
-That is a costly mistake.
+That is a costly mistake, and the numbers make it clear. [Harvard Business Review's research with Bain and Company](https://hbr.org/2014/10/the-value-of-keeping-the-right-customers) found that a 5% increase in customer retention raises profits by 25% to 95%. Meanwhile, [customer acquisition costs have risen 222% over the past eight years](https://releva.ai/customer-retention-vs-acquisition-cost), with an 18.4% jump in 2025 alone. The gap between what it costs to win a new customer and what it costs to re-engage an existing one keeps widening.
 
-Acquiring a new customer can cost 5 to 7 times more than retaining an existing one. Bain's benchmark still matters here: increasing retention by 5% can increase profits by [25% to 95%](https://www.bain.com/insights/retaining-customers-is-the-real-challenge/). The takeaway is simple: reactivation is often the fastest path to recovered revenue because the acquisition cost is already sunk.
+**The math is not ambiguous: the fastest path to recovered revenue is often already in your database.**
 
-If you already have dormant contacts, the opportunity is there. The real question is whether your follow-up channel gets seen.
+Reactivation is not a new idea. What has changed is the channel. SMS is now the strongest tool available for re-engaging dormant contacts, and the compliance landscape around it has tightened considerably. This article covers both: why SMS works for reactivation, what effective execution looks like, and what you need to know about compliance before you send a single message.
 
-## Why most customer reactivation campaigns fail
+## Why most reactivation campaigns fail before they start
 
-Most reactivation campaigns underperform because they rely on channels people ignore.
+Most reactivation campaigns underperform because they rely on channels people do not pay attention to.
 
-Email inboxes are crowded. Sales calls get screened. Social reach is inconsistent. Even a strong offer gets buried if the message never gets attention.
+Email inboxes are crowded. Sales calls get screened. Retargeting ads blend into the background. Even a strong offer with a relevant message fails if the message never gets seen. The channel problem comes before the copy problem.
 
-SMS solves that problem better than most channels.
+SMS solves that problem better than any other channel available to small and mid-size businesses. [According to SimpleTexting's 2026 SMS Marketing Report](https://simpletexting.com/blog/texting-and-sms-marketing-statistics/), surveying 1,000 consumers, 74% check a new text notification within five minutes of receiving it. 23% check within the first minute.
 
-Recent [2025 and 2026 benchmark roundups](https://emarsys.com/learn/blog/sms-marketing-statistics/) continue to show SMS open rates near **98%**, with roughly **90% of messages read within three minutes**. Multiple sources also report SMS response rates around **45%**, compared with roughly **6% for email**.
+Compare that to email. [Klaviyo's 2026 email benchmark](https://www.klaviyo.com/marketing-resources/email-benchmarks) puts average campaign open rates around 31% for most industries, and most of those opens happen hours or days after send. For reactivation, timing matters. A message that arrives when someone is thinking about your category is worth ten messages that land in a cluttered inbox at the wrong moment.
 
-That difference changes the economics of follow-up. If the message does not get seen, the campaign does not work. SMS works because visibility comes first.
+> **The channel is not a tactical detail. It determines whether the campaign has any chance of working at all.**
 
-## Why SMS works for dormant leads and past customers
+### SMS vs. email for reactivation: the key differences
 
-SMS performs well in reactivation because it fits the situation.
+| Metric | SMS | Email |
+| --- | --- | --- |
+| Average open rate | ~98% | ~31% |
+| Checked within 5 minutes | 74% of recipients | Rare |
+| Response rate | ~45% | ~6% |
+| Feels personal | Yes | Rarely |
+| Inbox competition | Low | Very high |
 
-Dormant contacts usually do not need a long nurture campaign. They need a relevant prompt, sent at the right time, in a format they will actually notice. Text messaging does that well.
+The response rate gap is where the economics really shift. A 45% SMS response rate versus a 6% email response rate does not mean SMS is slightly better. It means the entire downstream conversion math changes. More conversations started means more bookings, more revenue, more recovered pipeline.
 
-Here's why it outperforms other channels for reactivation:
+## What effective SMS reactivation actually looks like
 
--   **It gets attention fast** - text messages are typically read within minutes, not hours.
+SMS reactivation is not a blast. Sending the same message to every dormant contact in a CRM is the fastest way to generate opt-outs and damage the relationship. The businesses that see real results treat it as a structured workflow, not a one-time campaign.
+
+### Start with list quality, not list size
+
+The right contacts to reactivate are people who showed prior intent: a quote request, a past booking, an inquiry that went cold. These are not cold leads. They already know the business. The barrier to re-engagement is lower than it would be with someone who has never heard of you.
+
+Contacts who never opted in to receive SMS messages from your business should not be on this list at all. This is not just best practice; it is a legal requirement (more on that in the compliance section below).
+
+### Segment before you send
+
+Not all dormant contacts should get the same message. Segmentation by recency, previous spend, and service history changes both the message and the expected response rate. Someone who booked six months ago and spent $1,200 is a fundamentally different reactivation candidate than someone who requested a quote two years ago and never responded.
+
+A basic segmentation framework:
+
+-   **High-value, recent (3-12 months):** Priority tier. Direct re-engagement offer, personalized reference to prior service.
     
--   **It feels personal** - a text feels more direct than an email blast or retargeting ad.
+-   **High-value, older (12-24 months):** Strong candidate. Acknowledge the gap, give a reason to come back.
     
--   **It invites a reply** - customers can respond, ask a question, or book right away.
+-   **Lower-value, recent:** Worth a single outreach. Keep the message short and low-pressure.
     
--   **It reduces friction** - no searching an inbox, no logging in, no extra steps.
-    
-
-For local service businesses, this matters even more. Many dormant leads never became true lost opportunities. They got distracted. They delayed the decision. Their timing changed. A simple, well-timed text can restart the conversation at exactly the right moment.
-
-## Automation is what turns SMS into a revenue channel
-
-Manual follow-up does not scale.
-
-The real leverage comes from combining SMS with automation, segmentation, and response workflows. That is what separates a random text blast from a real reactivation system.
-
-A strong SMS reactivation workflow should:
-
--   Segment contacts by recency, service history, lead source, or customer value
-    
--   Trigger outreach based on time since last contact or purchase
-    
--   Personalize the message beyond just the first name
-    
--   Route replies directly into a booking or sales workflow
-    
--   Track appointments, responses, and recovered revenue
+-   **Lower-value, older:** Test a small batch first. Monitor response rates before expanding.
     
 
-That system matters. Without automation, follow-up gets skipped. Without segmentation, the message feels generic. Without tracking, you never know what revenue was actually recovered.
+### Write like a person, not a campaign
 
-## The business case for SMS reactivation
+The best reactivation texts are short, specific, and sound like they came from a real person who remembers the contact. Generic promotional copy consistently underperforms. A message that references the prior service, the contact's name, and gives a single clear next step will outperform a polished promotional blast every time.
 
-The strongest argument for SMS is not just engagement. It is ROI.
+**What good looks like:**
 
-You already paid to generate the lead. You already created awareness. In many cases, you already earned trust. Reactivation gives you a chance to monetize demand your business already owns.
+> "Hi \[Name\], this is \[Business\]. You had us out for \[service\] last spring. We have some availability this month and wanted to check in. Interested in scheduling?"
 
-That is why it can move quickly. Here is what that looks like in practice:
+**What underperforms:**
 
-| Proof point | Result |
+> "FLASH SALE: 20% OFF all services this week only! Book now at \[link\]"
+
+The first message invites a conversation. The second one looks like every other promotional text the contact has ignored this week.
+
+### Give one obvious next step
+
+Every message should have a single, clear call to action. Reply to confirm, click to book, call this number. Too many options reduce response rates. The goal is to start a conversation, not to close the deal in a single text.
+
+### Measure revenue, not opens
+
+Opens and replies are leading indicators. The metric that matters is recovered revenue: booked jobs, confirmed sales, reactivated accounts. Track it from the start, not as an afterthought.
+
+## Compliance is not optional: what changed in 2025 and 2026
+
+The compliance landscape for business SMS has tightened significantly, and it is worth understanding before launching any reactivation campaign. Two overlapping frameworks govern business texting in the US: the TCPA (Telephone Consumer Protection Act) and the carrier-mandated A2P 10DLC registration system. They are separate requirements that both apply at once.
+
+### A2P 10DLC registration: now mandatory
+
+Since February 1, 2025, [all major US carriers (AT&T, T-Mobile, Verizon) block 100% of unregistered A2P traffic](https://messageiq.io/blogs/10dlc-registration-sms-compliance/) sent from 10-digit local numbers. There is no soft filter, no warning period. Unregistered messages simply do not arrive. If your business sends automated or recurring marketing texts from a local number and has not registered with The Campaign Registry (TCR), your campaigns are failing silently right now.
+
+Registration requires a verified brand (legal name, EIN, business address, website) and a separate campaign registration for each use case. Approval typically takes one to seven business days.
+
+### TCPA consent: the legal requirement
+
+[The TCPA requires prior express written consent](https://leadcompliant.com/articles/sms-compliance/a2p-10dlc-texting-number-that-called-me-tcpa-compliance) before sending marketing or promotional texts. That means:
+
+-   A clear, affirmative opt-in (not a pre-checked box)
+    
+-   Disclosure that automated texts will be sent, how often, and that message and data rates may apply
+    
+-   Consent specific to your business (a shared lead-gen form cannot bundle consent to multiple companies)
+    
+-   A documented record with timestamp, IP address, and the exact consent language shown
+    
+
+Violations carry fines of $500 to $1,500 per message, with no cap on aggregate class-action liability. Zales Jewelers settled a TCPA class action for $7.5 million in 2025. The exposure is real.
+
+### The practical checklist
+
+Before sending any reactivation campaign, verify:
+
+| Requirement | What it means |
 | --- | --- |
-| Blingle lead reactivation campaign | **$36,000 in booked jobs recovered** |
-| Typical dormant lead re-engagement rate | **8% to 22%** |
-| Typical conversion to booked appointment | **3% to 12%** |
-| Time to first wins | **48 to 96 hours** in many cases |
+| A2P 10DLC registered | Brand and campaign registered with The Campaign Registry |
+| Written consent documented | Timestamp, IP, consent language on file for every contact |
+| Opt-out handling live | STOP, UNSUBSCRIBE, QUIT all processed immediately |
+| Quiet hours respected | No texts before 8 AM or after 9 PM recipient local time |
+| DNC Registry scrubbed | National Do Not Call list checked before sending |
 
-Results vary by list quality, offer, and timing. But the pattern is consistent: dormant contacts are often delayed revenue, not dead leads.
+For businesses in Florida, Texas, Oklahoma, or Virginia, state-level mini-TCPA laws add additional restrictions and penalty schedules. Florida and Oklahoma limit sending hours to 8 AM to 8 PM local time. Texas SB 140, effective September 2025, allows consumers to sue directly for up to $1,500 per violation.
 
-## What effective SMS customer reactivation looks like
+The requirement that matters most for reactivation campaigns specifically: the contacts on your list must have opted in to receive texts from your business. A database of leads who filled out a web form does not automatically constitute SMS consent. If that consent was not captured explicitly at the time of opt-in, those contacts should not receive marketing texts until it is.
 
-A successful campaign is not built on volume alone. It starts with the right audience, a clear message, and a simple next step.
+## The business case: why dormant contacts are not dead leads
 
-### 1\. Start with the right list
+The strongest argument for SMS reactivation is not the channel metrics. It is the economics.
 
-Focus on leads and past customers with real prior intent. If someone requested a quote, booked before, or engaged seriously, they are a stronger reactivation candidate than a cold contact.
+Every lead in your CRM represents money already spent. The ad budget, the sales time, the follow-up effort that generated that contact is a sunk cost. When a lead goes dormant without converting, that investment sits idle. Reactivation does not require spending to generate new demand. It requires spending to activate demand that already exists.
 
-### 2\. Segment by return likelihood
+**Dormant contacts are often delayed revenue, not dead leads.** Many of them did not buy because of timing, not because they were uninterested. They got busy, the budget shifted, the project got pushed. A well-timed, relevant text can restart a conversation that never actually ended.
 
-Use recency, frequency, and previous spend to prioritize outreach. Not all dormant contacts should get the same message.
+### What the numbers look like in practice
 
-### 3\. Write like a human
+Results vary by business, list quality, offer, and timing. That said, here is what reactivation campaigns typically produce when the list is clean and the execution is structured:
 
-Short beats clever. Clear beats polished. The best reactivation texts sound like a real person reaching out, not a campaign manager sending a promo blast.
+-   Re-engagement rates of 20% to 30% on compliant, well-segmented lists
+    
+-   Conversion to booked appointment or sale in the range of 3% to 12% of total contacts reached
+    
+-   First responses often within hours of send, with most results visible within 48 to 96 hours
+    
 
-### 4\. Give one obvious next step
+For a business with 1,000 dormant contacts, a 25% re-engagement rate means 250 conversations started. If 8% of those convert to a booked job at an average ticket of $500, that is $10,000 in recovered revenue from a list that was otherwise sitting unused.
 
-Ask them to reply, book, claim an offer, or reschedule. Too many options kill response rates.
+The acquisition cost for those 1,000 contacts is already paid. The marginal cost of the reactivation campaign is a fraction of what it would cost to generate 250 new leads from scratch.
 
-### 5\. Measure revenue, not vanity metrics
+[According to Profitwell](https://releva.ai/customer-retention-vs-acquisition-cost), customer acquisition costs rose 222% over eight years. Meta CPMs climbed 20% in 2025 alone. Every dollar spent generating new leads costs more than it did a year ago. The math for reactivating existing contacts keeps improving by comparison.
 
-Opens are useful. Replies matter more. Booked jobs and recovered revenue matter most.
+## The bottom line
 
-## Key takeaway
+SMS works for customer reactivation because it solves the core problem: getting the message seen, fast, by someone who already knows you.
 
-SMS customer reactivation works because it solves the biggest problem in follow-up: getting the message seen and acted on quickly.
+The channel advantage is real. The compliance requirements are real too, and they have gotten more specific. A2P 10DLC registration is now mandatory. TCPA consent documentation is not optional. Businesses that treat compliance as a checkbox risk fines that dwarf whatever revenue the campaign recovers.
 
-When paired with automation, segmentation, and a clear workflow, SMS becomes one of the fastest ways to turn dormant leads and past customers into booked revenue. For local service businesses, that means recovering pipeline that would otherwise sit untouched in the CRM.
+Done correctly, with a clean list, proper consent, thoughtful segmentation, and a message that sounds like a person rather than a broadcast, SMS reactivation is one of the most efficient revenue recovery tools available. The leads are already paid for. The demand already exists. The only question is whether you follow up.
 
 > **Your old leads are not worthless. They are missed follow-up.**
 
@@ -253,24 +174,36 @@ Want to see how much revenue your dormant contacts may be costing you? Run the n
 
 ### Is SMS better than email for customer reactivation?
 
-For visibility and speed, usually yes. [Current 2025 and 2026 benchmark data](https://emarsys.com/learn/blog/sms-marketing-statistics/) continues to show SMS outperforming email on open rate, read speed, and response rate. Email still has a role, but SMS is the stronger channel when immediate attention is the goal.
-
-### How quickly can SMS reactivation produce results?
-
-It depends on your contact list, your offer, and your timing. Some businesses see replies and booked appointments within days. First wins often appear within 48 to 96 hours of launch.
+For speed and visibility, yes. [SimpleTexting's 2026 report](https://simpletexting.com/blog/texting-and-sms-marketing-statistics/) found 74% of consumers check a new text within five minutes. Email open rates average around 31% and most opens happen hours or days after send. For reactivation, where timing and attention are the primary variables, SMS outperforms email consistently. Email still has a role in longer nurture sequences, but for a direct re-engagement push, SMS is the stronger channel.
 
 ### Do dormant leads actually convert?
 
-Yes, if the message is relevant and the timing is right. Typical dormant lead campaigns produce re-engagement rates of 8% to 22%, with 3% to 12% converting into booked appointments. Old leads often outperform expectations because prior intent already exists.
+Yes, when the list is compliant and the message is relevant. Many dormant contacts did not buy because of timing, not because they were uninterested. Re-engagement rates of 20% to 30% are achievable on well-segmented, consent-verified lists. Results vary by industry, list age, and offer quality.
+
+### What is A2P 10DLC and why does it matter?
+
+A2P 10DLC (Application-to-Person 10-Digit Long Code) is the carrier registration system for business texting in the US. Since February 2025, AT&T, T-Mobile, and Verizon block 100% of unregistered A2P traffic. If your business sends automated marketing texts from a local 10-digit number without registering with The Campaign Registry, those messages are not being delivered.
+
+### What consent is required before sending reactivation texts?
+
+The TCPA requires prior express written consent before sending marketing texts. That means a documented, affirmative opt-in specific to your business, with a timestamp and the exact consent language shown to the contact. A general web form opt-in does not automatically constitute SMS consent. Contacts who did not explicitly agree to receive texts from your business should not be texted.
+
+### How quickly can reactivation produce results?
+
+Most campaigns see first replies within hours of send. Businesses typically see the bulk of responses within 48 to 96 hours. The speed depends on list quality, message relevance, and timing of the send.
 
 ### What businesses benefit most from SMS reactivation?
 
-Appointment-based and inquiry-driven businesses see the strongest results. That includes home services, legal, healthcare, wellness, financial services, and other local businesses with old leads or past customers sitting in a CRM.
+Any appointment-based or inquiry-driven business with a database of past leads or customers. Home services, healthcare, legal, financial services, wellness, and franchise businesses are common examples. The common thread: a CRM with contacts who showed real prior intent and were never consistently followed up with.
 
-### Is SMS reactivation compliant?
+### What should a reactivation text actually say?
 
-It can be, but only when set up correctly. Businesses need to follow [TCPA](https://www.fcc.gov/consumers/guides/stopping-unwanted-robocalls-and-texts), CTIA, and A2P 10DLC requirements, respect quiet hours, and provide proper opt-out handling. Compliance is not optional.
+Short, specific, and personal. Reference the prior service or inquiry. Give one clear next step. Avoid promotional blast language. A message that sounds like a real person reaching out to a real contact will consistently outperform polished marketing copy.
 
-### What should an SMS reactivation message say?
+---
 
-Keep it short, relevant, and easy to answer. The best reactivation texts acknowledge prior interest and give one clear next step. Generic promotional copy consistently underperforms direct, human-sounding language.
+### Recover what's yours.
+
+Run the lost revenue calculator in two minutes, or find out if your business is invisible to AI search right now.
+
+[Calculate My Lost Revenue →](https://lostrevenue.audienceintent.ai)    [Is My Business Invisible to AI?](https://report.audienceintent.ai)

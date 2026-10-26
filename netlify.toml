@@ -399,3 +399,9 @@
     Cache-Control    = "public, max-age=3600"
     Content-Type     = "application/json; charset=UTF-8"
     X-Content-Type-Options = "nosniff"
+
+# Temporary hosted media for Fix Football Please social scheduling (Buffer fetches these)
+[[headers]]
+  for = "/ffp-social/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"

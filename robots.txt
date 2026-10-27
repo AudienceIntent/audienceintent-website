@@ -1,145 +1,121 @@
-# robots.txt for AudienceIntent
-# Canonical host: https://www.audienceintent.ai
+# robots.txt for AudienceIntent - https://www.audienceintent.ai
+# We get your business recommended by AI.
+#
+# Every search engine and AI assistant is welcome to read this site.
+# Plain-text summary for AI tools: https://www.audienceintent.ai/llms.txt
+# Last updated: 2026-10-27
 
+# ------------------------------------------------------------
+# Everyone
+# Content-Signal (contentsignals.org): yes to search, yes to use
+# in AI answers, yes to AI training.
+# ------------------------------------------------------------
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 Disallow: /article.html
 
-# Major search engines
+# ------------------------------------------------------------
+# Search engines
+# ------------------------------------------------------------
 User-agent: Googlebot
-Allow: /
-Disallow: /article.html
-
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
 User-agent: Bingbot
-Allow: /
-Disallow: /article.html
-
 User-agent: DuckDuckBot
-Allow: /
-Disallow: /article.html
-
 User-agent: Applebot
+User-agent: YandexBot
+User-agent: Slurp
 Allow: /
 Disallow: /article.html
 
-# OpenAI
-User-agent: GPTBot
-Allow: /
-Disallow: /article.html
-
+# ------------------------------------------------------------
+# AI search, answer and assistant crawlers (explicitly welcome)
+# ------------------------------------------------------------
+# OpenAI (ChatGPT search, ChatGPT browsing, model training)
 User-agent: OAI-SearchBot
-Allow: /
-Disallow: /article.html
-
 User-agent: ChatGPT-User
-Allow: /
-Disallow: /article.html
-
-# Anthropic
-User-agent: ClaudeBot
-Allow: /
-Disallow: /article.html
-
+User-agent: GPTBot
+# Anthropic (Claude search, Claude browsing, model training)
 User-agent: Claude-SearchBot
-Allow: /
-Disallow: /article.html
-
 User-agent: Claude-User
-Allow: /
-Disallow: /article.html
-
+User-agent: ClaudeBot
 User-agent: anthropic-ai
-Allow: /
-Disallow: /article.html
-
-# Other AI retrieval and training crawlers
+User-agent: claude-web
+# Google (Gemini, AI Overviews grounding, Vertex AI)
 User-agent: Google-Extended
-Allow: /
-Disallow: /article.html
-
+User-agent: Google-CloudVertexBot
+User-agent: GoogleOther
+# Perplexity
 User-agent: PerplexityBot
-Allow: /
-Disallow: /article.html
-
 User-agent: Perplexity-User
-Allow: /
-Disallow: /article.html
-
+# Microsoft Copilot runs on Bingbot (above)
+# Apple Intelligence
 User-agent: Applebot-Extended
-Allow: /
-Disallow: /article.html
-
-User-agent: cohere-ai
-Allow: /
-Disallow: /article.html
-
-User-agent: YouBot
-Allow: /
-Disallow: /article.html
-
-User-agent: DuckAssistBot
-Allow: /
-Disallow: /article.html
-
-User-agent: GrokBot
-Allow: /
-Disallow: /article.html
-
-User-agent: Amazonbot
-Allow: /
-Disallow: /article.html
-
+# Meta AI
 User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: FacebookBot
+# Amazon (Alexa, Rufus)
+User-agent: Amazonbot
+# Mistral (Le Chat)
+User-agent: MistralAI-User
+# xAI (Grok)
+User-agent: GrokBot
+User-agent: xAI-Bot
+# DuckDuckGo AI answers
+User-agent: DuckAssistBot
+# You.com, Phind, Cohere, Diffbot
+User-agent: YouBot
+User-agent: PhindBot
+User-agent: cohere-ai
+User-agent: Diffbot
+# Common Crawl (an open dataset many AI models learn from)
+User-agent: CCBot
 Allow: /
 Disallow: /article.html
 
-# SEO and research crawlers
+# ------------------------------------------------------------
+# Link previews (when someone shares our pages)
+# ------------------------------------------------------------
+User-agent: facebookexternalhit
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: Slackbot
+User-agent: Discordbot
+User-agent: WhatsApp
+Allow: /
+Disallow: /article.html
+
+# ------------------------------------------------------------
+# SEO and AI visibility tools
+# ------------------------------------------------------------
 User-agent: SemrushBot
-Allow: /
-Disallow: /article.html
-
+User-agent: SiteAuditBot
 User-agent: AhrefsBot
-Allow: /
-Disallow: /article.html
-
+User-agent: AhrefsSiteAudit
 User-agent: DataForSeoBot
 Allow: /
 Disallow: /article.html
 
-# Block low-value harvesting bots
-User-agent: SurveyBot
-Disallow: /
-
-User-agent: VoilaBot
-Disallow: /
-
+# ------------------------------------------------------------
+# Blocked: scrapers and email harvesters with no value to us
+# ------------------------------------------------------------
 User-agent: MJ12bot
-Disallow: /
-
 User-agent: DotBot
-Disallow: /
-
 User-agent: BLEXBot
-Disallow: /
-
+User-agent: SurveyBot
+User-agent: VoilaBot
 User-agent: EmailCollector
-Disallow: /
-
 User-agent: EmailSiphon
-Disallow: /
-
 User-agent: WebEmailExtractor
-Disallow: /
-
 User-agent: ExtractorPro
-Disallow: /
-
 User-agent: Harvest
-Disallow: /
-
 User-agent: MSIECrawler
 Disallow: /
 
+# ------------------------------------------------------------
 # Sitemaps
+# ------------------------------------------------------------
 Sitemap: https://www.audienceintent.ai/sitemap.xml
 Sitemap: https://www.audienceintent.ai/sitemap-images.xml

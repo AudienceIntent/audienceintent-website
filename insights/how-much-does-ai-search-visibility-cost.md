@@ -9,8 +9,8 @@ description: AI Recommended is $1,997/month, flat, no matter your size. See
   number.
 focus_keyword: AI Search Visibility
 canonical: ""
-image: /images/uploads/ai-search-cost.jpg
-og_image: /images/uploads/ai-search-cost.jpg
+image: /images/uploads/thumbs/how-much-does-ai-search-visibility-cost.jpg
+og_image: /images/uploads/thumbs/how-much-does-ai-search-visibility-cost.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "See what AI search visibility costs in 2026, how AI Recommended™ compares, and what local businesses should expect before they buy.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/ai-search-cost.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-much-does-ai-search-visibility-cost.jpg",
           "width": 1200,
           "height": 630
         },

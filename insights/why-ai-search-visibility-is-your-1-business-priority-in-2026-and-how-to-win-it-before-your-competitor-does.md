@@ -8,8 +8,8 @@ description: AI search visibility now affects discovery, citations, and revenue.
   Learn why SEO alone is not enough and how to audit your AI presence.
 focus_keyword: AI Search
 canonical: ""
-image: /images/uploads/ai-search-visibility_-a-2026-business-priority.jpg
-og_image: /images/uploads/ai-search-visibility_-a-2026-business-priority.jpg
+image: /images/uploads/thumbs/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-b.jpg
+og_image: /images/uploads/thumbs/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-b.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -50,8 +50,8 @@ schema: >-
       {
         "@type": "ImageObject",
         "@id": "https://www.audienceintent.ai/insights/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-before-your-competitor-does#primaryimage",
-        "url": "https://www.audienceintent.ai/images/uploads/ai-search-visibility_-a-2026-business-priority.jpg",
-        "contentUrl": "https://www.audienceintent.ai/images/uploads/ai-search-visibility_-a-2026-business-priority.jpg",
+        "url": "https://www.audienceintent.ai/images/uploads/thumbs/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-b.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/thumbs/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-b.jpg",
         "caption": "Why AI Search Visibility Is a Business Priority in 2026",
         "inLanguage": "en-US"
       },

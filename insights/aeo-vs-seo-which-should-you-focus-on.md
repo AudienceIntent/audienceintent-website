@@ -9,8 +9,8 @@ description: SEO still matters. AEO sits on top as the conversational answer
   thinking.
 focus_keyword: AEO vs SEO
 canonical: ""
-image: /images/uploads/aeo-vs-seo.jpg
-og_image: /images/uploads/aeo-vs-seo.jpg
+image: /images/uploads/thumbs/aeo-vs-seo-which-should-you-focus-on.jpg
+og_image: /images/uploads/thumbs/aeo-vs-seo-which-should-you-focus-on.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -98,8 +98,8 @@ schema: >-
       {
         "@type": "ImageObject",
         "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on#primaryimage",
-        "url": "https://www.audienceintent.ai/images/uploads/aeo-vs-seo.jpg",
-        "contentUrl": "https://www.audienceintent.ai/images/uploads/aeo-vs-seo.jpg",
+        "url": "https://www.audienceintent.ai/images/uploads/thumbs/aeo-vs-seo-which-should-you-focus-on.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/thumbs/aeo-vs-seo-which-should-you-focus-on.jpg",
         "width": 1200,
         "height": 630,
         "caption": "AEO vs. SEO: Which Should You Focus On?"
@@ -115,7 +115,7 @@ schema: >-
           "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on"
         },
         "image": { "@id": "https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on#primaryimage" },
-        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/aeo-vs-seo.jpg",
+        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/thumbs/aeo-vs-seo-which-should-you-focus-on.jpg",
         "datePublished": "2026-09-17",
         "dateModified": "2026-09-17",
         "author": { "@id": "https://www.audienceintent.ai/about#kevinbovett" },

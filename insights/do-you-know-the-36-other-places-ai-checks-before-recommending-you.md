@@ -7,8 +7,8 @@ author: Kevin Bovett - AudienceIntent
 description: AI assistants trust third-party signals more than your website. See
   the 36 source types they check, what matters most, and where to start.
 focus_keyword: Answer Engine Optimization
-image: /images/uploads/ai-checks.jpg
-og_image: /images/uploads/ai-checks.jpg
+image: /images/uploads/thumbs/do-you-know-the-36-other-places-ai-checks-before-recommending-you.jpg
+og_image: /images/uploads/thumbs/do-you-know-the-36-other-places-ai-checks-before-recommending-you.jpg
 schema: >-
   <script type="application/ld+json">
 
@@ -31,7 +31,7 @@ schema: >-
         "image": {
           "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#primaryimage"
         },
-        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/ai-checks.jpg",
+        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/thumbs/do-you-know-the-36-other-places-ai-checks-before-recommending-you.jpg",
         "datePublished": "2026-09-20",
         "dateModified": "2026-09-20",
         "author": {
@@ -132,8 +132,8 @@ schema: >-
       {
         "@type": "ImageObject",
         "@id": "https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you#primaryimage",
-        "url": "https://www.audienceintent.ai/images/uploads/ai-checks.jpg",
-        "contentUrl": "https://www.audienceintent.ai/images/uploads/ai-checks.jpg",
+        "url": "https://www.audienceintent.ai/images/uploads/thumbs/do-you-know-the-36-other-places-ai-checks-before-recommending-you.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/thumbs/do-you-know-the-36-other-places-ai-checks-before-recommending-you.jpg",
         "caption": "Do You Know the 36 Other Places AI Checks Before Recommending You?",
         "encodingFormat": "image/jpeg",
         "inLanguage": "en-US",

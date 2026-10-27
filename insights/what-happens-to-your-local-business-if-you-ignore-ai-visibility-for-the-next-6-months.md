@@ -8,8 +8,8 @@ author: Kevin Bovett - AudienceIntent
 description: See what happens when local businesses ignore AI visibility for 6
   months, and how to avoid losing calls, leads, and referrals to competitors.
 focus_keyword: AI Visibility
-image: /images/uploads/ignoring-ai-visibility-costs-your-business.jpg
-og_image: /images/uploads/ignoring-ai-visibility-costs-your-business.jpg
+image: /images/uploads/thumbs/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-m.jpg
+og_image: /images/uploads/thumbs/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-m.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,8 +22,8 @@ schema: >-
         "image": {
           "@type": "ImageObject",
           "@id": "https://www.audienceintent.ai/insights/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-months#primaryimage",
-          "url": "https://www.audienceintent.ai/images/uploads/ignoring-ai-visibility-costs-your-business.jpg",
-          "contentUrl": "https://www.audienceintent.ai/images/uploads/ignoring-ai-visibility-costs-your-business.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-m.jpg",
+          "contentUrl": "https://www.audienceintent.ai/images/uploads/thumbs/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-m.jpg",
           "caption": "What Happens to Your Local Business If You Ignore AI Visibility for the Next 6 Months"
         },
         "datePublished": "2026-10-06",

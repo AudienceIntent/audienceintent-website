@@ -7,8 +7,8 @@ author: Kevin Bovett - AudienceIntent
 description: A beginner-friendly guide to getting found in AI search. Learn the
   exact steps to reduce invisibility and show up more often in AI answers.
 focus_keyword: AI Search
-image: /images/uploads/ai-search-guide-step-by-syep.jpg
-og_image: /images/uploads/ai-search-guide-step-by-syep.jpg
+image: /images/uploads/thumbs/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide.jpg
+og_image: /images/uploads/thumbs/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -20,7 +20,7 @@ schema: >-
         "description": "A beginner-friendly guide to getting found in AI search. Learn the exact steps to reduce invisibility and show up more often in AI answers.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/ai-search-guide-step-by-syep.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide.jpg",
           "width": 1200,
           "height": 630
         },

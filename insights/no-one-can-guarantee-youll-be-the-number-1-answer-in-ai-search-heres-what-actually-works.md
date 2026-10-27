@@ -9,8 +9,8 @@ description: No one can guarantee number 1 AI search placement. Learn what
   actually improves AI visibility and get your free AI Search Visibility Score.
 focus_keyword: AI Search
 canonical: ""
-image: /images/uploads/number-1.jpg
-og_image: /images/uploads/number-1.jpg
+image: /images/uploads/thumbs/no-one-can-guarantee-youll-be-the-number-1-answer-in-ai-search-heres-what-actual.jpg
+og_image: /images/uploads/thumbs/no-one-can-guarantee-youll-be-the-number-1-answer-in-ai-search-heres-what-actual.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "No one can guarantee number 1 AI search placement. Learn what actually improves AI visibility and get your free AI Search Visibility Score.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/number-1.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/no-one-can-guarantee-youll-be-the-number-1-answer-in-ai-search-heres-what-actual.jpg",
           "width": 1200,
           "height": 630
         },

@@ -9,8 +9,8 @@ description: Learn how to measure AI mentions, citations, and share of voice
   across ChatGPT, Perplexity, and Google AI with a repeatable weekly system.
 focus_keyword: AI Mentions
 canonical: ""
-image: /images/uploads/ai-mentions.jpg
-og_image: /images/uploads/ai-mentions.jpg
+image: /images/uploads/thumbs/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity.jpg
+og_image: /images/uploads/thumbs/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "Learn how to measure AI mentions, citations, and share of voice across ChatGPT, Perplexity, and Google AI with a repeatable weekly system.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/ai-mentions.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity.jpg",
           "width": 1200,
           "height": 630
         },

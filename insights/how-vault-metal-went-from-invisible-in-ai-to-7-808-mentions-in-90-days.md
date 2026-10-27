@@ -7,8 +7,8 @@ author: Kevin Bovett - AudienceIntent
 description: See how Vault Metal grew from 169 AI mentions to 7,808 in 90 days
   with AI Recommended™. Read the results and get your free AI Visibility Report.
 focus_keyword: Vault Metal
-image: /images/uploads/vault-example.jpg
-og_image: /images/uploads/vault-example.jpg
+image: /images/uploads/thumbs/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days.jpg
+og_image: /images/uploads/thumbs/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -20,7 +20,7 @@ schema: >-
         "description": "See how Vault Metal grew from 169 AI mentions to 7,808 in 90 days with AI Recommended™. Read the results and get your free AI Visibility Report.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/vault-example.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days.jpg",
           "width": 1200,
           "height": 630
         },

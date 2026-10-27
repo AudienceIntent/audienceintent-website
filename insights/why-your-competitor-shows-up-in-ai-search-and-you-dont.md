@@ -3,6 +3,7 @@ title: Why Your Competitor Shows Up in AI Search (And You Don't)
 meta_title: "Why Your Competitor Shows Up in AI Search (And You Don't)"
 date: 2026-08-16T15:23:00.000-04:00
 category: AI Recommended
+image: /images/uploads/thumbs/why-your-competitor-shows-up-in-ai-search-and-you-dont.jpg
 author: Kevin Bovett
 description: See why competitors appear in ChatGPT, Google AI, and Perplexity
   when you don't, and learn the fixes that improve your AI visibility fast.
@@ -19,7 +20,7 @@ schema: >-
         "description": "See why competitors appear in ChatGPT, Google AI, and Perplexity when you don't, and learn the fixes that improve your AI visibility fast.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/ai-search.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/why-your-competitor-shows-up-in-ai-search-and-you-dont.jpg",
           "width": 1200,
           "height": 630
         },
@@ -79,10 +80,10 @@ schema: >-
       }
     ]
   }
-featured_image: /images/uploads/ai-search.jpg
-og_image: /images/uploads/ai-search.jpg
+featured_image: /images/uploads/thumbs/why-your-competitor-shows-up-in-ai-search-and-you-dont.jpg
+og_image: /images/uploads/thumbs/why-your-competitor-shows-up-in-ai-search-and-you-dont.jpg
 ---
-![Competitor AI search visibility example for local businesses](/images/uploads/ai-search.jpg "Why competitors appear in AI search and you don't")
+![Competitor AI search visibility example for local businesses](/images/uploads/thumbs/why-your-competitor-shows-up-in-ai-search-and-you-dont.jpg "Why competitors appear in AI search and you don't")
 
 You searched your own business in ChatGPT. Your competitor came up. You didn't.
 

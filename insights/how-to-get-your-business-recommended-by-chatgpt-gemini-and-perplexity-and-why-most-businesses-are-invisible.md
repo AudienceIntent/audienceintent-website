@@ -9,8 +9,8 @@ description: Learn how ChatGPT, Gemini, Claude, Perplexity, and Grok choose
   businesses, and what to fix so your brand shows up more often.
 focus_keyword: Answer Engine Optimization
 canonical: ""
-image: /images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png
-og_image: /images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png
+image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-mo.jpg
+og_image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-mo.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "Learn how ChatGPT, Gemini, Claude, Perplexity, and Grok choose businesses, and what to fix so your brand shows up more often.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/chatgpt-image-jun-22-2026-03_44_27-pm.png",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-mo.jpg",
           "width": 1200,
           "height": 630
         },

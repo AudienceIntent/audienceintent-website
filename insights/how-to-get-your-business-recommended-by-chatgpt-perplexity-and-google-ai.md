@@ -8,8 +8,8 @@ description: Learn how to get recommended by ChatGPT, Perplexity, and Google AI
   with faster fixes for data accuracy, recency, and trust signals.
 focus_keyword: Get Recommended by ChatGPT
 canonical: ""
-image: /images/uploads/visibility-ai-search.jpg
-og_image: /images/uploads/visibility-ai-search.jpg
+image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai.jpg
+og_image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -21,7 +21,7 @@ schema: >-
         "description": "Learn how to get recommended by ChatGPT, Perplexity, and Google AI with faster fixes for data accuracy, recency, and trust signals.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/visibility-ai-search.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai.jpg",
           "width": 1200,
           "height": 630
         },

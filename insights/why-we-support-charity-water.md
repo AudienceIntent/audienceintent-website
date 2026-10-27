@@ -8,8 +8,8 @@ description: "AudienceIntent supports charity: water because 2.1 billion people
   still lack safe drinking water. See why this nonprofit earns our trust, and
   how to donate."
 focus_keyword: "Charity:Water "
-image: /images/uploads/opencity-inc-charity-spotlight-charitywater-uganda.jpg
-og_image: /images/uploads/opencity-inc-charity-spotlight-charitywater-uganda.jpg
+image: /images/uploads/thumbs/why-we-support-charity-water.jpg
+og_image: /images/uploads/thumbs/why-we-support-charity-water.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -21,7 +21,7 @@ schema: >-
         "description": "AudienceIntent supports charity: water because 2.1 billion people still lack safe drinking water. See why this nonprofit earns trust and impact.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/opencity-inc-charity-spotlight-charitywater-uganda.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/why-we-support-charity-water.jpg",
           "width": 1200,
           "height": 630
         },

@@ -7,8 +7,8 @@ author: Kevin Bovett - AudienceIntent
 description: See why AI recommends competitors, what that costs you, and how to
   diagnose the gap. Includes current data, FAQs, and next steps.
 focus_keyword: AI Recommended
-image: /images/uploads/when-ai-recommends-your-competitor.jpg
-og_image: /images/uploads/when-ai-recommends-your-competitor.jpg
+image: /images/uploads/thumbs/ai-recommended-your-competitor-not-you-heres-the-revenue-math.jpg
+og_image: /images/uploads/thumbs/ai-recommended-your-competitor-not-you-heres-the-revenue-math.jpg
 schema: >
   {
     "@context": "https://schema.org",
@@ -67,8 +67,8 @@ schema: >
       {
         "@type": "ImageObject",
         "@id": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math#primaryimage",
-        "url": "https://www.audienceintent.ai/images/uploads/when-ai-recommends-your-competitor.jpg",
-        "contentUrl": "https://www.audienceintent.ai/images/uploads/when-ai-recommends-your-competitor.jpg",
+        "url": "https://www.audienceintent.ai/images/uploads/thumbs/ai-recommended-your-competitor-not-you-heres-the-revenue-math.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/thumbs/ai-recommended-your-competitor-not-you-heres-the-revenue-math.jpg",
         "caption": "AI Recommended Your Competitor, Not You. Here's the Revenue Math.",
         "inLanguage": "en-US"
       },

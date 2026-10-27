@@ -8,8 +8,8 @@ author: Kevin Bovett - AudienceIntent
 description: Learn why ChatGPT recommends so few local businesses and the
   signals that help your company earn AI search mentions and citations.
 focus_keyword: ChatGPT
-image: /images/uploads/chatgpt.jpg
-og_image: /images/uploads/chatgpt.jpg
+image: /images/uploads/thumbs/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-different.jpg
+og_image: /images/uploads/thumbs/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-different.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -21,7 +21,7 @@ schema: >-
         "description": "Learn why ChatGPT recommends so few local businesses and the signals that help your company earn AI search mentions and citations.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/chatgpt.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-different.jpg",
           "width": 1200,
           "height": 630
         },

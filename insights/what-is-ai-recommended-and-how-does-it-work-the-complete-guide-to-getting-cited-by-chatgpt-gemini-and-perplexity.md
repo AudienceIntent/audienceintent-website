@@ -9,8 +9,8 @@ description: See how AI Recommended™ gets your business cited by ChatGPT,
   Gemini, and Perplexity — what it costs, how it works, and real 90-day results.
 focus_keyword: AI Recommended
 canonical: ""
-image: /images/uploads/what-is-ai.jpg
-og_image: /images/uploads/what-is-ai.jpg
+image: /images/uploads/thumbs/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited.jpg
+og_image: /images/uploads/thumbs/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "AI search is changing how customers choose businesses. Learn why AI visibility matters, how it differs from SEO, and what to do now.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/what-is-ai.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited.jpg",
           "width": 1200,
           "height": 630
         },

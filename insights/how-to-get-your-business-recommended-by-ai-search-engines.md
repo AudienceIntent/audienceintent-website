@@ -8,8 +8,8 @@ description: Learn how to get your business recommended by AI search engines in
   2026, with AEO tactics for local services, DTC brands, and e-commerce.
 focus_keyword: AEO
 canonical: ""
-image: /images/uploads/ai-search-guide.jpg
-og_image: /images/uploads/ai-search-guide.jpg
+image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg
+og_image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -21,7 +21,7 @@ schema: >-
         "description": "A practical AEO strategy for local service businesses, DTC brands, and high-volume e-commerce stores. Covers how AI search engines decide who to recommend, a business-type playbook, a 7-step starter checklist, and agency evaluation criteria.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/ai-search-guide.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg",
           "width": 1200,
           "height": 630
         },

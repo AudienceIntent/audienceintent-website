@@ -8,8 +8,8 @@ description: Learn why ChatGPT skips your business, what causes AI mention gaps,
   and the exact steps to fix AI visibility. Start with a call.
 focus_keyword: ChatGPT
 canonical: ""
-image: /images/uploads/chatgpt-article.jpg
-og_image: /images/uploads/chatgpt-article.jpg
+image: /images/uploads/thumbs/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it.jpg
+og_image: /images/uploads/thumbs/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -21,7 +21,7 @@ schema: >-
         "description": "Learn why ChatGPT skips your business, what causes AI mention gaps, and the exact steps to fix AI visibility. Start with a call.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/chatgpt-article.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it.jpg",
           "width": 1200,
           "height": 630
         },

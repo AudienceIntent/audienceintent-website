@@ -295,6 +295,16 @@
     X-Robots-Tag = "noindex, nofollow, noarchive"
 
 # ============================================================
+# DECAP CMS ADMIN — NOINDEX
+# ============================================================
+
+[[headers]]
+  for = "/admin/*"
+
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+# ============================================================
 # ROBOTS.TXT — NO CACHE
 # Always serve the latest robots.txt to crawlers.
 # ============================================================

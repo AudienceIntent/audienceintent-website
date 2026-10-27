@@ -9,8 +9,8 @@ description: Measure AEO success with the right KPIs, benchmarks, and revenue
   signals. Track visibility, citations, traffic, and ROI with a free AI
   Visibility Audit.
 focus_keyword: AEO
-image: /images/uploads/aeo-success.jpg
-og_image: /images/uploads/aeo-success.jpg
+image: /images/uploads/thumbs/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-20.jpg
+og_image: /images/uploads/thumbs/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-20.jpg
 schema: >-
   <script type="application/ld+json">
 
@@ -74,7 +74,7 @@ schema: >-
         "isPartOf": { "@id": "https://www.audienceintent.ai/#website" },
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/aeo-success.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-20.jpg",
           "width": 1200,
           "height": 630
         },
@@ -116,7 +116,7 @@ schema: >-
         "description": "A layer-by-layer framework for measuring AEO campaign performance — visibility, quality, traffic, and revenue attribution — with 2026 benchmarks, KPI formulas, and a tracking protocol you can run without paid tools.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/aeo-success.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-20.jpg",
           "width": 1200,
           "height": 630
         },

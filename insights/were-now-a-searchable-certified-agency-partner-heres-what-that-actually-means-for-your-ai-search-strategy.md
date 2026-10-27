@@ -9,8 +9,8 @@ description: AudienceIntent completed the Searchable AI Search Accelerator.
   Here's what we learned, how it sharpens AI Recommended™, and why it matters.
 focus_keyword: Searchable Certified Agency Partner
 canonical: ""
-image: /images/uploads/searchable-partner.png
-og_image: /images/uploads/searchable-partner.png
+image: /images/uploads/thumbs/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-fo.jpg
+og_image: /images/uploads/thumbs/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-fo.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "AudienceIntent completed the Searchable AI Search Accelerator. Here's what we learned, how it sharpens AI Recommended™, and why it matters.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/searchable-partner.png",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-fo.jpg",
           "width": 1200,
           "height": 630
         },

@@ -10,8 +10,8 @@ description: A Miami roofing case study showing why local customers ask AI who
   competitors do.
 focus_keyword: Asks AI
 canonical: ""
-image: /images/uploads/homeowner.jpg
-og_image: /images/uploads/homeowner.jpg
+image: /images/uploads/thumbs/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up.jpg
+og_image: /images/uploads/thumbs/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -23,7 +23,7 @@ schema: >-
         "description": "A Miami roofing case study showing why local customers ask AI who to hire, what that means for revenue, and how to get visible before competitors do.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/homeowner.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up.jpg",
           "width": 1200,
           "height": 630
         },

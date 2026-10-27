@@ -9,8 +9,8 @@ description: Learn how to choose an answer engine optimization agency that helps
   search results.
 focus_keyword: AEO Agency
 canonical: ""
-image: /images/uploads/aeo-agency.jpg
-og_image: /images/uploads/aeo-agency.jpg
+image: /images/uploads/thumbs/how-to-find-an-answer-engine-optimization-agency-in-2026.jpg
+og_image: /images/uploads/thumbs/how-to-find-an-answer-engine-optimization-agency-in-2026.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "Learn how to choose an answer engine optimization agency that helps your business appear in ChatGPT, Perplexity, Google AI Overviews, and other AI search results.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/aeo-agency.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-find-an-answer-engine-optimization-agency-in-2026.jpg",
           "width": 1200,
           "height": 630
         },

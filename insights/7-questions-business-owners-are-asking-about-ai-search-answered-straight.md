@@ -7,8 +7,8 @@ author: Kevin Bovett - AudienceIntent
 description: Clear answers to the biggest AI search questions, plus what to do
   next if you want your business cited, found, and recommended by AI assistants.
 focus_keyword: AI Search
-image: /images/uploads/7-questions.jpg
-og_image: /images/uploads/7-questions.jpg
+image: /images/uploads/thumbs/7-questions-business-owners-are-asking-about-ai-search-answered-straight.jpg
+og_image: /images/uploads/thumbs/7-questions-business-owners-are-asking-about-ai-search-answered-straight.jpg
 schema: >-
   <script type="application/ld+json">
 
@@ -205,7 +205,7 @@ schema: >-
         "image": {
           "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#primaryimage"
         },
-        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/7-questions.jpg",
+        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/thumbs/7-questions-business-owners-are-asking-about-ai-search-answered-straight.jpg",
         "datePublished": "2026-09-23",
         "dateModified": "2026-09-23",
         "author": {
@@ -502,8 +502,8 @@ schema: >-
       {
         "@type": "ImageObject",
         "@id": "https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight#primaryimage",
-        "url": "https://www.audienceintent.ai/images/uploads/7-questions.jpg",
-        "contentUrl": "https://www.audienceintent.ai/images/uploads/7-questions.jpg",
+        "url": "https://www.audienceintent.ai/images/uploads/thumbs/7-questions-business-owners-are-asking-about-ai-search-answered-straight.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/thumbs/7-questions-business-owners-are-asking-about-ai-search-answered-straight.jpg",
         "caption": "7 Questions Business Owners Are Asking About AI Search (Answered Straight)",
         "encodingFormat": "image/jpeg",
         "inLanguage": "en-US",

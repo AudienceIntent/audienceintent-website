@@ -9,8 +9,8 @@ description: AI search doesn't rank businesses. It eliminates most first, then
   recommends the easiest ones to verify. Learn the signals that matter.
 focus_keyword: ChatGPT
 canonical: ""
-image: /images/uploads/ai-search-engines.jpg
-og_image: /images/uploads/ai-search-engines.jpg
+image: /images/uploads/thumbs/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how.jpg
+og_image: /images/uploads/thumbs/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "AI search doesn't rank businesses. It eliminates most first, then recommends the easiest ones to verify. Learn the signals that matter.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/ai-search-engines.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how.jpg",
           "width": 1200,
           "height": 630
         },

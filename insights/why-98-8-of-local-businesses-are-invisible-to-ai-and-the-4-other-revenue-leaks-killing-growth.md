@@ -8,8 +8,8 @@ author: Kevin Bovett - AudienceIntent
 description: "See where local businesses lose revenue in 2026: AI visibility, slow lead response, missed calls, and stale reviews."
 focus_keyword: AEO
 canonical: ""
-image: /images/uploads/why-local-businesses-are-invisible-to-ai.jpg
-og_image: /images/uploads/why-local-businesses-are-invisible-to-ai.jpg
+image: /images/uploads/thumbs/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-k.jpg
+og_image: /images/uploads/thumbs/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-k.jpg
 schema: >
   {
     "@context": "https://schema.org",
@@ -52,8 +52,8 @@ schema: >
       {
         "@type": "ImageObject",
         "@id": "https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth#primaryimage",
-        "url": "https://www.audienceintent.ai/images/uploads/why-local-businesses-are-invisible-to-ai.jpg",
-        "contentUrl": "https://www.audienceintent.ai/images/uploads/why-local-businesses-are-invisible-to-ai.jpg",
+        "url": "https://www.audienceintent.ai/images/uploads/thumbs/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-k.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/thumbs/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-k.jpg",
         "caption": "Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other Revenue Leaks Killing Growth)",
         "inLanguage": "en-US"
       },

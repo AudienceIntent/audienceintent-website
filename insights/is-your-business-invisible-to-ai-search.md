@@ -3,11 +3,12 @@ title: Is Your Business Invisible to AI Search? Here's Why — and How to Fix It
 meta_title: "Is Your Business Invisible to AI Search? Here's the Fix"
 date: 2026-08-15T00:00:00.000-04:00
 category: AI Recommended
+og_image: /images/uploads/thumbs/is-your-business-invisible-to-ai-search.jpg
 author: "Kevin Bovett - AudienceIntent "
 description: AI answers favor cited sources, not just rankings. Learn why brands
   disappear in search and what to fix to show up in AI results.
 focus_keyword: AI Search
-image: https://framerusercontent.com/images/qIbUaOsPBjz2a6bGZcr2dVI0GSs.jpg
+image: /images/uploads/thumbs/is-your-business-invisible-to-ai-search.jpg
 schema: >-
   {
     "@context": "https://schema.org",

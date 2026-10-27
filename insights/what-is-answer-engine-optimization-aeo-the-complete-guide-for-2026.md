@@ -8,8 +8,8 @@ description: Learn what answer engine optimization is, why it matters in 2026,
   and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.
 focus_keyword: Answer Engine Optimization
 canonical: ""
-image: /images/uploads/what-is-aeo-.jpg
-og_image: /images/uploads/what-is-aeo-.jpg
+image: /images/uploads/thumbs/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026.jpg
+og_image: /images/uploads/thumbs/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -21,7 +21,7 @@ schema: >-
         "description": "Learn what answer engine optimization is, why it matters in 2026, and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/what-is-aeo-.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026.jpg",
           "width": 1200,
           "height": 630
         },

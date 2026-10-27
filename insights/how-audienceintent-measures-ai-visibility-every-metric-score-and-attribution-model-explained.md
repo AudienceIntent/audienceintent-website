@@ -9,8 +9,8 @@ description: See how AudienceIntent measures AI visibility with scores,
   mentions, citations, sentiment, prompt tracking, and ROI attribution across AI
   platforms.
 focus_keyword: AI Visibility
-image: /images/uploads/ai-visibility.jpg
-og_image: /images/uploads/ai-visibility.jpg
+image: /images/uploads/thumbs/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-mod.jpg
+og_image: /images/uploads/thumbs/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-mod.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ schema: >-
         "description": "See how AudienceIntent measures AI visibility with scores, mentions, citations, sentiment, prompt tracking, and ROI attribution across AI platforms.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/ai-visibility.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-mod.jpg",
           "width": 1200,
           "height": 630
         },

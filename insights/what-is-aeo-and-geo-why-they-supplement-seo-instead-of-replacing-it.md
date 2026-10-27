@@ -7,8 +7,8 @@ author: Kevin Bovett - AudienceIntent
 description: Learn what AEO and GEO mean, how they differ from SEO, and why all
   three work as a layered visibility strategy in 2026.
 focus_keyword: AEO
-image: /images/uploads/aeo-geo.jpg
-og_image: /images/uploads/aeo-geo.jpg
+image: /images/uploads/thumbs/what-is-aeo-and-geo-why-they-supplement-seo-instead-of-replacing-it.jpg
+og_image: /images/uploads/thumbs/what-is-aeo-and-geo-why-they-supplement-seo-instead-of-replacing-it.jpg
 schema: >-
   {
     "@context": "https://schema.org",
@@ -20,7 +20,7 @@ schema: >-
         "description": "Learn what AEO and GEO mean, how they differ from SEO, and why all three work as a layered visibility strategy in 2026.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/aeo-geo.jpg",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/what-is-aeo-and-geo-why-they-supplement-seo-instead-of-replacing-it.jpg",
           "width": 1200,
           "height": 630
         },

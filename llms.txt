@@ -72,6 +72,7 @@ Paid ads management, social media management, website builds, SMS or text-messag
 - [Free guide: Is Your Business Invisible to AI?](https://assets.cdn.filesafe.space/aBFslbFOOHFBP075Donz/media/6a14cbb8069d64aa5d364cb6.pdf): PDF guide for business owners on how AI picks who to recommend.
 - [Referral program](https://www.audienceintent.ai/referral/): Refer a business and earn 10% of the client's monthly fee.
 - [Legal](https://www.audienceintent.ai/legal): Terms, privacy and policies.
+- [Full text of every article](https://www.audienceintent.ai/llms-full.txt): This file plus the complete text of all articles, in one plain-text file.
 
 ## Start here
 

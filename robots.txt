@@ -3,6 +3,7 @@
 #
 # Every search engine and AI assistant is welcome to read this site.
 # Plain-text summary for AI tools: https://www.audienceintent.ai/llms.txt
+# Full text of every article: https://www.audienceintent.ai/llms-full.txt
 # Last updated: 2026-10-27
 
 # ------------------------------------------------------------

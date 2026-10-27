@@ -891,7 +891,7 @@ function catLabel(c) {
 function buildArticleBodyHtml(article) {
   const cat       = article.category || '';
   const title     = article.title || '';
-  const author    = article.author || 'Kevin Bovett';
+  const author    = (article.author || 'Kevin Bovett').replace(/\s*[-\u2013\u2014]\s*AudienceIntent\s*$/i, '');
   const dateLong  = formatDateLong(article.date);
   const updLong   = formatDateLong(article.updated_at);
   const hasUpdate = article.updated_at && article.updated_at !== article.date;

@@ -43,7 +43,7 @@ schema: >-
         "datePublished": "2026-09-03",
         "dateModified": "2026-09-03",
         "articleSection": "Company News",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, answer engine optimization, performance marketing",
         "timeRequired": "PT5M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -119,7 +119,7 @@ schema: >-
             "name": "How do I find out if my business is visible to AI?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The fastest way is to run a free AI Visibility Report at report.audienceintent.ai. It shows what AI assistants are currently saying about your business across the major platforms — and where the gaps are."
+              "text": "The fastest way is to book a call at https://www.audienceintent.ai/#book or view a live example report at https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7. It shows what AI assistants are currently saying about your business across the major platforms — and where the gaps are."
             }
           }
         ]

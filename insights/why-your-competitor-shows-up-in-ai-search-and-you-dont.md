@@ -42,7 +42,7 @@ schema: >-
         "datePublished": "2026-08-16",
         "dateModified": "2026-08-16",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, answer engine optimization, performance marketing",
         "timeRequired": "PT9M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -141,8 +141,6 @@ If your competitor appears consistently across their own website, Google reviews
 | Social proof | Google reviews, Yelp, Facebook       | Critical for local  |
 | Community    | Reddit threads, Q&A forums           | High for Perplexity |
 
-
-
 **The fix:** Expand your footprint intentionally. Get listed in local and industry directories. Encourage customers to leave reviews on multiple platforms, not just Google. Consistent mentions across independent sources compound over time.
 
 ## 5. Their Google Business Profile Is Fully Optimized
@@ -200,8 +198,6 @@ Run through this before doing anything else. Check off what you have. The gaps a
 | Answer-Led Content      | Website pages that directly answer common customer questions | ✓ / ✗  |
 | Multi-Platform Presence | Listed on Yelp, Facebook, industry directories, local press  | ✓ / ✗  |
 | Schema Markup           | LocalBusiness, Service, FAQ, and Review schema implemented   | ✓ / ✗  |
-
-
 
 If you checked fewer than four of these, your competitor's AI visibility advantage isn't luck. It's infrastructure. And it's fixable.
 

@@ -45,7 +45,7 @@ schema: >-
         "datePublished": "2026-06-08",
         "dateModified": "2026-06-08",
         "articleSection": "Company News",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT7M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -189,7 +189,7 @@ Completing all three phases is what earns Certified Agency Partner status. It's 
 
 ## How This Sharpens AI Recommended™
 
-Blingle Premier Lighting had strong Google rankings but was invisible in AI search. Within 90 days of working with us: a 312% increase in AI citations, the top AI recommendation in their category, and 641 verified visits from AI search engines.
+Craft Food Tours saw a +312% increase in traffic from AI within 90 days of working with us.
 
 The certification doesn't change what we deliver. It formalizes and validates how we deliver it.
 

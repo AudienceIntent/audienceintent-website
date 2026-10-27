@@ -122,7 +122,7 @@ schema: >-
         "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
         "articleSection": "AI Recommended",
         "inLanguage": "en-US",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing, AEO, SEO",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing, AEO, SEO",
         "wordCount": 2600,
         "isPartOf": { "@id": "https://www.audienceintent.ai/#website" },
         "about": [

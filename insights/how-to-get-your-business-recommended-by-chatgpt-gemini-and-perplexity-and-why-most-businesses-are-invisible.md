@@ -45,7 +45,7 @@ schema: >-
         "datePublished": "2026-08-22",
         "dateModified": "2026-08-22",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing, answer engine optimization",
         "timeRequired": "PT20M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -113,7 +113,7 @@ schema: >-
             "name": "How do I know if AI assistants are already recommending me?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Open ChatGPT, Perplexity, Claude, and Gemini and ask: \"What's the best [your service] in [your city]?\" and \"Who should I hire for [what you do] near [your location]?\" Screenshot the results. If you're not appearing, you have your baseline. For a faster automated check, run the free audit at report.audienceintent.ai. You can also check Google Analytics 4 for referral traffic from chatgpt.com, perplexity.ai, claude.ai, and gemini.google.com."
+              "text": "Open ChatGPT, Perplexity, Claude, and Gemini and ask: \"What's the best [your service] in [your city]?\" and \"Who should I hire for [what you do] near [your location]?\" Screenshot the results. If you're not appearing, you have your baseline. For a faster automated check, see a live example report at https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7. You can also check Google Analytics 4 for referral traffic from chatgpt.com, perplexity.ai, claude.ai, and gemini.google.com."
             }
           },
           {
@@ -137,7 +137,7 @@ schema: >-
             "name": "What does a done-for-you AI visibility program actually include?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A complete AI visibility program covers: auditing your current citation footprint, fixing directory inconsistencies, deploying schema markup, optimizing existing website content, publishing new content that answers customer questions, building third-party citation sources, and tracking your AI recommendation status monthly. AudienceIntent's AI Recommended™ program handles all of this for $1,997/month with no contract and no lock-in. Book a call to see what your current visibility score looks like and what it would take to move it."
+              "text": "A complete AI visibility program covers: auditing your current citation footprint, fixing directory inconsistencies, deploying schema markup, optimizing existing website content, publishing new content that answers customer questions, building third-party citation sources, and tracking your AI recommendation status monthly. AudienceIntent's AI Recommended™ program handles all of this for $1,997/month for a 90-day minimum, then $997/month month to month (or $5,000 upfront for the first 90 days, saving $991). Book a call to see what your current visibility score looks like and what it would take to move it."
             }
           }
         ]
@@ -523,13 +523,13 @@ Track three metrics every month:
 
 When you start appearing in recommendations, analyze which content gets cited. Double down on what's working.
 
-## What a Real Business Achieved: The Blingle Case Study
+## What a Real Business Achieved: The Craft Food Tours Case Study
 
-Blingle Premier Lighting had strong Google rankings. By most traditional SEO measures, they were doing well. But when customers asked AI assistants for outdoor lighting recommendations, Blingle wasn't in the answer. Their competitors were.
+Craft Food Tours had strong Google rankings. By most traditional SEO measures, they were doing well. But when customers asked AI assistants for food tour recommendations, Craft Food Tours wasn't in the answer. Their competitors were.
 
 **The problem wasn't their product or their reviews. It was their AI visibility footprint — which was effectively zero.**
 
-Working with AudienceIntent's [AI Recommended™](https://audienceintent.ai) program, Blingle rebuilt their presence across the sources AI assistants actually pull from: third-party directories, structured content, schema markup, and a consistent citation-building strategy.
+Working with AudienceIntent's [AI Recommended™](https://audienceintent.ai) program, Craft Food Tours rebuilt their presence across the sources AI assistants actually pull from: third-party directories, structured content, schema markup, and a consistent citation-building strategy.
 
 The results at 90 days:
 
@@ -542,9 +542,9 @@ The results at 90 days:
 -   **47 new AI citation sources** established in the first 90 days
     
 
-> "We had great Google rankings, but AI was recommending our competitors. In 90 days, that completely flipped." — Cheryl Alker, Franchise Owner, Blingle Premier Lighting
+> "We had great Google rankings, but AI was recommending our competitors. In 90 days, that completely flipped." — Craft Food Tours saw a +312% increase in traffic from AI within 90 days.
 
-The lesson from Blingle's experience: SEO and AI visibility are separate problems that require separate solutions. Fixing one does not fix the other. Blingle's Google rankings didn't change during this period — their AI citations grew because they built the infrastructure AI actually uses to make recommendations.
+The lesson from Craft Food Tours' experience: SEO and AI visibility are separate problems that require separate solutions. Fixing one does not fix the other. Craft Food Tours' Google rankings didn't change during this period — their AI citations grew because they built the infrastructure AI actually uses to make recommendations.
 
 This is the pattern across industries. The businesses that move first build an early-mover advantage that compounds over time. The businesses that wait find themselves catching up to competitors who've already established citation authority across every platform.
 
@@ -556,7 +556,7 @@ Here is what most business owners don't factor in: AI visibility is a compoundin
 
 AI search traffic converts at 14.2%. Standard organic search converts at 2.8%. If your competitor is capturing 100 AI-referred visitors per month that you're not, and your average customer value is $500, that's roughly $710 in monthly revenue you're not seeing — from a single platform, in a single month.
 
-Use the [Lost Revenue Calculator at lostrevenue.audienceintent.ai](https://lostrevenue.audienceintent.ai) to run the actual numbers for your business.
+[Book a call](https://www.audienceintent.ai/#book) or see a [live example report](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7) to run the actual numbers for your business.
 
 Organic click-through rates from Google have [dropped 61% since AI Overviews appeared](https://audienceintent.ai/insights/the-search-bar-is-dying-and-local-businesses-are-unprepared-for-what-comes-next). The traffic that used to flow through Google's blue links is increasingly going to AI-generated answers. Businesses that aren't in those answers are losing ground every month, even if their Google rankings haven't moved.
 
@@ -590,4 +590,4 @@ No. They are separate ecosystems that serve different customer behaviors. SEO ca
 
 ### What does a done-for-you AI visibility program actually include?
 
-A complete AI visibility program covers: auditing your current citation footprint, fixing directory inconsistencies, deploying schema markup, optimizing existing website content, publishing new content that answers customer questions, building third-party citation sources, and tracking your AI recommendation status monthly. AudienceIntent's [AI Recommended™](https://audienceintent.ai) program handles all of this for $1,997/month with no contract and no lock-in. [Book a call](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi) to see what your current visibility score looks like and what it would take to move it.
+A complete AI visibility program covers: auditing your current citation footprint, fixing directory inconsistencies, deploying schema markup, optimizing existing website content, publishing new content that answers customer questions, building third-party citation sources, and tracking your AI recommendation status monthly. AudienceIntent's [AI Recommended™](https://audienceintent.ai) program handles all of this for $1,997/month for a 90-day minimum, then $997/month month to month (or $5,000 upfront for the first 90 days, saving $991). [Book a call](https://www.audienceintent.ai/#book) to see what your current visibility score looks like and what it would take to move it.

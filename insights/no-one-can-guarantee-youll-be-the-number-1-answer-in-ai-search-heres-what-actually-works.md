@@ -45,7 +45,7 @@ schema: >-
         "datePublished": "2026-07-08",
         "dateModified": "2026-07-08",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing",
         "timeRequired": "PT17M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -121,7 +121,7 @@ schema: >-
             "name": "Why do reviews matter for AI search visibility?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Reviews are one of the primary signals AI systems use when forming recommendations, especially for local and service businesses. Volume, recency, and the specific language customers use all factor in. A business with 300 recent, detailed reviews gives AI systems far more confidence than one with 15 old ones. Review strategy is not optional — it is one of the highest-leverage things a business can do for AI visibility."
+              "text": "Reviews are one of the primary signals AI systems use when forming recommendations, especially for local and service businesses. Volume, recency, and the specific language customers use all factor in. A business with 300 recent, detailed reviews gives AI systems far more confidence than one with 15 old ones. Review strategy is not optional — it is one of the highest-impact things a business can do for AI visibility."
             }
           },
           {
@@ -301,7 +301,7 @@ Specifically, we focus on:
 -   **Measurable improvement over time** — monthly reporting on visibility, citations, sentiment, and competitive position
     
 
-We do not lock clients into long contracts. AI Recommended™ is month-to-month. If the work is not compounding and improving, you should not stay. That accountability is built into the model.
+AI Recommended™ is $1,997/month for a 90-day minimum, then $997/month month to month. If the work is not compounding and improving, you should not stay after the first 90 days. That accountability is built into the model.
 
 Measurable citation growth typically begins within 30 days. Meaningful, trackable AI visibility typically takes 60 to 90 days. We tell clients that upfront — because a vendor who sets honest expectations is a vendor you can trust when things are going well and when they are not.
 

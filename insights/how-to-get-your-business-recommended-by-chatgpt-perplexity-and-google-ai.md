@@ -44,7 +44,7 @@ schema: >-
         "datePublished": "2026-08-29",
         "dateModified": "2026-08-29",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing, answer engine optimization",
         "timeRequired": "PT16M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -299,7 +299,7 @@ Build your AI visibility strategy around these six signal categories, in order o
 
 -   **Review recency and volume:** New reviews signal that the business is active and customers are engaging with it. Aim for at least two to four new reviews per month. Respond to every review, positive or negative, because AI systems can read response patterns as an indicator of engagement.
     
--   **Review language:** The words customers use in reviews become part of the model's understanding of your business. If reviews consistently mention "fast response," "HVAC repair," and "Fort Myers," that language reinforces your service category and location signals.
+-   **Review language:** The words customers use in reviews become part of the model's understanding of your business. If reviews consistently mention "fast response," "HVAC repair," and your service area, that language reinforces your service category and location signals.
     
 -   **Named third-party mentions:** Citations from local news outlets, industry associations, chamber of commerce listings, and niche directories carry more weight than generic directory listings. A mention in a local publication that names your business and describes what you do is high-value AI training data.
     

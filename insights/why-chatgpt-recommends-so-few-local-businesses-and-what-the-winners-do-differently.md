@@ -44,7 +44,7 @@ schema: >-
         "datePublished": "2026-08-03",
         "dateModified": "2026-08-03",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, answer engine optimization",
         "timeRequired": "PT14M",
         "inLanguage": "en-US",
         "isPartOf": {

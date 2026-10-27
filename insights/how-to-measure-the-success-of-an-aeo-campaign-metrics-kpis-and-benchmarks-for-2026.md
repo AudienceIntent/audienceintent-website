@@ -147,7 +147,7 @@ schema: >-
             "name": "How long does it take to see results from an AEO campaign?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Technical fixes, such as schema markup, robots.txt corrections, and structured content updates, can show impact within weeks. Broader citation growth typically compounds over 60 to 90 days as AI platforms update their reference patterns. The first AI-attributed leads in a CRM typically appear in the second or third month. Revenue attribution becomes clearly measurable by month three or four. AudienceIntent achieved a 312% citation increase for Blingle Premier Lighting within 90 days. Results vary by market, category, and starting footprint."
+              "text": "Technical fixes, such as schema markup, robots.txt corrections, and structured content updates, can show impact within weeks. Broader citation growth typically compounds over 60 to 90 days as AI platforms update their reference patterns. Measurable traffic attribution typically appears in the second or third month. Revenue attribution becomes clearly measurable by month three or four. AudienceIntent achieved a 312% increase in traffic from AI for Craft Food Tours within 90 days. Results vary by market, category, and starting footprint."
             }
           },
           {
@@ -203,7 +203,7 @@ schema: >-
             "name": "What is a healthy citation source count?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "More is better, and diversity matters as much as volume. A business with citations from 47 distinct sources, as Blingle Premier Lighting achieved after 90 days, is significantly more resilient than a business whose AI visibility depends on two or three sources. If 80% of your citations come from two sources, a policy change or indexing shift on either of those sources can cut your citation rate significantly. Aim for breadth across review platforms, editorial content, directories, and community sources."
+              "text": "More is better, and diversity matters as much as volume. A business with citations from dozens of distinct sources is significantly more resilient than a business whose AI visibility depends on two or three sources. If 80% of your citations come from two sources, a policy change or indexing shift on either of those sources can cut your citation rate significantly. Aim for breadth across review platforms, editorial content, directories, and community sources."
             }
           },
           {
@@ -327,7 +327,7 @@ Track two numbers here:
 
 -   **Average position:** When your brand appears in an AI response alongside other brands, what is your average position? Trending toward position 1 is the goal.
     
--   **List rank:** When AI returns a ranked list (e.g., "the top 5 outdoor lighting companies in Fort Myers"), what is your average rank across all prompts that return a list?
+-   **List rank:** When AI returns a ranked list (e.g., "the top 5 food tour companies in the area"), what is your average rank across all prompts that return a list?
     
 
 Position Quality carries 25 points in the AI Visibility Score because first-position mentions drive materially more clicks and conversions than secondary mentions. The same logic that makes the #1 Google result get 10x the clicks of the #10 result applies here.
@@ -359,7 +359,7 @@ Inaccurate descriptions are a compounding problem. If an AI platform has incorre
 
 **Benchmark:** A citation accuracy rate below 70% is considered underperforming. Above 85% is competitive. The fix is almost always a combination of NAP consistency across directories and updating the specific sources the AI is pulling from.
 
-> **What accurate looks like in practice:** Blingle Premier Lighting went from having virtually zero presence in AI answers to being described accurately as the top outdoor lighting installer in their market, with 47 verified citation sources reinforcing that description. The 312% citation increase meant more mentions; the accuracy work meant those mentions said the right things.
+> **What accurate looks like in practice:** Craft Food Tours went from having virtually zero presence in AI answers to being described accurately as a leading option in their market, reinforced by a growing base of verified citation sources. The 312% increase in traffic from AI meant more mentions; the accuracy work meant those mentions said the right things.
 
 ## Layer 3: Traffic Metrics — Are Mentions Generating Visits?
 
@@ -524,7 +524,7 @@ Start with AI mention rate and AI referral sessions in GA4. Mention rate tells y
 
 ### How long does it take to see results from an AEO campaign?
 
-Technical fixes, such as schema markup, robots.txt corrections, and structured content updates, can show impact within weeks. Broader citation growth typically compounds over 60 to 90 days as AI platforms update their reference patterns. The first AI-attributed leads in a CRM typically appear in the second or third month. Revenue attribution becomes clearly measurable by month three or four. AudienceIntent achieved a 312% citation increase for Blingle Premier Lighting within 90 days. Results vary by market, category, and starting footprint.
+Technical fixes, such as schema markup, robots.txt corrections, and structured content updates, can show impact within weeks. Broader citation growth typically compounds over 60 to 90 days as AI platforms update their reference patterns. Measurable traffic attribution typically appears in the second or third month. Revenue attribution becomes clearly measurable by month three or four. AudienceIntent achieved a 312% increase in traffic from AI for Craft Food Tours within 90 days. Results vary by market, category, and starting footprint.
 
 ### What is a good AI visibility rate?
 
@@ -552,7 +552,7 @@ Prioritize based on where your customers spend time and the citation behavior of
 
 ### What is a healthy citation source count?
 
-More is better, and diversity matters as much as volume. A business with citations from 47 distinct sources, as Blingle Premier Lighting achieved after 90 days, is significantly more resilient than a business whose AI visibility depends on two or three sources. If 80% of your citations come from two sources, a policy change or indexing shift on either of those sources can cut your citation rate significantly. Aim for breadth across review platforms, editorial content, directories, and community sources.
+More is better, and diversity matters as much as volume. A business with citations from dozens of distinct sources, like the growth GoldenCrest Metals achieved after 90 days, is significantly more resilient than a business whose AI visibility depends on two or three sources. If 80% of your citations come from two sources, a policy change or indexing shift on either of those sources can cut your citation rate significantly. Aim for breadth across review platforms, editorial content, directories, and community sources.
 
 ### What should I do if my AI visibility drops suddenly?
 

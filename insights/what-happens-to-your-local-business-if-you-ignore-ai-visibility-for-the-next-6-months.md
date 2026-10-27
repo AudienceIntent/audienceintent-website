@@ -157,7 +157,7 @@ schema: >-
         "name": "AudienceIntent",
         "legalName": "AudienceIntent LLC",
         "url": "https://www.audienceintent.ai/",
-        "description": "AudienceIntent helps businesses improve their visibility and recommendations across AI search platforms and reactivate dormant leads using AI-powered SMS.",
+        "description": "AudienceIntent helps businesses improve their visibility and recommendations across AI search platforms like ChatGPT, Google AI and Perplexity.",
         "founder": {
           "@id": "https://www.audienceintent.ai/#kevin-bovett"
         }
@@ -314,10 +314,10 @@ The signals that matter most, across both your own website and the third-party s
 
 The businesses that get this right in the next 90 days will be the ones AI recommends for the next several years. The ones that don't will spend those same years trying to catch up to a competitor who moved first.
 
-**The first step is knowing where you stand.** Find out how visible your business is to AI right now with a free AI Visibility Audit at [report.audienceintent.ai](https://report.audienceintent.ai). Or run the numbers on what lost AI visibility is actually costing your business with the [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai).
+**The first step is knowing where you stand.** Find out how visible your business is to AI right now with a free AI Visibility Audit at [report.audienceintent.ai](https://report.audienceintent.ai). Or see what AI-recommended businesses look like with a live example report at [visibility.audienceintent.ai](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7).
 
 Your competitors aren't waiting.
 
 ---
 
-[Calculate My Lost Revenue →](https://lostrevenue.audienceintent.ai)    [Is My Business Invisible to AI? →](https://report.audienceintent.ai)
+[Book a Call →](https://www.audienceintent.ai/#book)    [Is My Business Invisible to AI? →](https://report.audienceintent.ai)

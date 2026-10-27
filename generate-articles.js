@@ -161,7 +161,7 @@ function markdownToHtml(md) {
   html = html.replace(/\*(.+?)\*/g,          '<em>$1</em>');
 
   // Inline code
-  html = html.replace(/`([^`]+)`/g, '<code style="background:rgba(0,255,115,0.08);color:#00ff73;padding:2px 6px;border-radius:4px;font-size:0.9em">$1</code>');
+  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
 
   // Blockquotes — group all consecutive > lines into one block,
   // then convert inner list items and paragraphs properly.
@@ -216,7 +216,7 @@ function markdownToHtml(md) {
   });
 
   // Horizontal rules
-  html = html.replace(/^[-*_]{3,}\s*$/gm, '<hr style="border:none;border-top:1px solid rgba(248,247,246,0.12);margin:32px 0">');
+  html = html.replace(/^[-*_]{3,}\s*$/gm, '<hr>');
 
   // Tables
   html = html.replace(/((?:^[^\n]*\|[^\n]*\n?)+)/gm, function(block) {
@@ -432,7 +432,7 @@ function generateAutoSchema(article) {
       "@id": canonical + "#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home",     "item": SITE_URL + "/" },
-        { "@type": "ListItem", "position": 2, "name": "Insights", "item": SITE_URL + "/insights" },
+        { "@type": "ListItem", "position": 2, "name": "Answers", "item": SITE_URL + "/insights" },
         { "@type": "ListItem", "position": 3, "name": article.title, "item": canonical }
       ]
     }
@@ -803,6 +803,7 @@ function generateSitemap(articles) {
     { url: '/',         priority: '1.0', changefreq: 'weekly',  lastmod: TODAY },
     { url: '/insights', priority: '0.9', changefreq: 'daily',   lastmod: TODAY },
     { url: '/about',    priority: '0.6', changefreq: 'monthly', lastmod: TODAY },
+    { url: '/referral/', priority: '0.5', changefreq: 'monthly', lastmod: TODAY },
     { url: '/legal',    priority: '0.4', changefreq: 'monthly', lastmod: TODAY },
   ];
 
@@ -880,77 +881,61 @@ function formatDateLong(d) {
 // Kept byte-for-byte aligned with render() in article.html so
 // users and crawlers see identical content.
 // ============================================================
+function catLabel(c) {
+  if (!c) return 'Answers';
+  if (/ai recommended/i.test(c)) return 'Getting recommended';
+  if (/company|news/i.test(c)) return 'Company news';
+  return c;
+}
+
 function buildArticleBodyHtml(article) {
   const cat       = article.category || '';
   const title     = article.title || '';
-  const author    = article.author || 'Kevin Bovett';
+  const author    = (article.author || 'Kevin Bovett').replace(/\s*[-\u2013\u2014]\s*AudienceIntent\s*$/i, '');
   const dateLong  = formatDateLong(article.date);
   const updLong   = formatDateLong(article.updated_at);
   const hasUpdate = article.updated_at && article.updated_at !== article.date;
 
-  // Hero image (eager-loaded, high priority — matches client)
   const imgAlt   = escAttr(article.image_alt || article.title || '');
-  const imgTitle = escAttr(article.title || '');
   const imgSrc   = normalizeImagePath(stripFramerImage(article.image));
   const imgHTML  = article.image
-    ? '<div class="art-img-wrap"><img class="art-img" src="' + escAttr(imgSrc) +
-      '" alt="' + imgAlt + '" title="' + imgTitle +
-      '" loading="eager" decoding="async" fetchpriority="high"></div>'
-    : '';
+    ? '<div class="art-img-wrap"><img class="art-img" src="' + escAttr(imgSrc) + '" alt="' + imgAlt + '" loading="eager" decoding="async" fetchpriority="high"></div>'
+    : '<div style="height:40px"></div>';
 
-  const updatedLine = hasUpdate
-    ? '<p class="art-updated">Updated: ' + escHtml(updLong) + '</p>'
-    : '';
-
-  const authorBlock = '<div class="art-author-block">'
-    + '<div class="art-author-avatar" aria-hidden="true">KB</div>'
-    + '<div class="art-author-info">'
-    + '<span class="art-author-name">Written by <a href="' + SITE_URL + '/about" style="color:inherit;text-decoration:underline">' + escHtml(author) + '</a></span>'
-    + '<span class="art-author-role">Founder &amp; CEO, AudienceIntent &nbsp;&middot;&nbsp; Published '
-    + escHtml(dateLong)
-    + (hasUpdate ? ' &nbsp;&middot;&nbsp; Updated ' + escHtml(updLong) : '')
-    + '</span>'
-    + '</div></div>';
-
-  // Breadcrumb + back link use the absolute SITE_URL for the
-  // Insights link, matching every other canonical/site link on
-  // the page (nav, footer, OG tags). Kept consistent with the
-  // index-card href fix below rather than relying solely on the
-  // ai-tracker edge-function redirect to catch a relative miss.
   const breadcrumb = '<nav class="breadcrumb" aria-label="Breadcrumb">'
-    + '<a href="' + SITE_URL + '">AudienceIntent</a>'
-    + '<span class="breadcrumb-sep" aria-hidden="true">&rsaquo;</span>'
-    + '<a href="' + SITE_URL + '/insights">Insights</a>'
-    + '<span class="breadcrumb-sep" aria-hidden="true">&rsaquo;</span>'
-    + '<span>' + escHtml(cat || 'Article') + '</span>'
-    + '</nav>';
+    + '<a href="' + SITE_URL + '/">Home</a><span aria-hidden="true">&rsaquo;</span>'
+    + '<a href="' + SITE_URL + '/insights">Answers</a><span aria-hidden="true">&rsaquo;</span>'
+    + '<span>' + escHtml(catLabel(cat)) + '</span></nav>';
 
-  const metaLine = '<div class="art-meta">'
-    + '<span>' + escHtml(dateLong) + '</span>'
-    + '<span class="art-meta-dot" aria-hidden="true">&middot;</span>'
-    + '<span>' + escHtml(author) + '</span>'
-    + '<span class="art-meta-dot" aria-hidden="true">&middot;</span>'
-    + '<span>' + (article.read_time ? escHtml(article.read_time + ' min read') : '') + '</span>'
+  const metaLine = '<div class="art-meta"><span>' + escHtml(dateLong) + '</span>'
+    + (article.read_time ? '<span aria-hidden="true">&middot;</span><span>' + escHtml(article.read_time + ' min read') + '</span>' : '')
+    + (hasUpdate ? '<span aria-hidden="true">&middot;</span><span>Updated ' + escHtml(updLong) + '</span>' : '')
     + '</div>';
 
-  const ctaBox = '<div class="cta-box">'
-    + '<h3>Recover What&#39;s Yours. Own What&#39;s Next.</h3>'
-    + '<p>Run the lost revenue calculator in 2 minutes, or find out if your business is invisible to AI search right now.</p>'
-    + '<div class="cta-box-btns">'
-    + '<a href="https://lostrevenue.audienceintent.ai" target="_blank" rel="noopener" class="cta-btn">Calculate My Lost Revenue &rarr;</a>'
-    + '<a href="https://report.audienceintent.ai" target="_blank" rel="noopener" class="cta-btn cta-btn-sec" style="background:rgba(248,247,246,.1);color:#f8f7f6;border:1px solid rgba(248,247,246,.2)">Is My Business Invisible to AI?</a>'
-    + '</div></div>';
+  const authorBlock = '<div class="art-author"><img src="/assets/img/kevin-bovett.jpg" alt="" width="48" height="48">'
+    + '<div><b>Written by <a href="' + SITE_URL + '/about">' + escHtml(author) + '</a></b>'
+    + '<span>Founder &amp; CEO, AudienceIntent</span></div></div>';
 
-  return breadcrumb
-    + '<a class="back" href="' + SITE_URL + '/insights">&larr; Back to Insights</a>'
-    + '<div class="art-cat">' + escHtml(cat) + '</div>'
+  const ctaBox = '<div class="art-cta"><div class="in">'
+    + '<h3>Want this done for you?</h3>'
+    + '<p>We get your business recommended by AI. See the weekly report our clients get, or book a call.</p>'
+    + '<div class="ctas">'
+    + '<button class="btn btn-blue" data-book>Book a call</button>'
+    + '<a class="btn btn-ghost" href="https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7" target="_blank" rel="noopener">Live Demo <span class="arrow">&rarr;</span></a>'
+    + '</div></div></div>';
+
+  return '<section class="phero art-hero"><div class="wrap">'
+    + breadcrumb
     + '<h1 class="art-title">' + escHtml(title) + '</h1>'
-    + updatedLine
     + metaLine
     + authorBlock
+    + '</div></section>'
+    + '<div class="article-main">'
     + imgHTML
     + '<div class="art-body">' + (article.content || '') + '</div>'
-    + ctaBox;
+    + ctaBox
+    + '<div class="art-back"><a class="link" href="' + SITE_URL + '/insights">&larr; All answers</a></div>'
+    + '</div>';
 }
 
 // ============================================================
@@ -1002,38 +987,22 @@ function buildIndexCard(a, isFeatured, eager) {
   const readTime   = a.read_time ? a.read_time + ' min read' : '';
   const titleEsc   = escAttr(a.title);
   const articleUrl = SITE_URL + '/insights/' + a.slug;
-  const loadAttrs = eager
-    ? 'loading="eager" fetchpriority="high" decoding="async"'
-    : 'loading="lazy" decoding="async"';
-
-  if (isFeatured && imgSrc) {
-    return '<a class="card-featured" href="' + articleUrl + '">'
-      + '<img class="card-feat-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + '>'
-      + '<div class="card-feat-body">'
-      + '<div class="card-feat-cat">' + escHtml(a.category || '') + '</div>'
-      + '<h2 class="card-feat-title">' + escHtml(a.title || '') + '</h2>'
-      + '<div class="card-feat-excerpt">' + escHtml(a.excerpt || '') + '</div>'
-      + '<div class="card-feat-foot">'
-      + '<span class="card-feat-meta">' + escHtml(fmtDateShort(a.date)) + (readTime ? ' &middot; ' + escHtml(readTime) : '') + ' &middot; ' + escHtml(a.author || 'Kevin Bovett') + '</span>'
-      + '<span class="card-feat-cta">Read article &rarr;</span>'
-      + '</div></div></a>';
-  }
-
+  const loadAttrs  = eager ? 'loading="eager" decoding="async"' : 'loading="lazy" decoding="async"';
+  const cls        = isFeatured ? 'card-featured' : 'card';
+  const exc        = (a.excerpt || '');
+  const excShort   = isFeatured ? exc : exc.substring(0, 130) + (exc.length > 130 ? '&hellip;' : '');
   const imgHtml = imgSrc
-    ? '<div class="card-img-wrap"><img class="card-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" title="' + titleEsc + '" ' + loadAttrs + '>' + (readTime ? '<span class="card-read-time">' + escHtml(readTime) + '</span>' : '') + '</div>'
-    : '<div class="card-img-wrap" style="height:120px"><div class="card-no-img" aria-hidden="true">' + escHtml((a.category || 'AI').substring(0,2).toUpperCase()) + '</div></div>';
-
-  const exc = (a.excerpt || '');
-  return '<a class="card" href="' + articleUrl + '">'
+    ? '<div class="card-img-wrap"><img class="card-img" src="' + escAttr(imgSrc) + '" alt="' + titleEsc + '" ' + loadAttrs + '></div>'
+    : '<div class="card-img-wrap"><div class="card-no-img" aria-hidden="true">AI</div></div>';
+  return '<a class="' + cls + '" href="' + articleUrl + '" data-cat="' + escAttr(a.category || '') + '">'
     + imgHtml
     + '<div class="card-body">'
-    + '<div class="card-cat' + catColor(a.category) + '">' + escHtml(a.category || '') + '</div>'
+    + '<div class="card-cat">' + escHtml(catLabel(a.category)) + '</div>'
     + '<h2 class="card-title">' + escHtml(a.title || '') + '</h2>'
-    + '<div class="card-excerpt">' + escHtml(exc.substring(0, 140)) + (exc.length > 140 ? '&hellip;' : '') + '</div>'
-    + '<div class="card-foot">'
-    + '<span class="card-meta">' + escHtml(fmtDateShort(a.date)) + (a.author ? ' &middot; ' + escHtml(a.author) : '') + '</span>'
-    + '<span class="card-arrow" aria-hidden="true">&rarr;</span>'
-    + '</div></div></a>';
+    + '<div class="card-excerpt">' + (isFeatured ? escHtml(exc) : escHtml(exc.substring(0, 130)) + (exc.length > 130 ? '&hellip;' : '')) + '</div>'
+    + '<div class="card-foot"><span>' + escHtml(fmtDateShort(a.date)) + (readTime ? ' &middot; ' + escHtml(readTime) : '') + '</span>'
+    + '<span class="card-arrow" aria-hidden="true">&rarr;</span></div>'
+    + '</div></a>';
 }
 
 // Bake EVERY article into the static grid so crawlers without JS

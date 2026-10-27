@@ -418,4 +418,4 @@ Find out if your business is invisible to AI search right now, or calculate what
 
 [Is My Business Invisible to AI? →](https://report.audienceintent.ai)
 
-[Calculate My Lost Revenue →](https://lostrevenue.audienceintent.ai)
+[Book a Call →](https://www.audienceintent.ai/#book)

@@ -7,15 +7,12 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "insights"
-    label: "Insights"
+    label: "Answers"
     folder: "insights"
     create: true
     slug: "{{slug}}"
     summary: "{{title}}"
     view_filters:
-      - label: "Database Reactivation only"
-        field: category
-        pattern: "Database Reactivation"
       - label: "AI Recommended only"
         field: category
         pattern: "AI Recommended"
@@ -74,10 +71,9 @@ collections:
         name: "category"
         widget: "select"
         required: false
-        default: "Database Reactivation"
-        hint: "Pick the category this article relates to. This controls the category badge on the insights index card."
+        default: "AI Recommended"
+        hint: "AI Recommended shows as 'Getting recommended' on the Answers page. Company News shows as 'Company news'."
         options:
-          - "Database Reactivation"
           - "AI Recommended"
           - "Company News"
 

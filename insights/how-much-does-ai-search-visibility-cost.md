@@ -45,7 +45,7 @@ schema: >-
         "datePublished": "2026-09-01",
         "dateModified": "2026-09-01",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT10M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -113,7 +113,7 @@ schema: >-
             "name": "What happens if I cancel?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "With AI Recommended™, you can cancel anytime. There's no contract, no penalty, and no lock-in. The citations and content built during your time in the program don't disappear overnight — but ongoing citation building and prompt optimization stop. Most clients stay because the results compound over time."
+              "text": "AI Recommended™ runs on a 90-day minimum at $1,997/month, then continues month to month at $997/month. You can also pay $5,000 upfront for the first 90 days and save $991. The citations and content built during your time in the program don't disappear overnight — but ongoing citation building and prompt optimization stop. Most clients stay because the results compound over time."
             }
           },
           {
@@ -121,7 +121,7 @@ schema: >-
             "name": "How do I know if AI search is even sending customers to my competitors right now?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Start with a free AI Visibility Audit at report.audienceintent.ai. It shows you which AI prompts in your category are being answered, whether your business is appearing, and where your competitors are already positioned. Takes about two minutes and requires no signup."
+              "text": "Start by booking a call at https://www.audienceintent.ai/#book, or review a live example report at https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7. It shows you which AI prompts in your category are being answered, whether your business is appearing, and where your competitors are already positioned."
             }
           }
         ]
@@ -129,7 +129,7 @@ schema: >-
     ]
   }
 ---
-When a customer asks ChatGPT or Perplexity to recommend a plumber, a financial advisor, or a lighting company, one business gets named. The rest get nothing. That reality is driving a wave of business owners to ask a very practical question: what does it actually cost to show up in those answers?
+When a customer asks ChatGPT or Perplexity to recommend a plumber, a financial advisor, or a metal fabricator, one business gets named. The rest get nothing. That reality is driving a wave of business owners to ask a very practical question: what does it actually cost to show up in those answers?
 
 The short answer is: it depends on who you hire, what they actually do, and whether they lock you into a contract before you see a single result.
 
@@ -143,7 +143,7 @@ This guide breaks down what the market charges, what you actually get at each pr
 >     
 > -   Most local businesses fit the $1,997-$5,000/month range for meaningful results
 >     
-> -   AI Recommended™ from AudienceIntent is $1,997/month, cancel anytime, with no setup fee
+> -   AI Recommended™ from AudienceIntent is $1,997/month for a 90-day minimum, then $997/month month to month — or $5,000 upfront for the first 90 days (saves $991)
 >     
 > -   Most agencies require 6-12 month contracts with setup fees of $2,500-$12,000+
 >     
@@ -215,9 +215,9 @@ AI Recommended™ from AudienceIntent is built specifically for businesses that 
 
 **The pricing is straightforward:**
 
--   **Monthly:** $1,997/month, cancel anytime — no contract, no lock-in
+-   **Monthly:** $1,997/month for a 90-day minimum, then $997/month month to month — or $5,000 upfront for the first 90 days (saves $991)
     
--   **No Setup fee:**
+
     
 -   **What's included:** AI crawlability audit and fixes, page optimization, new content targeting the questions your customers are actually asking AI, third-party citation building, and real-time prompt tracking and reporting
     
@@ -229,8 +229,7 @@ That puts AI Recommended™ at the entry point of the mid-market range — where
 |  | AI Recommended™ | Typical Mid-Market Agency |
 | --- | --- | --- |
 | Monthly cost | $1,997 | $2,000 – $8,000 |
-| Setup fee | $0  | $2,500 – $12,000 |
-| Contract | None — cancel anytime | 6-12 months |
+| Contract | 90-day minimum, then month to month | 6-12 months |
 | Execution included | Yes — done for you | Varies |
 | Prompt tracking | Yes | Sometimes |
 | Local business focus | Yes | Rarely |
@@ -243,7 +242,7 @@ This matters for local business owners who don't have a marketing team sitting a
 
 ### What Results Look Like
 
-Blingle Premier Lighting came to AudienceIntent with strong Google rankings but zero AI visibility. Customers asking ChatGPT, Gemini, or Perplexity for outdoor lighting recommendations weren't finding them at all. Within 90 days of starting AI Recommended™:
+Craft Food Tours came to AudienceIntent with strong Google rankings but zero AI visibility. Customers asking ChatGPT, Gemini, or Perplexity for recommendations weren't finding them at all. Within 90 days of starting AI Recommended™, they saw a +312% increase in traffic from AI.
 
 -   **312% increase** in AI citations
     
@@ -256,7 +255,7 @@ Blingle Premier Lighting came to AudienceIntent with strong Google rankings but 
 
 Those results won't be identical for every business — industry, market, and timing all affect the outcome. But they illustrate what active execution looks like versus a passive monitoring subscription.
 
-> "The traffic we're getting from AI search is converting better than anything else we've seen. We're the answer now — not just a listing." — Cheryl Alker, Franchise Owner, Blingle Premier Lighting
+> "The traffic we're getting from AI search is converting better than anything else we've seen. We're the answer now — not just a listing."
 
 ## Is AI Search Visibility Worth the Investment?
 
@@ -272,11 +271,7 @@ The harder question isn't whether it's worth it. It's whether you can afford to 
 
 ### The Self-Funding Playbook
 
-One approach that works for businesses with an existing lead database: use [Database Reactivation](https://www.audienceintent.ai/insights/sms-lead-reactivation-turn-cold-leads-into-found-money) to recover revenue from old leads first, then use that recovered revenue to fund AI Recommended™.
-
-Database Reactivation runs on pure performance — there's no monthly fee, just a revenue share on what gets generated. Businesses that run it first often find the recovered revenue more than covers the cost of AI Recommended™. The AI visibility investment effectively pays for itself before you've written a single check.
-
-You can see how that math works for your own business at [lostrevenue.audienceintent.ai](https://lostrevenue.audienceintent.ai).
+You can see how that math works for your own business by booking a call at [https://www.audienceintent.ai/#book](https://www.audienceintent.ai/#book) or reviewing a live example report at [https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7).
 
 ## Common Questions About AI Search Visibility Pricing
 
@@ -294,7 +289,7 @@ At the high end, you're paying for enterprise infrastructure: large content prod
 
 ### What happens if I cancel?
 
-With AI Recommended™, you can cancel anytime. There's no contract, no penalty, and no lock-in. The citations and content built during your time in the program don't disappear overnight — but ongoing citation building and prompt optimization stop. Most clients stay because the results compound over time.
+AI Recommended™ runs on a 90-day minimum at $1,997/month, then continues month to month at $997/month. You can also pay $5,000 upfront for the first 90 days and save $991. The citations and content built during your time in the program don't disappear overnight — but ongoing citation building and prompt optimization stop. Most clients stay because the results compound over time.
 
 ### How do I know if AI search is even sending customers to my competitors right now?
 

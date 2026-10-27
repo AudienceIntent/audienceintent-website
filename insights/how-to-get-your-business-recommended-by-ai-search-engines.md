@@ -44,7 +44,7 @@ schema: >-
         "datePublished": "2026-06-03",
         "dateModified": "2026-06-03",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing, answer engine optimization",
         "timeRequired": "PT16M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -136,7 +136,7 @@ schema: >-
             "name": "How to start an AEO strategy today?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Start by auditing your current AI visibility: search for your business category in ChatGPT and Perplexity and see if you appear. Then fix NAP consistency across all directories, add schema markup to your key pages, and reformat your top five pages to lead with direct answers. Run a free AI Visibility Report to get a structured baseline before you start optimizing."
+              "text": "Start by auditing your current AI visibility: search for your business category in ChatGPT and Perplexity and see if you appear. Then fix NAP consistency across all directories, add schema markup to your key pages, and reformat your top five pages to lead with direct answers. Book a call to get a structured baseline before you start optimizing."
             }
           },
           {
@@ -149,10 +149,10 @@ schema: >-
           },
           {
             "@type": "Question",
-            "name": "What are the benefits of using AI agents for customer lead capture?",
+            "name": "What are the benefits of appearing in AI-recommended results?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI agents on your website capture and qualify leads from AI-referred traffic in real time, before visitors bounce. Since AI search visitors are already pre-qualified by the AI's recommendation, conversion rates are significantly higher than standard organic traffic. The primary benefit is speed: the first business to respond wins 78% of leads, and an AI agent responds instantly, 24 hours a day."
+              "text": "When your business appears in AI-recommended results, visitors arrive already pre-qualified by the AI's recommendation, which means conversion rates are significantly higher than standard organic traffic. Being cited by ChatGPT, Google AI, and Perplexity puts you in front of high-intent buyers at the exact moment they're deciding who to choose."
             }
           }
         ]
@@ -309,7 +309,7 @@ At scale, the AEO priorities shift toward catalog-level optimization and feed qu
 7.  **Publish one piece of answer-optimized content per month.** Pick a question your customers commonly ask. Write a 600-900 word page that answers it directly, with structured subheadings, a FAQ block, and the appropriate schema. One page per month, done properly, compounds into significant AI citation authority over 90 days.
     
 
-Use the [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai) to estimate what your current AI invisibility is costing you while you work through this list.
+See the live example report at [visibility.audienceintent.ai](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7) to get a sense of what AI visibility tracking looks like while you work through this list.
 
 ## Should You Do AEO Yourself or Hire an Agency?
 
@@ -338,11 +338,11 @@ If your category is competitive, your competitors are already showing up in AI a
     
 -   They have a documented methodology for schema implementation, content structuring, and third-party citation building.
     
--   They can show you real client results with named businesses and measurable citation growth, not just traffic graphs. See [real client results](https://results.audienceintent.ai) as an example of what documented AEO outcomes look like.
+-   They can show you real client results with named businesses and measurable citation growth, not just traffic graphs. For example, Craft Food Tours saw a +312% increase in traffic from AI within 90 days, and GoldenCrest Metals saw a +202.4% increase in visibility score within 90 days.
     
 -   They understand your business type. Local service AEO and DTC AEO are different disciplines. An agency that treats them the same doesn't know what they're doing.
     
--   They're month-to-month. AEO is a long-term strategy, but you shouldn't need to sign a 12-month contract to find out if an agency delivers.
+-   Pricing should be straightforward. AudienceIntent runs $1,997/month with a 90-day minimum, then $997/month month to month after that, or $5,000 upfront for the first 90 days (which saves $991). AEO is a long-term strategy, so expect a 90-day minimum commitment to start, not a 12-month contract.
     
 
 For a detailed breakdown of how to evaluate agencies in this space, including the red flags most businesses miss, read our guide on the [best AEO agencies for local businesses](https://www.audienceintent.ai/insights/best-aeo-agencies-for-local-businesses-and-why-most-get-it-wrong).

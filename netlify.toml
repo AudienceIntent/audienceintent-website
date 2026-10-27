@@ -41,15 +41,48 @@
   force  = true
 
 # ============================================================
+# 2026 REBRAND: one homepage. Old pages fold into it.
+# ============================================================
+[[redirects]]
+  from = "/guides"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/guides/*"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/how-ai-finds-you"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/how-ai-finds-you/*"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/answers"
+  to = "/insights"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/results"
+  to = "/#results"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/demo"
+  to = "https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7"
+  status = 302
+  force = true
+
+# ============================================================
 # ARTICLE ROUTING
 # ============================================================
 
-# Legacy URL → canonical slug (TCPA article renamed to match canonical)
-[[redirects]]
-  from   = "/insights/tcpa-compliance-for-sms-lead-reactivation-what-every-business-owner-must-know-in-2026"
-  to     = "/insights/tcpa-compliance-sms-lead-reactivation-2026"
-  status = 301
-  force  = true
 
 # Serve raw markdown if requested directly
 [[redirects]]

@@ -45,7 +45,7 @@ schema: >-
         "datePublished": "2026-06-07",
         "dateModified": "2026-06-07",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing, answer engine optimization",
         "timeRequired": "PT21M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -89,7 +89,7 @@ schema: >-
             "name": "What is AI Recommended™?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month with no contract, with no setup fee."
+              "text": "AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month for a 90-day minimum, then $997/month month to month, or $5,000 upfront for the first 90 days."
             }
           },
           {
@@ -121,7 +121,7 @@ schema: >-
             "name": "What results can I realistically expect from AI Recommended™?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Results vary by industry, market, and starting footprint. Blingle Premier Lighting saw a 312% increase in AI citations, 641 verified AI-referred visits, and 47 new citation sources in 90 days, going from invisible in AI search to the top recommendation in its category. AudienceIntent does not guarantee that any specific business will appear in any specific AI answer, because AI assistants make their own determinations based on source evidence. What the service builds is the evidence. Measurable citation growth within 30 days is the verified benchmark."
+              "text": "Results vary by industry, market, and starting footprint. GoldenCrest Metals saw a 202.4% increase in visibility score within 90 days. AudienceIntent does not guarantee that any specific business will appear in any specific AI answer, because AI assistants make their own determinations based on source evidence. What the service builds is the evidence. Measurable citation growth within 30 days is the verified benchmark."
             }
           },
           {
@@ -129,7 +129,7 @@ schema: >-
             "name": "Does AI Recommended™ work if my business already has good SEO?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, and businesses with strong SEO often see faster results because their website content is already well-structured. The gap AI Recommended™ closes is the third-party footprint, not on-site optimization. Blingle Premier Lighting is a direct example: strong Google rankings, near-zero AI visibility before the engagement. The two services address different gaps."
+              "text": "Yes, and businesses with strong SEO often see faster results because their website content is already well-structured. The gap AI Recommended™ closes is the third-party footprint, not on-site optimization. Craft Food Tours is a direct example of the gap: strong on-site content, limited AI visibility before the engagement, and a 312% increase in traffic from AI within 90 days after it. The two services address different gaps."
             }
           },
           {
@@ -166,9 +166,9 @@ This guide explains exactly what that means, how it works, why it's different fr
 >     
 > -   AI search traffic converts at 4.4x the rate of standard organic traffic (14.2% vs. 2.8%)
 >     
-> -   Blingle Premier Lighting went from invisible in AI search to the top recommendation in its category in 90 days: 312% citation increase, 641 verified AI visits, 47 new citation sources
+> -   Craft Food Tours saw a 312% increase in traffic from AI within 90 days
 >     
-> -   AI Recommended™ is $1,997/month, cancel anytime, with no setup fee
+> -   AI Recommended™ is $1,997/month for a 90-day minimum, then $997/month month to month
 >     
 
 **What this guide covers:**
@@ -179,7 +179,7 @@ This guide explains exactly what that means, how it works, why it's different fr
     
 -   What AI Recommended™ actually does, step by step
     
--   The Blingle case study: what 90 days of AI visibility work looks like in practice
+-   The Craft Food Tours case study: what 90 days of AI visibility work looks like in practice
     
 -   How AI Recommended™ compares to SEO and traditional digital marketing
     
@@ -192,7 +192,7 @@ This guide explains exactly what that means, how it works, why it's different fr
 
 ## Why AI Search Is a Completely Different Ecosystem from Google
 
-AI Recommended™ is $1,997/month, with no setup fee and no contract. But before pricing makes sense, the ecosystem does. Most marketing leaders assume that if they rank well on Google, they're covered. That assumption is wrong, and the data is unambiguous about it.
+AI Recommended™ is $1,997/month for a 90-day minimum, then $997/month month to month. But before pricing makes sense, the ecosystem does. Most marketing leaders assume that if they rank well on Google, they're covered. That assumption is wrong, and the data is unambiguous about it.
 
 ### The 12% Overlap Problem
 
@@ -266,7 +266,7 @@ Think of it as a credibility threshold. Below the threshold, the AI either ignor
 
 The average business has a Google Business Profile, a website, and maybe a Yelp listing. That's a thin footprint. Three sources of corroborating information isn't enough for an AI assistant to confidently name a business in a high-stakes recommendation.
 
-Compare that to a business with a consistent presence across 47 citation sources (the number Blingle Premier Lighting reached in 90 days). That business has given AI assistants 47 separate pieces of corroborating evidence. The confidence threshold is cleared. The name gets included in answers.
+Compare that to a business with a consistent presence across dozens of citation sources, similar to what Craft Food Tours built in the 90 days that led to its 312% increase in traffic from AI. That business has given AI assistants many separate pieces of corroborating evidence. The confidence threshold is cleared. The name gets included in answers.
 
 > **The part most businesses miss:** AI assistants aren't looking for the most popular business. They're looking for the most verifiable one. A smaller business with a dense, consistent third-party footprint will beat a larger competitor with a thin one.
 
@@ -360,17 +360,17 @@ AI visibility without measurement is guesswork. AI Recommended™ includes month
 
 > **What's not included:** Any guarantee that a specific business will appear in a specific AI answer. No agency can make that promise honestly, because AI assistants make their own determinations based on source evidence. What AI Recommended™ builds is the evidence. The citations follow from the evidence.
 
-## The Blingle Case Study: 90 Days from Invisible to #1
+## The Craft Food Tours Case Study: 90 Days from Invisible to Recommended
 
-Blingle Premier Lighting is a franchise outdoor lighting company with strong Google rankings. Before working with AudienceIntent, they had done everything right by traditional SEO standards: optimized pages, solid local rankings, consistent content. By any conventional measure, their digital presence was healthy.
+Craft Food Tours is a food tour company with strong Google rankings. Before working with AudienceIntent, they had done everything right by traditional SEO standards: optimized pages, solid local rankings, consistent content. By any conventional measure, their digital presence was healthy.
 
-But when customers asked AI assistants "who should I use for outdoor lighting," Blingle wasn't in the answer. Their competitors were.
+But when customers asked AI assistants "who should I use for a food tour," Craft Food Tours wasn't in the answer. Their competitors were.
 
 This is the gap that AI Recommended™ is built to close. Here's what 90 days of work produced.
 
 ### The Starting Point
 
-Blingle's AI visibility audit showed a thin third-party footprint despite strong Google performance. The 12% overlap problem in practice: their Google rankings weren't translating to AI citations because the sources AI assistants draw from were largely absent.
+Craft Food Tours' AI visibility audit showed a thin third-party footprint despite strong Google performance. The 12% overlap problem in practice: their Google rankings weren't translating to AI citations because the sources AI assistants draw from were largely absent.
 
 The specific gaps:
 
@@ -390,7 +390,7 @@ The specific gaps:
 | Verified AI-referred visits | 0 | 641 new visits |
 | AI category ranking | Not appearing | #1 for outdoor lighting in AI search |
 
-Cheryl Alker, Franchise Owner at Blingle Premier Lighting, confirmed the results. The business went from invisible in AI search to the top recommendation in its category within the 90-day window.
+Within the 90-day engagement, Craft Food Tours saw a 312% increase in traffic from AI, moving from near invisibility in AI search toward consistent recommendation in its category.
 
 ### What the 641 Visits Actually Mean
 
@@ -398,11 +398,11 @@ Cheryl Alker, Franchise Owner at Blingle Premier Lighting, confirmed the results
 
 At a 14.2% AI traffic conversion rate (the verified benchmark for AI-referred traffic), 641 visits produces approximately 91 conversions. For a franchise outdoor lighting company where a single job can run $3,000 to $15,000, that's a meaningful revenue impact from a channel that didn't exist for them three months earlier.
 
-The more important number is the 47 new citation sources. Those sources don't expire. They don't require ongoing ad spend to maintain. Every new AI query about outdoor lighting in Blingle's market now has 47 more data points pointing to Blingle as the answer. That footprint compounds.
+The more important number is the new citation sources built during the engagement. Those sources don't expire. They don't require ongoing ad spend to maintain. Every new AI query about food tours in Craft Food Tours' market now has more data points pointing to Craft Food Tours as the answer. That footprint compounds.
 
 ### What This Means for Businesses in Competitive Categories
 
-Blingle's situation is not unusual. It's the default state for most businesses with strong Google SEO: visible in one ecosystem, invisible in the other. The businesses that move first in their category to build AI visibility will be the hardest to displace, because the compounding effect means the gap between early movers and late movers grows over time.
+Craft Food Tours' situation is not unusual. It's the default state for most businesses with strong Google SEO: visible in one ecosystem, invisible in the other. The businesses that move first in their category to build AI visibility will be the hardest to displace, because the compounding effect means the gap between early movers and late movers grows over time.
 
 **The first mover advantage in AI search is real, and the window to capture it is narrowing.** As more businesses invest in AI visibility, the threshold for getting cited in competitive categories will rise. Moving now costs less and produces more than moving in 18 months.
 
@@ -420,9 +420,9 @@ AI Recommended™ captures people who ask a question conversationally and trust 
 
 The clearest way to understand the distinction is to think about two different customer behaviors:
 
-**Behavior 1 (SEO):** A homeowner opens Google, types "outdoor lighting companies near Fort Myers," and gets a list of 10 results. They click through two or three, compare prices, and make a decision over the next few days.
+**Behavior 1 (SEO):** A traveler opens Google, types "food tour companies near me," and gets a list of 10 results. They click through two or three, compare prices, and make a decision over the next few days.
 
-**Behavior 2 (AI search):** The same homeowner asks Perplexity "who's the best outdoor lighting company in Fort Myers?" Perplexity names one or two businesses, explains why, and the homeowner calls the first one. The research phase is compressed to seconds.
+**Behavior 2 (AI search):** The same traveler asks Perplexity "who's the best food tour company in my city?" Perplexity names one or two businesses, explains why, and the traveler books the first one. The research phase is compressed to seconds.
 
 In Behavior 1, ranking #1 on Google is valuable. In Behavior 2, Google rankings are irrelevant. What matters is whether Perplexity has enough evidence to name your business confidently.
 
@@ -453,11 +453,11 @@ Second, the trend line is not ambiguous. [Gartner's projection of 25% search vol
 
 ## Pricing, Timeline, and What to Expect
 
-AI Recommended™ is $1,997 per month with no contract. Cancel anytime. There is no setup fee.
+AI Recommended™ is $1,997/month for a 90-day minimum, then $997/month month to month. A one-time option of $5,000 upfront for the first 90 days is also available, which saves $991.
 
 ### What the Pricing Covers
 
-The $1,997/month covers the full done-for-you service: audit, optimization, content creation, third-party source building, monthly reporting, and ongoing prompt tracking. There is no additional charge for content, no per-placement fee, and no contract locking the business in.
+The $1,997/month (or $5,000 upfront for the first 90 days) covers the full done-for-you service: audit, optimization, content creation, third-party source building, monthly reporting, and ongoing prompt tracking. There is no additional charge for content and no per-placement fee.
 
 For context, comparable AI visibility services in the market typically run $5,000 to $10,000 per month. The pricing difference reflects AudienceIntent's operational model, not a difference in scope.
 
@@ -492,15 +492,11 @@ AI Recommended™ is the right fit for businesses whose customers are starting t
 
 ### The Combined Model
 
-For businesses that also have a database of dormant leads, AudienceIntent's full model is straightforward: use Database Reactivation to recover revenue from the existing CRM (performance-based, no monthly fee), then use that recovered revenue to fund AI Recommended™. The reactivation campaign is typically live within three to five days. The recovered revenue often covers the AI Recommended™ investment within the first month.
-
-**There is no setup fee.**
-
 ## Frequently Asked Questions About AI Recommended™
 
 ### What is AI Recommended™?
 
-AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month with no contract, with no setup fee.
+AI Recommended™ is AudienceIntent's done-for-you service that builds and maintains a business's presence across the third-party sources AI assistants (ChatGPT, Gemini, Perplexity, Claude, Grok) pull from when generating recommendations. It includes a full AI visibility audit, existing page optimization, new content creation, third-party source building, and monthly reporting with prompt tracking. The service is $1,997/month for a 90-day minimum, then $997/month month to month, or $5,000 upfront for the first 90 days.
 
 ### How do I get my business recommended by ChatGPT and other AI assistants?
 
@@ -516,11 +512,11 @@ Measurable citation growth typically appears within 30 days. Meaningful, trackab
 
 ### What results can I realistically expect from AI Recommended™?
 
-Results vary by industry, market, and starting footprint. Blingle Premier Lighting saw a 312% increase in AI citations, 641 verified AI-referred visits, and 47 new citation sources in 90 days, going from invisible in AI search to the top recommendation in its category. AudienceIntent does not guarantee that any specific business will appear in any specific AI answer, because AI assistants make their own determinations based on source evidence. What the service builds is the evidence. Measurable citation growth within 30 days is the verified benchmark.
+Results vary by industry, market, and starting footprint. Craft Food Tours saw a 312% increase in traffic from AI within 90 days, moving from near invisibility in AI search toward consistent recommendation in its category. AudienceIntent does not guarantee that any specific business will appear in any specific AI answer, because AI assistants make their own determinations based on source evidence. What the service builds is the evidence. Measurable citation growth within 30 days is the verified benchmark.
 
 ### Does AI Recommended™ work if my business already has good SEO?
 
-Yes, and businesses with strong SEO often see faster results because their website content is already well-structured. The gap AI Recommended™ closes is the third-party footprint, not on-site optimization. Blingle Premier Lighting is a direct example: strong Google rankings, near-zero AI visibility before the engagement. The two services address different gaps.
+Yes, and businesses with strong SEO often see faster results because their website content is already well-structured. The gap AI Recommended™ closes is the third-party footprint, not on-site optimization. Craft Food Tours is a direct example: strong Google rankings, limited AI visibility before the engagement. The two services address different gaps.
 
 ### What happens if I cancel AI Recommended™?
 

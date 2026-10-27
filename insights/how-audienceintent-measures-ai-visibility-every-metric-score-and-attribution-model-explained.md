@@ -45,7 +45,7 @@ schema: >-
         "datePublished": "2026-08-31",
         "dateModified": "2026-08-31",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT25M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -138,7 +138,7 @@ A score between 30 and 60 means your business is appearing but not dominating. Y
 
 A score above 60 means consistent, prominent visibility. At this level, the focus shifts to Sentiment and Citation Tracking: making sure the AI is saying the right things about you and linking to the right sources.
 
-> **The benchmark that matters:** Blingle Premier Lighting started near zero in AI search. After 90 days of AI Recommended™ work, they reached the top position in their category. The Overall Visibility Score tracked every step of that movement, which is how we knew the 312% citation increase was translating into actual ranking improvement, not just raw mention volume.
+> **The benchmark that matters:** Craft Food Tours started near zero in AI search. After 90 days of AI Recommended™ work, they reached a +312% increase in traffic from AI. The Overall Visibility Score tracked every step of that movement, which is how we knew the citation increase was translating into actual ranking improvement, not just raw mention volume.
 
 ## Mentions vs. Citations: Why the Distinction Matters
 
@@ -248,7 +248,7 @@ Early competitive ranking data also captures a strategic reality that is worth n
 
 Once a business has built a dense third-party footprint and is consistently named first across the majority of relevant prompts, displacing it requires a competitor to build an equivalent footprint from scratch, against a moving target. The gap compounds in the same direction as the advantage.
 
-> **The number that signals dominance:** When your share of prompt wins in your primary category exceeds 50%, you are the default recommendation in AI search for that category. That is the position Blingle Premier Lighting reached after 90 days. It is harder to reach in month one and significantly harder for a late-entering competitor to take from you once you hold it.
+> **The number that signals dominance:** When your share of prompt wins in your primary category exceeds 50%, you are the default recommendation in AI search for that category. That is the kind of position GoldenCrest Metals reached, with a +202.4% increase in visibility score after 90 days. It is harder to reach in month one and significantly harder for a late-entering competitor to take from you once you hold it.
 
 ## Prompt Tracking: The Exact Queries You Are and Are Not Winning
 
@@ -262,9 +262,9 @@ The initial prompt set is developed during onboarding based on your category, ge
 
 | Prompt Type | Example | Why It Matters |
 | --- | --- | --- |
-| Direct recommendation | "Who is the best outdoor lighting company in Fort Myers?" | Highest-intent query; captures buyers ready to decide |
-| Category comparison | "What should I look for in an outdoor lighting company?" | Positions you as the authority answer for evaluation criteria |
-| Problem-based | "Who can help me with holiday lighting installation near me?" | Captures demand at the problem-awareness stage |
+| Direct recommendation | "Who is the best option for this product or service?" | Highest-intent query; captures buyers ready to decide |
+| Category comparison | "What should I look for in a company like this?" | Positions you as the authority answer for evaluation criteria |
+| Problem-based | "Who can help me solve this specific problem?" | Captures demand at the problem-awareness stage |
 | Competitor-adjacent | "How does \[your business\] compare to \[competitor\]?" | Captures users already evaluating you against alternatives |
 
 ### Reading the Prompt Report
@@ -325,7 +325,7 @@ The citation source data in your monthly report shows which specific domains gen
 
 Citation tracking also reveals a risk that is easy to miss: source concentration. If 80% of your citations come from two sources, your AI visibility is fragile. A change in how either of those sources is indexed, or a policy change on the platform, can cut your citation rate significantly.
 
-[Research confirms that 85% of brand mentions in AI answers come from third-party sources](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity), not a brand's own domain. The goal is breadth: 47 citation sources, as Blingle reached, is more resilient than 5, regardless of how strong those 5 are.
+[Research confirms that 85% of brand mentions in AI answers come from third-party sources](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity), not a brand's own domain. The goal is breadth: dozens of citation sources, as our clients have reached, is more resilient than 5, regardless of how strong those 5 are.
 
 ## Platform Differences: ChatGPT, Perplexity, Google AI Overviews, Claude, and Grok
 

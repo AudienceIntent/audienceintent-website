@@ -44,7 +44,7 @@ schema: >-
         "datePublished": "2026-08-04",
         "dateModified": "2026-08-04",
         "articleSection": "Company News",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, answer engine optimization, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT4M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -128,7 +128,7 @@ schema: >-
     ]
   }
 ---
-At AudienceIntent, we help businesses capture more revenue. But from day one, we also wanted our work to mean something beyond growth.
+At AudienceIntent, we help businesses get recommended by AI. But from day one, we also wanted our work to mean something beyond growth.
 
 That is why we support charity: water.
 

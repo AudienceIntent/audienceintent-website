@@ -45,7 +45,7 @@ schema: >-
         "datePublished": "2026-07-29",
         "dateModified": "2026-07-29",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, answer engine optimization, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT15M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -311,11 +311,11 @@ From there, the work covers:
 -   **Revenue-focused reporting:** Connecting AI visibility to business outcomes, not just traffic metrics just traffic metrics
     
 
-One documented example: Blingle Premier Lighting had strong Google rankings but was invisible when customers asked AI assistants for outdoor lighting recommendations. After 90 days of AEO work, they held the top AI recommendation in their category, with 312% growth in AI citations and 641 new verified visits from AI search.
+One documented example: Craft Food Tours had strong Google rankings but was invisible when customers asked AI assistants for food tour recommendations. After 90 days of AEO work, they saw a 312% increase in traffic from AI.
 
 **The traffic quality difference is significant.** AI search visitors convert at 14.2% on average, compared to 2.8% for standard organic traffic — a 4.4x difference. Visibility in AI answers isn't just a branding metric; it's a revenue channel.
 
-If you want to see where your business stands before deciding anything, the [free AI Visibility Audit](https://report.audienceintent.ai) takes a few minutes and shows you exactly where you're invisible. You can also use the [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai) to estimate what that invisibility is costing you in missed conversions.
+If you want to see where your business stands before deciding anything, you can book a call at [https://www.audienceintent.ai/#book](https://www.audienceintent.ai/#book) or review a live example report at [https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7) to see exactly where a business is invisible in AI search.
 
 ![AudienceIntent free AI visibility audit tool showing answer engine optimization report interface](https://www.searchable.com/api/i/1bee95b7-793d-4657-a608-7701bd93dcb4)
 
@@ -363,7 +363,7 @@ Use this checklist when evaluating any answer engine optimization agency. A cred
 
 If you're ready to see where your business stands right now, run a free [AI Visibility Audit](https://report.audienceintent.ai). It takes a few minutes and shows you exactly which prompts mention your brand, which ones don't, and what your competitors are being cited for instead. No commitment required.
 
-Not sure what the gap is costing you? The [Lost Revenue Calculator](https://lostrevenue.audienceintent.ai) puts a number on it.
+Not sure what the gap is costing you? [Book a call](https://www.audienceintent.ai/#book) or review a [live example report](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7) to see what's possible.
 
 ## Frequently Asked Questions
 

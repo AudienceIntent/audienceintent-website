@@ -45,7 +45,7 @@ schema: >-
         "datePublished": "2026-09-09",
         "dateModified": "2026-09-09",
         "articleSection": "AI Recommended",
-        "keywords": "database reactivation, AI recommended, lead reactivation, AI search visibility, ChatGPT marketing, performance marketing",
+        "keywords": "AI recommended, answer engine optimization, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT22M",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -137,7 +137,7 @@ schema: >-
             "name": "How do I know if my business is currently visible to AI search?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Run the free AI Visibility Audit at report.audienceintent.ai. It shows which AI platforms are currently recommending your business, for which queries, and how your citation count compares to competitors in your category. It takes about two minutes and gives you a concrete baseline before you invest in any optimization work."
+              "text": "You can see a live example of an AI visibility report at https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7, or book a call at https://www.audienceintent.ai/#book to get your own. It shows which AI platforms are currently recommending your business, for which queries, and how your citation count compares to competitors in your category. It gives you a concrete baseline before you invest in any optimization work."
             }
           }
         ]
@@ -316,7 +316,7 @@ The conversion data across multiple 2025-2026 studies tells a consistent story:
 
 **The pattern is clear: people who find a business through an AI recommendation have already been through a research and vetting process.** The AI did the comparison work for them. By the time they arrive at your website or call your number, they're much further along in the buying decision than someone who clicked a search result.
 
-This also explains why [Blingle Premier Lighting saw 641 new verified visits from AI search within 60 days](https://audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible) of building their AI citation presence, and ranked number one for outdoor lighting in AI search within 90 days. The traffic volume was modest compared to their Google traffic. The intent level was not.
+This also explains why [Craft Food Tours saw a 312% increase in traffic from AI search within 90 days](https://audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible) of building their AI citation presence. The traffic volume was modest compared to their Google traffic. The intent level was not.
 
 The businesses that move first in their local market have a compounding advantage. AI systems learn from what's already being cited. The more a business gets cited, the more it gets cited. Early movers in most local categories are building a structural lead that will be difficult for later entrants to close.
 

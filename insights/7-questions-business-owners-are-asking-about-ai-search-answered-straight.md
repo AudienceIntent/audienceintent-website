@@ -34,11 +34,10 @@ schema: >-
         "image": {
           "@id": "https://www.audienceintent.ai/#logo"
         },
-        "description": "AudienceIntent is a fully managed performance marketing service offering Database Reactivation (AI-powered SMS, revenue share only) and AI Recommended (national AI citation campaign across ChatGPT, Claude, Gemini, Perplexity and Grok).",
-        "slogan": "Reactivate old leads. Get recommended by AI.",
+        "description": "AudienceIntent is a fully managed AI Recommended service offering a national AI citation campaign across ChatGPT, Claude, Gemini, Perplexity and Grok.",
+        "slogan": "Get recommended by AI.",
         "foundingDate": "2024",
         "email": "support@audienceintent.ai",
-        "telephone": "+1-848-358-7611",
         "priceRange": "$$",
         "currenciesAccepted": "USD",
         "paymentAccepted": "Credit Card, ACH, Wire Transfer",
@@ -62,7 +61,6 @@ schema: >-
         "contactPoint": [
           {
             "@type": "ContactPoint",
-            "telephone": "+1-848-358-7611",
             "email": "support@audienceintent.ai",
             "contactType": "customer support",
             "areaServed": "US",
@@ -83,15 +81,11 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#kevin-bovett"
         },
         "knowsAbout": [
-          "Database Reactivation",
           "AI Search Optimization",
           "Answer Engine Optimization (AEO)",
           "AI Citation Building",
           "Generative Engine Optimization (GEO)",
           "Performance Marketing",
-          "SMS Marketing",
-          "Lead Reactivation",
-          "TCPA Compliance",
           "ChatGPT Marketing",
           "Claude Search Optimization",
           "Perplexity Marketing",
@@ -104,18 +98,6 @@ schema: >-
             {
               "@type": "Offer",
               "itemOffered": {
-                "@id": "https://www.audienceintent.ai/#database-reactivation"
-              },
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "0",
-                "priceCurrency": "USD",
-                "description": "Revenue share only — no monthly fee. No setup fee."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
                 "@id": "https://www.audienceintent.ai/#ai-recommended"
               },
               "priceSpecification": {
@@ -123,7 +105,7 @@ schema: >-
                 "price": "1997",
                 "priceCurrency": "USD",
                 "billingIncrement": "P1M",
-                "description": "$1,997 per month, month-to-month, no contract. No setup fee."
+                "description": "$1,997/month for a 90-day minimum, then $997/month month to month; or $5,000 upfront for the first 90 days (saves $991)."
               }
             }
           ]
@@ -151,7 +133,6 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "knowsAbout": [
-          "Database Reactivation",
           "AI Search Optimization",
           "Answer Engine Optimization",
           "Performance Marketing"
@@ -165,41 +146,11 @@ schema: >-
         "@id": "https://www.audienceintent.ai/#website",
         "url": "https://www.audienceintent.ai/",
         "name": "AudienceIntent",
-        "description": "Reactivate old leads. Get recommended by AI. — Database Reactivation and AI Recommended marketing services.",
+        "description": "Get recommended by AI. — AI Recommended marketing services.",
         "publisher": {
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "inLanguage": "en-US"
-      },
-      {
-        "@type": "Service",
-        "@id": "https://www.audienceintent.ai/#database-reactivation",
-        "name": "Database Reactivation",
-        "alternateName": "Lead Reactivation",
-        "description": "Performance-based fully managed service that reactivates dormant leads, unconverted enquiries and past customers using AI-powered conversational SMS. Zero monthly fee. Revenue share only — businesses pay only when revenue is generated. Live within 3–5 days of onboarding. Requires TCPA compliant opt-in leads. No setup fee.",
-        "provider": {
-          "@id": "https://www.audienceintent.ai/#organization"
-        },
-        "serviceType": "Performance Marketing",
-        "category": "Lead Reactivation Marketing",
-        "areaServed": {
-          "@type": "Country",
-          "name": "United States"
-        },
-        "audience": {
-          "@type": "BusinessAudience",
-          "audienceType": "Businesses with dormant lead databases"
-        },
-        "offers": {
-          "@type": "Offer",
-          "priceSpecification": {
-            "@type": "UnitPriceSpecification",
-            "price": "0",
-            "priceCurrency": "USD",
-            "description": "Performance-based revenue share — no monthly fee. No setup fee."
-          },
-          "availability": "https://schema.org/InStock"
-        }
       },
       {
         "@type": "Service",
@@ -210,7 +161,7 @@ schema: >-
           "Answer Engine Optimization",
           "AI Citation Building"
         ],
-        "description": "Monthly national campaign that builds and maintains your business's citation presence across the data sources used by AI platforms — ChatGPT, Claude, Gemini, Perplexity and Grok. We optimise existing pages, create new content that answers customer queries, and track AI citations monthly. $1,997/month. Month-to-month. No contract. Cancel anytime. No setup fee.",
+        "description": "Monthly national campaign that builds and maintains your business's citation presence across the data sources used by AI platforms — ChatGPT, Claude, Gemini, Perplexity and Grok. We optimise existing pages, create new content that answers customer queries, and track AI citations monthly. $1,997/month for a 90-day minimum, then $997/month month to month; or $5,000 upfront for the first 90 days (saves $991).",
         "provider": {
           "@id": "https://www.audienceintent.ai/#organization"
         },
@@ -233,7 +184,7 @@ schema: >-
             "price": "1997",
             "priceCurrency": "USD",
             "billingIncrement": "P1M",
-            "description": "Month-to-month. Cancel anytime. No contract. No setup fee."
+            "description": "$1,997/month for a 90-day minimum, then $997/month month to month; or $5,000 upfront for the first 90 days (saves $991)."
           },
           "availability": "https://schema.org/InStock"
         }
@@ -653,7 +604,7 @@ This is the question that surprises business owners the most, because the assump
 
 Google rewards authority accumulated over time. AI platforms reward relevance to the specific question being asked, right now. A business with strong Google rankings but thin third-party presence, few reviews, and no structured Q&A content can be completely absent from AI answers.
 
-Blingle Premier Lighting is a real example of this. Strong Google rankings in their category. Invisible when customers asked AI assistants for outdoor lighting recommendations. After 90 days of focused AI citation work, they ranked as the top AI recommendation in their category and logged [641 new verified visits from AI search](https://results.audienceintent.ai).
+Craft Food Tours is a real example of this. After 90 days of focused AI citation work, they saw a +312% increase in traffic from AI.
 
 ## Question 4: Do AI Crawlers Require Their Own Setup to Access Your Site?
 

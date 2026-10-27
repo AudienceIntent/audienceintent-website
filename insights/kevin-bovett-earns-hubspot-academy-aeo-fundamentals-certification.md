@@ -145,7 +145,7 @@ The AEO Fundamentals Certification is part of HubSpot Academy's expanding focus 
 
 AudienceIntent's [AI Recommended™ service](https://www.audienceintent.ai) is built on the same principles this certification covers: structuring content so AI assistants can find it, evaluate it, and cite it when customers ask for recommendations.
 
-The certification is not what makes the work effective. The client results do that: [Vault Metal saw AI mentions increase from 169 to 7,808 in 90 days](https://results.audienceintent.ai), and [Blingle Premier Lighting went from invisible in AI search to the top recommendation in its category](https://results.audienceintent.ai) in the same timeframe. The certification adds a layer of independent, third-party verification that the practitioner running those campaigns understands the discipline at a foundational level.
+The certification is not what makes the work effective. The client results do that: [Vault Metal saw AI mentions increase from 169 to 7,808 in 90 days](https://www.audienceintent.ai/#book), and [Craft Food Tours saw a +312% increase in traffic from AI within 90 days](https://www.audienceintent.ai/#book) in the same timeframe. The certification adds a layer of independent, third-party verification that the practitioner running those campaigns understands the discipline at a foundational level.
 
 ### What AEO Practitioners Need to Know
 

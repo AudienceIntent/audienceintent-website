@@ -136,12 +136,17 @@ export default async (request, context) => {
   // good, so it drops out of the index faster than a 404.
   const GONE_PATHS = [
     '/blog/how-much-money-can-we-reactivate-for-you',
+    '/insights/we-got-rid-of-setup-fees-permanently',
+    '/onboarding-dbr',
   ];
-  if (GONE_PATHS.includes(url.pathname.replace(/\/+$/, ''))) {
+  // 2026 rebrand: AEO only. Every SMS / lead-reactivation article is gone for good.
+  const GONE_RE = /^\/(insights|blog)\/[^/]*(sms|reactivat|dormant|dead-leads|old-leads|crm|tcpa|found-money|lead-generation|leads-sitting)/i;
+  const cleanPath = url.pathname.replace(/\/+$/, '');
+  if (GONE_PATHS.includes(cleanPath) || cleanPath.startsWith('/onboarding-dbr/') || GONE_RE.test(cleanPath)) {
     return new Response(
       '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex"><title>Page removed | AudienceIntent</title></head>'
-      + '<body style="font-family:sans-serif;background:#1f283f;color:#f8f7f6;text-align:center;padding:80px 20px">'
-      + '<h1>This page has been removed</h1><p><a style="color:#00ff73" href="https://www.audienceintent.ai/insights">Browse our latest insights</a></p></body></html>',
+      + '<body style="font-family:sans-serif;background:#05070d;color:#fff;text-align:center;padding:80px 20px">'
+      + '<h1>This page has been removed</h1><p><a style="color:#00ff73" href="https://www.audienceintent.ai/">Go to the homepage</a> or <a style="color:#00ff73" href="https://www.audienceintent.ai/insights">browse answers</a></p></body></html>',
       { status: 410, headers: { 'content-type': 'text/html; charset=UTF-8', 'x-robots-tag': 'noindex' } }
     );
   }

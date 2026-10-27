@@ -447,4 +447,3 @@ If you want to know where you actually stand, start with a real audit. See where
 
 [Get your free AI Visibility Audit](https://report.audienceintent.ai) and find out how your business shows up across AI search right now.
 
-If you already know old leads are sitting in your CRM while new discovery gets harder, you can also [calculate your lost revenue](https://lostrevenue.audienceintent.ai) and see what inaction is costing you from both sides.

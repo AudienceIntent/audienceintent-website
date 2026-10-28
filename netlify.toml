@@ -44,6 +44,31 @@
 # 2026 REBRAND: one homepage. Old pages fold into it.
 # ============================================================
 [[redirects]]
+  from = "/privacy"
+  to = "/legal"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/terms"
+  to = "/legal"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/blog"
+  to = "/insights"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/blog/why-we-support-charity-water"
+  to = "/insights/why-we-support-charity-water"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/insights/what-is-answer-engine-optimization-aeo-the-complete-grade-for-2026"
+  to = "/insights/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026"
+  status = 301
+  force = true
+[[redirects]]
   from = "/guides"
   to = "/"
   status = 301

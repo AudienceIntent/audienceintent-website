@@ -108,6 +108,21 @@ function detectCrawler(userAgent) {
   return null;
 }
 
+// ── RETIRED CONTENT (410) ────────────────────────────────────
+// Old /blog/* and /insights/* articles removed in the 2026 rebrand.
+// Only applied when the page really 404s, so live articles are safe.
+const RETIRED_PREFIX_RE = /^\/(blog|insights)\/[^/]+$/i;
+const RETIRED_PATHS = ['/sms', '/reactivation', '/build', '/data', '/audience-onboarding', '/visibilityos'];
+
+function goneResponse() {
+  return new Response(
+    '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex"><title>Page removed | AudienceIntent</title></head>'
+    + '<body style="font-family:sans-serif;background:#05070d;color:#fff;text-align:center;padding:80px 20px">'
+    + '<h1>This page has been removed</h1><p><a style="color:#00ff73" href="https://www.audienceintent.ai/">Go to the homepage</a> or <a style="color:#00ff73" href="https://www.audienceintent.ai/insights">browse answers</a></p></body></html>',
+    { status: 410, headers: { 'content-type': 'text/html; charset=UTF-8', 'x-robots-tag': 'noindex' } }
+  );
+}
+
 // ── EDGE FUNCTION ────────────────────────────────────────────
 export default async (request, context) => {
   const url = new URL(request.url);
@@ -143,19 +158,21 @@ export default async (request, context) => {
   const GONE_RE = /^\/(insights|blog)\/[^/]*(sms|reactivat|dormant|dead-leads|old-leads|crm|tcpa|found-money|lead-generation|leads-sitting)/i;
   const cleanPath = url.pathname.replace(/\/+$/, '');
   if (GONE_PATHS.includes(cleanPath) || cleanPath.startsWith('/onboarding-dbr/') || GONE_RE.test(cleanPath)) {
-    return new Response(
-      '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex"><title>Page removed | AudienceIntent</title></head>'
-      + '<body style="font-family:sans-serif;background:#05070d;color:#fff;text-align:center;padding:80px 20px">'
-      + '<h1>This page has been removed</h1><p><a style="color:#00ff73" href="https://www.audienceintent.ai/">Go to the homepage</a> or <a style="color:#00ff73" href="https://www.audienceintent.ai/insights">browse answers</a></p></body></html>',
-      { status: 410, headers: { 'content-type': 'text/html; charset=UTF-8', 'x-robots-tag': 'noindex' } }
-    );
+    return goneResponse();
   }
 
   const ua      = request.headers.get('user-agent') || '';
   const crawler = detectCrawler(ua);
 
   // Continue request normally (non-crawler path exits early)
-  const response = await context.next();
+  let response = await context.next();
+
+  // Retired content: any old article under /blog/ or /insights/ that no
+  // longer exists, plus old top-level pages, answers 410 instead of 404
+  // so search engines drop it from their index faster.
+  if (response.status === 404 && (RETIRED_PREFIX_RE.test(cleanPath) || RETIRED_PATHS.includes(cleanPath))) {
+    return goneResponse();
+  }
   if (!crawler) return response;
 
   const referrer  = request.headers.get('referer') || '';

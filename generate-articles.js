@@ -82,6 +82,22 @@ const ORG_ID             = SITE_URL + '/#organization';
 // Today's date in ISO format for sitemap lastmod on static pages
 const TODAY = new Date().toISOString().split('T')[0];
 
+// Last commit date (YYYY-MM-DD) of a file, from git history. Used so
+// sitemap <lastmod> and schema dateModified reflect real edits
+// (Google ignores lastmod values that are always "today" or never change).
+// Returns '' when git or history is unavailable.
+const { execSync } = require('child_process');
+function gitDate(relPath) {
+  try {
+    return execSync('git log -1 --format=%cs -- "' + relPath + '"', { cwd: __dirname, stdio: ['ignore', 'pipe', 'ignore'] })
+      .toString().trim();
+  } catch (e) { return ''; }
+}
+// Latest of several YYYY-MM-DD strings (empty values ignored)
+function maxDate(...dates) {
+  return dates.filter(Boolean).map(d => String(d).slice(0, 10)).sort().pop() || '';
+}
+
 // Stop words used when auto-deriving a focus_keyword from a title.
 const STOP_WORDS = new Set([
   'a','an','and','are','as','at','be','been','but','by','can','could',
@@ -800,11 +816,11 @@ function auditArticle(article) {
 // ============================================================
 function generateSitemap(articles) {
   const staticPages = [
-    { url: '/',         priority: '1.0', changefreq: 'weekly',  lastmod: TODAY },
-    { url: '/insights', priority: '0.9', changefreq: 'daily',   lastmod: TODAY },
-    { url: '/about',    priority: '0.6', changefreq: 'monthly', lastmod: TODAY },
-    { url: '/referral/', priority: '0.5', changefreq: 'monthly', lastmod: TODAY },
-    { url: '/legal',    priority: '0.4', changefreq: 'monthly', lastmod: TODAY },
+    { url: '/',         priority: '1.0', changefreq: 'weekly',  lastmod: gitDate('index.html') || TODAY },
+    { url: '/insights', priority: '0.9', changefreq: 'daily',   lastmod: gitDate('insights/index.html') || TODAY },
+    { url: '/about',    priority: '0.6', changefreq: 'monthly', lastmod: gitDate('about.html') || TODAY },
+    { url: '/referral/', priority: '0.5', changefreq: 'monthly', lastmod: gitDate('referral/index.html') || TODAY },
+    { url: '/legal',    priority: '0.4', changefreq: 'monthly', lastmod: gitDate('legal.html') || TODAY },
   ];
 
   const staticUrls = staticPages.map(page => `  <url>
@@ -1236,6 +1252,10 @@ async function main() {
         console.log(`Parsing: ${filename}`);
         const text   = fs.readFileSync(path.join(INSIGHTS_DIR, filename), 'utf8');
         const parsed = parseFrontmatter(text, filename);
+        // Real last-modified date: the later of the frontmatter date and
+        // the file's last git commit (layout/thumbnail/copy edits count).
+        const gd = gitDate('insights/' + filename);
+        if (gd) parsed.updated_at = maxDate(parsed.updated_at, parsed.date, gd);
 
         if (!parsed.title || !parsed.date) {
           console.log('  SKIP: missing title or date\n');

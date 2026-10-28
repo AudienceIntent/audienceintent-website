@@ -937,7 +937,7 @@ function buildArticleBodyHtml(article) {
     + '<p>We get your business recommended by AI. See the weekly report our clients get, or book a call.</p>'
     + '<div class="ctas">'
     + '<button class="btn btn-blue" data-book>Book a call</button>'
-    + '<a class="btn btn-ghost" href="https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7" target="_blank" rel="noopener">Live Demo <span class="arrow">&rarr;</span></a>'
+    + '<a class="btn btn-ghost" href="https://report.audienceintent.ai/">Free AI Check <span class="arrow">&rarr;</span></a>'
     + '</div></div></div>';
 
   return '<section class="phero art-hero"><div class="wrap">'

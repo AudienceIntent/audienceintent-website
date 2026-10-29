@@ -725,7 +725,7 @@ footer{background:var(--night);color:#9aa3b5;border-top:1px solid var(--line-d);
 .ob-bar{height:5px;border-radius:99px;background:var(--line);overflow:hidden}
 .ob-bar i{display:block;height:100%;width:20%;border-radius:99px;background:linear-gradient(90deg,var(--blue),var(--green));transition:width .5s var(--ease)}
 .ob-card{padding:clamp(26px,4.4vw,52px)}
-.ob-form .step{display:none;border:0;padding:0;margin:0;min-width:0}
+.ob-form .step{display:none;border:0;padding:0;margin:0;min-width:0;background:none;border-radius:0;transform:none!important;box-shadow:none!important}
 .ob-form .step.active{display:block;animation:obIn .45s var(--ease)}
 @keyframes obIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 .step-head{margin-bottom:30px;padding-bottom:24px;border-bottom:1px solid var(--line)}

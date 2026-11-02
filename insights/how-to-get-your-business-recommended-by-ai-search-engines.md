@@ -1,398 +1,412 @@
 ---
 title: How to Get Your Business Recommended by AI Search Engines
-meta_title: "How to Get Your Business Recommended by AI Search Engines"
-date: 2026-06-03T09:53:00.000-04:00
+meta_title: How to Get Your Business Recommended by AI Search Engines
+date: 2026-11-01T23:02:00.000-05:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: Learn how to get your business recommended by AI search engines in
   2026, with AEO tactics for local services, DTC brands, and e-commerce.
-focus_keyword: AEO
+focus_keyword: AI Search
 canonical: ""
 image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg
 og_image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg
 schema: >-
   {
-    "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
-        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines#article",
-        "headline": "How to Get Your Business Recommended by AI Search Engines",
-        "description": "A practical AEO strategy for local service businesses, DTC brands, and high-volume e-commerce stores. Covers how AI search engines decide who to recommend, a business-type playbook, a 7-step starter checklist, and agency evaluation criteria.",
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg",
-          "width": 1200,
-          "height": 630
+        "@id": "https://www.audienceintent.ai/#organization",
+        "url": "https://www.audienceintent.ai",
+        "logo": {
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/assets/img/logo-black.png",
+          "@type": "ImageObject"
         },
-        "author": {
-          "@type": "Person",
-          "@id": "https://www.audienceintent.ai/#kevin-bovett",
-          "name": "Kevin Bovett",
-          "jobTitle": "Founder & CEO",
-          "url": "https://www.audienceintent.ai",
-          "sameAs": [
-            "https://www.linkedin.com/in/kevinbovett"
-          ],
-          "worksFor": {
-            "@id": "https://www.audienceintent.ai/#organization"
-          }
+        "name": "AudienceIntent",
+        "@type": "Organization",
+        "sameAs": [
+          "https://x.com/audienceintentx",
+          "https://www.linkedin.com/company/audienceintent/",
+          "https://www.facebook.com/audienceintent",
+          "https://www.instagram.com/audienceintent",
+          "https://www.youtube.com/@audienceintent",
+          "https://www.tiktok.com/@audienceintent",
+          "https://www.threads.com/@audienceintent",
+          "https://www.pinterest.com/audienceintent/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "FL",
+          "streetAddress": "9715 Wyeth CT",
+          "addressCountry": "US",
+          "addressLocality": "Wellington"
         },
-        "publisher": {
+        "legalName": "AudienceIntent",
+        "foundingDate": "2024"
+      },
+      {
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "name": "Kevin Bovett",
+        "@type": "Person",
+        "jobTitle": "Founder",
+        "worksFor": {
           "@id": "https://www.audienceintent.ai/#organization"
-        },
-        "datePublished": "2026-06-03",
-        "dateModified": "2026-06-03",
-        "articleSection": "AI Recommended",
-        "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing, answer engine optimization",
-        "timeRequired": "PT16M",
-        "inLanguage": "en-US",
-        "isPartOf": {
-          "@id": "https://www.audienceintent.ai/#website"
-        },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines"
         }
       },
       {
-        "@type": "BreadcrumbList",
-        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines#breadcrumb",
-        "itemListElement": [
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines#article",
+        "@type": "Article",
+        "image": {
+          "url": "https://www.audienceintent.ai/assets/img/logo-black.png",
+          "@type": "ImageObject"
+        },
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "headline": "How to Get Your Business Recommended by AI Search Engines",
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US",
+        "description": "A practical, evidence-led guide to how ChatGPT, Perplexity, and Google AI decide what to cite, what actually matters, and how to measure results.",
+        "dateModified": "2026-11-02",
+        "datePublished": "2026-11-02",
+        "mainEntityOfPage": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines",
+        "isAccessibleForFree": true
+      },
+      {
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
           {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "AudienceIntent",
-            "item": "https://www.audienceintent.ai"
+            "name": "What is AEO and why does it matter?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "AEO stands for Answer Engine Optimization. It is the practice of structuring your online presence so ChatGPT, Perplexity, and Google's AI features are more likely to recommend your business when people ask category-specific questions. It matters because more buying decisions are starting with a question instead of a search result.",
+              "@type": "Answer"
+            }
           },
           {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Insights",
-            "item": "https://www.audienceintent.ai/insights"
+            "name": "Is AEO the same as SEO?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "No. SEO helps you show up in Google results. AEO is about being cited or recommended in AI answers. They overlap, but the evidence shows they are not the same channel and Google rankings are not a reliable proxy for AI citations.",
+              "@type": "Answer"
+            }
           },
           {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "How to Get Your Business Recommended by AI Search Engines",
-            "item": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines"
+            "name": "How do AI search engines decide which businesses to recommend?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "The evidence points to several recurring signals: third-party mentions, answer-first content, accurate business information, structured data that matches visible content, and current information for anything that changes often. No platform has published a complete formula.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How long does AEO take to work?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Timelines vary by category, competition, and how quickly your pages are crawled again. Some businesses see citation changes within 30 to 60 days after implementation, while measurable referral traffic often takes 60 to 90 days or longer.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Can a small business compete with larger brands in AI search?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Yes. Smaller businesses can compete when they have better-structured pages, stronger reviews, clearer product or service information, and more useful third-party coverage. AI systems do not only pull from the biggest names.",
+              "@type": "Answer"
+            }
           }
         ]
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines#faq",
-        "mainEntity": [
+        "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines#breadcrumbs",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
           {
-            "@type": "Question",
-            "name": "What is AEO and why does it matter?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "AEO stands for Answer Engine Optimization. It's the practice of structuring your business's online presence so that AI assistants like ChatGPT, Perplexity, Claude, and Google's AI Overview recommend your business when customers ask questions in your category. It matters because AI search is now a primary discovery channel, and the businesses that get cited there are capturing high-intent buyers before they ever visit Google."
-            }
+            "item": "https://www.audienceintent.ai/insights",
+            "name": "Insights",
+            "@type": "ListItem",
+            "position": 1
           },
           {
-            "@type": "Question",
-            "name": "Is AEO the same as SEO?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. SEO gets you found on Google. AEO gets you recommended by AI. They share some foundations, like quality content and authoritative backlinks, but they target different algorithms and require different tactics. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means your Google rankings don't automatically translate to AI visibility."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do AI search engines decide which businesses to recommend?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "AI search engines evaluate five primary signals: authority citations from third-party sources, answer-formatted content that can be extracted and quoted, recency of content updates, consistent business data across directories, and third-party validation through reviews and press mentions. Businesses that score well across all five are the ones that get cited."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How long does AEO take to work?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Most businesses see measurable citation growth within 30 days of implementing core AEO changes, specifically schema markup, NAP consistency, and answer-formatted content. Meaningful AI referral traffic typically builds over 60 to 90 days. AEO is a compounding strategy. The earlier you start, the larger the citation advantage you build over competitors who wait."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can a small DTC brand compete with large national brands in AI search?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, and this is one of AEO's most significant advantages over traditional SEO. AI engines prioritize answer quality and source relevance over domain authority. A small brand with a well-structured comparison page, strong review velocity, and consistent product schema can outperform a national brand that hasn't optimized for AI extraction. The playing field is more level than it looks."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What does an AEO agency actually do?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A legitimate AEO agency audits your current AI citation rate, implements schema markup and structured data, reformats your content to be answer-first and extractable, builds your third-party citation profile across directories and review platforms, and tracks your citation growth across AI platforms monthly. They report on AI mention rates and referral traffic, not just Google rankings."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How to start an AEO strategy today?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Start by auditing your current AI visibility: search for your business category in ChatGPT and Perplexity and see if you appear. Then fix NAP consistency across all directories, add schema markup to your key pages, and reformat your top five pages to lead with direct answers. Book a call to get a structured baseline before you start optimizing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How can I improve my business visibility on ChatGPT and Perplexity?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "To improve visibility on ChatGPT and Perplexity, focus on three things: structured data markup so AI engines can parse your business details, answer-formatted content that can be extracted and cited directly, and third-party mentions across directories, review platforms, and publications that these AI engines trust. Perplexity in particular pulls heavily from Reddit, so authentic community presence in your category also matters."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What are the benefits of appearing in AI-recommended results?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "When your business appears in AI-recommended results, visitors arrive already pre-qualified by the AI's recommendation, which means conversion rates are significantly higher than standard organic traffic. Being cited by ChatGPT, Google AI, and Perplexity puts you in front of high-intent buyers at the exact moment they're deciding who to choose."
-            }
+            "item": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines",
+            "name": "How to Get Your Business Recommended by AI Search Engines",
+            "@type": "ListItem",
+            "position": 2
           }
         ]
       }
-    ]
+    ],
+    "@context": "https://schema.org"
   }
 ---
 
-**AEO (Answer Engine Optimization) is not the same as SEO.** SEO gets you found on Google. AEO gets you recommended by AI. They are separate disciplines targeting separate ecosystems, and in 2026, most businesses are only doing one of them.
+When someone opens ChatGPT, Perplexity, or Google's AI Overview and asks "who's the best HVAC company near me" or "what's the best protein powder under $40," your business either shows up in that answer or it doesn't. Getting into those answers is what Answer Engine Optimization (AEO) is about.
 
-If a potential customer opens ChatGPT, Perplexity, or Google's AI Overview and asks "who's the best HVAC company near me" or "what's the best protein powder under $40," your business either shows up in that answer or it doesn't. AEO determines which outcome you get.
+This guide covers what the current evidence actually says about how AI search engines decide who to recommend, what you can do about it based on your business type, and how to measure whether it's working.
 
-This guide covers exactly how AI search engines decide who to recommend, what you need to do by business type, and how to start your AEO strategy today.
+> **Before you read on:** No company, including this one, can guarantee that any AI engine will recommend your business. What follows is an honest account of what the evidence supports and where the gaps are.
 
-> **TL;DR**
-> 
-> -   AEO and SEO are separate ecosystems. Only 12% of pages cited by ChatGPT rank in Google's top 10.
->     
-> -   87.4% of all AI referral traffic comes from ChatGPT alone.
->     
-> -   AI-driven traffic converts at 2-3x the rate of Google organic.
->     
-> -   First movers in AEO have a 3-5x citation advantage over late adopters.
->     
-> -   Your AEO strategy differs based on whether you're a local service business, a DTC brand, or a high-volume e-commerce store.
->     
+## AEO vs. SEO: What's Actually Different
 
-## Why AI Search Has Changed Everything
+**SEO gets you found on Google. AEO gets you recommended by AI.** They're related but not the same, and treating one as a substitute for the other is where most businesses go wrong.
 
-AI search isn't a trend to watch. It's already the channel your customers are using, and the businesses showing up in those answers are capturing buyers before they ever open a browser tab.
+The clearest evidence of the gap: a [2025 Ahrefs study of 15,000 prompts](https://www.elmohq.com/blog/rankings-and-ai-citations) found that only about 8% of URLs cited by ChatGPT were also in Google's top 10 for the same query. Perplexity had higher overlap at around 28.6%. Google's AI Overviews started much closer to Google Search, at 76.1% overlap in July 2025, but that figure had dropped to 37.9% by March 2026.
 
-### For Local Service Businesses
+What this tells you: ranking well on Google doesn't reliably translate to being cited by AI engines, especially ChatGPT. The two channels are drawing from different source pools.
 
-When someone needs a plumber, a roofer, or an HVAC tech, they used to Google it. Now a growing share of them ask ChatGPT or Perplexity instead. According to the [Conductor 2026 AEO Benchmarks Report](https://www.conductor.com/academy/aeo-geo-benchmarks-report/), **87.4% of all AI referral traffic comes from ChatGPT alone.** That's not distributed across a dozen platforms. It's concentrated in one place, and whoever owns that citation owns the lead.
+**That said, the overlap is association, not causation.** The studies don't prove that improving your Google rankings will earn you more AI citations. They show the channels are partially related, not that one drives the other. For a fuller breakdown of where the two disciplines diverge, see our [AEO vs. SEO comparison](https://audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on).
 
-The problem for most local businesses is that AI assistants don't pull from your Google Business Profile the way Google Maps does. They pull from structured content, third-party mentions, and authoritative sources. If your business isn't showing up there, you're invisible to that customer.
+### Where the tactics differ
 
-### For DTC Brands and E-Commerce
-
-The shift is just as dramatic for product-based businesses. **83% of product discovery now happens through AI-powered channels**, meaning the customer who used to browse category pages on Google is now asking an AI what to buy. That's the entire top-of-funnel, rerouted.
-
-The conversion story makes it urgent. According to the [Erlin AEO Guide 2026](https://www.erlin.ai/blog/what-is-answer-engine-optimisation-the-guide-to-win-aeo-in-2026), **AI-driven traffic converts at 2-3x the rate of Google organic.** The same source reports that **first movers have a 3-5x citation advantage over late adopters**, meaning the brands building AEO authority now are compounding a lead that will be very hard to close later.
-
-And for brands worried about whether AEO cannibalizes their SEO work: it doesn't. [GenOptima's Q1 2026 research](https://www.gen-optima.com/geo/aeo-in-seo-how-answer-engine-optimization-integrates-with-ai-search-2026/) found that **74.2% of AI-cited content also performs well in traditional search.** The two strategies reinforce each other when done correctly.
-
-For a deeper look at why this is your most important channel right now, read our full breakdown of [AI search visibility in 2026](https://www.audienceintent.ai/insights/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-before-your-competitor-does).
-
-## AEO vs. SEO: What Carries Over and What Doesn't
-
-**SEO gets you found on Google. AEO gets you recommended by AI.** The tactics overlap in some areas and diverge sharply in others. Here's the breakdown:
-
-| Factor | SEO | AEO |
+| Signal | SEO | AEO |
 | --- | --- | --- |
 | Primary target | Google Search rankings | AI assistant citations |
 | Content format | Keywords, headers, metadata | Answer-first, self-contained passages |
-| Backlinks | High priority | Still valuable as authority signals |
-| Schema markup | Helpful | Critical |
-| Google Business Profile | Ranking factor | Indirect signal only |
+| Schema markup | Helpful | Useful for eligibility; not a citation guarantee |
 | Third-party citations | Minor factor | Major factor |
 | Review velocity | Moderate impact | Strong trust signal |
-| Page speed / Core Web Vitals | Direct ranking factor | Minimal direct impact |
-| NAP consistency | Local SEO factor | Critical for local AI recommendations |
-| FAQ sections | Nice to have | Essential for extraction |
+| NAP consistency | Local SEO factor | Critical for local recommendations |
+| FAQ sections | Nice to have | High extraction value |
 
-The important takeaway: **only 12% of pages cited by ChatGPT rank in Google's top 10.** The two channels are not the same audience, not the same algorithm, and not the same strategy. Treating AEO as "SEO but for AI" is the fastest way to do both poorly.
+The takeaway: some fundamentals carry over (accurate information, structured content, credible mentions), but the emphasis shifts considerably. [AI visibility and SEO are not the same thing](https://audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)), and the businesses learning that lesson now are building a lead that will compound.
 
-For a full breakdown of where these disciplines diverge, see our guide on [AI visibility vs SEO](https://www.audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)).
+## Does AI Search Traffic Actually Convert?
+
+This is the question most guides skip or oversimplify. The honest answer is: it depends on your industry, and the studies don't all agree.
+
+### What the data shows
+
+[First Page Sage's analysis](https://firstpagesage.com/seo-blog/conversion-rate-benchmarks/) across 218 sites (January 2023 through September 2026) reports visitor-to-lead rates of:
+
+-   **ChatGPT:** 4.7%
+    
+-   **Perplexity:** 4.1%
+    
+-   **Claude:** 3.9%
+    
+-   **Gemini:** 2.8%
+    
+-   **Google organic:** 1.9%
+    
+
+That looks compelling. But a separate study by Maximus Labs across 54 B2B SaaS sites found pooled AI referrals converting at 4.87% versus Google organic at 4.60%, a difference so small it wasn't statistically significant (p = 0.794).
+
+A third data point: [Usermaven's study](https://usermaven.com/research/ai-search-attribution-b2b-saas) of 150 B2B SaaS websites (October 2025 through September 2026, 15.38 million sessions) found that identifiable AI referrals made up just 0.88% of all sessions, with a same-session conversion rate of about 1.76%.
+
+### What to take from this
+
+These aren't contradictory findings, they're measuring different things across different industries and audiences. A few things hold across all of them:
+
+1.  AI referrals are currently a **small share of total traffic** for most businesses
+2.  The quality of that traffic varies considerably by platform and category
+3.  Google AI Mode visits may be counted as Google organic in your analytics, making platform comparisons harder than they look
+    
+
+**The practical read:** AI search isn't a volume play yet. It's a quality play. The visitors who arrive via ChatGPT or Perplexity tend to be further along in their decision. That makes the channel worth building, even if it won't replace your existing traffic sources anytime soon.
 
 ## How AI Search Engines Decide Who to Recommend
 
-AI assistants don't rank pages. They select sources they trust enough to cite in a direct answer. There are five signals that drive those decisions.
+AI assistants don't rank pages. They select sources they trust enough to cite in a direct answer. The signals that influence those decisions aren't fully documented by any platform, but the evidence points to five consistent factors.
 
-### 1\. Authority Citations
+### 1\. Third-party mentions and corroboration
 
-**AI engines weight third-party mentions heavily.** If credible external sources, industry directories, and authoritative publications reference your business or content, that's a strong signal. This is why 85% of brand mentions in AI answers come from third-party sources, not from the brand's own website. Your site matters, but what others say about you matters more.
+This is the biggest one. AI engines weight external mentions heavily, and [Google's own Search Central documentation](https://developers.google.com/search/docs/appearance/ai-features) confirms that pages must be indexed and eligible to appear in Google Search with a snippet. What that means in practice: if credible external sources, industry directories, and authoritative publications reference your business, that's a meaningful signal. Your own website matters, but what others say about you matters more.
 
-### 2\. Answer-Formatted Content
+### 2\. Answer-formatted content
 
-**AI can only cite what it can extract.** If your content is buried in walls of text with no clear structure, it won't get pulled. Pages that open with a direct, self-contained answer to a specific question, followed by supporting context, are the ones AI engines quote. Every major section on your site should lead with the answer, not build toward it.
+AI can only cite what it can extract. Pages that open with a direct, self-contained answer to a specific question, followed by supporting context, are the ones that get pulled. Every major section on your site should lead with the answer, not build toward it.
 
-### 3\. Recency
+### 3\. Accurate, consistent business information
 
-**Outdated content gets deprioritized.** AI engines favor sources that have been recently updated or published. A blog post from 2022 with no updates competes poorly against a page refreshed in the last six months. This isn't about posting constantly. It's about keeping your core pages current.
+Conflicting information signals unreliability. If your business name, address, phone number, or service descriptions vary across your website, Google Business Profile, Yelp, and other directories, AI engines treat that inconsistency as a red flag. This is especially true for local recommendations.
 
-### 4\. Consistent Business Data
+### 4\. Structured data (with realistic expectations)
 
-**Conflicting information signals unreliability.** If your business name, address, phone number, or service descriptions vary across your website, Google Business Profile, Yelp, and other directories, AI engines treat that inconsistency as a red flag. Consistent, accurate data across every touchpoint is table stakes for local AI recommendations.
+Schema markup helps AI systems interpret your content correctly. [Google's guidance](https://developers.google.com/search/docs/appearance/ai-features) recommends structured data that accurately reflects visible page content. What schema does not do, based on current evidence, is guarantee citations. One independent 2026 study found no measurable citation lift from adding JSON-LD. Use schema because it helps systems understand your content, not because it's a citation shortcut.
 
-### 5\. Third-Party Validation
+### 5\. Recency, where it matters
 
-**Reviews, ratings, and press mentions function as trust signals.** AI assistants pull from review platforms, industry publications, and community forums. A business with 200 recent, detailed reviews is more likely to be cited than one with 14 reviews from three years ago. This applies equally to local service businesses and DTC brands. Volume and recency both matter.
+Outdated information is a liability, particularly for anything time-sensitive: prices, availability, hours, service areas. [Google notes](https://developers.google.com/search/docs/appearance/ai-features) that recrawling can take days to months, so keeping core pages current matters, but it's not a universal citation advantage. For evergreen content, freshness is less decisive than accuracy.
 
-Understanding these five signals is what separates businesses that show up in AI answers from those that wonder [why competitors show up in AI search and you don't](https://www.audienceintent.ai/insights/why-your-competitor-shows-up-in-ai-search-and-you-dont).
+> **On llms.txt:** Some guides recommend publishing an llms.txt file at your domain root. The honest position is that the evidence for material citation impact is thin. Google has stated it ignores llms.txt for Search. It may have value for other crawlers, but treat it as an experiment, not a proven lever.
 
 ## The AEO Playbook by Business Type
 
-AEO isn't one-size-fits-all. The tactics that matter most depend on how your customers buy and where AI engines look for information about your category. Here's what to focus on based on your business model.
+AEO isn't one-size-fits-all. The tactics that matter most depend on how your customers buy and where AI engines look for information about your category.
 
-### Local Service Businesses
+### Local service businesses
 
-Local AEO starts with the data layer. **Your Google Business Profile, NAP consistency, and LocalBusiness schema are the foundation.** Without these in place, AI engines can't reliably identify your business as a local option, regardless of how good your content is.
+Local AEO starts with the data layer. Without accurate, consistent information across your web presence, AI engines can't reliably identify your business as a local option.
 
--   **Google Business Profile:** Keep it fully completed, with current hours, services, and photos. Claim it at [business.google.com](https://business.google.com) if you haven't.
-    
--   **NAP consistency:** Your Name, Address, and Phone number must be identical across your website, GBP, Yelp, Angi, HomeAdvisor, and every directory you're listed in.
-    
--   [**LocalBusiness schema**](https://schema.org/LocalBusiness)**:** Add structured data markup to your site so AI engines can parse your business details directly from the page.
-    
--   **Service page formatting:** Each service should have its own dedicated page that opens with a direct answer to "what does \[service\] include" and "how much does \[service\] cost." Answer-first structure is what gets cited.
-    
+**The foundation:**
 
-For a step-by-step local AEO implementation, follow the [7-day local AEO playbook](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai).
-
-### DTC Brands
-
-DTC AEO is about being findable when someone asks an AI to recommend a product in your category. **The brands that win here have product schema, review velocity, and consistent pricing across channels.**
-
--   **Product schema:** Implement structured data for every product, including price, availability, rating, and description. This is how AI engines extract product details.
+-   **Google Business Profile:** Keep it fully completed, with current hours, services, photos, and response to reviews.
     
--   **Amazon presence:** AI assistants frequently pull product data from Amazon. If you're not on Amazon or your listing is thin, you're missing a major citation source.
+-   **NAP consistency:** Your Name, Address, and Phone number must be identical across your website, Google Business Profile, Yelp, Angi, HomeAdvisor, and every directory you're listed in. Discrepancies read as unreliability.
     
--   **Review velocity:** New reviews signal active, trusted products. Prioritize post-purchase review requests.
+-   **LocalBusiness schema:** Add structured data markup so AI engines can parse your business details directly from the page. This won't guarantee recommendations, but it makes your information machine-readable.
     
--   **Comparison pages:** Build pages that directly compare your product to alternatives. AI engines use these to answer "what's the best X" queries.
+-   **Service pages:** Each service should have its own dedicated page that opens with a direct answer to what the service includes, who it's for, and what it costs.
     
--   **Pricing consistency:** If your price on your site, Amazon, and any retailer varies, AI engines flag the inconsistency. Consistent pricing builds trust signals.
+-   **Reviews:** Volume and recency both matter. A business with 200 recent, detailed reviews is more likely to be cited than one with 14 reviews from three years ago. Prioritize post-service review requests.
     
 
-The [BeSourceable DTC AEO Playbook](https://www.besourceable.com/blog/aeo-for-ecommerce-dtc-brands-2026) covers the technical implementation in depth for Shopify and WooCommerce brands.
+For a deeper dive, see [why ChatGPT recommends so few local businesses](https://audienceintent.ai/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently) and what the ones that do get cited have in common.
 
-### High-Volume E-Commerce
+### DTC brands
 
-At scale, the AEO priorities shift toward catalog-level optimization and feed quality. **Collection pages with embedded FAQ sections, clean Merchant Center feeds, and an llms.txt file are the three highest-leverage moves.**
+DTC AEO is about being findable when someone asks an AI to recommend a product in your category. The brands that win here have complete product information, strong review velocity, and consistent pricing.
 
--   **Collection pages with FAQ sections:** Add a 3-5 question FAQ block to every major category page. These are the passages AI engines extract when answering "what's the best \[category\]" queries.
+-   **Product schema:** Implement structured data for every product, including price, availability, rating, and description. Keep it accurate.
     
--   **Google Merchant Center feeds:** Keep your product data feed current and complete. AI-powered shopping features pull directly from Merchant Center.
+-   **Amazon presence:** AI assistants frequently pull product data from Amazon. If you're not there, or your listing is thin, you're missing a significant citation source.
     
--   **llms.txt:** Add an llms.txt file to your domain root that tells AI crawlers which pages to prioritize. This is the AEO equivalent of robots.txt.
+-   **Review velocity:** New reviews signal active, trusted products. Build post-purchase review requests into your flow.
     
--   **Reddit community engagement:** AI engines, especially Perplexity, pull heavily from Reddit. Participating authentically in relevant subreddits, or having your products discussed there, generates citation-ready mentions.
+-   **Comparison pages:** Build pages that directly compare your product to alternatives. These answer the exact questions buyers ask AI.
     
-
-## AEO Starter Checklist: 7 Steps You Can Start Today
-
-**You don't need a six-month roadmap to start your AEO strategy.** These seven steps cover the highest-leverage actions across all business types. Start at step one and work through the list.
-
-1.  **Audit your current AI visibility.** Before you optimize anything, find out where you stand. Run your business through a few prompts in ChatGPT and Perplexity. Ask "who are the best \[your category\] in \[your city/niche\]" and see if your business appears. A [free AI Visibility Report](https://report.audienceintent.ai) can give you a structured baseline.
-2.  **Lock down your NAP consistency.** Check your business name, address, and phone number across your website, Google Business Profile, Yelp, and any other directory you're listed in. Fix every discrepancy. This takes a few hours and pays dividends immediately.
-3.  **Add or update schema markup.** Implement the appropriate schema for your business type: LocalBusiness for service businesses, Product schema for DTC, FAQPage for content pages. If you're on WordPress, a plugin handles most of this. If you're on Shopify, it's built in for products.
-4.  **Reformat your top five pages to be answer-first.** Take your homepage, your top service or category pages, and your most-visited blog posts. Rewrite the opening of each section so the first sentence directly answers the question that section addresses. No preamble, no context-setting. Answer first.
-5.  **Add a FAQ section to every major page.** Three to five questions per page, answered in two to three sentences each. Write the questions the way a customer would actually ask them to an AI assistant. This is the single fastest way to get extracted and cited.
-6.  **Build or clean up your third-party presence.** Identify the top five directories, review platforms, or publications in your category. Make sure your business is listed, your information is accurate, and you have recent reviews. For local businesses, that's Google, Yelp, and two or three industry directories. For DTC, that's Amazon, your product category's top review sites, and Reddit.
-7.  **Publish one piece of answer-optimized content per month.** Pick a question your customers commonly ask. Write a 600-900 word page that answers it directly, with structured subheadings, a FAQ block, and the appropriate schema. One page per month, done properly, compounds into significant AI citation authority over 90 days.
+-   **Pricing consistency:** If your price on your site, Amazon, and any retailer varies, that inconsistency may cause AI engines to hedge or skip you.
     
 
-See the live example report at [visibility.audienceintent.ai](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7) to get a sense of what AI visibility tracking looks like while you work through this list.
+### High-volume e-commerce
 
-## Should You Do AEO Yourself or Hire an Agency?
+At scale, the priorities shift toward catalog-level optimization and feed quality.
 
-**Honest answer: it depends on how much time you have and how competitive your category is.** The checklist above is genuinely doable in-house. But execution is where most businesses stall.
+-   **Collection pages with FAQ sections:** Add a 3-5 question FAQ block to every major category page. These answer the comparison and compatibility questions buyers ask AI.
+    
+-   **Google Merchant Center feeds:** Keep your product data feed current and complete, including attributes, availability, and compatibility information.
+    
+-   **Independent product coverage:** AI engines draw heavily from review sites, editorial publications, and community forums. Products that have been reviewed by credible third parties are more likely to surface.
+    
 
-### When DIY Makes Sense
+## How to Measure Whether It's Working
 
-If you have someone on your team who owns content and technical implementation, you can run a solid AEO strategy in-house. The core work, which is schema markup, page reformatting, FAQ creation, and directory management, doesn't require an agency. It requires consistency.
+Most AEO guides stop at the tactics. This is the part that actually tells you if any of it is working.
 
-DIY works well when:
+The challenge: AI referrals are hard to measure cleanly. Google AI Mode visits may appear as Google organic in your analytics. ChatGPT doesn't always pass referrer data. And citation rates, the number of times an AI engine names your business in a response, aren't captured by standard analytics at all.
+
+Here's a measurement framework that works despite those limitations.
+
+### Track citations directly
+
+Run a fixed set of relevant prompts across ChatGPT, Perplexity, and Google AI on a consistent schedule, weekly or monthly. Record:
+
+-   Whether your business is mentioned
+    
+-   Whether it's cited with a link
+    
+-   Which competitors are mentioned instead
+    
+
+This is manual, but it's the most direct signal you have. For a systematic approach to tracking these numbers, see [how AudienceIntent measures AI visibility](https://audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained).
+
+### Track referrals in analytics
+
+In Google Analytics 4, filter sessions by source containing "chatgpt.com," "perplexity.ai," "claude.ai," and "gemini.google.com." Track:
+
+-   Sessions from each source
+    
+-   Pages they land on
+    
+-   Conversion events (form fills, calls, purchases)
+    
+
+Do this over consistent periods, month over month, so you can see direction of travel. Don't expect the numbers to be large early on.
+
+### What to look for over time
+
+| Timeframe | Realistic expectation |
+| --- | --- |
+| 0-30 days | Baseline established; technical fixes in place |
+| 30-60 days | First citation appearances for some prompts |
+| 60-90 days | Measurable referral traffic from AI sources |
+| 90+ days | Citation rate trends becoming clear |
+
+These are planning estimates, not guarantees. Timelines depend on your category, competition, how well your content is structured, and how quickly AI crawlers revisit your pages. [Google notes](https://developers.google.com/search/docs/appearance/ai-features) that recrawling can take days to months.
+
+> **The honest benchmark:** Vault Metal, a client of ours, went from 169 AI mentions to 7,808 in 90 days. That result came from a full implementation: technical fixes, content restructuring, third-party citation building, and tracked prompts from day one. Individual results vary. [Read the full case study](https://audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days).
+
+## AEO Starter Checklist: 7 Steps to Begin Today
+
+1.  **Run your own prompts.** Open ChatGPT, Perplexity, and Google AI. Ask the questions your customers ask. Note whether you appear, and save the results as your baseline.
+2.  **Fix NAP consistency.** Audit your business name, address, and phone number across your website, Google Business Profile, and every directory. Fix every discrepancy.
+3.  **Add or update schema markup.** Use LocalBusiness schema for service businesses, Product schema for e-commerce. Keep it accurate and matched to what's visible on the page.
+4.  **Reformat your top five pages to be answer-first.** Rewrite section openings so they directly answer the question the page is about, not build toward it.
+5.  **Add a FAQ section to every major page.** Three to five questions per page, answered in two to three sentences each. These are the passages AI engines extract.
+6.  **Build or clean up your third-party presence.** Make sure your business is listed accurately and has recent reviews on the platforms your customers use.
+7.  **Publish one piece of answer-optimized content per month.** Pick a common customer question and answer it directly and completely. One good piece beats ten thin ones.
+    
+
+## Should You Do AEO Yourself or Hire Someone?
+
+Honest answer: it depends on how much time you have and how competitive your category is.
+
+The checklist above is genuinely doable in-house. AEO doesn't require an outside company. It requires consistency, and that's where most businesses stall.
+
+### When DIY makes sense
 
 -   You're in a low-to-moderate competition category
     
 -   You have a content or marketing person with bandwidth
     
--   You're willing to track AI citation metrics monthly and adjust
+-   You're willing to run prompt tracking monthly and adjust based on what you find
     
 
-### When to Hire an AEO Agency
+### When to bring in help
 
-If your category is competitive, your competitors are already showing up in AI answers, and you don't have internal resources to execute consistently, an agency accelerates the timeline significantly. The first movers have a 3-5x citation advantage, and closing that gap takes more than a monthly checklist.
+If your competitors are already showing up in AI answers and you're not, and you don't have internal capacity to execute consistently, outside help can close that gap faster.
 
-**What to look for in an AEO agency:**
+**What to look for:**
 
--   They track AI citation rates, not just Google rankings. If an agency only reports on organic traffic and keyword positions, they're not doing AEO.
+-   They track citation rates, not just Google rankings
     
--   They have a documented methodology for schema implementation, content structuring, and third-party citation building.
+-   They have a documented methodology for schema, content structure, and third-party citation building
     
--   They can show you real client results with named businesses and measurable citation growth, not just traffic graphs. For example, Craft Food Tours saw a +312% increase in traffic from AI within 90 days, and GoldenCrest Metals saw a +202.4% increase in visibility score within 90 days.
+-   They can show real client results with named businesses and measurable citation growth
     
--   They understand your business type. Local service AEO and DTC AEO are different disciplines. An agency that treats them the same doesn't know what they're doing.
-    
--   Pricing should be straightforward. AudienceIntent runs $1,997/month with a 90-day minimum, then $997/month month to month after that, or $5,000 upfront for the first 90 days (which saves $991). AEO is a long-term strategy, so expect a 90-day minimum commitment to start, not a 12-month contract.
+-   Pricing is clear and doesn't require a long contract to understand
     
 
-For a detailed breakdown of how to evaluate agencies in this space, including the red flags most businesses miss, read our guide on the [best AEO agencies for local businesses](https://www.audienceintent.ai/insights/best-aeo-agencies-for-local-businesses-and-why-most-get-it-wrong).
-
-**On AI agents for lead capture:** One area where agencies add significant value is in deploying AI agents to capture leads from AI-referred traffic. When a customer comes to your site from a ChatGPT recommendation, they're already pre-qualified. An AI-powered conversational agent on your site can engage that visitor immediately, ask qualifying questions, and book the appointment or initiate the sale before they bounce. The benefit isn't just automation. It's speed-to-response, and the first business to respond wins 78% of leads.
+If you want to see where your business stands right now before making any decision, [get a free AI Visibility Report](https://audienceintent.ai) and see exactly where you appear across ChatGPT, Perplexity, and Google AI.
 
 ## Frequently Asked Questions
 
 ### What is AEO and why does it matter?
 
-AEO stands for Answer Engine Optimization. It's the practice of structuring your business's online presence so that AI assistants like ChatGPT, Perplexity, Claude, and Google's AI Overview recommend your business when customers ask questions in your category. It matters because AI search is now a primary discovery channel, and the businesses that get cited there are capturing high-intent buyers before they ever visit Google.
+AEO stands for Answer Engine Optimization. It's the practice of structuring your online presence so ChatGPT, Perplexity, and Google's AI Overview recommend your business when customers ask questions in your category. It matters because a growing share of buying decisions now start with a question asked to an AI, not a Google search.
 
 ### Is AEO the same as SEO?
 
-No. SEO gets you found on Google. AEO gets you recommended by AI. They share some foundations, like quality content and authoritative backlinks, but they target different algorithms and require different tactics. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means your Google rankings don't automatically translate to AI visibility.
+No. SEO gets you found on Google. AEO gets you recommended by AI. A 2025 Ahrefs study found that only about 8% of URLs cited by ChatGPT were also in Google's top 10 for the same query. The two channels overlap but draw from different source pools.
 
 ### How do AI search engines decide which businesses to recommend?
 
-AI search engines evaluate five primary signals: authority citations from third-party sources, answer-formatted content that can be extracted and quoted, recency of content updates, consistent business data across directories, and third-party validation through reviews and press mentions. Businesses that score well across all five are the ones that get cited.
+They look at third-party mentions and corroboration, answer-formatted content, accurate and consistent business information, structured data, and the recency of time-sensitive information. No platform has published a definitive ranking formula.
 
 ### How long does AEO take to work?
 
-Most businesses see measurable citation growth within 30 days of implementing core AEO changes, specifically schema markup, NAP consistency, and answer-formatted content. Meaningful AI referral traffic typically builds over 60 to 90 days. AEO is a compounding strategy. The earlier you start, the larger the citation advantage you build over competitors who wait.
+Most businesses see first citation appearances within 30-60 days of implementing core changes. Measurable referral traffic typically builds over 60 to 90 days. Google notes that recrawling can take days to months, so timelines vary.
 
 ### Can a small DTC brand compete with large national brands in AI search?
 
-Yes, and this is one of AEO's most significant advantages over traditional SEO. AI engines prioritize answer quality and source relevance over domain authority. A small brand with a well-structured comparison page, strong review velocity, and consistent product schema can outperform a national brand that hasn't optimized for AI extraction. The playing field is more level than it looks.
+Yes. Smaller brands can win with better-structured comparison pages, strong review velocity, and consistent product schema. AI engines don't just pull from the biggest names; they pull from the most useful and trustworthy sources for a given question.
 
-### What does an AEO agency actually do?
+### What does an AEO company actually do?
 
-A legitimate AEO agency audits your current AI citation rate, implements schema markup and structured data, reformats your content to be answer-first and extractable, builds your third-party citation profile across directories and review platforms, and tracks your citation growth across AI platforms monthly. They report on AI mention rates and referral traffic, not just Google rankings.
+A legitimate AEO company audits your current citation rate, implements schema markup, reformats content to be answer-first, builds your third-party citation profile, and tracks citation growth against a fixed set of prompts. They should be able to show you what they're tracking and what's changing.
 
-### How to start an AEO strategy today?
+### How do I know if my business is currently visible in AI search?
 
-Start by auditing your current AI visibility: search for your business category in ChatGPT and Perplexity and see if you appear. Then fix NAP consistency across all directories, add schema markup to your key pages, and reformat your top five pages to lead with direct answers. Run a [free AI Visibility Report](https://report.audienceintent.ai) to get a structured baseline before you start optimizing.
-
-### How can I improve my business visibility on ChatGPT and Perplexity?
-
-To improve visibility on ChatGPT and Perplexity, focus on three things: structured data markup so AI engines can parse your business details, answer-formatted content that can be extracted and cited directly, and third-party mentions across directories, review platforms, and publications that these AI engines trust. Perplexity in particular pulls heavily from Reddit, so authentic community presence in your category also matters.
-
-### What are the benefits of using AI agents for customer lead capture?
-
-AI agents on your website capture and qualify leads from AI-referred traffic in real time, before visitors bounce. Since AI search visitors are already pre-qualified by the AI's recommendation, conversion rates are significantly higher than standard organic traffic. The primary benefit is speed: the first business to respond wins 78% of leads, and an AI agent responds instantly, 24 hours a day.
+Open ChatGPT, Perplexity, and Google AI and ask the questions your customers ask. Note whether your business appears, and which competitors do instead. That's your baseline. You can also [get a free AI Visibility Report](https://audienceintent.ai) for a more systematic view.
 
 ## Start Here
 
-AI search is already deciding which businesses get recommended to your customers. The question is whether your business is on that list.
+AI search is already deciding which businesses get recommended to your customers. The question is whether yours is on that list.
 
-Two ways to find out and fix it:
+Two ways to find out:
 
-**Get your free AI Visibility Report** - See exactly where your business stands across ChatGPT, Perplexity, and Google AI. Takes two minutes. No signup required. [Run your free report at report.audienceintent.ai](https://report.audienceintent.ai)
+**Get your free AI Visibility Report** - See exactly where your business stands across ChatGPT, Perplexity, and Google AI, and which competitors are showing up instead.
 
-**Talk to us directly** - If you want a strategy built for your specific business type and category, [book a call](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi) and we'll walk through it together.
+**Talk to us directly** - [Book a call](https://audienceintent.ai) and we'll walk through it together. No pitch, no pressure. Just a straight answer on where you stand.

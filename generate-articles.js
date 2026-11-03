@@ -821,6 +821,10 @@ function generateSitemap(articles) {
     { url: '/about',    priority: '0.6', changefreq: 'monthly', lastmod: gitDate('about.html') || TODAY },
     { url: '/referral/', priority: '0.5', changefreq: 'monthly', lastmod: gitDate('referral/index.html') || TODAY },
     { url: '/legal',    priority: '0.4', changefreq: 'monthly', lastmod: gitDate('legal.html') || TODAY },
+    { url: '/es/',      priority: '0.8', changefreq: 'weekly',  lastmod: gitDate('es/index.html') || TODAY },
+    { url: '/es/about', priority: '0.5', changefreq: 'monthly', lastmod: gitDate('es/about.html') || TODAY },
+    { url: '/es/referral/', priority: '0.4', changefreq: 'monthly', lastmod: gitDate('es/referral/index.html') || TODAY },
+    { url: '/es/legal', priority: '0.3', changefreq: 'monthly', lastmod: gitDate('es/legal.html') || TODAY },
   ];
 
   const staticUrls = staticPages.map(page => `  <url>
@@ -1331,7 +1335,7 @@ async function main() {
     // Write sitemap.xml
     const sitemap = generateSitemap(cleanArticles);
     fs.writeFileSync(SITEMAP_FILE, sitemap);
-    console.log(`SUCCESS: sitemap.xml — ${cleanArticles.length + 4} URLs (4 static + ${cleanArticles.length} articles)`);
+    console.log(`SUCCESS: sitemap.xml — ${cleanArticles.length + 9} URLs (9 static + ${cleanArticles.length} articles)`);
 
     // Write sitemap-images.xml
     const imageSitemap = generateImageSitemap(cleanArticles);

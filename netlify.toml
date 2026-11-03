@@ -308,6 +308,12 @@
     X-Robots-Tag = "noindex, nofollow, noarchive"
 
 [[headers]]
+  for = "/es/onboarding/*"
+
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
   for = "/onboarding-dbr"
 
   [headers.values]

@@ -97,7 +97,7 @@ schema: >-
             "name": "What is AEO, and how is it different from SEO?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Claude, Gemini, Perplexity, Grok — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means these are genuinely separate ecosystems requiring separate strategies."
+              "text": "Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Google AI and Perplexity — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means these are genuinely separate ecosystems requiring separate strategies."
             }
           },
           {
@@ -113,7 +113,7 @@ schema: >-
             "name": "Does AI Recommended™ guarantee placement in AI answers?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No, and any agency claiming otherwise is misrepresenting how AI systems work. What we do guarantee is a documented strategy: structured content, entity and schema optimization, citation building across verified third-party sources, and real-time reporting on AI citation frequency. Results vary by industry, competition, and timing."
+              "text": "No. Nobody can guarantee a business will appear in a specific AI answer. AudienceIntent promises the work, done properly every month, and an honest report. Results vary by industry, competition, and timing."
             }
           },
           {
@@ -121,7 +121,7 @@ schema: >-
             "name": "How quickly does AI Recommended™ show results?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Measurable citation growth typically appears within 30 days. Meaningful, trackable AI search traffic typically builds within 60 to 90 days. The strategy compounds — early citation gains create authority signals that accelerate further citations over time."
+              "text": "Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why the service starts with 90 days."
             }
           },
           {
@@ -129,7 +129,7 @@ schema: >-
             "name": "How do I find out if my business is currently visible to AI assistants?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AudienceIntent offers a free AI Visibility Audit that shows exactly how your business appears across the major AI platforms. It takes about two minutes and requires no signup. Run yours at report.audienceintent.ai."
+              "text": "AudienceIntent's Free AI Check asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask. It shows whether they name you or a competitor and lists what to fix. It takes about two minutes. No signup needed to run it. Try the Free AI Check."
             }
           }
         ]
@@ -137,7 +137,6 @@ schema: >-
     ]
   }
 ---
-
 AudienceIntent has been named a **Searchable Certified Agency Partner** after completing the Searchable AI Search Accelerator — a six-week live cohort program built specifically for agencies delivering AI search optimization services.
 
 We're sharing this not to wave a badge around, but because the training itself changed how we work. This post breaks down what the program actually covers, how it sharpened the methodology behind AI Recommended™, and why it matters if you're evaluating whether an agency actually knows this space.
@@ -150,7 +149,7 @@ We're sharing this not to wave a badge around, but because the training itself c
 > * The program covers AEO, GEO, schema markup, entity optimization, and content built for AI citation — the full stack.
 > * AI Recommended™ now runs on a formally trained, independently verified methodology.
 > * Only 12% of pages cited by ChatGPT rank in Google's top 10. AI search and SEO are separate ecosystems.
-> * Get a free AI Visibility Audit at [report.audienceintent.ai](https://report.audienceintent.ai) to see where your business stands right now.
+> * Run the [Free AI Check](https://report.audienceintent.ai/) to see where your business stands in about two minutes.
 
 ## Most "AI Search" Agencies Are Just Rebranded SEO Shops
 
@@ -170,7 +169,7 @@ The program runs six weeks across three structured phases. It's a live cohort, n
 
 Before you can optimize anything, you need to know what AI assistants are doing with your content right now. Phase one covers the AI search landscape in depth, how to set up proper visibility tracking across platforms, and how to run a baseline analysis that reveals where a business is being cited, where it's being ignored, and why.
 
-Most businesses have no idea whether ChatGPT, Claude, Gemini, Perplexity, or Grok are mentioning them. Setting up the infrastructure to measure that accurately is step one.
+Most businesses have no idea whether ChatGPT, Google AI or Perplexity are mentioning them. Setting up the infrastructure to measure that accurately is step one.
 
 ### Phase 2: Content and Technical Optimization (Weeks 3–4)
 
@@ -199,7 +198,7 @@ Every AI Recommended™ engagement now runs on a methodology trained, tested, an
 
 **Schema and entity work done to the standard AI engines require.** This is one of the most commonly skipped or poorly executed parts of AI search optimization. The training covered implementation at the level of detail that actually influences AI comprehension — not checkbox schema, but structured data that accurately represents what a business is, who it serves, and where it operates.
 
-**Citation tracking with real data.** Certified partners operate with access to AI search intelligence tools that measure actual citation frequency across platforms. Clients see documented results — not estimated visibility, not traffic projections, but real citation data from ChatGPT, Claude, Gemini, Perplexity, and Grok.
+**Citation tracking with real data.** Certified partners operate with access to AI search intelligence tools that measure actual citation frequency across platforms. Clients receive a weekly visibility report covering ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 50 prompts tracked daily.
 
 ## Frequently Asked Questions
 
@@ -209,7 +208,7 @@ It's a credential awarded to agencies that complete the Searchable AI Search Acc
 
 ### What is AEO, and how is it different from SEO?
 
-Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Claude, Gemini, Perplexity, Grok — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means these are genuinely separate ecosystems requiring separate strategies.
+Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Google AI and Perplexity — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means these are genuinely separate ecosystems requiring separate strategies.
 
 ### What is GEO?
 
@@ -217,24 +216,21 @@ Generative Engine Optimization (GEO) is the practice of optimizing content for g
 
 ### Does AI Recommended™ guarantee placement in AI answers?
 
-No, and any agency claiming otherwise is misrepresenting how AI systems work. What we do guarantee is a documented strategy: structured content, entity and schema optimization, citation building across verified third-party sources, and real-time reporting on AI citation frequency. Results vary by industry, competition, and timing.
+No. Nobody can guarantee a business will appear in a specific AI answer. AudienceIntent promises the work, done properly every month, and an honest report. Results vary by industry, competition, and timing.
 
 ### How quickly does AI Recommended™ show results?
 
-Measurable citation growth typically appears within 30 days. Meaningful, trackable AI search traffic typically builds within 60 to 90 days. The strategy compounds — early citation gains create authority signals that accelerate further citations over time.
+Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why the service starts with 90 days.
 
 ### How do I find out if my business is currently visible to AI assistants?
 
-AudienceIntent offers a free AI Visibility Audit that shows exactly how your business appears across the major AI platforms. It takes about two minutes and requires no signup. Run yours at [report.audienceintent.ai](https://report.audienceintent.ai).
+AudienceIntent's Free AI Check asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask. It shows whether they name you or a competitor and lists what to fix. It takes about two minutes. No signup needed to run it. Try the [Free AI Check](https://report.audienceintent.ai/).
 
 ## Find Out Where You Stand
 
 Most businesses have no idea whether AI assistants are recommending them or recommending their competitors. That gap is costing them customers they never see leave.
 
-The free AI Visibility Audit answers that question in about two minutes. It shows how your business currently appears across ChatGPT, Claude, Gemini, Perplexity, and Grok — and where the gaps are. No signup required.
+The Free AI Check answers that question in about two minutes. It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. No signup needed to run it.
 
-[Run your free AI Visibility Audit](https://report.audienceintent.ai)
+[Run your Free AI Check](https://report.audienceintent.ai/)
 
-If you're ready to talk about what a certified AI search strategy looks like for your business, book a call directly:
-
-[Book a call with AudienceIntent](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi)

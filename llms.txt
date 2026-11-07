@@ -2,7 +2,7 @@
 
 > AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service: AI Recommended™. When people ask ChatGPT, Google AI or Perplexity who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
-Last updated: 2026-10-27
+Last updated: 2026-11-07
 
 Key facts:
 
@@ -68,7 +68,6 @@ Paid ads management, social media management, website builds, SMS or text-messag
 - [Home](https://www.audienceintent.ai/): The AI Recommended™ service, what's included, pricing, client results and FAQs.
 - [About Kevin Bovett](https://www.audienceintent.ai/about): Who runs AudienceIntent, his background and why the company exists.
 - [Answers](https://www.audienceintent.ai/insights): All AudienceIntent articles on AEO and getting recommended by AI.
-- [Live example report](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7): A real example of the weekly AI visibility report clients get.
 - [Free guide: Is Your Business Invisible to AI?](https://assets.cdn.filesafe.space/aBFslbFOOHFBP075Donz/media/6a14cbb8069d64aa5d364cb6.pdf): PDF guide for business owners on how AI picks who to recommend.
 - [Referral program](https://www.audienceintent.ai/referral/): Refer a business and earn 10% of the client's monthly fee.
 - [Legal](https://www.audienceintent.ai/legal): Terms, privacy and policies.
@@ -76,44 +75,28 @@ Paid ads management, social media management, website builds, SMS or text-messag
 
 ## Start here
 
-- [What Is Answer Engine Optimization (AEO)? The Complete Guide for 2026](https://www.audienceintent.ai/insights/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026): What AEO is, why it matters in 2026, and how businesses get cited by ChatGPT, Perplexity and Google AI.
-- [What Is AI Recommended and How Does It Work? The Complete Guide to Getting Cited by ChatGPT, Gemini, and Perplexity](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity): How the AI Recommended™ service works, what it costs and what 90 days of work looks like.
-- [How AI Search Engines Like ChatGPT Decide Which Businesses to Recommend (And How to Be One of Them)](https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them): How AI tools filter out most businesses and recommend the ones that are easiest to verify.
-- [Do You Know the 36 Other Places AI Checks Before Recommending You?](https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you): The 36 types of third-party sources AI checks before recommending a business, and where to start.
-- [How Much Does AI Search Visibility Cost?](https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost): What AI search visibility costs, what's included and how AudienceIntent prices it.
+- [What Is Answer Engine Optimization (AEO)? The Complete Guide for 2026](https://www.audienceintent.ai/insights/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026): What AEO (and GEO) is, why it matters, how it works and how to start.
+- [AEO vs SEO: Why They're Different and Why You Need Both](https://www.audienceintent.ai/insights/aeo-vs-seo): Why AEO and SEO are different, why you can rank #1 on Google and still be missing from AI, and why you need both.
+- [What Is AI Recommended and How Does It Work? The Complete Guide to](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity): How the AI Recommended™ service works, what's included, what it costs and what to expect.
+- [How Much Does AI Search Visibility Cost?](https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost): What AI search visibility costs in 2026, what's included at each level and how AudienceIntent prices it.
 - [No One Can Guarantee You'll Be the Number 1 Answer in AI Search. Here's What Actually Works.](https://www.audienceintent.ai/insights/no-one-can-guarantee-youll-be-the-number-1-answer-in-ai-search-heres-what-actually-works): Why nobody can guarantee the top AI answer, and what actually improves visibility.
-
-## AEO vs SEO
-
-- [AEO vs. SEO: Which Should You Focus On?](https://www.audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on): How AEO and SEO fit together and how to split effort between them.
-- [What Is AEO and GEO? Why They Supplement SEO Instead of Replacing It](https://www.audienceintent.ai/insights/what-is-aeo-and-geo-why-they-supplement-seo-instead-of-replacing-it): What AEO and GEO mean and why they add to SEO rather than replace it.
-- [Is AI Visibility the Same as SEO? No - and the Difference Is Costing You Customers](https://www.audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-%28no-and-the-difference-is-costing-you-customers%29): Why ranking in Google and being named by AI are two different things.
 
 ## How to get recommended by AI
 
-- [How to Get Your Business Recommended by ChatGPT, Perplexity, and Google AI](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai): Practical fixes for data accuracy, recency and trust that get a business recommended faster.
-- [How to Get Your Business Recommended by ChatGPT, Gemini, and Perplexity (And Why Most Businesses Are Invisible)](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible): How ChatGPT, Gemini, Claude, Perplexity and Grok choose businesses, and what to fix.
-- [How to Get Your Business Recommended by AI Search Engines](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines): AEO tactics for local services, direct-to-consumer brands and ecommerce.
-- [How to Make Your Business Visible to AI Search (A Step-by-Step Guide)](https://www.audienceintent.ai/insights/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide): A beginner's step-by-step guide to showing up in AI answers.
-- [Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)](https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it): Common reasons ChatGPT skips a business and the steps to fix each one.
-- [Why ChatGPT Recommends So Few Local Businesses, and What the Winners Do Differently](https://www.audienceintent.ai/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently): Why ChatGPT names so few local businesses and what the ones it names have in common.
-- [Why Your Competitor Shows Up in AI Search (And You Don't)](https://www.audienceintent.ai/insights/why-your-competitor-shows-up-in-ai-search-and-you-dont): Why a competitor appears in ChatGPT, Google AI and Perplexity when you don't.
-- [Is Your Business Invisible to AI Search? Here's Why — and How to Fix It](https://www.audienceintent.ai/insights/is-your-business-invisible-to-ai-search): Why businesses go missing from AI answers and what to fix first.
-- [How to Find an Answer Engine Optimization Agency in 2026](https://www.audienceintent.ai/insights/how-to-find-an-answer-engine-optimization-agency-in-2026): What to look for, and what to avoid, when hiring help with AEO.
-- [7 Questions Business Owners Are Asking About AI Search (Answered Straight)](https://www.audienceintent.ai/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight): Straight answers to the 7 AI search questions business owners ask most.
+- [How to Get Your Business Recommended by AI Search Engines](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines): Step-by-step guide to getting recommended by ChatGPT, Google AI and Perplexity, with notes by platform and business type.
+- [Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)](https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it): Why AI skips a business or names a competitor instead, a five-prompt self-test, and what to fix first.
+- [How AI Search Engines Like ChatGPT Decide Which Businesses to Recommend (And How to Be One of Them)](https://www.audienceintent.ai/insights/how-ai-search-engines-like-chatgpt-decide-which-businesses-to-recommend-and-how-to-be-one-of-them): How AI tools filter businesses and recommend the ones that are easiest to verify.
+- [Do You Know the 36 Other Places AI Checks Before Recommending You?](https://www.audienceintent.ai/insights/do-you-know-the-36-other-places-ai-checks-before-recommending-you): The 36 types of third-party sources AI checks before recommending a business, and where to start.
+- [How to Find an Answer Engine Optimization Partner in 2026](https://www.audienceintent.ai/insights/how-to-find-an-answer-engine-optimization-agency-in-2026): What to look for, and what to avoid, when hiring help with AEO.
 
 ## Measuring AI visibility
 
-- [How AudienceIntent Measures AI Visibility: Every Metric, Score, and Attribution Model Explained](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained): Every metric AudienceIntent reports: visibility score, mentions, citations, sentiment, prompts and attribution.
-- [How to Measure the Success of an AEO Campaign: Metrics, KPIs, and Benchmarks for 2026](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026): The KPIs and benchmarks that show whether AEO work is paying off.
-- [How to Track AI Mentions, Citations, and Share of Voice Across ChatGPT, Perplexity, and Google AI](https://www.audienceintent.ai/insights/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity-and-google-ai): A repeatable weekly way to track mentions, citations and share of voice across AI platforms.
+- [How to Measure the Success of an AEO Campaign: Metrics, KPIs, and Benchmarks for 2026](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026): The KPIs, benchmarks and a weekly method for tracking AI mentions, citations and share of voice.
+- [How AudienceIntent Measures AI Visibility: Every Metric, Score, and Attribution Model Explained](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained): Every metric in AudienceIntent's weekly report: visibility score, mentions, citations, sentiment, prompts and attribution.
 
 ## Why it matters for your business
 
-- [Why AI Search Visibility Is a Business Priority in 2026](https://www.audienceintent.ai/insights/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-before-your-competitor-does): Why AI search visibility now drives discovery and revenue, and why SEO alone is not enough.
-- [AI Recommended Your Competitor, Not You. Here's the Revenue Math.](https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math): What it costs when AI recommends a competitor instead of you.
-- [What Happens to Your Local Business If You Ignore AI Visibility for the Next 6 Months](https://www.audienceintent.ai/insights/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-months): What local businesses lose by ignoring AI visibility for six months.
-- [Why 98.8% of Local Businesses Are Invisible to AI (And the 4 Other Revenue Leaks Killing Growth)](https://www.audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth): Data on how few local businesses AI recommends, plus other common revenue leaks.
+- [AI Recommended Your Competitor, Not You. Here's the Revenue Math.](https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math): The business case: what it costs when AI recommends a competitor, and what waiting six months means.
 - [If a Miami Homeowner Asks AI Who to Call for Their Roof, Will Your Name Come Up?](https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up): A local roofing example of how customers now ask AI who to hire.
 
 ## Case studies

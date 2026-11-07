@@ -89,7 +89,7 @@ schema: >-
             "name": "How long before I see results from AI search visibility work?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Measurable citation growth typically begins within 30 days of active work. Meaningful, trackable AI traffic usually follows within 60-90 days. This is faster than traditional SEO, which typically takes 6-12 months to show movement. The key word is \"active\" — passive monitoring tools don't move the needle."
+              "text": "Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why the service starts with 90 days."
             }
           },
           {
@@ -97,7 +97,7 @@ schema: >-
             "name": "Do I need to cancel my SEO agency to start AI visibility work?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. SEO and AI search visibility are separate ecosystems with different ranking signals. Running both in parallel makes sense — SEO builds your Google presence, AI Recommended™ builds your presence in ChatGPT, Claude, Gemini, Perplexity, and Grok. They don't conflict."
+              "text": "No. SEO and AI search visibility are separate ecosystems with different ranking signals. Running both in parallel makes sense — SEO builds your Google presence, AI Recommended™ builds your presence in ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity. They don't conflict."
             }
           },
           {
@@ -113,7 +113,7 @@ schema: >-
             "name": "What happens if I cancel?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI Recommended™ runs on a 90-day minimum at $1,997/month, then continues month to month at $997/month. You can also pay $5,000 upfront for the first 90 days and save $991. The citations and content built during your time in the program don't disappear overnight — but ongoing citation building and prompt optimization stop. Most clients stay because the results compound over time."
+              "text": "AI Recommended™ runs on a 90-day minimum at $1,997/month, then continues month to month at $997/month. You can also pay $5,000 upfront for the first 90 days and save $991. The content and website fixes completed during your time in the program don't disappear overnight — but ongoing content work, page updates, and prompt tracking stop. Most clients stay because the results compound over time."
             }
           },
           {
@@ -121,7 +121,7 @@ schema: >-
             "name": "How do I know if AI search is even sending customers to my competitors right now?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Start by booking a call at https://www.audienceintent.ai/#book, or review a live example report at https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7. It shows you which AI prompts in your category are being answered, whether your business is appearing, and where your competitors are already positioned."
+              "text": "Start with the Free AI Check. It asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup needed to run it. !AudienceIntent Free AI Check showing whether AI names your business or a competitor --- Ready to find out where you stand? Run the Free AI Check. It takes about two minutes. No signup needed to run it."
             }
           }
         ]
@@ -156,28 +156,27 @@ This guide breaks down what the market charges, what you actually get at each pr
 
 Most business owners assume their existing SEO investment covers AI search. It doesn't — and the data makes that gap hard to ignore.
 
-[Research shows that only 12% of pages cited by ChatGPT rank in Google's top 10](https://www.audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)). These are almost entirely separate ecosystems. A business can rank on page one of Google and still be completely invisible when a customer asks an AI assistant for a recommendation.
+[Research shows that only 12% of pages cited by ChatGPT rank in Google's top 10](https://www.audienceintent.ai/insights/aeo-vs-seo)). These are almost entirely separate ecosystems. A business can rank on page one of Google and still be completely invisible when a customer asks an AI assistant for a recommendation.
 
 **Why the gap exists:** Google ranks pages based on links, keywords, and technical signals. AI assistants cite sources based on authority, structured content, third-party mentions, and how well a business answers the specific questions people are actually asking. The optimization playbook is different.
 
-The scale of the shift matters too. [Since AI Overviews appeared in Google search results, organic click-through rates have dropped 61%](https://www.audienceintent.ai/insights/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-before-your-competitor-does). Traffic that used to flow to websites is now being absorbed by AI-generated answers. Businesses that aren't in those answers aren't just missing a new channel — they're losing ground they already had.
+The scale of the shift matters too. [Since AI Overviews appeared in Google search results, organic click-through rates have dropped 61%](https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math). Traffic that used to flow to websites is now being absorbed by AI-generated answers. Businesses that aren't in those answers aren't just missing a new channel — they're losing ground they already had.
 
 ### What AI Search Visibility Services Actually Do
 
 When you pay for AI search visibility, you're paying for a specific set of activities that most traditional SEO agencies don't do:
 
 -   **Crawlability and structure:** Making sure AI systems can read, understand, and trust your business information
-    
--   **Content that answers real questions:** Creating pages and copy that directly answer what customers ask AI assistants
-    
--   **Third-party citation building:** Getting your business mentioned and cited on the external sources AI engines pull from — directories, review platforms, editorial sites
-    
--   **Prompt tracking and reporting:** Monitoring which AI prompts your business appears in and which ones you're missing
-    
--   **Ongoing optimization:** Adjusting based on what's working, what's not, and how AI engines are evolving
-    
 
-[85% of brand mentions in AI answers come from third-party sources](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai) — not from the business's own website. That's the core of why this work is different from SEO, and why it requires a different kind of investment.
+-   **Content that answers real questions:** Creating pages and copy that directly answer what customers ask AI assistants
+
+-   **Third-party citation building:** Getting your business mentioned and cited on the external sources AI engines pull from — directories, review platforms, editorial sites
+
+-   **Prompt tracking and reporting:** Monitoring which AI prompts your business appears in and which ones you're missing
+
+-   **Ongoing optimization:** Adjusting based on what's working, what's not, and how AI engines are evolving
+
+[85% of brand mentions in AI answers come from third-party sources](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines) — not from the business's own website. That's the core of why this work is different from SEO, and why it requires a different kind of investment.
 
 ## What AI Search Visibility Actually Costs in 2026
 
@@ -216,11 +215,8 @@ AI Recommended™ from AudienceIntent is built specifically for businesses that 
 **The pricing is straightforward:**
 
 -   **Monthly:** $1,997/month for a 90-day minimum, then $997/month month to month — or $5,000 upfront for the first 90 days (saves $991)
-    
 
-    
--   **What's included:** AI crawlability audit and fixes, page optimization, new content targeting the questions your customers are actually asking AI, third-party citation building, and real-time prompt tracking and reporting
-    
+-   **What's included:** A real team handles the work every month: crawler access (robots.txt, llms.txt, sitemaps); website fixes (schema, sitemap, on-page); customer question research; 4 new articles; 4 older page updates; a weekly visibility report with 50 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity; tracking of up to 5 competitors; a monthly progress call; and a shared Slack channel. Brand fixes include Google Business Profile optimization and consistent name, address, and phone details across major profiles. The price is the same for every business.
 
 That puts AI Recommended™ at the entry point of the mid-market range — where the serious work actually happens — without the 6-12 month contract that most agencies require before you see a single result.
 
@@ -228,7 +224,7 @@ That puts AI Recommended™ at the entry point of the mid-market range — where
 
 |  | AI Recommended™ | Typical Mid-Market Agency |
 | --- | --- | --- |
-| Monthly cost | $1,997 | $2,000 – $8,000 |
+| Monthly cost | $1,997 for the first 90 days, then $997 | $2,000 – $8,000 |
 | Contract | 90-day minimum, then month to month | 6-12 months |
 | Execution included | Yes — done for you | Varies |
 | Prompt tracking | Yes | Sometimes |
@@ -236,52 +232,45 @@ That puts AI Recommended™ at the entry point of the mid-market range — where
 
 ### What "Done for You" Actually Means
 
-Most agencies hand you a strategy document and a list of recommendations. Execution is either billed separately or assumed to be handled by your team. AI Recommended™ is fully managed — AudienceIntent writes the content, builds the sequences, and handles the optimization. You get monthly reporting on every metric that matters.
+Most agencies hand you a strategy document and a list of recommendations. Execution is either billed separately or assumed to be handled by your team. AI Recommended™ is fully managed — AudienceIntent writes the content, updates older pages, and handles the optimization. You get a weekly visibility report.
 
 This matters for local business owners who don't have a marketing team sitting around to implement agency recommendations.
 
 ### What Results Look Like
 
-Craft Food Tours came to AudienceIntent with strong Google rankings but zero AI visibility. Customers asking ChatGPT, Gemini, or Perplexity for recommendations weren't finding them at all. Within 90 days of starting AI Recommended™, they saw a +312% increase in traffic from AI.
+Real client results after 90 days with AudienceIntent:
 
--   **312% increase** in AI citations
-    
--   **641 new verified visits** from AI search in 60 days
-    
--   **47 new AI citation sources** built in the first 90 days
-    
--   Ranked as the **#1 AI recommendation** for outdoor lighting in their category
-    
+- **Vault Metal:** AI mentions grew from 169 to 7,808, and citations from 3 to 751.
+- **GoldenCrest Metals:** visibility score up 202.4%.
+- **Craft Food Tours:** traffic from AI up 312%.
 
 Those results won't be identical for every business — industry, market, and timing all affect the outcome. But they illustrate what active execution looks like versus a passive monitoring subscription.
 
-> "The traffic we're getting from AI search is converting better than anything else we've seen. We're the answer now — not just a listing."
-
 ## Is AI Search Visibility Worth the Investment?
 
-The ROI case for AI search visibility comes down to one number: [AI search traffic converts at 4.4 times the rate of standard organic traffic](https://www.audienceintent.ai/insights/why-your-competitor-shows-up-in-ai-search-and-you-dont) — 14.2% versus 2.8%. That's not a marginal improvement. It's a fundamentally different quality of visitor.
+The ROI case for AI search visibility comes down to one number: [AI search traffic converts at 4.4 times the rate of standard organic traffic](https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it). That's not a marginal improvement. It's a fundamentally different quality of visitor.
 
 When someone finds your business through a Google search, they're still in research mode. When an AI assistant recommends your business by name in response to a direct question, the customer has already decided they want what you offer. They're asking for a recommendation, not a list of options. That intent difference is what drives the conversion gap.
 
 **The math for a typical local service business:**
 
-If your average job or sale is worth $2,000, and AI search sends you 10 customers per month at a 14.2% conversion rate from inquiries, that's roughly $28,000 in monthly revenue from that channel alone. At $1,997/month, the ROI math isn't complicated.
+If your average job or sale is worth $2,000 and AI search brings you 10 paying customers per month, that's $20,000 in monthly revenue before costs. Compare that with the service price and your profit per sale to judge whether the investment makes sense.
 
-The harder question isn't whether it's worth it. It's whether you can afford to wait while your competitor locks in that position first. AI recommendations aren't a rotating list — once a business becomes the default answer in a category, it takes sustained effort to displace them.
+The harder question isn't whether it's worth it. It's whether you can afford to wait while your competitor locks in that position first. AI answers can vary by question and over time. Nobody can guarantee a business will appear in a specific AI answer. AudienceIntent promises the work, done properly every month, and an honest report.
 
 ### The Self-Funding Playbook
 
-You can see how that math works for your own business by booking a call at [https://www.audienceintent.ai/#book](https://www.audienceintent.ai/#book) or reviewing a live example report at [https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7](https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7).
+Start with the [Free AI Check](https://report.audienceintent.ai/) to see whether AI names your business or a competitor and what to fix. It takes about two minutes. No signup needed to run it.
 
 ## Common Questions About AI Search Visibility Pricing
 
 ### How long before I see results from AI search visibility work?
 
-Measurable citation growth typically begins within 30 days of active work. Meaningful, trackable AI traffic usually follows within 60-90 days. This is faster than traditional SEO, which typically takes 6-12 months to show movement. The key word is "active" — passive monitoring tools don't move the needle.
+Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why the service starts with 90 days.
 
 ### Do I need to cancel my SEO agency to start AI visibility work?
 
-No. SEO and AI search visibility are separate ecosystems with different ranking signals. Running both in parallel makes sense — SEO builds your Google presence, AI Recommended™ builds your presence in ChatGPT, Claude, Gemini, Perplexity, and Grok. They don't conflict.
+No. SEO and AI search visibility are separate ecosystems with different ranking signals. Running both in parallel makes sense — SEO builds your Google presence, AI Recommended™ builds your presence in ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity. They don't conflict.
 
 ### Why do some agencies charge $10,000+ per month for this?
 
@@ -289,14 +278,14 @@ At the high end, you're paying for enterprise infrastructure: large content prod
 
 ### What happens if I cancel?
 
-AI Recommended™ runs on a 90-day minimum at $1,997/month, then continues month to month at $997/month. You can also pay $5,000 upfront for the first 90 days and save $991. The citations and content built during your time in the program don't disappear overnight — but ongoing citation building and prompt optimization stop. Most clients stay because the results compound over time.
+AI Recommended™ runs on a 90-day minimum at $1,997/month, then continues month to month at $997/month. You can also pay $5,000 upfront for the first 90 days and save $991. The content and website fixes completed during your time in the program don't disappear overnight — but ongoing content work, page updates, and prompt tracking stop. Most clients stay because the results compound over time.
 
 ### How do I know if AI search is even sending customers to my competitors right now?
 
-Start with a free AI Visibility Audit at [report.audienceintent.ai](https://report.audienceintent.ai). It shows you which AI prompts in your category are being answered, whether your business is appearing, and where your competitors are already positioned. Takes about two minutes and requires no signup.
+Start with the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup needed to run it.
 
-![AudienceIntent free AI visibility audit tool showing whether your business appears in ChatGPT and Perplexity recommendations](https://www.searchable.com/api/i/f601527c-abd9-4981-a393-46ceb71fdbb5)
+![AudienceIntent Free AI Check showing whether AI names your business or a competitor](https://www.searchable.com/api/i/f601527c-abd9-4981-a393-46ceb71fdbb5)
 
 ---
 
-**Ready to find out where you stand?** Get your [free AI Visibility Audit](https://report.audienceintent.ai) or [book a call](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi) to talk through whether AI Recommended™ is the right fit for your business.
+**Ready to find out where you stand?** Run the [Free AI Check](https://report.audienceintent.ai/). It takes about two minutes. No signup needed to run it.

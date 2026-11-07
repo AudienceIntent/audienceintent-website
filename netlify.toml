@@ -203,6 +203,18 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/insights/is-ai-visibility-the-same-as-seo-%28no-and-the-difference-is-costing-you-customers%29"
+  to = "/insights/aeo-vs-seo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/is-ai-visibility-the-same-as-seo-%28no-and-the-difference-is-costing-you-customers"
+  to = "/insights/aeo-vs-seo"
+  status = 301
+  force = true
+
 # ============================================================
 # ARTICLE ROUTING
 # ============================================================

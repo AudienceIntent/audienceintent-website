@@ -10,8 +10,6 @@ focus_keyword: Answer Engine Optimization
 image: /images/uploads/thumbs/do-you-know-the-36-other-places-ai-checks-before-recommending-you.jpg
 og_image: /images/uploads/thumbs/do-you-know-the-36-other-places-ai-checks-before-recommending-you.jpg
 schema: >-
-  <script type="application/ld+json">
-
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -78,24 +76,73 @@ schema: >-
           }
         ],
         "mentions": [
-          { "@type": "SoftwareApplication", "name": "ChatGPT", "applicationCategory": "AI assistant" },
-          { "@type": "SoftwareApplication", "name": "Gemini", "applicationCategory": "AI assistant" },
-          { "@type": "SoftwareApplication", "name": "Claude", "applicationCategory": "AI assistant" },
-          { "@type": "SoftwareApplication", "name": "Perplexity", "applicationCategory": "AI assistant" },
-          { "@type": "Organization", "name": "Yext" },
-          { "@type": "Organization", "name": "Feefo" },
-          { "@type": "Organization", "name": "Rankability" },
-          { "@type": "Organization", "name": "Acromatico" },
-          { "@type": "Organization", "name": "Google Business Profile" },
-          { "@type": "Organization", "name": "Yelp" },
-          { "@type": "Organization", "name": "Bing Places" },
-          { "@type": "Organization", "name": "Foursquare" },
-          { "@type": "Organization", "name": "Apple Business Connect" },
-          { "@type": "Organization", "name": "Better Business Bureau" }
+          {
+            "@type": "SoftwareApplication",
+            "name": "ChatGPT",
+            "applicationCategory": "AI assistant"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Gemini",
+            "applicationCategory": "AI assistant"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Claude",
+            "applicationCategory": "AI assistant"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Perplexity",
+            "applicationCategory": "AI assistant"
+          },
+          {
+            "@type": "Organization",
+            "name": "Yext"
+          },
+          {
+            "@type": "Organization",
+            "name": "Feefo"
+          },
+          {
+            "@type": "Organization",
+            "name": "Rankability"
+          },
+          {
+            "@type": "Organization",
+            "name": "Acromatico"
+          },
+          {
+            "@type": "Organization",
+            "name": "Google Business Profile"
+          },
+          {
+            "@type": "Organization",
+            "name": "Yelp"
+          },
+          {
+            "@type": "Organization",
+            "name": "Bing Places"
+          },
+          {
+            "@type": "Organization",
+            "name": "Foursquare"
+          },
+          {
+            "@type": "Organization",
+            "name": "Apple Business Connect"
+          },
+          {
+            "@type": "Organization",
+            "name": "Better Business Bureau"
+          }
         ],
         "speakable": {
           "@type": "SpeakableSpecification",
-          "cssSelector": ["h1", "article > p:first-of-type"]
+          "cssSelector": [
+            "h1",
+            "article > p:first-of-type"
+          ]
         }
       },
       {
@@ -182,8 +229,6 @@ schema: >-
       }
     ]
   }
-
-  </script>
 ---
 Most business owners assume AI recommendations work like Google search: build a good website, maybe keep a Google Business Profile current, and the algorithm takes care of the rest. That assumption is wrong, and it is costing businesses real customers every day.
 
@@ -191,7 +236,7 @@ When someone asks ChatGPT, Perplexity, Gemini, or Claude to recommend a service 
 
 **The core problem:** A [September 2026 study analyzing 3,850 commercial prompts](https://markets.businessinsider.com/news/stocks/directories-supply-41-of-ai-citations-on-supplier-selection-prompts-new-geo-and-aeo-study-finds-1036547790) across ChatGPT, Google AI Mode, Perplexity, and Google AI Overviews found that sector directories supplied 41% of citations behind AI-generated provider recommendations, against just 18% for brand-owned pages. Your competitor with a mediocre website but strong third-party presence is getting recommended. You might not be.
 
-This article maps where AI recommendation engines actually look, compares owned media against earned media as visibility drivers, and gives you a prioritized view of which source categories move the needle most. The goal is not to overwhelm you with a list of 37 things to fix. It is to reframe the problem so you can act on the right things first.
+This article maps where AI recommendation engines actually look, compares owned media against earned media as visibility drivers, and gives you a prioritized view of which source categories move the needle most. The goal is not to overwhelm you with a list of 36 things to fix. It is to reframe the problem so you can act on the right things first.
 
 ## Owned Media vs. Earned Media: What AI Actually Weighs
 
@@ -208,11 +253,10 @@ AI engines are in the business of making recommendations people trust. To do tha
 The data confirms this across multiple large studies:
 
 -   Across multiple 2026 citation studies, **82% to 85% of the sources AI engines cite** in product and recommendation answers come from third parties, not the brand's own domain.
-    
+
 -   A [Yext Research analysis of 155.5 million AI citations](https://geoaura.world/blog/geo-for-local-businesses) in Q1 2026 found that between 69% and 85% of citations point to sources a brand can influence but does not own outright.
-    
+
 -   In a study of 100 live "best \[category\] in \[city\]" searches through Gemini, [directory and ranking sites appeared in 78% of answers](https://acromatico.com/research/ai-recommendation-study-2026). Individual business websites appeared too, but almost always as one-off citations in the long tail, never as a top-cited source.
-    
 
 ### The Platform Split Makes This Worse
 
@@ -233,9 +277,9 @@ A business optimized only for Gemini (strong Google Business Profile, well-struc
 
 ## The Six Source Categories AI Checks (and How to Prioritize Them)
 
-The 37 individual sources AI engines check are not equally important, and treating them as a flat list is the wrong way to approach this. Group them into six categories, understand what each category signals to the engine, and you can prioritize the work that actually changes your citation rate.
+The 36 individual sources AI engines check are not equally important, and treating them as a flat list is the wrong way to approach this. Group them into six categories, understand what each category signals to the engine, and you can prioritize the work that actually changes your citation rate.
 
-### Category 1: Review Platforms (Highest Leverage)
+### Category 1: Review Platforms (Highest Impact)
 
 Reviews are not just a reputation signal. They are a verification layer. AI engines use them to separate what a business claims about itself from what customers actually experienced.
 
@@ -246,17 +290,16 @@ The bar is also higher than most businesses realize. AI platforms have been obse
 **Key review platforms by engine:**
 
 -   **ChatGPT:** Yelp, TripAdvisor, Foursquare reviews (cannot access Google Reviews)
-    
+
 -   **Gemini:** Google Reviews (primary), Trustpilot
-    
+
 -   **Perplexity:** Yelp, Google Reviews, industry-specific platforms (Healthgrades, Avvo, Angi)
-    
+
 -   **Claude:** BBB, high-trust industry directories, verified review platforms
-    
 
 The practical priority: volume and recency of reviews on Yelp and Google matter most across the broadest set of engines. If your Yelp profile has 12 reviews from 2021, that is a problem for ChatGPT visibility specifically.
 
-### Category 2: Directories and Listing Platforms (High Leverage)
+### Category 2: Directories and Listing Platforms (High Impact)
 
 This is the category most businesses underestimate. Directories are not just for SEO anymore. They are the primary citation source for AI on supplier-selection queries.
 
@@ -277,7 +320,7 @@ The most cited directory and listing platforms across AI engines in the U.S.:
 
 Consistency across these platforms is not optional. ChatGPT's local data accuracy is only about 68%, meaning a third of what it says about your business can be wrong if your listings are stale or inconsistent. An incorrect phone number on Foursquare or an outdated address on Bing Places does not just inconvenience customers; it reduces your citation eligibility.
 
-### Category 3: Community Discussions and UGC (Medium-High Leverage)
+### Category 3: Community Discussions and UGC (Medium-High Impact)
 
 Reddit is the most cited single domain across AI platforms, appearing in roughly 40% of LLM citations across all major engines, according to an aggregated index of 680 million citations harvested from ChatGPT, Google AI Overviews, Perplexity, Gemini, and Claude between August 2024 and April 2026.
 
@@ -287,7 +330,7 @@ For Perplexity specifically, Reddit accounts for 46.7% of top sources. This is n
 
 Other community sources that factor in: Quora threads, Nextdoor business recommendations, Facebook Groups, and niche forums specific to your industry.
 
-### Category 4: Editorial and Publisher Coverage (Medium Leverage)
+### Category 4: Editorial and Publisher Coverage (Medium Impact)
 
 When an AI engine wants to corroborate a recommendation, it looks for third-party editorial coverage: news articles, "best of" lists, industry publications, and ranked guides. Forbes, for example, appeared in 11 of 100 answers in the Gemini recommendation study. Healthgrades appeared in 9.
 
@@ -295,7 +338,7 @@ This category is harder to earn quickly, but it compounds. A mention in a credib
 
 The key distinction: these are not links for SEO. They are entity mentions that confirm your business exists, operates in a specific category, and has been recognized by a credible third party. The engine does not need to rank the article. It needs to find the mention.
 
-### Category 5: Structured Data and Knowledge Graph Signals (Medium Leverage)
+### Category 5: Structured Data and Knowledge Graph Signals (Medium Impact)
 
 AI engines build entity models of businesses: a structured understanding of who you are, what you do, where you operate, and how you relate to other entities. Structured data on your website (LocalBusiness schema, FAQ schema, service-area markup) feeds this model directly.
 
@@ -304,15 +347,14 @@ Wikipedia and Wikidata play a role here for larger or more established businesse
 **Structured data priorities:**
 
 -   LocalBusiness schema with accurate NAP (name, address, phone), categories, hours, and service area
-    
--   FAQ schema on service pages (maps to how customers phrase AI queries)
-    
--   Review schema to surface aggregate ratings
-    
--   Breadcrumb and sitelinks schema for entity clarity
-    
 
-### Category 6: Social Profiles and Brand Mentions (Lower Leverage, Still Real)
+-   FAQ schema on service pages (maps to how customers phrase AI queries)
+
+-   Review schema to surface aggregate ratings
+
+-   Breadcrumb and sitelinks schema for entity clarity
+
+### Category 6: Social Profiles and Brand Mentions (Lower Impact, Still Real)
 
 Social profiles are the weakest signal category for AI recommendations, but they are not irrelevant. Claude draws 19.5% of its citations from review platforms and social profiles, roughly 7.5 times OpenAI's rate of about 2.6%. If Claude is part of your target audience's AI behavior, social presence matters more than it does for ChatGPT optimization.
 
@@ -341,11 +383,10 @@ Not every business needs to be on every platform. The right starting point depen
 These are the signals that, if wrong or missing, actively disqualify you from AI recommendations regardless of what else you do.
 
 -   **Review rating below 4.0 on major platforms.** This is close to a hard floor for AI recommendation eligibility, not a ranking nudge. Address it before building out listings.
-    
+
 -   **Inconsistent NAP data across platforms.** Name, address, and phone number must match exactly across Google, Yelp, Bing, Foursquare, and any directory you appear in. Inconsistency creates entity confusion.
-    
+
 -   **Unclaimed or stale listings on Yelp, Bing Places, and Foursquare.** These three feed ChatGPT directly. A stale listing is worse than no listing because it can contain wrong information that gets cited.
-    
 
 ### Tier 2: Build the Core Earned Media Stack
 
@@ -358,31 +399,28 @@ Once the baseline is clean, build presence in the platforms with the highest cit
 5.  **Apple Business Connect** (overlooked by most businesses, feeds Siri and Apple Maps AI)
 6.  **BBB accreditation** (high-trust signal for Claude and Perplexity)
 7.  **Your top 2-3 vertical directories** (Angi for home services, Healthgrades for healthcare, Avvo for legal, etc.)
-    
 
 ### Tier 3: Earn the Harder Signals
 
 These take longer but compound over time and are harder for competitors to replicate quickly.
 
 -   **Community presence:** Genuine mentions in Reddit threads, Nextdoor recommendations, and local Facebook Groups. These cannot be manufactured, but they can be earned by being active and excellent in your market.
-    
--   **Editorial coverage:** A spot on a credible "best of" list, a local news mention, or a trade publication feature. Pitch these proactively; they do not happen by accident.
-    
--   **Content that answers real questions:** Pages on your site that directly answer the questions your customers ask AI assistants, structured with FAQ schema, are cited at higher rates than generic service pages.
-    
 
-> **The compounding effect matters.** [Rankability's 2026 citation study](https://www.rankability.com/blog/ai-search-statistics/) found that pages cited across eight or more queries had a 43.3% top-10 AI citation rate, compared to 15.5% for pages cited only once. Presence across multiple source categories creates a citation flywheel: the more places you appear, the more likely AI engines are to cite you, which increases the probability of appearing in future answers.
+-   **Editorial coverage:** A spot on a credible "best of" list, a local news mention, or a trade publication feature. Pitch these proactively; they do not happen by accident.
+
+-   **Content that answers real questions:** Pages on your site that directly answer the questions your customers ask AI assistants, structured with FAQ schema, are cited at higher rates than generic service pages.
+
+> **The compounding effect matters.** [Rankability's 2026 citation study](https://www.rankability.com/blog/ai-search-statistics/) found that pages cited across eight or more queries had a 43.3% top-10 AI citation rate, compared to 15.5% for pages cited only once. Presence across multiple source categories can build on itself: the more places you appear, the more likely AI engines are to cite you, which increases the probability of appearing in future answers.
 
 ### What Not to Do
 
 A few common mistakes that waste time or actively hurt AI visibility:
 
 -   **Optimizing only for Google.** Google's AI ecosystem (Gemini, AI Overviews) and ChatGPT pull from almost entirely different source sets. Ranking well in Google Search does not transfer to ChatGPT recommendations.
-    
+
 -   **Chasing domain authority for directories.** The September 2026 study found a weak correlation (Spearman rank of 0.19) between a directory's domain authority and how often it was cited. Coverage depth within a stated category was the stronger predictor. Being listed thoroughly in a niche directory beats a thin listing on a high-DA general one.
-    
+
 -   **Treating AI visibility as a one-time project.** Roughly 75% to 88% of the sources AI cites change day to day. Platforms update, engines reweight sources, and new directories gain traction. This requires ongoing monitoring, not a single audit.
-    
 
 ## The Real Question Is What You Do Next
 
@@ -392,7 +430,7 @@ Your website is not the problem. The gap in your earned media footprint is.
 
 The first step is knowing where you actually stand. Most businesses have no idea how they appear across the source categories that matter, which listings are stale, which review platforms are dragging down their citation eligibility, or which AI engines are currently recommending a competitor instead of them.
 
-**Run the free** [**AI Visibility Audit at report.audienceintent.ai**](https://report.audienceintent.ai)**.** It shows you where you stand across the sources AI engines check, what is incomplete or inconsistent, and where the highest-leverage gaps are. Takes a few minutes. The results are specific to your business and your category, not a generic checklist.
+**Run the [Free AI Check](https://report.audienceintent.ai/).** It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. Takes about two minutes. No signup needed to run it.
 
 The businesses that move on this now are building a citation footprint that compounds. The ones that wait are watching competitors get recommended in their place.
 
@@ -410,7 +448,6 @@ Use this as a working checklist. The six categories match the prioritization fra
 6.  Healthgrades (healthcare)
 7.  Avvo (legal)
 8.  Houzz (home improvement)
-    
 
 ### Category 2: Directories and Listing Platforms
 
@@ -425,7 +462,6 @@ Use this as a working checklist. The six categories match the prioritization fra
 17.  Hoover's / Dun & Bradstreet (B2B)
 18.  Chamber of Commerce directories
 19.  Industry association member directories
-     
 
 ### Category 3: Community Discussions and UGC
 
@@ -434,7 +470,6 @@ Use this as a working checklist. The six categories match the prioritization fra
 22.  Nextdoor (local business recommendations)
 23.  Facebook Groups (local and niche community groups)
 24.  Alignable (small business community)
-     
 
 ### Category 4: Editorial and Publisher Coverage
 
@@ -444,7 +479,6 @@ Use this as a working checklist. The six categories match the prioritization fra
 28.  Forbes, Inc., Entrepreneur (for broader category mentions)
 29.  Podcast mentions and episode show notes
 30.  Guest articles and bylined contributor pieces
-     
 
 ### Category 5: Structured Data and Knowledge Graph Signals
 
@@ -453,11 +487,9 @@ Use this as a working checklist. The six categories match the prioritization fra
 33.  Wikidata entity record (for established businesses)
 34.  Wikipedia (for businesses with sufficient notability)
 35.  Schema.org review and aggregate rating markup
-   
 
 ### Category 6: Social Profiles and Brand Mentions
 
 36.  LinkedIn company page (especially for B2B and professional services)
-     
 
 > **Note on scope:** Several of these sources overlap in function depending on your industry. A legal practice weights Avvo and Justia more heavily than Angi. A home services business reverses that. The six-category framework matters more than hitting every individual source. Prioritize the platforms where your customers already look and where the AI engines serving your market pull most of their data.

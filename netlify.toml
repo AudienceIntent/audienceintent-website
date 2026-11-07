@@ -105,6 +105,117 @@
   force = true
 
 # ============================================================
+# CONTENT LIBRARY CLEANUP (Nov 2026): merged articles -> 301 to the page they joined
+# ============================================================
+[[redirects]]
+  from = "/insights/what-is-aeo-and-geo-why-they-supplement-seo-instead-of-replacing-it"
+  to = "/insights/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/7-questions-business-owners-are-asking-about-ai-search-answered-straight"
+  to = "/insights/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/aeo-vs-seo-which-should-you-focus-on"
+  to = "/insights/aeo-vs-seo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)"
+  to = "/insights/aeo-vs-seo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers"
+  to = "/insights/aeo-vs-seo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/is-ai-visibility-the-same-as-seo-no-and-the-difference-is-costing-you-customers"
+  to = "/insights/aeo-vs-seo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/how-to-get-your-business-recommended-by-chatgpt-perplexity-and-google-ai"
+  to = "/insights/how-to-get-your-business-recommended-by-ai-search-engines"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible"
+  to = "/insights/how-to-get-your-business-recommended-by-ai-search-engines"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/how-to-make-your-business-visible-to-ai-search-a-step-by-step-guide"
+  to = "/insights/how-to-get-your-business-recommended-by-ai-search-engines"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently"
+  to = "/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/why-your-competitor-shows-up-in-ai-search-and-you-dont"
+  to = "/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/is-your-business-invisible-to-ai-search"
+  to = "/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/why-ai-search-visibility-is-your-1-business-priority-in-2026-and-how-to-win-it-before-your-competitor-does"
+  to = "/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/what-happens-to-your-local-business-if-you-ignore-ai-visibility-for-the-next-6-months"
+  to = "/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth"
+  to = "/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/how-to-track-ai-mentions-citations-and-share-of-voice-across-chatgpt-perplexity-and-google-ai"
+  to = "/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/is-ai-visibility-the-same-as-seo-%28no-and-the-difference-is-costing-you-customers%29"
+  to = "/insights/aeo-vs-seo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/insights/is-ai-visibility-the-same-as-seo-%28no-and-the-difference-is-costing-you-customers"
+  to = "/insights/aeo-vs-seo"
+  status = 301
+  force = true
+
+# ============================================================
 # ARTICLE ROUTING
 # ============================================================
 

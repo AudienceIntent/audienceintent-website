@@ -98,7 +98,7 @@ schema: >-
             "name": "How long does it take to start showing up in AI recommendations?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "It varies by market, competition, and how much foundational work needs to be done. In categories with low AI visibility adoption (which includes most local roofing markets right now), businesses that build out their third-party platform presence and publish relevant content can see measurable citation growth within 30 to 60 days. Broader, consistent visibility across multiple AI platforms typically develops over 60 to 90 days. There is no shortcut, but there is a clear sequence of steps that produces results."
+              "text": "It varies by market, competition, and how much foundational work needs to be done. Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AudienceIntent's service starts with 90 days. Nobody can guarantee an appearance in a specific AI answer."
             }
           },
           {
@@ -154,7 +154,6 @@ schema: >-
     ]
   }
 ---
-
 It's a Tuesday morning in Coral Gables. A homeowner walks outside after last night's storm and spots a dark water stain spreading across her living room ceiling. She doesn't open Google. She picks up her phone, opens ChatGPT, and types: *"Who is the best roofing company in Miami for storm damage repair?"*
 
 Thirty seconds later, she has three names. She calls the first one.
@@ -180,11 +179,10 @@ When someone asks ChatGPT or Perplexity who to call for a roof repair in Miami, 
 **The implications of this are significant:**
 
 -   There is no position #8 in an AI answer. You're either in the shortlist or you don't exist.
-    
+
 -   [SOCi's 2026 Local Visibility Index](https://www.soci.ai/resources/reports/local-visibility-index/) found ChatGPT recommended just 1.2% of local brand locations across all categories, compared to 11% for Gemini and 7.4% for Perplexity.
-    
+
 -   40% of consumers trust AI business recommendations, and 42% trust them as much as they trust traditional reviews (BrightLocal, 2026).
-    
 
 That last number is worth sitting with. Nearly half of people who get a recommendation from ChatGPT trust it the same way they'd trust a five-star review from a verified customer. They're not skeptical. They're not double-checking. They're calling.
 
@@ -277,15 +275,14 @@ After a tropical storm rolls through in September, a homeowner in Hialeah Garden
 Marco's company doesn't come up. Not because his work is bad. Not because his reviews are weak. But because:
 
 -   His Yelp profile is unclaimed and has three reviews from 2019.
-    
+
 -   His Angi listing was set up once and never updated.
-    
+
 -   His website doesn't mention specific neighborhoods, response times, or storm damage services in plain text.
-    
+
 -   His state license number isn't visible on his website in crawlable text.
-    
+
 -   He has no content published that answers the kinds of questions AI users ask.
-    
 
 The homeowner calls one of the three businesses ChatGPT named. Marco never knew the lead existed.
 
@@ -294,15 +291,14 @@ The homeowner calls one of the three businesses ChatGPT named. Marco never knew 
 Elena runs a competing roofing company in the same market. She has similar experience, similar reviews, and a similar service area. But over the past six months, she made her business visible to AI systems.
 
 -   Her Yelp profile is fully built out, with 60+ recent reviews and detailed service descriptions.
-    
+
 -   Her Angi and HomeAdvisor listings are claimed, complete, and updated with current service offerings.
-    
+
 -   Her website has a dedicated storm damage page that states her typical response time (24 hours for inspection, same-day tarping for active leaks) and lists the neighborhoods she serves by name.
-    
+
 -   Her Florida state contractor license number appears in plain text in her website footer.
-    
+
 -   She has published three blog posts in the past 90 days that directly answer questions like "how much does a tile roof replacement cost in Miami-Dade?" with real numbers.
-    
 
 After the same storm, the same homeowner asks ChatGPT the same question. Elena's company is one of three names in the answer.
 
@@ -332,9 +328,9 @@ The businesses that get named first tend to accumulate more reviews, more citati
 
 ### The Timing Problem Is Specific to Miami
 
-Most markets have some buffer time. Miami doesn't. Hurricane season creates an annual window where roofing demand spikes sharply, and the businesses that AI recommends during that window capture an outsized share of the year's revenue. Building AI visibility takes time, typically 30 to 90 days before measurable citation growth appears.
+Most markets have some buffer time. Miami doesn't. Hurricane season creates an annual window where roofing demand spikes sharply, and the businesses that AI recommends during that window capture an outsized share of the year's revenue. Building AI visibility takes time. Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AudienceIntent's service starts with 90 days.
 
-A Miami roofing company that starts this work in October is positioned for the following hurricane season. One that starts in June, after the season is already underway, is building for the year after that.
+Starting before hurricane season gives a Miami roofing company time to build its AI presence. Starting in June can still help during that season, but steady recommendations take time.
 
 The time to start is before you need it. That's always been true in marketing. It's especially true here.
 
@@ -351,7 +347,6 @@ Open ChatGPT, Perplexity, and Google's AI Mode in separate private/incognito win
 3.  "How much does a roof replacement cost in \[your city\]?"
 4.  "Most trusted licensed roofer in \[your county\]"
 5.  "Roofing contractor in \[your city\] for tile roof replacement"
-    
 
 Record your results in a simple table:
 
@@ -366,21 +361,20 @@ Record your results in a simple table:
 **How to interpret your results:**
 
 -   **0 out of 15 cells:** Your business has no AI visibility. This is the most common result. It's fixable.
-    
+
 -   **1 to 4 out of 15:** You have partial visibility on one platform. You're ahead of most competitors but leaving significant coverage on the table.
-    
+
 -   **5 to 10 out of 15:** You have meaningful AI visibility. The next step is expanding coverage across all three platforms and tracking it consistently.
-    
+
 -   **11 or more out of 15:** You're in the top tier of AI-visible local businesses. The work now is maintenance and defending your position as competitors catch up.
-    
 
 Most Miami roofing companies will score zero. That's not an insult. It's the current state of the market, and it's the reason the first-mover opportunity is real.
 
 ### What to Do With the Results
 
-If you scored zero or close to it, the audit tells you where to start. A [free AI visibility audit](https://report.audienceintent.ai) can give you a more detailed picture of where your business stands across all major AI platforms, which sources are currently being cited in your category, and what specific gaps are keeping you out of the shortlist.
+If you scored zero or close to it, the test tells you where to start. The [Free AI Check](https://report.audienceintent.ai/) asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix.
 
-The audit doesn't require any technical setup. It's a starting point for understanding what AI platforms currently know about your business, and what they don't.
+The Free AI Check takes about two minutes. No signup is needed to run it.
 
 ## This Applies Beyond Roofing
 
@@ -391,13 +385,12 @@ HVAC companies in Phoenix. Plumbers in Houston. Electricians in Atlanta. Landsca
 The common thread across all of these categories:
 
 -   **The jobs are high-value.** Customers are motivated to do research before calling.
-    
+
 -   **The decisions are trust-driven.** Customers want validation before handing over access to their home.
-    
+
 -   **The queries are conversational.** "Who should I hire for..." is exactly the kind of question people ask AI assistants.
-    
+
 -   **The market is local.** AI platforms are actively trying to return local business names in response to these queries, and they're succeeding 73% of the time in the roofing category alone.
-    
 
 If you run a local service business and your customers make decisions that feel like hiring decisions rather than purchase decisions, your next customer is probably already asking AI who to call. The question is whether your name is in the answer.
 
@@ -409,7 +402,7 @@ No. They're separate systems that serve different discovery channels. SEO gets y
 
 ### How long does it take to start showing up in AI recommendations?
 
-It varies by market, competition, and how much foundational work needs to be done. In categories with low AI visibility adoption (which includes most local roofing markets right now), businesses that build out their third-party platform presence and publish relevant content can see measurable citation growth within 30 to 60 days. Broader, consistent visibility across multiple AI platforms typically develops over 60 to 90 days. There is no shortcut, but there is a clear sequence of steps that produces results.
+It varies by market, competition, and how much foundational work needs to be done. Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AudienceIntent's service starts with 90 days. Nobody can guarantee an appearance in a specific AI answer.
 
 ### My Google reviews are strong. Doesn't that help with AI?
 
@@ -445,6 +438,6 @@ Most roofing companies in Miami aren't. Not because they're bad at their jobs, b
 
 **Start with the five-query test above.** Open ChatGPT and Perplexity right now and ask who the best roofers in your city are. See your own name, or don't. Either way, you'll know exactly where you stand.
 
-If you want a complete picture across all major AI platforms, including which sources are currently being cited in your category and what specific gaps are keeping you out of the shortlist, [run a free AI visibility audit at report.audienceintent.ai](https://report.audienceintent.ai). It takes a few minutes and gives you a clear starting point.
+To see whether ChatGPT, Claude, Gemini, Perplexity and Google AI name you or a competitor when asked your customers' questions, run the [Free AI Check](https://report.audienceintent.ai/). It also lists what to fix. It takes about two minutes. No signup is needed to run it.
 
 The next customer is already asking. The question is whether you're in the answer.

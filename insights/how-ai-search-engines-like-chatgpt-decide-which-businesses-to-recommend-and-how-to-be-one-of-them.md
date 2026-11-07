@@ -113,7 +113,7 @@ schema: >-
             "name": "How long does it take to start showing up in AI recommendations?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "For businesses starting from near-zero AI visibility, the pattern across documented campaigns is: measurable citation growth within 30 days after fixing information consistency and implementing structured data, trackable AI traffic within 60 days, and meaningful citation compounding by 90 days. Businesses in less competitive local markets can see significant gains faster. This is not a one-time project. AI visibility compounds over time, and the gap between early movers and late entrants grows each month."
+              "text": "Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AudienceIntent's service starts with 90 days. Nobody can guarantee a business will appear in a specific AI answer. This is not a one-time project. AI visibility compounds over time, and the gap between early movers and late entrants grows each month."
             }
           },
           {
@@ -121,7 +121,7 @@ schema: >-
             "name": "What is the difference between AI citations and regular backlinks?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A backlink is a hyperlink from one website to another, used primarily as a signal in Google's ranking algorithm. An AI citation is when an AI assistant names or references your business in a generated answer, with or without a clickable link. The sources that generate AI citations are often the same sources that generate backlinks, but AI systems weight them differently, prioritizing corroboration across multiple independent sources over the authority of any single link."
+              "text": "A backlink is a hyperlink from one website to another, used primarily as a signal in Google's ranking algorithm. An AI citation is when an AI assistant names or references your business in a generated answer, with or without a clickable link. The sources that generate AI citations are often the same sources that generate backlinks (editorial articles, directory listings, review platforms), but AI systems weight them differently. They prioritize corroboration across multiple independent sources over the authority of any single link."
             }
           },
           {
@@ -129,7 +129,7 @@ schema: >-
             "name": "Which AI platforms should I focus on first?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The most efficient approach is building citations across all major platforms simultaneously, because the third-party sources AI systems trust overlap significantly. ChatGPT rewards recency and editorial mentions. Perplexity rewards corroboration across multiple sources and indexes Reddit heavily. Google AI Mode integrates your Google Business Profile and local search authority. Claude and Gemini prefer well-structured, authoritative sources with strong corroboration."
+              "text": "The most efficient approach is building citations across all major platforms simultaneously, because the third-party sources AI systems trust overlap significantly. That said, if your customers are primarily using one platform, the platform-specific differences matter. ChatGPT rewards recency and editorial mentions. Perplexity rewards corroboration across multiple sources and indexes Reddit heavily. Google AI Mode integrates your Google Business Profile and local search authority. Claude and Gemini prefer well-structured, authoritative sources with strong corroboration."
             }
           },
           {
@@ -137,7 +137,7 @@ schema: >-
             "name": "How do I know if my business is currently visible to AI search?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can see a live example of an AI visibility report at https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7, or book a call at https://www.audienceintent.ai/#book to get your own. It shows which AI platforms are currently recommending your business, for which queries, and how your citation count compares to competitors in your category. It gives you a concrete baseline before you invest in any optimization work."
+              "text": "Run the Free AI Check. It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup is needed to run it."
             }
           }
         ]
@@ -173,7 +173,6 @@ The four-step chain looks like this:
 2.  **Retrieval** — It pulls a set of web pages relevant to that specific question. This is live, per-query, and changes over time.
 3.  **Synthesis** — It writes an answer in natural language from the retrieved material, not a ranked list.
 4.  **Citation** — It links the sources it actually used. A business can only be cited if a page containing its information was retrieved and trusted during that search.
-    
 
 The practical implication: if no retrieved page contains credible, consistent information about your business, you don't appear. It's not a ranking problem. It's a retrieval problem.
 
@@ -204,13 +203,12 @@ This is the single biggest lever. Businesses appearing in at least three indepen
 The sources that carry the most weight:
 
 -   **Roundup articles and listicles** ("Best HVAC companies in Tampa," "Top marketing agencies in Denver"). Nearly 90% of third-party AI citations come from this category.
-    
+
 -   **Reddit and forum discussions** where real users recommend your business by name. AI models treat these as authentic human opinion, which carries significant weight.
-    
+
 -   **Industry directories and professional associations** that list your business with consistent details.
-    
+
 -   **Wikipedia** accounts for roughly 7.8% of AI citations for established brands. Less relevant for local businesses, but worth noting for category-level context.
-    
 
 ### 3\. Review Quality and Recency
 
@@ -218,7 +216,7 @@ Reviews appeared in 77% of AI responses across a recent study of 92 queries span
 
 What "quality" means in this context: reviews that describe the actual job done, the specific problem solved, or the experience in concrete terms. "Great service!" tells an AI nothing useful. "They replaced our entire HVAC system in one day and followed up three weeks later to make sure everything was running" gives the AI something to work with.
 
-If your most recent review is from 2022, that's a problem regardless of how many you have. See our guide on [how to ask customers for reviews in a way that actually generates useful content](https://audienceintent.ai/insights/how-to-ask-customers-for-reviews-(and-turn-them-into-revenue)).
+If your most recent review is from 2022, that's a problem regardless of how many you have. See our guide on how to ask customers for reviews in a way that actually generates useful content).
 
 ### 4\. Content Depth on Relevant Topics
 
@@ -273,7 +271,7 @@ Google's AI systems have access to all the signals Google has been collecting fo
 
 But there's a catch. [When AI Overviews appear, organic click-through rates drop 58-61%](https://mentionova.com/blog/organic-traffic-decline-statistics) on those queries, per Toolsolved's 2026 analysis. Google's AI is simultaneously making it easier to be cited and harder to get traffic from traditional rankings. The businesses that benefit are the ones cited inside the AI Overview, not the ones ranking below it.
 
-One critical data point: [only 12% of pages cited by ChatGPT rank in Google's top 10](https://audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)). Ranking well on Google does not translate to being recommended by AI. They are separate ecosystems with different selection criteria, and businesses that treat them as the same thing will underperform on both.
+One critical data point: [only 12% of pages cited by ChatGPT rank in Google's top 10](https://www.audienceintent.ai/insights/aeo-vs-seo)). Ranking well on Google does not translate to being recommended by AI. They are separate ecosystems with different selection criteria, and businesses that treat them as the same thing will underperform on both.
 
 ### Claude and Gemini
 
@@ -285,7 +283,7 @@ The strategic takeaway: building citations across multiple independent sources i
 
 Most businesses that aren't getting recommended by AI aren't doing anything wrong. They're just doing things that only worked for traditional search.
 
-The assumption that "if I rank on Google, I'll show up in AI" is the most expensive misconception in digital marketing right now. [As we've covered in detail](https://audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)), AI visibility and SEO are separate ecosystems with different selection criteria. A strong Google ranking does not transfer to AI citations. The pages AI systems cite and the pages Google ranks are largely different pages.
+The assumption that "if I rank on Google, I'll show up in AI" is the most expensive misconception in digital marketing right now. [As we've covered in detail](https://www.audienceintent.ai/insights/aeo-vs-seo)), AI visibility and SEO are separate ecosystems with different selection criteria. A strong Google ranking does not transfer to AI citations. The pages AI systems cite and the pages Google ranks are largely different pages.
 
 ### The Three Most Common Reasons Businesses Get Skipped
 
@@ -295,7 +293,7 @@ The assumption that "if I rank on Google, I'll show up in AI" is the most expens
 
 **3\. Website content that doesn't answer questions.** Most business websites are written to describe what the business does, not to answer the questions customers are actually asking. AI systems are looking for content that matches specific queries. "We provide comprehensive HVAC solutions for residential and commercial clients" doesn't match the query "best HVAC company in Tampa." A page titled "HVAC Repair and Installation in Tampa: What to Expect, What It Costs, and Who to Call" does.
 
-> **The visibility gap is measurable.** Research cited in our analysis of [why 98.8% of local businesses are invisible to AI](https://audienceintent.ai/insights/why-98-8-of-local-businesses-are-invisible-to-ai-and-the-4-other-revenue-leaks-killing-growth) found that the overwhelming majority of local businesses have no meaningful presence in AI-generated answers. The businesses that do appear are not necessarily larger or better-funded. They're the ones that have built a presence on the sources AI systems actually read.
+> **The visibility gap is measurable.** Research cited in our analysis of [why 98.8% of local businesses are invisible to AI](https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math) found that the overwhelming majority of local businesses have no meaningful presence in AI-generated answers. The businesses that do appear are not necessarily larger or better-funded. They're the ones that have built a presence on the sources AI systems actually read.
 
 The cost of this invisibility is growing. [AI referral sessions grew 527% year over year](https://www.shadow.inc/resources/ai-search-traffic-vs-organic), according to Previsible's 2025 analysis. Those sessions convert at 14% versus 2.8% for traditional organic. Every month a business spends invisible to AI is a month of high-intent buyers going to whoever does show up.
 
@@ -306,17 +304,16 @@ Before getting into the mechanics of how to build AI visibility, it's worth bein
 The conversion data across multiple 2025-2026 studies tells a consistent story:
 
 -   [RankScience's analysis of 12 million website visits](https://kozec.ai/ai-sourced-traffic-conversion-rates-vs-organic-search/) found AI traffic converting at 14.2% versus organic search's 2.8%, a 5x advantage.
-    
+
 -   [Semrush's 2025 study across 500+ B2B topics](https://www.semrush.com/blog/ai-seo-statistics/) found AI-referred visitors are worth 4.4x more than traditional organic visitors.
-    
+
 -   Rocket Agency's 18-month longitudinal study found ChatGPT visits converting at 5.1x organic, the most sustained dataset available.
-    
+
 -   Shopify's Q1 2026 figures show AI-referred sessions converting nearly 50% higher than organic search, with 14% higher average order values.
-    
 
 **The pattern is clear: people who find a business through an AI recommendation have already been through a research and vetting process.** The AI did the comparison work for them. By the time they arrive at your website or call your number, they're much further along in the buying decision than someone who clicked a search result.
 
-This also explains why [Craft Food Tours saw a 312% increase in traffic from AI search within 90 days](https://audienceintent.ai/insights/how-to-get-your-business-recommended-by-chatgpt-gemini-and-perplexity-and-why-most-businesses-are-invisible) of building their AI citation presence. The traffic volume was modest compared to their Google traffic. The intent level was not.
+This also explains why [Craft Food Tours saw a 312% increase in traffic from AI search within 90 days](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines) of building their AI citation presence. The traffic volume was modest compared to their Google traffic. The intent level was not.
 
 The businesses that move first in their local market have a compounding advantage. AI systems learn from what's already being cited. The more a business gets cited, the more it gets cited. Early movers in most local categories are building a structural lead that will be difficult for later entrants to close.
 
@@ -329,13 +326,12 @@ The mechanics are knowable. The execution takes consistent effort across multipl
 The most important work happens off your own website. You need to appear, by name, in sources that AI systems trust. That means:
 
 -   Getting listed in industry-specific directories and roundup articles in your category
-    
+
 -   Earning mentions in local editorial content ("best of" lists, local business features)
-    
+
 -   Building a presence in community discussions where your category is talked about
-    
+
 -   Ensuring your business appears consistently in review platforms beyond just Google: Yelp, BBB, Trustpilot, and industry-specific platforms depending on your category
-    
 
 This cannot be faked or shortcut. AI systems are trained to recognize manufactured citations. The goal is genuine, independent corroboration from sources that have no financial relationship with your business.
 
@@ -351,30 +347,29 @@ For each service you offer, create a dedicated page that answers the questions s
 
 Structure each page with clear headings, specific numbers where you have them, and a FAQ section at the bottom. Content structured this way is extracted and cited by AI systems at significantly higher rates than unstructured prose.
 
-For a full breakdown of what this looks like in practice, see our guide on [how to get your business recommended by AI search engines](https://audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines).
+For a full breakdown of what this looks like in practice, see our guide on [how to get your business recommended by AI search engines](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines).
 
 ### Implement Schema Markup
 
 Add structured data to your website so AI crawlers can parse your business details without ambiguity. The schema types that matter most for local businesses:
 
 -   **Organization schema**: business name, address, phone, social profiles
-    
+
 -   **LocalBusiness schema**: hours, service area, categories
-    
+
 -   **FAQ schema**: answers to common customer questions, formatted for direct extraction
-    
+
 -   **Review schema**: aggregate ratings and individual review markup
-    
+
 -   **Service schema**: descriptions of each service you offer
-    
 
 This is technical work that most businesses haven't done. That's an opportunity. Competitors who haven't implemented schema are easier to outrank in AI citations.
 
 ### Track What's Actually Happening
 
-You cannot improve what you don't measure. AI visibility requires tracking which prompts your business appears in, which platforms are citing you, and how that citation count changes over time. [AudienceIntent's AI Visibility Audit](https://report.audienceintent.ai) gives you a starting baseline: which AI platforms are currently recommending you, for which queries, and how your citation count compares to competitors in your category.
+You cannot improve what you don't measure. AI visibility requires tracking which prompts your business appears in, which platforms are citing you, and how that citation count changes over time. AudienceIntent's [Free AI Check](https://report.audienceintent.ai/) asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask. It shows whether they name you or a competitor and lists what to fix.
 
-The audit takes about two minutes and gives you a concrete picture of where you stand before investing in any optimization work.
+The Free AI Check takes about two minutes. No signup is needed to run it.
 
 ## The Timeline: What to Expect and When
 
@@ -383,15 +378,15 @@ One of the most common questions business owners ask when they start working on 
 | Timeframe | What Typically Happens |
 | --- | --- |
 | Days 1-30 | Information consistency is fixed, schema is implemented, foundational content is created. AI crawlers can now parse your business accurately. |
-| Days 30-60 | First measurable citation growth appears. AI platforms begin surfacing your business for some queries. Traffic from AI sources becomes trackable. |
-| Days 60-90 | Citation count grows as third-party content accumulates. Businesses in less competitive local markets may see significant position gains. |
-| 90+ days | Compounding effect begins. More citations lead to more citations. The gap between early movers and late entrants widens. |
+| First few weeks | Perplexity can pick up a new page within a couple of weeks. |
+| Months 2-3 | ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AudienceIntent starts with 90 days. |
+| 90+ days | Keep content and business information current and track results. Nobody can guarantee a business will appear in a specific AI answer. |
 
 This is not a campaign with a start and end date. AI visibility is an ongoing presence-building effort. The businesses that treat it as a one-time project tend to see initial gains followed by stagnation. The ones that maintain it consistently see compounding returns.
 
 **What this means practically:** if your competitor started building AI citations three months ago and you haven't started yet, they have a head start that grows every week. The category leader in AI recommendations for your market will be determined in the next 12-18 months. Most categories don't have a clear winner yet.
 
-For businesses that want to understand the full scope of what building AI visibility involves, [our complete guide to AEO strategy in 2026](https://audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines) covers the methodology in detail.
+For businesses that want to understand the full scope of what building AI visibility involves, [our complete guide to AEO strategy in 2026](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines) covers the methodology in detail.
 
 ## The Bottom Line
 
@@ -401,7 +396,7 @@ That's a solvable problem. It requires building a presence across the third-part
 
 The businesses that figure this out first in their local market will have a structural advantage that compounds over time. The ones that wait until AI recommendations are obviously important will be competing against entrenched citations that took months to build.
 
-**Start with a baseline.** Before any strategy makes sense, you need to know where you stand. [Run the free AI Visibility Audit at report.audienceintent.ai](https://report.audienceintent.ai) to see which AI platforms are currently recommending your business, for which queries, and how your citation presence compares to competitors in your category. It takes two minutes and gives you a clear picture of what you're working with.
+**Start with a baseline.** Before any strategy makes sense, you need to know where you stand. Run the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup is needed to run it.
 
 ## Frequently Asked Questions
 
@@ -419,7 +414,7 @@ No. Only 12% of pages cited by ChatGPT rank in Google's top 10. They are separat
 
 ### How long does it take to start showing up in AI recommendations?
 
-For businesses starting from near-zero AI visibility, the pattern across documented campaigns is: measurable citation growth within 30 days after fixing information consistency and implementing structured data, trackable AI traffic within 60 days, and meaningful citation compounding by 90 days. Businesses in less competitive local markets can see significant gains faster. This is not a one-time project. AI visibility compounds over time, and the gap between early movers and late entrants grows each month.
+Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AudienceIntent's service starts with 90 days. Nobody can guarantee a business will appear in a specific AI answer. This is not a one-time project. AI visibility compounds over time, and the gap between early movers and late entrants grows each month.
 
 ### What is the difference between AI citations and regular backlinks?
 
@@ -431,4 +426,4 @@ The most efficient approach is building citations across all major platforms sim
 
 ### How do I know if my business is currently visible to AI search?
 
-Run the [free AI Visibility Audit at report.audienceintent.ai](https://report.audienceintent.ai). It shows which AI platforms are currently recommending your business, for which queries, and how your citation count compares to competitors in your category. It takes about two minutes and gives you a concrete baseline before you invest in any optimization work.
+Run the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup is needed to run it.

@@ -87,7 +87,7 @@ schema: >-
             "name": "What is AI visibility and why does it matter?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI visibility is how often your business appears in answers from tools like ChatGPT, Claude, Gemini, Perplexity, and Grok. It matters because more people are using these tools to find and evaluate businesses before making a decision. If AI assistants don't know your business exists, they can't recommend you — regardless of how good you are at what you do."
+              "text": "AI visibility is how often your business appears in answers from tools like ChatGPT, Google AI and Perplexity. It matters because more people are using these tools to find and evaluate businesses before making a decision. If AI assistants don't know your business exists, they can't recommend you — regardless of how good you are at what you do."
             }
           },
           {
@@ -103,7 +103,7 @@ schema: >-
             "name": "How long does it take to see results from AI visibility work?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Vault Metal's numbers moved significantly within 90 days. Based on what we've seen across campaigns, measurable citation growth typically starts within 30 days. Meaningful, trackable results tend to follow within 60 to 90 days. Results vary by industry, category, and how much accurate information about your business already exists online."
+              "text": "Vault Metal's numbers moved significantly within 90 days. Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AI Recommended™ starts with 90 days. Results vary by industry, category, and how much accurate information about your business already exists online."
             }
           },
           {
@@ -119,7 +119,7 @@ schema: >-
             "name": "How do I find out if my business is visible to AI?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The fastest way is to book a call at https://www.audienceintent.ai/#book or view a live example report at https://visibility.audienceintent.ai/r/0-yZjcfoWiXlYWJQJ7. It shows what AI assistants are currently saying about your business across the major platforms — and where the gaps are."
+              "text": "Run the Free AI Check. It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup needed to run it."
             }
           }
         ]
@@ -133,27 +133,25 @@ That's not a criticism. It's just where things stand. AI search is still new eno
 
 Vault Metal hadn't prioritized it — not because they were behind, but because the shift to AI search happened fast enough that most businesses haven't caught up yet. When we pulled their baseline numbers in June, the picture was clear:
 
--   **169 total mentions** across ChatGPT, Claude, Gemini, Perplexity, and Grok
-    
+-   **169 total AI mentions**
+
 -   **3 citations** — meaning AI assistants almost never linked back to them as a source
-    
 
 Ask an AI a relevant question about their category, and Vault Metal barely came up.
 
 ## What We Did
 
-We ran our [AI Recommended™](https://www.audienceintent.ai) campaign for Vault Metal. The goal was straightforward: make sure AI platforms actually knew who Vault Metal was, what they did, and why they were worth recommending.
+We ran our [AI Recommended™](https://www.audienceintent.ai/) campaign for Vault Metal. The goal was straightforward: make sure AI platforms actually knew who Vault Metal was, what they did, and why they were worth recommending.
 
-That means building and maintaining a presence across the third-party sources AI assistants pull from when forming answers. It's not about gaming a system. It's about making sure the information is there in the first place.
+That means fixing the website, answering customer questions, optimizing the Google Business Profile, and keeping the business's name, address, and phone number consistent across major profiles. It's not about gaming a system. It's about making sure the information is there in the first place.
 
 The work runs across three areas:
 
 -   **Crawlability:** ensuring AI can access and understand the business accurately
-    
+
 -   **Content:** creating material that directly answers the questions their customers are already asking AI
-    
--   **Citations:** building presence on the sources AI platforms actually reference when forming answers
-    
+
+-   **Brand fixes:** optimizing the Google Business Profile and keeping the business's name, address, and phone number consistent across major profiles
 
 We started in June. By August, we had 90 days of data.
 
@@ -166,9 +164,9 @@ The numbers moved more than we expected.
 | AI Mentions | 169 | 7,808 | +4,520% |
 | AI Citations | 3 | 751 | +24,933% |
 
-Overall visibility across the five platforms also doubled — but the mentions and citations are the numbers that tell the real story.
+The mentions and citations are the numbers that tell the real story.
 
-Ninety days earlier, Vault Metal was nearly invisible to AI. Now, when someone asks a relevant question across any of the five major AI platforms, Vault Metal comes up.
+Ninety days earlier, Vault Metal was nearly invisible to AI. Over those 90 days, Vault Metal recorded 7,808 AI mentions and 751 citations.
 
 > "AudienceIntent showed us we were invisible to AI, so we are fixing it. Ninety days later, we're asking new customers where they found us and hearing 'ChatGPT' — something that never happened before." — Nick Hines, Co-Founder, Vault Metal
 
@@ -184,13 +182,13 @@ Most businesses find out they have a problem only after a competitor gets cited 
 
 The first step is knowing where you stand. If you don't know what AI assistants are currently saying about your business — or whether they're saying anything at all — that's the place to start.
 
-[Find out how AI describes your business — get your free AI Visibility Report](https://report.audienceintent.ai)
+[Find out how AI describes your business — run the Free AI Check](https://report.audienceintent.ai/)
 
 ## Frequently Asked Questions
 
 ### What is AI visibility and why does it matter?
 
-AI visibility is how often your business appears in answers from tools like ChatGPT, Claude, Gemini, Perplexity, and Grok. It matters because more people are using these tools to find and evaluate businesses before making a decision. If AI assistants don't know your business exists, they can't recommend you — regardless of how good you are at what you do.
+AI visibility is how often your business appears in answers from tools like ChatGPT, Google AI and Perplexity. It matters because more people are using these tools to find and evaluate businesses before making a decision. If AI assistants don't know your business exists, they can't recommend you — regardless of how good you are at what you do.
 
 ### What is the difference between an AI mention and an AI citation?
 
@@ -198,7 +196,7 @@ A mention means an AI assistant named your business in an answer. A citation mea
 
 ### How long does it take to see results from AI visibility work?
 
-Vault Metal's numbers moved significantly within 90 days. Based on what we've seen across campaigns, measurable citation growth typically starts within 30 days. Meaningful, trackable results tend to follow within 60 to 90 days. Results vary by industry, category, and how much accurate information about your business already exists online.
+Vault Metal's numbers moved significantly within 90 days. Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AI Recommended™ starts with 90 days. Results vary by industry, category, and how much accurate information about your business already exists online.
 
 ### Does AI visibility replace SEO?
 
@@ -206,4 +204,4 @@ No. They serve different ecosystems. SEO gets your site ranked in Google. AI vis
 
 ### How do I find out if my business is visible to AI?
 
-The fastest way is to run a free AI Visibility Report at [report.audienceintent.ai](https://report.audienceintent.ai). It shows what AI assistants are currently saying about your business across the major platforms — and where the gaps are.
+Run the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup needed to run it.

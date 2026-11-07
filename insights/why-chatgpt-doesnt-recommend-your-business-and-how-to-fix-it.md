@@ -1,115 +1,24 @@
 ---
-title: Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)
-meta_title: Why ChatGPT Doesn't Recommend Your Business
+title: "Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)"
+meta_title: "Why ChatGPT Doesn't Recommend Your Business (How to Fix It)"
 date: 2026-10-30T12:29:00.000-04:00
+updated_at: 2026-11-07
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
-description: Learn why ChatGPT skips your business, what signals matter most,
-  and how to improve your chances of being recommended in AI answers.
+description: "Learn why ChatGPT skips your business, why competitors get named, and what local businesses can fix. Use a five-prompt test to check your AI visibility."
 focus_keyword: ChatGPT
 canonical: ""
 image: /images/uploads/thumbs/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it.jpg
 og_image: /images/uploads/thumbs/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
-      {
-        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#webpage",
-        "url": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it",
-        "name": "Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)",
-        "@type": "WebPage",
-        "about": {
-          "@id": "https://www.audienceintent.ai/#organization"
-        },
-        "isPartOf": {
-          "@id": "https://www.audienceintent.ai/#website"
-        },
-        "inLanguage": "en-US",
-        "description": "Learn why ChatGPT skips your business, what signals matter most, and how to improve your chances of being recommended in AI answers.",
-        "dateModified": "2026-10-30",
-        "datePublished": "2026-10-30"
-      },
-      {
-        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#article",
-        "@type": "Article",
-        "image": "https://www.audienceintent.ai/assets/img/logo-black.png",
-        "author": {
-          "@id": "https://www.audienceintent.ai/#person-kevin-bovett"
-        },
-        "headline": "Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)",
-        "keywords": [
-          "ChatGPT recommendations",
-          "AI visibility",
-          "Answer Engine Optimization",
-          "local business visibility",
-          "AI search"
-        ],
-        "publisher": {
-          "@id": "https://www.audienceintent.ai/#organization"
-        },
-        "inLanguage": "en-US",
-        "description": "Learn why ChatGPT skips your business, what signals matter most, and how to improve your chances of being recommended in AI answers.",
-        "dateModified": "2026-10-30",
-        "datePublished": "2026-10-30",
-        "articleSection": [
-          "AI search",
-          "Answer Engine Optimization",
-          "Local visibility"
-        ],
-        "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#webpage"
-        }
-      },
-      {
-        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#faq",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "name": "Why doesn’t ChatGPT recommend my business?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "ChatGPT usually skips businesses when it cannot verify them confidently from enough current, consistent sources. Weak entity signals, thin third-party coverage, and content that does not directly answer customer questions all make it less likely to name you.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Does ranking on Google mean ChatGPT will recommend me?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "No. Google rankings and ChatGPT recommendations overlap only partially, and the studies on this point show the two systems pull from different signals. A strong Google position helps, but it does not guarantee a mention in an AI answer.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "What should I fix first to improve AI visibility?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Start with the basics: consistent business details, a complete Google Business Profile, schema markup, and clear service or location pages. After that, build credible third-party mentions and publish content that answers the questions customers actually ask.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "Do reviews help ChatGPT recommend a business?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "Reviews can help, but they are only one part of the picture. ChatGPT and other assistants appear to rely on a mix of reviews, directories, business profiles, and independent mentions, so you need more than good ratings alone.",
-              "@type": "Answer"
-            }
-          },
-          {
-            "name": "How long does it take to show up more often in AI answers?",
-            "@type": "Question",
-            "acceptedAnswer": {
-              "text": "There is no fixed timeline. Some businesses see movement in weeks, but more often it takes consistent updates, fresh content, and stronger third-party signals over 30 to 90 days before visibility starts to improve.",
-              "@type": "Answer"
-            }
-          }
-        ]
-      },
       {
         "@id": "https://www.audienceintent.ai/#organization",
         "url": "https://www.audienceintent.ai",
         "logo": {
+          "@id": "https://www.audienceintent.ai/#logo",
           "url": "https://www.audienceintent.ai/assets/img/logo-black.png",
           "@type": "ImageObject"
         },
@@ -127,299 +36,354 @@ schema: >-
         ],
         "address": {
           "@type": "PostalAddress",
-          "addressRegion": "Florida",
+          "addressRegion": "FL",
           "streetAddress": "9715 Wyeth CT",
           "addressCountry": "US",
           "addressLocality": "Wellington"
         },
-        "legalName": "UnStoppable Response DBA AudienceIntent",
-        "description": "AudienceIntent gets businesses recommended when people ask ChatGPT, Google AI or Perplexity who to choose.",
+        "legalName": "AudienceIntent",
         "foundingDate": "2024"
       },
       {
-        "@id": "https://www.audienceintent.ai/#person-kevin-bovett",
-        "url": "https://www.audienceintent.ai",
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
         "name": "Kevin Bovett",
         "@type": "Person",
-        "sameAs": [
-          "https://www.linkedin.com/company/audienceintent/"
-        ],
         "jobTitle": "Founder",
         "worksFor": {
           "@id": "https://www.audienceintent.ai/#organization"
+        }
+      },
+      {
+        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#article",
+        "@type": "Article",
+        "headline": "Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)",
+        "description": "Learn why ChatGPT skips your business, why competitors get named, and what local businesses can fix. Use a five-prompt test to check your AI visibility.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it.jpg"
         },
-        "description": "Founder of AudienceIntent."
+        "author": {
+          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+        },
+        "publisher": {
+          "@id": "https://www.audienceintent.ai/#organization"
+        },
+        "inLanguage": "en-US",
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-11-07",
+        "mainEntityOfPage": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it",
+        "isAccessibleForFree": true
+      },
+      {
+        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why doesn't ChatGPT recommend my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ChatGPT may lack clear, accessible information connecting your business to the requested service and location. Inaccurate business details, limited supporting evidence, inaccessible pages, or content that does not answer the question can all contribute. A missing mention does not, by itself, prove a penalty."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I rank well on Google and still be absent from AI answers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Strong Google rankings do not guarantee an AI recommendation. A 2025 Ahrefs study found only 10% URL overlap between ChatGPT citations and Google's top 10 results in its sample. Check AI answers directly rather than using Google rankings as a substitute."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does ChatGPT recommend my competitor instead of me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your competitor may have clearer service details, stronger local relevance, or more supporting information in the sources retrieved for that question. Inspect the cited evidence and repeat the test before drawing conclusions. One answer is not a stable competitive ranking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Google Business Profile help with AI visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An accurate Google Business Profile provides useful business facts, including category, location, hours, and contact details. Keep it consistent with your website and major profiles. It is one source of information, not a guarantee that ChatGPT or Google AI will recommend you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will adding schema make ChatGPT recommend my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Schema can clarify information that already appears on your pages, but it cannot replace useful content or independent evidence. Adding LocalBusiness, Service, or FAQ markup does not guarantee a mention or citation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to improve AI visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. Timing varies, and nobody can guarantee inclusion in a specific AI answer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I check whether AI recommends my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Run the five-prompt self-test or use the Free AI Check. It asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes, with no signup needed to run it."
+            }
+          }
+        ]
+      },
+      {
+        "@id": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it#breadcrumbs",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Answers",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)",
+            "item": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it"
+          }
+        ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
-Someone asks ChatGPT: *"Who are the best \[your category\] businesses in \[your city\]?"* Your competitor gets named. You don't.
+ChatGPT may skip your business because it cannot find enough clear, current information connecting your name, services, location, and reputation. A competitor can appear instead because the sources retrieved for that question support that business more clearly—not necessarily because it is the better business. Strong Google rankings can help, but they do not guarantee an AI recommendation.
 
-That's not a fluke. It's a pattern playing out for the majority of businesses right now, including ones with strong Google rankings, solid reviews, and years of credibility. The rules changed, and most businesses haven't caught up yet.
+Someone asks, “Who are the best [your category] businesses in [your city]?” Your competitor gets named. You don't. The useful question is not whether AI dislikes your business. It is what evidence the answer used, and what was missing about you.
 
-> **The hard truth:** A 2025 study of 3,311 keywords found only 10% URL overlap and 31.8% domain overlap between ChatGPT citations and Google's top 10. A separate study measuring 1,000 ranking-style prompts put the average domain-set overlap at just 4%. Google visibility and AI visibility are different ecosystems, and ranking well in one does not reliably predict presence in the other.
+## How AI assistants decide who to recommend
 
-AI assistants like ChatGPT, Google AI, and Perplexity don't browse the web the way Google does. They retrieve and synthesize information from sources they've indexed, and they form recommendations based on the evidence available to them. If your signal is weak, inconsistent, or absent from the sources they draw on, you simply don't appear in their answers. No penalty. No filter. Just absence.
+AI assistants can combine existing model knowledge with information retrieved from the web and other sources. When web search is used, the answer depends partly on which sources the system finds and what those sources actually support.
 
-**One more thing worth saying upfront:** there is no verified, universal formula for getting recommended. AI assistants vary by platform, query, location, and even repeated runs of the same prompt. What the evidence does show is that certain foundations make a recommendation more likely. That's what this guide covers.
+For a business recommendation, useful evidence includes:
 
-**What you'll learn:**
+- A clear business identity and accurate contact information.
+- Services that match the customer's specific need.
+- A location or service area that fits the request.
+- Independent information about the business, such as reviews and industry coverage.
+- Accessible pages that explain the relevant facts directly.
 
--   Why AI assistants form recommendations differently from how Google ranks results
-    
--   What the research actually shows about Google rankings and AI citations
-    
--   Why local businesses face a specific, compounding visibility problem
-    
--   The practical foundations that give you the best chance of being recommended
-    
--   What a realistic improvement timeline looks like
-    
+These are practical checks, not a published ranking formula. Platforms differ, and a recommendation can change with the wording, location, or timing of the question.
 
-## How AI Assistants Actually Decide Who to Recommend
+A mention and a citation are also different. An assistant can name your business without linking to your website. It can also cite your article as a source without recommending your business as a provider.
 
-Before you can fix the problem, you need to understand how the problem is created. AI assistants don't rank results the way Google does. When someone asks ChatGPT for a recommendation, the model retrieves relevant pages, synthesizes what it finds, and selects businesses it has enough evidence to name confidently.
+### Why Google rankings don't transfer automatically
 
-The key word is *enough*. Every time a language model encounters your business name in a credible source, a review, an industry article, a directory listing, a forum discussion, it builds a picture of your business as a real, documented entity. When that picture is clear and consistent, the model is more likely to include you. When it's thin, contradictory, or absent, you don't get named.
+Ranking well in Google does not ensure that ChatGPT will retrieve or cite the same pages. The overlap varies by platform, question, and study method.
 
-Appearing in an AI answer once doesn't guarantee you'll appear again. A [2026 BrightLocal study](https://www.brightlocal.com/research/local-ai-visibility-study/) that analyzed more than 200,000 localized prompts across three platforms found that when a business appeared in a ChatGPT recommendation, it reappeared in roughly 50% of later attempts for the same query. For Google AI Overviews, that reappearance rate was 58%. The recommendations are probabilistic, not fixed.
+A [2025 Ahrefs study](https://ahrefs.com/blog/chatgpt-google-citations/) covering 3,311 short-tail keywords found 10% URL overlap and 31.8% domain overlap between ChatGPT citations and Google's top 10 results. Those figures describe that study's sample, not every search or AI platform.
 
-### Why Google Rankings Don't Transfer
+The lesson is narrower—and more useful—than “SEO doesn't matter.” Search visibility still matters. But your Google rankings are not a substitute for checking actual AI answers. For the broader comparison, see [AEO vs SEO](https://www.audienceintent.ai/insights/aeo-vs-seo).
 
-This is the part most businesses miss. You can rank on page one of Google for your core keywords and still be completely absent from AI recommendations. The two systems pull from different sources and evaluate credibility differently.
+## Why your competitor shows up and you don't
 
-| Signal type | Google rewards | AI assistants reward |
-| --- | --- | --- |
-| On-page optimization | High weight | Low direct weight |
-| Backlinks | High weight | Partial weight |
-| Third-party mentions | Low direct weight | High weight |
-| Entity consistency | Moderate | Very high |
-| Source diversity | Not a factor | Significant factor |
+Your competitor may have clearer evidence for the exact question being asked. Compare the sources supporting its recommendation with the information available about your business before deciding what to fix.
 
-The research makes the gap concrete. A [2025 Ahrefs study](https://ahrefs.com/blog/chatgpt-google-citations/) covering 3,311 short-tail keywords found 10% URL overlap and 31.8% domain overlap between ChatGPT citations and Google's top 10. A separate [2025 study published on arXiv](https://arxiv.org/pdf/2601.16858) measured a mean Jaccard overlap of just 4.0% between GPT-4o citations and Google's top 10 across 1,000 ranking-style prompts in ten consumer categories.
+Five gaps are worth checking first.
 
-These studies use different samples and methods, so the numbers aren't directly comparable. What they agree on: traditional Google rankings are not a reliable proxy for AI citation likelihood.
+### 1. Your business identity is harder to verify
 
-**The practical implication:** a business with strong SEO and a thin third-party presence may rank well in Google and not appear in AI recommendations at all. A competitor with weaker SEO but more diverse, credible third-party coverage may dominate AI answers. That's the gap most businesses don't know they have.
+Conflicting names, old phone numbers, unclear service categories, and outdated addresses make your business harder to identify correctly. A competitor with accurate information across its website and major profiles gives customers and AI systems fewer contradictions to resolve.
 
-## The Local Business Problem Is Worse Than Most People Realize
+Look for meaningful errors: an old location, a disconnected number, or a profile describing services you no longer offer. A harmless abbreviation such as “St.” versus “Street” is not proof of an AI penalty. Factual consistency matters more than matching every character.
 
-If you run a local service business, the AI visibility challenge is more acute than it is for national brands. And the data from 2026 makes that clear.
+### 2. Your important pages are difficult to access
 
-### Consumers Are Already Asking
+A useful page cannot support an answer if the system cannot retrieve its information. Crawl restrictions, login requirements, broken pages, or important details hidden in images can limit access.
 
-[BrightLocal's 2026 consumer survey](https://www.brightlocal.com/research/local-ai-visibility-study/) found that 45% of U.S. consumers had used AI tools to find local business recommendations in the past year, up from just 6% in 2025. Of those, 31% had used ChatGPT specifically. That's a behavioral shift happening faster than most businesses have had time to respond to.
+Check whether your main service pages are publicly available and whether their essential facts appear as readable text. Robots.txt rules and security settings deserve attention, but allowing access does not guarantee indexing, retrieval, or citation.
 
-**The gap it creates:** consumers are asking AI assistants who to hire, where to eat, and which service provider to call. Most local businesses have done nothing to be visible in those answers.
+### 3. Independent sources say more about your competitor
 
-### AI Recommendations Are Highly Variable by Location
+A business with detailed reviews, relevant industry listings, and credible local coverage gives an assistant more material to work with. Your own claim that you are “the best” is not the same as independent evidence.
 
-The [same BrightLocal study](https://www.brightlocal.com/research/local-ai-visibility-study/) analyzed 200,085 non-branded, location-specific prompts across ChatGPT, Google AI Mode, and Google AI Overviews, covering 1,342 business locations over 60 days. The findings on consistency are striking:
+Inspect the sources actually cited in your market. They might include Yelp, BBB, Angi, a local publication, or a specialist directory. Do not assume Reddit or any other single website is the answer for every industry.
 
--   When the same prompt was run twice in the same location, ChatGPT recommended the same businesses only **23% of the time**
-    
--   Google AI Mode matched 21% of the time; Google AI Overviews matched 33%
-    
--   When the same prompt was run from different declared locations, overlap dropped to just **4%**
-    
--   Cross-platform overlap was also low: ChatGPT and Google AI Overviews shared only 20% of recommended businesses
-    
+Reviews can also supply useful detail. “Fixed our burst pipe on a Sunday in North Austin” says more about service and location than “great company.” That does not establish a universal review-count threshold or a guaranteed recommendation advantage.
 
-A [separate 2026 controlled audit published on arXiv](https://arxiv.org/html/2610.24081v1) that asked 300 questions across 19 declared locations confirmed the same pattern: identical "near me" requests shared just 23% of recommended names on average.
+### 4. Their pages answer the customer's question
 
-> **What this means for your business:** AI recommendations are not a stable ranking you either have or don't have. They're a probabilistic outcome that fluctuates by platform, location, and even repeated runs of the same query. There is no single lever that guarantees a mention. The goal is to make a recommendation more likely, more often.
+A specific service explanation is more useful than a broad promotional homepage. If the question is about emergency repairs, the page should explain emergency availability, the work offered, service boundaries, and any relevant limits.
 
-### Google Maps Visibility Doesn't Solve It
+Questions about cost, timing, suitability, and comparisons are common gaps. A roofing website might describe its workmanship but never explain what an inspection includes or what affects repair costs. A competitor that answers those questions provides more usable material.
 
-Many business owners assume that if they're visible in Google's local 3-Pack, they're covered for AI too. The evidence says otherwise.
+### 5. Their claims are easier to check
 
-A 2026 SOCi study found that for its sample of multi-location brands, only 1.2% of locations were recommended by ChatGPT, while the same sample had an average 35.9% appearance rate in Google's local 3-Pack. These are different measures of different things, but the gap illustrates that Google local visibility and ChatGPT recommendation likelihood are largely independent outcomes.
+Named customer examples, current licenses where required, professional credentials, and documented outcomes make claims easier to assess. Unsupported superlatives do not.
 
-The sources that appear in AI responses for local searches include Google Business Profile, Yelp, Facebook, MapQuest, BBB, and Angi, according to BrightLocal's analysis of 1.9 million citations. But the influence of any one source varies by platform, query type, and industry. There's no single directory that guarantees a mention.
+An older competitor may have accumulated more evidence over time. That is a head start, not a permanent lock on AI answers. New businesses can still provide accurate information and strong proof for a specific need.
 
-## Why Most Businesses Are Invisible to AI Assistants
+## Why so few local businesses get named
 
-Most businesses that don't appear in AI recommendations share the same underlying problems. Rarely is it just one. Usually it's a combination, and each compounds the others.
+Local AI answers often present a shortlist rather than a long results page. Each named business must fit both the requested service and the location, which makes vague or incomplete local information especially limiting.
 
-### Weak Entity Signals
+The demand is already there. [BrightLocal's Local Consumer Review Survey 2026](https://www.brightlocal.com/research/local-consumer-review-survey/) found that 45% of consumers used AI tools to find local business recommendations, compared with 6% a year earlier.
 
-An "entity" in AI terms is a clearly defined, consistently described thing: a business, a person, a product. AI models build their understanding of entities by cross-referencing information from many sources. When those sources conflict, are sparse, or describe your business inconsistently, the model treats your brand as low-confidence and defaults to businesses it knows better.
+The supply of recommended businesses is much narrower in some research samples. The SOCi findings summarized in [BrightLocal's local SEO statistics](https://www.brightlocal.com/resources/local-seo-statistics/) reported a 1.2% ChatGPT recommendation rate for sampled multi-location business locations, compared with a 35.9% average appearance rate in Google's local 3-Pack.
 
-Common entity signal problems:
+Those are different measures within a particular sample. They do **not** establish that 98.8% of all local businesses are invisible to every AI system. They do show why Google Maps visibility alone should not be treated as proof of ChatGPT visibility.
 
--   Business name, address, and phone number inconsistent across directories
-    
--   Google Business Profile incomplete, unclaimed, or rarely updated
-    
--   No structured data (schema markup) on your website
-    
--   Brand name that's easily confused with another business or a common phrase
-    
--   No meaningful third-party presence to cross-reference against your own site
-    
+### What the local winners do
 
-The fix isn't complicated, but it requires systematic cleanup. Every source that describes your business needs to describe it the same way.
+Businesses that are easier to assess connect their services to real local evidence. They explain where they work, what they can handle, and what supports those claims.
 
-### Thin Third-Party Coverage
+Consider: “Who can fix a burst pipe in North Austin today?” A useful business page would make these facts clear:
 
-This is the biggest gap for most businesses. [Research from Rank.ai](https://www.rank.ai/statistics/ai-search-statistics) found that 85% of brand mentions in ChatGPT, Claude, and Perplexity came from third-party pages, not from the brand's own website. Your homepage content alone will not get you recommended.
+- Whether emergency plumbing is actually offered.
+- Whether North Austin is within the service area.
+- How customers can confirm today's availability.
+- Whether documented work or customer feedback supports that service.
 
-AI models weight third-party sources heavily because they represent independent validation. A review on a trusted platform, a mention in an industry article, a forum discussion recommending you: these are signal. Your own website saying you're the best is noise.
+A page saying “quality home services across Texas” leaves those questions unanswered. A page with accurate service details and a relevant local example gives the assistant more to use. Neither page guarantees a recommendation.
 
-The sources most commonly appearing in AI responses for local and service businesses include:
+Thin city pages that only swap place names add little useful evidence. Real project details, original photos, local customer examples, and honest service boundaries are more helpful than claiming to serve every nearby city.
 
-| Source type | Examples | Why it matters |
-| --- | --- | --- |
-| Review platforms | Google, Yelp, Trustpilot | High-trust, structured, indexed |
-| Industry directories | Angi, BBB, Clutch, FindLaw | Category-specific authority |
-| Press and media | Local news, trade publications | Editorial third-party endorsement |
-| Community forums | Reddit, Quora, niche forums | Real user language and intent signals |
-| Social platforms | LinkedIn, YouTube | Distribution and entity reinforcement |
+Your website still matters. The same BrightLocal statistics page reports that business websites account for 58% of ChatGPT Search's local search sources in the research it summarizes. That finding should not be generalized to every platform, but it is a reminder not to neglect your own pages while chasing outside mentions.
 
-One important note on Reddit: it's often cited as a high-value source for AI training data, and that's true at scale. But a [2025 Yext citation analysis](https://www.brightlocal.com/research/local-ai-visibility-study/) found that forums account for only about 2% of citations for location-based searches. Reddit matters, but it's not a shortcut. Build it as part of a broader footprint, not as a standalone tactic.
+## How to check your visibility with the five-prompt self-test
 
-### Content That Doesn't Answer What AI Is Asked
+Run five prompts to separate basic business recognition from actual customer recommendations. Use ChatGPT, Google AI Mode, and Perplexity, and record Google AI Overviews separately if you test those too.
 
-AI assistants answer questions. They pull from content that directly and clearly answers the types of questions their users ask. If your website content is mostly promotional ("We're the best in town") rather than informational ("Here's how to solve \[specific problem\]"), it won't get cited.
+### The five prompts
 
-A 2026 study found that question-matched titles and opening paragraphs were associated with more citations from AI assistants. The practical implication: if you search for the questions your customers ask AI assistants and your website doesn't have a clear, direct answer to each one, you have a content gap that's actively costing you recommendations.
+Each prompt checks a different part of the problem. Replace the placeholders with your business, service, category, city, and main competitor.
 
-**What the same study also found:** FAQ blocks and structured data alone did not reliably predict more citations in its comparisons. Format helps, but it doesn't substitute for genuinely useful, specific, verifiable content.
+1. **“What do you know about [your business name]?”** Check whether the answer identifies the right business and gets its services, location, and contact details right.
+2. **“Who are the best [your category] businesses in [your city]?”** Record whether you appear, which competitors appear, and what reasons or sources support the choices.
+3. **“I need [your service] in [your city]. What do you recommend?”** This tests a customer need rather than simple brand recognition.
+4. **“What are the pros and cons of [your business name]?”** Check the evidence behind the answer. A vague or missing answer may reflect limited retrieved information; it does not prove that no reputation information exists.
+5. **“Compare [your business] with [main competitor].”** Look for factual errors, unequal detail, and unsupported claims about either business.
 
-## How to Audit Your AI Visibility Right Now
+Run each prompt twice in fresh conversations. Keep the wording and stated location the same, and save the date, answer, and source links. Five prompts across three platforms, repeated twice, produces 30 answers—not a complete measurement program, but a useful starting point.
 
-Before you can fix anything, you need a baseline. A meaningful audit takes less than 10 minutes and requires no special tools.
+### How to read the results
 
-### The 5-Prompt Test
+Treat the answers as clues to investigate, not automatic diagnoses. A business can be missing for several reasons at once.
 
-Open ChatGPT, Google AI, and Perplexity separately. Run these five prompts for your business, substituting your category and location. Log every result.
+| What you see | What to investigate |
+| --- | --- |
+| The answer describes the wrong business | Name ambiguity, old profiles, and unclear website identity |
+| AI knows your name but never recommends you | Service fit, local relevance, and supporting evidence |
+| Competitors appear with specific cited sources | Which sources support them and whether your information is missing or outdated |
+| You are named but your website is not linked | A mention without a direct website citation |
+| Results change between runs | Normal answer variability as well as possible information gaps |
 
-1.  **"What do you know about \[your business name\]?"** Tests whether the model has any entity data on you at all. If it draws a blank or gets facts wrong, entity clarity is your first priority.
-2.  **"Who are the best \[your category\] businesses in \[your city\]?"** Tests competitive recommendation. Note every name that appears instead of yours.
-3.  **"I need \[your service\] in \[your city\]. What do you recommend?"** Buyer simulation. This is the prompt your actual customers are running.
-4.  **"What are the pros and cons of \[your business name\]?"** Tests reputation data. If the model can't answer, you have almost no third-party coverage.
-5.  **"Compare \[your business\] with \[main competitor\]."** Tests relative entity confidence. If the model knows your competitor well and not you, that's a clear signal gap.
-    
+For a quicker starting point, the [Free AI Check](https://report.audienceintent.ai/) asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask. It shows whether they name you or a competitor and lists what to fix. It takes about two minutes, with no signup needed to run it.
 
-Run all five prompts on each platform and compare results. Because AI recommendations are variable (remember: 23% overlap on repeated identical queries), run each prompt twice and note any differences between runs.
+## What to fix first
 
-### Reading Your Results
+Fix the clearest obstacle before publishing more content. More articles will not correct a wrong business identity, an inaccessible service page, or an unsupported service-area claim.
 
-Most businesses fall into one of three categories:
+Use this order to choose your first priority:
 
-| Result | What it means | Priority fix |
-| --- | --- | --- |
-| Model draws a blank on your name | Entity identity is broken or nonexistent | NAP consistency + schema markup first |
-| You appear but competitors rank ahead | Thin third-party footprint | Citation building and review expansion |
-| You appear inconsistently across platforms | Signal fragmentation | Canonical description + content refresh |
+1. **Access and accuracy:** Can the relevant pages be read, and are your business facts correct?
+2. **Service and location fit:** Do those pages explain the exact work and areas customers ask about?
+3. **Evidence and useful answers:** Can a reader verify your claims and find a direct answer to the question?
 
-**The most common result:** businesses find they appear in one or two prompts out of five, or appear on one platform but not others. That inconsistency is the signal fragmentation problem, and it's fixable.
+Structured data can help describe your business and services when it matches visible page content. It does not create credibility by itself. There is no established rule that adding FAQ or LocalBusiness schema automatically earns a citation.
 
-If you want a faster, more thorough baseline, the [free AI Visibility Audit at AudienceIntent](https://report.audienceintent.ai) runs this analysis across major AI platforms and returns a detailed report on exactly where your gaps are. Takes about two minutes.
+This page is the diagnosis. For the full implementation sequence, use [the step-by-step guide to getting your business recommended by ChatGPT, Google AI, and Perplexity](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines).
 
-## The Fix: Practical Steps to Improve Your Chances
+## How to tell whether you are improving
 
-There's no guaranteed path to an AI recommendation. But there are practical foundations that consistently appear in the research as associated with better visibility. Work through them in sequence: entity clarity first, third-party footprint second, content quality third. Each layer depends on the one below it.
+Measure repeated answers to a consistent set of customer questions. One favorable screenshot does not establish steady visibility, and one missing mention does not establish failure.
 
-### Step 1: Lock Down Your Entity Identity
+[BrightLocal's 2026 local AI visibility study](https://www.brightlocal.com/research/local-ai-visibility-study/) analyzed 200,085 localized prompts. It reported that ChatGPT returned the same business lists on repeated tests only 23% of the time, with overlap falling to 4% across different declared locations.
 
-This is the foundation. AI models form their understanding of your business by cross-referencing sources. If those sources tell different stories, the model loses confidence.
+That variability is why the question set and location need to stay consistent. Track these outcomes separately:
 
-Do these four things before anything else:
+| Measure | What it tells you |
+| --- | --- |
+| Mentions | How often tested answers name your business |
+| Website citations | How often tested answers link to your website |
+| Share of voice | Your share of business mentions compared with a defined competitor set |
+| AI referral traffic | Visits attributed to AI sources in your analytics |
 
--   **Write one canonical business description.** Two to four sentences. What you do, who you serve, what makes you different. Use this exact description on your website About page, Google Business Profile, LinkedIn company page, and every directory listing. Word for word.
-    
--   **Standardize your NAP.** Name, address, and phone number must be identical across every platform. Same abbreviations, same formatting. "St." versus "Street" is enough inconsistency to create fragmentation across dozens of indexed sources.
-    
--   **Claim and complete your Google Business Profile.** Fill every field. Add photos, services, and a description that mirrors your canonical description. Post to it regularly. GBP content is indexed and influences Google AI responses directly.
-    
--   **Add schema markup to your website.** At minimum: LocalBusiness schema on your homepage with your name, address, phone, URL, and hours. This tells AI models exactly what your business is, in a language they parse directly.
-    
+Keep the prompt set, counting method, and competitor set consistent when comparing periods. Analytics can miss some AI-origin visits, so referral traffic is useful but incomplete.
 
-### Step 2: Build Your Third-Party Citation Footprint
+Most importantly, separate branded questions from unbranded ones. “What do you know about Acme Plumbing?” checks recognition. “Who handles emergency pipe repairs in Austin?” checks whether AI introduces your business to someone who did not ask for you by name.
 
-With entity identity locked, the next job is expanding the number of credible sources that mention your business accurately. This is the work most directly associated with AI recommendation confidence.
+For more detail, see [how to measure AEO mentions, citations, and share of voice](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
 
-**Priority sources, in order:**
+## How long improvement realistically takes
 
-1.  **Industry-specific directories** for your category. These signal category authority, not just existence. A law firm on FindLaw, a contractor on Angi, a restaurant on OpenTable: these carry more weight than generic citation sites.
-2.  **Review platforms beyond Google.** Yelp, Trustpilot, G2, Clutch, and niche platforms relevant to your industry. More platforms means more cross-referencing signals.
-3.  **Press and media mentions.** Local news, trade publications, podcast appearances with transcripts. Editorial mentions carry significant weight because they represent independent third-party validation.
-4.  **LinkedIn content.** Regular posts and articles that establish your business as a known voice on specific topics in your category.
-5.  **Reddit and Quora.** Answer questions in your niche with genuine detail. Don't promote. Just answer. Build a posting history over time. As noted earlier, forums are a small share of AI citations for local searches, but they contribute to your overall entity footprint.
-    
+Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis.
 
-> **Why this takes time:** New citations need to be indexed, cross-referenced, and weighted. The compounding effect typically kicks in around 30-60 days of consistent effort. There's no shortcut here.
+Finding a page and recommending the business are different outcomes. Progress depends on your starting point, category, location, competition, and the questions being tested.
 
-### Step 3: Create Content That AI Actually Cites
+Nobody can guarantee that your business will appear in a specific AI answer. Be cautious of promises tied to a fixed ranking or an exact recommendation date. See [why nobody can guarantee the number-one answer in AI search](https://www.audienceintent.ai/insights/no-one-can-guarantee-youll-be-the-number-1-answer-in-ai-search-heres-what-actually-works).
 
-The final layer is content. Not promotional content. Content that directly answers the questions your customers are asking AI assistants right now.
+## What done-for-you help includes
 
-Research suggests that question-matched titles and opening paragraphs are associated with more AI citations. The structure that tends to get cited:
+AudienceIntent's AI Recommended™ is a done-for-you monthly AEO service delivered by a real team, not self-serve software. It tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity.
 
--   **Question as the heading.** Phrased the way a person would actually ask it: "How much does \[service\] cost in \[city\]?" not "Our Pricing."
-    
--   **Direct answer in the first sentence.** The model needs to extract a clean answer. If the first sentence is scene-setting prose, it may be skipped.
-    
--   **Specific, verifiable claims in the body.** Named examples, real numbers, concrete details. Vague generalities don't differentiate you and don't give the model anything to cite with confidence.
-    
--   **Self-contained sections.** Each section should make sense if read in isolation. AI engines extract individual passages, not whole articles.
-    
+Every month includes:
 
-**Content types associated with AI citations for service businesses:**
+- Crawler access work covering robots.txt, llms.txt, and sitemaps.
+- Website fixes covering schema, sitemap, and on-page information.
+- Customer question research.
+- Four new articles.
+- Four older pages updated.
+- A weekly visibility report, with 50 prompts tracked daily.
+- Tracking for up to five competitors.
+- A monthly progress call and shared Slack channel.
 
--   Service pages that answer location-specific questions clearly and completely
-    
--   Comparison pages ("X vs Y" format with genuine, specific analysis)
-    
--   How-it-works explainers for your core service
-    
--   Case studies with named, specific results
-    
--   FAQ pages built around real customer questions, not marketing copy
-    
+Brand fixes also include Google Business Profile optimization and consistent name, address, and phone details across major profiles. This is not a digital PR, review-management, or directory-management service.
 
-**What to avoid:** generic "best practices" articles, thin service pages with no real information, and content that uses the same promotional language your competitors use. If your content reads like every other business in your category, it gives the model no reason to choose you.
+The price is the same for every business: **$1,997/month for a 90-day minimum, then $997/month month to month**. Alternatively, pay **$5,000 upfront for the first 90 days**, saving $991. The 90-day starting period reflects the time steady recommendations usually take.
 
-One important caveat from the research: FAQ blocks and structured data formatting alone did not reliably predict more citations in 2026 study comparisons. The format is helpful, but it doesn't substitute for genuinely useful, specific content. Write for the reader first. The citation tends to follow.
+Results from individual clients include:
 
-## Why the Window to Act Is Narrowing
+| Client | Result in 90 days |
+| --- | --- |
+| [Vault Metal](https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days) | AI mentions 169 → 7,808 (+4,520%); citations 3 → 751 |
+| GoldenCrest Metals | Visibility score +202.4% |
+| Craft Food Tours | Traffic from AI +312% |
 
-AI search is not a future trend. It's a current behavior shift, and the numbers show how fast it's moving.
+These are specific client results, not a forecast for your business. AudienceIntent promises the work, done properly every month, and an honest report—not inclusion in a particular answer.
 
-[Similarweb estimated](https://aisearch.similarweb.com/blog/ai-referral-traffic-by-industry/) that AI platforms generated an average of 770.7 million referral visits per month worldwide between June 2025 and May 2026, up 117.4% year over year. Adobe's tracking of U.S. retail traffic found AI-referred visits grew 693% during the 2025 holiday season. Travel grew 539%. Financial services grew 266%.
+## Frequently Asked Questions
 
-**The quality signal:** [Adobe's Q2 2026 report](https://business.adobe.com/resources/sdk/2026-q2-ai-traffic-report.html) found that AI-referred retail visitors converted 54% better than non-AI traffic and generated 53% higher revenue per visit. These figures are specific to retail and should not be assumed to apply universally across industries. But they point in a consistent direction: people who arrive from an AI recommendation are often further along in their decision and more ready to act.
+### Why doesn't ChatGPT recommend my business?
 
-For local and service businesses, the consumer behavior data from BrightLocal is the more relevant signal: 45% of U.S. consumers used AI to find local business recommendations in 2026, up from 6% in 2025. That's a sevenfold increase in a single year. The businesses that appear in those answers are getting calls. The ones that don't are invisible to a growing share of buyers.
+ChatGPT may lack clear, accessible information connecting your business to the requested service and location. Inaccurate business details, limited supporting evidence, inaccessible pages, or content that does not answer the question can all contribute. A missing mention does not, by itself, prove a penalty.
 
-### The Compounding Problem
+### Can I rank well on Google and still be absent from AI answers?
 
-AI visibility tends to compound in both directions. Businesses that build strong entity signals and third-party coverage now become harder to displace over time, because the model's confidence in them grows with each new signal. Businesses that wait face a harder climb, because their competitors are building that confidence while they're standing still.
+Yes. Strong Google rankings do not guarantee an AI recommendation. A 2025 Ahrefs study found only 10% URL overlap between ChatGPT citations and Google's top 10 results in its sample. Check AI answers directly rather than using Google rankings as a substitute.
 
-This is similar to what happened with Google rankings in the early 2010s. The businesses that invested early built advantages that lasted years. The ones that ignored it spent years trying to catch up. The same dynamic is playing out now with AI recommendations, on a faster timeline.
+### Why does ChatGPT recommend my competitor instead of me?
 
-> **The honest version:** nobody can guarantee you'll appear in AI answers by a specific date. What the evidence does support is that businesses with clear entity signals, diverse third-party coverage, and genuinely useful content are more likely to appear, more often, across more platforms. That's the goal. Not a ranking. A higher probability.
+Your competitor may have clearer service details, stronger local relevance, or more supporting information in the sources retrieved for that question. Inspect the cited evidence and repeat the test before drawing conclusions. One answer is not a stable competitive ranking.
 
-### What "Done for You" Actually Looks Like
+### Does Google Business Profile help with AI visibility?
 
-Most business owners don't have the time to manage entity cleanup, citation building, content strategy, and prompt tracking simultaneously. The technical parts alone require expertise most marketing generalists don't have.
+An accurate Google Business Profile provides useful business facts, including category, location, hours, and contact details. Keep it consistent with your website and major profiles. It is one source of information, not a guarantee that ChatGPT or Google AI will recommend you.
 
-This is the gap that [AudienceIntent's AI Recommended™ service](https://www.audienceintent.ai) was built to close. The service handles the full stack: making sure AI can crawl and understand your business, optimizing existing pages, building new content that answers customers' exact questions, and providing weekly reporting and prompt tracking so you can see exactly where you're appearing and where you're not.
+### Will adding schema make ChatGPT recommend my business?
 
-Clients like [Vault Metal](https://www.audienceintent.ai) went from 169 AI mentions to 7,808 in 90 days. GoldenCrest Metals saw a 202.4% improvement in visibility score in the same period. Craft Food Tours saw 312% growth in AI-referred traffic. These are specific results for specific businesses. Your results will depend on your category, location, and starting point.
+No. Schema can clarify information that already appears on your pages, but it cannot replace useful content or independent evidence. Adding LocalBusiness, Service, or FAQ markup does not guarantee a mention or citation.
 
-## The Bottom Line
+### How long does it take to improve AI visibility?
 
-If ChatGPT doesn't recommend your business today, it's not because AI assistants have decided to ignore you. It's because the signals they rely on to form confident recommendations are weak, inconsistent, or missing from the sources they draw on. That's a solvable problem.
+Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. Timing varies, and nobody can guarantee inclusion in a specific AI answer.
 
-The fix follows a clear sequence: entity identity first, citation footprint second, citation-worthy content third. None of it is magic, and none of it happens overnight. The recommendations are probabilistic, not guaranteed. But the compounding effect is real: businesses that build these foundations now are harder to displace later.
+### How can I check whether AI recommends my business?
 
-**Start with the audit.** Run the five prompts. See where you actually stand. If you want a complete picture without the manual work, the [free AI Visibility Audit](https://report.audienceintent.ai) takes two minutes and shows you exactly which gaps are costing you recommendations right now.
+Run the five-prompt self-test or use the Free AI Check. It asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes, with no signup needed to run it.
 
-### Want this done for you?
+## Find out where you stand
 
-We get your business recommended by AI. See the weekly report our clients get, or book a call.
+Start with the [Free AI Check](https://report.audienceintent.ai/) to see whether AI names your business or a competitor and what needs attention.
 
-[Book a call](https://www.audienceintent.ai) · [Free AI Check →](https://report.audienceintent.ai/)
+Want the work done for you? [AI Recommended™](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity) is AudienceIntent's done-for-you monthly service. We get your business recommended by AI.

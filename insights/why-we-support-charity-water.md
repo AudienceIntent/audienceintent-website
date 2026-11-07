@@ -147,13 +147,12 @@ This is not just a health issue. It affects education, safety, income, and long-
 Clean water creates a chain reaction of progress:
 
 -   Better health outcomes for children and families
-    
+
 -   More time in school for girls who currently spend hours collecting water
-    
+
 -   More stability and income for households
-    
+
 -   More opportunity for entire communities to grow
-    
 
 Water is not the whole solution. But it is often the first one.
 

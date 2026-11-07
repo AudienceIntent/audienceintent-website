@@ -83,36 +83,35 @@ schema: >-
     ]
   }
 ---
-Most marketing reports tell you how many people visited your website. That is a useful number, but it answers the wrong question when half of your potential customers are asking AI assistants for recommendations instead of clicking on search results.
+Most marketing reports tell you how many people visited your website. That is a useful number, but it answers the wrong question when potential customers ask AI assistants for recommendations instead of clicking on search results.
 
-AI Recommended™ is built to answer a different question: when someone asks ChatGPT, Perplexity, Google AI Overviews, Claude, or Grok for a recommendation in your category, does your business show up? And if it does, how prominently, how positively, and how often?
+AI Recommended™ is built to answer a different question: when someone asks ChatGPT, Google AI (AI Overviews and AI Mode), or Perplexity for a recommendation in your category, does your business show up? And if it does, how prominently, how positively, and how often?
 
 The metrics that answer those questions are not the ones in your Google Analytics dashboard. They live in a separate measurement framework built specifically for AI search behavior. This article explains every metric in that framework, how each one is calculated, what it means for your business, and how to connect the numbers to revenue.
 
-> **Key takeaway:** AI search traffic converts at 14.2% versus 2.8% for standard organic traffic. That 4.4x difference means AI visibility metrics are not a vanity exercise. They are a direct input to revenue forecasting.
+> **Key takeaway:** AI search traffic converts at 14.2% versus 2.8% for standard organic traffic. That roughly 5.1x difference means AI visibility metrics are not a vanity exercise. They are a direct input to revenue forecasting.
 
 **What this article covers:**
 
 -   The Overall Visibility Score and its five components
-    
+
 -   How Mentions and Citations are tracked and why the distinction matters
-    
+
 -   Sentiment scoring and what negative sentiment costs you
-    
+
 -   How your competitive ranking is calculated across AI platforms
-    
+
 -   Prompt tracking: the exact queries you are and are not winning
-    
+
 -   The top citation sources where earned media has the highest impact
-    
+
 -   How ChatGPT, Perplexity, Google AI Overviews, Claude, and Grok each behave differently
-    
+
 -   Technical health and crawler accessibility signals that determine whether AI can find you at all
-    
 
 ## The Overall Visibility Score
 
-The Overall Visibility Score is a single composite number, on a scale of 0 to 100, that represents how visible and credible your business is across the AI platforms your customers use. It is the headline metric in your monthly reporting and the clearest single-number answer to the question: "Is AI search working for my business?"
+The Overall Visibility Score is a single composite number, on a scale of 0 to 100, that represents how visible and credible your business is across the AI platforms your customers use. It is the headline metric in your weekly reporting and the clearest single-number answer to the question: "Is AI search working for my business?"
 
 It is not a vanity score. Every point maps to a specific, measurable input.
 
@@ -132,13 +131,13 @@ The Overall Visibility Score is built from five weighted components:
 
 ### What the Score Tells You
 
-A score below 30 means AI assistants either do not have enough evidence to include your business in answers, or are including you inconsistently. The primary work at this stage is building the third-party footprint that gives AI systems enough corroborating evidence to mention you with confidence.
+A score below 30 means AI assistants either do not have enough evidence to include your business in answers, or are including you inconsistently. The primary work at this stage is improving your website content, Google Business Profile, and name, address, and phone consistency across major profiles.
 
 A score between 30 and 60 means your business is appearing but not dominating. You are in the answer, but not leading it. Position Quality and Numbered List Ranking improvements move the score in this range.
 
 A score above 60 means consistent, prominent visibility. At this level, the focus shifts to Sentiment and Citation Tracking: making sure the AI is saying the right things about you and linking to the right sources.
 
-> **The benchmark that matters:** Craft Food Tours started near zero in AI search. After 90 days of AI Recommended™ work, they reached a +312% increase in traffic from AI. The Overall Visibility Score tracked every step of that movement, which is how we knew the citation increase was translating into actual ranking improvement, not just raw mention volume.
+> **The benchmark that matters:** Craft Food Tours saw traffic from AI increase +312% in 90 days. That result measures traffic from AI, not citations or ranking improvement.
 
 ## Mentions vs. Citations: Why the Distinction Matters
 
@@ -156,7 +155,6 @@ Citations are the stronger signal for two reasons:
 
 1.  **Attribution clarity:** A cited response tells you exactly which source the AI trusted enough to surface. That is actionable intelligence: you know which pages are working and which are not.
 2.  **Traffic potential:** Cited sources generate referral traffic. A mention without a citation generates awareness but no measurable visit.
-    
 
 ### How We Track Both
 
@@ -165,11 +163,10 @@ Mentions are tracked by running your defined prompt set across all monitored AI 
 Citations are tracked separately: we record which specific URLs the AI surfaced alongside your brand name. This creates two distinct data streams:
 
 -   **Mention rate:** cited answers plus uncited answers divided by total tracked prompts
-    
--   **Citation rate:** cited answers only divided by total tracked prompts
-    
 
-The gap between the two numbers tells you something important. A high mention rate with a low citation rate means AI platforms are aware of your brand but do not have strong enough source evidence to link out. That gap is the clearest signal of where third-party source building will have the most impact.
+-   **Citation rate:** cited answers only divided by total tracked prompts
+
+The gap between the two numbers tells you something important. A high mention rate with a low citation rate means AI platforms are aware of your brand but do not have strong enough source evidence to link out. That gap can help identify where stronger supporting content may be needed.
 
 > **What a healthy ratio looks like:** As your third-party footprint grows, citation rate should climb toward mention rate. The goal is not just to be named, but to be named with a source the AI trusts enough to show.
 
@@ -182,13 +179,12 @@ Being mentioned is not the same as being recommended. An AI assistant can includ
 Each AI response that includes your brand is classified into one of three categories:
 
 -   **Positive:** The AI describes your business favorably, recommends it, or uses affirming language ("known for," "highly rated," "customers report")
-    
--   **Neutral:** The AI mentions your business as an option without positive or negative framing, or in a factual context without recommendation language
-    
--   **Negative:** The AI surfaces complaints, limitations, or cautionary language alongside your brand name
-    
 
-The sentiment score in your monthly report is the percentage of positive mentions out of total mentions. A score of 80% means 8 out of 10 AI responses that include your brand are positive or affirming.
+-   **Neutral:** The AI mentions your business as an option without positive or negative framing, or in a factual context without recommendation language
+
+-   **Negative:** The AI surfaces complaints, limitations, or cautionary language alongside your brand name
+
+The sentiment score in your weekly report is the percentage of positive mentions out of total mentions. A score of 80% means 8 out of 10 AI responses that include your brand are positive or affirming.
 
 ### Why Negative Sentiment Is a Compounding Problem
 
@@ -199,13 +195,12 @@ AI search traffic converts at 14.2% when the recommendation is positive. That ra
 **The sources of negative sentiment are usually identifiable and fixable:**
 
 -   Negative reviews on high-weight platforms (Google Business Profile, Yelp, industry directories) that AI systems synthesize into their responses
-    
+
 -   Complaint threads on Reddit or forums that Perplexity, in particular, surfaces heavily
-    
+
 -   Outdated information that makes your business appear less current than competitors
-    
+
 -   Comparison content that positions your business unfavorably relative to alternatives
-    
 
 Sentiment monitoring tells you which sources are driving the negative framing. That is the first step to correcting it.
 
@@ -213,7 +208,7 @@ Sentiment monitoring tells you which sources are driving the negative framing. T
 
 The 10-point weight sentiment carries in the Overall Visibility Score reflects its real-world impact. A business with a 90% visibility score but 40% negative sentiment is in a worse position than a business with a 70% score and 90% positive sentiment. The first business is being found and dismissed. The second is being found and trusted.
 
-> **What to watch for:** A sudden drop in sentiment score without a drop in mention rate usually means a new piece of negative content has been indexed and is being surfaced. Monthly reporting catches this early, before it compounds.
+> **What to watch for:** A sudden drop in sentiment score without a drop in mention rate usually means a new piece of negative content has been indexed and is being surfaced. Weekly reporting helps you spot this early.
 
 ## Competitive Ranking: Where You Stand Against Direct Competitors
 
@@ -223,24 +218,23 @@ This is the metric that determines whether AI search is sending customers to you
 
 ### How Competitive Ranking Is Measured
 
-For each tracked prompt, we record not just whether your business appeared, but every business that appeared in the same response. This creates a share-of-voice map across your category: who is winning which prompts, at what position, and with what frequency.
+For each tracked prompt, we record whether your business and up to 5 tracked competitors appeared in the same response. This creates a share-of-voice map across your category: who is winning which prompts, at what position, and with what frequency.
 
 The competitive ranking report shows:
 
 -   **Your position in head-to-head responses:** When both you and a specific competitor appear in the same AI answer, who is named first?
-    
+
 -   **Share of prompt wins:** Out of all tracked prompts relevant to your category, what percentage return your business as the top recommendation?
-    
+
 -   **Competitor gap analysis:** Which competitors are consistently outranking you, and on which specific prompt types?
-    
+
 -   **Prompt exclusivity:** Which prompts return only your business, and which prompts return only a competitor?
-    
 
 ### What the Data Reveals
 
 The competitive ranking data often surfaces patterns that are not visible in any other report. A business might have strong overall visibility but consistently lose to one specific competitor on location-based prompts. Or it might dominate recommendation prompts but disappear entirely when users ask comparison questions.
 
-**These patterns are actionable.** If a competitor consistently outranks you on "best \[category\] in \[city\]" prompts but you outrank them on "most experienced \[category\] provider" prompts, that tells you exactly where your third-party source building and content strategy should focus next.
+**These patterns are actionable.** If a competitor consistently outranks you on "best \[category\] in \[city\]" prompts but you outrank them on "most experienced \[category\] provider" prompts, that helps you decide which website content and business profile details to improve next.
 
 ### The First-Mover Dynamic
 
@@ -248,17 +242,17 @@ Early competitive ranking data also captures a strategic reality that is worth n
 
 Once a business has built a dense third-party footprint and is consistently named first across the majority of relevant prompts, displacing it requires a competitor to build an equivalent footprint from scratch, against a moving target. The gap compounds in the same direction as the advantage.
 
-> **The number that signals dominance:** When your share of prompt wins in your primary category exceeds 50%, you are the default recommendation in AI search for that category. That is the kind of position GoldenCrest Metals reached, with a +202.4% increase in visibility score after 90 days. It is harder to reach in month one and significantly harder for a late-entering competitor to take from you once you hold it.
+> **The number that signals dominance:** When your share of prompt wins in your primary category exceeds 50%, you are the default recommendation in AI search for that category. GoldenCrest Metals saw its visibility score increase +202.4% in 90 days. It is harder to reach in month one and significantly harder for a late-entering competitor to take from you once you hold it.
 
 ## Prompt Tracking: The Exact Queries You Are and Are Not Winning
 
 This is the most operationally specific metric in the reporting framework, and often the one that produces the most immediate strategic clarity.
 
-Prompt tracking runs a defined set of queries, representative of what your customers actually ask AI assistants, across each monitored platform on a regular basis. The output is a per-prompt record of whether your business appeared, where it ranked, and what the AI said.
+Our weekly report tracks ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 50 customer prompts tracked daily and up to 5 competitors. The output is a per-prompt record of whether your business appeared, where it ranked, and what the AI said.
 
 ### How the Prompt Set Is Built
 
-The initial prompt set is developed during onboarding based on your category, geography, and the specific questions your customers are most likely to ask. A typical set includes 50 to 100 prompts across four types:
+The initial prompt set is developed during onboarding based on your category, geography, and the specific questions your customers are most likely to ask. The set includes 50 prompts across four types:
 
 | Prompt Type | Example | Why It Matters |
 | --- | --- | --- |
@@ -272,13 +266,12 @@ The initial prompt set is developed during onboarding based on your category, ge
 The prompt tracking report shows each query with a status:
 
 -   **Winning:** Your business is named, typically first or prominently, with positive framing
-    
--   **Appearing but not leading:** Your business is mentioned but another business is named first or given more prominent framing
-    
--   **Not appearing:** The AI returned an answer to this prompt without mentioning your business
-    
 
-**The "not appearing" list is the most valuable part of the report.** Each prompt where you are absent is a specific, testable gap. The fix is usually one of three things: the prompt type requires content that does not yet exist on your site or in third-party sources; the geographic signal is weak and needs directory reinforcement; or a competitor has a stronger footprint specifically for that query type.
+-   **Appearing but not leading:** Your business is mentioned but another business is named first or given more prominent framing
+
+-   **Not appearing:** The AI returned an answer to this prompt without mentioning your business
+
+**The "not appearing" list is the most valuable part of the report.** Each prompt where you are absent is a specific, testable gap. The fix is usually one of three things: the prompt type requires content that does not yet exist on your site or in third-party sources; the geographic signal is weak and needs clearer location details or consistent name, address, and phone information; or a competitor has a stronger footprint specifically for that query type.
 
 ### Prompts as a Revenue Attribution Bridge
 
@@ -306,20 +299,21 @@ Citation tracking does more than count how many times AI platforms link to sourc
 
 ### What This Means for Earned Media Strategy
 
-The citation source data in your monthly report shows which specific domains generated citations for your business in the reporting period. That list is your earned media map.
+These are general suggestions for your business, not included services. AI Recommended™ does not provide digital PR, review management, directory management, or social media management. It includes Google Business Profile optimization and consistent name, address, and phone information across major profiles.
+
+The citation source data in your weekly report shows which specific domains generated citations for your business in the reporting period. That list is your earned media map.
 
 **High-value source categories to prioritize:**
 
 -   **Review aggregators with AI weight:** Google Business Profile, Yelp, and industry-specific review platforms. These are consistently cited across multiple platforms and provide the review content AI systems synthesize into reputation summaries.
-    
+
 -   **Editorial comparison content:** "Best \[category\] in \[city\]" articles, comparison guides, and roundups. These are the third-party editorial sources that provide the contextual positioning AI systems use when framing recommendations.
-    
+
 -   **Community platforms:** Reddit, Quora, and industry forums. Perplexity's 46.7% Reddit citation rate makes community presence a direct lever for Perplexity visibility. A well-maintained presence in relevant subreddits or forum threads is not a soft brand play; it is a citation strategy.
-    
+
 -   **Structured business directories:** BBB, Chamber of Commerce, and niche industry directories. These establish the NAP consistency that AI systems use to verify a business is real and operating.
-    
+
 -   **G2 and Capterra profiles (for B2B):** Domains with active profiles on these platforms show 3x higher ChatGPT citation probability than sites without them.
-    
 
 ### The Source Concentration Risk
 
@@ -335,35 +329,33 @@ Understanding these differences is not academic. It determines which work you pr
 
 ### ChatGPT: Selective, Synthesis-Heavy, Authority-Driven
 
-ChatGPT processes over 3 billion prompts monthly and operates on a hybrid model: training data plus selective web retrieval. Its citation behavior is highly selective. Research shows it retrieves multiple candidate pages per query but cites only 15% of the pages it actually retrieves.
+ChatGPT has about 1.2 billion weekly active users ([OpenAI, November 2026](https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20)) and uses training data plus selective web retrieval. Its citation behavior is highly selective. Research shows it retrieves multiple candidate pages per query but cites only 15% of the pages it actually retrieves.
 
 **What ChatGPT favors:**
 
 -   Wikipedia and encyclopedic sources (7.8% of all citations)
-    
+
 -   Established editorial media and institutional sites
-    
+
 -   Pages with FAQ schema and inline citations, which receive approximately 40% higher citation weighting
-    
+
 -   Domains with active G2 or Capterra profiles (3x higher citation probability)
-    
 
 **The key insight on ChatGPT:** It mentions brands 3.2 times more often than it cites them. Your brand can appear in a ChatGPT answer without a visible source link. This means brand mention volume on third-party sites is the primary lever for ChatGPT, even when those mentions do not produce visible citations.
 
 ### Perplexity: Real-Time, Freshness-First, Citation-Dense
 
-Perplexity performs a real-time web search for every single query. There is no knowledge cutoff. New content can be cited within hours of being indexed.
+Perplexity performs a real-time web search for every single query. There is no knowledge cutoff. Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AI Recommended™ starts with 90 days.
 
 **What Perplexity favors:**
 
 -   Reddit (46.7% of top citations)
-    
+
 -   Content published within the last 30 days (3.2x more citations than older content)
-    
+
 -   Structured headers, answer-first paragraphs, definitive statements
-    
+
 -   Dense citation sets: Perplexity averages 21.87 citations per response, compared to ChatGPT's 6.88
-    
 
 **The key insight on Perplexity:** The high citation count per response is a structural opportunity. With nearly three times as many citation slots per answer as ChatGPT, the competition for each individual slot is lower. Publishing fresh, structured content consistently is the primary lever here.
 
@@ -376,13 +368,12 @@ In mid-2025, roughly 76% of pages cited in AI Overviews also ranked in the top 1
 **What Google AI Overviews favor:**
 
 -   Semantic completeness: self-contained answers that do not require external context (correlation r=0.87 with citation selection)
-    
+
 -   Multi-modal content: text combined with images or video (156% higher selection rates)
-    
+
 -   Structured data markup (73% selection rate improvement over unstructured pages)
-    
+
 -   YouTube brand mentions in video titles and transcripts (the single strongest correlating factor in Ahrefs research across 75,000 brands)
-    
 
 ### Claude: Depth, Structure, and Expertise Density
 
@@ -396,15 +387,15 @@ Grok has the highest brand citation rate of any major platform studied at 27%, c
 
 Because only 11% of domains are cited by both ChatGPT and Perplexity, and the platform-specific citation logic varies this significantly, a single-platform optimization strategy will leave most of your potential AI visibility on the table.
 
-The AI Recommended™ framework builds presence across all five platforms simultaneously, with source and content strategies tailored to each platform's specific citation behavior. Your monthly report breaks down visibility by platform so you can see where you are strong, where you are absent, and where the next investment will produce the highest return.
+AI Recommended™ focuses on ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity. The Claude and Grok sections above are general education, not paid-service tracking coverage. Your weekly report breaks down visibility across the three tracked platforms so you can see where you are strong, where you are absent, and what to work on next.
 
 ## Technical Health and Crawler Accessibility
 
 All of the metrics above assume one thing: that AI systems can actually find and read your content. When they cannot, your visibility score reflects a technical failure, not a strategy failure. Fixing crawler accessibility is often the fastest way to move the needle on every other metric.
 
-### The Eight-Stage Citation Pipeline
+### The Seven Stages of AI Citation
 
-[Research from Zerply](https://zerply.ai/resources/blog/chatgpt-citations) describes AI citation as a multi-stage pipeline. A page must pass every stage to earn a visible citation. Failing at any stage removes the page from consideration entirely.
+[Research from Zerply](https://zerply.ai/resources/blog/chatgpt-citations) describes AI citation as a process with several stages. A page must pass every stage to earn a visible citation. Failing at any stage removes the page from consideration entirely.
 
 1.  **Crawl access:** The AI platform's crawler must be able to fetch the page. Robots.txt rules, blocked resources, or rendering issues stop the process here.
 2.  **Index eligibility:** The page must be eligible for storage and later retrieval. Canonical errors, duplicate content, and thin pages reduce eligibility.
@@ -413,7 +404,6 @@ All of the metrics above assume one thing: that AI systems can actually find and
 5.  **Source filtering:** Sources are filtered for quality, freshness, authority, and redundancy. A page that passes extraction can still be filtered out at this stage.
 6.  **Synthesis:** The model composes the answer. Pages that contributed to synthesis may not receive visible attribution.
 7.  **Visible citation:** The interface decides which sources to show. This is the stage that determines whether your URL appears in the response.
-    
 
 **The implication:** A business can have excellent content and a strong third-party footprint but still receive zero citations because its pages fail at stage one or two. Technical health is the foundation, not an afterthought.
 
@@ -424,33 +414,30 @@ The AI Recommended™ onboarding audit covers the technical signals that determi
 ### Crawlability Signals
 
 -   **Robots.txt configuration:** Are any key pages or directories accidentally blocked from AI crawlers? OAI-SearchBot (OpenAI), Anthropic-AI, and PerplexityBot each have their own crawler identifiers. A robots.txt rule that blocks Googlebot does not automatically block these crawlers, and vice versa.
-    
+
 -   **Page rendering:** AI crawlers typically do not execute JavaScript the same way browsers do. Content that only renders after JavaScript execution may be invisible to AI systems even if it is visible to human visitors.
-    
+
 -   **Crawl depth:** Pages buried more than three clicks from the homepage are less likely to be discovered and indexed by AI crawlers. Flat site architecture improves crawl coverage.
-    
+
 -   **Page speed and availability:** Pages that time out or return errors during crawl attempts are excluded from consideration. Consistent uptime and fast server response are prerequisites.
-    
 
 ### Indexing and Structure Signals
 
 -   **Schema markup coverage:** Pages with Schema.org structured data provide machine-readable signals about what the business does, where it operates, and who it serves. Schema markup contributes a 73% selection rate improvement for Google AI Overviews specifically, and improves extraction quality across all platforms.
-    
+
 -   **Canonical tags:** Incorrect canonical tags can cause AI systems to index a duplicate version of a page instead of the intended URL, or to skip the page entirely.
-    
+
 -   **NAP consistency:** Name, Address, and Phone number must match exactly across your website, Google Business Profile, and all directory listings. Inconsistencies signal unreliability to AI verification systems.
-    
+
 -   **Entity clarity:** AI systems build confidence in a brand by recognizing it as the same entity across multiple sources. Inconsistent business name formatting (abbreviations, punctuation variations, DBA variations) fragments entity recognition and reduces citation confidence.
-    
 
 ### Content Structure Signals
 
 -   **Header hierarchy:** Pages structured with clear H1, H2, and H3 headings are significantly easier for AI systems to parse and extract from. ChatGPT's citation selection favors structured headings explicitly.
-    
+
 -   **Answer-first formatting:** Sections that open with a direct answer to the question the heading implies, before supporting detail, produce cleaner passage extraction. This is the formatting pattern that produces the "featured snippet" effect in AI answers.
-    
--   **FAQ schema:** Pages with FAQ schema markup and inline citations receive approximately 40% higher citation weighting in ChatGPT source selection. This is one of the highest-leverage technical changes available on a per-page basis.
-    
+
+-   **FAQ schema:** Pages with FAQ schema markup and inline citations receive approximately 40% higher citation weighting in ChatGPT source selection. This can help AI systems understand individual pages.
 
 > **The technical health score in your report:** Each of these signals is assessed during onboarding and re-evaluated monthly. The technical health component of your reporting shows which signals are strong, which are weak, and which fixes will have the highest impact on your visibility metrics in the next reporting period.
 
@@ -465,13 +452,12 @@ The ROI calculation for AI-driven search traffic runs through three data points 
 1.  **Prompt wins (from prompt tracking):** The specific queries where your business is the top AI recommendation
 2.  **AI-referred traffic (from your analytics):** Sessions where the referring source is a known AI platform (ChatGPT.com, Perplexity.ai, and similar)
 3.  **Conversion rate benchmark:** AI search traffic converts at 14.2% based on verified data across AI-referred traffic studies
-    
 
 The formula is directional, not exact, because AI platforms do not always pass clean referral data. But it produces a defensible revenue estimate:
 
 **Estimated monthly AI revenue = AI-referred sessions × 14.2% × average transaction value**
 
-For a business where the average transaction is $2,000 and AI-referred sessions are running at 100 per month: 100 × 0.142 × $2,000 = $28,400 in attributable monthly revenue from the AI channel.
+For a business with 60 AI-referred sessions a month and a $1,500 average sale, assuming a 14.2% conversion rate: 60 × 0.142 × $1,500 = $12,780 in estimated monthly revenue from AI referrals.
 
 ### What Moves the Number
 
@@ -487,18 +473,18 @@ For a business where the average transaction is $2,000 and AI-referred sessions 
 
 The ROI profile of AI visibility work is different from paid advertising in one important way: it compounds. A citation source added in month one does not expire. It contributes to your footprint in month six and month twelve. Each new source adds to the density of evidence AI systems use to verify and recommend your business.
 
-Paid advertising produces a flat return profile: spend X, get Y sessions, stop spending, get zero sessions. AI visibility produces an accelerating return profile: the same monthly investment produces more sessions in month three than in month one, and more in month six than in month three, because the footprint is growing.
+Paid advertising produces a flat return profile: spend X, get Y sessions, stop spending, get zero sessions. AI visibility work can build over time as useful content grows, but more sessions or revenue are not guaranteed.
 
 **The ROI question is not just "what did this month produce?" It is "what is the footprint worth at its current growth rate?"**
 
-> **The honest caveat:** These numbers vary by industry, market, and starting footprint. A business in a highly competitive urban market will see different timelines than a business in a regional market with weaker competition. The attribution model is a directional tool, not a guarantee. What it does provide is a consistent, repeatable framework for measuring progress and making resource allocation decisions based on data rather than intuition.
+> **The honest caveat:** These numbers vary by industry, market, and starting footprint. A business in a highly competitive urban market will see different timelines than a business in a regional market with weaker competition. The attribution model is a directional tool, not a guarantee. What it does provide is a consistent, repeatable framework for measuring progress and deciding what to work on next based on data rather than intuition.
 
 ## Start with a Baseline
 
-None of these metrics can be improved without first knowing where you stand. The free AI Visibility Audit at [report.audienceintent.ai](https://report.audienceintent.ai) takes two minutes, requires no signup, and produces a baseline across the core metrics in this framework: your current mention rate, citation sources, sentiment, and competitive position in AI search.
+None of these metrics can be improved without first knowing where you stand. The [Free AI Check](https://report.audienceintent.ai/) takes about two minutes. No signup is needed to run it. It asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix.
 
-If the audit shows a gap worth closing, the next step is a conversation about what AI Recommended™ looks like for your specific category and market. [Book a call here](https://api.leadconnectorhq.com/widget/booking/Bxb438yeUpuxV0peTRmi) and we will walk through the numbers together.
+Start with the [Free AI Check](https://report.audienceintent.ai/) to see whether AI names your business or a competitor and what to fix.
 
 For a deeper look at how AI Recommended™ works and what the full service includes, the [complete guide to getting cited by ChatGPT, Gemini, and Perplexity](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity) covers the methodology in detail.
 
-The measurement framework exists because visibility without measurement is guesswork. Every number in your monthly report maps to a specific action, and every action maps to a specific revenue outcome. That is the standard we hold ourselves to, and the standard you should hold any AI visibility investment to.
+The measurement framework exists because visibility without measurement is guesswork. Your weekly report helps you decide what to improve next. Nobody can guarantee your business will appear in a specific AI answer. We promise the work, done properly every month, and an honest report. That is the standard we hold ourselves to, and the standard you should hold any AI visibility investment to.

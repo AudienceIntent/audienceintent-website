@@ -1,17 +1,18 @@
 ---
-title: How to Get Your Business Recommended by AI Search Engines
-meta_title: How to Get Your Business Recommended by AI Search Engines
+title: "How to Get Your Business Recommended by AI Search Engines"
+meta_title: "How to Get Your Business Recommended by AI Search Engines"
 date: 2026-11-01T23:02:00.000-05:00
+updated_at: 2026-11-07
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
-description: Learn how to get your business recommended by AI search engines in
-  2026, with AEO tactics for local services, DTC brands, and e-commerce.
+description: "Learn how to get your business recommended by ChatGPT, Google AI, and Perplexity with practical steps, business-specific tips, and honest tracking advice."
 focus_keyword: AI Search
 canonical: ""
 image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg
 og_image: /images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg
 schema: >-
   {
+    "@context": "https://schema.org",
     "@graph": [
       {
         "@id": "https://www.audienceintent.ai/#organization",
@@ -55,21 +56,21 @@ schema: >-
       {
         "@id": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines#article",
         "@type": "Article",
+        "headline": "How to Get Your Business Recommended by AI Search Engines",
+        "description": "Learn how to get your business recommended by ChatGPT, Google AI, and Perplexity with practical steps, business-specific tips, and honest tracking advice.",
         "image": {
-          "url": "https://www.audienceintent.ai/assets/img/logo-black.png",
-          "@type": "ImageObject"
+          "@type": "ImageObject",
+          "url": "https://www.audienceintent.ai/images/uploads/thumbs/how-to-get-your-business-recommended-by-ai-search-engines.jpg"
         },
         "author": {
           "@id": "https://www.audienceintent.ai/#kevin-bovett"
         },
-        "headline": "How to Get Your Business Recommended by AI Search Engines",
         "publisher": {
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "inLanguage": "en-US",
-        "description": "A practical, evidence-led guide to how ChatGPT, Perplexity, and Google AI decide what to cite, what actually matters, and how to measure results.",
-        "dateModified": "2026-11-02",
-        "datePublished": "2026-11-02",
+        "datePublished": "2026-11-01",
+        "dateModified": "2026-11-07",
         "mainEntityOfPage": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines",
         "isAccessibleForFree": true
       },
@@ -78,43 +79,59 @@ schema: >-
         "@type": "FAQPage",
         "mainEntity": [
           {
-            "name": "What is AEO and why does it matter?",
             "@type": "Question",
-            "acceptedAnswer": {
-              "text": "AEO stands for Answer Engine Optimization. It is the practice of structuring your online presence so ChatGPT, Perplexity, and Google's AI features are more likely to recommend your business when people ask category-specific questions. It matters because more buying decisions are starting with a question instead of a search result.",
-              "@type": "Answer"
-            }
-          },
-          {
             "name": "Is AEO the same as SEO?",
-            "@type": "Question",
             "acceptedAnswer": {
-              "text": "No. SEO helps you show up in Google results. AEO is about being cited or recommended in AI answers. They overlap, but the evidence shows they are not the same channel and Google rankings are not a reliable proxy for AI citations.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. SEO focuses on visibility in search results; AEO focuses on being included, cited, or recommended in AI answers. They share important foundations, including accessible pages and useful content. Keep both rather than treating AEO as a replacement for SEO."
             }
           },
           {
-            "name": "How do AI search engines decide which businesses to recommend?",
             "@type": "Question",
+            "name": "How long does it take to get recommended by AI?",
             "acceptedAnswer": {
-              "text": "The evidence points to several recurring signals: third-party mentions, answer-first content, accurate business information, structured data that matches visible content, and current information for anything that changes often. No platform has published a complete formula.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. Timing varies, and nobody can guarantee a recommendation."
             }
           },
           {
-            "name": "How long does AEO take to work?",
             "@type": "Question",
+            "name": "Does schema markup guarantee AI citations?",
             "acceptedAnswer": {
-              "text": "Timelines vary by category, competition, and how quickly your pages are crawled again. Some businesses see citation changes within 30 to 60 days after implementation, while measurable referral traffic often takes 60 to 90 days or longer.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "No. Schema describes the information on a page in a structured format, but it does not guarantee a citation or recommendation. Use accurate markup that matches visible content, and fix access and content problems too."
             }
           },
           {
-            "name": "Can a small business compete with larger brands in AI search?",
             "@type": "Question",
+            "name": "How many reviews do I need to get recommended?",
             "acceptedAnswer": {
-              "text": "Yes. Smaller businesses can compete when they have better-structured pages, stronger reviews, clearer product or service information, and more useful third-party coverage. AI systems do not only pull from the biggest names.",
-              "@type": "Answer"
+              "@type": "Answer",
+              "text": "There is no proven minimum review count that guarantees an AI recommendation. Honest, relevant reviews can help people and search systems understand customer experiences. Follow each platform's review policies, and do not buy reviews or require positive ratings."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a small brand compete with a larger company in AI search?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, a small brand can be relevant to a specific customer need even when larger brands dominate a broad category. Focus on clear product details, useful comparisons, and verifiable evidence. Being smaller does not prevent inclusion, but good formatting alone does not ensure it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I pay someone to guarantee a ChatGPT recommendation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No provider can guarantee that ChatGPT will recommend your business in a specific answer. Paying for AEO buys research, website improvements, content, and measurement—not control over the platform's response. Be cautious of promises of permanent or guaranteed placement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I check whether AI recommends my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask the questions your customers ask in ChatGPT, Google AI, and Perplexity, then record mentions, recommendations, citations, and competitors. The Free AI Check asks customer questions across ChatGPT, Claude, Gemini, Perplexity, and Google AI, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes, with no signup needed to run it."
             }
           }
         ]
@@ -124,289 +141,308 @@ schema: >-
         "@type": "BreadcrumbList",
         "itemListElement": [
           {
-            "item": "https://www.audienceintent.ai/insights",
-            "name": "Insights",
             "@type": "ListItem",
-            "position": 1
+            "position": 1,
+            "name": "Answers",
+            "item": "https://www.audienceintent.ai/insights"
           },
           {
-            "item": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines",
-            "name": "How to Get Your Business Recommended by AI Search Engines",
             "@type": "ListItem",
-            "position": 2
+            "position": 2,
+            "name": "How to Get Your Business Recommended by AI Search Engines",
+            "item": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines"
           }
         ]
       }
-    ],
-    "@context": "https://schema.org"
+    ]
   }
 ---
+To get your business recommended by AI search engines, make your business details accurate, keep your website accessible, and publish clear answers to customer questions. Support those facts with credible independent sources, then test the same questions across ChatGPT, Google AI, and Perplexity. These steps can improve your chances, but nobody can guarantee a place in a specific AI answer.
 
-When someone opens ChatGPT, Perplexity, or Google's AI Overview and asks "who's the best HVAC company near me" or "what's the best protein powder under $40," your business either shows up in that answer or it doesn't. Getting into those answers is what Answer Engine Optimization (AEO) is about.
+This work is called Answer Engine Optimization, or AEO. It builds on good website and search practices rather than replacing them. For the differences, see [AEO vs. SEO](https://www.audienceintent.ai/insights/aeo-vs-seo).
 
-This guide covers what the current evidence actually says about how AI search engines decide who to recommend, what you can do about it based on your business type, and how to measure whether it's working.
+## Step 1: Find Out Whether AI Already Recommends You
 
-> **Before you read on:** No company, including this one, can guarantee that any AI engine will recommend your business. What follows is an honest account of what the evidence supports and where the gaps are.
+Start with a fixed list of questions your customers ask before buying. Record which businesses each platform recommends, whether the details are correct, and which pages it cites.
 
-## AEO vs. SEO: What's Actually Different
+Choose 10–20 questions from customer emails, sales conversations, support requests, and common objections. Include different buying needs, not just variations of “best business near me.”
 
-**SEO gets you found on Google. AEO gets you recommended by AI.** They're related but not the same, and treating one as a substitute for the other is where most businesses go wrong.
-
-The clearest evidence of the gap: a [2025 Ahrefs study of 15,000 prompts](https://www.elmohq.com/blog/rankings-and-ai-citations) found that only about 8% of URLs cited by ChatGPT were also in Google's top 10 for the same query. Perplexity had higher overlap at around 28.6%. Google's AI Overviews started much closer to Google Search, at 76.1% overlap in July 2025, but that figure had dropped to 37.9% by March 2026.
-
-What this tells you: ranking well on Google doesn't reliably translate to being cited by AI engines, especially ChatGPT. The two channels are drawing from different source pools.
-
-**That said, the overlap is association, not causation.** The studies don't prove that improving your Google rankings will earn you more AI citations. They show the channels are partially related, not that one drives the other. For a fuller breakdown of where the two disciplines diverge, see our [AEO vs. SEO comparison](https://audienceintent.ai/insights/aeo-vs-seo-which-should-you-focus-on).
-
-### Where the tactics differ
-
-| Signal | SEO | AEO |
-| --- | --- | --- |
-| Primary target | Google Search rankings | AI assistant citations |
-| Content format | Keywords, headers, metadata | Answer-first, self-contained passages |
-| Schema markup | Helpful | Useful for eligibility; not a citation guarantee |
-| Third-party citations | Minor factor | Major factor |
-| Review velocity | Moderate impact | Strong trust signal |
-| NAP consistency | Local SEO factor | Critical for local recommendations |
-| FAQ sections | Nice to have | High extraction value |
-
-The takeaway: some fundamentals carry over (accurate information, structured content, credible mentions), but the emphasis shifts considerably. [AI visibility and SEO are not the same thing](https://audienceintent.ai/insights/is-ai-visibility-the-same-as-seo-(no-and-the-difference-is-costing-you-customers)), and the businesses learning that lesson now are building a lead that will compound.
-
-## Does AI Search Traffic Actually Convert?
-
-This is the question most guides skip or oversimplify. The honest answer is: it depends on your industry, and the studies don't all agree.
-
-### What the data shows
-
-[First Page Sage's analysis](https://firstpagesage.com/seo-blog/conversion-rate-benchmarks/) across 218 sites (January 2023 through September 2026) reports visitor-to-lead rates of:
-
--   **ChatGPT:** 4.7%
-    
--   **Perplexity:** 4.1%
-    
--   **Claude:** 3.9%
-    
--   **Gemini:** 2.8%
-    
--   **Google organic:** 1.9%
-    
-
-That looks compelling. But a separate study by Maximus Labs across 54 B2B SaaS sites found pooled AI referrals converting at 4.87% versus Google organic at 4.60%, a difference so small it wasn't statistically significant (p = 0.794).
-
-A third data point: [Usermaven's study](https://usermaven.com/research/ai-search-attribution-b2b-saas) of 150 B2B SaaS websites (October 2025 through September 2026, 15.38 million sessions) found that identifiable AI referrals made up just 0.88% of all sessions, with a same-session conversion rate of about 1.76%.
-
-### What to take from this
-
-These aren't contradictory findings, they're measuring different things across different industries and audiences. A few things hold across all of them:
-
-1.  AI referrals are currently a **small share of total traffic** for most businesses
-2.  The quality of that traffic varies considerably by platform and category
-3.  Google AI Mode visits may be counted as Google organic in your analytics, making platform comparisons harder than they look
-    
-
-**The practical read:** AI search isn't a volume play yet. It's a quality play. The visitors who arrive via ChatGPT or Perplexity tend to be further along in their decision. That makes the channel worth building, even if it won't replace your existing traffic sources anytime soon.
-
-## How AI Search Engines Decide Who to Recommend
-
-AI assistants don't rank pages. They select sources they trust enough to cite in a direct answer. The signals that influence those decisions aren't fully documented by any platform, but the evidence points to five consistent factors.
-
-### 1\. Third-party mentions and corroboration
-
-This is the biggest one. AI engines weight external mentions heavily, and [Google's own Search Central documentation](https://developers.google.com/search/docs/appearance/ai-features) confirms that pages must be indexed and eligible to appear in Google Search with a snippet. What that means in practice: if credible external sources, industry directories, and authoritative publications reference your business, that's a meaningful signal. Your own website matters, but what others say about you matters more.
-
-### 2\. Answer-formatted content
-
-AI can only cite what it can extract. Pages that open with a direct, self-contained answer to a specific question, followed by supporting context, are the ones that get pulled. Every major section on your site should lead with the answer, not build toward it.
-
-### 3\. Accurate, consistent business information
-
-Conflicting information signals unreliability. If your business name, address, phone number, or service descriptions vary across your website, Google Business Profile, Yelp, and other directories, AI engines treat that inconsistency as a red flag. This is especially true for local recommendations.
-
-### 4\. Structured data (with realistic expectations)
-
-Schema markup helps AI systems interpret your content correctly. [Google's guidance](https://developers.google.com/search/docs/appearance/ai-features) recommends structured data that accurately reflects visible page content. What schema does not do, based on current evidence, is guarantee citations. One independent 2026 study found no measurable citation lift from adding JSON-LD. Use schema because it helps systems understand your content, not because it's a citation shortcut.
-
-### 5\. Recency, where it matters
-
-Outdated information is a liability, particularly for anything time-sensitive: prices, availability, hours, service areas. [Google notes](https://developers.google.com/search/docs/appearance/ai-features) that recrawling can take days to months, so keeping core pages current matters, but it's not a universal citation advantage. For evergreen content, freshness is less decisive than accuracy.
-
-> **On llms.txt:** Some guides recommend publishing an llms.txt file at your domain root. The honest position is that the evidence for material citation impact is thin. Google has stated it ignores llms.txt for Search. It may have value for other crawlers, but treat it as an experiment, not a proven lever.
-
-## The AEO Playbook by Business Type
-
-AEO isn't one-size-fits-all. The tactics that matter most depend on how your customers buy and where AI engines look for information about your category.
-
-### Local service businesses
-
-Local AEO starts with the data layer. Without accurate, consistent information across your web presence, AI engines can't reliably identify your business as a local option.
-
-**The foundation:**
-
--   **Google Business Profile:** Keep it fully completed, with current hours, services, photos, and response to reviews.
-    
--   **NAP consistency:** Your Name, Address, and Phone number must be identical across your website, Google Business Profile, Yelp, Angi, HomeAdvisor, and every directory you're listed in. Discrepancies read as unreliability.
-    
--   **LocalBusiness schema:** Add structured data markup so AI engines can parse your business details directly from the page. This won't guarantee recommendations, but it makes your information machine-readable.
-    
--   **Service pages:** Each service should have its own dedicated page that opens with a direct answer to what the service includes, who it's for, and what it costs.
-    
--   **Reviews:** Volume and recency both matter. A business with 200 recent, detailed reviews is more likely to be cited than one with 14 reviews from three years ago. Prioritize post-service review requests.
-    
-
-For a deeper dive, see [why ChatGPT recommends so few local businesses](https://audienceintent.ai/insights/why-chatgpt-recommends-so-few-local-businesses-and-what-the-winners-do-differently) and what the ones that do get cited have in common.
-
-### DTC brands
-
-DTC AEO is about being findable when someone asks an AI to recommend a product in your category. The brands that win here have complete product information, strong review velocity, and consistent pricing.
-
--   **Product schema:** Implement structured data for every product, including price, availability, rating, and description. Keep it accurate.
-    
--   **Amazon presence:** AI assistants frequently pull product data from Amazon. If you're not there, or your listing is thin, you're missing a significant citation source.
-    
--   **Review velocity:** New reviews signal active, trusted products. Build post-purchase review requests into your flow.
-    
--   **Comparison pages:** Build pages that directly compare your product to alternatives. These answer the exact questions buyers ask AI.
-    
--   **Pricing consistency:** If your price on your site, Amazon, and any retailer varies, that inconsistency may cause AI engines to hedge or skip you.
-    
-
-### High-volume e-commerce
-
-At scale, the priorities shift toward catalog-level optimization and feed quality.
-
--   **Collection pages with FAQ sections:** Add a 3-5 question FAQ block to every major category page. These answer the comparison and compatibility questions buyers ask AI.
-    
--   **Google Merchant Center feeds:** Keep your product data feed current and complete, including attributes, availability, and compatibility information.
-    
--   **Independent product coverage:** AI engines draw heavily from review sites, editorial publications, and community forums. Products that have been reviewed by credible third parties are more likely to surface.
-    
-
-## How to Measure Whether It's Working
-
-Most AEO guides stop at the tactics. This is the part that actually tells you if any of it is working.
-
-The challenge: AI referrals are hard to measure cleanly. Google AI Mode visits may appear as Google organic in your analytics. ChatGPT doesn't always pass referrer data. And citation rates, the number of times an AI engine names your business in a response, aren't captured by standard analytics at all.
-
-Here's a measurement framework that works despite those limitations.
-
-### Track citations directly
-
-Run a fixed set of relevant prompts across ChatGPT, Perplexity, and Google AI on a consistent schedule, weekly or monthly. Record:
-
--   Whether your business is mentioned
-    
--   Whether it's cited with a link
-    
--   Which competitors are mentioned instead
-    
-
-This is manual, but it's the most direct signal you have. For a systematic approach to tracking these numbers, see [how AudienceIntent measures AI visibility](https://audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained).
-
-### Track referrals in analytics
-
-In Google Analytics 4, filter sessions by source containing "chatgpt.com," "perplexity.ai," "claude.ai," and "gemini.google.com." Track:
-
--   Sessions from each source
-    
--   Pages they land on
-    
--   Conversion events (form fills, calls, purchases)
-    
-
-Do this over consistent periods, month over month, so you can see direction of travel. Don't expect the numbers to be large early on.
-
-### What to look for over time
-
-| Timeframe | Realistic expectation |
+| Customer need | Example prompt |
 | --- | --- |
-| 0-30 days | Baseline established; technical fixes in place |
-| 30-60 days | First citation appearances for some prompts |
-| 60-90 days | Measurable referral traffic from AI sources |
-| 90+ days | Citation rate trends becoming clear |
+| Find a local provider | “Who repairs air conditioners in [city]?” |
+| Check a requirement | “Which dentists in [city] accept new patients on Saturdays?” |
+| Compare products | “Which protein powders under $40 are dairy-free?” |
+| Understand cost | “What does a roof replacement in [city] usually cost?” |
+| Compare alternatives | “How does [product] compare with [alternative] for [specific use]?” |
 
-These are planning estimates, not guarantees. Timelines depend on your category, competition, how well your content is structured, and how quickly AI crawlers revisit your pages. [Google notes](https://developers.google.com/search/docs/appearance/ai-features) that recrawling can take days to months.
+Run the relevant questions in ChatGPT, Perplexity, and Google AI. For Google, distinguish AI Overviews from AI Mode, and record when no AI Overview appears. Specify your city instead of relying only on “near me.”
 
-> **The honest benchmark:** Vault Metal, a client of ours, went from 169 AI mentions to 7,808 in 90 days. That result came from a full implementation: technical fixes, content restructuring, third-party citation building, and tracked prompts from day one. Individual results vary. [Read the full case study](https://audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days).
+Save the date, exact prompt, platform, location, answer, and cited URLs. Keep three outcomes separate:
 
-## AEO Starter Checklist: 7 Steps to Begin Today
+- **Mention:** Your business is named.
+- **Recommendation:** Your business is presented as an option for the customer's need.
+- **Citation:** A source is linked. That source might be your website or a third-party page about you.
 
-1.  **Run your own prompts.** Open ChatGPT, Perplexity, and Google AI. Ask the questions your customers ask. Note whether you appear, and save the results as your baseline.
-2.  **Fix NAP consistency.** Audit your business name, address, and phone number across your website, Google Business Profile, and every directory. Fix every discrepancy.
-3.  **Add or update schema markup.** Use LocalBusiness schema for service businesses, Product schema for e-commerce. Keep it accurate and matched to what's visible on the page.
-4.  **Reformat your top five pages to be answer-first.** Rewrite section openings so they directly answer the question the page is about, not build toward it.
-5.  **Add a FAQ section to every major page.** Three to five questions per page, answered in two to three sentences each. These are the passages AI engines extract.
-6.  **Build or clean up your third-party presence.** Make sure your business is listed accurately and has recent reviews on the platforms your customers use.
-7.  **Publish one piece of answer-optimized content per month.** Pick a common customer question and answer it directly and completely. One good piece beats ten thin ones.
-    
+One answer is a snapshot, not a final verdict. Results can change with wording, location, account context, and time.
 
-## Should You Do AEO Yourself or Hire Someone?
+For a faster starting point, the [Free AI Check](https://report.audienceintent.ai/) asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask. It shows whether they name you or a competitor and lists what to fix. It takes about two minutes, with no signup needed to run it.
 
-Honest answer: it depends on how much time you have and how competitive your category is.
+## Step 2: Fix Inaccurate Business Details
 
-The checklist above is genuinely doable in-house. AEO doesn't require an outside company. It requires consistency, and that's where most businesses stall.
+Make your business easy to identify across your website and major profiles. Prioritize wrong phone numbers, old addresses, outdated hours, and unclear services before minor formatting differences.
 
-### When DIY makes sense
+Create one reference sheet with your business name, address where appropriate, phone number, website, hours, services, and service areas. Compare it with your website's contact page, footer, and About page, then your major profiles.
 
--   You're in a low-to-moderate competition category
-    
--   You have a content or marketing person with bandwidth
-    
--   You're willing to run prompt tracking monthly and adjust based on what you find
-    
+For local businesses, start at [Google Business Profile](https://business.google.com). Check:
 
-### When to bring in help
+- Your real business name, without added keywords.
+- The most specific accurate primary category and relevant secondary categories.
+- Current opening hours and holiday hours.
+- Cities or areas you actually serve.
+- Service descriptions, appointment requirements, and prices where applicable.
+- Accurate photos of your location, team, or work.
 
-If your competitors are already showing up in AI answers and you're not, and you don't have internal capacity to execute consistently, outside help can close that gap faster.
+Service-area businesses should follow Google's address-display rules rather than publishing a private home address just for consistency.
 
-**What to look for:**
+Next, check relevant profiles such as Yelp, Apple Maps, Bing Places, Facebook, and industry directories. A dental practice might check Healthgrades; a law firm might check Avvo. You do not need a listing on every directory.
 
--   They track citation rates, not just Google rankings
-    
--   They have a documented methodology for schema, content structure, and third-party citation building
-    
--   They can show real client results with named businesses and measurable citation growth
-    
--   Pricing is clear and doesn't require a long contract to understand
-    
+For an online business, focus on a consistent brand name, contact information, product descriptions, and policies. Do not invent a local presence.
 
-If you want to see where your business stands right now before making any decision, [get a free AI Visibility Report](https://audienceintent.ai) and see exactly where you appear across ChatGPT, Perplexity, and Google AI.
+Accurate details help customers and search systems identify the right business. They are not a documented guarantee that AI will choose you over a competitor.
+
+## Step 3: Make Your Website Accessible to Search Crawlers
+
+Your important pages must be accessible before search-based AI systems can use them reliably. Check crawling, indexing, and page rendering before spending heavily on new content.
+
+Ask whoever maintains your website to review these basics:
+
+- **robots.txt:** Confirm that intended search crawlers are not blocked from public pages.
+- **Indexing controls:** Remove accidental `noindex` instructions from pages meant to appear in search.
+- **XML sitemap:** Include current, canonical URLs and submit it through the relevant search webmaster tools.
+- **Page access:** Fix broken pages, login walls, and security rules that block legitimate crawlers.
+- **Visible text:** Make essential service and product details available as readable page content, not only inside images or inaccessible widgets.
+- **Internal links:** Link to important pages from navigation or relevant content so they can be discovered.
+
+Search crawling and model-training permissions are not the same thing. Review each crawler's purpose rather than allowing every bot without checking.
+
+For Google AI features, [Google's Search Central guidance](https://developers.google.com/search/docs/appearance/ai-features) says a page must be indexed and eligible to appear in Search with a snippet. Meeting those conditions does not guarantee inclusion.
+
+An `llms.txt` file can be an optional experiment, but evidence that it increases recommendations is limited. It does not replace robots.txt, sitemaps, indexable pages, or useful content, and Google does not require it for AI-feature eligibility.
+
+## Step 4: Add Accurate Structured Data
+
+Use structured data to describe what is already visible on your pages. Schema can help systems interpret your business, products, and articles, but it is not a shortcut to AI recommendations.
+
+Choose types that fit the page:
+
+| Page or business type | Useful schema to consider |
+| --- | --- |
+| Local business | LocalBusiness or a more specific subtype |
+| Non-local company | Organization |
+| Individual service | Service |
+| Product page | Product and applicable offer details |
+| Article or guide | Article or BlogPosting |
+
+The [LocalBusiness schema reference](https://schema.org/LocalBusiness) describes fields such as name, address, telephone, and opening hours. Keep those values aligned with the page and your actual business details.
+
+For products, keep prices and availability current. Do not add invented ratings, credentials, or claims to markup.
+
+A useful FAQ section does not need FAQPage markup to be readable. Google's FAQ rich-result eligibility is restricted, so adding that markup does not mean a business will receive a special search display.
+
+Check Google-supported markup with [Google's Rich Results Test](https://search.google.com/test/rich-results). Passing a test does not guarantee a rich result, citation, or recommendation.
+
+## Step 5: Rewrite Important Pages to Answer Real Questions
+
+Make each important page answer a specific customer question immediately. Follow the answer with the details someone needs to decide whether your business is a good fit.
+
+Start with your main service or product pages before publishing a large batch of articles. Each page should explain:
+
+1. What the service or product does.
+2. Who it is suitable for, including important limitations.
+3. Where it is available.
+4. What it costs, or what changes the price.
+5. How long delivery, treatment, or completion usually takes.
+6. What evidence supports your claims.
+
+A service-page opening might follow this template:
+
+> “[Business] provides [specific service] in [service area]. The service includes [scope], with pricing based on [main factors].”
+
+Replace every placeholder with a fact you can support. “Licensed contractor serving [county]” is more useful than “the area's leading experts,” provided the license and service area are accurate.
+
+Then answer the questions customers ask most often: “How much does it cost?”, “How long does it take?”, “Which option suits me?”, and “What happens next?” Use descriptive headings, short paragraphs, and tables where they make comparisons easier.
+
+Include relevant authorship, qualifications, original examples, and sources. For health, legal, or financial topics, have a qualified person review the material.
+
+Publish new articles when they answer a question your existing pages do not cover. Avoid near-identical city pages or thin articles written only to repeat a phrase. There is no required word count or FAQ count that earns an AI citation.
+
+## Step 6: Support Your Claims With Independent Evidence
+
+Give customers and AI systems ways to verify what you say about your business. Relevant reviews, professional credentials, association profiles, and independent coverage can provide that supporting evidence.
+
+Start by inspecting the sources cited in your baseline answers. If several recommendations refer to an industry association, review platform, or buying guide, check whether that source contains accurate information about your business.
+
+Practical tasks for your own team include:
+
+- Correcting outdated facts on profiles you control.
+- Keeping professional licenses and association memberships verifiable.
+- Publishing case studies with named results and permission.
+- Sharing genuine expertise with relevant publications when an opportunity arises.
+- Asking for honest customer reviews where the platform permits solicitation.
+
+Do not buy reviews, require positive ratings, or coach customers to make claims they cannot support. Review policies differ by platform; some discourage direct review requests.
+
+Detailed feedback can explain the service a customer received and the circumstances in which it helped. But there is no proven review threshold that guarantees an AI recommendation, and no universal rule that reviews matter more than backlinks.
+
+Review collection and media outreach are separate tasks from AudienceIntent's service. More mentions are not automatically better; relevant, accurate evidence matters more than being listed everywhere.
+
+## Step 7: Measure Recommendations and Customer Actions Separately
+
+Track AI answers directly, then use analytics to see whether identifiable visits turn into inquiries or purchases. A growing mention count does not automatically mean growing sales.
+
+Rerun your fixed prompt set on a consistent schedule. Compare trends across several checks rather than treating one changed answer as proof of success or failure.
+
+| Measure | What to record |
+| --- | --- |
+| Mentions | How often your business is named in the tested answers |
+| Recommendations | How often your business is suggested for the customer's need |
+| Citations | Links to your pages or sources that support facts about you |
+| Competitor presence | Which competitors appear for the same questions |
+| Accuracy | Whether the answers describe your business correctly |
+| Customer actions | Identifiable visits, inquiries, bookings, and purchases |
+
+In Google Analytics 4, inspect session sources such as `chatgpt.com` and `perplexity.ai`, landing pages, and key events. These reports will not capture every AI-influenced customer. Referrer information can be missing, and Google AI traffic may appear within Google organic rather than as a separate channel.
+
+Also ask new customers how they found you. Someone may see an AI recommendation and later search your name or call directly.
+
+For a fuller framework, see [how to measure AEO success](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
+
+### Does AI referral traffic convert better?
+
+Published conversion studies vary, so use your own results rather than a universal AI conversion promise. Industry, attribution, and the definition of a conversion all change the comparison.
+
+[First Page Sage's analysis](https://firstpagesage.com/seo-blog/conversion-rate-benchmarks/) of 218 sites reports visitor-to-lead rates of 4.7% for ChatGPT, 4.1% for Perplexity, and 1.9% for Google organic. By contrast, [Usermaven's B2B SaaS study](https://usermaven.com/research/ai-search-attribution-b2b-saas) of 150 websites found identifiable AI referrals represented 0.88% of sessions, with a same-session conversion rate of about 1.76%.
+
+These are different samples and measures, not interchangeable benchmarks. Track the customer actions that matter to your business.
+
+## Step 8: Keep the Work Going for at Least 90 Days
+
+Keep checking accuracy, improving useful pages, and measuring the same questions. Initial discovery and steady recommendations happen on different timelines.
+
+Use the first week to establish your baseline, correct major business-data errors, check crawler access, and improve a priority page. That is a work schedule, not a promise of results in seven days.
+
+| Platform | Realistic timing |
+| --- | --- |
+| Perplexity | Can pick up a new page within a couple of weeks |
+| ChatGPT | Usually takes two to three months to recommend a business on a steady basis |
+| Google AI | Usually takes two to three months to recommend a business on a steady basis |
+
+These are expectations, not guarantees. [Google notes](https://developers.google.com/search/docs/appearance/ai-features) that recrawling can take days to months. A crawl, an indexed page, a citation, and a business recommendation are different events.
+
+Each month, review questions you are still missing, update outdated pages, and publish answers where genuine gaps remain. Change prices, hours, stock information, and service areas when they change—not just on a reporting schedule.
+
+For context, Vault Metal's AI mentions went from 169 to 7,808 (+4,520%), and citations went from 3 to 751 in 90 days. [Read the Vault Metal case study](https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days). Craft Food Tours saw traffic from AI increase by 312% in 90 days. These are individual client results, not forecasts for another business.
+
+## Platform-by-Platform Notes
+
+Use the same accurate business facts across platforms, but check each platform's answers and sources separately. There is no published formula that reliably predicts which business every assistant will recommend.
+
+### ChatGPT
+
+Focus on accessible, specific information that can support a recommendation when ChatGPT searches the web. Check whether its answers use your website, independent sources, or both.
+
+A source citation does not necessarily mean ChatGPT recommends that source's business. Also, not every answer uses live search. Do not assume a website update must wait for a model-training cycle before it can appear in a search-based answer.
+
+### Google AI: AI Overviews and AI Mode
+
+Maintain Google Search eligibility and accurate business information. Google's [AI-feature guidance](https://developers.google.com/search/docs/appearance/ai-features) says there are no additional technical requirements beyond its established Search requirements.
+
+For local businesses, keep Google Business Profile current. For retailers, maintain accurate product pages and applicable product feeds. Neither a complete profile nor valid schema guarantees selection.
+
+### Perplexity
+
+Use Perplexity's source links to see which pages support its answers. Look for missing facts, outdated information, and relevant sources that describe competitors more clearly.
+
+Perplexity can pick up a new page within a couple of weeks. That does not mean every newly discovered page will be cited or that its business will be recommended.
+
+### A brief note on Claude and Gemini
+
+Claude and the standalone Gemini assistant can also answer business questions, and available search features affect the sources they can use. Gemini is not interchangeable with Google's AI Overviews or AI Mode.
+
+These are educational notes, not additional platforms tracked by AudienceIntent's paid service.
+
+## Adjust the Tactics to Your Business Type
+
+Prioritize the facts customers need to choose your kind of business. A local emergency service and a national online store should not use an identical content plan.
+
+| Business type | Priority work | Useful question to answer |
+| --- | --- | --- |
+| Local services | Accurate hours, service areas, qualifications, and individual service pages | “Do you offer emergency AC repair in [city], and what affects the price?” |
+| Direct-to-consumer brands | Complete specifications, ingredients or materials, shipping, returns, and honest comparisons | “Is this product suitable for [specific need]?” |
+| Large e-commerce stores | Current Merchant Center feeds, availability, variants, compatibility, and helpful category pages | “Which accessories fit [model]?” |
+| Professional and B2B services | Clear scope, who the service suits, named expertise, case studies, and pricing factors | “What should a [business type] expect from [service]?” |
+
+For direct-to-consumer brands, keep information accurate on the retailers customers actually use. An Amazon listing is not mandatory for every brand. Prices may legitimately differ by seller or promotion; make conditions clear rather than forcing every price to match.
+
+For large catalogs, fix repeated data problems across the catalog instead of manually polishing a few products. For local businesses, publish location-specific facts only where you genuinely operate.
+
+## Do It Yourself or Get the Work Done for You
+
+You can do AEO yourself if someone can maintain the website, write useful answers, and review results consistently. Consider outside help when that work keeps being delayed or your team cannot handle the technical fixes.
+
+Ask any provider what it will change, which platforms it tracks, how results are measured, and what is included. Avoid anyone promising a guaranteed position in a specific AI answer.
+
+AudienceIntent offers **AI Recommended™**, a done-for-you monthly AEO service delivered by a real team, not self-serve software. Every month includes:
+
+- Crawler-access checks and fixes covering robots.txt, llms.txt, and sitemaps.
+- Website fixes covering schema, sitemap, and on-page issues.
+- Customer question research.
+- Four new articles.
+- Updates to four older pages.
+- A weekly visibility report, with 50 prompts tracked daily.
+- Tracking of up to five competitors.
+- A monthly progress call and a shared Slack channel.
+
+Brand fixes also include Google Business Profile optimization and consistent name, address, and phone information across major profiles.
+
+The paid service tracks **ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity**. Its tracking scope is different from the Free AI Check.
+
+The price is **$1,997/month for a 90-day minimum, then $997/month month to month**. Or pay **$5,000 upfront for the first 90 days**, saving **$991**. The price is the same for every business.
+
+The service starts with 90 days because steady recommendations take time. AudienceIntent promises the work, done properly every month, and an honest report—not a guaranteed AI answer.
 
 ## Frequently Asked Questions
 
-### What is AEO and why does it matter?
-
-AEO stands for Answer Engine Optimization. It's the practice of structuring your online presence so ChatGPT, Perplexity, and Google's AI Overview recommend your business when customers ask questions in your category. It matters because a growing share of buying decisions now start with a question asked to an AI, not a Google search.
-
 ### Is AEO the same as SEO?
 
-No. SEO gets you found on Google. AEO gets you recommended by AI. A 2025 Ahrefs study found that only about 8% of URLs cited by ChatGPT were also in Google's top 10 for the same query. The two channels overlap but draw from different source pools.
+No. SEO focuses on visibility in search results; AEO focuses on being included, cited, or recommended in AI answers. They share important foundations, including accessible pages and useful content. Keep both rather than treating AEO as a replacement for SEO.
 
-### How do AI search engines decide which businesses to recommend?
+### How long does it take to get recommended by AI?
 
-They look at third-party mentions and corroboration, answer-formatted content, accurate and consistent business information, structured data, and the recency of time-sensitive information. No platform has published a definitive ranking formula.
+Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. Timing varies, and nobody can guarantee a recommendation.
 
-### How long does AEO take to work?
+### Does schema markup guarantee AI citations?
 
-Most businesses see first citation appearances within 30-60 days of implementing core changes. Measurable referral traffic typically builds over 60 to 90 days. Google notes that recrawling can take days to months, so timelines vary.
+No. Schema describes the information on a page in a structured format, but it does not guarantee a citation or recommendation. Use accurate markup that matches visible content, and fix access and content problems too.
 
-### Can a small DTC brand compete with large national brands in AI search?
+### How many reviews do I need to get recommended?
 
-Yes. Smaller brands can win with better-structured comparison pages, strong review velocity, and consistent product schema. AI engines don't just pull from the biggest names; they pull from the most useful and trustworthy sources for a given question.
+There is no proven minimum review count that guarantees an AI recommendation. Honest, relevant reviews can help people and search systems understand customer experiences. Follow each platform's review policies, and do not buy reviews or require positive ratings.
 
-### What does an AEO company actually do?
+### Can a small brand compete with a larger company in AI search?
 
-A legitimate AEO company audits your current citation rate, implements schema markup, reformats content to be answer-first, builds your third-party citation profile, and tracks citation growth against a fixed set of prompts. They should be able to show you what they're tracking and what's changing.
+Yes, a small brand can be relevant to a specific customer need even when larger brands dominate a broad category. Focus on clear product details, useful comparisons, and verifiable evidence. Being smaller does not prevent inclusion, but good formatting alone does not ensure it.
 
-### How do I know if my business is currently visible in AI search?
+### Can I pay someone to guarantee a ChatGPT recommendation?
 
-Open ChatGPT, Perplexity, and Google AI and ask the questions your customers ask. Note whether your business appears, and which competitors do instead. That's your baseline. You can also [get a free AI Visibility Report](https://audienceintent.ai) for a more systematic view.
+No provider can guarantee that ChatGPT will recommend your business in a specific answer. Paying for AEO buys research, website improvements, content, and measurement—not control over the platform's response. Be cautious of promises of permanent or guaranteed placement.
 
-## Start Here
+### How can I check whether AI recommends my business?
 
-AI search is already deciding which businesses get recommended to your customers. The question is whether yours is on that list.
+Ask the questions your customers ask in ChatGPT, Google AI, and Perplexity, then record mentions, recommendations, citations, and competitors. The Free AI Check asks customer questions across ChatGPT, Claude, Gemini, Perplexity, and Google AI, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes, with no signup needed to run it.
 
-Two ways to find out:
+## Start With the Free AI Check
 
-**Get your free AI Visibility Report** - See exactly where your business stands across ChatGPT, Perplexity, and Google AI, and which competitors are showing up instead.
+Run the [Free AI Check](https://report.audienceintent.ai/) to see whether AI names your business or a competitor and what to fix first.
 
-**Talk to us directly** - [Book a call](https://audienceintent.ai) and we'll walk through it together. No pitch, no pressure. Just a straight answer on where you stand.
+Want the work done for you? [AI Recommended™](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity) is AudienceIntent's done-for-you monthly AEO service.

@@ -5,8 +5,8 @@ meta_title: "Searchable Certified Agency Partner: What It Means"
 date: 2026-06-08T14:10:00.000-04:00
 category: Company News
 author: Kevin Bovett - AudienceIntent
-description: AudienceIntent completed the Searchable AI Search Accelerator.
-  Here's what we learned, how it sharpens AI Recommended™, and why it matters.
+description: AudienceIntent has completed the Searchable AI Search Accelerator
+  twice. What we learned, how it sharpens AI Recommended™, and why it matters.
 focus_keyword: Searchable Certified Agency Partner
 canonical: ""
 image: /images/uploads/thumbs/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-fo.jpg
@@ -19,7 +19,7 @@ schema: >-
         "@type": "Article",
         "@id": "https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy#article",
         "headline": "We're Now a Searchable Certified Agency Partner. Here's What That Actually Means for Your AI Search Strategy.",
-        "description": "AudienceIntent completed the Searchable AI Search Accelerator. Here's what we learned, how it sharpens AI Recommended™, and why it matters.",
+        "description": "AudienceIntent has completed the Searchable AI Search Accelerator twice. What we learned, how it sharpens AI Recommended™, and why it matters.",
         "image": {
           "@type": "ImageObject",
           "url": "https://www.audienceintent.ai/images/uploads/thumbs/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-fo.jpg",
@@ -43,7 +43,21 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "datePublished": "2026-06-08",
-        "dateModified": "2026-06-08",
+        "dateModified": "2026-11-07",
+        "mentions": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Searchable AI Search Accelerator, Agency track (Cohort 5)",
+            "credentialCategory": "certificate",
+            "url": "https://www.searchable.com/certificates/af37d9e5-f767-41bd-a0e6-9b637e99550c",
+            "dateCreated": "2026-10-29",
+            "recognizedBy": {
+              "@type": "Organization",
+              "name": "Searchable",
+              "url": "https://www.searchable.com"
+            }
+          }
+        ],
         "articleSection": "Company News",
         "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT7M",
@@ -89,7 +103,15 @@ schema: >-
             "name": "What is the Searchable Certified Agency Partner designation?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "It's a credential awarded to agencies that complete the Searchable AI Search Accelerator — a six-week, live cohort program covering AI search optimization, AEO, GEO, schema markup, entity optimization, and content strategy for AI citation. AudienceIntent's certification was issued June 8, 2026, signed by Chris Donnelly, CEO @ Searchable, and is valid through June 8, 2027. It's a structured program with defined phases, live instruction, and an evaluation component — not a quiz at the end of a video series."
+              "text": "It's a credential awarded to agencies that complete the Searchable AI Search Accelerator — a live, multi-week cohort program covering AI search optimization, AEO, GEO, schema markup, entity optimization, and content strategy for AI citation. Kevin Bovett first earned it on June 8, 2026. He then completed the program again with Cohort 5 on the Agency track and earned a new certificate on October 29, 2026, valid until October 29, 2027. It's a structured program with defined phases, live instruction, and an evaluation component — not a quiz at the end of a video series."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why did AudienceIntent complete the Accelerator twice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI search changes fast. Going back through the program keeps our methods current with how ChatGPT, Google AI and Perplexity choose what to cite. The second certificate covers building, delivering and scaling AI search services, from strategy and implementation to client reporting. You can verify it on Searchable."
             }
           },
           {
@@ -141,11 +163,25 @@ AudienceIntent has been named a **Searchable Certified Agency Partner** after co
 
 We're sharing this not to wave a badge around, but because the training itself changed how we work. This post breaks down what the program actually covers, how it sharpened the methodology behind AI Recommended™, and why it matters if you're evaluating whether an agency actually knows this space.
 
-*AI Search Accelerator Certification — issued to Kevin Bovett, June 8, 2026, signed by Chris Donnelly, CEO @ Searchable. Valid through June 8, 2027.*
+## Update, October 2026: We Did It Again
+
+AI search moves fast, so we went back.
+
+In October 2026 Kevin completed the Searchable AI Search Accelerator a second time, with Cohort 5 on the Agency track, and earned a new certificate.
+
+This round focused on building, delivering and scaling AI search services, from strategy and implementation to client reporting.
+
+[![Searchable AI Search Accelerator Certificate of Completion, Cohort 5, Agency track, issued to Kevin Bovett on October 29, 2026](/images/uploads/searchable-ai-search-accelerator-certificate-cohort-5.jpg)](https://www.searchable.com/certificates/af37d9e5-f767-41bd-a0e6-9b637e99550c)
+
+*AI Search Accelerator, Cohort 5, Agency track. Issued to Kevin Bovett on October 29, 2026, signed by Chris Donnelly, CEO, Searchable. Valid until October 29, 2027. Credential ID ASA-4c29b29d-e8b5-438f-b77e-64c6af43afec.*
+
+[Verify the certificate on Searchable →](https://www.searchable.com/certificates/af37d9e5-f767-41bd-a0e6-9b637e99550c)
+
+*First certificate: issued June 8, 2026, valid through June 8, 2027.*
 
 > **TL;DR:**
 >
-> * AudienceIntent completed a six-week, live AI search training program and earned Certified Agency Partner status.
+> * AudienceIntent has completed Searchable's live AI search training program twice (June and October 2026) and holds Certified Agency Partner status.
 > * The program covers AEO, GEO, schema markup, entity optimization, and content built for AI citation — the full stack.
 > * AI Recommended™ now runs on a formally trained, independently verified methodology.
 > * Only 12% of pages cited by ChatGPT rank in Google's top 10. AI search and SEO are separate ecosystems.
@@ -204,7 +240,11 @@ Every AI Recommended™ engagement now runs on a methodology trained, tested, an
 
 ### What is the Searchable Certified Agency Partner designation?
 
-It's a credential awarded to agencies that complete the Searchable AI Search Accelerator — a six-week, live cohort program covering AI search optimization, AEO, GEO, schema markup, entity optimization, and content strategy for AI citation. AudienceIntent's certification was issued June 8, 2026, signed by Chris Donnelly, CEO @ Searchable, and is valid through June 8, 2027. It's a structured program with defined phases, live instruction, and an evaluation component — not a quiz at the end of a video series.
+It's a credential awarded to agencies that complete the Searchable AI Search Accelerator — a live, multi-week cohort program covering AI search optimization, AEO, GEO, schema markup, entity optimization, and content strategy for AI citation. Kevin Bovett first earned it on June 8, 2026. He then completed the program again with Cohort 5 on the Agency track and earned a new certificate on October 29, 2026, valid until October 29, 2027. It's a structured program with defined phases, live instruction, and an evaluation component — not a quiz at the end of a video series.
+
+### Why did AudienceIntent complete the Accelerator twice?
+
+AI search changes fast. Going back through the program keeps our methods current with how ChatGPT, Google AI and Perplexity choose what to cite. The second certificate covers building, delivering and scaling AI search services, from strategy and implementation to client reporting. You can [verify it on Searchable](https://www.searchable.com/certificates/af37d9e5-f767-41bd-a0e6-9b637e99550c).
 
 ### What is AEO, and how is it different from SEO?
 

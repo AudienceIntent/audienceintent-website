@@ -279,24 +279,24 @@ The question is not whether AI search is important. It is whether your business 
 
 **Want to find out where you stand?** [AudienceIntent](https://www.audienceintent.ai) tracks your business across 50 prompts every day across ChatGPT, Google AI, and Perplexity, and works to get you recommended. One service, fixed price, weekly report from day one.
 
-Frequently Asked Questions
+**Frequently Asked Questions
 
-What is Answer Engine Optimization (AEO)?
+**What is Answer Engine Optimization (AEO)?
 
 AEO is the work of getting your business named or cited when people ask ChatGPT, Google AI, or Perplexity a question. It focuses on answer visibility, not just search rankings. The goal is recommendation, mention, and citation rather than only clicks.
 
-Why is AEO important if SEO already works?
+**Why is AEO important if SEO already works?
 
 SEO still matters, but it does not guarantee visibility in AI answers. People are increasingly using conversational tools to choose businesses, and those systems surface different signals than traditional search. AEO helps you show up where those decisions are happening.
 
-How is AEO different from SEO?
+**How is AEO different from SEO?
 
 SEO is built to win rankings in search results. AEO is built to win inclusion in direct answers and recommendations. The content, structure, and trust signals matter in different ways, so good SEO alone is not enough to compete well in AI search.
 
-What kind of content helps with AEO?
+**What kind of content helps with AEO?
 
 Content that answers real customer questions clearly, uses structured formatting, and makes the business easy to understand tends to perform best. Pages that explain services, comparisons, FAQs, and proof points help AI systems identify when and why to recommend a business.
 
-Do AI referrals really send valuable traffic?
+**Do AI referrals really send valuable traffic?
 
 Yes. Visitors arriving from AI tools spend 45% more time on site, bounce 33% less, and convert to sign-ups at 1.66% compared to just 0.15% from traditional search. The people clicking through from an AI recommendation have already done their research inside the conversation. They arrive closer to a decision.

@@ -8,7 +8,9 @@ assert.ok(page.includes('data-book=""'));
 assert.ok(!page.includes('class="pin"'));
 assert.ok(!page.includes('MOCKUP'));
 assert.ok(!/href="\/videos\/(?!what-is-aeo)/.test(page), 'Do not link to unbuilt video pages');
-assert.ok(!/<a(?:\s[^>]*)?>(?!<svg)/.test(page), 'No anchors without attributes');
+for (const [tag] of page.matchAll(/<a(?:\s[^>]*)?>/g)) {
+  assert.ok(/\bhref=/.test(tag), 'No anchors without href: ' + tag);
+}
 const graphs = [...page.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
   .flatMap(m => JSON.parse(m[1])['@graph'] || []);
 const video = graphs.find(n => n['@type'] === 'VideoObject');

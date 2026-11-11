@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/how-do-you-track-aeo/#video",
+  "name": "How Do You Track AEO?",
+  "description": "Track the same customer questions word for word each day across the AI engines and locations you serve. Assess trends over weeks and keep each engine's results separate so a strong combined average does not hide an engine where you are absent.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-16-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M37S",
+  "inLanguage": "en",
+  "position": 16,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/0J4YbY7r8NU",
+  "url": "https://www.audienceintent.ai/videos/how-do-you-track-aeo/",
+  "sameAs": "https://www.youtube.com/watch?v=0J4YbY7r8NU&list=PLdenY36Z-_w8&index=16",
+  "transcript": "How do you track AEO? Ask AI the same question twice, and you can get two different answers. So, how do you measure something that keeps moving? You track it the same way every time. Your core customer questions get run every day on every engine in every location you serve. Three rules make that work. Rule one, same prompt. The wording stays identical from one day to the next. Change even a few words, and you're measuring a different question. Rule two, every day in every location. Answers shift from day to day, and \"best plumber near me\" gives a different answer in Tampa than it does in Orlando. If you serve both, you track both. Rule three, watch the average. One great day tells you nothing. One bad day tells you nothing. What matters is the trend over weeks. And there's one trap to avoid. Don't blend every engine into a single number. A healthy overall average can hide an engine where you never show up at all. So keep ChatGPT, Gemini, Perplexity, and AI Overviews separate, and look at each one on its own. That's a lot of checking. A few dozen questions across four engines every day adds up to thousands of answers a month, which is why this is done with software, not by hand. Run the same questions the same way every day. That's what makes the numbers mean something. Next up, how do I know AEO is working?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Measuring answers that can change",
+      "startOffset": 0,
+      "endOffset": 19,
+      "url": "https://www.audienceintent.ai/videos/how-do-you-track-aeo/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Rule one: keep the prompt identical",
+      "startOffset": 19,
+      "endOffset": 31,
+      "url": "https://www.audienceintent.ai/videos/how-do-you-track-aeo/?t=19#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Rule two: daily checks in every location",
+      "startOffset": 31,
+      "endOffset": 45,
+      "url": "https://www.audienceintent.ai/videos/how-do-you-track-aeo/?t=31#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Rule three: watch trends and separate engines",
+      "startOffset": 45,
+      "endOffset": 70,
+      "url": "https://www.audienceintent.ai/videos/how-do-you-track-aeo/?t=45#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Why tracking at scale uses software",
+      "startOffset": 70,
+      "endOffset": 97,
+      "url": "https://www.audienceintent.ai/videos/how-do-you-track-aeo/?t=70#video"
+    }
+  ]
+}

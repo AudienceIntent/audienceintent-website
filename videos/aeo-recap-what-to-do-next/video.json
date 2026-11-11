@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/aeo-recap-what-to-do-next/#video",
+  "name": "AEO Recap: What Should You Do Next?",
+  "description": "Start by asking AI questions about your business and checking whether it names you and describes you accurately. The series frames AEO as improving your chances of being included in relevant recommendations, supported by clear information, independent evidence and tracking across engines.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-18-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M38S",
+  "inLanguage": "en",
+  "position": 18,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/vEuRdo1A0SY",
+  "url": "https://www.audienceintent.ai/videos/aeo-recap-what-to-do-next/",
+  "sameAs": "https://www.youtube.com/watch?v=vEuRdo1A0SY&list=PLdenY36Z-_w8&index=18",
+  "transcript": "A quick AEO recap and what you should do next. If you've watched this far, thank you. Hopefully, you now have a good feel for what AEO is and why it matters. So, let's pull it all together. Here's the short version. People now ask AI who to hire and what to buy. AI gives them one answer with two or three names in it. AEO is simply the work of being one of those names. It isn't the same as SEO. You can be first on Google and still be missing from ChatGPT. The questions that matter most are the unbranded ones where someone hasn't picked a business yet. AI names the businesses it can find, understand, and verify, and each engine leans on different sources, so there's no single trick that covers them all. If AI is skipping you or getting you wrong, don't panic. It's fixable, and you'll know it's working by four numbers: how often you appear, your share of the mentions, where you land, and how you're described. That's really it. Not so mysterious once you see how it fits together. So, what should you do next? Start by getting curious. Ask AI a few questions about your own business and see what comes back. And if you'd like a hand getting recommended by AI, you can run our free AI check anytime. It shows you how you're showing up today. The link is below. No pressure and no sales pitch. If you'd like to talk it through with our team afterwards, we're here. Thanks so much for watching, and good luck out there.",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "The series recap",
+      "startOffset": 0,
+      "endOffset": 13,
+      "url": "https://www.audienceintent.ai/videos/aeo-recap-what-to-do-next/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "What AEO is trying to achieve",
+      "startOffset": 13,
+      "endOffset": 26,
+      "url": "https://www.audienceintent.ai/videos/aeo-recap-what-to-do-next/?t=13#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "SEO, unbranded prompts and different engines",
+      "startOffset": 26,
+      "endOffset": 50,
+      "url": "https://www.audienceintent.ai/videos/aeo-recap-what-to-do-next/?t=26#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "The four measures to watch",
+      "startOffset": 50,
+      "endOffset": 65,
+      "url": "https://www.audienceintent.ai/videos/aeo-recap-what-to-do-next/?t=50#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Ask about your business and take the next step",
+      "startOffset": 65,
+      "endOffset": 98,
+      "url": "https://www.audienceintent.ai/videos/aeo-recap-what-to-do-next/?t=65#video"
+    }
+  ]
+}

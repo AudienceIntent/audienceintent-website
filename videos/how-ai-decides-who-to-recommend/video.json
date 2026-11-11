@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/how-ai-decides-who-to-recommend/#video",
+  "name": "How Does AI Decide Who to Recommend?",
+  "description": "The video highlights three things that help AI understand and assess a business: clear information, consistent details across the web and independent support from other people. These give engines more information to work with, but do not guarantee a recommendation.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-08-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M41S",
+  "inLanguage": "en",
+  "position": 8,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/S2iiY4N-6pA",
+  "url": "https://www.audienceintent.ai/videos/how-ai-decides-who-to-recommend/",
+  "sameAs": "https://www.youtube.com/watch?v=S2iiY4N-6pA&list=PLdenY36Z-_w8&index=8",
+  "transcript": "How does AI decide who to recommend? Why does AI name one business and skip another? It can feel random. It isn't. AI recommends businesses it can understand and trust. That comes down to three things. One, clear information. AI needs to know what you do, who you do it for, and where. If your website says, \"Solutions for modern living,\" AI has no idea you fix air conditioners in Tampa. Say it plainly. Two, the same story everywhere. Your website, your Google profile, your directory listings, your social pages. If they all say the same thing, AI gets confident. If your hours, your services, or even your name don't match, it gets cautious, and cautious means it leaves you out. Three, other people vouching for you. Reviews, articles, mentions on other sites, people recommending you in a forum. AI gives a lot of weight to what others say about you, because anyone can say nice things about themselves. Picture two businesses that are just as good as each other. One has a clear website, matching details everywhere, and a steady flow of recent reviews. The other has a vague homepage, an old address on two listings, and its last review was three years ago. AI will name the first one almost every time. So, it isn't luck, and it isn't about who's biggest. It's about who's easiest to find, understand, and verify. Next up, where does each engine get its information?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Why one business is named and another skipped",
+      "startOffset": 0,
+      "endOffset": 12,
+      "url": "https://www.audienceintent.ai/videos/how-ai-decides-who-to-recommend/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Clear information about your business",
+      "startOffset": 12,
+      "endOffset": 31,
+      "url": "https://www.audienceintent.ai/videos/how-ai-decides-who-to-recommend/?t=12#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "The same details everywhere",
+      "startOffset": 31,
+      "endOffset": 52,
+      "url": "https://www.audienceintent.ai/videos/how-ai-decides-who-to-recommend/?t=31#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Other people vouching for you",
+      "startOffset": 52,
+      "endOffset": 64,
+      "url": "https://www.audienceintent.ai/videos/how-ai-decides-who-to-recommend/?t=52#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Comparing two businesses",
+      "startOffset": 64,
+      "endOffset": 101,
+      "url": "https://www.audienceintent.ai/videos/how-ai-decides-who-to-recommend/?t=64#video"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/where-ai-engines-get-information/#video",
+  "name": "Where Does Each AI Engine Get Its Information?",
+  "description": "The video describes AI answers as drawing on training information and live web lookups, with different engines leaning on different sources. It presents those source preferences as tendencies that can change, not fixed rules that guarantee a mention or citation.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-09-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M44S",
+  "inLanguage": "en",
+  "position": 9,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/kcAuoD1uP_w",
+  "url": "https://www.audienceintent.ai/videos/where-ai-engines-get-information/",
+  "sameAs": "https://www.youtube.com/watch?v=kcAuoD1uP_w&list=PLdenY36Z-_w8&index=9",
+  "transcript": "Where does each engine get its information? Where is AI getting all this from? It depends which one you ask. Every AI engine works from two things: what it learned when it was trained and what it looks up live on the web. But each one has sources it leans on more than others. ChatGPT leans toward institutional and expert sources, established publications, industry bodies, recognized experts. What helps you there? Expert commentary and original data. Give it something worth quoting. Google's AI Overviews lean towards social and community platforms, YouTube, Reddit, Facebook groups. What helps you there? Being part of the conversation in the places your customers already hang out. Gemini leans toward brand websites, most of all for local business questions. What helps you there? Publishing content on your own site that answers the question better than your competitors do. And Perplexity leans towards specialist sources, industry directories, review sites, reference material. What helps you there? Being listed and well-reviewed on the sites your industry trusts. These are leanings, not hard rules, and they shift over time. Two terms you'll hear along the way. When AI names your business in its answer, that's a mention. When it links to a page as its source, that's a citation. A mention gets you recommended. A citation shows AI trusts your content. You want both, so one approach won't cover every engine. Next up, is my business showing up in AI right now?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Training information and live web lookups",
+      "startOffset": 0,
+      "endOffset": 17,
+      "url": "https://www.audienceintent.ai/videos/where-ai-engines-get-information/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "ChatGPT and expert sources",
+      "startOffset": 17,
+      "endOffset": 32,
+      "url": "https://www.audienceintent.ai/videos/where-ai-engines-get-information/?t=17#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "AI Overviews and Gemini",
+      "startOffset": 32,
+      "endOffset": 57,
+      "url": "https://www.audienceintent.ai/videos/where-ai-engines-get-information/?t=32#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Perplexity and specialist sources",
+      "startOffset": 57,
+      "endOffset": 76,
+      "url": "https://www.audienceintent.ai/videos/where-ai-engines-get-information/?t=57#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Mentions versus citations",
+      "startOffset": 76,
+      "endOffset": 104,
+      "url": "https://www.audienceintent.ai/videos/where-ai-engines-get-information/?t=76#video"
+    }
+  ]
+}

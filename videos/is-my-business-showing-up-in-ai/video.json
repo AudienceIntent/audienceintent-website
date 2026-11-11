@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/is-my-business-showing-up-in-ai/#video",
+  "name": "Is My Business Showing Up in AI Right Now?",
+  "description": "Check ChatGPT, Gemini, Perplexity and Google with three types of question: an unbranded recommendation, a comparison with a competitor and a question naming your business. Record whether you appear, whether the details are accurate and which other businesses are named, then treat the results as a snapshot rather than a stable ranking.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-10-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M26S",
+  "inLanguage": "en",
+  "position": 10,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/89hHsmPZJhw",
+  "url": "https://www.audienceintent.ai/videos/is-my-business-showing-up-in-ai/",
+  "sameAs": "https://www.youtube.com/watch?v=89hHsmPZJhw&list=PLdenY36Z-_w8&index=10",
+  "transcript": "Is my business showing up in AI right now? Let's find out if AI knows you exist. This takes about five minutes, and you can do it today. Open ChatGPT, Gemini, and Perplexity. Then open Google, because that's where AI Overviews show up. Now ask three questions in each one. Say you run a landscaping company in Nashville. First, the unbranded question: Who's the best landscaper in Nashville? Leave your name out. This is the one that matters most. Second, a comparison: your business versus your closest competitor. See how AI describes each of you. Third, the branded question: What do you know about Greenway Landscaping? Then look for three things. Are you named in the unbranded answer? Is the branded answer accurate? Right hours, right services, right location. And who else gets named? Those are the businesses AI is sending your customers to. One caution: what you just saw is one answer on one day. Ask again tomorrow, and it can change. That's why real tracking runs the same questions every day on every engine. If you'd like the fuller picture without doing it by hand, we have a free AI visibility report. The link is below. Next up: Why is AI recommending my competitor instead of me?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "A first check of your AI visibility",
+      "startOffset": 0,
+      "endOffset": 8,
+      "url": "https://www.audienceintent.ai/videos/is-my-business-showing-up-in-ai/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Open the four engines",
+      "startOffset": 8,
+      "endOffset": 22,
+      "url": "https://www.audienceintent.ai/videos/is-my-business-showing-up-in-ai/?t=8#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Ask unbranded, comparison and branded questions",
+      "startOffset": 22,
+      "endOffset": 43,
+      "url": "https://www.audienceintent.ai/videos/is-my-business-showing-up-in-ai/?t=22#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Check mentions, accuracy and competitors",
+      "startOffset": 43,
+      "endOffset": 59,
+      "url": "https://www.audienceintent.ai/videos/is-my-business-showing-up-in-ai/?t=43#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Why one day's answers are only a snapshot",
+      "startOffset": 59,
+      "endOffset": 86,
+      "url": "https://www.audienceintent.ai/videos/is-my-business-showing-up-in-ai/?t=59#video"
+    }
+  ]
+}

@@ -7,7 +7,9 @@ assert.ok(page.includes('id="aeo-player"'));
 assert.ok(page.includes('data-book=""'));
 assert.ok(!page.includes('class="pin"'));
 assert.ok(!page.includes('MOCKUP'));
-assert.ok(!/href="\/videos\/(?!what-is-aeo)/.test(page), 'Do not link to unbuilt video pages');
+for (const match of page.matchAll(/href="\/videos\/([^/]+)\//g)) {
+  assert.ok(fs.existsSync(`videos/${match[1]}/index.html`), 'Series link must exist');
+}
 for (const [tag] of page.matchAll(/<a(?:\s[^>]*)?>/g)) {
   assert.ok(/\bhref=/.test(tag), 'No anchors without href: ' + tag);
 }

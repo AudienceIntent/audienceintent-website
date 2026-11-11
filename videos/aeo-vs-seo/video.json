@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/aeo-vs-seo/#video",
+  "name": "AEO vs SEO: What's the Difference?",
+  "description": "SEO aims to get your pages ranked in search results, while AEO aims to get your business named in an AI answer. A strong Google ranking does not guarantee a ChatGPT mention, so the video recommends keeping SEO and adding work on AI visibility.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-03-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M37S",
+  "inLanguage": "en",
+  "position": 3,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/jIXCX4NjCPc",
+  "url": "https://www.audienceintent.ai/videos/aeo-vs-seo/",
+  "sameAs": "https://www.youtube.com/watch?v=jIXCX4NjCPc&list=PLdenY36Z-_w8&index=3",
+  "transcript": "You can be first on Google and never appear in ChatGPT. Sounds wrong, doesn't it? You've put the work into SEO. You rank, so surely AI knows about you too. Not necessarily. SEO gets you ranked in a list of links. AEO gets you named in the answer. They're related, but winning one doesn't win you the other. Here's how they differ. Google takes a keyword and ranks pages against it. You get a list, and you choose. AI works another way. Someone asks a full question, and AI writes one answer with two or three businesses named in it. No list, no page two. You're in the answer or you're not. And here's why. Google is mostly judging your website. AI isn't only reading your website. It's weighing what the rest of the web says about you. Reviews, articles, Reddit threads, YouTube videos, other people talking about you. And each AI engine leans on different sources, so the business at the top of Google can be completely missing from ChatGPT. One note on names, because you'll hear a few. AEO, GEO, AI SEO. Don't let that throw you. They're the same idea with different labels. So, what do you do with this? Keep your SEO. It still matters, and a good website helps with AI too. Then add AEO on top. That way, you show up in the list and in the answer. Next up, which AI engines should you actually care about?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Why Google rankings do not guarantee AI mentions",
+      "startOffset": 0,
+      "endOffset": 23,
+      "url": "https://www.audienceintent.ai/videos/aeo-vs-seo/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "A list of links versus an AI answer",
+      "startOffset": 23,
+      "endOffset": 42,
+      "url": "https://www.audienceintent.ai/videos/aeo-vs-seo/?t=23#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "What the wider web says about you",
+      "startOffset": 42,
+      "endOffset": 64,
+      "url": "https://www.audienceintent.ai/videos/aeo-vs-seo/?t=42#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "AEO, GEO and AI SEO",
+      "startOffset": 64,
+      "endOffset": 75,
+      "url": "https://www.audienceintent.ai/videos/aeo-vs-seo/?t=64#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Keep SEO and add AEO",
+      "startOffset": 75,
+      "endOffset": 97,
+      "url": "https://www.audienceintent.ai/videos/aeo-vs-seo/?t=75#video"
+    }
+  ]
+}

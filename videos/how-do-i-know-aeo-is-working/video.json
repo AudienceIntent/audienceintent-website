@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/how-do-i-know-aeo-is-working/#video",
+  "name": "How Do I Know AEO Is Working?",
+  "description": "Watch four measures: how often AI names your business, your share of brand mentions, your average position when named and the tone of the description. Review each engine separately as well as any overall average; the example in the video illustrates these measures rather than promising the same results.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-17-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M37S",
+  "inLanguage": "en",
+  "position": 17,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/gPhTgJ_rZ5k",
+  "url": "https://www.audienceintent.ai/videos/how-do-i-know-aeo-is-working/",
+  "sameAs": "https://www.youtube.com/watch?v=gPhTgJ_rZ5k&list=PLdenY36Z-_w8&index=17",
+  "transcript": "How do I know AEO is working? Fair question. You're putting in time and money, so how do you know it's paying off? You watch four numbers. And to make them real, here they are for one of our clients, a gold IRA company over 90 days. Number one, visibility score. That's how often your brand appears in AI-generated answers. Theirs went from 4.5% to 13.1%, nearly three times as often. Number two, share of voice. Out of every brand AI mentions in your space, what share is you? Theirs went from 5.5% to 11.5%, more than double. Number three, average position. When AI does name you, where do you land? First, second, fifth? They moved up from 3.4 to 2.2, closer to the top of the answer. Number four, sentiment. Does AI describe you positively, neutrally, or negatively? Theirs rose from 66 to 73.5 positive out of 100. One thing about those numbers, they're averages across every engine. That's a good headline, but check each engine on its own too, because an average can hide one where you never show up. So, that's how you know. More often, a bigger share, higher up, and described well. Four numbers, one clear picture. Next up, a quick recap and what you should do next.",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Four measures of AEO progress",
+      "startOffset": 0,
+      "endOffset": 16,
+      "url": "https://www.audienceintent.ai/videos/how-do-i-know-aeo-is-working/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Visibility score",
+      "startOffset": 16,
+      "endOffset": 30,
+      "url": "https://www.audienceintent.ai/videos/how-do-i-know-aeo-is-working/?t=16#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Share of voice",
+      "startOffset": 30,
+      "endOffset": 42,
+      "url": "https://www.audienceintent.ai/videos/how-do-i-know-aeo-is-working/?t=30#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Average position and sentiment",
+      "startOffset": 42,
+      "endOffset": 65,
+      "url": "https://www.audienceintent.ai/videos/how-do-i-know-aeo-is-working/?t=42#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Why engine-level results still matter",
+      "startOffset": 65,
+      "endOffset": 97,
+      "url": "https://www.audienceintent.ai/videos/how-do-i-know-aeo-is-working/?t=65#video"
+    }
+  ]
+}

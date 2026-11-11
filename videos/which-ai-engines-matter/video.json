@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/which-ai-engines-matter/#video",
+  "name": "Which AI Engines Actually Matter?",
+  "description": "The video recommends starting with ChatGPT, Gemini, Perplexity and Google's AI Overviews. Check each separately because their answers and source preferences differ, and a good result in one can hide an absence in another.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-04-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M52S",
+  "inLanguage": "en",
+  "position": 4,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/rcaI1kehKV4",
+  "url": "https://www.audienceintent.ai/videos/which-ai-engines-matter/",
+  "sameAs": "https://www.youtube.com/watch?v=rcaI1kehKV4&list=PLdenY36Z-_w8&index=4",
+  "transcript": "Which AI engines actually matter? There are dozens of AI tools out there, and a new one seems to launch every week. So, which ones should you care about? For most businesses, start with four: ChatGPT, Gemini, Perplexity, and Google's AI Overviews. ChatGPT is the big one. More than a billion people use it every week, and plenty of them ask it who to hire and what to buy. Gemini is Google's own assistant. It's built into the phones and apps people already use every day. Perplexity is smaller, but its users are doing research. It shows its sources, so people use it to compare options before they decide. It can also be quick. Perplexity can read the web live, so a new page can sometimes show up in its answers within hours. Not every time, but it can happen fast. And AI Overviews is the answer at the top of a Google search. People don't choose to use it. It's just there, above the links. There are others too, Claude, Grok, Meta AI, and more arriving all the time. They're worth keeping an eye on, but these four are where most of your customers are asking today. Here's the part most people miss. Ask each engine the same question, and you'll get different answers. That's because they don't lean on the same sources. So, you can show up in one and be completely missing from another, which means you can't check one and call it done. Look at each engine on its own. If you blend them into one average, a good result in ChatGPT can hide the fact that Gemini never mentions you. So, start with four and check each one separately. Next up, what is a prompt, and why is it the new keyword?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Which engines deserve attention?",
+      "startOffset": 0,
+      "endOffset": 10,
+      "url": "https://www.audienceintent.ai/videos/which-ai-engines-matter/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "ChatGPT and Gemini",
+      "startOffset": 10,
+      "endOffset": 34,
+      "url": "https://www.audienceintent.ai/videos/which-ai-engines-matter/?t=10#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Perplexity and live web research",
+      "startOffset": 34,
+      "endOffset": 52,
+      "url": "https://www.audienceintent.ai/videos/which-ai-engines-matter/?t=34#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Google AI Overviews and other tools",
+      "startOffset": 52,
+      "endOffset": 72,
+      "url": "https://www.audienceintent.ai/videos/which-ai-engines-matter/?t=52#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Check every engine separately",
+      "startOffset": 72,
+      "endOffset": 112,
+      "url": "https://www.audienceintent.ai/videos/which-ai-engines-matter/?t=72#video"
+    }
+  ]
+}

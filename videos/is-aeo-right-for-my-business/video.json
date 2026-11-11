@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/#video",
+  "name": "Is AEO Right for My Business?",
+  "description": "AEO is worth considering when customers research before buying, a new customer has meaningful value and your business already has a website and some reviews. It is not a quick fix for leads this week, and the video recommends building the basics first if you are starting without a website or reputation.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-14-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M33S",
+  "inLanguage": "en",
+  "position": 14,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/0lmqSb8ebTo",
+  "url": "https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/",
+  "sameAs": "https://www.youtube.com/watch?v=0lmqSb8ebTo&list=PLdenY36Z-_w8&index=14",
+  "transcript": "Is AEO right for my business? AEO isn't for everyone, and we'd rather tell you that now than have you find out three months in. It's a good fit if three things are true. One, people research before they buy from you. They compare options, read reviews, and ask questions. If that's your customer, they're already asking AI. Two, a customer is worth real money to you. A new roof, a legal case, a retirement account, a kitchen remodel. When one new customer covers months of the work, the math is easy. Three, you've got a foundation, a decent website, some reviews, a business that's been around long enough to have a reputation. AEO builds on what's already there. It can't invent it. Now, when should you wait? If you're brand new with no website and no reviews, start there first. If you sell impulse buys, things people grab without thinking, AI isn't where that decision gets made. And if you need leads this week, AEO isn't a quick fix. It builds over months. Here's a simple test. Would someone ask AI for advice before choosing a business like yours? If the answer is yes, AEO is worth a serious look. If the answer is no, your money is better spent somewhere else, and we'll tell you that. Next up, how long does AEO take to see results?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "AEO is not right for every business",
+      "startOffset": 0,
+      "endOffset": 12,
+      "url": "https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Customers who research before buying",
+      "startOffset": 12,
+      "endOffset": 22,
+      "url": "https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/?t=12#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Customer value and existing foundations",
+      "startOffset": 22,
+      "endOffset": 48,
+      "url": "https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/?t=22#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "When to wait or focus elsewhere",
+      "startOffset": 48,
+      "endOffset": 70,
+      "url": "https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/?t=48#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "The simple fit test",
+      "startOffset": 70,
+      "endOffset": 93,
+      "url": "https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/?t=70#video"
+    }
+  ]
+}

@@ -2,9 +2,9 @@
 
 > AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service: AI Recommended™. When people ask ChatGPT, Google AI or Perplexity who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
-This is the full-text version of https://www.audienceintent.ai/llms.txt. It holds the company facts below, then the complete text of all 19 articles from https://www.audienceintent.ai/insights/ (the "Answers" hub), each with its URL and publish date.
+This is the full-text version of https://www.audienceintent.ai/llms.txt. It holds the company facts below, then the complete text of all 20 articles from https://www.audienceintent.ai/insights/ (the "Answers" hub), each with its URL and publish date.
 
-Last updated: 2026-11-09
+Last updated: 2026-11-11
 
 Key facts:
 
@@ -3160,15 +3160,15 @@ They went to ChatGPT. They went to Google AI. They went to Perplexity. And they 
 
 **This is not a future trend. It is the current reality.** The way consumers find information, compare options, and choose businesses has already changed. The question is whether your marketing strategy has changed with it.
 
-[Answer Engine Optimization (AEO)](https://www.audienceintent.ai/insights/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026) is the practice of getting your business named, cited, and recommended when people ask questions to AI tools. It is not a variation of SEO. It is a different discipline, built for a different system, operating by different rules. Understanding why that distinction matters starts with understanding just how large the shift has become.
+Answer Engine Optimization (AEO) is the practice of getting your business named, cited, and recommended when people ask questions to AI tools. It is not a variation of SEO. It is a different discipline, built for a different system, operating by different rules. Understanding why that distinction matters starts with understanding just how large the shift has become.
 
 #### The Numbers Behind the AI Search Explosion
 
 To understand why AEO is no longer optional, start with the scale of the platforms driving it.
 
-ChatGPT now has about **1.2 billion weekly active users**, [according to OpenAI](https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20) (November 2026). That makes it one of the most-used software products in history. For context, the United States has about 335 million people. ChatGPT is used by more than three and a half times that many people, every single week.
+ChatGPT now reports **1.3 billion weekly users**. That number, confirmed by OpenAI, makes it one of the most-used software products in human history. For context, the entire population of the United States is 335 million. ChatGPT is being used by the equivalent of nearly four Americas, every single week.
 
-Google AI Overviews, the AI-generated summaries that now appear at the top of search results, have passed **2.5 billion monthly users**, [according to Google CEO Sundar Pichai](https://www.cnbc.com/video/2026/05/19/google-ceo-pichai-ai-overviews-now-has-over-2-point-5-billion-monthly-users.html) at Google I/O 2026. They now appear on roughly 48 to 60 percent of all Google searches in the United States, according to data tracked through early 2026.
+Google AI Overviews, the AI-generated summaries that now appear at the top of search results, have surpassed **2.5 billion monthly active users** across more than 200 countries and 40 languages, according to Google. They now appear on roughly 48 to 60 percent of all Google searches in the United States, according to data tracked through early 2026.
 
 Perplexity, the AI-native search engine that launched in 2022, crossed 100 million monthly active users in 2025 and continues to grow.
 
@@ -3205,13 +3205,13 @@ The reason is straightforward. When someone asks ChatGPT "what's the best HVAC c
 
 The rise of AI search is not happening in a vacuum. It is happening at the direct expense of the traffic model that most businesses have built their marketing around for the past two decades.
 
-Organic search clicks fell **42% from the pre-AI Overviews baseline** by Q4 2025, according to [Define Media Group's analysis](https://searchengineland.com/google-ai-overviews-cut-search-clicks-report-471497) of Google Search Console data across 64 sites. The decline started the moment Google AI Overviews launched and has never recovered.
+Organic search clicks fell **42% from the pre-AI Overviews baseline** by Q4 2025, according to Define Media Group's analysis of Google Search Console data across 64 sites. The decline started the moment Google AI Overviews launched and has never recovered.
 
-The mechanism is simple. [According to Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/), when a Google AI Overview appears at the top of a search result, users click a traditional result in only **8% of visits**, compared to **15% when no AI summary is present**. Ahrefs measured this effect more sharply: by December 2025, the presence of an AI Overview correlated with a **58% lower click-through rate** for the top-ranking page.
+The mechanism is simple. [According to Pew Research Center](https://www.pewresearch.org/), when a Google AI Overview appears at the top of a search result, users click a traditional result in only **8% of visits**, compared to **15% when no AI summary is present**. Ahrefs measured this effect more sharply: by December 2025, the presence of an AI Overview correlated with a **58% lower click-through rate** for the top-ranking page.
 
-> **58.5% of US Google searches end without a click to any website.** [SparkToro and Datos](https://searchengineland.com/google-search-zero-click-study-2024-443869)
+> "60% of Google searches now end without a click to any website." — SparkToro and Datos, 2026
 
-That is the zero-click reality. Most Google searches are resolved inside the search page itself, with no visit to any business website. And the trend predates AI Overviews; it has simply accelerated with their introduction.
+That is the zero-click reality. More than half of all Google searches are resolved inside the search page itself, with no visit to any business website. And the trend predates AI Overviews; it has simply accelerated with their introduction.
 
 ##### The uncomfortable math
 
@@ -3231,9 +3231,7 @@ AEO is built around answer engines. The goal is to be named, cited, or recommend
 
 ##### The rules are fundamentally different
 
-For the full side-by-side, see [AEO vs SEO: Why They're Different and Why You Need Both](https://www.audienceintent.ai/insights/aeo-vs-seo).
-
-|  | SEO | AEO |
+| - | SEO | AEO |
 | --- | --- | --- |
 | **Target system** | Search engine index | AI language model / answer engine |
 | **User behavior** | Types keywords, scans results | Asks a question, reads the answer |
@@ -3250,9 +3248,9 @@ Those are different questions. They require different answers.
 
 A business can have a technically perfect website, excellent domain authority, and strong keyword rankings and still be invisible when someone asks ChatGPT for a recommendation. The reason is that AI tools do not simply pull from the top Google results. They synthesize information from a much wider range of sources, apply their own trust signals, and construct answers based on how clearly a business is described as an authority on a given topic.
 
-[According to Ahrefs](https://ahrefs.com/blog/ai-overview-citations-top-10/), only **37.9% of URLs cited in Google AI Overviews** also rank in the top 10 of organic search results. Being well-ranked and being well-cited are increasingly separate outcomes.
+According to Ahrefs, only **37.9% of URLs cited in Google AI Overviews** also rank in the top 10 of organic search results, down from around 76% in July 2025. That gap is widening. Being well-ranked and being well-cited are increasingly separate outcomes.
 
-**36% of generative AI users now report replacing traditional search with AI assistants**, according to [Adobe's consumer research](https://business.adobe.com/blog/the-explosive-rise-of-generative-ai-referral-traffic). Those users are not seeing your search rankings. They are asking questions and reading answers. If your business is not in the answer, it does not exist for that customer.
+**36% of generative AI users now report replacing traditional search with AI assistants**, according to Adobe's consumer research. Those users are not seeing your search rankings. They are asking questions and reading answers. If your business is not in the answer, it does not exist for that customer.
 
 #### What AEO Actually Involves
 
@@ -3274,7 +3272,7 @@ Getting recommended by AI tools requires a combination of technical, content, an
 
 The reason most businesses cannot bolt AEO onto their existing marketing is not complexity. It is time and consistency.
 
-AI Overviews now show up on a large share of question-style searches, and the sources they cite change regularly. A page that earns a citation today may not hold it next month if the content becomes outdated or if a competitor publishes something more authoritative. This is why AEO is a service, not a project. It requires the same ongoing attention that SEO always has, applied to a completely different set of signals and systems.
+[Google's own research](https://searchengineland.com/google-ai-overviews-cut-search-clicks-report-471497) shows that AI Overviews now appear in the majority of question-style queries, and the content they cite is refreshed regularly. A page that earns a citation today may not hold it next month if the content becomes outdated or if a competitor publishes something more authoritative. This is why AEO is a service, not a project. It requires the same ongoing attention that SEO always has, applied to a completely different set of signals and systems.
 
 Handing AEO work to an SEO team without specific training in how AI tools evaluate and cite sources is like asking a print designer to run your social media. The skills are adjacent but the craft is different.
 
@@ -3322,41 +3320,34 @@ Running one without the other means leaving a growing portion of your potential 
 
 > "Ninety days later, we're asking new customers where they found us and hearing 'ChatGPT'. That never happened before." — Nick Hines, Co-Founder, Vault Metal
 
-[Vault Metal went from 169 AI mentions to 7,808 in 90 days](https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days), and from 3 citations to 751. That is not a coincidence. It is what happens when a business stops being invisible to the tools that more than a billion people use every week.
+Vault Metal went from 169 AI mentions to 7,808 in 90 days with a dedicated AEO program. That is not a coincidence. It is what happens when a business stops being invisible to the tools that 1.3 billion people use every week.
 
 The question is not whether AI search is important. It is whether your business is showing up in it. If you do not know the answer to that, the answer is probably no.
 
-#### Frequently Asked Questions
+---
+**Want to find out where you stand?** [AudienceIntent](https://www.audienceintent.ai) tracks your business across 50 prompts every day across ChatGPT, Google AI, and Perplexity, and works to get you recommended. One service, fixed price, weekly report from day one.
 
-##### What is Answer Engine Optimization (AEO)?
+**Frequently Asked Questions
+
+**What is Answer Engine Optimization (AEO)?
 
 AEO is the work of getting your business named or cited when people ask ChatGPT, Google AI, or Perplexity a question. It focuses on answer visibility, not just search rankings. The goal is recommendation, mention, and citation rather than only clicks.
 
-##### Why is AEO important if SEO already works?
+**Why is AEO important if SEO already works?
 
 SEO still matters, but it does not guarantee visibility in AI answers. People are increasingly using conversational tools to choose businesses, and those systems surface different signals than traditional search. AEO helps you show up where those decisions are happening.
 
-##### How is AEO different from SEO?
+**How is AEO different from SEO?
 
 SEO is built to win rankings in search results. AEO is built to win inclusion in direct answers and recommendations. The content, structure, and trust signals matter in different ways, so good SEO alone is not enough to compete well in AI search.
 
-##### What kind of content helps with AEO?
+**What kind of content helps with AEO?
 
 Content that answers real customer questions clearly, uses structured formatting, and makes the business easy to understand tends to perform best. Pages that explain services, comparisons, FAQs, and proof points help AI systems identify when and why to recommend a business.
 
-##### Do AI referrals really send valuable traffic?
+**Do AI referrals really send valuable traffic?
 
 Yes. Visitors arriving from AI tools spend 45% more time on site, bounce 33% less, and convert to sign-ups at 1.66% compared to just 0.15% from traditional search. The people clicking through from an AI recommendation have already done their research inside the conversation. They arrive closer to a decision.
-
-##### How long does AEO take to work?
-
-Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AudienceIntent starts with 90 days. No provider can guarantee inclusion in a specific answer.
-
-#### Check Where Your Business Stands
-
-Run the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes, with no signup needed to run it.
-
-Want the work done for you? [AI Recommended™](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity) is AudienceIntent's done-for-you monthly AEO service. We track 50 prompts every day across ChatGPT, Google AI, and Perplexity and send a weekly report from day one. We get your business recommended by AI.
 
 ---
 
@@ -3880,6 +3871,154 @@ Most roofing companies in Miami aren't. Not because they're bad at their jobs, b
 To see whether ChatGPT, Claude, Gemini, Perplexity and Google AI name you or a competitor when asked your customers' questions, run the [Free AI Check](https://report.audienceintent.ai/). It also lists what to fix. It takes about two minutes. No signup is needed to run it.
 
 The next customer is already asking. The question is whether you're in the answer.
+
+---
+
+## ChatGPT Just Launched Business Hub. Here's What It Means for How Customers Find You.
+
+URL: https://www.audienceintent.ai/insights/chatgpt-just-launched-business-hub-heres-what-it-means-for-how-customers-find-you
+Published: 2026-11-10
+Summary: ChatGPT Business Hub lets businesses claim their profile and see how often ChatGPT mentions them. What it means and what to do next.
+
+On November 10, 2026, OpenAI announced [Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt/), a new feature that lets any business owner claim their business directly inside ChatGPT, update their information, and see how many times ChatGPT has mentioned or linked to them.
+
+That last part is the one worth paying attention to.
+
+For years, the question business owners asked was: "How do I show up on Google?" That question is changing. Customers are now asking ChatGPT who to hire, where to eat, which product to buy, and which company to trust. ChatGPT now has 1.2 billion weekly users making exactly those kinds of decisions inside the platform every day.
+
+**Business Hub is OpenAI's signal that ChatGPT is no longer just a chatbot. It's a search channel.**
+
+If you're not showing up there, you're invisible to a growing share of your market. And until now, you had no way of even knowing it.
+
+#### What Business Hub Actually Does
+
+Business Hub is a dashboard inside ChatGPT where business owners can claim their listing, manage their information, and track how the platform talks about them. Think of it like Google Business Profile, but for the world's most widely used AI platform.
+
+Here's what you get once your claim is verified:
+- **Claim your listing.** Search for your business inside ChatGPT, verify ownership via phone, email, or DNS, and take control of how your business is represented.
+- **Update your information.** Edit your website, business description, category, logo, and more. For product-based businesses, you can connect a product feed with live pricing and availability.
+- **See your mentions and clicks.** Business Hub shows aggregated data on how often ChatGPT mentions your business and how many people click through to your website. These are rolling 28-day figures.
+- **Explore discovery topics.** See the common themes in conversations where your business was cited. This tells you what questions are driving people to find you, even if you can't see the individual conversations.
+- **Build a Business Agent (ecommerce and online services only, US).** Eligible businesses can create an AI agent that lives on their ChatGPT profile. When ChatGPT recommends your business, customers can click through and ask your agent questions directly.
+
+##### What the Mentions Number Actually Means
+
+This is worth a moment. OpenAI is careful about how it defines a "mention."
+
+For an online business, a mention counts when ChatGPT references your website in a response. Your brand name appearing in text without a link does not count. For a local business, a mention counts when ChatGPT shows your location in a result, even if the customer doesn't click through.
+
+That means the numbers you see in Business Hub are conservative. The real number of times ChatGPT talks about your business is almost certainly higher.
+
+#### Why This Is a Bigger Deal Than It Looks
+
+Most of the coverage around Business Hub has focused on the feature itself: claim your profile, see some stats, maybe build a chatbot. That framing misses the bigger story.
+
+OpenAI just built the infrastructure for ChatGPT to function as a business directory. That's not a small product update. That's a structural shift in how people find and choose businesses.
+
+##### The Google Business Profile Parallel
+
+When Google launched Google Business Profile (then called Google My Business), plenty of business owners shrugged. It seemed like a minor thing: add your address, your hours, a few photos. Within a few years, it became one of the most important factors in local search visibility. Businesses that claimed and maintained their profiles showed up. Businesses that ignored it didn't.
+
+Business Hub is the same moment, on a platform growing faster than Google Search ever did.
+
+> "We're introducing Businesses in ChatGPT in beta, giving businesses a new way to connect with the 1.2 billion people who use ChatGPT each week." — OpenAI, November 10, 2026
+
+##### The Search Behavior Has Already Changed
+
+Here's the part that should matter to any business owner: the shift in customer behavior isn't coming. It's already here.
+
+People are asking ChatGPT questions like:
+- "What's the best HVAC company near me?"
+- "Which law firm handles employment cases in Dallas?"
+- "Find me a reliable roofer with good reviews."
+- "What's a good food tour in Nashville?"
+
+These aren't hypothetical. These are the kinds of prompts that are generating mentions and website clicks for businesses right now, before Business Hub even existed. The difference is that until this week, you had no way to see it happening.
+
+**Business Hub doesn't change how ChatGPT recommends businesses. It just finally lets you see that it already is.**
+
+That visibility gap is the real problem. If your competitors claim their profiles before you do, they get the data. They learn which topics drive their mentions. They update their information to match what ChatGPT is pulling. They get the head start.
+
+#### What This Means for AI Search More Broadly
+
+Business Hub doesn't exist in isolation. It's part of a broader pattern playing out across every major AI platform.
+
+Google AI Overviews now appear at the top of millions of search results, pulling answers directly from the web and citing specific businesses and sources. Perplexity surfaces product recommendations, local businesses, and service providers in response to everyday questions. ChatGPT, with Business Hub, is now formalizing the same behavior.
+
+The three platforms your customers use most are all moving in the same direction: toward answers, not links.
+
+##### The Old Model vs. the New One
+
+| Old Search Model | AI Search Model |
+| --- | --- |
+| Customer types a query | Customer asks a question |
+| Gets a list of 10 blue links | Gets a direct answer with 1-3 cited sources |
+| Clicks through to compare options | Often decides based on the answer alone |
+| Your ranking depends on keywords | Your recommendation depends on trust signals and content |
+| You measure clicks and impressions | You measure mentions and citations |
+
+The practical implication: being on page one of Google still matters. But it's no longer enough on its own. A business that ranks well on Google but isn't being recommended by ChatGPT, Google AI, or Perplexity is losing ground to businesses that show up in both places.
+
+##### Claiming Your Profile Is Step One, Not the Whole Game
+
+This is where Business Hub can mislead people into thinking they've done the work.
+
+Claiming your profile and updating your information gives ChatGPT accurate data about your business. That's useful. But it doesn't cause ChatGPT to recommend you. The recommendation decisions are still driven by what ChatGPT knows about your business from across the web: your website content, your reviews, how other sources describe you, how well you answer the questions your customers are actually asking.
+
+**Filling out a profile won't make you recommended. But it will help you understand whether you already are, and where the gaps are.**
+
+That's the real value of the mentions and discovery topics data. It tells you which questions are driving your visibility, so you can build more content and signals around those themes.
+
+#### What to Do Right Now
+
+Here's a practical checklist for any business owner reading this today.
+
+##### Claim Your Business in ChatGPT
+1. Go to [ChatGPT Business Hub](https://chatgpt.com/business-hub) and sign in with your ChatGPT account.
+2. Search for your business name and select your listing.
+3. Verify ownership via phone, business email, website domain, or DNS.
+4. Complete identity verification through Persona (required to publish changes and view insights).
+5. Update your business description, category, website, and logo.
+6. If you sell products, connect your product feed.
+
+Once your claim is approved, check your Insights dashboard. Look at your mentions, website clicks, and discovery topics. Even if the numbers are low right now, the data will tell you where you stand.
+
+##### Beyond the Profile: What Actually Moves the Needle
+
+Claiming your profile is the starting point. Getting recommended consistently requires a different kind of work:
+- **Answer the questions your customers are asking.** ChatGPT pulls from your website content. If your site doesn't clearly answer "what does \[your business\] do and why should I choose you?", ChatGPT can't confidently recommend you.
+- **Build your authority across the web.** Reviews, press mentions, directory listings, and third-party citations all feed into how AI platforms assess your credibility.
+- **Keep your content fresh.** Google and ChatGPT both weight recency. A page that hasn't been updated in 18 months loses ground to one that was updated last month.
+- **Track your visibility across all three platforms.** ChatGPT, Google AI, and Perplexity all behave differently. A mention on one doesn't guarantee a mention on the others.
+
+> **The businesses winning in AI search right now are the ones who started treating it as a real channel six months ago.** The ones who wait another six months will be playing catch-up.
+
+If you want to see where your business currently stands across ChatGPT, Google AI, and Perplexity, the [AudienceIntent Insights hub](https://www.audienceintent.ai/insights) has resources to help you understand the landscape.
+
+And if you want someone to do the work for you, that's exactly what we do. One service, one fixed price, weekly proof that it's working. [Book a call](https://www.audienceintent.ai) and we'll show you where you stand today.
+
+---
+#### Frequently Asked Questions
+
+##### What is ChatGPT Business Hub?
+
+ChatGPT Business Hub is a profile and insights area inside ChatGPT where businesses can claim their listing, update business details, and see how often ChatGPT mentions or links to them. It gives owners a new way to manage how they appear in ChatGPT.
+
+##### Why does Business Hub matter for SEO?
+
+Business Hub matters because it shows ChatGPT is becoming a discovery channel, not just a chatbot. That means businesses need to think about how they show up in answer engines, not only how they rank in Google.
+
+##### Does claiming a Business Hub profile make ChatGPT recommend my business?
+
+No. Claiming a profile helps ChatGPT use accurate information, but recommendations still depend on your website, reviews, third-party mentions, and how well you answer the questions people ask.
+
+##### What should a business do after claiming Business Hub?
+
+Update your business details, check your mentions and discovery topics, and improve the website content that ChatGPT is likely to pull from. Then build supporting signals across reviews, directories, and relevant content.
+
+##### How is this different from Google Business Profile?
+
+Google Business Profile helped businesses show up in Google results and local packs. Business Hub plays a similar role inside ChatGPT, but the real difference is that it reflects the shift from links to direct answers.
 
 ---
 

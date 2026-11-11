@@ -2,7 +2,7 @@
 
 > AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service: AI Recommended™. When people ask ChatGPT, Google AI or Perplexity who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
-Last updated: 2026-11-09
+Last updated: 2026-11-11
 
 Key facts:
 
@@ -99,6 +99,7 @@ Paid ads management, social media management, website builds, SMS or text-messag
 - [Is AEO Important? The Numbers Behind the AI Search Explosion You Can't Afford to Ignore](https://www.audienceintent.ai/insights/is-aeo-important-the-numbers-behind-the-ai-search-explosion-you-cant-afford-to-ignore): Is AEO important? The 2026 numbers: ChatGPT and Google AI usage, falling search clicks, AI referral traffic quality, and how AEO differs from SEO.
 - [AI Recommended Your Competitor, Not You. Here's the Revenue Math.](https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math): The business case: what it costs when AI recommends a competitor, and what waiting six months means.
 - [If a Miami Homeowner Asks AI Who to Call for Their Roof, Will Your Name Come Up?](https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up): A local roofing example of how customers now ask AI who to hire.
+- [ChatGPT Just Launched Business Hub. Here's What It Means for How Customers Find You.](https://www.audienceintent.ai/insights/chatgpt-just-launched-business-hub-heres-what-it-means-for-how-customers-find-you): ChatGPT Business Hub (Nov 2026): what claiming your business in ChatGPT does, what the mentions number means, how to claim it, and why a profile alone won't get you recommended.
 
 ## Case studies
 

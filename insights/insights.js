@@ -7,7 +7,7 @@
   var format=['articles','videos'].indexOf(params.get('format'))>-1?params.get('format'):'all';
   var cat='All',q='';
   function syncButtons(){
-    document.querySelectorAll('[data-format]').forEach(function(b){
+    document.querySelectorAll('button[data-format]').forEach(function(b){
       var active=b.getAttribute('data-format')===format;
       b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));
     });

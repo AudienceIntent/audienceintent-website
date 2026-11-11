@@ -1104,6 +1104,11 @@ function generatePageHtml(template, article) {
   setById('tw-title', metaTitle);
   setById('tw-desc', desc);
   setById('tw-image', ogImage);
+  // Article thumbs are 1600x900; the shared template declares the homepage's 1200x630.
+  if (ogImage !== LOGO_URL) {
+    html = html.replace('<meta property="og:image:width" content="1200">', '<meta property="og:image:width" content="1600">')
+               .replace('<meta property="og:image:height" content="630">', '<meta property="og:image:height" content="900">');
+  }
 
   // canonical <link id="page-canonical">
   const safeCanonical = escAttr(canonical);

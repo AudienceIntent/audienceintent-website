@@ -24,6 +24,7 @@ for (let i=0;i<videos.length;i++) {
   assert.ok(h.includes(`href="${v.url}"`), 'Canonical: '+slug);
   assert.ok(h.includes(`src="${v.embedUrl}?rel=0"`), 'Correct existing embed: '+slug);
   assert.ok(h.includes('data-book=""'), 'Booking CTA retained');
+  assert.ok(h.includes('new MutationObserver(sync)'), 'Booking modal accessible state stays in sync');
   assert.ok(!/\bMOCKUP\b/.test(h));
   const graph = [...h.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .flatMap(m => JSON.parse(m[1])['@graph'] || []);

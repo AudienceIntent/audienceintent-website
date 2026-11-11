@@ -210,7 +210,7 @@
 </div>
 </div>
 </footer>
-<div aria-hidden="true" class="modal" id="book">
+<div aria-hidden="true" aria-label="Book a call" aria-modal="true" class="modal" id="book" role="dialog">
 <div class="box"><button aria-label="Close" class="x" id="bookX">×</button><div id="bookFrame" style="height:100%"></div></div>
 </div>
 <script defer="" src="/assets/site.js?v=20261029a"></script>
@@ -230,5 +230,5 @@ if(document.readyState==='complete')setTimeout(l,7000);else addEventListener('lo
         });
       });
     })();
-var t=new URLSearchParams(location.search).get('t');if(t!==null&&/^\d+$/.test(t)&&Number(t)<92){document.querySelector('.video-cover').hidden=true;document.getElementById('aeo-player').src='https://www.youtube-nocookie.com/embed/St7d2PvTXgE?rel=0&start='+t;}</script><noscript><style>.video-cover{display:none}</style></noscript></body>
+var t=new URLSearchParams(location.search).get('t');if(t!==null&&/^\d+$/.test(t)&&Number(t)<92){document.querySelector('.video-cover').hidden=true;document.getElementById('aeo-player').src='https://www.youtube-nocookie.com/embed/St7d2PvTXgE?rel=0&start='+t;}</script><noscript><style>.video-cover{display:none}</style></noscript><script>(function(){var m=document.getElementById('book');function sync(){m.setAttribute('aria-hidden',String(!m.classList.contains('open')));}new MutationObserver(sync).observe(m,{attributes:true,attributeFilter:['class']});sync();})();</script></body>
 </html>

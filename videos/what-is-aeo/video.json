@@ -1,0 +1,62 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/what-is-aeo/#video",
+  "name": "What Is AEO? Answer Engine Optimization Explained",
+  "description": "AEO (Answer Engine Optimization) is the work of helping AI tools like ChatGPT, Gemini and Perplexity find, understand and recommend your business. When someone asks AI who to hire or where to go, it can return a short list of recommendations. AEO helps your business become one of those names.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-01-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M38S",
+  "inLanguage": "en",
+  "embedUrl": "https://www.youtube-nocookie.com/embed/7E6K9i21TRw",
+  "url": "https://www.audienceintent.ai/videos/what-is-aeo/",
+  "sameAs": "https://www.youtube.com/watch?v=7E6K9i21TRw&list=PLdenY36Z-_w8&index=1",
+  "transcript": "So, what is AEO? Open ChatGPT and ask it for the best nightclub in Miami. It won't give you 10 links. It gives you one answer with two or three names in it. Is yours one of them? That's what AEO is about. It stands for Answer Engine Optimization. An answer engine is any AI tool people ask questions to, like ChatGPT, Gemini, or Perplexity. AEO is the work of getting those tools to name your business when someone asks for a recommendation. Here's why it matters. For years, search worked one way. You typed a few words into Google, got a page of links, and clicked around until you found someone. Now, a lot of people skip that. They ask AI a full question, the way they'd ask a friend, and they get a straight answer back. No scrolling, no page two, just a short list of businesses the AI is comfortable recommending. If you're on that list, you're in the conversation. If you're not, that customer may never know you exist. Look at this one. Someone asks, \"What's the best nightclub in Miami for a Saturday night?\" The AI names three spots, Club Space, LIV, and Eleven, says a line about each, and that's it. Miami has a lot of nightclubs. Three got mentioned, and those three didn't get lucky. AI named them because it could find them, understand them, and trust them. So that's AEO, being one of the names in the answer. Next up, does anyone really search this way? Let's look.",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.youtube.com/playlist?list=PLdenY36Z-_w8#series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "One answer, not 10 links",
+      "startOffset": 0,
+      "endOffset": 15,
+      "url": "https://www.audienceintent.ai/videos/what-is-aeo/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "What AEO means",
+      "startOffset": 15,
+      "endOffset": 33,
+      "url": "https://www.audienceintent.ai/videos/what-is-aeo/?t=15#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Why it matters",
+      "startOffset": 33,
+      "endOffset": 61,
+      "url": "https://www.audienceintent.ai/videos/what-is-aeo/?t=33#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Miami example",
+      "startOffset": 61,
+      "endOffset": 80,
+      "url": "https://www.audienceintent.ai/videos/what-is-aeo/?t=61#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Find, understand, trust",
+      "startOffset": 80,
+      "endOffset": 98,
+      "url": "https://www.audienceintent.ai/videos/what-is-aeo/?t=80#video"
+    }
+  ]
+}

@@ -411,3 +411,8 @@ Establish a baseline before buying services or rewriting your site. Check whethe
 Run the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup is needed to run it.
 
 Want the work done for you? [AI Recommended™ is AudienceIntent's done-for-you monthly AEO service](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity).
+
+
+## Watch the short explanation
+
+Prefer a quick introduction? [Watch Kevin Bovett explain what AEO is in Video 01](/videos/what-is-aeo/), with key takeaways and a full transcript.

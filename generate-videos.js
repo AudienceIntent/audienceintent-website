@@ -61,8 +61,8 @@ let hub = fs.readFileSync(hubPath, 'utf8');
 const cards = videos.map(v => {
   const first = v.position === 1, n = String(v.position).padStart(2,'0');
   const sec = durationSeconds(v), duration = Math.floor(sec/60) + ':' + String(sec%60).padStart(2,'0');
-  return `<a class="${first ? 'card-featured' : 'card'} video-card" href="${esc(v.url)}" data-format="videos" data-cat="AI Recommended" data-episode="${v.position}">
-  <div class="card-img-wrap"><img class="card-img" src="${esc(v.thumbnailUrl[0])}" alt="${esc(v.name)}" loading="${first ? 'eager' : 'lazy'}" decoding="async" width="1280" height="720"><span class="video-play" aria-hidden="true">&#9654;</span></div>
+  return `<a class="${first ? 'card-featured' : 'card'} video-card" href="${esc(new URL(v.url).pathname)}" data-format="videos" data-cat="AI Recommended" data-episode="${v.position}">
+  <div class="card-img-wrap"><img class="card-img" src="${esc(new URL(v.thumbnailUrl[0]).pathname)}" alt="${esc(v.name)}" loading="${first ? 'eager' : 'lazy'}" decoding="async" width="1280" height="720"><span class="video-play" aria-hidden="true">&#9654;</span></div>
   <div class="card-body"><div class="card-cat">${first ? 'Start here &middot; ' : ''}Video ${n} of ${videos.length}</div>
   <h2 class="card-title">${esc(v.name)}</h2>
   <div class="card-excerpt">${esc(v.description)}</div>

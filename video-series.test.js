@@ -67,6 +67,8 @@ for (let i=0;i<videos.length;i++) {
   assert.ok(read('llms-full.txt').includes(v.transcript));
   const cardIndex = hub.indexOf(`data-episode="${i+1}"`);
   assert.ok(cardIndex>priorCardIndex,'Cards in episode order'); priorCardIndex=cardIndex;
+  assert.ok(hub.includes(`href="/videos/${slug}/"`), 'Preview-safe card route');
+  assert.ok(hub.includes(`src="${image}"`), 'Preview-safe thumbnail asset');
 }
 assert.ok(read('robots.txt').includes('sitemap-videos.xml'));
 const files=['sitemap.xml','sitemap-videos.xml','llms.txt','llms-full.txt','insights/index.html'];

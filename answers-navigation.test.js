@@ -5,7 +5,7 @@ const vm = require('node:vm');
 const html = fs.readFileSync('insights/index.html', 'utf8');
 assert.equal((html.match(/class="card-featured video-card"/g) || []).length, 1);
 assert.equal((html.match(/class="card-featured"/g) || []).length, 0);
-assert.match(html, /href="https:\/\/www.audienceintent.ai\/videos\/what-is-aeo\/" data-format="videos"/);
+assert.match(html, /href="\/videos\/what-is-aeo\/" data-format="videos"/);
 assert.match(html, /1:38 &middot; Video/);
 assert.equal((html.match(/<button[^>]*data-format=/g) || []).length, 3);
 assert.ok(html.indexOf('class="card-featured video-card"') < html.indexOf('class="card"'));

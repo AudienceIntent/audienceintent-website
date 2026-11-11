@@ -689,6 +689,14 @@ function parseFrontmatter(text, filename) {
   // ──────────────────────────────────────────────────────────
 
   // Canonical: required for schema, always derive if missing.
+  // A canonical pointing at a different /insights/ slug (e.g. a shortened
+  // URL typed in Decap) 404s/410s and makes Google ignore canonicals.
+  // Articles always canonicalise to their own URL.
+  if (result.canonical && result.slug && result.canonical.startsWith(`${SITE_URL}/insights/`) &&
+      result.canonical.replace(/\/$/, '') !== `${SITE_URL}/insights/${result.slug}`) {
+    console.log(`  ⚠  canonical for "${result.slug}" pointed at ${result.canonical} — reset to its own URL`);
+    result.canonical = `${SITE_URL}/insights/${result.slug}`;
+  }
   if (!result.canonical && result.slug) {
     result.canonical = `${SITE_URL}/insights/${result.slug}`;
     result._auto_filled.push('canonical');

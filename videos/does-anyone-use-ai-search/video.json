@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/does-anyone-use-ai-search/#video",
+  "name": "Does Anyone Actually Use AI Search?",
+  "description": "Yes, people use AI search to decide who to hire and what to buy, including local business recommendations. The video describes adoption across several AI tools and shows how specific customer questions can signal that someone is close to a decision.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-02-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M39S",
+  "inLanguage": "en",
+  "position": 2,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/6NYnJG1jvhU",
+  "url": "https://www.audienceintent.ai/videos/does-anyone-use-ai-search/",
+  "sameAs": "https://www.youtube.com/watch?v=6NYnJG1jvhU&list=PLdenY36Z-_w8&index=2",
+  "transcript": "So, does anyone actually use AI for search? Fair question. It can feel like something only tech people do. The numbers say otherwise. ChatGPT now has over 1 billion people using it every week. Google's AI Overviews reach more than 2.5 billion people a month. Gemini is close to a billion. Perplexity has passed 100 million monthly users, and Claude's app is estimated at over 100 million too. Then there's Grok, Meta AI, and more arriving all the time. Here in the US, Pew Research found that 44% of adults now use ChatGPT. Three years ago, it was 18%. And they're not just writing emails with it. They're using it to decide who to hire and what to buy. 45% of consumers say they use AI tools to get local business recommendations. Adobe found that AI traffic to US retail sites grew nearly 400% in a year, and those visitors converted 42% better than everyone else. Here's what those questions look like. \"What's the best Italian restaurant in Chicago for a birthday dinner?\" \"Who should I call to fix a leaking roof?\" Notice how specific they are. These people have a need, and they're about to pick someone. And it's still early. Semrush projects that AI search could send more visitors to websites than traditional search by 2028. So yes, people really do search this way. Next question, how is this different from SEO? That's next.",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Does anyone use AI search?",
+      "startOffset": 0,
+      "endOffset": 8,
+      "url": "https://www.audienceintent.ai/videos/does-anyone-use-ai-search/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Adoption across AI tools",
+      "startOffset": 8,
+      "endOffset": 44,
+      "url": "https://www.audienceintent.ai/videos/does-anyone-use-ai-search/?t=8#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Buying and local business decisions",
+      "startOffset": 44,
+      "endOffset": 63,
+      "url": "https://www.audienceintent.ai/videos/does-anyone-use-ai-search/?t=44#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "What customer questions look like",
+      "startOffset": 63,
+      "endOffset": 77,
+      "url": "https://www.audienceintent.ai/videos/does-anyone-use-ai-search/?t=63#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "The forecast for AI search",
+      "startOffset": 77,
+      "endOffset": 99,
+      "url": "https://www.audienceintent.ai/videos/does-anyone-use-ai-search/?t=77#video"
+    }
+  ]
+}

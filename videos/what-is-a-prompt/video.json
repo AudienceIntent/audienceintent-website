@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/what-is-a-prompt/#video",
+  "name": "What Is a Prompt, and Why Is It the New Keyword?",
+  "description": "A prompt is the full question someone asks AI, expressed in natural language. Unlike a short keyword, it can include the problem, location, urgency and decision someone needs help with, which can change the businesses named in the answer.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-05-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M31S",
+  "inLanguage": "en",
+  "position": 5,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/Muq1U7iQvQo",
+  "url": "https://www.audienceintent.ai/videos/what-is-a-prompt/",
+  "sameAs": "https://www.youtube.com/watch?v=Muq1U7iQvQo&list=PLdenY36Z-_w8&index=5",
+  "transcript": "What is a prompt, and why is it the new keyword? Nobody types plumber Phoenix into ChatGPT. That's a keyword. It's how we learned to talk to Google, short, clipped, two or three words. A prompt is different. A prompt is the full question someone asks AI, written the way they'd say it to a friend. And for AI search, it has replaced the keyword. Here's what one looks like. \"My water heater is leaking, and it's about 10 years old. Who's a reliable plumber in Phoenix who can come out today, and should I repair it or replace it?\" Look at what's in there, the problem, the location, the urgency, even a question about what to do next. A keyword tells Google a topic. A prompt tells AI the whole situation, and that changes the answer. Ask for a plumber who can come today, and AI names one set of businesses. Ask for the most affordable plumber for a new install, and it may name a different set. Same trade, same city, different prompt, different answer. So there isn't one ranking to win anymore. There are hundreds of questions your customers could ask, and you want to be named in the ones that matter. That's where AEO starts, knowing which prompts your customers are really asking. Next up, there are two kinds of prompt, and one of them decides who gets the customer.",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Prompts versus keywords",
+      "startOffset": 0,
+      "endOffset": 15,
+      "url": "https://www.audienceintent.ai/videos/what-is-a-prompt/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "What a full AI question includes",
+      "startOffset": 15,
+      "endOffset": 26,
+      "url": "https://www.audienceintent.ai/videos/what-is-a-prompt/?t=15#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "The leaking water heater example",
+      "startOffset": 26,
+      "endOffset": 45,
+      "url": "https://www.audienceintent.ai/videos/what-is-a-prompt/?t=26#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Different situations change the answer",
+      "startOffset": 45,
+      "endOffset": 65,
+      "url": "https://www.audienceintent.ai/videos/what-is-a-prompt/?t=45#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Find the customer questions that matter",
+      "startOffset": 65,
+      "endOffset": 91,
+      "url": "https://www.audienceintent.ai/videos/what-is-a-prompt/?t=65#video"
+    }
+  ]
+}

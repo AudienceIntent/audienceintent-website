@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/how-long-does-aeo-take/#video",
+  "name": "How Long Does AEO Take to See Results?",
+  "description": "The video suggests using about 90 days as an initial review period, not a guaranteed results deadline. Early movement may come sooner, but progress depends on your starting point, competition and how quickly different engines pick up changes.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-15-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M32S",
+  "inLanguage": "en",
+  "position": 15,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/SzhEjn6gPDk",
+  "url": "https://www.audienceintent.ai/videos/how-long-does-aeo-take/",
+  "sameAs": "https://www.youtube.com/watch?v=SzhEjn6gPDk&list=PLdenY36Z-_w8&index=15",
+  "transcript": "How long does AEO take to see results? Short answer: plan on about 90 days for a clear picture. You'll usually see early movement before that, often in the first few weeks. Here's roughly how those 90 days go. Month one is the foundation, finding your core customer questions, setting up tracking on every engine, fixing what's unclear or inconsistent on your website and your listings. Not much shows on the surface yet, but this is what everything else stands on. Month two is when the first new mentions tend to appear. AI starts naming you for questions where you weren't showing up before, often on one engine first, then another. Month three is about consistency. You're showing up more often across more of your questions on more engines, and the averages start to tell a clear story. Three things change the speed: where you're starting from, a business with a solid website and good reviews moves faster than one starting from scratch; your competition, a crowded market takes longer than a quiet one; and the engines themselves, some pick up changes in days, others take weeks. One more thing, be careful with anyone promising results overnight. AI doesn't work that way, and neither does trust. Ninety days, steady work, then you'll know where you stand. Next up, how do you track AEO?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "A 90-day review period, not a fixed deadline",
+      "startOffset": 0,
+      "endOffset": 14,
+      "url": "https://www.audienceintent.ai/videos/how-long-does-aeo-take/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Month one: questions, tracking and foundations",
+      "startOffset": 14,
+      "endOffset": 32,
+      "url": "https://www.audienceintent.ai/videos/how-long-does-aeo-take/?t=14#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Months two and three: mentions and consistency",
+      "startOffset": 32,
+      "endOffset": 51,
+      "url": "https://www.audienceintent.ai/videos/how-long-does-aeo-take/?t=32#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "What changes the pace",
+      "startOffset": 51,
+      "endOffset": 71,
+      "url": "https://www.audienceintent.ai/videos/how-long-does-aeo-take/?t=51#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Be cautious about overnight promises",
+      "startOffset": 71,
+      "endOffset": 92,
+      "url": "https://www.audienceintent.ai/videos/how-long-does-aeo-take/?t=71#video"
+    }
+  ]
+}

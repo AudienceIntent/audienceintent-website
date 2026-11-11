@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/what-if-ai-says-the-wrong-thing/#video",
+  "name": "What If AI Is Saying the Wrong Thing About My Business?",
+  "description": "Trace the incorrect answer to its sources, correct outdated listings or pages and publish accurate hours, services and location on your own website. Check the tone of the description as well as the facts, and allow for variable update times rather than expecting an immediate correction in every engine.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-12-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M35S",
+  "inLanguage": "en",
+  "position": 12,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/czQqb8U23qA",
+  "url": "https://www.audienceintent.ai/videos/what-if-ai-says-the-wrong-thing/",
+  "sameAs": "https://www.youtube.com/watch?v=czQqb8U23qA&list=PLdenY36Z-_w8&index=12",
+  "transcript": "What if AI is saying the wrong thing about my business? AI just told a customer you close at 5:00. You close at 8:00. They went somewhere else, and you never knew. This happens more than you'd think. AI repeats whatever it finds, even when it's old or wrong. So where do the mistakes come from? Outdated listings that still show your old hours, an article from years ago about a service you've stopped offering, two directories that disagree on your address. And when AI can't find a detail at all, it sometimes fills the gap with a guess. It isn't only facts either. Listen to how AI describes you. Is it positive, neutral, or does it lead with a complaint from an old review? That tone shapes whether someone picks up the phone. Here's how you fix it. First, find the source. Ask AI where it got that from, or look at the pages it links to. Second, correct it there. Update the listing, fix the directory, refresh the page. Third, give AI a clear, accurate version to work from, a page on your own site with your hours, your services, and your location stated plainly. It won't change overnight. AI takes time to pick up corrections, but it does pick them up. So don't only check whether AI names you, check what it says when it does. Next up, how does AEO work, and can I do it myself?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "When AI gives customers the wrong information",
+      "startOffset": 0,
+      "endOffset": 18,
+      "url": "https://www.audienceintent.ai/videos/what-if-ai-says-the-wrong-thing/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Where factual mistakes come from",
+      "startOffset": 18,
+      "endOffset": 38,
+      "url": "https://www.audienceintent.ai/videos/what-if-ai-says-the-wrong-thing/?t=18#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Check the tone as well as the facts",
+      "startOffset": 38,
+      "endOffset": 49,
+      "url": "https://www.audienceintent.ai/videos/what-if-ai-says-the-wrong-thing/?t=38#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Find the source and correct it",
+      "startOffset": 49,
+      "endOffset": 65,
+      "url": "https://www.audienceintent.ai/videos/what-if-ai-says-the-wrong-thing/?t=49#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Publish accurate details and allow update time",
+      "startOffset": 65,
+      "endOffset": 95,
+      "url": "https://www.audienceintent.ai/videos/what-if-ai-says-the-wrong-thing/?t=65#video"
+    }
+  ]
+}

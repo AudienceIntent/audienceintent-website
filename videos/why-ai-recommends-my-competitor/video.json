@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/why-ai-recommends-my-competitor/#video",
+  "name": "Why Is AI Recommending My Competitor Instead of Me?",
+  "description": "AI recommending a competitor does not establish that their service is better. The video identifies four information gaps to investigate: an unclear website, few recent reviews, inconsistent business details and limited independent mentions.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-11-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M44S",
+  "inLanguage": "en",
+  "position": 11,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/mMXDwWMgz_c",
+  "url": "https://www.audienceintent.ai/videos/why-ai-recommends-my-competitor/",
+  "sameAs": "https://www.youtube.com/watch?v=mMXDwWMgz_c&list=PLdenY36Z-_w8&index=11",
+  "transcript": "Why is AI recommending my competitor instead of me? You're better than them. You know it, and your customers know it. So why does AI pick them? Here's the uncomfortable part. AI doesn't know who's better. It has never used your service. It only knows who's easier to find, understand, and verify. And this shows up on unbranded questions, the ones where AI is choosing who to name. There are four common gaps. One, a vague website. If your site doesn't clearly say what you do and where, AI can't match you to the question. Two, few recent reviews. Your competitor has fresh reviews from this month. Yours are from two years ago. To AI, they look active, and you look quiet. Three, mismatched business information. Different hours, an old address, a slightly different name from one listing to the next. AI gets unsure, so it plays safe and names someone else. Four, nobody else is talking about you. No articles, no mentions, no one recommending you in a forum. Your competitor comes up in conversations, and you don't. Notice what's missing from that list, being worse at the job. And here's the good news. Every one of those gaps is fixable. None of them needs a bigger budget than your competitors. They need attention. So if AI is naming them and skipping you, it's rarely about quality. It's about clarity and proof. Next up, what if AI is saying the wrong thing about my business?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "An AI recommendation is not a service-quality test",
+      "startOffset": 0,
+      "endOffset": 26,
+      "url": "https://www.audienceintent.ai/videos/why-ai-recommends-my-competitor/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "An unclear website",
+      "startOffset": 26,
+      "endOffset": 38,
+      "url": "https://www.audienceintent.ai/videos/why-ai-recommends-my-competitor/?t=26#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Few recent reviews",
+      "startOffset": 38,
+      "endOffset": 49,
+      "url": "https://www.audienceintent.ai/videos/why-ai-recommends-my-competitor/?t=38#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Conflicting business details",
+      "startOffset": 49,
+      "endOffset": 63,
+      "url": "https://www.audienceintent.ai/videos/why-ai-recommends-my-competitor/?t=49#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Missing independent mentions and what to address",
+      "startOffset": 63,
+      "endOffset": 104,
+      "url": "https://www.audienceintent.ai/videos/why-ai-recommends-my-competitor/?t=63#video"
+    }
+  ]
+}

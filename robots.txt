@@ -120,3 +120,4 @@ Disallow: /
 # ------------------------------------------------------------
 Sitemap: https://www.audienceintent.ai/sitemap.xml
 Sitemap: https://www.audienceintent.ai/sitemap-images.xml
+Sitemap: https://www.audienceintent.ai/sitemap-videos.xml

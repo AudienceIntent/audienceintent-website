@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/how-aeo-works-can-i-do-it-myself/#video",
+  "name": "How Does AEO Work, and Can I Do It Myself?",
+  "description": "AEO is a repeating process of finding customer questions, making your website readable, publishing answers, building evidence on other sites and tracking results. You can do it yourself, but the video stresses the ongoing time required for tools, technical work, content and keeping up with changes.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-13-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M38S",
+  "inLanguage": "en",
+  "position": 13,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/rMEgVvBSHPY",
+  "url": "https://www.audienceintent.ai/videos/how-aeo-works-can-i-do-it-myself/",
+  "sameAs": "https://www.youtube.com/watch?v=rMEgVvBSHPY&list=PLdenY36Z-_w8&index=13",
+  "transcript": "How does AEO work, and can I do it myself? Let's take those one at a time. How it works is simple to describe. You find the questions your customers ask. You fix your website so AI can read it. You publish content that answers those questions. You build proof on other sites, and you track all of it every day. Then you repeat. So, can you do it yourself? Yes. None of this is secret, but here's what it takes. First, a tracking tool, one that runs your prompts every day on every engine in every location you serve. You can't do that by hand. Second, a prompt library built from real customer questions and kept up to date as those questions change. Third, technical website fixes, the behind-the-scenes work that lets AI read and understand your site. Fourth, content, new pages written and old pages updated on a regular schedule every month for as long as you want to keep showing up. And fifth, keeping up. AI changes almost weekly. What worked in the spring may not work by the fall. Add that up, and the real cost is time, hours every week on top of running your business. So here's our view. You can do this yourself, but in our opinion, you're better off letting people who do this all day handle it, so you can focus on what you do best, running your business. Next up, is AEO right for my business?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "The repeating AEO process",
+      "startOffset": 0,
+      "endOffset": 24,
+      "url": "https://www.audienceintent.ai/videos/how-aeo-works-can-i-do-it-myself/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "DIY tracking and a prompt library",
+      "startOffset": 24,
+      "endOffset": 47,
+      "url": "https://www.audienceintent.ai/videos/how-aeo-works-can-i-do-it-myself/?t=24#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Technical website work",
+      "startOffset": 47,
+      "endOffset": 55,
+      "url": "https://www.audienceintent.ai/videos/how-aeo-works-can-i-do-it-myself/?t=47#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Content updates and keeping up with change",
+      "startOffset": 55,
+      "endOffset": 69,
+      "url": "https://www.audienceintent.ai/videos/how-aeo-works-can-i-do-it-myself/?t=55#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "The time commitment of doing it yourself",
+      "startOffset": 69,
+      "endOffset": 98,
+      "url": "https://www.audienceintent.ai/videos/how-aeo-works-can-i-do-it-myself/?t=69#video"
+    }
+  ]
+}

@@ -20,7 +20,7 @@
     "@id": "https://www.audienceintent.ai/#organization"
   },
   "isPartOf": {
-    "@id": "https://www.youtube.com/playlist?list=PLdenY36Z-_w8#series"
+    "@id": "https://www.audienceintent.ai/insights#video-series"
   },
   "hasPart": [
     {
@@ -58,5 +58,6 @@
       "endOffset": 98,
       "url": "https://www.audienceintent.ai/videos/what-is-aeo/?t=80#video"
     }
-  ]
+  ],
+  "position": 1
 }

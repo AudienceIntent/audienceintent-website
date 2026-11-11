@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/where-to-find-customer-questions/#video",
+  "name": "Where Do You Find the Questions Your Customers Ask?",
+  "description": "Find customer questions in sales calls, support emails, Reddit and online forums rather than guessing. Combine them into one list, then prioritise the questions a new customer would ask before choosing a business like yours.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-07-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M32S",
+  "inLanguage": "en",
+  "position": 7,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/St7d2PvTXgE",
+  "url": "https://www.audienceintent.ai/videos/where-to-find-customer-questions/",
+  "sameAs": "https://www.youtube.com/watch?v=St7d2PvTXgE&list=PLdenY36Z-_w8&index=7",
+  "transcript": "Where do you find the questions your customers ask? Don't guess what people are asking AI. Your customers have already told you. The questions are sitting in three places you already have access to: your sales calls, your support emails, and places like Reddit and online forums. Start with sales calls. What do people ask right before they buy? How long does it take? What does it cost? How are you different from the other guys? Those are the questions people ask when they're close to a decision, and they're asking AI the same things. Next, support emails. This is what people ask once they're a customer, and it's in their words, which are rarely the words on your website. Then Reddit and forums. This is what people ask when you're not in the room. It's honest, it's specific, and it's often the exact wording they'll type into ChatGPT. Now put them all in one list. You might end up with 50 questions or a couple of hundred. That's fine. From that list, pick the ones that matter most to your business, the ones a new customer would ask before choosing someone like you. Those are your core customer questions, and they're the ones you track. Why go to this trouble? Because a guessed keyword tells you what you think people search for. A real question tells you what they ask. Next up, how does AI decide who to recommend?",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Start with questions customers already ask",
+      "startOffset": 0,
+      "endOffset": 20,
+      "url": "https://www.audienceintent.ai/videos/where-to-find-customer-questions/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Sales calls before a buying decision",
+      "startOffset": 20,
+      "endOffset": 36,
+      "url": "https://www.audienceintent.ai/videos/where-to-find-customer-questions/?t=20#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Support emails in the customer's words",
+      "startOffset": 36,
+      "endOffset": 43,
+      "url": "https://www.audienceintent.ai/videos/where-to-find-customer-questions/?t=36#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Reddit and online forums",
+      "startOffset": 43,
+      "endOffset": 53,
+      "url": "https://www.audienceintent.ai/videos/where-to-find-customer-questions/?t=43#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Build and prioritise your question list",
+      "startOffset": 53,
+      "endOffset": 92,
+      "url": "https://www.audienceintent.ai/videos/where-to-find-customer-questions/?t=53#video"
+    }
+  ]
+}

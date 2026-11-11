@@ -1,0 +1,63 @@
+{
+  "@type": "VideoObject",
+  "@id": "https://www.audienceintent.ai/videos/branded-vs-unbranded-prompts/#video",
+  "name": "Branded vs Unbranded Prompts: Where AEO Is Won and Lost",
+  "description": "A branded prompt includes your business name, while an unbranded prompt asks about a service or need without naming you. Check both: branded questions show how AI describes you, and unbranded questions show whether it introduces you to someone who has not chosen a business yet.",
+  "thumbnailUrl": [
+    "https://www.audienceintent.ai/assets/img/aeo-video-06-thumbnail.jpg"
+  ],
+  "uploadDate": "2026-11-11",
+  "duration": "PT1M38S",
+  "inLanguage": "en",
+  "position": 6,
+  "embedUrl": "https://www.youtube-nocookie.com/embed/TMB3N-Ksm_E",
+  "url": "https://www.audienceintent.ai/videos/branded-vs-unbranded-prompts/",
+  "sameAs": "https://www.youtube.com/watch?v=TMB3N-Ksm_E&list=PLdenY36Z-_w8&index=6",
+  "transcript": "Branded versus unbranded, where AEO is won and lost. Ask AI about your business by name, and you'll probably look fine. That's not the real test. There are two kinds of prompt. A branded prompt has your name in it. An unbranded prompt doesn't. And unbranded is where customers are won and lost. Start with branded. Is Carter's Roofing any good? That person already knows you. They've heard your name, and they're checking you out. AI isn't choosing you here, it's describing you. Now, unbranded. Who's the best roofer in Atlanta? This person hasn't picked anyone yet. They don't know your name, so AI decides which two or three businesses to put in front of them. Here's how that plays out. Take the same roofing company. Ask about them by name, and AI gives a nice summary, good reviews, 20 years in business. Then ask for the best roofer in Atlanta, and they're nowhere in the answer. Same business, same day, named in one, missing from the other. That's why you need both. Branded prompts tell you if AI has your story right. Unbranded prompts tell you if new customers ever hear your name. And most of your future customers are asking the unbranded kind. They don't know you yet. They're searching for what you do. So if you only ever check your own name, you're missing the prompts that bring in new business. Next up, where to find the unbranded questions your customers are really asking.",
+  "creator": {
+    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+  },
+  "publisher": {
+    "@id": "https://www.audienceintent.ai/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://www.audienceintent.ai/insights#video-series"
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Why checking your own name is not enough",
+      "startOffset": 0,
+      "endOffset": 11,
+      "url": "https://www.audienceintent.ai/videos/branded-vs-unbranded-prompts/?t=0#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Branded and unbranded definitions",
+      "startOffset": 11,
+      "endOffset": 23,
+      "url": "https://www.audienceintent.ai/videos/branded-vs-unbranded-prompts/?t=11#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Describing a business versus choosing one",
+      "startOffset": 23,
+      "endOffset": 46,
+      "url": "https://www.audienceintent.ai/videos/branded-vs-unbranded-prompts/?t=23#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "The same roofer in two different answers",
+      "startOffset": 46,
+      "endOffset": 66,
+      "url": "https://www.audienceintent.ai/videos/branded-vs-unbranded-prompts/?t=46#video"
+    },
+    {
+      "@type": "Clip",
+      "name": "Why you need both kinds of prompt",
+      "startOffset": 66,
+      "endOffset": 98,
+      "url": "https://www.audienceintent.ai/videos/branded-vs-unbranded-prompts/?t=66#video"
+    }
+  ]
+}

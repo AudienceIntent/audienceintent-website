@@ -10,6 +10,77 @@ description: ChatGPT Business Hub turns discovery into a search channel. See
 focus_keyword: ChatGPT
 image: /images/uploads/chatgpt-business-hub.jpg
 og_image: /images/uploads/chatgpt-business-hub.jpg
+schema: >-
+  {
+    "@graph": [
+      {
+        "@type": "Article",
+        "author": {
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "headline": "ChatGPT Business Hub: What It Means for Search",
+        "publisher": {
+          "logo": {
+            "url": "https://www.audienceintent.ai/logo.png",
+            "@type": "ImageObject"
+          },
+          "name": "AudienceIntent",
+          "@type": "Organization"
+        },
+        "description": "ChatGPT Business Hub turns discovery into a search channel. See what it means for your business, and what to do next.",
+        "dateModified": "2026-11-11",
+        "datePublished": "2026-11-11",
+        "mainEntityOfPage": "https://www.audienceintent.ai/chatgpt-business-hub-search-shift"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "name": "What is ChatGPT Business Hub?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "ChatGPT Business Hub is a profile and insights area inside ChatGPT where businesses can claim their listing, update business details, and see how often ChatGPT mentions or links to them. It gives owners a new way to manage how they appear in ChatGPT.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Why does Business Hub matter for SEO?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Business Hub matters because it shows ChatGPT is becoming a discovery channel, not just a chatbot. That means businesses need to think about how they show up in answer engines, not only how they rank in Google.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "Does claiming a Business Hub profile make ChatGPT recommend my business?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "No. Claiming a profile helps ChatGPT use accurate information, but recommendations still depend on your website, reviews, third-party mentions, and how well you answer the questions people ask.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "What should a business do after claiming Business Hub?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Update your business details, check your mentions and discovery topics, and improve the website content that ChatGPT is likely to pull from. Then build supporting signals across reviews, directories, and relevant content.",
+              "@type": "Answer"
+            }
+          },
+          {
+            "name": "How is this different from Google Business Profile?",
+            "@type": "Question",
+            "acceptedAnswer": {
+              "text": "Google Business Profile helped businesses show up in Google results and local packs. Business Hub plays a similar role inside ChatGPT, but the real difference is that it reflects the shift from links to direct answers.",
+              "@type": "Answer"
+            }
+          }
+        ]
+      }
+    ],
+    "@context": "https://schema.org"
+  }
 ---
 On November 10, 2026, OpenAI announced [Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt/), a new feature that lets any business owner claim their business directly inside ChatGPT, update their information, and see how many times ChatGPT has mentioned or linked to them.
 

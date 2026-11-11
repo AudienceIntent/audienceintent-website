@@ -39,6 +39,15 @@
 <script defer src="https://searchable-tracker.searchable.workers.dev/s.js" data-domain="audienceintent.ai" data-site-token="pst_19c401450f846deceabc4e96"></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": ["Organization", "ProfessionalService"], "@id": "https://www.audienceintent.ai/#organization", "name": "AudienceIntent", "legalName": "UnStoppable Response DBA AudienceIntent", "url": "https://www.audienceintent.ai/", "logo": "https://www.audienceintent.ai/images/uploads/audienceintent-logo.png", "slogan": "We get your business recommended by AI.", "description": "AudienceIntent is an Answer Engine Optimization (AEO) company. AI Recommended gets businesses recommended by ChatGPT, Google AI and Perplexity.", "email": "support@audienceintent.ai", "foundingDate": "2024", "founder": {"@type": "Person", "@id": "https://www.audienceintent.ai/about#kevin-bovett", "name": "Kevin Bovett"}, "address": {"@type": "PostalAddress", "streetAddress": "9715 Wyeth CT", "addressLocality": "Wellington", "addressRegion": "FL", "postalCode": "33414", "addressCountry": "US"}, "areaServed": "US", "knowsAbout": ["Answer Engine Optimization", "AEO", "AI search visibility", "ChatGPT recommendations", "Google AI Overviews", "Perplexity"], "sameAs": ["https://www.facebook.com/audienceintent", "https://www.instagram.com/audienceintent", "https://www.threads.com/@audienceintent", "https://www.linkedin.com/company/audienceintent/", "https://www.youtube.com/@audienceintent", "https://www.tiktok.com/@audienceintent", "https://x.com/audienceintentx", "https://clutch.co/profile/audienceintent-0", "https://www.crunchbase.com/organization/audienceintent"]}, {"@type": "CollectionPage", "@id": "https://www.audienceintent.ai/insights", "url": "https://www.audienceintent.ai/insights", "name": "Real Questions, Straight Answers About AI | AudienceIntent", "description": "What business owners ask us about getting recommended by ChatGPT, Google AI and Perplexity. Straight answers, written by Kevin Bovett.", "isPartOf": {"@id": "https://www.audienceintent.ai/#organization"}}, {"@type": "FAQPage", "@id": "https://www.audienceintent.ai/insights#faq", "mainEntity": [{"@type": "Question", "name": "What's in here?", "acceptedAnswer": {"@type": "Answer", "text": "Answers to the questions business owners ask us most about getting recommended by ChatGPT, Google AI and Perplexity. Plus the odd bit of company news."}}, {"@type": "Question", "name": "Who writes these?", "acceptedAnswer": {"@type": "Answer", "text": "Kevin Bovett, founder of AudienceIntent, based on real client work. Some drafts start with help from writing tools. Every fact is checked before it goes live."}}, {"@type": "Question", "name": "Is any of it paid?", "acceptedAnswer": {"@type": "Answer", "text": "No. Everything here is free to read. So is our 31-page guide."}}, {"@type": "Question", "name": "Can I get answers for my business?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Book a call and we'll look at where you show up today, or run the free AI check at report.audienceintent.ai to see who AI recommends today."}}]}]}</script>
 
+<style>
+.format-filters{margin-bottom:14px}
+.format-filters .active{background:var(--green);border-color:var(--green);color:var(--navy)}
+.filter-btn:focus-visible,.card:focus-visible,.card-featured:focus-visible{outline:3px solid var(--green);outline-offset:4px}
+.video-play{position:absolute;left:18px;bottom:18px;display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--green);color:var(--navy);font-size:22px;transition:transform .2s}
+.video-card:hover .video-play{transform:scale(1.12)}
+.video-card .card-cat{color:var(--blue)}
+.video-card .card-img{object-fit:contain}
+</style>
 </head>
 <body>
 <script>document.body.classList.add('js');if(location.search.indexOf('static')>-1)document.body.classList.add('static')</script>
@@ -72,14 +81,19 @@
   <div class="wrap">
     <div class="eyebrow"><span class="dot"></span>Answers</div>
     <h1>Real questions.<br><span class="g">Straight answers.</span></h1>
-    <p class="lede">What business owners ask us about getting recommended by ChatGPT, Google and Perplexity. Written by <a href="/about" style="color:#fff;text-decoration:underline;text-underline-offset:3px">Kevin Bovett</a>.</p>
+    <p class="lede">What business owners ask us about getting recommended by ChatGPT, Google and Perplexity. Articles and short videos by <a href="/about" style="color:#fff;text-decoration:underline;text-underline-offset:3px">Kevin Bovett</a>.</p>
     <div class="ans-tools">
       <label class="ans-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input type="search" id="search" placeholder="Search answers" aria-label="Search answers"></label>
     </div>
-    <div class="filters" role="group" aria-label="Filter answers">
-      <button class="filter-btn active" data-cat="All">All</button>
-      <button class="filter-btn" data-cat="AI Recommended">Getting recommended</button>
-      <button class="filter-btn" data-cat="Company News">Company news</button>
+    <div class="filters format-filters" role="group" aria-label="Answer format">
+      <button class="filter-btn active" data-format="all" aria-pressed="true">All</button>
+      <button class="filter-btn" data-format="articles" aria-pressed="false">Articles</button>
+      <button class="filter-btn" data-format="videos" aria-pressed="false">Videos</button>
+    </div>
+    <div class="filters" role="group" aria-label="Filter answers by topic">
+      <button class="filter-btn active" data-cat="All" aria-pressed="true">All</button>
+      <button class="filter-btn" data-cat="AI Recommended" aria-pressed="false">Getting recommended</button>
+      <button class="filter-btn" data-cat="Company News" aria-pressed="false">Company news</button>
     </div>
   </div>
 </section>
@@ -88,9 +102,9 @@
   <div class="wrap">
   <div class="grid" id="grid">
   </div>
-  <div class="no-results" id="no-results" style="display:none">
+  <div class="no-results" id="no-results" role="status" style="display:none">
     <p style="margin-bottom:12px">Nothing matches that search yet.</p>
-    <a href="#" id="clearSearch">Clear search &rarr;</a>
+    <a href="#" id="clearSearch">Clear filters &rarr;</a>
   </div>
   </div>
 </div>
@@ -181,6 +195,6 @@
 (function(){function l(){var e=document.createElement('script');e.src='https://cdn.leadconnectorhq.com/leadconnector/chat-widget/chat-widget.js';e.setAttribute('data-use-email-validation','true');e.setAttribute('chat-widget-popup','true');e.setAttribute('data-widget-id','6849f6320a987f033d7a4a13');e.defer=true;document.body.appendChild(e)}
 if(document.readyState==='complete')setTimeout(l,7000);else addEventListener('load',function(){setTimeout(l,7000)})})();
 </script>
-<script defer src="/insights/insights.js?v=20261029a"></script>
+<script defer src="/insights/insights.js?v=20261111-video-nav"></script>
 </body>
 </html>

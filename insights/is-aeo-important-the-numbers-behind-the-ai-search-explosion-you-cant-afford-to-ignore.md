@@ -8,7 +8,7 @@ author: Kevin Bovett - AudienceIntent
 description: ChatGPT, Google AI, and Perplexity are changing how people search.
   See why AEO is now essential and what SEO alone misses.
 focus_keyword: AEO
-canonical: https://www.audienceintent.ai/insights/is-aeo-important
+canonical: https://www.audienceintent.ai/insights/is-aeo-important-the-numbers-behind-the-ai-search-explosion-you-cant-afford-to-ignore
 image: /images/uploads/is-aeo-important.jpg
 og_image: /images/uploads/is-aeo-important.jpg
 schema: >-
@@ -33,7 +33,7 @@ schema: >-
         "dateModified": "2026-11-09",
         "datePublished": "2026-11-09",
         "mainEntityOfPage": {
-          "@id": "https://www.audienceintent.ai/insights/is-aeo-important",
+          "@id": "https://www.audienceintent.ai/insights/is-aeo-important-the-numbers-behind-the-ai-search-explosion-you-cant-afford-to-ignore",
           "@type": "WebPage"
         }
       },

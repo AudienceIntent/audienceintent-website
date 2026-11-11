@@ -7,7 +7,7 @@
 # ============================================================
 
 [build]
-  command = "node generate-articles.js && node generate-videos.js"
+  command = "node generate-articles.js && node generate-videos.js && node postprocess-html.js"
   publish = "."
 
 # ============================================================

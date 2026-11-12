@@ -493,3 +493,25 @@ Use this as a working checklist. The six categories match the prioritization fra
 36.  LinkedIn company page (especially for B2B and professional services)
 
 > **Note on scope:** Several of these sources overlap in function depending on your industry. A legal practice weights Avvo and Justia more heavily than Angi. A home services business reverses that. The six-category framework matters more than hitting every individual source. Prioritize the platforms where your customers already look and where the AI engines serving your market pull most of their data.
+
+## Frequently Asked Questions
+
+### Which platforms matter most for ChatGPT?
+
+ChatGPT pulls most of its local business data from Bing, Foursquare and Yelp, not Google. Claim and complete your Bing Places, Foursquare and Yelp listings, and keep them matching your Google Business Profile.
+
+### How do I fix inconsistent business listings?
+
+Pick one exact version of your business name, address and phone number. Use it on your website and Google Business Profile. Then update Yelp, Bing Places, Foursquare, Apple Business Connect and your main directories to match it word for word. Claim any listing you don't control yet, and fix or remove duplicates.
+
+### Does my business need to be on all 36 sources?
+
+No. The list is a reference, not a to-do list. Start with the Tier 1 fixes, then build the Tier 2 stack and the top 2-3 directories for your industry. Focus on the platforms your customers already use.
+
+### Why do third-party sources matter more than my own website?
+
+AI engines want proof they can trust. Any business can write good things about itself, so reviews, directories, news and community mentions carry more weight. Across 2026 citation studies, 82% to 85% of the sources AI cites come from third parties.
+
+### How do I find out where my business stands?
+
+Run the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes, and no signup is needed.

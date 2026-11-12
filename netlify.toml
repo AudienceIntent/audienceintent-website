@@ -291,13 +291,13 @@
   status = 301
   force  = true
 
-# Removed page. The ai-tracker edge function answers this path with
-# 410 Gone (Netlify redirects can't send 410). This 404 rule is only
-# a fallback if the edge function is ever switched off.
+# Removed page that audit tools kept reporting. The ai-tracker edge
+# function 301s it to the homepage; this rule is the fallback if the
+# edge function is ever switched off.
 [[redirects]]
   from   = "/blog/how-much-money-can-we-reactivate-for-you"
-  to     = "/404"
-  status = 404
+  to     = "/"
+  status = 301
   force  = true
 
 # ============================================================

@@ -128,6 +128,8 @@ schema: >-
     ]
   }
 ---
+> **TL;DR:** AudienceIntent has supported charity: water from day one. 2.1 billion people still lack safely managed drinking water, and charity: water puts 100% of public donations into water projects. You can give through [our charity: water campaign page](https://www.charitywater.org/audienceintent).
+
 At AudienceIntent, we help businesses get recommended by AI. But from day one, we also wanted our work to mean something beyond growth.
 
 That is why we support charity: water.

@@ -127,6 +127,8 @@ schema: >-
     ]
   }
 ---
+> **TL;DR:** This case study shows how AudienceIntent fixed Vault Metal's AI crawlability, wrote content around real customer questions and cleaned up its business profiles. In 90 days, AI mentions grew from 169 to 7,808 and citations from 3 to 751.
+
 Most businesses have no idea what AI assistants say about them. Not a vague idea. No idea at all.
 
 That's not a criticism. It's just where things stand. AI search is still new enough that most business owners haven't thought to check. But [37% of consumers now start their searches with an AI tool](https://loudspeakermarketing.com/blog/ai-vs-traditional-search-statistics.html) rather than Google, and [47% say AI already influences which brands they trust](https://www.instantpress.co/ai-statistics). That audience is growing fast, and it's forming opinions about your business whether you're paying attention or not.

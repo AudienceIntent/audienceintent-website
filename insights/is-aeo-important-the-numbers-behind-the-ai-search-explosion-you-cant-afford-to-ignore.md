@@ -86,6 +86,8 @@ schema: >-
     "@context": "https://schema.org"
   }
 ---
+> **TL;DR:** Yes, AEO is important. ChatGPT reports 1.3 billion weekly users, Google AI Overviews reach more than 2.5 billion people a month, and AI referral traffic is growing 45% a year. SEO helps you rank in a list of links. AEO gets your business named in the AI answer. You need both.
+
 Your SEO is working. Traffic is down anyway.
 
 That's the situation millions of business owners are quietly staring at right now. Rankings held. Clicks fell. And somewhere in the gap between those two facts is the answer to a question most marketers haven't asked yet: where did the customers go?

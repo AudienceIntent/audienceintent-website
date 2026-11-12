@@ -145,12 +145,23 @@ export default async (request, context) => {
     return Response.redirect(url.toString(), 301);
   }
 
+  // ── OLD URLS STILL HELD BY AUDIT TOOLS — 301 to the homepage ─
+  // Some crawlers (e.g. Searchable's site audit) keep re-checking an old
+  // URL and report the 410 page itself as a broken page. A 301 hands them
+  // a real page instead, so the URL drops out of their audit.
+  const MOVED_HOME = [
+    '/blog/how-much-money-can-we-reactivate-for-you',
+  ];
+  const movedPath = url.pathname.replace(/\/+$/, '');
+  if (MOVED_HOME.includes(movedPath)) {
+    return Response.redirect('https://' + CANONICAL_HOST + '/', 301);
+  }
+
   // ── GONE PAGES — 410 ───────────────────────────────────────
   // Pages removed on purpose. Netlify redirect rules can't send a
   // 410, so it's done here. 410 tells Google the page is gone for
   // good, so it drops out of the index faster than a 404.
   const GONE_PATHS = [
-    '/blog/how-much-money-can-we-reactivate-for-you',
     '/insights/we-got-rid-of-setup-fees-permanently',
     '/onboarding-dbr',
   ];

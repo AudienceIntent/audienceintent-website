@@ -4,7 +4,7 @@
 
 This is the full-text version of https://www.audienceintent.ai/llms.txt. It holds the company facts below, then the complete text of all 20 articles from https://www.audienceintent.ai/insights/ (the "Answers" hub), each with its URL and publish date.
 
-Last updated: 2026-11-11
+Last updated: 2026-11-12
 
 Key facts:
 
@@ -333,6 +333,10 @@ Establish a baseline before buying services or rewriting your site. Check whethe
 Run the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes. No signup is needed to run it.
 
 Want the work done for you? [AI Recommended™ is AudienceIntent's done-for-you monthly AEO service](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity).
+
+#### Watch the short explanation
+
+Prefer a quick introduction? [Watch Kevin Bovett explain what AEO is in Video 01](https://www.audienceintent.ai/videos/what-is-aeo/), with key takeaways and a full transcript.
 
 ---
 
@@ -2225,6 +2229,28 @@ Use this as a working checklist. The six categories match the prioritization fra
 
 > **Note on scope:** Several of these sources overlap in function depending on your industry. A legal practice weights Avvo and Justia more heavily than Angi. A home services business reverses that. The six-category framework matters more than hitting every individual source. Prioritize the platforms where your customers already look and where the AI engines serving your market pull most of their data.
 
+#### Frequently Asked Questions
+
+##### Which platforms matter most for ChatGPT?
+
+ChatGPT pulls most of its local business data from Bing, Foursquare and Yelp, not Google. Claim and complete your Bing Places, Foursquare and Yelp listings, and keep them matching your Google Business Profile.
+
+##### How do I fix inconsistent business listings?
+
+Pick one exact version of your business name, address and phone number. Use it on your website and Google Business Profile. Then update Yelp, Bing Places, Foursquare, Apple Business Connect and your main directories to match it word for word. Claim any listing you don't control yet, and fix or remove duplicates.
+
+##### Does my business need to be on all 36 sources?
+
+No. The list is a reference, not a to-do list. Start with the Tier 1 fixes, then build the Tier 2 stack and the top 2-3 directories for your industry. Focus on the platforms your customers already use.
+
+##### Why do third-party sources matter more than my own website?
+
+AI engines want proof they can trust. Any business can write good things about itself, so reviews, directories, news and community mentions carry more weight. Across 2026 citation studies, 82% to 85% of the sources AI cites come from third parties.
+
+##### How do I find out where my business stands?
+
+Run the [Free AI Check](https://report.audienceintent.ai/). It asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix. It takes about two minutes, and no signup is needed.
+
 ---
 
 ## How to Find an Answer Engine Optimization Partner in 2026
@@ -3144,6 +3170,28 @@ For a deeper look at how AI Recommended™ works and what the full service inclu
 
 The measurement framework exists because visibility without measurement is guesswork. Your weekly report helps you decide what to improve next. Nobody can guarantee your business will appear in a specific AI answer. We promise the work, done properly every month, and an honest report. That is the standard we hold ourselves to, and the standard you should hold any AI visibility investment to.
 
+#### Frequently Asked Questions
+
+##### What is the Overall Visibility Score?
+
+It's a single score from 0 to 100 that shows how visible your business is across the AI platforms we track. It's built from five parts: mention rate (40 points), position quality (25), numbered list ranking (15), sentiment (10) and citation tracking (10).
+
+##### What's the difference between a mention and a citation?
+
+A mention is when AI says your business name. A citation is when it also links to a source, like your website or a page that talks about you. Citations are the stronger signal because they show which sources AI trusts, and they can send you visits.
+
+##### Which AI platforms does AudienceIntent track?
+
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 50 customer prompts every day, plus up to 5 competitors.
+
+##### How often will I get a report?
+
+Every week. It shows your score, which prompts you appear in, where you rank, what AI says about you and how you compare with your competitors.
+
+##### Can you guarantee my business will show up in AI answers?
+
+No. Nobody can guarantee a business will appear in a specific AI answer. We promise the work, done properly every month, and an honest report.
+
 ---
 
 ## Is AEO Important? The Numbers Behind the AI Search Explosion You Can't Afford to Ignore
@@ -3151,6 +3199,8 @@ The measurement framework exists because visibility without measurement is guess
 URL: https://www.audienceintent.ai/insights/is-aeo-important-the-numbers-behind-the-ai-search-explosion-you-cant-afford-to-ignore
 Published: 2026-11-09
 Summary: ChatGPT, Google AI, and Perplexity are changing how people search. See why AEO is now essential and what SEO alone misses.
+
+> **TL;DR:** Yes, AEO is important. ChatGPT reports 1.3 billion weekly users, Google AI Overviews reach more than 2.5 billion people a month, and AI referral traffic is growing 45% a year. SEO helps you rank in a list of links. AEO gets your business named in the AI answer. You need both.
 
 Your SEO is working. Traffic is down anyway.
 
@@ -4028,6 +4078,8 @@ URL: https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-
 Published: 2026-09-03
 Summary: See how Vault Metal grew from 169 AI mentions to 7,808 in 90 days with AI Recommended™. Read the results and get your free AI Visibility Report.
 
+> **TL;DR:** This case study shows how AudienceIntent fixed Vault Metal's AI crawlability, wrote content around real customer questions and cleaned up its business profiles. In 90 days, AI mentions grew from 169 to 7,808 and citations from 3 to 751.
+
 Most businesses have no idea what AI assistants say about them. Not a vague idea. No idea at all.
 
 That's not a criticism. It's just where things stand. AI search is still new enough that most business owners haven't thought to check. But [37% of consumers now start their searches with an AI tool](https://loudspeakermarketing.com/blog/ai-vs-traditional-search-statistics.html) rather than Google, and [47% say AI already influences which brands they trust](https://www.instantpress.co/ai-statistics). That audience is growing fast, and it's forming opinions about your business whether you're paying attention or not.
@@ -4232,6 +4284,8 @@ URL: https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-a
 Published: 2026-09-06
 Summary: Kevin Bovett completed HubSpot Academy's AEO Fundamentals Certification. See the verified badge, curriculum, and why it matters for AI visibility.
 
+> **TL;DR:** AudienceIntent founder Kevin Bovett has earned HubSpot Academy's AEO Fundamentals Certification. It covers how AI assistants choose and cite sources, how to structure content so AI can find it, and how to measure citations. For clients, it's independent proof that the person running their AI Recommended™ campaign knows how AI search works.
+
 AudienceIntent founder Kevin Bovett has completed the [AEO Fundamentals Certification](https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals) from HubSpot Academy, the worldwide leader in free online training for inbound marketing, sales, and customer service professionals.
 
 The certification covers the full foundation of Answer Engine Optimization: how AI assistants select and cite sources, how to structure content for AI visibility, and how to measure citation performance over time. It is not a general marketing credential. Every module is specific to AEO, and completing it requires demonstrating working knowledge of how answer engines like ChatGPT, Perplexity, Gemini, and Google AI Overviews evaluate and surface content.
@@ -4279,6 +4333,28 @@ The answer matters because AEO decisions compound. A content structure built on 
 
 Kevin Bovett's full professional background and credentials are available on the [AudienceIntent About page](https://www.audienceintent.ai/about).
 
+#### Frequently Asked Questions
+
+##### What is the HubSpot Academy AEO Fundamentals Certification?
+
+It's a HubSpot Academy course and certification on Answer Engine Optimization. It covers how AI assistants choose and cite sources, how to plan content for search and AI, and how to measure AEO results.
+
+##### How can I verify Kevin Bovett's certification?
+
+HubSpot Academy publishes a public achievement page for every credential holder. [View Kevin's AEO Fundamentals achievement](https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals).
+
+##### Does the certification guarantee AI will recommend my business?
+
+No. Nobody can guarantee a business will appear in a specific AI answer. The certification shows Kevin understands how AI search works. What we promise is the work, done properly every month, and an honest report.
+
+##### Which AI platforms does AI Recommended™ track?
+
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 50 customer prompts every day, plus up to 5 competitors.
+
+##### What other credentials does Kevin hold?
+
+Kevin is also certified by Semrush Academy and Ahrefs Academy, and AudienceIntent is a Searchable certified agency partner. You can see them all on the [About page](https://www.audienceintent.ai/about).
+
 ---
 
 ## Why AudienceIntent Supports charity: water
@@ -4286,6 +4362,8 @@ Kevin Bovett's full professional background and credentials are available on the
 URL: https://www.audienceintent.ai/insights/why-we-support-charity-water
 Published: 2026-08-04
 Summary: AudienceIntent supports charity: water because 2.1 billion people still lack safe drinking water. See why this nonprofit earns our trust, and how to donate.
+
+> **TL;DR:** AudienceIntent has supported charity: water from day one. 2.1 billion people still lack safely managed drinking water, and charity: water puts 100% of public donations into water projects. You can give through [our charity: water campaign page](https://www.charitywater.org/audienceintent).
 
 At AudienceIntent, we help businesses get recommended by AI. But from day one, we also wanted our work to mean something beyond growth.
 

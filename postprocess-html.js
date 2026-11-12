@@ -79,26 +79,68 @@ function fixImages(html) {
 }
 
 // 2. non-blocking stylesheets
-const CSS_GUARD = '<style id="css-swap">html{background:#05070d}.css-wait body{opacity:0}</style>' +
-  '<script>document.documentElement.classList.add(\'css-wait\');' +
-  'setTimeout(function(){document.documentElement.classList.remove(\'css-wait\')},2500)</script>';
-const ONLOAD = "this.onload=null;this.rel='stylesheet';document.documentElement.classList.remove('css-wait')";
+// No <link rel="stylesheet"> is left in the page, before or after rendering:
+// each local stylesheet becomes an empty <style data-css="href"> placeholder
+// (same position, so the cascade order is unchanged) plus a fetch preload.
+// A tiny loader at the top of <body> fills the placeholders. The page stays
+// hidden on the navy background until CSS is in (max 3s, pure CSS fallback),
+// so there is no white or unstyled flash. Inline head scripts that don't need
+// to run early (gtag config, Searchable stub) move to the end of <body>.
+const CSS_GUARD = '<style id="css-guard">html{background:#05070d}body{opacity:0;animation:css-show 0s 3s forwards}' +
+  '.css-ready body{opacity:1;animation:none}@keyframes css-show{to{opacity:1}}</style>' +
+  '<noscript><style>body{opacity:1!important;animation:none!important}</style></noscript>';
+const CSS_LOADER = '<script id="css-loader">(function(){var d=document,r=d.documentElement,' +
+  's=d.querySelectorAll("style[data-css]"),n=s.length;function done(){if(--n<=0)r.classList.add("css-ready")}' +
+  'if(!n){r.classList.add("css-ready");return}' +
+  'Array.prototype.forEach.call(s,function(el){var h=el.getAttribute("data-css");' +
+  'fetch(h).then(function(x){if(!x.ok)throw 0;return x.text()}).then(function(t){el.textContent=t;done()})' +
+  '.catch(function(){var l=d.createElement("link");l.rel="stylesheet";l.href=h;l.onload=l.onerror=done;el.parentNode.insertBefore(l,el)})})})()</script>';
+const LATE_SCRIPT_RE = /<script>\s*(window\.dataLayer=|window\.sa=)[\s\S]*?<\/script>\s*/g;
+
+// undo the earlier preload/onload pattern so it can be replaced
+function undoOldSwap(html) {
+  if (!html.includes('id="css-swap"')) return html;
+  let h = html.replace(/<style id="css-swap">[\s\S]*?<\/style>/, '');
+  h = h.replace(/<script>document\.documentElement\.classList\.add\('css-wait'\)[\s\S]*?<\/script>/, '');
+  h = h.replace(/<link\b[^>]*\bas="style"[^>]*>\s*<noscript>\s*(<link\b[^>]*>)\s*<\/noscript>/g, (_m, inner) => inner);
+  return h;
+}
 
 function fixStylesheets(html) {
-  if (html.includes('id="css-swap"')) return html;
+  let h = undoOldSwap(html);
+  if (h.includes('id="css-loader"')) return h;
+  const headEnd = h.search(/<\/head>/i);
+  if (headEnd === -1) return h;
+  let head = h.slice(0, headEnd);
+  let rest = h.slice(headEnd);
   let first = true;
-  return html.replace(TAG_RE('link'), (tag) => {
+  let found = false;
+  head = head.replace(TAG_RE('link'), (tag) => {
     const attrs = parseAttrs(tag, 'link');
     const rel = (getAttr(attrs, 'rel') || '').toLowerCase();
     const href = getAttr(attrs, 'href') || '';
     const media = getAttr(attrs, 'media');
     if (rel !== 'stylesheet' || !href.startsWith('/') || href.startsWith('//') || (media && media !== 'all')) return tag;
+    found = true;
     const out = (first ? CSS_GUARD : '') +
-      `<link rel="preload" as="style" href="${href}" onload="${ONLOAD}">` +
-      `<noscript><link rel="stylesheet" href="${href}"></noscript>`;
+      `<link rel="preload" as="fetch" href="${href}" crossorigin="anonymous">` +
+      `<style data-css="${href}"></style>`;
     first = false;
     return out;
   });
+  if (!found) return h;
+  // move non-critical inline scripts out of <head>
+  const late = [];
+  head = head.replace(LATE_SCRIPT_RE, (m) => { late.push(m.trim()); return ''; });
+  // loader right after <body ...>
+  let bodyDone = false;
+  rest = rest.replace(TAG_RE('body'), (tag) => { if (bodyDone) return tag; bodyDone = true; return tag + CSS_LOADER; });
+  if (late.length) {
+    const i = rest.toLowerCase().lastIndexOf('</body>');
+    if (i !== -1) rest = rest.slice(0, i) + late.join('') + rest.slice(i);
+    else rest += late.join('');
+  }
+  return head + rest;
 }
 
 // 3. standard attribute order
@@ -140,6 +182,61 @@ function toGraph(obj) {
   const nodes = Array.isArray(obj) ? obj : [obj];
   const ctx = (nodes[0] && nodes[0]['@context']) || 'https://schema.org';
   return { '@context': ctx, '@graph': nodes.map(({ ['@context']: _c, ...rest }) => rest) };
+}
+
+
+function decode(s) {
+  return String(s).replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&#x27;|&rsquo;|&lsquo;/g, "'")
+    .replace(/&ldquo;|&rdquo;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ')
+    .replace(/&mdash;/g, '\u2014').replace(/&ndash;/g, '\u2013').replace(/&rarr;/g, '\u2192').replace(/&times;/g, '\u00d7');
+}
+function textOf(fragment) {
+  return decode(fragment.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+}
+function absUrl(u) {
+  if (!u) return '';
+  if (/^https?:\/\//i.test(u)) return u;
+  return u.startsWith('/') ? SITE + u : '';
+}
+function faqFromBody(html) {
+  const body = html.slice(Math.max(0, html.search(/<body\b/i)));
+  const h2 = /<h2\b[^>]*>([\s\S]*?)<\/h2>/gi;
+  let m;
+  while ((m = h2.exec(body))) {
+    if (!/frequently asked|^\s*faqs?\s*$|preguntas frecuentes/i.test(textOf(m[1]))) continue;
+    const after = body.slice(m.index + m[0].length);
+    const stop = after.search(/<h2\b|<footer\b|<\/article>|<\/main>/i);
+    const sec = stop === -1 ? after : after.slice(0, stop);
+    const parts = sec.split(/<h3\b[^>]*>/i).slice(1);
+    const qa = [];
+    for (const part of parts) {
+      const end = part.search(/<\/h3>/i);
+      if (end === -1) continue;
+      const q = textOf(part.slice(0, end));
+      const a = textOf(part.slice(end + 5));
+      if (q && a) qa.push([q, a]);
+    }
+    if (qa.length) return qa;
+  }
+  return [];
+}
+const SECTION_NAMES = { insights: 'Answers', videos: 'Answers' };
+function breadcrumbsFor(canonical, html) {
+  let u;
+  try { u = new URL(canonical); } catch (e) { return []; }
+  if (u.origin !== SITE) return [];
+  const es = u.pathname === '/es' || u.pathname.startsWith('/es/');
+  const home = es ? ['Inicio', SITE + '/es/'] : ['Home', SITE + '/'];
+  const segs = u.pathname.replace(/^\/es(\/|$)/, '/').split('/').filter(Boolean);
+  if (!segs.length) return [home];
+  const h1 = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+  const titleTag = html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i);
+  let name = h1 ? textOf(h1[1]) : '';
+  if (!name && titleTag) name = textOf(titleTag[1]).split(' | ')[0];
+  const out = [home];
+  if (segs.length > 1 && SECTION_NAMES[segs[0]]) out.push([SECTION_NAMES[segs[0]], SITE + '/insights']);
+  out.push([name || segs[segs.length - 1], canonical]);
+  return out;
 }
 
 function fixSchema(html) {
@@ -188,6 +285,72 @@ function fixSchema(html) {
     const g = b.obj['@graph'];
     g.splice(g.indexOf(video) + 1, 0, article);
     b.changed = true;
+  }
+
+  // Page facts read from the HTML itself
+  const meta = (key) => {
+    const re = new RegExp(`<meta\\b[^>]*(?:name|property)="${key}"[^>]*>`, 'i');
+    const t = html.match(re);
+    if (!t) return '';
+    const c = t[0].match(/\scontent="([^"]*)"/i);
+    return c ? decode(c[1]).trim() : '';
+  };
+  const canonical = (() => {
+    const t = html.match(/<link\b[^>]*rel="canonical"[^>]*>/i);
+    const c = t && t[0].match(/\shref="([^"]*)"/i);
+    return c ? c[1] : '';
+  })();
+  const desc = meta('description') || meta('og:description');
+  const ogImage = absUrl(meta('og:image'));
+  const noindex = /<meta\b[^>]*name="robots"[^>]*content="[^"]*noindex/i.test(html);
+  const mark = (node) => { const b = blocks.find((x) => nodesOf(x.obj).includes(node)); if (b) b.changed = true; };
+
+  // Article family: author with a name (parsers that don't follow @id refs
+  // otherwise see an author with no Person), and an image.
+  for (const n of all()) {
+    if (!typesOf(n).some((t) => ARTICLE_TYPES.has(t))) continue;
+    const a = n.author;
+    if (a && !Array.isArray(a) && typeof a === 'object' && a['@id'] === PERSON_ID && !a.name) {
+      n.author = { '@type': 'Person', '@id': PERSON_ID, 'name': 'Kevin Bovett', 'url': SITE + '/about' };
+      mark(n);
+    }
+    if (!n.image && ogImage) { n.image = ogImage; mark(n); }
+  }
+
+  // WebPage family: description from the meta description
+  const PAGE_TYPES = new Set(['WebPage', 'AboutPage', 'CollectionPage', 'ContactPage', 'ItemPage', 'ProfilePage']);
+  for (const n of all()) {
+    if (typesOf(n).some((t) => PAGE_TYPES.has(t)) && !n.description && desc) { n.description = desc; mark(n); }
+  }
+
+  // FAQPage from an on-page FAQ section (h2 "Frequently asked questions" + h3 questions)
+  if (!hasTop((n) => typesOf(n).includes('FAQPage'))) {
+    const qa = faqFromBody(html);
+    if (qa.length >= 2) {
+      const b = blocks[blocks.length - 1];
+      b.obj = toGraph(b.obj);
+      b.obj['@graph'].push({
+        '@type': 'FAQPage',
+        '@id': (canonical || SITE) + '#faq',
+        'mainEntity': qa.map(([q, a]) => ({ '@type': 'Question', 'name': q, 'acceptedAnswer': { '@type': 'Answer', 'text': a } })),
+      });
+      b.changed = true;
+    }
+  }
+
+  // BreadcrumbList on every indexable page that lacks one
+  if (!noindex && canonical && !hasTop((n) => typesOf(n).includes('BreadcrumbList'))) {
+    const crumbs = breadcrumbsFor(canonical, html);
+    if (crumbs.length) {
+      const b = blocks[blocks.length - 1];
+      b.obj = toGraph(b.obj);
+      b.obj['@graph'].push({
+        '@type': 'BreadcrumbList',
+        '@id': canonical + '#breadcrumb',
+        'itemListElement': crumbs.map(([name, item], i) => ({ '@type': 'ListItem', 'position': i + 1, 'name': name, 'item': item })),
+      });
+      b.changed = true;
+    }
   }
 
   let out = html;

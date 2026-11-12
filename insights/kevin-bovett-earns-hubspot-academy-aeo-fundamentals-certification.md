@@ -147,6 +147,8 @@ schema: >-
     ]
   }
 ---
+> **TL;DR:** AudienceIntent founder Kevin Bovett has earned HubSpot Academy's AEO Fundamentals Certification. It covers how AI assistants choose and cite sources, how to structure content so AI can find it, and how to measure citations. For clients, it's independent proof that the person running their AI Recommended™ campaign knows how AI search works.
+
 AudienceIntent founder Kevin Bovett has completed the [AEO Fundamentals Certification](https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals) from HubSpot Academy, the worldwide leader in free online training for inbound marketing, sales, and customer service professionals.
 
 The certification covers the full foundation of Answer Engine Optimization: how AI assistants select and cite sources, how to structure content for AI visibility, and how to measure citation performance over time. It is not a general marketing credential. Every module is specific to AEO, and completing it requires demonstrating working knowledge of how answer engines like ChatGPT, Perplexity, Gemini, and Google AI Overviews evaluate and surface content.
@@ -195,3 +197,25 @@ Businesses evaluating AEO providers should ask a direct question: does the perso
 The answer matters because AEO decisions compound. A content structure built on incorrect assumptions about how AI assistants evaluate sources will not self-correct over time. It will accumulate. Getting the foundation right, which is exactly what this certification curriculum covers, determines whether a business builds genuine AI visibility or just produces content that AI assistants ignore.
 
 Kevin Bovett's full professional background and credentials are available on the [AudienceIntent About page](https://www.audienceintent.ai/about).
+
+## Frequently Asked Questions
+
+### What is the HubSpot Academy AEO Fundamentals Certification?
+
+It's a HubSpot Academy course and certification on Answer Engine Optimization. It covers how AI assistants choose and cite sources, how to plan content for search and AI, and how to measure AEO results.
+
+### How can I verify Kevin Bovett's certification?
+
+HubSpot Academy publishes a public achievement page for every credential holder. [View Kevin's AEO Fundamentals achievement](https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals).
+
+### Does the certification guarantee AI will recommend my business?
+
+No. Nobody can guarantee a business will appear in a specific AI answer. The certification shows Kevin understands how AI search works. What we promise is the work, done properly every month, and an honest report.
+
+### Which AI platforms does AI Recommended™ track?
+
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 50 customer prompts every day, plus up to 5 competitors.
+
+### What other credentials does Kevin hold?
+
+Kevin is also certified by Semrush Academy and Ahrefs Academy, and AudienceIntent is a Searchable certified agency partner. You can see them all on the [About page](https://www.audienceintent.ai/about).

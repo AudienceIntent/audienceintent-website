@@ -488,3 +488,25 @@ Start with the [Free AI Check](https://report.audienceintent.ai/) to see whether
 For a deeper look at how AI Recommended™ works and what the full service includes, the [complete guide to getting cited by ChatGPT, Gemini, and Perplexity](https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity) covers the methodology in detail.
 
 The measurement framework exists because visibility without measurement is guesswork. Your weekly report helps you decide what to improve next. Nobody can guarantee your business will appear in a specific AI answer. We promise the work, done properly every month, and an honest report. That is the standard we hold ourselves to, and the standard you should hold any AI visibility investment to.
+
+## Frequently Asked Questions
+
+### What is the Overall Visibility Score?
+
+It's a single score from 0 to 100 that shows how visible your business is across the AI platforms we track. It's built from five parts: mention rate (40 points), position quality (25), numbered list ranking (15), sentiment (10) and citation tracking (10).
+
+### What's the difference between a mention and a citation?
+
+A mention is when AI says your business name. A citation is when it also links to a source, like your website or a page that talks about you. Citations are the stronger signal because they show which sources AI trusts, and they can send you visits.
+
+### Which AI platforms does AudienceIntent track?
+
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 50 customer prompts every day, plus up to 5 competitors.
+
+### How often will I get a report?
+
+Every week. It shows your score, which prompts you appear in, where you rank, what AI says about you and how you compare with your competitors.
+
+### Can you guarantee my business will show up in AI answers?
+
+No. Nobody can guarantee a business will appear in a specific AI answer. We promise the work, done properly every month, and an honest report.

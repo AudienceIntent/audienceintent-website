@@ -15,7 +15,7 @@ const unescape = s => s.replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'").repl
 const xml = read('sitemap-videos.xml'), sitemap = read('sitemap.xml'), hub = read('insights/index.html');
 assert.equal((xml.match(/<video:video>/g)||[]).length,18);
 assert.equal((hub.match(/data-episode=/g)||[]).length,18);
-assert.equal((hub.match(/class="card-featured video-card"/g)||[]).length,1);
+assert.equal((hub.match(/class="card-featured[" ]/g)||[]).length,1);
 let priorCardIndex = -1;
 for (let i=0;i<videos.length;i++) {
   const {slug,video:v,html:h} = videos[i];

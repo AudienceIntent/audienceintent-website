@@ -105,9 +105,7 @@ Here's the practical gap: if ChatGPT doesn't know enough about your business to 
 For an AI agent to include your business in a recommendation, and especially to act on that recommendation through a tool like Wallet, it needs:
 
 1.  **Accurate, accessible information** about what you do, where you operate, and who you serve. This means structured data, clear service descriptions, and consistent information across the web.
-    
 2.  **Social proof it can verify** — reviews, citations, third-party mentions that confirm you are a real business with a real track record. AI systems cross-reference this.
-    
 3.  **Answers to the questions customers actually ask.** Not keyword-stuffed pages. Real answers to real questions, written in plain language that an AI can extract and trust.
     
 

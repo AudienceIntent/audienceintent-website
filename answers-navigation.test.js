@@ -3,12 +3,14 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const html = fs.readFileSync('insights/index.html', 'utf8');
-assert.equal((html.match(/class="card-featured video-card"/g) || []).length, 1);
-assert.equal((html.match(/class="card-featured"/g) || []).length, 0);
+// Exactly one featured card, and it is the first card in the grid (newest article or Video 01).
+assert.equal((html.match(/class="card-featured[" ]/g) || []).length, 1);
+const gridStart = html.indexOf('<div class="grid" id="grid">');
+assert.ok(html.indexOf('class="card-featured', gridStart) < html.indexOf('class="card"', gridStart), 'Featured card leads the grid');
 assert.match(html, /href="\/videos\/what-is-aeo\/" data-format="videos"/);
 assert.match(html, /1:38 &middot; Video/);
 assert.equal((html.match(/<button[^>]*data-format=/g) || []).length, 3);
-assert.ok(html.indexOf('class="card-featured video-card"') < html.indexOf('class="card"'));
+assert.match(html, /Start here &middot; Video 01/);
 
 function element(attrs = {}, textContent = '') {
   const handlers = {}, classes = new Set();

@@ -2,7 +2,7 @@
 
 > AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service: AI Recommended™. When people ask ChatGPT, Google AI or Perplexity who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
-Last updated: 2026-11-12
+Last updated: 2026-11-13
 
 Key facts:
 
@@ -100,6 +100,7 @@ Paid ads management, social media management, website builds, SMS or text-messag
 - [AI Recommended Your Competitor, Not You. Here's the Revenue Math.](https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math): The business case: what it costs when AI recommends a competitor, and what waiting six months means.
 - [If a Miami Homeowner Asks AI Who to Call for Their Roof, Will Your Name Come Up?](https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-call-for-their-roof-will-your-name-come-up): A local roofing example of how customers now ask AI who to hire.
 - [ChatGPT Just Launched Business Hub. Here's What It Means for How Customers Find You.](https://www.audienceintent.ai/insights/chatgpt-just-launched-business-hub-heres-what-it-means-for-how-customers-find-you): ChatGPT Business Hub (Nov 2026): what claiming your business in ChatGPT does, what the mentions number means, how to claim it, and why a profile alone won't get you recommended.
+- [ChatGPT Wallet Is the Signal Every Business Owner Needed to See](https://www.audienceintent.ai/insights/chatgpt-wallet-is-the-signal-every-business-owner-needed-to-see): ChatGPT Wallet plus Business Hub: AI now finds, picks and pays a business in one chat. What that means for your business and how to get positioned.
 
 ## Case studies
 

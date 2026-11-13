@@ -58,12 +58,24 @@ for (const file of ['llms.txt', 'llms-full.txt']) {
 // Add the whole series after the article build refreshes the crawlable Answers grid.
 const hubPath = path.join(root, 'insights/index.html');
 let hub = fs.readFileSync(hubPath, 'utf8');
+// Newest first: articles published after the latest video sit above the series, and
+// whichever card ends up first is the featured one (a new article leads the page).
+const latestVideo = videos.map(v => String(v.uploadDate).slice(0,10)).sort().pop();
+const newerArticles = fs.readdirSync(path.join(root, 'insights'))
+  .filter(f => f.endsWith('.md'))
+  .map(f => {
+    const m = /^date:\s*['"]?([0-9]{4}-[0-9]{2}-[0-9]{2})/m.exec(fs.readFileSync(path.join(root, 'insights', f), 'utf8'));
+    return {slug: f.replace(/\.md$/, ''), date: m ? m[1] : ''};
+  })
+  .filter(a => a.date > latestVideo)
+  .sort((a,b) => b.date.localeCompare(a.date));
+const leadVideo = newerArticles.length === 0;
 const cards = videos.map(v => {
-  const first = v.position === 1, n = String(v.position).padStart(2,'0');
+  const first = v.position === 1 && leadVideo, n = String(v.position).padStart(2,'0');
   const sec = durationSeconds(v), duration = Math.floor(sec/60) + ':' + String(sec%60).padStart(2,'0');
   return `<a class="${first ? 'card-featured' : 'card'} video-card" href="${esc(new URL(v.url).pathname)}" data-format="videos" data-cat="AI Recommended" data-episode="${v.position}">
   <div class="card-img-wrap"><img class="card-img" src="${esc(new URL(v.thumbnailUrl[0]).pathname)}" alt="${esc(v.name)}" loading="${first ? 'eager' : 'lazy'}" decoding="async" width="1280" height="720"><span class="video-play" aria-hidden="true">&#9654;</span></div>
-  <div class="card-body"><div class="card-cat">${first ? 'Start here &middot; ' : ''}Video ${n} of ${videos.length}</div>
+  <div class="card-body"><div class="card-cat">${v.position === 1 ? 'Start here &middot; ' : ''}Video ${n} of ${videos.length}</div>
   <h2 class="card-title">${esc(v.name)}</h2>
   <div class="card-excerpt">${esc(v.description)}</div>
   <div class="card-foot"><span>${duration} &middot; Video</span><span>Watch video &rarr;</span></div></div></a>`;
@@ -72,7 +84,16 @@ if (!/<div class="grid" id="grid">/.test(hub)) throw new Error('Answers grid not
 hub = hub.replace(/(<div class="grid" id="grid">)([\s\S]*?)(<\/div>\s*<div class="no-results")/, (_, open, grid, close) => {
   grid = grid.replace(/<a class="(?:card-featured|card) video-card"[\s\S]*?<\/a>/g, '');
   grid = grid.replace(/class="card-featured"/g, 'class="card"');
-  return open + '\n' + cards + '\n' + grid.trim() + '\n' + close;
+  const lead = [];
+  for (const a of newerArticles) {
+    const re = new RegExp('<a class="card" href="[^"]*/insights/' + a.slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '"[\\s\\S]*?<\\/a>');
+    const m = re.exec(grid);
+    if (!m) continue;
+    grid = grid.replace(m[0], '');
+    lead.push(m[0]);
+  }
+  if (lead.length) lead[0] = lead[0].replace('<a class="card"', '<a class="card-featured"');
+  return open + '\n' + (lead.length ? lead.join('\n') + '\n' : '') + cards + '\n' + grid.trim() + '\n' + close;
 });
 // Reuse the existing CollectionPage graph; expose a crawlable, ordered series list.
 hub = hub.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/, (_, raw) => {

@@ -9,6 +9,162 @@ description: Good SEO does not guarantee ChatGPT recommendations. Learn why
 focus_keyword: ChatGPT
 image: /images/uploads/you-rank-on-google-so-why-does-chatgpt-never-recommend-you.jpg
 og_image: /images/uploads/you-rank-on-google-so-why-does-chatgpt-never-recommend-you.jpg
+schema: >-
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you",
+        "url": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you",
+        "name": "ChatGPT Visibility: Why Good SEO Still Fails",
+        "description": "You rank on Google, but ChatGPT never names you. Here are the five gaps that keep well-optimized businesses out of AI recommendations, and how to close them.",
+        "inLanguage": "en-US",
+        "isPartOf": { "@id": "https://www.audienceintent.ai/#website" },
+        "about": { "@id": "https://www.audienceintent.ai/#organization" },
+        "primaryImageOfPage": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#primaryimage" },
+        "breadcrumb": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#breadcrumb" },
+        "datePublished": "2026-11-15",
+        "dateModified": "2026-11-15"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/you-rank-on-google-so-why-does-chatgpt-never-recommend-you.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/you-rank-on-google-so-why-does-chatgpt-never-recommend-you.jpg",
+        "width": 1600,
+        "height": 900,
+        "caption": "You Rank on Google. So Why Does ChatGPT Never Recommend You?"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/about#kevin-bovett",
+        "name": "Kevin Bovett",
+        "jobTitle": "Founder & CEO",
+        "url": "https://www.audienceintent.ai/about",
+        "image": "https://www.audienceintent.ai/assets/img/kevin-bovett.jpg",
+        "worksFor": { "@id": "https://www.audienceintent.ai/#organization" },
+        "knowsAbout": [
+          "Answer Engine Optimization",
+          "AI search visibility",
+          "ChatGPT recommendations",
+          "Perplexity",
+          "Google AI Overviews"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett"
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#article",
+        "headline": "You Rank on Google. So Why Does ChatGPT Never Recommend You?",
+        "alternativeHeadline": "ChatGPT Visibility: Why Good SEO Still Fails",
+        "description": "You rank on Google, but ChatGPT never names you. Here are the five gaps that keep well-optimized businesses out of AI recommendations, and how to close them.",
+        "image": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#primaryimage" },
+        "datePublished": "2026-11-15",
+        "dateModified": "2026-11-15",
+        "author": { "@id": "https://www.audienceintent.ai/about#kevin-bovett" },
+        "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
+        "mainEntityOfPage": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you" },
+        "isPartOf": { "@id": "https://www.audienceintent.ai/#website" },
+        "articleSection": "AI Recommended",
+        "keywords": [
+          "ChatGPT recommendations",
+          "ChatGPT visibility",
+          "Answer Engine Optimization",
+          "AEO vs SEO",
+          "unbranded AI search",
+          "entity consistency",
+          "Bing Places",
+          "schema markup",
+          "Perplexity"
+        ],
+        "about": [
+          { "@type": "Thing", "name": "Answer Engine Optimization" },
+          { "@type": "Thing", "name": "Search engine optimization", "sameAs": "https://en.wikipedia.org/wiki/Search_engine_optimization" },
+          { "@type": "SoftwareApplication", "name": "ChatGPT", "sameAs": "https://en.wikipedia.org/wiki/ChatGPT" }
+        ],
+        "mentions": [
+          { "@type": "Thing", "name": "Perplexity", "sameAs": "https://en.wikipedia.org/wiki/Perplexity_AI" },
+          { "@type": "Thing", "name": "Microsoft Bing", "sameAs": "https://en.wikipedia.org/wiki/Microsoft_Bing" },
+          { "@type": "Thing", "name": "Bing Places" },
+          { "@type": "Thing", "name": "Bing Webmaster Tools" }
+        ],
+        "wordCount": 2329,
+        "timeRequired": "PT12M",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.audienceintent.ai/" },
+          { "@type": "ListItem", "position": 2, "name": "Answers", "item": "https://www.audienceintent.ai/insights" },
+          { "@type": "ListItem", "position": 3, "name": "You Rank on Google. So Why Does ChatGPT Never Recommend You?", "item": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#faq",
+        "isPartOf": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you" },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why does good SEO not guarantee ChatGPT recommendations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because ranking and being recommended are different systems. SEO helps you appear in search results, but ChatGPT also looks for clear entity signals, third-party validation, and consistent business information before it names a company in an answer. A clean site gets you into the room. Consistent external presence is what gets you named."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the main reason a business is invisible in unbranded AI searches?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The most common reason is a weak external footprint. If your brand is not described consistently across directories, reviews, and third-party sources, AI tools have less confidence naming you for generic questions like \"best [service] near me.\" Your own website is only one piece of what these engines look at."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I fix first if my site health is already strong?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with entity consistency, review depth, and question-specific content. Make sure your name, address, and service descriptions say the same thing everywhere, then build pages that directly answer the exact questions buyers ask before they choose a provider."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does schema markup help with AI recommendations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but it is only one piece. Schema makes your business, expertise, and FAQ content easier for machines to read at query time. It works best when the rest of your external presence, reviews, directories, and third-party coverage, all reinforce the same details."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to improve unbranded visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some changes show up within days, particularly in live-search engines like Perplexity. Broader gains typically take four to twelve weeks because AI tools rely on a mix of live web data, citation history, and brand memory built over time. The businesses that move fastest are the ones that treat this as a separate discipline from SEO, not an extension of it."
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+  </script>
 ---
 Your site is clean. Your technical setup is solid. You invested in SEO, and it shows. But when someone asks ChatGPT "who's the best \[your service\] in \[your city\]" without already knowing your name? You are not in the answer.
 

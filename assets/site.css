@@ -88,7 +88,7 @@ section{position:relative}
 .trust span{display:inline-flex;align-items:center;gap:8px}
 .trust svg{width:16px;height:16px;color:var(--green)}
 
-.orbit{position:relative;width:min(640px,100%);aspect-ratio:1;margin:34px auto 0}
+.orbit{position:relative;width:min(640px,100%);aspect-ratio:1;margin:34px auto 44px}
 .orbit svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
 .ring{fill:none;stroke:rgba(255,255,255,.08);stroke-width:.2}
 .ring.dash{stroke-dasharray:.5 1.5;animation:spin 90s linear infinite;transform-box:fill-box;transform-origin:center}

@@ -288,7 +288,7 @@ Every month includes:
 | Customer question research | Questions relevant to your business and buyers |
 | New content | 4 new articles a month |
 | Existing content | 4 older pages updated a month |
-| Visibility reporting | Weekly visibility report, with 50 prompts tracked daily |
+| Visibility reporting | Weekly visibility report, with 100 prompts tracked daily |
 | Competitor tracking | Up to 5 competitors |
 | Communication | Monthly progress call and a shared Slack channel |
 
@@ -545,7 +545,7 @@ Every month includes:
 - Website fixes, including schema, sitemap, and on-page improvements.
 - Customer question research.
 - Four new articles and updates to four older pages.
-- A weekly visibility report, with 50 prompts tracked daily.
+- A weekly visibility report, with 100 prompts tracked daily.
 - Tracking across ChatGPT, Google AI Overviews and AI Mode, and Perplexity.
 - Competitor tracking for up to five competitors.
 - A monthly progress call and shared Slack channel.
@@ -662,9 +662,9 @@ AudienceIntent updates four older pages each month. This keeps existing informat
 
 Older pages may contain outdated details, incomplete answers, unclear service descriptions, or missed customer questions. Updating them helps the website present a more accurate picture of the business. The monthly commitment is four page updates, alongside the four new articles.
 
-##### 6. Weekly Visibility Report With 50 Prompts Tracked Daily
+##### 6. Weekly Visibility Report With 100 Prompts Tracked Daily
 
-AudienceIntent tracks 50 customer-style prompts daily and provides a weekly visibility report. The paid service tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity.
+AudienceIntent tracks 100 customer-style prompts daily and provides a weekly visibility report. The paid service tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity.
 
 Daily tracking gives a broader view than checking one question once. The weekly report helps you review changes over time without treating a single answer as a permanent result. AI answers can vary, so repeated observation matters.
 
@@ -742,7 +742,7 @@ It also helps to keep three terms separate:
 
 These measures describe different things. More mentions do not automatically mean more visits, and more visits do not automatically mean more sales. A citation can reference your page without recommending your business.
 
-AudienceIntent’s weekly reporting accompanies daily tracking of 50 prompts. For more detail, see [what AudienceIntent’s weekly report measures](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained).
+AudienceIntent’s weekly reporting accompanies daily tracking of 100 prompts. For more detail, see [what AudienceIntent’s weekly report measures](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained).
 
 #### Client Results
 
@@ -793,7 +793,7 @@ AI Recommended™ is AudienceIntent’s done-for-you monthly AEO service. A real
 
 ##### What is included every month?
 
-The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 50 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included.
+The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 100 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included.
 
 ##### How much does AI Recommended™ cost?
 
@@ -913,7 +913,7 @@ AI Recommended™ from AudienceIntent is built specifically for businesses that 
 
 **The pricing is straightforward:**
 - **Monthly:** $1,997/month for a 90-day minimum, then $997/month month to month — or $5,000 upfront for the first 90 days (saves $991)
-- **What's included:** A real team handles the work every month: crawler access (robots.txt, llms.txt, sitemaps); website fixes (schema, sitemap, on-page); customer question research; 4 new articles; 4 older page updates; a weekly visibility report with 50 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity; tracking of up to 5 competitors; a monthly progress call; and a shared Slack channel. Brand fixes include Google Business Profile optimization and consistent name, address, and phone details across major profiles. The price is the same for every business.
+- **What's included:** A real team handles the work every month: crawler access (robots.txt, llms.txt, sitemaps); website fixes (schema, sitemap, on-page); customer question research; 4 new articles; 4 older page updates; a weekly visibility report with 100 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity; tracking of up to 5 competitors; a monthly progress call; and a shared Slack channel. Brand fixes include Google Business Profile optimization and consistent name, address, and phone details across major profiles. The price is the same for every business.
 
 That puts AI Recommended™ at the entry point of the mid-market range — where the serious work actually happens — without the 6-12 month contract that most agencies require before you see a single result.
 
@@ -1117,7 +1117,7 @@ That is not a hedge. That is an accurate description of what is actually possibl
 Our [AI Recommended™](https://www.audienceintent.ai/) service is built around a compounding strategy, not a one-time fix. Our team does the work for you each month. We track how ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity describe your business and fix weak spots in your website, content, and brand information.
 
 Specifically, we focus on:
-- **Visibility tracking** — 50 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity
+- **Visibility tracking** — 100 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity
 - **Crawler access and website fixes** — robots.txt, llms.txt, sitemaps, schema, and on-page fixes
 - **Brand fixes** — Google Business Profile optimization and consistent name, address, and phone information across major profiles
 - **Customer question research** — finding the questions your customers ask AI
@@ -1174,7 +1174,7 @@ Reviews are one of the primary signals AI systems use when forming recommendatio
 ---
 ##### How do you measure AI visibility?
 
-AI visibility is measured by tracking how your business appears across multiple AI platforms in response to structured prompts: whether you are mentioned, how you are described, which sources are cited, how your sentiment compares to competitors, and how your share of voice changes over time. A single prompt on a single day is not a measurement. AudienceIntent tracks 50 prompts daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with a weekly visibility report.
+AI visibility is measured by tracking how your business appears across multiple AI platforms in response to structured prompts: whether you are mentioned, how you are described, which sources are cited, how your sentiment compares to competitors, and how your share of voice changes over time. A single prompt on a single day is not a measurement. AudienceIntent tracks 100 prompts daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with a weekly visibility report.
 
 ---
 ##### What should I do before hiring an AI visibility agency?
@@ -1430,7 +1430,7 @@ AudienceIntent offers **AI Recommended™**, a done-for-you monthly AEO service 
 - Customer question research.
 - Four new articles.
 - Updates to four older pages.
-- A weekly visibility report, with 50 prompts tracked daily.
+- A weekly visibility report, with 100 prompts tracked daily.
 - Tracking of up to five competitors.
 - A monthly progress call and a shared Slack channel.
 
@@ -1658,7 +1658,7 @@ Every month includes:
 - Customer question research.
 - Four new articles.
 - Four older pages updated.
-- A weekly visibility report, with 50 prompts tracked daily.
+- A weekly visibility report, with 100 prompts tracked daily.
 - Tracking for up to five competitors.
 - A monthly progress call and shared Slack channel.
 
@@ -2771,7 +2771,7 @@ Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google A
 
 These are expectations, not deadlines or guarantees. Review leading indicators weekly, while allowing enough time for recommendations and customer outcomes to develop.
 
-AI Recommended™ is AudienceIntent's done-for-you monthly AEO service, delivered by a real team, not self-serve software. Its reporting tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity, with 50 prompts tracked daily, a weekly visibility report, and tracking for up to five competitors. A monthly progress call and shared Slack channel support the work.
+AI Recommended™ is AudienceIntent's done-for-you monthly AEO service, delivered by a real team, not self-serve software. Its reporting tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity, with 100 prompts tracked daily, a weekly visibility report, and tracking for up to five competitors. A monthly progress call and shared Slack channel support the work.
 
 Nobody can guarantee that a business will appear in a specific AI answer. AudienceIntent promises the work, done properly every month, and an honest report.
 
@@ -2962,11 +2962,11 @@ Once a business has built a dense third-party footprint and is consistently name
 
 This is the most operationally specific metric in the reporting framework, and often the one that produces the most immediate strategic clarity.
 
-Our weekly report tracks ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 50 customer prompts tracked daily and up to 5 competitors. The output is a per-prompt record of whether your business appeared, where it ranked, and what the AI said.
+Our weekly report tracks ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 customer prompts tracked daily and up to 5 competitors. The output is a per-prompt record of whether your business appeared, where it ranked, and what the AI said.
 
 ##### How the Prompt Set Is Built
 
-The initial prompt set is developed during onboarding based on your category, geography, and the specific questions your customers are most likely to ask. The set includes 50 prompts across four types:
+The initial prompt set is developed during onboarding based on your category, geography, and the specific questions your customers are most likely to ask. The set includes 100 prompts across four types:
 
 | Prompt Type | Example | Why It Matters |
 | --- | --- | --- |
@@ -3182,7 +3182,7 @@ A mention is when AI says your business name. A citation is when it also links t
 
 ##### Which AI platforms does AudienceIntent track?
 
-ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 50 customer prompts every day, plus up to 5 competitors.
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 100 customer prompts every day, plus up to 5 competitors.
 
 ##### How often will I get a report?
 
@@ -3375,7 +3375,7 @@ Vault Metal went from 169 AI mentions to 7,808 in 90 days with a dedicated AEO p
 The question is not whether AI search is important. It is whether your business is showing up in it. If you do not know the answer to that, the answer is probably no.
 
 ---
-**Want to find out where you stand?** [AudienceIntent](https://www.audienceintent.ai) tracks your business across 50 prompts every day across ChatGPT, Google AI, and Perplexity, and works to get you recommended. One service, fixed price, weekly report from day one.
+**Want to find out where you stand?** [AudienceIntent](https://www.audienceintent.ai) tracks your business across 100 prompts every day across ChatGPT, Google AI, and Perplexity, and works to get you recommended. One service, fixed price, weekly report from day one.
 
 **Frequently Asked Questions
 
@@ -3603,7 +3603,7 @@ Every month includes:
 - Website fixes covering schema, sitemaps, and on-page information.
 - Research into the questions your customers ask.
 - **4 new articles** and **4 older pages updated**.
-- A weekly visibility report, with **50 prompts tracked daily**.
+- A weekly visibility report, with **100 prompts tracked daily**.
 - Tracking of **up to 5 competitors**.
 - A monthly progress call and a shared Slack channel.
 - Brand fixes: Google Business Profile optimization and consistent name, address, and phone information across major profiles.
@@ -4210,7 +4210,7 @@ At AudienceIntent, that's the only thing we do. We get businesses recommended by
 - Technical fixes so AI crawlers can access and understand their content
 - A library of answers to the real questions their customers ask
 - Fresh content published consistently, because AI engines weight recency
-- Daily tracking across 50 prompts, so you can see your visibility grow week by week
+- Daily tracking across 100 prompts, so you can see your visibility grow week by week
 
 Vault Metal went from 3 AI citations to 751 in 90 days. GoldenCrest Metals saw a 202.4% increase in visibility score in the same window. Craft Food Tours saw 312% more traffic from AI in 90 days.
 
@@ -4408,7 +4408,7 @@ Every AI Recommended™ engagement now runs on a methodology trained, tested, an
 
 **Schema and entity work done to the standard AI engines require.** This is one of the most commonly skipped or poorly executed parts of AI search optimization. The training covered implementation at the level of detail that actually influences AI comprehension — not checkbox schema, but structured data that accurately represents what a business is, who it serves, and where it operates.
 
-**Citation tracking with real data.** Certified partners operate with access to AI search intelligence tools that measure actual citation frequency across platforms. Clients receive a weekly visibility report covering ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 50 prompts tracked daily.
+**Citation tracking with real data.** Certified partners operate with access to AI search intelligence tools that measure actual citation frequency across platforms. Clients receive a weekly visibility report covering ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 prompts tracked daily.
 
 #### Frequently Asked Questions
 
@@ -4521,7 +4521,7 @@ No. Nobody can guarantee a business will appear in a specific AI answer. The cer
 
 ##### Which AI platforms does AI Recommended™ track?
 
-ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 50 customer prompts every day, plus up to 5 competitors.
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 100 customer prompts every day, plus up to 5 competitors.
 
 ##### What other credentials does Kevin hold?
 

@@ -129,7 +129,7 @@ schema: >-
             "name": "How do you measure AI visibility?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI visibility is measured by tracking how your business appears across multiple AI platforms in response to structured prompts: whether you are mentioned, how you are described, which sources are cited, how your sentiment compares to competitors, and how your share of voice changes over time. A single prompt on a single day is not a measurement. AudienceIntent tracks 50 prompts daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with a weekly visibility report. ---"
+              "text": "AI visibility is measured by tracking how your business appears across multiple AI platforms in response to structured prompts: whether you are mentioned, how you are described, which sources are cited, how your sentiment compares to competitors, and how your share of voice changes over time. A single prompt on a single day is not a measurement. AudienceIntent tracks 100 prompts daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with a weekly visibility report. ---"
             }
           },
           {
@@ -284,7 +284,7 @@ Our [AI Recommended™](https://www.audienceintent.ai/) service is built around 
 
 Specifically, we focus on:
 
--   **Visibility tracking** — 50 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity
+-   **Visibility tracking** — 100 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity
 
 -   **Crawler access and website fixes** — robots.txt, llms.txt, sitemaps, schema, and on-page fixes
 
@@ -360,7 +360,7 @@ Reviews are one of the primary signals AI systems use when forming recommendatio
 
 ### How do you measure AI visibility?
 
-AI visibility is measured by tracking how your business appears across multiple AI platforms in response to structured prompts: whether you are mentioned, how you are described, which sources are cited, how your sentiment compares to competitors, and how your share of voice changes over time. A single prompt on a single day is not a measurement. AudienceIntent tracks 50 prompts daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with a weekly visibility report.
+AI visibility is measured by tracking how your business appears across multiple AI platforms in response to structured prompts: whether you are mentioned, how you are described, which sources are cited, how your sentiment compares to competitors, and how your share of voice changes over time. A single prompt on a single day is not a measurement. AudienceIntent tracks 100 prompts daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with a weekly visibility report.
 
 ---
 

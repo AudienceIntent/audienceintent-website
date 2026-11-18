@@ -214,7 +214,7 @@ No. Nobody can guarantee a business will appear in a specific AI answer. The cer
 
 ### Which AI platforms does AI Recommended™ track?
 
-ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 50 customer prompts every day, plus up to 5 competitors.
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 100 customer prompts every day, plus up to 5 competitors.
 
 ### What other credentials does Kevin hold?
 

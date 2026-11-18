@@ -408,7 +408,7 @@ Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google A
 
 These are expectations, not deadlines or guarantees. Review leading indicators weekly, while allowing enough time for recommendations and customer outcomes to develop.
 
-AI Recommended™ is AudienceIntent's done-for-you monthly AEO service, delivered by a real team, not self-serve software. Its reporting tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity, with 50 prompts tracked daily, a weekly visibility report, and tracking for up to five competitors. A monthly progress call and shared Slack channel support the work.
+AI Recommended™ is AudienceIntent's done-for-you monthly AEO service, delivered by a real team, not self-serve software. Its reporting tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity, with 100 prompts tracked daily, a weekly visibility report, and tracking for up to five competitors. A monthly progress call and shared Slack channel support the work.
 
 Nobody can guarantee that a business will appear in a specific AI answer. AudienceIntent promises the work, done properly every month, and an honest report.
 

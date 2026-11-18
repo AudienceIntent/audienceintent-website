@@ -338,7 +338,7 @@ The businesses that see the fastest results tend to share one characteristic: th
 
 Your SEO is not broken. It is just playing a different game than the one that now decides which businesses get recommended.
 
-AudienceIntent's [AI Recommended service](https://www.audienceintent.ai) is built specifically for this: getting your business named when people ask ChatGPT, Google AI, and Perplexity who to choose. We track 50 prompts every day, audit your external presence, build question-specific content, and fix the entity and review gaps that keep well-optimized businesses invisible in unbranded searches.
+AudienceIntent's [AI Recommended service](https://www.audienceintent.ai) is built specifically for this: getting your business named when people ask ChatGPT, Google AI, and Perplexity who to choose. We track 100 prompts every day, audit your external presence, build question-specific content, and fix the entity and review gaps that keep well-optimized businesses invisible in unbranded searches.
 
 [Book a call](https://www.audienceintent.ai) and we will show you exactly where you stand and what it would take to fix it.
 

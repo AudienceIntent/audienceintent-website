@@ -91,7 +91,7 @@ schema: >-
             "name": "What is included every month?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 50 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included."
+              "text": "The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 100 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included."
             }
           },
           {
@@ -228,9 +228,9 @@ AudienceIntent updates four older pages each month. This keeps existing informat
 
 Older pages may contain outdated details, incomplete answers, unclear service descriptions, or missed customer questions. Updating them helps the website present a more accurate picture of the business. The monthly commitment is four page updates, alongside the four new articles.
 
-### 6. Weekly Visibility Report With 50 Prompts Tracked Daily
+### 6. Weekly Visibility Report With 100 Prompts Tracked Daily
 
-AudienceIntent tracks 50 customer-style prompts daily and provides a weekly visibility report. The paid service tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity.
+AudienceIntent tracks 100 customer-style prompts daily and provides a weekly visibility report. The paid service tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity.
 
 Daily tracking gives a broader view than checking one question once. The weekly report helps you review changes over time without treating a single answer as a permanent result. AI answers can vary, so repeated observation matters.
 
@@ -309,7 +309,7 @@ It also helps to keep three terms separate:
 
 These measures describe different things. More mentions do not automatically mean more visits, and more visits do not automatically mean more sales. A citation can reference your page without recommending your business.
 
-AudienceIntent’s weekly reporting accompanies daily tracking of 50 prompts. For more detail, see [what AudienceIntent’s weekly report measures](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained).
+AudienceIntent’s weekly reporting accompanies daily tracking of 100 prompts. For more detail, see [what AudienceIntent’s weekly report measures](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained).
 
 ## Client Results
 
@@ -360,7 +360,7 @@ AI Recommended™ is AudienceIntent’s done-for-you monthly AEO service. A real
 
 ### What is included every month?
 
-The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 50 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included.
+The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 100 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included.
 
 ### How much does AI Recommended™ cost?
 

@@ -97,6 +97,11 @@ section{position:relative}
 .outer{position:absolute;inset:0;animation:spin 60s linear infinite reverse}
 .outer i{position:absolute;width:9px;height:9px;border-radius:50%;transform:translate(-50%,-50%)}
 .outer i.b{background:var(--blue-2);box-shadow:0 0 14px var(--blue)}.outer i.g{background:var(--green);box-shadow:0 0 14px var(--green)}
+.sat{position:absolute;transform:translate(-50%,-50%);z-index:1}
+.sface{animation:spin 60s linear infinite}
+.sdisc{position:relative;width:clamp(38px,7.6vw,56px);aspect-ratio:1;border-radius:50%;background:#fff;box-shadow:0 0 0 2px rgba(77,168,255,.7),0 0 26px rgba(26,130,255,.45);opacity:0;animation:pop .6s var(--ease) forwards}
+.sdisc svg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:54%;height:54%}
+.sat.s1 .sdisc{animation-delay:1.7s}.sat.s2 .sdisc{animation-delay:1.85s}.sat.s3 .sdisc{animation-delay:2s}.sat.s4 .sdisc{animation-delay:2.15s}.sat.s5 .sdisc{animation-delay:2.3s}
 .beam{stroke-width:.45;stroke-linecap:round;fill:none;stroke-dasharray:40;stroke-dashoffset:40;animation:draw 1.4s var(--ease) forwards}
 .beam.b2{animation-delay:.25s}.beam.b3{animation-delay:.5s}
 @keyframes draw{to{stroke-dashoffset:0}}
@@ -351,6 +356,7 @@ section{position:relative}
 .cw-lock .cw-logo{font-size:24px;line-height:1}
 .cw-lock .x{font-size:22px;font-weight:500;opacity:.6}
 .cw-lock img{height:26px;width:auto}
+.cw-lock img.cw-mark{height:34px}
 .btn-cw{background:#111;color:var(--cw)}
 .btn-cw:hover{background:#fff;color:#111;transform:translateY(-2px)}
 
@@ -452,7 +458,7 @@ footer{background:var(--night);color:#9aa3b5;border-top:1px solid var(--line-d);
   .day90 em{font-size:10px;padding:3px 8px}
   .askline{margin-top:56px}
   .price strong{font-size:46px!important}.price .x3{font-size:38px!important}.price span{font-size:15px}
-  .cw-lock{gap:10px;padding:10px 16px}.cw-lock .cw-logo{font-size:17px}.cw-lock img{height:17px}
+  .cw-lock{gap:10px;padding:10px 16px}.cw-lock .cw-logo{font-size:17px}.cw-lock img{height:17px}.cw-lock img.cw-mark{height:23px}
   .dash{grid-template-columns:1fr;justify-items:center}
   .dash .bars{width:100%}
   .facts{grid-template-columns:1fr}

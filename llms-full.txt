@@ -22,7 +22,7 @@ Key facts:
 3. Customer question research: the real questions customers ask AI before they buy.
 4. 4 new articles every month, built around those questions (Google leans heavily on recent content).
 5. 4 older pages brought up to date every month.
-6. Weekly visibility report: 50 prompts tracked every day.
+6. Weekly visibility report: 100 prompts tracked every day.
 7. Competitor tracking: up to 5 competitors.
 8. A real human to talk to: a monthly progress call and a shared Slack channel.
 

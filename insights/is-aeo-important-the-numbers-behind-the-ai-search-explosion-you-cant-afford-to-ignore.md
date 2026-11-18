@@ -279,7 +279,7 @@ The question is not whether AI search is important. It is whether your business 
 
 ---
 
-**Want to find out where you stand?** [AudienceIntent](https://www.audienceintent.ai) tracks your business across 50 prompts every day across ChatGPT, Google AI, and Perplexity, and works to get you recommended. One service, fixed price, weekly report from day one.
+**Want to find out where you stand?** [AudienceIntent](https://www.audienceintent.ai) tracks your business across 100 prompts every day across ChatGPT, Google AI, and Perplexity, and works to get you recommended. One service, fixed price, weekly report from day one.
 
 **Frequently Asked Questions
 

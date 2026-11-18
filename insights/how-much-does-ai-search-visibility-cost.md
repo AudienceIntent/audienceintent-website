@@ -216,7 +216,7 @@ AI Recommended™ from AudienceIntent is built specifically for businesses that 
 
 -   **Monthly:** $1,997/month for a 90-day minimum, then $997/month month to month — or $5,000 upfront for the first 90 days (saves $991)
 
--   **What's included:** A real team handles the work every month: crawler access (robots.txt, llms.txt, sitemaps); website fixes (schema, sitemap, on-page); customer question research; 4 new articles; 4 older page updates; a weekly visibility report with 50 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity; tracking of up to 5 competitors; a monthly progress call; and a shared Slack channel. Brand fixes include Google Business Profile optimization and consistent name, address, and phone details across major profiles. The price is the same for every business.
+-   **What's included:** A real team handles the work every month: crawler access (robots.txt, llms.txt, sitemaps); website fixes (schema, sitemap, on-page); customer question research; 4 new articles; 4 older page updates; a weekly visibility report with 100 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity; tracking of up to 5 competitors; a monthly progress call; and a shared Slack channel. Brand fixes include Google Business Profile optimization and consistent name, address, and phone details across major profiles. The price is the same for every business.
 
 That puts AI Recommended™ at the entry point of the mid-market range — where the serious work actually happens — without the 6-12 month contract that most agencies require before you see a single result.
 

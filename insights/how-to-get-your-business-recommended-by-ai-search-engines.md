@@ -399,7 +399,7 @@ AudienceIntent offers **AI Recommended™**, a done-for-you monthly AEO service 
 - Customer question research.
 - Four new articles.
 - Updates to four older pages.
-- A weekly visibility report, with 50 prompts tracked daily.
+- A weekly visibility report, with 100 prompts tracked daily.
 - Tracking of up to five competitors.
 - A monthly progress call and a shared Slack channel.
 

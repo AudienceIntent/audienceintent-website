@@ -248,11 +248,11 @@ Once a business has built a dense third-party footprint and is consistently name
 
 This is the most operationally specific metric in the reporting framework, and often the one that produces the most immediate strategic clarity.
 
-Our weekly report tracks ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 50 customer prompts tracked daily and up to 5 competitors. The output is a per-prompt record of whether your business appeared, where it ranked, and what the AI said.
+Our weekly report tracks ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 customer prompts tracked daily and up to 5 competitors. The output is a per-prompt record of whether your business appeared, where it ranked, and what the AI said.
 
 ### How the Prompt Set Is Built
 
-The initial prompt set is developed during onboarding based on your category, geography, and the specific questions your customers are most likely to ask. The set includes 50 prompts across four types:
+The initial prompt set is developed during onboarding based on your category, geography, and the specific questions your customers are most likely to ask. The set includes 100 prompts across four types:
 
 | Prompt Type | Example | Why It Matters |
 | --- | --- | --- |
@@ -501,7 +501,7 @@ A mention is when AI says your business name. A citation is when it also links t
 
 ### Which AI platforms does AudienceIntent track?
 
-ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 50 customer prompts every day, plus up to 5 competitors.
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 100 customer prompts every day, plus up to 5 competitors.
 
 ### How often will I get a report?
 

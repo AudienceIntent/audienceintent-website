@@ -334,7 +334,7 @@ Every month includes:
 - Customer question research.
 - Four new articles.
 - Four older pages updated.
-- A weekly visibility report, with 50 prompts tracked daily.
+- A weekly visibility report, with 100 prompts tracked daily.
 - Tracking for up to five competitors.
 - A monthly progress call and shared Slack channel.
 

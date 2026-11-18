@@ -362,7 +362,7 @@ At AudienceIntent, that's the only thing we do. We get businesses recommended by
     
 -   Fresh content published consistently, because AI engines weight recency
     
--   Daily tracking across 50 prompts, so you can see your visibility grow week by week
+-   Daily tracking across 100 prompts, so you can see your visibility grow week by week
     
 
 Vault Metal went from 3 AI citations to 751 in 90 days. GoldenCrest Metals saw a 202.4% increase in visibility score in the same window. Craft Food Tours saw 312% more traffic from AI in 90 days.

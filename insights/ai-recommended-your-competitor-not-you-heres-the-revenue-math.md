@@ -352,7 +352,7 @@ Every month includes:
 - Website fixes covering schema, sitemaps, and on-page information.
 - Research into the questions your customers ask.
 - **4 new articles** and **4 older pages updated**.
-- A weekly visibility report, with **50 prompts tracked daily**.
+- A weekly visibility report, with **100 prompts tracked daily**.
 - Tracking of **up to 5 competitors**.
 - A monthly progress call and a shared Slack channel.
 - Brand fixes: Google Business Profile optimization and consistent name, address, and phone information across major profiles.

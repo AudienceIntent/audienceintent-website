@@ -361,7 +361,7 @@ Every month includes:
 - Website fixes, including schema, sitemap, and on-page improvements.
 - Customer question research.
 - Four new articles and updates to four older pages.
-- A weekly visibility report, with 50 prompts tracked daily.
+- A weekly visibility report, with 100 prompts tracked daily.
 - Tracking across ChatGPT, Google AI Overviews and AI Mode, and Perplexity.
 - Competitor tracking for up to five competitors.
 - A monthly progress call and shared Slack channel.

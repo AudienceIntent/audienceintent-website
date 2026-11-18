@@ -416,8 +416,8 @@ footer{background:var(--night);color:#9aa3b5;border-top:1px solid var(--line-d);
 .js .rv.in{opacity:1;transform:none}
 .static .rv{opacity:1!important;transform:none!important}
 .static *{transition:none!important;animation:none!important}
-.static .beam{stroke-dashoffset:0}.static .node .disc{opacity:1}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}.beam{stroke-dashoffset:0}.node .disc{opacity:1}.seg,.bar{transform:none}.bars .fill{width:var(--w)}}
+.static .beam{stroke-dashoffset:0}.static .node .disc,.static .sdisc{opacity:1}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}.beam{stroke-dashoffset:0}.node .disc,.sdisc{opacity:1}.seg,.bar{transform:none}.bars .fill{width:var(--w)}}
 
 /* responsive */
 @media (max-width:1000px){

@@ -240,6 +240,8 @@ This doesn't mean publishing content for the sake of it. It means keeping your s
 
 ---
 
+AI engines like ChatGPT and Perplexity favor content that’s current. About half of what they cite was published or updated in the last three months.
+
 | Signal | Businesses That Get Cited | Businesses That Get Skipped |
 | --- | --- | --- |
 | Business information | Identical name, address, phone across 10+ directories | Inconsistent or outdated info across platforms |
@@ -247,7 +249,7 @@ This doesn't mean publishing content for the sake of it. It means keeping your s
 | Reviews | 40+ detailed, recent reviews across multiple platforms | Few reviews, or only on one platform |
 | Website content | Specific, question-answering pages for each service | Generic service page with bullet points |
 | Structured data | Organization, FAQ, Service, and Review schema in place | No schema markup |
-| Content freshness | Updated within the last 30 days | Website unchanged for 6+ months |
+| Content freshness | Current, accurate content that is reviewed and updated | Outdated information that no longer answers customers’ questions |
 
 ## How ChatGPT, Perplexity, and Google AI Each Weigh These Signals Differently
 

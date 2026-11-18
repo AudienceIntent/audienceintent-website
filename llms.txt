@@ -2,7 +2,7 @@
 
 > AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service: AI Recommended™. When people ask ChatGPT, Google AI or Perplexity who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
-Last updated: 2026-11-13
+Last updated: 2026-11-18
 
 Key facts:
 
@@ -18,7 +18,7 @@ Key facts:
 1. Open to crawlers: making sure ChatGPT, Google and Perplexity can reach and understand the website (robots.txt, llms.txt, sitemaps).
 2. Website fixes: schema markup, sitemap and on-page fixes.
 3. Customer question research: the real questions customers ask AI before they buy.
-4. 4 new articles every month, built around those questions (Google leans heavily on recent content).
+4. 4 new articles every month, built around those questions (AI engines like ChatGPT and Perplexity favor current content).
 5. 4 older pages brought up to date every month.
 6. Weekly visibility report: 100 prompts tracked every day.
 7. Competitor tracking: up to 5 competitors.
@@ -111,6 +111,10 @@ Paid ads management, social media management, website builds, SMS or text-messag
 - [We're Now a Searchable Certified Agency Partner. Here's What That Actually Means for Your AI Search Strategy.](https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy): AudienceIntent is a Searchable certified partner: completed the AI Search Accelerator twice (June and October 2026).
 - [Kevin Bovett Earns HubSpot Academy AEO Fundamentals Certification](https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification): Kevin Bovett earns HubSpot Academy's AEO Fundamentals certification.
 - [Why AudienceIntent Supports charity: water](https://www.audienceintent.ai/insights/why-we-support-charity-water): Why AudienceIntent funds clean water through charity: water.
+
+## More answers
+
+- [You Rank on Google. So Why Does ChatGPT Never Recommend You?](https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you): Good SEO does not guarantee ChatGPT recommendations. Learn why unbranded visibility fails and what to fix first.
 
 ## Optional
 

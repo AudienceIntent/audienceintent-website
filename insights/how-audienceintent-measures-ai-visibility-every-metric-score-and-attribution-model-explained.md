@@ -292,7 +292,7 @@ Citation tracking does more than count how many times AI platforms link to sourc
 | Platform | Primary Citation Source | Secondary Sources | Key Insight |
 | --- | --- | --- | --- |
 | ChatGPT | Wikipedia (7.8% of citations) | Reddit (12%), established media, G2/Capterra | Favors encyclopedic authority; brands with G2/Capterra profiles see 3x higher citation probability |
-| Perplexity | Reddit (46.7% of citations) | Official docs, recent editorial content | Real-time retrieval; content under 30 days old gets 3.2x more citations |
+| Perplexity | Reddit (46.7% of citations) | Official docs, recent editorial content | Real-time retrieval; current content helps keep answers up to date |
 | Google AI Overviews | Google index (54% overlap with top-20 organic) | YouTube (strongest single correlating factor) | YouTube brand mentions in titles and transcripts are the top AI Overview visibility signal |
 | Claude | Technical docs, PDFs, whitepapers | Structured bullet-pointed content | Content with clear definitions and bullet points is 30% more likely to be cited |
 | Grok | Community sources, real-time web | Branded domains | Highest brand citation rate (27%) of any major platform studied |
@@ -345,13 +345,15 @@ ChatGPT has about 1.2 billion weekly active users ([OpenAI, November 2026](https
 
 ### Perplexity: Real-Time, Freshness-First, Citation-Dense
 
+AI engines like ChatGPT and Perplexity favor content that’s current. About half of what they cite was published or updated in the last three months.
+
 Perplexity performs a real-time web search for every single query. There is no knowledge cutoff. Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AI Recommended™ starts with 90 days.
 
 **What Perplexity favors:**
 
 -   Reddit (46.7% of top citations)
 
--   Content published within the last 30 days (3.2x more citations than older content)
+-   Current content that reflects the latest accurate information
 
 -   Structured headers, answer-first paragraphs, definitive statements
 

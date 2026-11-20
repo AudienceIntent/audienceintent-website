@@ -4,9 +4,9 @@ meta_title: How Much Does AI Search Visibility Cost
 date: 2026-09-01T16:33:00.000-04:00
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
-description: AI Recommended is $1,997/month, flat, no matter your size. See
-  what's actually included and why most agencies won't give you a straight
-  number.
+description: AI Recommended is $1,997/month, then $997. Pro is $4,997/month,
+  then $3,997. See what each plan includes and how they compare to typical
+  agencies.
 focus_keyword: AI Search Visibility
 canonical: ""
 image: /images/uploads/thumbs/how-much-does-ai-search-visibility-cost.jpg
@@ -43,7 +43,7 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "datePublished": "2026-09-01",
-        "dateModified": "2026-09-01",
+        "dateModified": "2026-11-20",
         "articleSection": "AI Recommended",
         "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT10M",
@@ -113,7 +113,7 @@ schema: >-
             "name": "What happens if I cancel?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI Recommended™ runs on a 90-day minimum at $1,997/month, then continues month to month at $997/month. You can also pay $5,000 upfront for the first 90 days and save $991. The content and website fixes completed during your time in the program don't disappear overnight — but ongoing content work, page updates, and prompt tracking stop. Most clients stay because the results compound over time."
+              "text": "Both plans run on a 90-day minimum, then continue month to month. AI Recommended™ is $1,997/month for the first 3 months, then $997/month. AI Recommended™ Pro is $4,997/month for the first 3 months, then $3,997/month. On either plan you can pay your first 3 months upfront and save ($991 or $2,991). The content and website fixes completed during your time in the program don't disappear overnight — but ongoing content work, page updates, and prompt tracking stop. Most clients stay because the results compound over time."
             }
           },
           {
@@ -143,7 +143,9 @@ This guide breaks down what the market charges, what you actually get at each pr
 >     
 > -   Most local businesses fit the $1,997-$5,000/month range for meaningful results
 >     
-> -   AI Recommended™ from AudienceIntent is $1,997/month for a 90-day minimum, then $997/month month to month — or $5,000 upfront for the first 90 days (saves $991)
+> -   AI Recommended™ from AudienceIntent is $1,997/month for the first 3 months, then $997/month month to month — or pay your first 3 months upfront for $5,000 (saves $991)
+>     
+> -   AI Recommended™ Pro, for medium to large businesses, is $4,997/month for the first 3 months, then $3,997/month — or pay your first 3 months upfront for $12,000 (saves $2,991)
 >     
 > -   Most agencies require 6-12 month contracts with setup fees of $2,500-$12,000+
 >     
@@ -210,29 +212,36 @@ Most agencies at every tier are built around enterprise or B2B SaaS clients. The
 
 ## How AI Recommended™ Is Priced — and How It Compares
 
-AI Recommended™ from AudienceIntent is built specifically for businesses that need real execution at a price point that doesn't require a six-figure annual commitment to test.
+AudienceIntent offers two plans. Both are done for you, both start with a 90-day minimum, and on both the price drops on its own from month 4. Neither requires a six-figure annual commitment to test.
 
-**The pricing is straightforward:**
+### AI Recommended™: for small businesses
 
--   **Monthly:** $1,997/month for a 90-day minimum, then $997/month month to month — or $5,000 upfront for the first 90 days (saves $991)
+-   **Price:** $1,997/month for the first 3 months, then $997/month month to month — or pay your first 3 months upfront for $5,000 (saves $991)
 
--   **What's included:** A real team handles the work every month: crawler access (robots.txt, llms.txt, sitemaps); website fixes (schema, sitemap, on-page); customer question research; 4 new articles; 4 older page updates; a weekly visibility report with 100 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity; tracking of up to 5 competitors; a monthly progress call; and a shared Slack channel. Brand fixes include Google Business Profile optimization and consistent name, address, and phone details across major profiles. The price is the same for every business.
+-   **What's included:** A real team handles the work every month: crawler access (robots.txt, llms.txt, sitemaps); website fixes (schema, sitemap, on-page); customer question research; 4 new articles; 4 older page updates; a weekly visibility report with 100 prompts tracked daily across ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity; tracking of up to 5 competitors; a monthly progress call; and a shared Slack channel. Brand fixes include Google Business Profile optimization and consistent name, address, and phone details across major profiles.
 
-That puts AI Recommended™ at the entry point of the mid-market range — where the serious work actually happens — without the 6-12 month contract that most agencies require before you see a single result.
+### AI Recommended™ Pro: for medium to large businesses
 
-### Side-by-Side: AI Recommended™ vs. Typical Agency Pricing
+-   **Price:** $4,997/month for the first 3 months, then $3,997/month month to month — or pay your first 3 months upfront for $12,000 (saves $2,991)
 
-|  | AI Recommended™ | Typical Mid-Market Agency |
-| --- | --- | --- |
-| Monthly cost | $1,997 for the first 90 days, then $997 | $2,000 – $8,000 |
-| Contract | 90-day minimum, then month to month | 6-12 months |
-| Execution included | Yes — done for you | Varies |
-| Prompt tracking | Yes | Sometimes |
-| Local business focus | Yes | Rarely |
+-   **What's included:** Everything in AI Recommended™, plus a Prompt Universe (a map of the questions buyers ask about your products, audiences, buying decisions and competitors); 500 prompts tracked daily across ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Gemini, and Claude; tracking of up to 10 competitors; 12 new articles and 12 page updates every month; a page-by-page technical audit that your team implements with our guidance; a strategy call every two weeks; ready-to-post social images and copy for every new article; 1 external publisher feature per quarter; and ChatGPT Business Hub setup and management where eligible.
+
+That puts AI Recommended™ at the entry point of the mid-market range, with Pro in the middle of it — where the serious work actually happens — without the 6-12 month contract that most agencies require before you see a single result.
+
+### Side-by-Side: AI Recommended™ and Pro vs. Typical Agency Pricing
+
+|  | AI Recommended™ | AI Recommended™ Pro | Typical Mid-Market Agency |
+| --- | --- | --- | --- |
+| Monthly cost | $1,997 for the first 3 months, then $997 | $4,997 for the first 3 months, then $3,997 | $2,000 – $8,000 |
+| Pay your first 3 months upfront | $5,000 (save $991) | $12,000 (save $2,991) | Rarely offered |
+| Contract | 90-day minimum, then month to month | 90-day minimum, then month to month | 6-12 months |
+| Execution included | Yes — done for you | Yes — content done for you, technical fixes guided for your team | Varies |
+| Prompt tracking | 100 prompts daily, 3 AI platforms | 500 prompts daily, 6 AI platforms | Sometimes |
+| Built for | Small and local businesses | Medium to large businesses | Mostly enterprise and B2B SaaS |
 
 ### What "Done for You" Actually Means
 
-Most agencies hand you a strategy document and a list of recommendations. Execution is either billed separately or assumed to be handled by your team. AI Recommended™ is fully managed — AudienceIntent writes the content, updates older pages, and handles the optimization. You get a weekly visibility report.
+Most agencies hand you a strategy document and a list of recommendations. Execution is either billed separately or assumed to be handled by your team. AI Recommended™ is fully managed — AudienceIntent writes the content, updates older pages, and handles the optimization. On Pro, we also audit every page and guide your team through the technical fixes. On both plans you get a weekly visibility report.
 
 This matters for local business owners who don't have a marketing team sitting around to implement agency recommendations.
 
@@ -278,7 +287,7 @@ At the high end, you're paying for enterprise infrastructure: large content prod
 
 ### What happens if I cancel?
 
-AI Recommended™ runs on a 90-day minimum at $1,997/month, then continues month to month at $997/month. You can also pay $5,000 upfront for the first 90 days and save $991. The content and website fixes completed during your time in the program don't disappear overnight — but ongoing content work, page updates, and prompt tracking stop. Most clients stay because the results compound over time.
+Both plans run on a 90-day minimum, then continue month to month. AI Recommended™ is $1,997/month for the first 3 months, then $997/month. AI Recommended™ Pro is $4,997/month for the first 3 months, then $3,997/month. On either plan you can pay your first 3 months upfront and save ($991 or $2,991). The content and website fixes completed during your time in the program don't disappear overnight — but ongoing content work, page updates, and prompt tracking stop. Most clients stay because the results compound over time.
 
 ### How do I know if AI search is even sending customers to my competitors right now?
 

@@ -1,16 +1,16 @@
 # AudienceIntent
 
-> AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service: AI Recommended™. When people ask ChatGPT, Google AI or Perplexity who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
+> AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service, AI Recommended™, offered on two plans: AI Recommended and AI Recommended Pro. When people ask ChatGPT, Google AI or Perplexity who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
-Last updated: 2026-11-18
+Last updated: 2026-11-20
 
 Key facts:
 
 - Tagline: "We get your business recommended by AI."
 - Founded in 2024 by Kevin Bovett (founder and CEO). Based in Wellington, Florida. Works with businesses across the United States.
-- One service only: AI Recommended™, a done-for-you monthly AEO service. AudienceIntent is not a software tool. A real team does the work.
-- Price: $1,997/month for the first 90 days, then $997/month, month to month. Or $5,000 upfront for the first 90 days (saves $991).
-- AI platforms tracked: ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity.
+- One service only: AI Recommended™, a done-for-you monthly AEO service, on two plans (AI Recommended for small businesses, AI Recommended Pro for medium to large businesses). AudienceIntent is not a software tool. A real team does the work.
+- Price: AI Recommended is $1,997/month for the first 3 months, then $997/month, month to month (or pay the first 3 months upfront for $5,000, saving $991). AI Recommended Pro is $4,997/month for the first 3 months, then $3,997/month (or pay the first 3 months upfront for $12,000, saving $2,991).
+- AI platforms tracked: ChatGPT, Google AI Overviews and Perplexity on AI Recommended; Pro adds Google AI Mode, Gemini and Claude.
 - Who it's for: local and small-to-mid-sized US businesses, from law firms, home services and insurance to gyms, wellness, tour operators and precious metals dealers.
 
 ## AI Recommended™: what's included every month
@@ -24,13 +24,15 @@ Key facts:
 7. Competitor tracking: up to 5 competitors.
 8. A real human to talk to: a monthly progress call and a shared Slack channel.
 
-How it runs: the first 90 days are the deep work (technical fixes, research, building the prompt library). From month 4 the focus is new content, refreshing older pages and tracking against competitors, and the price drops to $997/month on its own.
+How it runs: the first 90 days are the deep work (technical fixes, research, building the prompt library). From month 4 the focus is new content, refreshing older pages and tracking against competitors, and the price drops on its own ($997/month, or $3,997/month on Pro).
 
 ## Pricing
 
-- Pay monthly: $1,997/month for a 90-day minimum, then $997/month, month to month.
-- Pay upfront: $5,000 for the first 90 days (saves $991), then $997/month, month to month.
-- Same price for every business, whatever its size.
+- AI Recommended, pay monthly: $1,997/month for a 90-day minimum, then $997/month, month to month.
+- AI Recommended, pay the first 3 months upfront: $5,000 (saves $991), then $997/month, month to month.
+- AI Recommended Pro, pay monthly: $4,997/month for a 90-day minimum, then $3,997/month, month to month.
+- AI Recommended Pro, pay the first 3 months upfront: $12,000 (saves $2,991), then $3,997/month, month to month.
+- AI Recommended Pro adds: a Prompt Universe, 500 prompts tracked daily across 6 AI platforms, up to 10 competitors, 12 new articles and 12 page updates a month, a page-by-page technical audit, a strategy call every two weeks, ready-to-post social for every new article, 1 external publisher feature per quarter, and ChatGPT Business Hub setup where eligible.
 - Nobody can guarantee a business will appear in a specific AI answer. AudienceIntent promises the work, done properly every month, and an honest report.
 
 ## Client results

@@ -501,7 +501,7 @@ footer{background:var(--night);color:#9aa3b5;border-top:1px solid var(--line-d);
 .phase li .ptag{flex:none;align-self:center;height:auto}
 .plan .tot{margin-top:2px}
 .upf{display:flex;align-items:center;justify-content:space-between;gap:14px;border:1.5px dashed var(--line);border-radius:18px;padding:14px 18px;margin:-12px 0 20px;background:#fff}
-.upf b{display:block;font-size:16px}.upf span{font-size:14px;color:var(--ink-2)}
+.upf b{display:block;font-size:16px}.upf span{font-size:14px;color:var(--ink-2);white-space:nowrap}
 .upf em{font-style:normal;font-weight:800;font-size:15px;color:var(--green-ink);white-space:nowrap;background:rgba(0,255,115,.14);padding:6px 12px;border-radius:999px}
 .best .upf{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.16)}.best .upf span{color:#e3e8f2}
 .best .upf em{color:var(--navy);background:var(--green)}
@@ -536,7 +536,7 @@ footer{background:var(--night);color:#9aa3b5;border-top:1px solid var(--line-d);
 @media (max-width:1000px){.plan .cta2{grid-template-columns:1fr}}
 @media (max-width:680px){
   .steps-chart{margin-top:44px}
-  .upf{flex-direction:column;align-items:flex-start;gap:8px}
+  .upf{flex-direction:column;align-items:flex-start;gap:8px}.upf span{font-size:13px;white-space:normal}
   .plan.best .flag{white-space:normal;right:20px;left:24px;text-align:center}.plan.best h3{margin-top:16px}
   .cmp-head{margin-top:80px}
   .cr{grid-template-columns:1fr 1fr}.cr .cf{grid-column:1/-1;padding:14px 0 0;font-size:12px;font-weight:800;color:var(--ink)}

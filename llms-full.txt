@@ -51,7 +51,7 @@ How it runs: the first 90 days are the deep work (technical fixes, research, bui
 - How do AI tools decide who to recommend? They pull from the website, Google Business Profile, reviews, directories, articles and forums. They favour businesses that are clear about what they do, consistent everywhere, and mentioned by sources they trust.
 - How long until results show? Perplexity can pick up a new page within about two weeks and is usually the quickest. Gemini, Google AI, Claude and ChatGPT usually take two to three months to recommend a business on a steady basis. By day 90 all five have usually had time to trust it. That is why the service starts with 90 days. Every site is different.
 - Is a new website needed? No. AudienceIntent works with the existing site: WordPress, Wix, Squarespace, Shopify or custom.
-- What does the client need to provide? Access to the website and Google Business Profile (or an intro to whoever runs them), plus a monthly progress call.
+- What does the client need to provide? Access to the website and Google Business Profile (or an intro to whoever runs them), plus a monthly progress call (every two weeks on Pro).
 
 ## Company
 

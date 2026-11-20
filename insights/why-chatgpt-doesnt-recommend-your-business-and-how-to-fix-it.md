@@ -2,7 +2,7 @@
 title: "Why ChatGPT Doesn't Recommend Your Business (And How to Fix It)"
 meta_title: "Why ChatGPT Doesn't Recommend Your Business (How to Fix It)"
 date: 2026-10-30T12:29:00.000-04:00
-updated_at: 2026-11-07
+updated_at: 2026-11-20
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: "Learn why ChatGPT skips your business, why competitors get named, and what local businesses can fix. Use a five-prompt test to check your AI visibility."
@@ -70,7 +70,7 @@ schema: >-
         },
         "inLanguage": "en-US",
         "datePublished": "2026-10-30",
-        "dateModified": "2026-11-07",
+        "dateModified": "2026-11-20",
         "mainEntityOfPage": "https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it",
         "isAccessibleForFree": true
       },
@@ -340,7 +340,7 @@ Every month includes:
 
 Brand fixes also include Google Business Profile optimization and consistent name, address, and phone details across major profiles. This is not a digital PR, review-management, or directory-management service.
 
-The price is the same for every business: **$1,997/month for a 90-day minimum, then $997/month month to month**. Alternatively, pay **$5,000 upfront for the first 90 days**, saving $991. The 90-day starting period reflects the time steady recommendations usually take.
+The price for AI Recommended™ is **$1,997/month for a 90-day minimum, then $997/month month to month**. Alternatively, pay **$5,000 upfront for the first 90 days**, saving $991. For medium to large businesses, AI Recommended™ Pro is $4,997/month for the first 3 months, then $3,997/month, or $12,000 upfront for the first 3 months (saving $2,991). It adds 500 prompts tracked daily across 6 AI platforms, up to 10 competitors, 12 new articles and 12 page updates a month, and a strategy call every two weeks. [Compare both plans](https://www.audienceintent.ai/#pricing). On either plan, the 90-day starting period reflects the time steady recommendations usually take.
 
 Results from individual clients include:
 

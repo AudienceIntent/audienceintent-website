@@ -71,7 +71,7 @@ schema: >-
         },
         "inLanguage": "en-US",
         "datePublished": "2026-11-10T23:46:00-05:00",
-        "dateModified": "2026-11-11",
+        "dateModified": "2026-11-20",
         "mainEntityOfPage": "https://www.audienceintent.ai/insights/chatgpt-just-launched-business-hub-heres-what-it-means-for-how-customers-find-you",
         "isAccessibleForFree": true,
         "articleSection": "AI Recommended",
@@ -362,7 +362,7 @@ Claiming your profile is the starting point. Getting recommended consistently re
 
 If you want to see where your business currently stands across ChatGPT, Google AI, and Perplexity, the [AudienceIntent Insights hub](https://www.audienceintent.ai/insights) has resources to help you understand the landscape.
 
-And if you want someone to do the work for you, that's exactly what we do. One service, one fixed price, weekly proof that it's working. [Book a call](https://www.audienceintent.ai) and we'll show you where you stand today.
+And if you want someone to do the work for you, that's exactly what we do. Two plans, fixed prices, weekly proof that it's working. [Book a call](https://www.audienceintent.ai) and we'll show you where you stand today.
 
 ---
 

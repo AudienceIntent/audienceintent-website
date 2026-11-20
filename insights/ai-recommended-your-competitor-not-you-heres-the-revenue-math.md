@@ -2,7 +2,7 @@
 title: "AI Recommended Your Competitor, Not You. Here's the Revenue Math."
 meta_title: "AI Recommended Your Competitor: Here's the Revenue Math"
 date: 2026-10-12T10:42:00.000-04:00
-updated_at: 2026-11-07
+updated_at: 2026-11-20
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: "See what missing AI recommendations could cost your business, why waiting six months matters, and how to measure the gap with simple customer revenue math."
@@ -70,7 +70,7 @@ schema: >-
         },
         "inLanguage": "en-US",
         "datePublished": "2026-10-12",
-        "dateModified": "2026-11-07",
+        "dateModified": "2026-11-20",
         "mainEntityOfPage": "https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math",
         "isAccessibleForFree": true
       },
@@ -359,7 +359,7 @@ Every month includes:
 
 Those brand fixes are not a broader digital PR, review management, or directory management service.
 
-The price is the same for every business: **$1,997/month for a 90-day minimum, then $997/month month to month**. Alternatively, pay **$5,000 upfront for the first 90 days**, saving **$991**.
+The price for AI Recommended™ is **$1,997/month for a 90-day minimum, then $997/month month to month**. Alternatively, pay **$5,000 upfront for the first 90 days**, saving **$991**. For medium to large businesses, AI Recommended™ Pro is $4,997/month for the first 3 months, then $3,997/month, or $12,000 upfront for the first 3 months (saving $2,991). It adds 500 prompts tracked daily across 6 AI platforms, up to 10 competitors, 12 new articles and 12 page updates a month, and a strategy call every two weeks. [Compare both plans](https://www.audienceintent.ai/#pricing).
 
 There are documented results, but they are not forecasts for your business. **Vault Metal: AI mentions 169 → 7,808 (+4,520%) and citations 3 → 751 in 90 days.** Read the [Vault Metal case study](https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days).
 

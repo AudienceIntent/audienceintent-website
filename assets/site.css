@@ -705,6 +705,11 @@ footer{background:var(--night);color:#9aa3b5;border-top:1px solid var(--line-d);
 .earn-card strong{display:block;font-size:clamp(54px,6vw,80px);letter-spacing:-.05em;line-height:1;margin:16px 0 8px}
 .earn-card.g strong{color:var(--green)}
 .earn-card span{color:#9aa3b5}
+.earn-two{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:16px 0 10px}
+.earn-two strong{margin:0 0 8px!important;font-size:clamp(40px,4.4vw,60px)!important}
+.earn-two em{display:block;font-style:normal;font-size:13px;font-weight:700;letter-spacing:.02em;color:#c9d1e0}
+.earn-two em b{background:linear-gradient(90deg,#3b82f6,#00ff73);-webkit-background-clip:text;background-clip:text;color:transparent}
+@media(max-width:420px){.earn-two{grid-template-columns:1fr}}
 .ref-form{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
 .form-card{background:#fff;border-radius:var(--r);padding:clamp(28px,4vw,44px);box-shadow:0 40px 100px -50px rgba(11,15,26,.4);border:1px solid var(--line)}
 .form-card h3{font-size:15px;color:var(--ink-3);font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin:6px 0 14px}

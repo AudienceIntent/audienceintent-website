@@ -27,7 +27,7 @@ schema: >-
         "primaryImageOfPage": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#primaryimage" },
         "breadcrumb": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#breadcrumb" },
         "datePublished": "2026-11-15",
-        "dateModified": "2026-11-15"
+        "dateModified": "2026-11-20"
       },
       {
         "@type": "WebSite",
@@ -73,7 +73,7 @@ schema: >-
         "description": "You rank on Google, but ChatGPT never names you. Here are the five gaps that keep well-optimized businesses out of AI recommendations, and how to close them.",
         "image": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you#primaryimage" },
         "datePublished": "2026-11-15",
-        "dateModified": "2026-11-15",
+        "dateModified": "2026-11-20",
         "author": { "@id": "https://www.audienceintent.ai/about#kevin-bovett" },
         "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
         "mainEntityOfPage": { "@id": "https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you" },
@@ -338,7 +338,7 @@ The businesses that see the fastest results tend to share one characteristic: th
 
 Your SEO is not broken. It is just playing a different game than the one that now decides which businesses get recommended.
 
-AudienceIntent's [AI Recommended service](https://www.audienceintent.ai) is built specifically for this: getting your business named when people ask ChatGPT, Google AI, and Perplexity who to choose. We track 100 prompts every day, audit your external presence, build question-specific content, and fix the entity and review gaps that keep well-optimized businesses invisible in unbranded searches.
+AudienceIntent's [AI Recommended service](https://www.audienceintent.ai) is built specifically for this: getting your business named when people ask ChatGPT, Google AI, and Perplexity who to choose. We track 100 prompts every day (500 on Pro), audit your external presence, build question-specific content, and fix the entity and review gaps that keep well-optimized businesses invisible in unbranded searches.
 
 [Book a call](https://www.audienceintent.ai) and we will show you exactly where you stand and what it would take to fix it.
 

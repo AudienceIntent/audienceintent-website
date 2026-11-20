@@ -43,7 +43,7 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "datePublished": "2026-08-31",
-        "dateModified": "2026-08-31",
+        "dateModified": "2026-11-20",
         "articleSection": "AI Recommended",
         "keywords": "AI recommended, AI search visibility, ChatGPT marketing, performance marketing",
         "timeRequired": "PT25M",
@@ -248,7 +248,7 @@ Once a business has built a dense third-party footprint and is consistently name
 
 This is the most operationally specific metric in the reporting framework, and often the one that produces the most immediate strategic clarity.
 
-Our weekly report tracks ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 customer prompts tracked daily and up to 5 competitors. The output is a per-prompt record of whether your business appeared, where it ranked, and what the AI said.
+Our weekly report tracks ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 customer prompts tracked daily and up to 5 competitors. On AI Recommended™ Pro, it covers 500 prompts across 6 AI platforms and up to 10 competitors. The output is a per-prompt record of whether your business appeared, where it ranked, and what the AI said.
 
 ### How the Prompt Set Is Built
 
@@ -503,7 +503,7 @@ A mention is when AI says your business name. A citation is when it also links t
 
 ### Which AI platforms does AudienceIntent track?
 
-ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 100 customer prompts every day, plus up to 5 competitors.
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 100 customer prompts every day, plus up to 5 competitors. On AI Recommended™ Pro, we track 500 prompts across 6 AI platforms, plus up to 10 competitors.
 
 ### How often will I get a report?
 

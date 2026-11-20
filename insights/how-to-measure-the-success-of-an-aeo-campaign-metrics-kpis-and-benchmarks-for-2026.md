@@ -2,7 +2,7 @@
 title: "How to Measure the Success of an AEO Campaign: Metrics, KPIs, and Benchmarks for 2026"
 meta_title: "How to Measure AEO Success: KPIs and Benchmarks for 2026"
 date: 2026-09-13T15:10:00.000-04:00
-updated_at: 2026-11-07
+updated_at: 2026-11-20
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: "Measure AEO success with clear KPIs, useful benchmarks, and a weekly method for tracking AI mentions, citations, share of voice, traffic, and sales."
@@ -70,7 +70,7 @@ schema: >-
         },
         "inLanguage": "en-US",
         "datePublished": "2026-09-13",
-        "dateModified": "2026-11-07",
+        "dateModified": "2026-11-20",
         "mainEntityOfPage": "https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026",
         "isAccessibleForFree": true
       },
@@ -408,7 +408,7 @@ Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google A
 
 These are expectations, not deadlines or guarantees. Review leading indicators weekly, while allowing enough time for recommendations and customer outcomes to develop.
 
-AI Recommended™ is AudienceIntent's done-for-you monthly AEO service, delivered by a real team, not self-serve software. Its reporting tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity, with 100 prompts tracked daily, a weekly visibility report, and tracking for up to five competitors. A monthly progress call and shared Slack channel support the work.
+AI Recommended™ is AudienceIntent's done-for-you monthly AEO service, delivered by a real team, not self-serve software. Its reporting tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity, with 100 prompts tracked daily, a weekly visibility report, and tracking for up to five competitors. A monthly progress call and shared Slack channel support the work. AI Recommended™ Pro, for medium to large businesses, tracks 500 prompts across 6 AI platforms and up to 10 competitors, with a strategy call every two weeks.
 
 Nobody can guarantee that a business will appear in a specific AI answer. AudienceIntent promises the work, done properly every month, and an honest report.
 

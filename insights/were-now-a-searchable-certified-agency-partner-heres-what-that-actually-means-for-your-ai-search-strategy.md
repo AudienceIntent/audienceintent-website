@@ -43,7 +43,7 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "datePublished": "2026-06-08",
-        "dateModified": "2026-11-07",
+        "dateModified": "2026-11-20",
         "mentions": [
           {
             "@type": "EducationalOccupationalCredential",
@@ -234,7 +234,7 @@ Every AI Recommended™ engagement now runs on a methodology trained, tested, an
 
 **Schema and entity work done to the standard AI engines require.** This is one of the most commonly skipped or poorly executed parts of AI search optimization. The training covered implementation at the level of detail that actually influences AI comprehension — not checkbox schema, but structured data that accurately represents what a business is, who it serves, and where it operates.
 
-**Citation tracking with real data.** Certified partners operate with access to AI search intelligence tools that measure actual citation frequency across platforms. Clients receive a weekly visibility report covering ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 prompts tracked daily.
+**Citation tracking with real data.** Certified partners operate with access to AI search intelligence tools that measure actual citation frequency across platforms. Clients receive a weekly visibility report covering ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 prompts tracked daily (500 prompts across 6 AI platforms on Pro).
 
 ## Frequently Asked Questions
 

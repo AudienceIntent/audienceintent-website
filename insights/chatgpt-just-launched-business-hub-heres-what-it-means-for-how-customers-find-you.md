@@ -43,7 +43,7 @@ schema: >-
         "foundingDate": "2024"
       },
       {
-        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "@id": "https://www.audienceintent.ai/about#kevin-bovett",
         "name": "Kevin Bovett",
         "@type": "Person",
         "jobTitle": "Founder",
@@ -64,7 +64,7 @@ schema: >-
           "height": 900
         },
         "author": {
-          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+          "@id": "https://www.audienceintent.ai/about#kevin-bovett"
         },
         "publisher": {
           "@id": "https://www.audienceintent.ai/#organization"

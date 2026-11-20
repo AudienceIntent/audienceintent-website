@@ -15,7 +15,7 @@
   "sameAs": "https://www.youtube.com/watch?v=rMEgVvBSHPY&list=PLdenY36Z-_w8&index=13",
   "transcript": "How does AEO work, and can I do it myself? Let's take those one at a time. How it works is simple to describe. You find the questions your customers ask. You fix your website so AI can read it. You publish content that answers those questions. You build proof on other sites, and you track all of it every day. Then you repeat. So, can you do it yourself? Yes. None of this is secret, but here's what it takes. First, a tracking tool, one that runs your prompts every day on every engine in every location you serve. You can't do that by hand. Second, a prompt library built from real customer questions and kept up to date as those questions change. Third, technical website fixes, the behind-the-scenes work that lets AI read and understand your site. Fourth, content, new pages written and old pages updated on a regular schedule every month for as long as you want to keep showing up. And fifth, keeping up. AI changes almost weekly. What worked in the spring may not work by the fall. Add that up, and the real cost is time, hours every week on top of running your business. So here's our view. You can do this yourself, but in our opinion, you're better off letting people who do this all day handle it, so you can focus on what you do best, running your business. Next up, is AEO right for my business?",
   "creator": {
-    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+    "@id": "https://www.audienceintent.ai/about#kevin-bovett"
   },
   "publisher": {
     "@id": "https://www.audienceintent.ai/#organization"

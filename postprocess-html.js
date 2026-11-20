@@ -24,18 +24,22 @@ const path = require('path');
 
 const ROOT = path.resolve(process.argv[2] || __dirname);
 const SITE = 'https://www.audienceintent.ai';
-const PERSON_ID = SITE + '/#kevin-bovett';
+const PERSON_ID = SITE + '/about#kevin-bovett';
 const ORG_ID = SITE + '/#organization';
 const SKIP_DIRS = new Set(['.git', 'node_modules', 'admin', 'ffp-social', 'netlify', 'fonts', 'images', '.netlify']);
 const ARTICLE_TYPES = new Set(['Article', 'BlogPosting', 'NewsArticle']);
+
+const PERSON_SAME_AS = ['https://www.linkedin.com/in/kevinbovett/', 'https://www.crunchbase.com/person/kevin-bovett'];
 
 const PERSON_NODE = {
   '@type': 'Person',
   '@id': PERSON_ID,
   'name': 'Kevin Bovett',
-  'jobTitle': 'Founder',
+  'jobTitle': 'Founder & CEO',
   'url': SITE + '/about',
+  'image': SITE + '/assets/img/kevin-bovett.jpg',
   'worksFor': { '@id': ORG_ID },
+  'sameAs': PERSON_SAME_AS,
 };
 
 const TAG_RE = (name) => new RegExp(`<${name}\\b(?:[^>"']|"[^"]*"|'[^']*')*>`, 'gi');
@@ -311,10 +315,17 @@ function fixSchema(html) {
     if (!typesOf(n).some((t) => ARTICLE_TYPES.has(t))) continue;
     const a = n.author;
     if (a && !Array.isArray(a) && typeof a === 'object' && a['@id'] === PERSON_ID && !a.name) {
-      n.author = { '@type': 'Person', '@id': PERSON_ID, 'name': 'Kevin Bovett', 'url': SITE + '/about' };
+      n.author = { '@type': 'Person', '@id': PERSON_ID, 'name': 'Kevin Bovett', 'url': SITE + '/about', 'sameAs': PERSON_SAME_AS };
       mark(n);
     }
     if (!n.image && ogImage) { n.image = ogImage; mark(n); }
+  }
+
+  // Kevin's Person node (wherever it appears): one @id, linked to his LinkedIn
+  for (const n of all()) {
+    if (n && n['@id'] === PERSON_ID && typesOf(n).includes('Person') && !n.sameAs) {
+      n.sameAs = PERSON_SAME_AS; mark(n);
+    }
   }
 
   // WebPage family: description from the meta description

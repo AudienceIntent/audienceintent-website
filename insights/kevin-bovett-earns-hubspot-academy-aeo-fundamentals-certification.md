@@ -26,7 +26,7 @@ schema: >-
         },
         "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/thumbs/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification.jpg",
         "author": {
-          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+          "@id": "https://www.audienceintent.ai/about#kevin-bovett"
         },
         "publisher": {
           "@id": "https://www.audienceintent.ai/#organization"

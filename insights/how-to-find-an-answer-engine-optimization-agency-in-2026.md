@@ -45,7 +45,7 @@ schema: >-
         "foundingDate": "2024"
       },
       {
-        "@id": "https://www.audienceintent.ai/#person-kevin-bovett",
+        "@id": "https://www.audienceintent.ai/about#kevin-bovett",
         "url": "https://www.audienceintent.ai",
         "name": "Kevin Bovett",
         "@type": "Person",
@@ -60,7 +60,7 @@ schema: >-
         "url": "https://www.audienceintent.ai/insights/how-to-find-an-answer-engine-optimization-partner-in-2026",
         "@type": "Article",
         "author": {
-          "@id": "https://www.audienceintent.ai/#person-kevin-bovett"
+          "@id": "https://www.audienceintent.ai/about#kevin-bovett"
         },
         "headline": "How to Find an Answer Engine Optimization Partner in 2026",
         "publisher": {

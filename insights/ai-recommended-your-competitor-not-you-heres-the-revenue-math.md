@@ -45,7 +45,7 @@ schema: >-
         "foundingDate": "2024"
       },
       {
-        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "@id": "https://www.audienceintent.ai/about#kevin-bovett",
         "name": "Kevin Bovett",
         "@type": "Person",
         "jobTitle": "Founder",
@@ -63,7 +63,7 @@ schema: >-
           "url": "https://www.audienceintent.ai/images/uploads/thumbs/ai-recommended-your-competitor-not-you-heres-the-revenue-math.jpg"
         },
         "author": {
-          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+          "@id": "https://www.audienceintent.ai/about#kevin-bovett"
         },
         "publisher": {
           "@id": "https://www.audienceintent.ai/#organization"

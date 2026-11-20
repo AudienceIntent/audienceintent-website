@@ -1,6 +1,6 @@
 # AudienceIntent (full text)
 
-> AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service, AI Recommended™, offered on two plans: AI Recommended and AI Recommended Pro. When people ask ChatGPT, Google AI or Perplexity who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
+> AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service, AI Recommended™, offered on two plans: AI Recommended and AI Recommended Pro. When people ask ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews or Google AI Mode who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
 This is the full-text version of https://www.audienceintent.ai/llms.txt. It holds the company facts below, then the complete text of all 22 articles from https://www.audienceintent.ai/insights/ (the "Answers" hub), each with its URL and publish date.
 
@@ -12,12 +12,12 @@ Key facts:
 - Founded in 2024 by Kevin Bovett (founder and CEO). Based in Wellington, Florida. Works with businesses across the United States.
 - One service only: AI Recommended™, a done-for-you monthly AEO service, on two plans (AI Recommended for small businesses, AI Recommended Pro for medium to large businesses). AudienceIntent is not a software tool. A real team does the work.
 - Price: AI Recommended is $1,997/month for the first 3 months, then $997/month, month to month (or pay the first 3 months upfront for $5,000, saving $991). AI Recommended Pro is $4,997/month for the first 3 months, then $3,997/month (or pay the first 3 months upfront for $12,000, saving $2,991).
-- AI platforms tracked: ChatGPT, Google AI Overviews and Perplexity on AI Recommended; Pro adds Google AI Mode, Gemini and Claude.
+- AI engines tracked: 6 on AI Recommended Pro (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews and Google AI Mode). AI Recommended tracks 3 of them (ChatGPT, Perplexity and Google AI Overviews).
 - Who it's for: AI Recommended suits local and small businesses; AI Recommended Pro suits medium to large businesses. Clients range from law firms, home services and insurance to gyms, wellness, tour operators and precious metals dealers.
 
 ## AI Recommended™: what's included every month
 
-1. Open to crawlers: making sure ChatGPT, Google and Perplexity can reach and understand the website (robots.txt, llms.txt, sitemaps).
+1. Open to crawlers: making sure AI engines (ChatGPT, Claude, Perplexity, Gemini and Google) can reach and understand the website (robots.txt, llms.txt, sitemaps).
 2. Website fixes: schema markup, sitemap and on-page fixes, plus Google Business Profile optimization and name, address and phone checks across the major social networks.
 3. Customer question research: the real questions customers ask AI before they buy.
 4. 4 new articles every month, built around those questions (AI engines like ChatGPT and Perplexity favor current content).
@@ -46,10 +46,10 @@ How it runs: the first 90 days are the deep work (technical fixes, research, bui
 
 ## Common questions
 
-- What is AEO? Answer Engine Optimization means making sure tools like ChatGPT, Google AI and Perplexity can find a business, understand what it does, and recommend it when someone asks for help.
+- What is AEO? Answer Engine Optimization means making sure AI engines like ChatGPT, Claude, Perplexity, Gemini and Google AI can find a business, understand what it does, and recommend it when someone asks for help.
 - Is AEO different from SEO? They work together. SEO helps a business rank in a list of links. AEO helps it get named in the answer. AI tools still lean on search results, but they also weigh reviews, what other websites say about the business, and whether its content answers real questions clearly.
 - How do AI tools decide who to recommend? They pull from the website, Google Business Profile, reviews, directories, articles and forums. They favour businesses that are clear about what they do, consistent everywhere, and mentioned by sources they trust.
-- How long until results show? Perplexity can pick up a new page within about two weeks and is usually the quickest. Gemini, Google AI, Claude and ChatGPT usually take two to three months to recommend a business on a steady basis. By day 90 all five have usually had time to trust it. That is why the service starts with 90 days. Every site is different.
+- How long until results show? Perplexity can pick up a new page within about two weeks and is usually the quickest. Gemini, Google AI (AI Overviews and AI Mode), Claude and ChatGPT usually take two to three months to recommend a business on a steady basis. By day 90 they have usually all had time to trust it. That is why the service starts with 90 days. Every site is different.
 - Is a new website needed? No. AudienceIntent works with the existing site: WordPress, Wix, Squarespace, Shopify or custom.
 - What does the client need to provide? Access to the website and Google Business Profile (or an intro to whoever runs them), plus a monthly progress call (every two weeks on Pro).
 

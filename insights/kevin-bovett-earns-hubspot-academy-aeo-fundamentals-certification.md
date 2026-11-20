@@ -32,7 +32,7 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "datePublished": "2026-09-06",
-        "dateModified": "2026-09-06",
+        "dateModified": "2026-11-20",
         "mainEntityOfPage": {
           "@id": "https://www.audienceintent.ai/insights/kevin-bovett-earns-hubspot-academy-aeo-fundamentals-certification#webpage"
         },
@@ -104,7 +104,7 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "datePublished": "2026-09-06",
-        "dateModified": "2026-09-06",
+        "dateModified": "2026-11-20",
         "inLanguage": "en-US"
       },
       {
@@ -214,7 +214,7 @@ No. Nobody can guarantee a business will appear in a specific AI answer. The cer
 
 ### Which AI platforms does AI Recommended™ track?
 
-ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 100 customer prompts every day, plus up to 5 competitors.
+ChatGPT, Google AI (AI Overviews and AI Mode) and Perplexity. We track 100 customer prompts every day, plus up to 5 competitors. On AI Recommended™ Pro, we track 500 prompts across 6 AI platforms, plus up to 10 competitors.
 
 ### What other credentials does Kevin hold?
 

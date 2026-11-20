@@ -2,7 +2,7 @@
 title: "How to Get Your Business Recommended by AI Search Engines"
 meta_title: "How to Get Your Business Recommended by AI Search Engines"
 date: 2026-11-01T23:02:00.000-05:00
-updated_at: 2026-11-07
+updated_at: 2026-11-20
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: "Learn how to get your business recommended by ChatGPT, Google AI, and Perplexity with practical steps, business-specific tips, and honest tracking advice."
@@ -70,7 +70,7 @@ schema: >-
         },
         "inLanguage": "en-US",
         "datePublished": "2026-11-01",
-        "dateModified": "2026-11-07",
+        "dateModified": "2026-11-20",
         "mainEntityOfPage": "https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines",
         "isAccessibleForFree": true
       },
@@ -407,7 +407,7 @@ Brand fixes also include Google Business Profile optimization and consistent nam
 
 The paid service tracks **ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity**. Its tracking scope is different from the Free AI Check.
 
-The price is **$1,997/month for a 90-day minimum, then $997/month month to month**. Or pay **$5,000 upfront for the first 90 days**, saving **$991**. The price is the same for every business.
+The price is **$1,997/month for a 90-day minimum, then $997/month month to month**. Or pay **$5,000 upfront for the first 90 days**, saving **$991**. For medium to large businesses, AI Recommended™ Pro is $4,997/month for the first 3 months, then $3,997/month, or $12,000 upfront for the first 3 months (saving $2,991). It adds 500 prompts tracked daily across 6 AI platforms, up to 10 competitors, 12 new articles and 12 page updates a month, and a strategy call every two weeks. [Compare both plans](https://www.audienceintent.ai/#pricing).
 
 The service starts with 90 days because steady recommendations take time. AudienceIntent promises the work, done properly every month, and an honest report—not a guaranteed AI answer.
 

@@ -2,7 +2,7 @@
 title: "What Is Answer Engine Optimization (AEO)? The Complete Guide for 2026"
 meta_title: "What Is Answer Engine Optimization (AEO)? 2026 Guide"
 date: 2026-10-28T11:16:00.000-04:00
-updated_at: 2026-11-07
+updated_at: 2026-11-20
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: "Learn what AEO and GEO mean, how AI chooses businesses to recommend, and how to improve and measure visibility in ChatGPT, Google AI and Perplexity."
@@ -70,7 +70,7 @@ schema: >-
         },
         "inLanguage": "en-US",
         "datePublished": "2026-10-28",
-        "dateModified": "2026-11-07",
+        "dateModified": "2026-11-20",
         "mainEntityOfPage": "https://www.audienceintent.ai/insights/what-is-answer-engine-optimization-aeo-the-complete-guide-for-2026",
         "isAccessibleForFree": true
       },
@@ -355,7 +355,7 @@ See the [Vault Metal case study](https://www.audienceintent.ai/insights/how-vaul
 
 ## What Does Done-for-You AEO Include?
 
-AudienceIntent offers one service: **AI Recommended™**, a done-for-you monthly AEO service delivered by a real team, not self-serve software. Its ongoing tracking covers **ChatGPT, Google AI—AI Overviews and AI Mode—and Perplexity**.
+AudienceIntent offers one service, **AI Recommended™**, on two plans: AI Recommended for small businesses and AI Recommended Pro for medium to large businesses. It is a done-for-you monthly AEO service delivered by a real team, not self-serve software. Its ongoing tracking covers **ChatGPT, Google AI—AI Overviews and AI Mode—and Perplexity**.
 
 Every month includes:
 
@@ -372,7 +372,7 @@ Every month includes:
 
 Included brand fixes cover Google Business Profile optimization and consistent name, address, and phone details across major profiles.
 
-The price is **$1,997 per month for a 90-day minimum, then $997 per month, month to month**. Alternatively, pay **$5,000 upfront for the first 90 days**, saving **$991**. The price is the same for every business.
+The price is **$1,997 per month for a 90-day minimum, then $997 per month, month to month**. Alternatively, pay **$5,000 upfront for the first 90 days**, saving **$991**. For medium to large businesses, AI Recommended™ Pro is $4,997/month for the first 3 months, then $3,997/month, or $12,000 upfront for the first 3 months (saving $2,991). It adds 500 prompts tracked daily across 6 AI platforms, up to 10 competitors, 12 new articles and 12 page updates a month, and a strategy call every two weeks. [Compare both plans](https://www.audienceintent.ai/#pricing).
 
 The scope is ongoing AEO work and reporting. It is not a promise to control what an AI platform recommends.
 

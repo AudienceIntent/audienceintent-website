@@ -43,7 +43,7 @@ schema: >-
           "@id": "https://www.audienceintent.ai/#organization"
         },
         "datePublished": "2026-07-08",
-        "dateModified": "2026-07-08",
+        "dateModified": "2026-11-20",
         "articleSection": "AI Recommended",
         "keywords": "AI recommended, AI search visibility, ChatGPT marketing",
         "timeRequired": "PT17M",
@@ -298,7 +298,7 @@ Specifically, we focus on:
 
 -   **Reports and support** — a weekly visibility report, monthly progress call, and shared Slack channel
 
-AI Recommended™ is $1,997/month for a 90-day minimum, then $997/month month to month. If the work is not compounding and improving, you should not stay after the first 90 days. That accountability is built into the model.
+AI Recommended™ is $1,997/month for a 90-day minimum, then $997/month month to month. AI Recommended™ Pro, for medium to large businesses, is $4,997/month, then $3,997/month, with 500 prompts across 6 AI platforms and up to 10 competitors. On either plan, if the work is not compounding and improving, you should not stay after the first 90 days. That accountability is built into the model.
 
 Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why the service starts with 90 days. We tell clients that upfront — because honest expectations matter.
 

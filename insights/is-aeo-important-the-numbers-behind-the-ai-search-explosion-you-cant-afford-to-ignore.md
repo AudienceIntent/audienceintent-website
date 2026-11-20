@@ -30,7 +30,7 @@ schema: >-
           "@type": "Organization"
         },
         "description": "ChatGPT, Google AI, and Perplexity are changing how people search. See why AEO is now essential and what SEO alone misses.",
-        "dateModified": "2026-11-09",
+        "dateModified": "2026-11-20",
         "datePublished": "2026-11-09",
         "mainEntityOfPage": {
           "@id": "https://www.audienceintent.ai/insights/is-aeo-important-the-numbers-behind-the-ai-search-explosion-you-cant-afford-to-ignore",
@@ -279,7 +279,7 @@ The question is not whether AI search is important. It is whether your business 
 
 ---
 
-**Want to find out where you stand?** [AudienceIntent](https://www.audienceintent.ai) tracks your business across 100 prompts every day across ChatGPT, Google AI, and Perplexity, and works to get you recommended. One service, fixed price, weekly report from day one.
+**Want to find out where you stand?** [AudienceIntent](https://www.audienceintent.ai) tracks your business across 100 prompts every day across ChatGPT, Google AI, and Perplexity (500 prompts across 6 AI platforms on Pro), and works to get you recommended. Two plans, fixed prices, weekly report from day one.
 
 **Frequently Asked Questions
 

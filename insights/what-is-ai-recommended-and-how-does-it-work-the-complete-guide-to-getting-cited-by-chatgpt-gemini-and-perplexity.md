@@ -2,7 +2,7 @@
 title: "What Is AI Recommended and How Does It Work? The Complete Guide to"
 meta_title: "What Is AI Recommended and How Does It Work?"
 date: 2026-06-07T15:16:00.000-04:00
-updated_at: 2026-11-07
+updated_at: 2026-11-20
 category: AI Recommended
 author: Kevin Bovett - AudienceIntent
 description: "Learn how AudienceIntent's AI Recommended service works, what's included each month, which AI platforms it tracks, pricing, timelines, and client results."
@@ -70,7 +70,7 @@ schema: >-
         },
         "inLanguage": "en-US",
         "datePublished": "2026-06-07",
-        "dateModified": "2026-11-07",
+        "dateModified": "2026-11-20",
         "mainEntityOfPage": "https://www.audienceintent.ai/insights/what-is-ai-recommended-and-how-does-it-work-the-complete-guide-to-getting-cited-by-chatgpt-gemini-and-perplexity",
         "isAccessibleForFree": true
       },
@@ -91,7 +91,7 @@ schema: >-
             "name": "What is included every month?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 100 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included."
+              "text": "The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 100 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included. AI Recommended™ Pro raises this to 12 new articles, 12 page updates, 500 prompts across 6 AI platforms, up to 10 competitors, and a strategy call every two weeks."
             }
           },
           {
@@ -99,7 +99,7 @@ schema: >-
             "name": "How much does AI Recommended™ cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "It costs $1,997/month for a 90-day minimum, then $997/month month to month. You can instead pay $5,000 upfront for the first 90 days, saving $991. Both options include the same service, and pricing is the same for every business."
+              "text": "It costs $1,997/month for a 90-day minimum, then $997/month month to month. You can instead pay $5,000 upfront for the first 90 days, saving $991. AI Recommended™ Pro, for medium to large businesses, is $4,997/month for a 90-day minimum, then $3,997/month, or $12,000 upfront for the first 90 days, saving $2,991."
             }
           },
           {
@@ -107,7 +107,7 @@ schema: >-
             "name": "Which AI platforms does the paid service track?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI Recommended™ tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity. The Free AI Check has a broader scope and checks ChatGPT, Claude, Gemini, Perplexity, and Google AI; that does not expand the paid service’s tracking scope."
+              "text": "AI Recommended™ tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity. The Free AI Check has a broader scope and checks ChatGPT, Claude, Gemini, Perplexity, and Google AI; that is a one-time check, not daily tracking. AI Recommended™ Pro tracks six platforms daily: ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews, and AI Mode."
             }
           },
           {
@@ -165,13 +165,13 @@ schema: >-
     ]
   }
 ---
-AI Recommended™ is AudienceIntent’s done-for-you monthly service that helps businesses get recommended by AI. A real team handles website fixes, customer question research, new articles, page updates, brand fixes, and visibility reporting across ChatGPT, Google AI, and Perplexity. It costs $1,997/month for a 90-day minimum, then $997/month month to month, or $5,000 upfront for the first 90 days.
+AI Recommended™ is AudienceIntent’s done-for-you monthly service that helps businesses get recommended by AI. A real team handles website fixes, customer question research, new articles, page updates, brand fixes, and visibility reporting across ChatGPT, Google AI, and Perplexity. It costs $1,997/month for a 90-day minimum, then $997/month month to month, or $5,000 upfront for the first 90 days. AI Recommended™ Pro, for medium to large businesses, is $4,997/month, then $3,997/month, or $12,000 upfront.
 
 ## What Is AI Recommended™?
 
 AI Recommended™ is a monthly answer engine optimization service, often called AEO. Its purpose is to make your business easier for AI systems to find, understand, and recommend when customers ask relevant questions.
 
-AudienceIntent offers one service: AI Recommended™. It is work done for you by a real team, not self-serve software or a dashboard you have to manage yourself.
+AudienceIntent offers one service, AI Recommended™, on two plans: AI Recommended for small businesses and AI Recommended Pro for medium to large businesses. It is work done for you by a real team, not self-serve software or a dashboard you have to manage yourself.
 
 AudienceIntent was founded in 2024 by founder and CEO Kevin Bovett in Wellington, Florida. Its promise is simple: “We get your business recommended by AI.”
 
@@ -226,23 +226,23 @@ Depending on the business, topics may cover service choices, costs, comparisons,
 
 AudienceIntent updates four older pages each month. This keeps existing information useful instead of focusing only on new content.
 
-Older pages may contain outdated details, incomplete answers, unclear service descriptions, or missed customer questions. Updating them helps the website present a more accurate picture of the business. The monthly commitment is four page updates, alongside the four new articles.
+Older pages may contain outdated details, incomplete answers, unclear service descriptions, or missed customer questions. Updating them helps the website present a more accurate picture of the business. The monthly commitment is four page updates, alongside the four new articles. On AI Recommended™ Pro, it is 12 new articles and 12 page updates every month.
 
 ### 6. Weekly Visibility Report With 100 Prompts Tracked Daily
 
-AudienceIntent tracks 100 customer-style prompts daily and provides a weekly visibility report. The paid service tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity.
+AudienceIntent tracks 100 customer-style prompts daily and provides a weekly visibility report. The paid service tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity. AI Recommended™ Pro tracks 500 prompts daily across 6 AI platforms.
 
 Daily tracking gives a broader view than checking one question once. The weekly report helps you review changes over time without treating a single answer as a permanent result. AI answers can vary, so repeated observation matters.
 
 ### 7. Competitor Tracking for Up to Five Competitors
 
-AudienceIntent tracks up to five competitors so you can compare your visibility with other businesses customers may be considering. This helps show whether an answer names your business, a competitor, or neither.
+AudienceIntent tracks up to five competitors (up to 10 on Pro) so you can compare your visibility with other businesses customers may be considering. This helps show whether an answer names your business, a competitor, or neither.
 
 A competitor’s appearance is useful context, not proof that copying its content will produce the same result. The comparison helps identify questions and topics where your business needs clearer or more complete information.
 
 ### 8. Monthly Progress Call and Shared Slack Channel
 
-AI Recommended™ includes a monthly progress call and a shared Slack channel. You have a way to discuss the work, ask questions, and review progress with the team.
+AI Recommended™ includes a monthly progress call and a shared Slack channel. On Pro, the strategy call is every two weeks. You have a way to discuss the work, ask questions, and review progress with the team.
 
 The call connects the reporting with the work being done. Slack provides a shared place for communication between calls. You do not have to interpret a software dashboard and decide what to do on your own.
 
@@ -254,30 +254,34 @@ This is specific business-information work. It is not digital PR, third-party co
 
 ## Which AI Platforms Does the Paid Service Track?
 
-AI Recommended™ tracks three platforms: ChatGPT, Google AI, and Perplexity. Google AI tracking includes both AI Overviews and AI Mode.
+AI Recommended™ tracks three platforms: ChatGPT, Google AI, and Perplexity. Google AI tracking includes both AI Overviews and AI Mode. AI Recommended™ Pro tracks six: ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews, and AI Mode.
 
-| Platform | Included in paid tracking |
-| --- | --- |
-| ChatGPT | Yes |
-| Google AI | Yes: AI Overviews and AI Mode |
-| Perplexity | Yes |
+| Platform | AI Recommended™ | AI Recommended™ Pro |
+| --- | --- | --- |
+| ChatGPT | Yes | Yes |
+| Google AI | Yes: AI Overviews and AI Mode | Yes: AI Overviews and AI Mode |
+| Perplexity | Yes | Yes |
+| Gemini | No | Yes |
+| Claude | No | Yes |
 
-The free tool has a different scope. The **Free AI Check** asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask. That broader free check does not mean the paid service tracks all five.
+The free tool has a different scope. The **Free AI Check** asks ChatGPT, Claude, Gemini, Perplexity, and Google AI the questions your customers ask. That free check is a one-time snapshot, not the daily tracking either paid plan includes.
 
 You can [run the Free AI Check](https://report.audienceintent.ai/) before deciding whether you need help. It takes about two minutes, needs no signup to run, and shows whether AI names your business or a competitor, along with what to fix.
 
 ## How Much Does AI Recommended™ Cost?
 
-AI Recommended™ costs $1,997/month for a 90-day minimum, then $997/month month to month. Alternatively, you can pay $5,000 upfront for the first 90 days and save $991.
+There are two plans, both with a 90-day minimum and then month to month. AI Recommended™, for small businesses, is $1,997/month for the first 3 months, then $997/month. AI Recommended™ Pro, for medium to large businesses, is $4,997/month for the first 3 months, then $3,997/month. On either plan, you can pay your first 3 months upfront and save.
 
-| Payment option | First 90 days | After the first 90 days |
+| Plan and payment | First 90 days | After the first 90 days |
 | --- | --- | --- |
-| Monthly payments | $1,997/month; $5,991 total | $997/month, month to month |
-| Upfront payment | $5,000 total; saves $991 | $997/month, month to month |
+| AI Recommended™, monthly | $1,997/month; $5,991 total | $997/month, month to month |
+| AI Recommended™, upfront | $5,000 total; saves $991 | $997/month, month to month |
+| AI Recommended™ Pro, monthly | $4,997/month; $14,991 total | $3,997/month, month to month |
+| AI Recommended™ Pro, upfront | $12,000 total; saves $2,991 | $3,997/month, month to month |
 
-AudienceIntent uses the same pricing for every business. Both payment options cover the same monthly service described above: the eight recurring parts plus brand fixes.
+The price is set by the work, not by what your business makes. Pro adds a Prompt Universe, 500 prompts across 6 AI platforms, up to 10 competitors, 12 new articles and 12 page updates a month, a strategy call every two weeks, ready-to-post social for every new article, one external publisher feature per quarter, and ChatGPT Business Hub setup where eligible. [Compare both plans](https://www.audienceintent.ai/#pricing).
 
-The upfront option is a different way to pay for the first 90 days, not a separate service tier. After that initial period, the ongoing price is $997/month month to month.
+The upfront option is a different way to pay for the first 90 days, not a separate service tier.
 
 For a broader look at comparing providers and scopes, see [what AI search visibility costs](https://www.audienceintent.ai/insights/how-much-does-ai-search-visibility-cost).
 
@@ -360,15 +364,15 @@ AI Recommended™ is AudienceIntent’s done-for-you monthly AEO service. A real
 
 ### What is included every month?
 
-The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 100 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included.
+The service includes crawler access work; schema, sitemap, and on-page fixes; customer question research; four new articles; four older page updates; a weekly visibility report with 100 prompts tracked daily; tracking for up to five competitors; and a monthly progress call plus shared Slack channel. Google Business Profile optimization and consistent name, address, and phone information across major profiles are also included. AI Recommended™ Pro raises this to 12 new articles, 12 page updates, 500 prompts across 6 AI platforms, up to 10 competitors, and a strategy call every two weeks.
 
 ### How much does AI Recommended™ cost?
 
-It costs $1,997/month for a 90-day minimum, then $997/month month to month. You can instead pay $5,000 upfront for the first 90 days, saving $991. Both options include the same service, and pricing is the same for every business.
+It costs $1,997/month for a 90-day minimum, then $997/month month to month. You can instead pay $5,000 upfront for the first 90 days, saving $991. AI Recommended™ Pro, for medium to large businesses, is $4,997/month for a 90-day minimum, then $3,997/month, or $12,000 upfront for the first 90 days, saving $2,991.
 
 ### Which AI platforms does the paid service track?
 
-AI Recommended™ tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity. The Free AI Check has a broader scope and checks ChatGPT, Claude, Gemini, Perplexity, and Google AI; that does not expand the paid service’s tracking scope.
+AI Recommended™ tracks ChatGPT, Google AI—including AI Overviews and AI Mode—and Perplexity. The Free AI Check has a broader scope and checks ChatGPT, Claude, Gemini, Perplexity, and Google AI; that is a one-time check, not daily tracking. AI Recommended™ Pro tracks six platforms daily: ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews, and AI Mode.
 
 ### How long does AI Recommended™ take to work?
 

@@ -29,7 +29,7 @@ schema: >-
         },
         "author": {
           "@type": "Person",
-          "@id": "https://www.audienceintent.ai/#kevin-bovett",
+          "@id": "https://www.audienceintent.ai/about#kevin-bovett",
           "name": "Kevin Bovett",
           "jobTitle": "Founder & CEO",
           "url": "https://www.audienceintent.ai",

@@ -15,7 +15,7 @@
   "sameAs": "https://www.youtube.com/watch?v=czQqb8U23qA&list=PLdenY36Z-_w8&index=12",
   "transcript": "What if AI is saying the wrong thing about my business? AI just told a customer you close at 5:00. You close at 8:00. They went somewhere else, and you never knew. This happens more than you'd think. AI repeats whatever it finds, even when it's old or wrong. So where do the mistakes come from? Outdated listings that still show your old hours, an article from years ago about a service you've stopped offering, two directories that disagree on your address. And when AI can't find a detail at all, it sometimes fills the gap with a guess. It isn't only facts either. Listen to how AI describes you. Is it positive, neutral, or does it lead with a complaint from an old review? That tone shapes whether someone picks up the phone. Here's how you fix it. First, find the source. Ask AI where it got that from, or look at the pages it links to. Second, correct it there. Update the listing, fix the directory, refresh the page. Third, give AI a clear, accurate version to work from, a page on your own site with your hours, your services, and your location stated plainly. It won't change overnight. AI takes time to pick up corrections, but it does pick them up. So don't only check whether AI names you, check what it says when it does. Next up, how does AEO work, and can I do it myself?",
   "creator": {
-    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+    "@id": "https://www.audienceintent.ai/about#kevin-bovett"
   },
   "publisher": {
     "@id": "https://www.audienceintent.ai/#organization"

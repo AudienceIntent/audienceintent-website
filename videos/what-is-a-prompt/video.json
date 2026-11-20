@@ -15,7 +15,7 @@
   "sameAs": "https://www.youtube.com/watch?v=Muq1U7iQvQo&list=PLdenY36Z-_w8&index=5",
   "transcript": "What is a prompt, and why is it the new keyword? Nobody types plumber Phoenix into ChatGPT. That's a keyword. It's how we learned to talk to Google, short, clipped, two or three words. A prompt is different. A prompt is the full question someone asks AI, written the way they'd say it to a friend. And for AI search, it has replaced the keyword. Here's what one looks like. \"My water heater is leaking, and it's about 10 years old. Who's a reliable plumber in Phoenix who can come out today, and should I repair it or replace it?\" Look at what's in there, the problem, the location, the urgency, even a question about what to do next. A keyword tells Google a topic. A prompt tells AI the whole situation, and that changes the answer. Ask for a plumber who can come today, and AI names one set of businesses. Ask for the most affordable plumber for a new install, and it may name a different set. Same trade, same city, different prompt, different answer. So there isn't one ranking to win anymore. There are hundreds of questions your customers could ask, and you want to be named in the ones that matter. That's where AEO starts, knowing which prompts your customers are really asking. Next up, there are two kinds of prompt, and one of them decides who gets the customer.",
   "creator": {
-    "@id": "https://www.audienceintent.ai/#kevin-bovett"
+    "@id": "https://www.audienceintent.ai/about#kevin-bovett"
   },
   "publisher": {
     "@id": "https://www.audienceintent.ai/#organization"

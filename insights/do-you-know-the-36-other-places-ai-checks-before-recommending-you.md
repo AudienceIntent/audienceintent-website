@@ -33,7 +33,7 @@ schema: >-
         "datePublished": "2026-09-20",
         "dateModified": "2026-09-20",
         "author": {
-          "@id": "https://www.audienceintent.ai/#kevin-bovett"
+          "@id": "https://www.audienceintent.ai/about#kevin-bovett"
         },
         "publisher": {
           "@id": "https://www.audienceintent.ai/#organization"
@@ -217,7 +217,7 @@ schema: >-
       },
       {
         "@type": "Person",
-        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "@id": "https://www.audienceintent.ai/about#kevin-bovett",
         "name": "Kevin Bovett",
         "jobTitle": "Founder & CEO",
         "worksFor": {

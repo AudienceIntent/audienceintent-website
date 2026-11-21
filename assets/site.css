@@ -871,3 +871,9 @@ footer{background:var(--night);color:#9aa3b5;border-top:1px solid var(--line-d);
 .art-author a.au-li{display:inline-flex;width:22px;height:22px;align-items:center;justify-content:center;border-radius:5px;color:#c4cad6;text-decoration:none;transition:color .2s,transform .2s}
 .art-author a.au-li:hover,.art-author a.au-li:focus-visible{color:var(--green);transform:translateY(-1px)}
 .art-author a.au-li svg{width:17px;height:17px;fill:currentColor}
+
+.plans{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+@media (max-width:1180px){.upf span{white-space:normal}}
+@media (max-width:860px){.plans{grid-template-columns:1fr}}
+.earn{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+@media (max-width:860px){.earn{grid-template-columns:1fr}}

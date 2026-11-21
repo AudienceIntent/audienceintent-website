@@ -84,7 +84,7 @@
 <div class="wrap">
 <div class="eyebrow"><span class="dot"></span>AI Recommended · Registro de clientes</div>
 <h1>Te damos la bienvenida.<br/><span class="g">Hagamos que la IA te recomiende.</span></h1>
-<p class="lede">Cinco pasos rápidos. Cuanto más nos cuentes, antes podremos empezar a monitorear cómo hablan de ti ChatGPT, Google AI y Perplexity.</p>
+<p class="lede">Cinco pasos rápidos. Cuanto más nos cuentes, antes podremos empezar a monitorear cómo habla la IA de tu negocio.</p>
 <ul class="ob-facts">
 <li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 24 24"><path d="M20 6 9 17l-5-5"></path></svg>5 pasos cortos</li>
 <li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 24 24"><path d="M20 6 9 17l-5-5"></path></svg>Unos 10 minutos</li>
@@ -109,6 +109,7 @@
 <input name="form-name" type="hidden" value="ai-recommended-onboarding"/>
 <input id="enginesField" name="engines" type="hidden" value="ChatGPT, Google AI (Gemini), Perplexity"/>
 <input id="addonField" name="addon_interest" type="hidden" value=""/>
+<input id="planField" name="plan" type="hidden" value="AI Recommended"/>
 <input id="submittedAt" name="submitted_at" type="hidden" value=""/>
 <p class="hp"><label>Deja esto vacío <input autocomplete="off" name="bot-field" tabindex="-1"/></label></p>
 <!-- ═══ STEP 1 — YOUR BUSINESS ═══ -->
@@ -155,6 +156,8 @@
 <p>Dónde vendes, qué motores de IA importan y en qué temas quieres destacar.</p>
 </div>
 <div class="field"><label for="markets"><span class="q-num">9.</span>¿En qué mercados ofreces tus servicios?<span class="req">*</span></label><span class="hint">Ciudades, estados o países, además de tus locales físicos (y próximas aperturas con fechas). Lo más importante primero.</span><textarea id="markets" name="markets" required="" rows="4"></textarea></div>
+<style>.plan-std[hidden],.plan-pro[hidden]{display:none!important}</style>
+<div class="plan-std">
 <div class="field"><label><span class="q-num">10.</span>Motores de IA incluidos en tu plan</label><span class="hint">Los tres están incluidos. Desmarca los que no te interesen.</span></div>
 <div aria-label="Motores de IA" class="opt-grid three" role="group">
 <div class="opt"><input checked="" class="eng" id="eng_chatgpt" type="checkbox" value="ChatGPT"/><label for="eng_chatgpt"><span class="box"></span>ChatGPT</label></div>
@@ -167,6 +170,26 @@
 <div aria-label="Interés en servicios adicionales" class="opt-grid" role="group">
 <div class="opt"><input class="addon" id="add_claude" type="checkbox" value="Claude"/><label for="add_claude"><span class="box"></span>Claude</label></div>
 <div class="opt"><input class="addon" id="add_grok" type="checkbox" value="Grok"/><label for="add_grok"><span class="box"></span>Grok</label></div>
+</div>
+</div>
+</div>
+<div class="plan-pro" hidden="">
+<div class="field"><label><span class="q-num">10.</span>Modelos de IA incluidos en tu plan Pro</label><span class="hint">Los seis están incluidos. Desmarca los que no te interesen.</span></div>
+<div aria-label="Modelos de IA" class="opt-grid three" role="group">
+<div class="opt"><input checked="" class="eng" id="pro_chatgpt" type="checkbox" value="ChatGPT"/><label for="pro_chatgpt"><span class="box"></span>ChatGPT</label></div>
+<div class="opt"><input checked="" class="eng" id="pro_gemini" type="checkbox" value="Gemini"/><label for="pro_gemini"><span class="box"></span>Gemini</label></div>
+<div class="opt"><input checked="" class="eng" id="pro_claude" type="checkbox" value="Claude"/><label for="pro_claude"><span class="box"></span>Claude</label></div>
+<div class="opt"><input checked="" class="eng" id="pro_perplexity" type="checkbox" value="Perplexity"/><label for="pro_perplexity"><span class="box"></span>Perplexity</label></div>
+<div class="opt"><input checked="" class="eng" id="pro_aio" type="checkbox" value="Google AI Overviews"/><label for="pro_aio"><span class="box"></span>Google AI Overviews</label></div>
+<div class="opt"><input checked="" class="eng" id="pro_aimode" type="checkbox" value="Google AI Mode"/><label for="pro_aimode"><span class="box"></span>Modo IA de Google</label></div>
+</div>
+<div class="addon-box">
+<span class="ob-badge">Complemento opcional</span>
+<p>¿Quieres que también monitoreemos Grok o Microsoft Copilot? Son servicios adicionales con un cargo mensual extra. Marca los que te interesen y revisaremos los precios en tu llamada de bienvenida. No agregaremos nada a tu plan sin tu autorización.</p>
+<div aria-label="Interés en servicios adicionales" class="opt-grid" role="group">
+<div class="opt"><input class="addon" id="pro_add_grok" type="checkbox" value="Grok"/><label for="pro_add_grok"><span class="box"></span>Grok</label></div>
+<div class="opt"><input class="addon" id="pro_add_copilot" type="checkbox" value="Microsoft Copilot"/><label for="pro_add_copilot"><span class="box"></span>Microsoft Copilot</label></div>
+</div>
 </div>
 </div>
 <div class="field"><label for="priority_topics"><span class="q-num">11.</span>Tus 5–10 categorías, servicios o preguntas de clientes más importantes<span class="req">*</span></label><span class="hint">En tus propias palabras. Piensa para qué búsquedas te gustaría que ChatGPT recomendara tu negocio, por ejemplo: "mejor abogado de familia en Tampa" o "plomero de emergencia cerca de mí". Si tienes una lista de palabras clave, pega el enlace.</span><textarea id="priority_topics" name="priority_topics" required="" rows="5"></textarea></div>
@@ -333,6 +356,14 @@
     return ok;
   }
 
+  /* plan: ?plan=pro (Pro welcome email link) shows the 6 Pro AI models */
+  var PRO=/^pro/i.test(new URLSearchParams(location.search).get('plan')||'');
+  if(PRO){
+    form.querySelector('.plan-std').hidden=true;
+    form.querySelector('.plan-pro').hidden=false;
+    document.getElementById('planField').value='AI Recommended Pro';
+  }
+
   /* website: add https:// if missing */
   var site=document.getElementById('website');
   site.addEventListener('blur',function(){
@@ -344,8 +375,9 @@
   function hideAlert(){alertEl.classList.remove('show');}
 
   function collectChecks(){
-    var eng=[].map.call(form.querySelectorAll('.eng:checked'),function(c){return c.value;});
-    var add=[].map.call(form.querySelectorAll('.addon:checked'),function(c){return c.value;});
+    var box=form.querySelector(PRO?'.plan-pro':'.plan-std');
+    var eng=[].map.call(box.querySelectorAll('.eng:checked'),function(c){return c.value;});
+    var add=[].map.call(box.querySelectorAll('.addon:checked'),function(c){return c.value;});
     document.getElementById('enginesField').value=eng.join(', ')||'None selected';
     document.getElementById('addonField').value=add.join(', ');
     document.getElementById('submittedAt').value=new Date().toISOString();

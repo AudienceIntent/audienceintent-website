@@ -4,7 +4,7 @@
 //
 // Handles:
 //   ai-recommended-onboarding (/onboarding)      → tag "air-onboarded"
-//     (+ "air-addon-interest" if they ticked Claude/Grok)
+//     (+ "air-addon-interest" if they ticked an add-on; plan = AI Recommended / Pro)
 //   dbr-onboarding (/onboarding-dbr)             → tag "dbr-onboarded"
 //
 // For each:
@@ -27,6 +27,7 @@ const AIR_LABELS = [
   ['contact_name', 'Contact name'],
   ['contact_email', 'Contact email'],
   ['contact_phone', 'Phone'],
+  ['plan', 'Plan'],
   ['other_domains', '2. Other domains / brands'],
   ['alt_names', '3. Alternative names / spellings'],
   ['business_type', '4. Business type'],
@@ -36,7 +37,7 @@ const AIR_LABELS = [
   ['competitor_lists', '8. Lists / review sites ranking competitors above them'],
   ['markets', '9. Markets + locations'],
   ['engines', '10. Engines to track'],
-  ['addon_interest', '10b. Add-on interest (Claude / Grok)'],
+  ['addon_interest', '10b. Add-on interest'],
   ['priority_topics', '11. Priority categories / questions'],
   ['seasonal', '12. Seasonal peaks / launches'],
   ['why_now', '13. Why now'],

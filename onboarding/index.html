@@ -84,7 +84,7 @@
   <div class="wrap">
     <div class="eyebrow"><span class="dot"></span>AI Recommended &middot; Client onboarding</div>
     <h1>Welcome aboard.<br><span class="g">Let's get you recommended.</span></h1>
-    <p class="lede">Five quick steps. The more you tell us, the faster we can start tracking how ChatGPT, Google AI and Perplexity talk about you.</p>
+    <p class="lede">Five quick steps. The more you tell us, the faster we can start tracking how AI talks about you.</p>
     <ul class="ob-facts">
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>5 short steps</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>About 10 minutes</li>
@@ -110,6 +110,7 @@
       <input type="hidden" name="form-name" value="ai-recommended-onboarding">
       <input type="hidden" name="engines" id="enginesField" value="ChatGPT, Google AI (Gemini), Perplexity">
       <input type="hidden" name="addon_interest" id="addonField" value="">
+      <input type="hidden" name="plan" id="planField" value="AI Recommended">
       <input type="hidden" name="submitted_at" id="submittedAt" value="">
       <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
 
@@ -168,6 +169,8 @@
 
         <div class="field"><label for="markets"><span class="q-num">9.</span>Which markets do you serve?<span class="req">*</span></label><span class="hint">Cities, states or countries, plus any physical locations (and planned openings with dates). Most important first.</span><textarea id="markets" name="markets" rows="4" required></textarea></div>
 
+        <style>.plan-std[hidden],.plan-pro[hidden]{display:none!important}</style>
+        <div class="plan-std">
         <div class="field"><label><span class="q-num">10.</span>AI engines included in your plan</label><span class="hint">All three are included. Untick any you don't care about.</span></div>
         <div class="opt-grid three" role="group" aria-label="AI engines">
           <div class="opt"><input type="checkbox" id="eng_chatgpt" class="eng" value="ChatGPT" checked><label for="eng_chatgpt"><span class="box"></span>ChatGPT</label></div>
@@ -182,6 +185,28 @@
             <div class="opt"><input type="checkbox" id="add_claude" class="addon" value="Claude"><label for="add_claude"><span class="box"></span>Claude</label></div>
             <div class="opt"><input type="checkbox" id="add_grok" class="addon" value="Grok"><label for="add_grok"><span class="box"></span>Grok</label></div>
           </div>
+        </div>
+        </div>
+
+        <div class="plan-pro" hidden>
+        <div class="field"><label><span class="q-num">10.</span>AI models included in your Pro plan</label><span class="hint">All six are included. Untick any you don't care about.</span></div>
+        <div class="opt-grid three" role="group" aria-label="AI models">
+          <div class="opt"><input type="checkbox" id="pro_chatgpt" class="eng" value="ChatGPT" checked><label for="pro_chatgpt"><span class="box"></span>ChatGPT</label></div>
+          <div class="opt"><input type="checkbox" id="pro_gemini" class="eng" value="Gemini" checked><label for="pro_gemini"><span class="box"></span>Gemini</label></div>
+          <div class="opt"><input type="checkbox" id="pro_claude" class="eng" value="Claude" checked><label for="pro_claude"><span class="box"></span>Claude</label></div>
+          <div class="opt"><input type="checkbox" id="pro_perplexity" class="eng" value="Perplexity" checked><label for="pro_perplexity"><span class="box"></span>Perplexity</label></div>
+          <div class="opt"><input type="checkbox" id="pro_aio" class="eng" value="Google AI Overviews" checked><label for="pro_aio"><span class="box"></span>Google AI Overviews</label></div>
+          <div class="opt"><input type="checkbox" id="pro_aimode" class="eng" value="Google AI Mode" checked><label for="pro_aimode"><span class="box"></span>Google AI Mode</label></div>
+        </div>
+
+        <div class="addon-box">
+          <span class="ob-badge">Optional add-on</span>
+          <p>Want us to track Grok or Microsoft Copilot too? These are add-ons with an additional monthly charge. Tick any you're interested in and we'll go over pricing on your onboarding call. Nothing is added to your plan until you say so.</p>
+          <div class="opt-grid" role="group" aria-label="Add-on interest">
+            <div class="opt"><input type="checkbox" id="pro_add_grok" class="addon" value="Grok"><label for="pro_add_grok"><span class="box"></span>Grok</label></div>
+            <div class="opt"><input type="checkbox" id="pro_add_copilot" class="addon" value="Microsoft Copilot"><label for="pro_add_copilot"><span class="box"></span>Microsoft Copilot</label></div>
+          </div>
+        </div>
         </div>
 
         <div class="field"><label for="priority_topics"><span class="q-num">11.</span>Your 5–10 most important categories, services or customer questions<span class="req">*</span></label><span class="hint">In your own words. Think about what you'd want ChatGPT to recommend you for, e.g. "best family law attorney in Tampa" or "emergency plumber near me". If you have a keyword list, paste a link to it.</span><textarea id="priority_topics" name="priority_topics" rows="5" required></textarea></div>
@@ -366,6 +391,14 @@
     return ok;
   }
 
+  /* plan: ?plan=pro (Pro welcome email link) shows the 6 Pro AI models */
+  var PRO=/^pro/i.test(new URLSearchParams(location.search).get('plan')||'');
+  if(PRO){
+    form.querySelector('.plan-std').hidden=true;
+    form.querySelector('.plan-pro').hidden=false;
+    document.getElementById('planField').value='AI Recommended Pro';
+  }
+
   /* website: add https:// if missing */
   var site=document.getElementById('website');
   site.addEventListener('blur',function(){
@@ -377,8 +410,9 @@
   function hideAlert(){alertEl.classList.remove('show');}
 
   function collectChecks(){
-    var eng=[].map.call(form.querySelectorAll('.eng:checked'),function(c){return c.value;});
-    var add=[].map.call(form.querySelectorAll('.addon:checked'),function(c){return c.value;});
+    var box=form.querySelector(PRO?'.plan-pro':'.plan-std');
+    var eng=[].map.call(box.querySelectorAll('.eng:checked'),function(c){return c.value;});
+    var add=[].map.call(box.querySelectorAll('.addon:checked'),function(c){return c.value;});
     document.getElementById('enginesField').value=eng.join(', ')||'None selected';
     document.getElementById('addonField').value=add.join(', ');
     document.getElementById('submittedAt').value=new Date().toISOString();

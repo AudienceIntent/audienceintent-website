@@ -10,6 +10,219 @@ description: AudienceIntent is now RevContent's AEO partner. See why answer
 focus_keyword: RevContent
 image: /images/uploads/ai-x-revcontent-thumbnail.jpg
 og_image: /images/uploads/ai-x-revcontent-thumbnail.jpg
+schema: >-
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.audienceintent.ai/#organization",
+        "name": "AudienceIntent",
+        "legalName": "UnStoppable Response",
+        "url": "https://www.audienceintent.ai/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.audienceintent.ai/#logo",
+          "url": "https://www.audienceintent.ai/assets/img/logo-black.png",
+          "contentUrl": "https://www.audienceintent.ai/assets/img/logo-black.png",
+          "caption": "AudienceIntent"
+        },
+        "image": { "@id": "https://www.audienceintent.ai/#logo" },
+        "foundingDate": "2024",
+        "founder": { "@id": "https://www.audienceintent.ai/#kevin-bovett" },
+        "email": "support@audienceintent.ai",
+        "telephone": "+1-848-358-7611",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Wellington",
+          "addressRegion": "FL",
+          "postalCode": "33414",
+          "addressCountry": "US"
+        },
+        "description": "AudienceIntent is an Answer Engine Optimization company based in Wellington, Florida. We help businesses get recommended when people ask AI who to choose.",
+        "knowsAbout": [
+          "Answer Engine Optimization",
+          "AEO",
+          "AI search visibility"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.audienceintent.ai/#kevin-bovett",
+        "name": "Kevin Bovett",
+        "jobTitle": "Founder & CEO",
+        "worksFor": { "@id": "https://www.audienceintent.ai/#organization" },
+        "url": "https://www.audienceintent.ai/about",
+        "sameAs": [
+          "https://www.linkedin.com/in/kevinbovett/"
+        ],
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "name": "HubSpot AEO Fundamentals Certification",
+          "credentialCategory": "certificate",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "HubSpot Academy"
+          },
+          "url": "https://app-na2.hubspot.com/academy/achievements/2pvl38s2/en/1/kevin-bovett/aeo-fundamentals"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.revcontent.com/#organization",
+        "name": "RevContent",
+        "url": "https://www.revcontent.com/",
+        "foundingDate": "2013",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sarasota",
+          "addressRegion": "FL",
+          "addressCountry": "US"
+        },
+        "description": "RevContent is a performance-priced native advertising platform founded in 2013 and headquartered in Sarasota, Florida. It connects publishers and advertisers through content recommendation technology, using first-party signals and contextual data to target audiences instead of relying on third-party cookies.",
+        "employee": { "@id": "https://www.revcontent.com/#richard-marques" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.revcontent.com/#richard-marques",
+        "name": "Richard Marques",
+        "jobTitle": "CEO",
+        "worksFor": { "@id": "https://www.revcontent.com/#organization" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.audienceintent.ai/#website",
+        "url": "https://www.audienceintent.ai/",
+        "name": "AudienceIntent",
+        "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#primaryimage",
+        "url": "https://www.audienceintent.ai/images/uploads/ai-x-revcontent-thumbnail.jpg",
+        "contentUrl": "https://www.audienceintent.ai/images/uploads/ai-x-revcontent-thumbnail.jpg",
+        "caption": "RevContent Brings On AudienceIntent to Get Recommended by AI"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#webpage",
+        "url": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai",
+        "name": "AudienceIntent Partners with RevContent",
+        "description": "AudienceIntent is now RevContent's AEO partner. See why answer engine visibility matters for native advertising and what the partnership means.",
+        "isPartOf": { "@id": "https://www.audienceintent.ai/#website" },
+        "primaryImageOfPage": { "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#primaryimage" },
+        "breadcrumb": { "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#breadcrumb" },
+        "datePublished": "2026-11-23",
+        "dateModified": "2026-11-23",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.audienceintent.ai/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Answers",
+            "item": "https://www.audienceintent.ai/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "RevContent Brings On AudienceIntent to Get Recommended by AI",
+            "item": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#article",
+        "headline": "RevContent Brings On AudienceIntent to Get Recommended by AI",
+        "description": "AudienceIntent is now RevContent's AEO partner. See why answer engine visibility matters for native advertising and what the partnership means.",
+        "mainEntityOfPage": { "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#webpage" },
+        "image": { "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#primaryimage" },
+        "thumbnailUrl": "https://www.audienceintent.ai/images/uploads/ai-x-revcontent-thumbnail.jpg",
+        "datePublished": "2026-11-23",
+        "dateModified": "2026-11-23",
+        "author": { "@id": "https://www.audienceintent.ai/#kevin-bovett" },
+        "publisher": { "@id": "https://www.audienceintent.ai/#organization" },
+        "isPartOf": { "@id": "https://www.audienceintent.ai/#website" },
+        "articleSection": "AI Recommended",
+        "inLanguage": "en-US",
+        "about": [
+          { "@id": "https://www.revcontent.com/#organization" },
+          { "@type": "Thing", "name": "Answer Engine Optimization" }
+        ],
+        "mentions": [
+          { "@id": "https://www.revcontent.com/#richard-marques" },
+          { "@type": "Thing", "name": "Native advertising" },
+          { "@type": "SoftwareApplication", "name": "ChatGPT", "applicationCategory": "AI assistant" },
+          { "@type": "SoftwareApplication", "name": "Claude", "applicationCategory": "AI assistant" },
+          { "@type": "SoftwareApplication", "name": "Gemini", "applicationCategory": "AI assistant" },
+          { "@type": "SoftwareApplication", "name": "Perplexity", "applicationCategory": "AI assistant" }
+        ],
+        "keywords": [
+          "RevContent",
+          "AudienceIntent",
+          "Answer Engine Optimization",
+          "AEO",
+          "native advertising",
+          "AI recommendations",
+          "AI search visibility"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#faq",
+        "isPartOf": { "@id": "https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai#webpage" },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is RevContent?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "RevContent is a native advertising platform that connects publishers and advertisers through content recommendation technology. Founded in 2013 and headquartered in Sarasota, Florida, it reaches 75 million+ unique users each month across 4,000+ sites, mobile apps, and email newsletters. It targets audiences using first-party signals and contextual data instead of third-party cookies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is AudienceIntent?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AudienceIntent is an Answer Engine Optimization company based in Wellington, Florida. It helps businesses get recommended when people ask AI tools like ChatGPT, Claude, Gemini, Google AI, or Perplexity who to choose. The work is fully managed: the AudienceIntent team handles the research, content, technical fixes, and ongoing tracking for its clients."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AEO stands for Answer Engine Optimization. It's the practice of making sure a business shows up accurately and favorably when people ask AI tools a question instead of searching on Google. SEO aims for search engine rankings. AEO aims for the answers ChatGPT, Perplexity, and Google AI give when someone asks \"which platform should I use?\" or \"who's the best provider of X?\""
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What will AudienceIntent do for RevContent?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AudienceIntent will track how RevContent appears in AI answers compared with its competitors, fix gaps or outdated information, and build content that helps AI engines recommend RevContent when buyers ask about native advertising platforms."
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+  </script>
 ---
 We've got some big news to share. AudienceIntent is now the official AEO (Answer Engine Optimization) partner for [RevContent](https://www.revcontent.com), one of the leading platforms in native advertising.
 

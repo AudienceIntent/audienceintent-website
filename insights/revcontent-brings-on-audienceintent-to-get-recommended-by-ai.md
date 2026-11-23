@@ -230,7 +230,7 @@ This one means a lot to us. RevContent is an established name in ad tech, and th
 
 Our job is to make sure RevContent is in that answer, and that what the AI says about them is accurate and makes a strong case for choosing them.
 
-> "We know how much search is changing for our publishers and our advertisers. More people are using AI to get their answers now, and we don't want to be invisible to them or let our competitors get a head start. We talked with a number of great companies, but AudienceIntent's pitch is what won us over. They showed us live data on our mentions, citations and where we rank against competitors, and laid out exactly what they'd change to improve it. That made the decision easy."
+> “Chatbots and AI are becoming part of how people make decisions,” said Richard Marques, CEO of RevContent. “We are modernizing how we tell RevContent’s story so partners looking for additive revenue for their digital businesses can find us”
 
 **Richard Marques, CEO, RevContent**
 

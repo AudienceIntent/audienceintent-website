@@ -248,7 +248,7 @@ That's where AEO comes in. We build structured, accurate content that AI engines
 
 ## About RevContent
 
-[RevContent](https://www.revcontent.com) is a performance-priced native advertising platform founded in 2013 and headquartered in Sarasota, Florida. It connects publishers and advertisers through content recommendation technology, using first-party signals and contextual data to target audiences instead of relying on third-party cookies.
+[RevContent](https://www.revcontent.com) is a performance-priced native advertising platform founded in 2013 and headquartered in Sarasota, Florida. It connects publishers and advertisers through content recommendation technology, using primarily first-party signals and contextual data to target audiences with limited reliance on third-party cookies.
 
 The numbers behind the platform:
 

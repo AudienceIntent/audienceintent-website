@@ -67,7 +67,7 @@
 </ul>
 <div class="lang" role="group" aria-label="Idioma"><a href="/onboarding/" hreflang="en" lang="en" title="English">EN</a><a href="/es/onboarding/" hreflang="es" lang="es" aria-current="true" title="Español">ES</a></div>
     <button class="btn btn-white btn-desk" data-book="">Agenda una llamada</button>
-    <a class="btn btn-green btn-desk nav-start" href="https://onboarding.audienceintent.ai/" style="margin-left:-16px">Empieza ahora</a><style>@media(max-width:1240px){.nav .wrap,.nav ul{gap:16px}.nav ul a{white-space:nowrap}.nav .nav-start{margin-left:-6px!important}.nav .logo{flex-shrink:0}}@media(max-width:1120px){.nav .wrap,.nav ul{gap:11px}.nav .btn{padding:0 13px;font-size:13px}.nav ul a{font-size:13px}.nav .nav-start{margin-left:-3px!important}}</style><style>@media(max-width:1180px){.nav ul,.nav .btn-desk{display:none}.burger{display:block}}</style>
+<a class="btn btn-green btn-desk nav-start" href="https://onboarding.audienceintent.ai/" style="margin-left:-16px">Empieza ahora</a><style>@media(max-width:1240px){.nav .wrap,.nav ul{gap:16px}.nav ul a{white-space:nowrap}.nav .nav-start{margin-left:-6px!important}.nav .logo{flex-shrink:0}}@media(max-width:1120px){.nav .wrap,.nav ul{gap:11px}.nav .btn{padding:0 13px;font-size:13px}.nav ul a{font-size:13px}.nav .nav-start{margin-left:-3px!important}}</style><style>@media(max-width:1180px){.nav ul,.nav .btn-desk{display:none}.burger{display:block}}</style>
 <button aria-label="Abrir menú" class="burger" id="burger"><span></span><span></span><span></span></button>
 </div>
 </header>
@@ -86,7 +86,8 @@
 <div class="wrap">
 <div class="eyebrow"><span class="dot"></span>AI Recommended · Registro de clientes</div>
 <h1>Te damos la bienvenida.<br/><span class="g">Hagamos que la IA te recomiende.</span></h1>
-<p class="lede">Cinco pasos rápidos. Cuanto más nos cuentes, antes podremos empezar a monitorear cómo habla la IA de tu negocio.</p>
+<p class="lede">Completa todo lo que puedas.<br/>¿No estás seguro de algo? Déjalo en blanco y envía el formulario.<br/>Te contactaremos si necesitamos algo más.</p>
+<p class="lede ob-thanks">Gracias por tu tiempo. Esta parte del proceso es muy importante y te lo agradecemos.</p>
 <ul class="ob-facts">
 <li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 24 24"><path d="M20 6 9 17l-5-5"></path></svg>5 pasos cortos</li>
 <li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 24 24"><path d="M20 6 9 17l-5-5"></path></svg>Unos 10 minutos</li>
@@ -111,6 +112,7 @@
 <input name="form-name" type="hidden" value="ai-recommended-onboarding"/>
 <input id="enginesField" name="engines" type="hidden" value="ChatGPT, Google AI (Gemini), Perplexity"/>
 <input id="addonField" name="addon_interest" type="hidden" value=""/>
+<input id="goalField" name="primary_goal" type="hidden" value=""/>
 <input id="planField" name="plan" type="hidden" value="AI Recommended"/>
 <input id="submittedAt" name="submitted_at" type="hidden" value=""/>
 <p class="hp"><label>Deja esto vacío <input autocomplete="off" name="bot-field" tabindex="-1"/></label></p>
@@ -122,18 +124,21 @@
 <p>Quién eres, qué vendes y con quién compites.</p>
 </div>
 <div class="frow">
-<div class="field"><label for="company_name"><span class="q-num">1.</span>Nombre de la empresa<span class="req">*</span></label><input autocomplete="organization" id="company_name" name="company_name" required="" type="text"/></div>
-<div class="field"><label for="website">Sitio web principal<span class="req">*</span></label><input id="website" inputmode="url" name="website" placeholder="https://" required="" type="url"/></div>
+<div class="field"><label for="company_name"><span class="q-num">1.</span>Nombre de la empresa</label><input autocomplete="organization" id="company_name" name="company_name" type="text"/></div>
+<div class="field"><label for="website">Sitio web principal</label><input id="website" inputmode="url" name="website" placeholder="https://" type="url"/></div>
 </div>
+<div class="field"><label for="legal_name"><span class="q-num">2.</span>Nombre legal del negocio</label><span class="hint">Tal como está registrado, por ejemplo, "Smith &amp; Co Holdings LLC".</span><input id="legal_name" name="legal_name" type="text"/></div>
 <div class="frow">
-<div class="field"><label for="contact_name">Tu nombre<span class="req">*</span></label><input autocomplete="name" id="contact_name" name="contact_name" required="" type="text"/></div>
-<div class="field"><label for="contact_email">Tu correo electrónico<span class="req">*</span></label><input autocomplete="email" id="contact_email" name="contact_email" required="" type="email"/></div>
+<div class="field"><label for="contact_name">Tu nombre</label><input autocomplete="name" id="contact_name" name="contact_name" type="text"/></div>
+<div class="field"><label for="contact_email">Tu correo electrónico</label><input autocomplete="email" id="contact_email" name="contact_email" type="email"/></div>
 </div>
-<div class="field"><label for="contact_phone">Mejor número para contactarte</label><input autocomplete="tel" id="contact_phone" name="contact_phone" type="tel"/></div>
-<div class="field"><label for="other_domains"><span class="q-num">2.</span>¿Hay otros dominios o marcas que debamos monitorear?</label><span class="hint">Marcas del mismo grupo, sitios de productos o sitios regionales. Uno por línea.</span><textarea id="other_domains" name="other_domains" rows="2"></textarea></div>
-<div class="field"><label for="alt_names"><span class="q-num">3.</span>Otros nombres, formas de escribir tu nombre o abreviaturas que usan tus clientes</label><span class="hint">Por ejemplo: "Smith &amp; Co", "Smith and Company", "S&amp;C".</span><input id="alt_names" name="alt_names" type="text"/></div>
-<div class="field"><label for="business_type"><span class="q-num">4.</span>¿Qué tipo de negocio tienes?<span class="req">*</span></label>
-<select id="business_type" name="business_type" required="">
+<div class="field"><label for="contact_phone">Teléfono público del negocio</label><span class="hint">El número que ven tus clientes en tu sitio web y en Google.</span><input autocomplete="tel" id="contact_phone" name="contact_phone" type="tel"/></div>
+<div class="field"><label for="other_domains"><span class="q-num">3.</span>¿Hay otros dominios o marcas que debamos monitorear?</label><span class="hint">Marcas del mismo grupo, sitios de productos o sitios regionales. Uno por línea.</span><textarea id="other_domains" name="other_domains" rows="2"></textarea></div>
+<div class="field"><label for="alt_names"><span class="q-num">4.</span>Otros nombres, formas de escribir tu nombre o abreviaturas que usan tus clientes</label><span class="hint">Por ejemplo: "Smith &amp; Co", "Smith and Company", "S&amp;C".</span><input id="alt_names" name="alt_names" type="text"/></div>
+<div class="field"><label for="logo_url"><span class="q-num">5.</span>URL del logo</label><span class="hint">Un enlace al archivo de tu logo, de preferencia en PNG de alta resolución o SVG.</span><input id="logo_url" name="logo_url" type="url"/></div>
+<div class="field"><label for="social_accounts"><span class="q-num">6.</span>Cuentas de redes sociales que te pertenecen</label><span class="hint">Facebook, Instagram, LinkedIn, X, YouTube, TikTok y otras. Un enlace por línea.</span><textarea id="social_accounts" name="social_accounts" rows="3"></textarea></div>
+<div class="field"><label for="business_type"><span class="q-num">7.</span>¿Qué tipo de negocio tienes?</label>
+<select id="business_type" name="business_type">
 <option value="">Selecciona una opción</option>
 <option value="Local service business">Negocio de servicios locales</option>
 <option value="Professional services (legal, finance, consulting)">Servicios profesionales (legales, financieros, consultoría)</option>
@@ -145,10 +150,12 @@
 <option value="Other">Otro</option>
 </select>
 </div>
-<div class="field"><label for="flagship_offers"><span class="q-num">5.</span>Tus principales productos o servicios y qué los hace diferentes<span class="req">*</span></label><span class="hint">¿Qué diría un cliente satisfecho que haces mejor que nadie?</span><textarea id="flagship_offers" name="flagship_offers" required="" rows="4"></textarea></div>
-<div class="field"><label for="buyer_types"><span class="q-num">6.</span>¿Quién te compra?<span class="req">*</span></label><span class="hint">Describe tus 2–4 tipos principales de clientes, con una frase por cada uno, y qué compra cada uno.</span><textarea id="buyer_types" name="buyer_types" required="" rows="4"></textarea></div>
-<div class="field"><label for="competitors"><span class="q-num">7.</span>Tus 3–10 competidores principales<span class="req">*</span></label><span class="hint">Nombre y sitio web. Uno por línea.</span><textarea id="competitors" name="competitors" required="" rows="4"></textarea></div>
-<div class="field"><label for="competitor_lists"><span class="q-num">8.</span>¿Hay listas de "los mejores", sitios de reseñas o directorios donde tus competidores aparecen por encima de ti?</label><span class="hint">Pega los enlaces. Uno por línea.</span><textarea id="competitor_lists" name="competitor_lists" rows="3"></textarea></div>
+<div class="field"><label for="flagship_offers"><span class="q-num">8.</span>Tus principales productos o servicios y qué los hace diferentes</label><span class="hint">¿Qué diría un cliente satisfecho que haces mejor que nadie?</span><textarea id="flagship_offers" name="flagship_offers" rows="4"></textarea></div>
+<div class="field"><label for="buyer_types"><span class="q-num">9.</span>¿Quién te compra?</label><span class="hint">Describe tus 2–4 tipos principales de clientes, con una frase por cada uno, y qué compra cada uno.</span><textarea id="buyer_types" name="buyer_types" rows="4"></textarea></div>
+<div class="field"><label for="competitors"><span class="q-num">10.</span>Tus 3–10 competidores principales</label><span class="hint">Nombre y sitio web. Uno por línea.</span><textarea id="competitors" name="competitors" rows="4"></textarea></div>
+<div class="field"><label for="competitor_lists"><span class="q-num">11.</span>¿Tu negocio aparece en listas de "los mejores", directorios, menciones de relaciones públicas digitales o reportajes en medios? ¿Tiene premios o acreditaciones del sector?</label><span class="hint">Incluye las de tu negocio y aquellas donde tus competidores aparecen por encima de ti. Pega los enlaces. Uno por línea.</span><textarea id="competitor_lists" name="competitor_lists" rows="3"></textarea></div>
+<div class="field"><label for="review_profiles"><span class="q-num">12.</span>Perfiles en sitios de reseñas de tu sector</label><span class="hint">G2, Capterra, Trustpilot, Crunchbase, Yelp, Clutch y otros. Un enlace por línea.</span><textarea id="review_profiles" name="review_profiles" rows="3"></textarea></div>
+<div class="field"><label for="testimonials"><span class="q-num">13.</span>Reseñas, recomendaciones y testimonios de clientes o socios</label><span class="hint">Pégalos aquí o comparte el enlace donde se encuentran. Incluye nombres y empresas si podemos usarlos.</span><textarea id="testimonials" name="testimonials" rows="4"></textarea></div>
 </fieldset>
 <!-- ═══ STEP 2 — WHAT WE TRACK ═══ -->
 <fieldset class="step" data-step="2">
@@ -157,10 +164,10 @@
 <h2>Qué monitoreamos</h2>
 <p>Dónde vendes, qué motores de IA importan y en qué temas quieres destacar.</p>
 </div>
-<div class="field"><label for="markets"><span class="q-num">9.</span>¿En qué mercados ofreces tus servicios?<span class="req">*</span></label><span class="hint">Ciudades, estados o países, además de tus locales físicos (y próximas aperturas con fechas). Lo más importante primero.</span><textarea id="markets" name="markets" required="" rows="4"></textarea></div>
+<div class="field"><label for="markets"><span class="q-num">14.</span>¿En qué mercados ofreces tus servicios?</label><span class="hint">Ciudades, estados o países, además de tus locales físicos (y próximas aperturas con fechas). Lo más importante primero.</span><textarea id="markets" name="markets" rows="4"></textarea></div>
 <style>.plan-std[hidden],.plan-pro[hidden]{display:none!important}</style>
 <div class="plan-std">
-<div class="field"><label><span class="q-num">10.</span>Motores de IA incluidos en tu plan</label><span class="hint">Los tres están incluidos. Desmarca los que no te interesen.</span></div>
+<div class="field"><label><span class="q-num">15.</span>Motores de IA incluidos en tu plan</label><span class="hint">Los tres están incluidos. Desmarca los que no te interesen.</span></div>
 <div aria-label="Motores de IA" class="opt-grid three" role="group">
 <div class="opt"><input checked="" class="eng" id="eng_chatgpt" type="checkbox" value="ChatGPT"/><label for="eng_chatgpt"><span class="box"></span>ChatGPT</label></div>
 <div class="opt"><input checked="" class="eng" id="eng_gemini" type="checkbox" value="Google AI (Gemini)"/><label for="eng_gemini"><span class="box"></span>Google AI (Gemini)</label></div>
@@ -176,7 +183,7 @@
 </div>
 </div>
 <div class="plan-pro" hidden="">
-<div class="field"><label><span class="q-num">10.</span>Modelos de IA incluidos en tu plan Pro</label><span class="hint">Los seis están incluidos. Desmarca los que no te interesen.</span></div>
+<div class="field"><label><span class="q-num">15.</span>Modelos de IA incluidos en tu plan Pro</label><span class="hint">Los seis están incluidos. Desmarca los que no te interesen.</span></div>
 <div aria-label="Modelos de IA" class="opt-grid three" role="group">
 <div class="opt"><input checked="" class="eng" id="pro_chatgpt" type="checkbox" value="ChatGPT"/><label for="pro_chatgpt"><span class="box"></span>ChatGPT</label></div>
 <div class="opt"><input checked="" class="eng" id="pro_gemini" type="checkbox" value="Gemini"/><label for="pro_gemini"><span class="box"></span>Gemini</label></div>
@@ -194,8 +201,8 @@
 </div>
 </div>
 </div>
-<div class="field"><label for="priority_topics"><span class="q-num">11.</span>Tus 5–10 categorías, servicios o preguntas de clientes más importantes<span class="req">*</span></label><span class="hint">En tus propias palabras. Piensa para qué búsquedas te gustaría que ChatGPT recomendara tu negocio, por ejemplo: "mejor abogado de familia en Tampa" o "plomero de emergencia cerca de mí". Si tienes una lista de palabras clave, pega el enlace.</span><textarea id="priority_topics" name="priority_topics" required="" rows="5"></textarea></div>
-<div class="field"><label for="seasonal"><span class="q-num">12.</span>¿Hay temporadas de alta demanda o próximos lanzamientos que debamos tener en cuenta?</label><textarea id="seasonal" name="seasonal" rows="2"></textarea></div>
+<div class="field"><label for="priority_topics"><span class="q-num">16.</span>Tus 5–10 categorías, servicios o preguntas de clientes más importantes</label><span class="hint">En tus propias palabras. Piensa para qué búsquedas te gustaría que ChatGPT recomendara tu negocio, por ejemplo: "mejor abogado de familia en Tampa" o "plomero de emergencia cerca de mí". Si tienes una lista de palabras clave, pega el enlace.</span><textarea id="priority_topics" name="priority_topics" rows="5"></textarea></div>
+<div class="field"><label for="seasonal"><span class="q-num">17.</span>¿Hay temporadas de alta demanda o próximos lanzamientos que debamos tener en cuenta?</label><textarea id="seasonal" name="seasonal" rows="2"></textarea></div>
 </fieldset>
 <!-- ═══ STEP 3 — GOALS ═══ -->
 <fieldset class="step" data-step="3">
@@ -204,16 +211,16 @@
 <h2>Objetivos</h2>
 <p>Por qué ahora y qué sería un buen resultado para ti.</p>
 </div>
-<div class="field"><label for="why_now"><span class="q-num">13.</span>¿Qué te hizo decidir actuar ahora para aparecer en las búsquedas con IA?<span class="req">*</span></label><textarea id="why_now" name="why_now" required="" rows="3"></textarea></div>
-<div class="field"><label for="known_gaps"><span class="q-num">14.</span>¿Has notado que falta algo en lo que la IA dice de tu negocio? ¿Por qué crees que pasa?</label><span class="hint">Por ejemplo: "ChatGPT recomienda a nuestra competencia cuando la gente pregunta por X."</span><textarea id="known_gaps" name="known_gaps" rows="3"></textarea></div>
-<div class="field"><label><span class="q-num">15.</span>¿Qué es lo más importante para ti?<span class="req">*</span></label></div>
-<div aria-label="Objetivo principal" class="opt-grid" id="goalGroup" role="radiogroup">
-<div class="opt"><input id="g1" name="primary_goal" type="radio" value="Get recommended when people ask for what we do (not by name)"/><label for="g1"><span class="box"></span>Que nos recomienden cuando alguien pregunte por lo que hacemos</label></div>
-<div class="opt"><input id="g2" name="primary_goal" type="radio" value="Show up instead of specific competitors"/><label for="g2"><span class="box"></span>Aparecer en lugar de competidores específicos</label></div>
-<div class="opt"><input id="g3" name="primary_goal" type="radio" value="More website traffic and leads from AI"/><label for="g3"><span class="box"></span>Más tráfico web y clientes potenciales desde la IA</label></div>
-<div class="opt"><input id="g4" name="primary_goal" type="radio" value="Not sure, recommend for me"/><label for="g4"><span class="box"></span>No sé, recomiéndame una opción</label></div>
+<div class="field"><label for="why_now"><span class="q-num">18.</span>¿Qué te hizo decidir actuar ahora para aparecer en las búsquedas con IA?</label><textarea id="why_now" name="why_now" rows="3"></textarea></div>
+<div class="field"><label for="known_gaps"><span class="q-num">19.</span>¿Has notado que falta algo en lo que la IA dice de tu negocio? ¿Por qué crees que pasa?</label><span class="hint">Por ejemplo: "ChatGPT recomienda a nuestra competencia cuando la gente pregunta por X."</span><textarea id="known_gaps" name="known_gaps" rows="3"></textarea></div>
+<div class="field"><label><span class="q-num">20.</span>¿Qué es lo más importante para ti?</label><span class="hint">Elige todas las opciones que quieras.</span></div>
+<div aria-label="Lo más importante" class="opt-grid" id="goalGroup" role="group">
+<div class="opt"><input class="goal" id="g1" type="checkbox" value="Get recommended when people ask for what we do (not by name)"/><label for="g1"><span class="box"></span>Que nos recomienden cuando alguien pregunte por lo que hacemos</label></div>
+<div class="opt"><input class="goal" id="g2" type="checkbox" value="Show up instead of specific competitors"/><label for="g2"><span class="box"></span>Aparecer en lugar de competidores específicos</label></div>
+<div class="opt"><input class="goal" id="g3" type="checkbox" value="More website traffic and leads from AI"/><label for="g3"><span class="box"></span>Más tráfico web y clientes potenciales desde la IA</label></div>
+<div class="opt"><input class="goal" id="g4" type="checkbox" value="Not sure, recommend for me"/><label for="g4"><span class="box"></span>No sé, recomiéndame una opción</label></div>
 </div>
-<div class="field"><label for="current_kpis"><span class="q-num">16.</span>¿Qué métricas ya monitoreas o incluyes en tus reportes?</label><span class="hint">Clientes potenciales, llamadas, trabajos agendados, ingresos, tráfico. Adaptaremos nuestros reportes a esas métricas.</span><textarea id="current_kpis" name="current_kpis" rows="3"></textarea></div>
+<div class="field"><label for="current_kpis"><span class="q-num">21.</span>¿Qué métricas ya monitoreas o incluyes en tus reportes?</label><span class="hint">Clientes potenciales, llamadas, trabajos agendados, ingresos, tráfico. Adaptaremos nuestros reportes a esas métricas.</span><textarea id="current_kpis" name="current_kpis" rows="3"></textarea></div>
 </fieldset>
 <!-- ═══ STEP 4 — ACCESS ═══ -->
 <fieldset class="step" data-step="4">
@@ -222,17 +229,18 @@
 <h2>Acceso</h2>
 <p>Quién se encarga de qué, para arrancar sin tener que andar detrás de nadie.</p>
 </div>
-<div class="who-banner"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg><span><strong>Por favor, dale acceso a audienceintent@gmail.com</strong> en Google Search Console, Google Analytics (GA4) y Bing Webmaster Tools. Necesitamos acceso a las tres herramientas para monitorear tus resultados y generar reportes.</span></div>
-<div class="field"><label for="analytics_owner"><span class="q-num">17.</span>¿Quién administra tus cuentas de Google Search Console, Google Analytics y Bing Webmaster?</label><span class="hint">Nombre y correo electrónico. ¿No tienes alguna cuenta configurada o no sabes cómo darnos acceso? Dinos y te ayudamos.</span><input id="analytics_owner" name="analytics_owner" type="text"/></div>
+<div class="who-banner"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg><span><strong>Por favor, dale acceso a audienceintent@gmail.com</strong> en Google Search Console, Google Analytics (GA4) y Bing Webmaster Tools. Necesitamos acceso a los tres para dar seguimiento a tus resultados y preparar reportes. Si tienes un Perfil de Empresa en Google, agréganos también como administradores ahí.</span></div>
+<div class="field"><label for="analytics_owner"><span class="q-num">22.</span>¿Quién administra tus cuentas de Google Search Console, Google Analytics y Bing Webmaster?</label><span class="hint">Nombre y correo electrónico. ¿No tienes alguna cuenta configurada o no sabes cómo darnos acceso? Dinos y te ayudamos.</span><input id="analytics_owner" name="analytics_owner" type="text"/></div>
+<div class="field"><label for="gbp_access"><span class="q-num">23.</span>Perfil de Empresa en Google</label><span class="hint">¿Ya agregaste a audienceintent@gmail.com como administrador? Pega el enlace a tu perfil o dinos si no tienes uno.</span><input id="gbp_access" name="gbp_access" type="text"/></div>
 <div class="frow">
-<div class="field"><label for="cms"><span class="q-num">18.</span>¿En qué plataforma está hecho tu sitio web?<span class="req">*</span></label>
-<select id="cms" name="cms" required="">
+<div class="field"><label for="cms"><span class="q-num">24.</span>¿En qué plataforma está hecho tu sitio web?</label>
+<select id="cms" name="cms">
 <option value="">Selecciona una opción</option>
 <option value="WordPress">WordPress</option><option value="Shopify">Shopify</option><option value="Webflow">Webflow</option><option value="Wix">Wix</option><option value="Squarespace">Squarespace</option><option value="GoHighLevel">GoHighLevel</option><option value="Custom build">Desarrollo a medida</option><option value="Not sure">No sé</option><option value="Other">Otro</option>
 </select>
 </div>
-<div class="field"><label for="site_changes">¿Quién puede hacer cambios en el sitio?<span class="req">*</span></label>
-<select id="site_changes" name="site_changes" required="">
+<div class="field"><label for="site_changes">¿Quién puede hacer cambios en el sitio?</label>
+<select id="site_changes" name="site_changes">
 <option value="">Selecciona una opción</option>
 <option value="We can, in-house">Nuestro equipo interno</option>
 <option value="Our web developer or agency">Nuestro desarrollador web o agencia</option>
@@ -241,7 +249,7 @@
 </select>
 </div>
 </div>
-<div class="field"><label for="third_parties"><span class="q-num">19.</span>¿Hay otras agencias o consultores con quienes debamos coordinarnos?</label><span class="hint">Nombre, empresa, email y qué manejan (SEO, web, anuncios, relaciones públicas).</span><textarea id="third_parties" name="third_parties" rows="3"></textarea></div>
+<div class="field"><label for="third_parties"><span class="q-num">25.</span>¿Hay otras agencias o consultores con quienes debamos coordinarnos?</label><span class="hint">Nombre, empresa, email y qué manejan (SEO, web, anuncios, relaciones públicas).</span><textarea id="third_parties" name="third_parties" rows="3"></textarea></div>
 </fieldset>
 <!-- ═══ STEP 5 — CONTENT & APPROVALS ═══ -->
 <fieldset class="step" data-step="5">
@@ -250,13 +258,16 @@
 <h2>Contenido y aprobaciones</h2>
 <p>Cómo se redacta, revisa y aprueba el contenido en tu equipo.</p>
 </div>
-<div class="field"><label for="brand_links"><span class="q-num">20.</span>Guías de marca, tono de voz o documentos de preguntas frecuentes</label><span class="hint">Pega enlaces de Google Drive, Dropbox o sitios web. Asegúrate de que el acceso esté configurado como "cualquier persona con el enlace".</span><textarea id="brand_links" name="brand_links" rows="2"></textarea></div>
-<div class="field"><label for="compliance"><span class="q-num">21.</span>¿Hay reglas sobre lo que podemos y no podemos decir?</label><span class="hint">Afirmaciones sujetas a regulación, avisos legales obligatorios, palabras que debemos evitar, revisión legal.</span><textarea id="compliance" name="compliance" rows="3"></textarea></div>
+<div class="field"><label for="brand_links"><span class="q-num">26.</span>Guías de marca, tono de voz o documentos de preguntas frecuentes</label><span class="hint">Pega enlaces de Google Drive, Dropbox o sitios web. Asegúrate de que el acceso esté configurado como "cualquier persona con el enlace".</span><textarea id="brand_links" name="brand_links" rows="2"></textarea></div>
+<div class="field"><label for="knowledge_base"><span class="q-num">27.</span>Enlace a tu base de conocimientos o centro de ayuda</label><span class="hint">Tus preguntas frecuentes, documentos de ayuda o sitio de soporte.</span><input id="knowledge_base" name="knowledge_base" type="url"/></div>
+<div class="field"><label for="compliance"><span class="q-num">28.</span>¿Hay reglas sobre lo que podemos y no podemos decir?</label><span class="hint">Afirmaciones sujetas a regulación, avisos legales obligatorios, palabras que debemos evitar, revisión legal.</span><textarea id="compliance" name="compliance" rows="3"></textarea></div>
+<div class="field"><label for="misconceptions"><span class="q-num">29.</span>¿Hay algo que no debamos mencionar o que debamos eliminar?</label><span class="hint">Ideas equivocadas sobre tu empresa, información antigua o incorrecta en internet, nombres anteriores, personas o temas que debamos evitar.</span><textarea id="misconceptions" name="misconceptions" rows="3"></textarea></div>
+<div class="field"><label for="editorial_email"><span class="q-num">30.</span>Correo de contacto para medios</label><span class="hint">El correo que deben usar periodistas y editores para solicitudes de prensa y medios.</span><input id="editorial_email" name="editorial_email" type="email"/></div>
 <div class="frow">
-<div class="field"><label for="day_to_day"><span class="q-num">22.</span>Contacto para el día a día<span class="req">*</span></label><span class="hint">Nombre y email.</span><input id="day_to_day" name="day_to_day_contact" required="" type="text"/></div>
-<div class="field"><label for="final_approver">¿Quién da la aprobación final antes de publicar?<span class="req">*</span></label><input id="final_approver" name="final_approver" required="" type="text"/></div>
+<div class="field"><label for="day_to_day"><span class="q-num">31.</span>Contacto para el día a día</label><span class="hint">Nombre y email.</span><input id="day_to_day" name="day_to_day_contact" type="text"/></div>
+<div class="field"><label for="final_approver">¿Quién da la aprobación final antes de publicar?</label><input id="final_approver" name="final_approver" type="text"/></div>
 </div>
-<div class="field"><label for="anything_else"><span class="q-num">23.</span>¿Algo más que debamos saber?</label><span class="hint">Detalles de tu mercado que no aparecen en los datos, además de enlaces a auditorías anteriores, documentos de estrategia o reportes.</span><textarea id="anything_else" name="anything_else" rows="4"></textarea></div>
+<div class="field"><label for="anything_else"><span class="q-num">32.</span>¿Algo más que debamos saber?</label><span class="hint">Detalles de tu mercado que no aparecen en los datos, además de enlaces a auditorías anteriores, documentos de estrategia o reportes.</span><textarea id="anything_else" name="anything_else" rows="4"></textarea></div>
 </fieldset>
 <div class="form-alert" id="formAlert" role="alert"></div>
 <div class="step-actions">
@@ -350,10 +361,6 @@
       else if(el.type==='email'&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v))msg='Ingresa un email válido.';
       if(msg){ok=false;el.closest('.field').classList.add('err');addError(el,msg);if(!first)first=el;}
     });
-    if(i===2&&!form.querySelector('input[name="primary_goal"]:checked')){
-      ok=false;addError(document.getElementById('goalGroup'),'Elige una opción.');
-      if(!first)first=document.getElementById('g1');
-    }
     if(first){try{first.focus({preventScroll:false});}catch(e){first.focus();}}
     return ok;
   }
@@ -382,6 +389,7 @@
     var add=[].map.call(box.querySelectorAll('.addon:checked'),function(c){return c.value;});
     document.getElementById('enginesField').value=eng.join(', ')||'None selected';
     document.getElementById('addonField').value=add.join(', ');
+    document.getElementById('goalField').value=[].map.call(form.querySelectorAll('.goal:checked'),function(c){return c.value;}).join('; ');
     document.getElementById('submittedAt').value=new Date().toISOString();
   }
 
@@ -417,7 +425,6 @@
     saveDraft();
   });
   form.addEventListener('change',function(e){
-    if(e.target.name==='primary_goal'){var er=document.querySelector('#goalGroup + .field-error');if(er)er.remove();}
     saveDraft();
   });
   /* Enter in a single-line input moves forward instead of submitting early */

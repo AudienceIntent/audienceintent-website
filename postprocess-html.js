@@ -522,7 +522,7 @@ function slug(t) {
 const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 function addToc(html) {
-  if (html.includes('class="toc')) return html;
+  if (html.includes('class="art-toc')) return html;
   const open = html.match(/<div\b[^>]*class="art-body"[^>]*>/i);
   if (!open) return html;
   const start = open.index + open[0].length;
@@ -553,7 +553,7 @@ function addToc(html) {
     return `<h2${attrs}>${inner}</h2>`;
   });
   if (items.length < 3) return html;
-  const nav = `<nav class="toc${items.length > 5 ? ' toc-2' : ''}" aria-label="On this page"><p class="toc-h">On this page</p><ol>` +
+  const nav = `<nav class="art-toc${items.length > 5 ? ' art-toc-2' : ''}" aria-label="On this page"><p class="art-toc-h">On this page</p><ol>` +
     items.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join('') + '</ol></nav>';
   const first = body.search(/<h2\b/i);
   body = body.slice(0, first) + nav + body.slice(first);

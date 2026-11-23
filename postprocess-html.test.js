@@ -22,14 +22,14 @@ assert.ok(!/"@context": /.test(en), 'JSON-LD is minified');
 // TOC: anchors for every h2 in .art-body, placed before the first h2
 const art = processHtml(page('https://www.audienceintent.ai/insights/x', 'en',
   '<main><h1>X</h1><div class="art-body"><p>Intro</p><h2>What Is AEO?</h2><p>a</p><div><h2>Costs &amp; Plans</h2></div><h2>FAQs</h2><h3>Q?</h3><p>A.</p></div><h2>Outside</h2></main>'));
-assert.ok(/<p>Intro<\/p><nav class="toc" aria-label="On this page">/.test(art), 'TOC sits after the intro');
+assert.ok(/<p>Intro<\/p><nav class="art-toc" aria-label="On this page">/.test(art), 'TOC sits after the intro');
 for (const id of ['what-is-aeo', 'costs-and-plans', 'faqs']) {
   assert.ok(art.includes(`<h2 id="${id}">`), 'h2 gets id ' + id);
   assert.ok(art.includes(`href="#${id}"`), 'TOC links to ' + id);
 }
 assert.ok(!art.includes('href="#outside"'), 'h2s outside .art-body are not listed');
 const short = processHtml(page('https://www.audienceintent.ai/insights/y', 'en', '<div class="art-body"><h2>One</h2><h2>Two</h2></div>'));
-assert.ok(!short.includes('class="toc'), 'fewer than 3 h2s: no TOC');
+assert.ok(!short.includes('class="art-toc'), 'fewer than 3 h2s: no TOC');
 
 // Icons: plain icons go to the sprite, coloured ones to an <image>; animated/stateful ones stay inline
 const d = 'M' + '1 2 3 4 '.repeat(60) + 'z';

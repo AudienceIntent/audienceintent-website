@@ -232,7 +232,9 @@ function breadcrumbsFor(canonical, html) {
   const es = u.pathname === '/es' || u.pathname.startsWith('/es/');
   const home = es ? ['Inicio', SITE + '/es/'] : ['Home', SITE + '/'];
   const segs = u.pathname.replace(/^\/es(\/|$)/, '/').split('/').filter(Boolean);
-  if (!segs.length) return [home];
+  // A homepage has no trail: the EN home gets none (a one-item list reads as
+  // incomplete), the ES home sits one level under the EN home.
+  if (!segs.length) return es ? [['Home', SITE + '/'], ['Español', SITE + '/es/']] : [];
   const h1 = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
   const titleTag = html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i);
   let name = h1 ? textOf(h1[1]) : '';
@@ -349,10 +351,20 @@ function fixSchema(html) {
     }
   }
 
+  // One-item BreadcrumbLists are incomplete: rebuild them, or drop them
+  // when the page has no trail (the EN homepage).
+  for (const b of blocks) {
+    const g = nodesOf(b.obj);
+    const i = g.findIndex((n) => typesOf(n).includes('BreadcrumbList') && (!Array.isArray(n.itemListElement) || n.itemListElement.length < 2));
+    if (i === -1 || !Array.isArray(b.obj['@graph'])) continue;
+    b.obj['@graph'].splice(i, 1);
+    b.changed = true;
+  }
+
   // BreadcrumbList on every indexable page that lacks one
   if (!noindex && canonical && !hasTop((n) => typesOf(n).includes('BreadcrumbList'))) {
     const crumbs = breadcrumbsFor(canonical, html);
-    if (crumbs.length) {
+    if (crumbs.length >= 2) {
       const b = blocks[blocks.length - 1];
       b.obj = toGraph(b.obj);
       b.obj['@graph'].push({
@@ -366,20 +378,203 @@ function fixSchema(html) {
 
   let out = html;
   for (const b of blocks.slice().reverse()) {
-    if (!b.changed) continue;
-    const repl = b.open + JSON.stringify(b.obj) + b.close;
+    // every block is written minified (whitespace in JSON-LD is markup weight)
+    const repl = b.open + JSON.stringify(b.obj).replace(/<\//g, '<\\/') + b.close;
+    if (repl === b.full) continue;
     out = out.slice(0, b.start) + repl + out.slice(b.start + b.full.length);
   }
   return out;
 }
 
-function processHtml(html) {
+
+// 5. Content-to-code ratio: keep markup weight out of the HTML.
+//    - repeated icon SVGs move to one cached sprite (<use href>), so the
+//      page keeps only a short <svg><use></svg> per icon;
+//    - large inline <style> blocks in <head> and large inline <script>s in
+//      <body> move to content-hashed files under /assets/gen/;
+//    - /assets/site.css and /assets/site.js get a content-hash ?v= so a CSS
+//      change can never be served from a stale year-long cache.
+// Generated files live in assets/gen/ (build output, git-ignored).
+const crypto = require('crypto');
+const GEN_DIR = 'assets/gen';
+const SPRITE_TOKEN = '__AI_SPRITE__';
+const hash = (s) => crypto.createHash('sha1').update(s).digest('hex').slice(0, 10);
+
+function newCtx() { return { symbols: new Map(), files: new Map() }; }
+
+const ICON_TAGS = new Set(['path', 'circle', 'rect', 'ellipse', 'line', 'polyline', 'polygon', 'g']);
+const ICON_ATTRS = new Set(['d', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin', 'stroke-miterlimit',
+  'stroke-dasharray', 'fill-rule', 'clip-rule', 'cx', 'cy', 'r', 'rx', 'ry', 'x', 'y', 'width', 'height', 'x1', 'y1', 'x2', 'y2',
+  'points', 'transform', 'opacity', 'fill-opacity', 'stroke-opacity']);
+const SVG_MIN = 300; // smaller icons are not worth a request-free <use>
+
+// Is the inner markup a plain, static icon (no ids, classes, styles, text,
+// gradients or animation) that renders the same inside a <use> shadow tree?
+function plainIcon(inner) {
+  const body = inner.replace(/<title\b[^>]*>[\s\S]*?<\/title>/i, '');
+  const tags = body.match(/<\/?[a-zA-Z][^>]*>/g) || [];
+  if (!tags.length) return false;
+  for (const t of tags) {
+    const m = t.match(/^<\/?([a-zA-Z][\w-]*)/);
+    if (!m || !ICON_TAGS.has(m[1].toLowerCase())) return false;
+    if (t.startsWith('</')) continue;
+    for (const [k] of parseAttrs(t.replace(/\/>$/, '>'), m[1])) {
+      if (!ICON_ATTRS.has(k.toLowerCase())) return false;
+    }
+  }
+  return body.replace(/<[^>]*>/g, '').trim() === '';
+}
+
+// Self-contained coloured icons (gradients, fixed fills, no currentColor):
+// the drawing moves to its own cached .svg file shown through an SVG
+// <image>, so the outer <svg> (and every CSS rule sizing it) stays as is.
+const IMG_TAGS = new Set([...ICON_TAGS, 'defs', 'lineargradient', 'radialgradient', 'stop']);
+const IMG_ATTRS = new Set([...ICON_ATTRS, 'id', 'offset', 'stop-color', 'stop-opacity', 'gradientunits', 'gradienttransform', 'fx', 'fy', 'xmlns']);
+const XML_CASE = { lineargradient: 'linearGradient', radialgradient: 'radialGradient', gradientunits: 'gradientUnits', gradienttransform: 'gradientTransform' };
+function standaloneIcon(full, inner) {
+  if (/currentcolor/i.test(full)) return false;
+  const body = inner.replace(/<title\b[^>]*>[\s\S]*?<\/title>/i, '');
+  const tags = body.match(/<\/?[a-zA-Z][^>]*>/g) || [];
+  if (!tags.length) return false;
+  for (const t of tags) {
+    const m = t.match(/^<\/?([a-zA-Z][\w-]*)/);
+    if (!m || !IMG_TAGS.has(m[1].toLowerCase())) return false;
+    if (t.startsWith('</')) continue;
+    const attrs = parseAttrs(t.replace(/\/>$/, '>'), m[1]);
+    for (const [k] of attrs) if (!IMG_ATTRS.has(k.toLowerCase())) return false;
+    // every shape needs its own fill: inherited fills don't reach an <image>
+    if (ICON_TAGS.has(m[1].toLowerCase()) && m[1].toLowerCase() !== 'g' && !getAttr(attrs, 'fill')) return false;
+  }
+  return body.replace(/<[^>]*>/g, '').trim() === '';
+}
+
+function spriteSvgs(html, ctx) {
+  return html.replace(/<svg\b((?:[^>"']|"[^"]*"|'[^']*')*)>([\s\S]*?)<\/svg>/gi, (full, attrStr, inner) => {
+    if (full.length < SVG_MIN || /<svg\b/i.test(inner)) return full;
+    if (!plainIcon(inner)) {
+      if (!standaloneIcon(full, inner)) return full;
+      const attrs = parseAttrs('<svg' + attrStr + '>', 'svg');
+      const vb = getAttr(attrs, 'viewbox');
+      const dims = (vb || '').trim().split(/[\s,]+/).map(Number);
+      if (dims.length !== 4 || dims.some(isNaN)) return full;
+      const titleM = inner.match(/<title\b[^>]*>[\s\S]*?<\/title>/i);
+      // XML is case-sensitive: restore names an HTML serializer lower-cased
+      const shape = inner.replace(/<title\b[^>]*>[\s\S]*?<\/title>/i, '').trim()
+        .replace(/\b(lineargradient|radialgradient|gradientunits|gradienttransform)\b/gi, (w) => XML_CASE[w.toLowerCase()]);
+      const file = genFile(ctx, 'svg', `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb}">${shape}</svg>\n`);
+      const keep = attrs.filter(([k]) => k.toLowerCase() !== 'xmlns');
+      return buildTag('svg', keep) + (titleM ? titleM[0] : '') +
+        `<image href="${file}" x="${dims[0]}" y="${dims[1]}" width="${dims[2]}" height="${dims[3]}"></image></svg>`;
+    }
+    const attrs = parseAttrs('<svg' + attrStr + '>', 'svg');
+    const vb = getAttr(attrs, 'viewbox');
+    if (!vb) return full;
+    const titleM = inner.match(/<title\b[^>]*>[\s\S]*?<\/title>/i);
+    const shape = inner.replace(/<title\b[^>]*>[\s\S]*?<\/title>/i, '').trim();
+    const id = 'i' + hash(vb + '|' + shape);
+    if (!ctx.symbols.has(id)) ctx.symbols.set(id, `<symbol id="${id}" viewBox="${vb}">${shape.replace(/(<(?:path|circle|rect|ellipse|line|polyline|polygon)\b[^>]*?)\s*>\s*<\/(?:path|circle|rect|ellipse|line|polyline|polygon)>/gi, '$1/>')}</symbol>`);
+    const keep = attrs.filter(([k]) => k.toLowerCase() !== 'xmlns');
+    return buildTag('svg', keep) + (titleM ? titleM[0] : '') + `<use href="${SPRITE_TOKEN}#${id}"></use></svg>`;
+  });
+}
+
+function genFile(ctx, ext, text) {
+  const name = `/${GEN_DIR}/${hash(text)}.${ext}`;
+  ctx.files.set(name, text);
+  return name;
+}
+
+function externalizeStyles(html, ctx) {
+  const headEnd = html.search(/<\/head>/i);
+  if (headEnd === -1) return html;
+  let head = html.slice(0, headEnd);
+  head = head.replace(/(<noscript\b[\s\S]*?<\/noscript>)|<style\b([^>]*)>([\s\S]*?)<\/style>/gi, (full, ns, attrs, css) => {
+    if (ns || /\b(data-css|id|media)\b/i.test(attrs || '') || css.length < 1000) return full;
+    return `<link rel="stylesheet" href="${genFile(ctx, 'css', css.trim() + '\n')}">`;
+  });
+  return head + html.slice(headEnd);
+}
+
+function externalizeScripts(html, ctx) {
+  const bodyStart = html.search(/<body\b/i);
+  if (bodyStart === -1) return html;
+  const body = html.slice(bodyStart).replace(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi, (full, attrs, js) => {
+    if (/\b(src|id|type)\s*=/i.test(attrs) || js.length < 1500) return full;
+    return `<script src="${genFile(ctx, 'js', js.trim() + '\n')}"${attrs}></script>`;
+  });
+  return html.slice(0, bodyStart) + body;
+}
+
+function versionAssets(html, ctx) {
+  for (const [asset, v] of ctx.versions || []) {
+    const re = new RegExp(asset.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&') + '(\\?v=[^"\'\\s>]*)?(?=["\'\\s>])', 'g');
+    html = html.replace(re, asset + '?v=' + v);
+  }
+  return html;
+}
+
+// 6. Table of contents with anchor links for article and video pages
+//    (any .art-body with 3+ h2s), placed just before the first h2.
+function slug(t) {
+  return t.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60).replace(/-+$/, '') || 'section';
+}
+const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+function addToc(html) {
+  if (html.includes('class="art-toc')) return html;
+  const open = html.match(/<div\b[^>]*class="art-body"[^>]*>/i);
+  if (!open) return html;
+  const start = open.index + open[0].length;
+  // find the matching </div>
+  const re = /<div\b|<\/div>/gi;
+  re.lastIndex = start;
+  let depth = 1, end = -1, m;
+  while ((m = re.exec(html))) {
+    depth += m[0][1] === '/' ? -1 : 1;
+    if (!depth) { end = m.index; break; }
+  }
+  if (end === -1) return html;
+  let body = html.slice(start, end);
+  const used = new Set((html.match(/\sid="([^"]+)"/g) || []).map((x) => x.slice(5, -1)));
+  const items = [];
+  body = body.replace(/<h2\b((?:[^>"']|"[^"]*"|'[^']*')*)>([\s\S]*?)<\/h2>/gi, (full, attrs, inner) => {
+    const text = textOf(inner);
+    if (!text) return full;
+    let id = (attrs.match(/\sid="([^"]+)"/) || [])[1];
+    if (!id) {
+      const base = slug(text);
+      id = base;
+      for (let i = 2; used.has(id); i++) id = base + '-' + i;
+      used.add(id);
+      attrs = ` id="${id}"` + attrs;
+    }
+    items.push([id, text]);
+    return `<h2${attrs}>${inner}</h2>`;
+  });
+  if (items.length < 3) return html;
+  const nav = `<nav class="art-toc${items.length > 5 ? ' art-toc-2' : ''}" aria-label="On this page"><p class="art-toc-h">On this page</p><ol>` +
+    items.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join('') + '</ol></nav>';
+  const first = body.search(/<h2\b/i);
+  body = body.slice(0, first) + nav + body.slice(first);
+  return html.slice(0, start) + body + html.slice(end);
+}
+
+function processHtml(html, ctx) {
+  const standalone = !ctx;
+  ctx = ctx || newCtx();
   let h = html;
+  h = addToc(h);
   h = fixSchema(h);
   h = fixImages(h);
   h = reorder(h, 'meta', META_FIRST, ['content']);
   h = reorder(h, 'link', LINK_FIRST, []);
+  h = externalizeStyles(h, ctx);
+  h = externalizeScripts(h, ctx);
+  h = spriteSvgs(h, ctx);
+  h = versionAssets(h, ctx);
   h = fixStylesheets(h);
+  if (standalone) h = h.split(SPRITE_TOKEN).join('/' + GEN_DIR + '/icons.svg');
   return h;
 }
 
@@ -392,15 +587,31 @@ function walk(dir, out = []) {
 }
 
 function main() {
-  let changed = 0;
+  const ctx = newCtx();
+  ctx.versions = ['/assets/site.css', '/assets/site.js']
+    .filter((a) => fs.existsSync(path.join(ROOT, a)))
+    .map((a) => [a, hash(fs.readFileSync(path.join(ROOT, a), 'utf8'))]);
   const files = walk(ROOT);
-  for (const f of files) {
+  const out = files.map((f) => {
     const src = fs.readFileSync(f, 'utf8');
-    const dst = processHtml(src);
+    return [f, src, processHtml(src, ctx)];
+  });
+  // one icon sprite for the whole site, named by its content
+  let spriteUrl = '';
+  if (ctx.symbols.size) {
+    const ids = [...ctx.symbols.keys()].sort();
+    const sprite = '<svg xmlns="http://www.w3.org/2000/svg">' + ids.map((k) => ctx.symbols.get(k)).join('') + '</svg>\n';
+    spriteUrl = genFile(ctx, 'svg', sprite);
+  }
+  if (ctx.files.size) fs.mkdirSync(path.join(ROOT, GEN_DIR), { recursive: true });
+  for (const [name, text] of ctx.files) fs.writeFileSync(path.join(ROOT, name), text);
+  let changed = 0;
+  for (const [f, src, dst0] of out) {
+    const dst = dst0.split(SPRITE_TOKEN).join(spriteUrl);
     if (dst !== src) { fs.writeFileSync(f, dst); changed++; }
   }
-  console.log(`postprocess-html: ${changed}/${files.length} HTML files updated`);
+  console.log(`postprocess-html: ${changed}/${files.length} HTML files updated, ${ctx.symbols.size} icons in sprite, ${ctx.files.size} generated assets`);
 }
 
 if (require.main === module) main();
-module.exports = { processHtml };
+module.exports = { processHtml, addToc };

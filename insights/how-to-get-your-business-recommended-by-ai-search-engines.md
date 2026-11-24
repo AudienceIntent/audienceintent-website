@@ -325,6 +325,10 @@ Published conversion studies vary, so use your own results rather than a univers
 
 These are different samples and measures, not interchangeable benchmarks. Track the customer actions that matter to your business.
 
+> “Focus on making unique, non-commodity content that visitors from Search and your own readers will find helpful and satisfying.”
+
+John Mueller, Google Search Relations · [Google’s guidance for AI search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search)
+
 ## Step 8: Keep the Work Going for at Least 90 Days
 
 Keep checking accuracy, improving useful pages, and measuring the same questions. Initial discovery and steady recommendations happen on different timelines.

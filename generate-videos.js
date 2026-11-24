@@ -11,6 +11,12 @@ const videos = fs.readdirSync(path.join(root, 'videos'), {withFileTypes:true})
     const video = JSON.parse(fs.readFileSync(path.join(root, 'videos', d.name, 'video.json'), 'utf8'));
     if (!fs.existsSync(path.join(root, 'videos', d.name, 'index.html'))) throw new Error('Missing watch page: ' + d.name);
     if (video.url !== `${site}/videos/${d.name}/`) throw new Error('Mismatched canonical: ' + d.name);
+    // A watch page may be updated without a new upload. Use the WebPage's
+    // editorial date for the page sitemap; keep the video's upload date intact.
+    const html = fs.readFileSync(path.join(root, 'videos', d.name, 'index.html'), 'utf8');
+    const json = /<script[^>]*\bid="page-schema"[^>]*>([\s\S]*?)<\/script>/.exec(html);
+    const page = json && (JSON.parse(json[1])['@graph'] || []).find(n => n['@type'] === 'WebPage');
+    video.pageLastModified = (page && page.dateModified) || video.uploadDate;
     return video;
   }).sort((a,b) => a.position - b.position);
 if (!videos.length || videos.some((v,i) => v.position !== i+1)) throw new Error('Video positions must be unique and consecutive from 1.');
@@ -23,7 +29,7 @@ let sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 // Remove all prior video entries, not only duplicates, before rebuilding.
 sitemap = sitemap.replace(/\s*<url>\s*<loc>https:\/\/www\.audienceintent\.ai\/videos\/[^<]+<\/loc>[\s\S]*?<\/url>/g, '');
 sitemap = sitemap.replace('</urlset>', videos.map(v =>
-  `  <url><loc>${esc(v.url)}</loc><lastmod>${esc(v.uploadDate.slice(0,10))}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`
+  `  <url><loc>${esc(v.url)}</loc><lastmod>${esc(v.pageLastModified.slice(0,10))}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`
 ).join('\n') + '\n</urlset>');
 fs.writeFileSync(path.join(root, 'sitemap.xml'), sitemap);
 const videoSitemap = `<?xml version="1.0" encoding="UTF-8"?>

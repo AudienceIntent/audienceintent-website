@@ -264,6 +264,10 @@ For an online business, a mention counts when ChatGPT references your website in
 
 That means the numbers you see in Business Hub are conservative. The real number of times ChatGPT talks about your business is almost certainly higher.
 
+> “But you need to have your own space with clear information on who you are, where you are, what your expertise is, and how trustworthy you are.”
+
+Mike Hawkes, Senior Content Marketing Manager, BrightLocal · [BrightLocal’s local AI visibility study](https://www.brightlocal.com/research/local-ai-visibility-study/)
+
 ## Why This Is a Bigger Deal Than It Looks
 
 Most of the coverage around Business Hub has focused on the feature itself: claim your profile, see some stats, maybe build a chatbot. That framing misses the bigger story.

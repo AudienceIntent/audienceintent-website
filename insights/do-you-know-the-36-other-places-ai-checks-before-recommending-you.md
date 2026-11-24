@@ -252,9 +252,9 @@ AI engines are in the business of making recommendations people trust. To do tha
 
 The data confirms this across multiple large studies:
 
--   Across multiple 2026 citation studies, **82% to 85% of the sources AI engines cite** in product and recommendation answers come from third parties, not the brand's own domain.
+-   A customer can find information about you on your website, a listing you manage or a page you do not control. Those are three different kinds of sources.
 
--   A [Yext Research analysis of 155.5 million AI citations](https://geoaura.world/blog/geo-for-local-businesses) in Q1 2026 found that between 69% and 85% of citations point to sources a brand can influence but does not own outright.
+-   In [Yext’s study of 155.5 million citations](https://www.yext.com/research/ai-citation-behavior-across-models-consistent-source-preferences-across-a-growing-ai-landscape), brand websites and managed listings together accounted for 69% to 85% of citations, depending on the model. This is a share of citations in that sample, not a formula for winning recommendations.
 
 -   In a study of 100 live "best \[category\] in \[city\]" searches through Gemini, [directory and ranking sites appeared in 78% of answers](https://acromatico.com/research/ai-recommendation-study-2026). Individual business websites appeared too, but almost always as one-off citations in the long tail, never as a top-cited source.
 
@@ -273,7 +273,7 @@ Source: Cheers market baseline, 356,019 citations, 28 days ending September 2, 2
 
 A business optimized only for Gemini (strong Google Business Profile, well-structured website) is largely invisible to ChatGPT, which cannot see Google Reviews and pulls from Foursquare, Yelp, and Bing Places instead. Win one engine and you have done almost nothing for the others. The three major engines name the same local business just 6.5% of the time, according to the Yext 155.5 million citation panel.
 
-**The implication is direct:** if your AI visibility strategy is "update the website and keep the GBP current," you are covering maybe 20% of the signal landscape and ignoring the 80% that decides whether a competitor gets named instead of you.
+**Where to start:** Run the questions your customers ask. Read the sources that appear beside the answers and check whether those pages describe your business accurately.
 
 ## The Six Source Categories AI Checks (and How to Prioritize Them)
 
@@ -360,6 +360,10 @@ Social profiles are the weakest signal category for AI recommendations, but they
 
 The more important signal in this category is brand mention consistency: your business name appearing in the same form across LinkedIn, Facebook, Instagram, and YouTube, matching what appears in your directory listings. Inconsistency across these profiles creates entity confusion for the engine, which reduces confidence in recommending you.
 
+> “You can not only access high-quality web content, but also tap into fresh, real-time sources like the Knowledge Graph, info about the real world, and shopping data for billions of products.”
+
+Robby Stein, VP of Product, Google Search · [How Google’s AI Mode finds information](https://blog.google/products/search/ai-mode-search/)
+
 ## Where Most Businesses Are Actually Spending Their Time
 
 The gap between where businesses invest their visibility effort and where AI engines actually look is the central problem. Most businesses concentrate almost entirely on owned media: website updates, social posts, maybe a Google Business Profile refresh. That work is not wasted, but it addresses a fraction of the signal landscape.
@@ -370,7 +374,7 @@ The takeaway here is not that your website does not matter. It does, especially 
 
 **The effort-to-impact mismatch looks like this:**
 
-Most businesses spend roughly 80% of their digital marketing effort on owned media (website, social, content) and 20% or less on earned media (reviews, directories, press). AI recommendation engines weight those categories in roughly the opposite proportion. That inversion is why businesses with strong traditional SEO can still be invisible in AI search.
+There is no useful fixed split between time spent on your own site and time spent on other sources. If ChatGPT has your old address, the first job is to find the page it is quoting and fix the address there.
 
 The fix is not to abandon your website. It is to build the earned media layer that AI engines are actually checking.
 
@@ -393,7 +397,7 @@ These are the signals that, if wrong or missing, actively disqualify you from AI
 Once the baseline is clean, build presence in the platforms with the highest citation frequency across the broadest set of engines.
 
 1.  **Google Business Profile** (complete, with photos, services, posts, and active review responses)
-2.  **Yelp** (claimed, complete, actively soliciting reviews)
+2.  **Yelp** (claim your listing and keep it current; [Yelp asks businesses not to solicit reviews](https://www.yelp.com/guidelines))
 3.  **Bing Places** (claimed and synced with your GBP data)
 4.  **Foursquare** (claimed, complete, consistent with other listings)
 5.  **Apple Business Connect** (overlooked by most businesses, feeds Siri and Apple Maps AI)
@@ -510,7 +514,7 @@ No. The list is a reference, not a to-do list. Start with the Tier 1 fixes, then
 
 ### Why do third-party sources matter more than my own website?
 
-AI engines want proof they can trust. Any business can write good things about itself, so reviews, directories, news and community mentions carry more weight. Across 2026 citation studies, 82% to 85% of the sources AI cites come from third parties.
+AI engines want proof they can trust. Any business can write good things about itself, so reviews, directories, news and community mentions carry more weight. The balance between your website, managed listings and other sources varies by platform and by question.
 
 ### How do I find out where my business stands?
 

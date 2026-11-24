@@ -154,7 +154,7 @@ schema: >-
     ]
   }
 ---
-It's a Tuesday morning in Coral Gables. A homeowner walks outside after last night's storm and spots a dark water stain spreading across her living room ceiling. She doesn't open Google. She picks up her phone, opens ChatGPT, and types: *"Who is the best roofing company in Miami for storm damage repair?"*
+Picture a Tuesday morning in Coral Gables. A homeowner walks outside after last night's storm and spots a dark water stain spreading across her living room ceiling. She doesn't open Google. She picks up her phone, opens ChatGPT, and types: *"Who is the best roofing company in Miami for storm damage repair?"*
 
 Thirty seconds later, she has three names. She calls the first one.
 
@@ -196,7 +196,7 @@ Research into roofing-related AI queries reveals three distinct query types, eac
 | **Urgency questions** | "Roof leaking after the storm, who do I call in Miami?" | Businesses with stated response times and emergency service pages |
 | **Diligence questions** | "Best licensed roofer in Miami-Dade, who is legit?" | Businesses with visible license numbers, reviews, and third-party citations |
 
-According to a [Florida Roofing AI Visibility Study by Local Vitals](https://getlocalvitals.com/research/florida-roofing-ai-visibility), AI named specific roofing businesses 73.6% of the time when queried about Florida contractors. But 97.2% of the roofers named appeared on only one AI platform. That means a business showing up in ChatGPT is almost certainly invisible in Gemini, and vice versa.
+In [Local Vitals’ April 2026 Florida roofing study](https://getlocalvitals.com/research/florida-roofing-ai-visibility), 610 of 616 answers named at least one roofer. Of the distinct roofers named, 77.3% appeared on just one of the five tools tested. The sample covered ten Florida metros, not Miami alone, and Gemini was tested without live search.
 
 The window to be one of the few businesses that shows up across multiple platforms is open right now. It won't stay open.
 
@@ -375,6 +375,10 @@ Most Miami roofing companies will score zero. That's not an insult. It's the cur
 If you scored zero or close to it, the test tells you where to start. The [Free AI Check](https://report.audienceintent.ai/) asks ChatGPT, Claude, Gemini, Perplexity and Google AI the questions your customers ask, shows whether they name you or a competitor, and lists what to fix.
 
 The Free AI Check takes about two minutes. No signup is needed to run it.
+
+> “There’s still a long way to go for AI recommendations to be fully trusted, but this does suggest that those already using AI find recommendations generally reliable.”
+
+Rosie Murphy, Content Marketer, BrightLocal · [BrightLocal’s 2026 consumer review survey](https://www.brightlocal.com/research/local-consumer-review-survey/)
 
 ## This Applies Beyond Roofing
 

@@ -119,7 +119,7 @@ schema: >-
             "name": "What is AEO, and how is it different from SEO?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Google AI and Perplexity — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means these are genuinely separate ecosystems requiring separate strategies."
+              "text": "Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Google AI and Perplexity — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. A page ranking in Google is not guaranteed a citation in an AI answer."
             }
           },
           {
@@ -183,8 +183,8 @@ This round focused on building, delivering and scaling AI search services, from 
 >
 > * AudienceIntent has completed Searchable's live AI search training program twice (June and October 2026) and holds Certified Agency Partner status.
 > * The program covers AEO, GEO, schema markup, entity optimization, and content built for AI citation — the full stack.
-> * AI Recommended™ now runs on a formally trained, independently verified methodology.
-> * Only 12% of pages cited by ChatGPT rank in Google's top 10. AI search and SEO are separate ecosystems.
+> * Searchable’s certificate verifies the training Kevin completed.
+> * A top Google ranking does not guarantee a citation in an AI answer.
 > * Run the [Free AI Check](https://report.audienceintent.ai/) to see where your business stands in about two minutes.
 
 ## Most "AI Search" Agencies Are Just Rebranded SEO Shops
@@ -193,7 +193,7 @@ When AI search became a real thing, a lot of agencies did what agencies do: they
 
 AI search optimization is genuinely different from SEO. It requires understanding how AI assistants select and cite sources, how schema and entity structure influence AI comprehension, and how to build content that gets extracted and surfaced in answers — not just indexed and ranked. These are not the same skills, and they're not learned by reading a few blog posts.
 
-**Only 12% of pages cited by ChatGPT rank in Google's top 10.** You can dominate Google and still be completely invisible to every AI assistant your customers are using. An agency treating AI search as an SEO add-on is going to deliver SEO results, not AI citation results.
+In [a study of 15,000 prompts](https://ahrefs.com/blog/ai-search-overlap/), Ahrefs compared citations from ChatGPT, Gemini and Copilot with Google’s top ten results. Across the three assistants, the overlap averaged 12%. That is why we track answers separately from rankings.
 
 That gap is exactly what the AI Search Accelerator was built to close.
 
@@ -222,19 +222,29 @@ The final phase shifts from implementation to strategy. It covers competitive an
 
 Completing all three phases is what earns Certified Agency Partner status. It's not a quiz at the end of a video series.
 
+> “Meeting the technical requirements covers you for search generally, including AI formats.”
+
+John Mueller, Google Search Relations · [Google’s guidance for AI search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search)
+
 ## How This Sharpens AI Recommended™
 
-Craft Food Tours saw a +312% increase in traffic from AI within 90 days of working with us.
+In our own tracking, visits from AI to Craft Food Tours rose 312% over 90 days. That measures visits, not bookings. The Searchable certificate verifies the training, not this figure.
 
 The certification doesn't change what we deliver. It formalizes and validates how we deliver it.
 
-Every AI Recommended™ engagement now runs on a methodology trained, tested, and independently verified across three areas:
+We apply that training in three areas:
 
 **Structured content for AI extraction.** The Accelerator training sharpened how we write and format content so that AI engines don't just crawl it — they use it. There's a meaningful difference between content that ranks and content that gets cited. We now have a clearer, more systematic approach to building the latter.
 
 **Schema and entity work done to the standard AI engines require.** This is one of the most commonly skipped or poorly executed parts of AI search optimization. The training covered implementation at the level of detail that actually influences AI comprehension — not checkbox schema, but structured data that accurately represents what a business is, who it serves, and where it operates.
 
 **Citation tracking with real data.** Certified partners operate with access to AI search intelligence tools that measure actual citation frequency across platforms. Clients receive a weekly visibility report covering ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 prompts tracked daily (500 prompts across 6 AI platforms on Pro).
+
+## Sources
+
+- [Kevin Bovett completed the Agency AI Search Accelerator](https://www.searchable.com/certificates/af37d9e5-f767-41bd-a0e6-9b637e99550c): Searchable’s public record identifies Kevin Bovett, the Agency track, Cohort 5 and the October 29, 2026 issue date.
+- [Top ways to ensure your content performs well in Google's AI experiences on Search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search): John Mueller explains how Google’s technical and content guidance applies to its AI search features.
+- [Ahrefs: AI citations and Google’s top 10](https://ahrefs.com/blog/ai-search-overlap/): Across the three assistants in this study, 12% of cited links ranked in Google’s top 10 for the original prompt.
 
 ## Frequently Asked Questions
 
@@ -248,7 +258,7 @@ AI search changes fast. Going back through the program keeps our methods current
 
 ### What is AEO, and how is it different from SEO?
 
-Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Google AI and Perplexity — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means these are genuinely separate ecosystems requiring separate strategies.
+Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Google AI and Perplexity — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. A page ranking in Google is not guaranteed a citation in an AI answer.
 
 ### What is GEO?
 

@@ -89,7 +89,7 @@ AI Recommended™ is built to answer a different question: when someone asks Cha
 
 The metrics that answer those questions are not the ones in your Google Analytics dashboard. They live in a separate measurement framework built specifically for AI search behavior. This article explains every metric in that framework, how each one is calculated, what it means for your business, and how to connect the numbers to revenue.
 
-> **Key takeaway:** AI search traffic converts at 14.2% versus 2.8% for standard organic traffic. That roughly 5.1x difference means AI visibility metrics are not a vanity exercise. They are a direct input to revenue forecasting.
+> **Key takeaway:** Track where your business is mentioned, then check what referred visitors actually do. An answer can name your business without sending a visit or producing a sale.
 
 **What this article covers:**
 
@@ -138,6 +138,10 @@ A score between 30 and 60 means your business is appearing but not dominating. Y
 A score above 60 means consistent, prominent visibility. At this level, the focus shifts to Sentiment and Citation Tracking: making sure the AI is saying the right things about you and linking to the right sources.
 
 > **The benchmark that matters:** Craft Food Tours saw traffic from AI increase +312% in 90 days. That result measures traffic from AI, not citations or ranking improvement.
+
+> “This reflects how often pages are cited, not page importance, ranking, or placement.”
+
+Krishna Madhavan, Meenaz Merchant, Fabrice Canel and Saral Nigam, Product Managers, Microsoft AI; co-authors · [Introducing AI Performance in Bing Webmaster Tools Public Preview](https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/)
 
 ## Mentions vs. Citations: Why the Distinction Matters
 
@@ -190,7 +194,7 @@ The sentiment score in your weekly report is the percentage of positive mentions
 
 Negative sentiment in AI answers is not just a reputation issue. It actively suppresses conversion from the channel that converts best.
 
-AI search traffic converts at 14.2% when the recommendation is positive. That rate assumes the user received a confident, affirming recommendation and acted on it. When the AI hedges, surfaces complaints, or frames your business as a secondary option, the conversion dynamic changes. The user who arrived ready to buy now has a reason to pause.
+Read the answer as a customer would. Does it recommend your business for the right job, or name you only to rule you out? Record that distinction alongside the mention.
 
 **The sources of negative sentiment are usually identifiable and fixable:**
 
@@ -275,7 +279,7 @@ The prompt tracking report shows each query with a status:
 
 ### Prompts as a Revenue Attribution Bridge
 
-Prompt tracking also provides the clearest bridge between AI visibility and revenue. When a prompt in the "winning" category maps to a high-intent query type (direct recommendation, problem-based), and AI-referred traffic from that platform is measurable in your analytics, you can trace the path: this prompt generated this visit, and these visits convert at 14.2%.
+Use prompt results to spot patterns, not to assign a sale to a specific question. Referral data may identify the platform that sent a visit without revealing what that visitor asked.
 
 That is the attribution model. It is not perfect, because AI platforms do not always pass referral data cleanly. But the combination of prompt tracking data and AI-referred traffic in your analytics provides a directional revenue attribution that is significantly more specific than "organic traffic went up."
 
@@ -445,7 +449,7 @@ The AI Recommended™ onboarding audit covers the technical signals that determi
 
 ## How the Metrics Connect to ROI
 
-Each metric in the reporting framework has a direct line to revenue. The connection is not theoretical.
+Mentions, visits and purchases answer different questions. To estimate revenue, start with the visits and purchases your own analytics can identify.
 
 ### The Attribution Model
 
@@ -453,13 +457,13 @@ The ROI calculation for AI-driven search traffic runs through three data points 
 
 1.  **Prompt wins (from prompt tracking):** The specific queries where your business is the top AI recommendation
 2.  **AI-referred traffic (from your analytics):** Sessions where the referring source is a known AI platform (ChatGPT.com, Perplexity.ai, and similar)
-3.  **Conversion rate benchmark:** AI search traffic converts at 14.2% based on verified data across AI-referred traffic studies
+3.  **Observed purchase rate:** Of the sessions you can identify as AI referrals, what share led to a purchase? Use the same reporting period for both counts.
 
 The formula is directional, not exact, because AI platforms do not always pass clean referral data. But it produces a defensible revenue estimate:
 
-**Estimated monthly AI revenue = AI-referred sessions × 14.2% × average transaction value**
+**Estimated monthly revenue from tracked AI referrals = referred sessions × observed purchase rate × average order value**
 
-For a business with 60 AI-referred sessions a month and a $1,500 average sale, assuming a 14.2% conversion rate: 60 × 0.142 × $1,500 = $12,780 in estimated monthly revenue from AI referrals.
+For example, if 3 of 60 tracked visits resulted in purchases averaging $1,500, those purchases brought in $4,500. The 5% purchase rate is just an illustration, not a benchmark. Use recorded revenue when your analytics has it.
 
 ### What Moves the Number
 

@@ -2,9 +2,9 @@
 
 > AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service, AI Recommended™, offered on two plans: AI Recommended and AI Recommended Pro. When people ask ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews or Google AI Mode who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
-This is the full-text version of https://www.audienceintent.ai/llms.txt. It holds the company facts below, then the complete text of all 22 articles from https://www.audienceintent.ai/insights/ (the "Answers" hub), each with its URL and publish date.
+This is the full-text version of https://www.audienceintent.ai/llms.txt. It holds the company facts below, then the complete text of all 23 articles from https://www.audienceintent.ai/insights/ (the "Answers" hub), each with its URL and publish date.
 
-Last updated: 2026-11-20
+Last updated: 2026-11-24
 
 Key facts:
 
@@ -258,6 +258,10 @@ Use a consistent prompt set and record the platform, date, and relevant location
 In GA4, examine identifiable AI referrals and their outcomes. Attribution is incomplete: some people see an answer and later visit directly or search for your name. Google's AI features are not always separable from other Google traffic in standard reports.
 
 Do not assume AI visitors always convert better. Measure your own inquiries and sales. For more detail, read [how to measure AEO with mentions, citations, share of voice, and business KPIs](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
+
+> “AEO is the work of getting those tools to name your business when someone asks for a recommendation.”
+
+Kevin Bovett, AudienceIntent founder, HubSpot Academy certified in AEO Fundamentals · [What Is AEO? Answer Engine Optimization Explained](https://www.audienceintent.ai/videos/what-is-aeo/)
 
 #### How Long Does AEO Take?
 
@@ -521,6 +525,10 @@ Report identifiable AI referrals, search performance, and customer-reported disc
 
 For a fuller measurement plan, see [how to measure AEO campaign success](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
 
+> “SEO gets you ranked in a list of links. AEO gets you named in the answer.”
+
+Kevin Bovett, AudienceIntent founder, HubSpot Academy certified in AEO Fundamentals · [AEO vs SEO: What's the Difference?](https://www.audienceintent.ai/videos/aeo-vs-seo/)
+
 #### What to Do in the First 90 Days
 
 Use the first 90 days to establish a baseline, fix important gaps, and repeat the tests. Do not treat it as a deadline for a guaranteed recommendation.
@@ -751,6 +759,10 @@ These measures describe different things. More mentions do not automatically mea
 
 AudienceIntent’s weekly reporting accompanies daily tracking of 100 prompts. For more detail, see [what AudienceIntent’s weekly report measures](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained).
 
+> “Every AI platform has its own way of citing sources, and that’s something we can’t fully control.”
+
+Mateusz Makosiewicz, Marketing researcher and educator at Ahrefs · [Ahrefs’ study of brand mentions and links](https://ahrefs.com/blog/ai-citations-vs-impressions-study/)
+
 #### Client Results
 
 AudienceIntent’s client results include the following three outcomes. Each is a result for that client, not a promise that another business will achieve the same change.
@@ -860,20 +872,20 @@ This guide breaks down what the market charges, what you actually get at each pr
 >     
 > -   Most agencies require 6-12 month contracts with setup fees of $2,500-$12,000+
 >     
-> -   AI traffic converts at 4.4x the rate of standard organic traffic — the ROI case is real
+> -   Track inquiries and sales from AI referrals to judge your own return
 >     
-> -   Only 12% of pages cited by ChatGPT rank in Google's top 10, so SEO alone won't get you there
+> -   A high Google ranking does not guarantee a citation in an AI answer
 >     
 
 #### Why AI Search Visibility Is a Separate Investment From SEO
 
 Most business owners assume their existing SEO investment covers AI search. It doesn't — and the data makes that gap hard to ignore.
 
-[Research shows that only 12% of pages cited by ChatGPT rank in Google's top 10](https://www.audienceintent.ai/insights/aeo-vs-seo)). These are almost entirely separate ecosystems. A business can rank on page one of Google and still be completely invisible when a customer asks an AI assistant for a recommendation.
+[Ahrefs compared citations across 15,000 prompts](https://ahrefs.com/blog/ai-search-overlap/). Across ChatGPT, Gemini and Copilot, an average of 12% of cited links also appeared in Google’s top ten for the original prompt. Your rankings and your citations are worth checking separately.
 
 **Why the gap exists:** Google ranks pages based on links, keywords, and technical signals. AI assistants cite sources based on authority, structured content, third-party mentions, and how well a business answers the specific questions people are actually asking. The optimization playbook is different.
 
-The scale of the shift matters too. [Since AI Overviews appeared in Google search results, organic click-through rates have dropped 61%](https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math). Traffic that used to flow to websites is now being absorbed by AI-generated answers. Businesses that aren't in those answers aren't just missing a new channel — they're losing ground they already had.
+In [Seer Interactive’s study](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update), organic click-through rates fell 61% between June 2024 and September 2025 for the informational queries in its sample that displayed AI Overviews. That is not a 61% decline for every website.
 
 ##### What AI Search Visibility Services Actually Do
 
@@ -884,7 +896,7 @@ When you pay for AI search visibility, you're paying for a specific set of activ
 - **Prompt tracking and reporting:** Monitoring which AI prompts your business appears in and which ones you're missing
 - **Ongoing optimization:** Adjusting based on what's working, what's not, and how AI engines are evolving
 
-[85% of brand mentions in AI answers come from third-party sources](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines) — not from the business's own website. That's the core of why this work is different from SEO, and why it requires a different kind of investment.
+Check the sources in answers to your customers’ questions. If the assistant cites a directory or a review site instead of your website, correcting the information there can be a better use of your budget than writing another page.
 
 #### What AI Search Visibility Actually Costs in 2026
 
@@ -956,13 +968,17 @@ Real client results after 90 days with AudienceIntent:
 
 Those results won't be identical for every business — industry, market, and timing all affect the outcome. But they illustrate what active execution looks like versus a passive monitoring subscription.
 
+> “Start by adding up what you spend on AI search, then estimate the revenue it brings in using tracked conversions, survey answers, or both.”
+
+Louise Linehan, Content Marketer, Ahrefs · [How Ahrefs measures AI search ROI](https://ahrefs.com/blog/ai-search-roi/)
+
 #### Is AI Search Visibility Worth the Investment?
 
-The ROI case for AI search visibility comes down to one number: [AI search traffic converts at 4.4 times the rate of standard organic traffic](https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it). That's not a marginal improvement. It's a fundamentally different quality of visitor.
+[Semrush’s research](https://www.semrush.com/blog/ai-search-seo-traffic-study/) put a higher conversion value on the average AI referral in its sample. The number that matters for your budget is how many of your referred customers buy, and what you earn on each sale.
 
-When someone finds your business through a Google search, they're still in research mode. When an AI assistant recommends your business by name in response to a direct question, the customer has already decided they want what you offer. They're asking for a recommendation, not a list of options. That intent difference is what drives the conversion gap.
+Ask new customers how they found you. A buyer who first heard about you in ChatGPT may visit your site later through Google or by typing your address.
 
-**The math for a typical local service business:**
+**An example using round numbers, not a forecast:**
 
 If your average job or sale is worth $2,000 and AI search brings you 10 paying customers per month, that's $20,000 in monthly revenue before costs. Compare that with the service price and your profit per sale to judge whether the investment makes sense.
 
@@ -1047,7 +1063,7 @@ As AI search has grown, so has the number of vendors claiming to dominate it. So
 | "We'll make you number 1 in ChatGPT." | There is no number 1 position in ChatGPT. Answers are generated per query, not ranked in a fixed index. |
 | "You'll appear in AI answers in 7 days." | Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. |
 | "We can control what AI says about your brand." | No vendor has access to the output layer of any AI system. You can influence what AI says by improving your signals; you cannot dictate it. |
-| "AI visibility is just SEO with a new name." | Only [12% of pages cited by ChatGPT rank in Google's top 10](https://audienceintent.ai/insights). These are different ecosystems with different signals and different citation logic. |
+| "AI visibility is just SEO with a new name." | In [Ahrefs’ study](https://ahrefs.com/blog/ai-search-overlap/), just 12% of cited links across the three assistants tested appeared in Google’s top 10 for the same prompt. A Google ranking and an AI citation measure different things. |
 | "You only need one article to rank in AI." | AI systems draw from dozens of signals: reviews, directories, third-party mentions, structured data, and more. One piece of content is not a strategy. |
 | "We guarantee AI recommendations." | Guarantees require control. No vendor controls AI outputs. Any guarantee here is either a misrepresentation or a meaningless promise with no accountability behind it. |
 | "We can erase competitors from AI answers." | This is not how AI systems work. You cannot remove a competitor from an AI's training data or live search results. The only legitimate play is to become more credible than they are. |
@@ -1068,9 +1084,9 @@ If you cannot control AI search, you can still shape it. The signals below are w
 
 **Helpful, citation-worthy content.** AI systems cite pages that directly answer the questions people are asking. Service pages, location pages, FAQ content, comparison guides, and proof-based case studies all give AI something concrete to reference.
 
-**Review volume and sentiment.** [Research consistently shows](https://audienceintent.ai/insights) that AI systems factor in reviews when forming recommendations. A business with 200 recent, detailed reviews is more citable than one with 12 old ones. Sentiment matters too — not just star ratings, but the language customers use.
+**Reviews.** Check what customers say about the service in question. A review that names the job and the location is easier for a potential buyer to evaluate than a star rating alone.
 
-**Third-party mentions.** Approximately 85% of brand mentions in AI answers come from third-party sources, not the brand's own website. Industry directories, local publications, partner sites, and review platforms all contribute to the picture AI systems build of your business.
+**Third-party mentions.** When an answer names your business, check which source it cites. It may be a site you do not own. Industry directories, local publications, partner sites, and review platforms all contribute to the picture AI systems build of your business.
 
 **Directory and profile consistency.** Yelp, BBB, Angi, Houzz, industry-specific directories — these are sources AI systems pull from. Being present and accurate across them matters.
 
@@ -1078,7 +1094,7 @@ If you cannot control AI search, you can still shape it. The signals below are w
 
 **FAQ coverage.** AI systems are built to answer questions. Pages that directly answer the questions your customers ask are more likely to be cited than pages that only describe what you sell.
 
-**Proof points and case studies.** Specific, verifiable results build credibility. "Craft Food Tours saw traffic from AI increase by 312% in 90 days" is more citable than "we deliver results."
+**Proof points and case studies.** If you publish a result, show the starting number, the end number and the dates. Tell the reader whether you counted mentions, visits or paying customers.
 
 **Freshness and ongoing updates.** Stale content signals a stale business. AI systems that use live web results favor recently updated pages and active profiles.
 
@@ -1104,6 +1120,10 @@ Here is what a legitimate process includes:
 
 This is not a shortcut. It is a compounding strategy. The businesses that build AI visibility the right way are the ones that become harder to displace over time — because their signals are genuinely stronger, not because someone gamed a system that cannot be gamed.
 
+> “Ask AI the same question twice, and you can get two different answers.”
+
+Kevin Bovett, AudienceIntent founder, HubSpot Academy certified in AEO Fundamentals · [How Do You Track AEO?](https://www.audienceintent.ai/videos/how-do-you-track-aeo/)
+
 #### The Real Goal Is Trust, Not Instant Rankings
 
 Here is the thing that gets lost in all the talk about AI rankings and number 1 placements: AI systems are not trying to rank businesses. They are trying to answer questions confidently.
@@ -1118,7 +1138,7 @@ The brands that will win in AI search over the next few years are not the ones t
 
 That means doing the unglamorous work: cleaning up your entity data, building out your FAQ content, earning more reviews, getting mentioned in more places, and keeping your information fresh and accurate. None of it is a hack. All of it compounds.
 
-Customers who find you through AI search are already in a high-trust state. They asked for a recommendation and your name came up. That traffic converts at [4.4 times the rate of standard organic search](https://audienceintent.ai/insights) — 14.2% versus 2.8%. The prize is real. The path to it is just not the one being sold in most cold emails right now.
+If a customer says ChatGPT recommended you, ask which question they asked. Record the answer alongside the inquiry in your CRM. That gives you something more useful than an industry conversion rate: a way to see which inquiries become sales for your business.
 
 #### AudienceIntent's Standard
 
@@ -1159,6 +1179,11 @@ Before you hire anyone to work on your AI search visibility, run them through th
 
 The right vendor will welcome these questions. They will have clear answers, documented processes, and a reporting framework that shows you exactly what is being measured and how it is changing over time.
 
+#### Sources
+- [ChatGPT search](https://help.openai.com/en/articles/9237897-chatgpt-search): OpenAI explains how it ranks search results and says placement is not guaranteed.
+- [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features): Google explains which pages are eligible to appear as supporting links in AI Overviews and AI Mode.
+- [Ahrefs: AI citations and Google’s top 10](https://ahrefs.com/blog/ai-search-overlap/): A 15,000-prompt comparison of the links cited by ChatGPT, Gemini and Copilot with Google’s results for the original prompt.
+
 #### Frequently Asked Questions
 
 ##### Can anyone guarantee a number 1 ranking in ChatGPT?
@@ -1173,7 +1198,7 @@ Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google A
 ---
 ##### What is the difference between SEO and AI visibility?
 
-SEO improves your rankings in Google's traditional search results. AI visibility determines whether AI systems like ChatGPT, Perplexity, Gemini, and Claude cite and recommend your business when customers ask for recommendations. Only 12% of pages cited by ChatGPT rank in Google's top 10 — they are separate ecosystems with different signals, different citation logic, and different measurement frameworks.
+SEO improves your rankings in Google's traditional search results. AI visibility determines whether AI systems like ChatGPT, Perplexity, Gemini, and Claude cite and recommend your business when customers ask for recommendations. A page can rank in Google without appearing as a source in an assistant's answer.
 
 ---
 ##### What makes a business more likely to be recommended by AI?
@@ -1370,6 +1395,10 @@ Published conversion studies vary, so use your own results rather than a univers
 [First Page Sage's analysis](https://firstpagesage.com/seo-blog/conversion-rate-benchmarks/) of 218 sites reports visitor-to-lead rates of 4.7% for ChatGPT, 4.1% for Perplexity, and 1.9% for Google organic. By contrast, [Usermaven's B2B SaaS study](https://usermaven.com/research/ai-search-attribution-b2b-saas) of 150 websites found identifiable AI referrals represented 0.88% of sessions, with a same-session conversion rate of about 1.76%.
 
 These are different samples and measures, not interchangeable benchmarks. Track the customer actions that matter to your business.
+
+> “Focus on making unique, non-commodity content that visitors from Search and your own readers will find helpful and satisfying.”
+
+John Mueller, Google Search Relations · [Google’s guidance for AI search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search)
 
 #### Step 8: Keep the Work Going for at Least 90 Days
 
@@ -1654,6 +1683,10 @@ Most importantly, separate branded questions from unbranded ones. “What do you
 
 For more detail, see [how to measure AEO mentions, citations, and share of voice](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
 
+> “It's therefore not enough to identify fan-out queries and rank well for them—there are additional factors influencing which URLs get surfaced, that are outside of a publisher’s control.”
+
+Louise Linehan, Content Marketer at Ahrefs; author of its AI citation-overlap study · [Ahrefs’ study of ChatGPT and Google citations](https://ahrefs.com/blog/chatgpt-google-citations/)
+
 #### How long improvement realistically takes
 
 Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis.
@@ -1864,6 +1897,10 @@ Claude, built by Anthropic, relies primarily on its training data and, when sear
 
 The strategic takeaway: building citations across multiple independent sources is the only approach that works across all platforms simultaneously. A narrow strategy optimized for one platform creates fragility.
 
+> “Various biases and different methodologies mean that even for the same queries, these systems may cite completely different websites.”
+
+Patrick Stox, Independent SEO consultant; formerly Technical SEO and Product Advisor at Ahrefs · [Ahrefs’ cross-platform citation study](https://ahrefs.com/blog/top-mentioned-sources-are-not-shared-across-ai-assistants/)
+
 #### Why Most Businesses Are Invisible to AI (And Don't Know It)
 
 Most businesses that aren't getting recommended by AI aren't doing anything wrong. They're just doing things that only worked for traditional search.
@@ -2029,8 +2066,8 @@ Before mapping the source categories, it helps to understand the fundamental spl
 AI engines are in the business of making recommendations people trust. To do that, they need signals that cannot be easily manufactured. Owned media fails that test. Any business can write glowing copy about itself. Earned media is harder to fake at scale, which is why engines weight it more heavily when synthesizing a recommendation.
 
 The data confirms this across multiple large studies:
-- Across multiple 2026 citation studies, **82% to 85% of the sources AI engines cite** in product and recommendation answers come from third parties, not the brand's own domain.
-- A [Yext Research analysis of 155.5 million AI citations](https://geoaura.world/blog/geo-for-local-businesses) in Q1 2026 found that between 69% and 85% of citations point to sources a brand can influence but does not own outright.
+- A customer can find information about you on your website, a listing you manage or a page you do not control. Those are three different kinds of sources.
+- In [Yext’s study of 155.5 million citations](https://www.yext.com/research/ai-citation-behavior-across-models-consistent-source-preferences-across-a-growing-ai-landscape), brand websites and managed listings together accounted for 69% to 85% of citations, depending on the model. This is a share of citations in that sample, not a formula for winning recommendations.
 - In a study of 100 live "best \[category\] in \[city\]" searches through Gemini, [directory and ranking sites appeared in 78% of answers](https://acromatico.com/research/ai-recommendation-study-2026). Individual business websites appeared too, but almost always as one-off citations in the long tail, never as a top-cited source.
 
 ##### The Platform Split Makes This Worse
@@ -2048,7 +2085,7 @@ Source: Cheers market baseline, 356,019 citations, 28 days ending September 2, 2
 
 A business optimized only for Gemini (strong Google Business Profile, well-structured website) is largely invisible to ChatGPT, which cannot see Google Reviews and pulls from Foursquare, Yelp, and Bing Places instead. Win one engine and you have done almost nothing for the others. The three major engines name the same local business just 6.5% of the time, according to the Yext 155.5 million citation panel.
 
-**The implication is direct:** if your AI visibility strategy is "update the website and keep the GBP current," you are covering maybe 20% of the signal landscape and ignoring the 80% that decides whether a competitor gets named instead of you.
+**Where to start:** Run the questions your customers ask. Read the sources that appear beside the answers and check whether those pages describe your business accurately.
 
 #### The Six Source Categories AI Checks (and How to Prioritize Them)
 
@@ -2127,6 +2164,10 @@ Social profiles are the weakest signal category for AI recommendations, but they
 
 The more important signal in this category is brand mention consistency: your business name appearing in the same form across LinkedIn, Facebook, Instagram, and YouTube, matching what appears in your directory listings. Inconsistency across these profiles creates entity confusion for the engine, which reduces confidence in recommending you.
 
+> “You can not only access high-quality web content, but also tap into fresh, real-time sources like the Knowledge Graph, info about the real world, and shopping data for billions of products.”
+
+Robby Stein, VP of Product, Google Search · [How Google’s AI Mode finds information](https://blog.google/products/search/ai-mode-search/)
+
 #### Where Most Businesses Are Actually Spending Their Time
 
 The gap between where businesses invest their visibility effort and where AI engines actually look is the central problem. Most businesses concentrate almost entirely on owned media: website updates, social posts, maybe a Google Business Profile refresh. That work is not wasted, but it addresses a fraction of the signal landscape.
@@ -2137,7 +2178,7 @@ The takeaway here is not that your website does not matter. It does, especially 
 
 **The effort-to-impact mismatch looks like this:**
 
-Most businesses spend roughly 80% of their digital marketing effort on owned media (website, social, content) and 20% or less on earned media (reviews, directories, press). AI recommendation engines weight those categories in roughly the opposite proportion. That inversion is why businesses with strong traditional SEO can still be invisible in AI search.
+There is no useful fixed split between time spent on your own site and time spent on other sources. If ChatGPT has your old address, the first job is to find the page it is quoting and fix the address there.
 
 The fix is not to abandon your website. It is to build the earned media layer that AI engines are actually checking.
 
@@ -2156,7 +2197,7 @@ These are the signals that, if wrong or missing, actively disqualify you from AI
 
 Once the baseline is clean, build presence in the platforms with the highest citation frequency across the broadest set of engines.
 1. **Google Business Profile** (complete, with photos, services, posts, and active review responses)
-2. **Yelp** (claimed, complete, actively soliciting reviews)
+2. **Yelp** (claim your listing and keep it current; [Yelp asks businesses not to solicit reviews](https://www.yelp.com/guidelines))
 3. **Bing Places** (claimed and synced with your GBP data)
 4. **Foursquare** (claimed, complete, consistent with other listings)
 5. **Apple Business Connect** (overlooked by most businesses, feeds Siri and Apple Maps AI)
@@ -2261,7 +2302,7 @@ No. The list is a reference, not a to-do list. Start with the Tier 1 fixes, then
 
 ##### Why do third-party sources matter more than my own website?
 
-AI engines want proof they can trust. Any business can write good things about itself, so reviews, directories, news and community mentions carry more weight. Across 2026 citation studies, 82% to 85% of the sources AI cites come from third parties.
+AI engines want proof they can trust. Any business can write good things about itself, so reviews, directories, news and community mentions carry more weight. The balance between your website, managed listings and other sources varies by platform and by question.
 
 ##### How do I find out where my business stands?
 
@@ -2451,6 +2492,10 @@ That last one matters more than people think.
 
 Business owners do not need a dashboard full of confetti. They need to know what improved, what did not, and what gets done next.
 
+> “The measurement framework exists because visibility without measurement is guesswork.”
+
+Kevin Bovett, Founder & CEO, AudienceIntent · [How AudienceIntent Measures AI Visibility: Every Metric, Score, and Attribution Model Explained](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained)
+
 #### What Results Should Look Like in the First 90 Days
 
 Here is the honest answer.
@@ -2484,7 +2529,7 @@ That usually means:
 
 And we show the numbers.
 
-One example: Craft Food Tours saw a **312% increase in traffic from AI in 90 days**. Vault Metal went from **169 to 7,808 mentions** and **3 to 751 citations in 90 days**.
+In our [Vault Metal case study](https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days), we reported 169 mentions at baseline and 7,808 at the end of 90 days. Citations rose from 3 to 751. Ask a potential partner to show the underlying report for a result like this, not just the headline.
 
 That does not mean every business gets the same result.
 
@@ -2505,6 +2550,10 @@ Before you hire anyone, make sure they can say yes to most of this:
 - They do not promise what nobody can guarantee
 
 If a partner cannot do those things, keep looking.
+
+#### Sources
+- [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo): Questions Google recommends asking a prospective search consultant, including how they measure results.
+- [Vault Metal: Invisible in AI to 7,808 Mentions in 90 Days](https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days): Our published 90-day case study reports mentions and citations. Those are counts in tracked answers, not leads or sales.
 
 #### Frequently Asked Questions
 
@@ -2716,6 +2765,10 @@ Review the full prompt library monthly and its relevance quarterly. Preserve a s
 
 Add new questions and competitors as a new comparison group, or clearly mark a new baseline. Otherwise, an apparent performance change may simply reflect a harder prompt set.
 
+> “Consider looking at various indicators of conversion on your site, be it sales, signups, a more engaged audience, or information lookups about your business.”
+
+John Mueller, Google Search Relations · [Google’s guidance on conversion metrics](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search)
+
 #### Connect Visibility to Traffic and Demand
 
 Use analytics to measure identifiable visits, then treat branded search and customer feedback as supporting evidence. Referral data cannot capture every person influenced by an AI answer.
@@ -2841,7 +2894,7 @@ AI Recommended™ is built to answer a different question: when someone asks Cha
 
 The metrics that answer those questions are not the ones in your Google Analytics dashboard. They live in a separate measurement framework built specifically for AI search behavior. This article explains every metric in that framework, how each one is calculated, what it means for your business, and how to connect the numbers to revenue.
 
-> **Key takeaway:** AI search traffic converts at 14.2% versus 2.8% for standard organic traffic. That roughly 5.1x difference means AI visibility metrics are not a vanity exercise. They are a direct input to revenue forecasting.
+> **Key takeaway:** Track where your business is mentioned, then check what referred visitors actually do. An answer can name your business without sending a visit or producing a sale.
 
 **What this article covers:**
 - The Overall Visibility Score and its five components
@@ -2882,6 +2935,10 @@ A score between 30 and 60 means your business is appearing but not dominating. Y
 A score above 60 means consistent, prominent visibility. At this level, the focus shifts to Sentiment and Citation Tracking: making sure the AI is saying the right things about you and linking to the right sources.
 
 > **The benchmark that matters:** Craft Food Tours saw traffic from AI increase +312% in 90 days. That result measures traffic from AI, not citations or ranking improvement.
+
+> “This reflects how often pages are cited, not page importance, ranking, or placement.”
+
+Krishna Madhavan, Meenaz Merchant, Fabrice Canel and Saral Nigam, Product Managers, Microsoft AI; co-authors · [Introducing AI Performance in Bing Webmaster Tools Public Preview](https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/)
 
 #### Mentions vs. Citations: Why the Distinction Matters
 
@@ -2928,7 +2985,7 @@ The sentiment score in your weekly report is the percentage of positive mentions
 
 Negative sentiment in AI answers is not just a reputation issue. It actively suppresses conversion from the channel that converts best.
 
-AI search traffic converts at 14.2% when the recommendation is positive. That rate assumes the user received a confident, affirming recommendation and acted on it. When the AI hedges, surfaces complaints, or frames your business as a secondary option, the conversion dynamic changes. The user who arrived ready to buy now has a reason to pause.
+Read the answer as a customer would. Does it recommend your business for the right job, or name you only to rule you out? Record that distinction alongside the mention.
 
 **The sources of negative sentiment are usually identifiable and fixable:**
 - Negative reviews on high-weight platforms (Google Business Profile, Yelp, industry directories) that AI systems synthesize into their responses
@@ -3002,7 +3059,7 @@ The prompt tracking report shows each query with a status:
 
 ##### Prompts as a Revenue Attribution Bridge
 
-Prompt tracking also provides the clearest bridge between AI visibility and revenue. When a prompt in the "winning" category maps to a high-intent query type (direct recommendation, problem-based), and AI-referred traffic from that platform is measurable in your analytics, you can trace the path: this prompt generated this visit, and these visits convert at 14.2%.
+Use prompt results to spot patterns, not to assign a sale to a specific question. Referral data may identify the platform that sent a visit without revealing what that visitor asked.
 
 That is the attribution model. It is not perfect, because AI platforms do not always pass referral data cleanly. But the combination of prompt tracking data and AI-referred traffic in your analytics provides a directional revenue attribution that is significantly more specific than "organic traffic went up."
 
@@ -3143,20 +3200,20 @@ The AI Recommended™ onboarding audit covers the technical signals that determi
 
 #### How the Metrics Connect to ROI
 
-Each metric in the reporting framework has a direct line to revenue. The connection is not theoretical.
+Mentions, visits and purchases answer different questions. To estimate revenue, start with the visits and purchases your own analytics can identify.
 
 ##### The Attribution Model
 
 The ROI calculation for AI-driven search traffic runs through three data points that are tracked concurrently:
 1. **Prompt wins (from prompt tracking):** The specific queries where your business is the top AI recommendation
 2. **AI-referred traffic (from your analytics):** Sessions where the referring source is a known AI platform (ChatGPT.com, Perplexity.ai, and similar)
-3. **Conversion rate benchmark:** AI search traffic converts at 14.2% based on verified data across AI-referred traffic studies
+3. **Observed purchase rate:** Of the sessions you can identify as AI referrals, what share led to a purchase? Use the same reporting period for both counts.
 
 The formula is directional, not exact, because AI platforms do not always pass clean referral data. But it produces a defensible revenue estimate:
 
-**Estimated monthly AI revenue = AI-referred sessions × 14.2% × average transaction value**
+**Estimated monthly revenue from tracked AI referrals = referred sessions × observed purchase rate × average order value**
 
-For a business with 60 AI-referred sessions a month and a $1,500 average sale, assuming a 14.2% conversion rate: 60 × 0.142 × $1,500 = $12,780 in estimated monthly revenue from AI referrals.
+For example, if 3 of 60 tracked visits resulted in purchases averaging $1,500, those purchases brought in $4,500. The 5% purchase rate is just an illustration, not a benchmark. Use recorded revenue when your analytics has it.
 
 ##### What Moves the Number
 
@@ -3599,6 +3656,12 @@ Referral data is incomplete. Someone may get an AI recommendation, search your n
 
 For definitions and reporting guidance, see [how to measure an AEO campaign](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
 
+> “When one new customer covers months of the work, the math is easy.”
+
+Kevin Bovett, AudienceIntent founder, HubSpot Academy certified in AEO Fundamentals · [Is AEO Right for My Business?](https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/)
+
+Use the profit from one new customer for that calculation. A mention alone does not pay for the work.
+
 #### How to Make the Business Case for a 90-Day Start
 
 A credible business case combines observed gaps, conservative customer math, a defined scope of work, and a review date. It does not need a dramatic estimate of money already lost.
@@ -3674,7 +3737,7 @@ URL: https://www.audienceintent.ai/insights/if-a-miami-homeowner-asks-ai-who-to-
 Published: 2026-08-17
 Summary: A Miami roofing case study showing why local customers ask AI who to hire, what that means for revenue, and how to get visible before competitors do.
 
-It's a Tuesday morning in Coral Gables. A homeowner walks outside after last night's storm and spots a dark water stain spreading across her living room ceiling. She doesn't open Google. She picks up her phone, opens ChatGPT, and types: *"Who is the best roofing company in Miami for storm damage repair?"*
+Picture a Tuesday morning in Coral Gables. A homeowner walks outside after last night's storm and spots a dark water stain spreading across her living room ceiling. She doesn't open Google. She picks up her phone, opens ChatGPT, and types: *"Who is the best roofing company in Miami for storm damage repair?"*
 
 Thirty seconds later, she has three names. She calls the first one.
 
@@ -3713,7 +3776,7 @@ Research into roofing-related AI queries reveals three distinct query types, eac
 | **Urgency questions** | "Roof leaking after the storm, who do I call in Miami?" | Businesses with stated response times and emergency service pages |
 | **Diligence questions** | "Best licensed roofer in Miami-Dade, who is legit?" | Businesses with visible license numbers, reviews, and third-party citations |
 
-According to a [Florida Roofing AI Visibility Study by Local Vitals](https://getlocalvitals.com/research/florida-roofing-ai-visibility), AI named specific roofing businesses 73.6% of the time when queried about Florida contractors. But 97.2% of the roofers named appeared on only one AI platform. That means a business showing up in ChatGPT is almost certainly invisible in Gemini, and vice versa.
+In [Local Vitals’ April 2026 Florida roofing study](https://getlocalvitals.com/research/florida-roofing-ai-visibility), 610 of 616 answers named at least one roofer. Of the distinct roofers named, 77.3% appeared on just one of the five tools tested. The sample covered ten Florida metros, not Miami alone, and Gemini was tested without live search.
 
 The window to be one of the few businesses that shows up across multiple platforms is open right now. It won't stay open.
 
@@ -3878,6 +3941,10 @@ If you scored zero or close to it, the test tells you where to start. The [Free 
 
 The Free AI Check takes about two minutes. No signup is needed to run it.
 
+> “There’s still a long way to go for AI recommendations to be fully trusted, but this does suggest that those already using AI find recommendations generally reliable.”
+
+Rosie Murphy, Content Marketer, BrightLocal · [BrightLocal’s 2026 consumer review survey](https://www.brightlocal.com/research/local-consumer-review-survey/)
+
 #### This Applies Beyond Roofing
 
 The roofing example is specific because Miami's storm market makes the stakes unusually clear. But the underlying dynamic applies to any local service business where customers make high-consideration hiring decisions.
@@ -3976,6 +4043,10 @@ This is worth a moment. OpenAI is careful about how it defines a "mention."
 For an online business, a mention counts when ChatGPT references your website in a response. Your brand name appearing in text without a link does not count. For a local business, a mention counts when ChatGPT shows your location in a result, even if the customer doesn't click through.
 
 That means the numbers you see in Business Hub are conservative. The real number of times ChatGPT talks about your business is almost certainly higher.
+
+> “But you need to have your own space with clear information on who you are, where you are, what your expertise is, and how trustworthy you are.”
+
+Mike Hawkes, Senior Content Marketing Manager, BrightLocal · [BrightLocal’s local AI visibility study](https://www.brightlocal.com/research/local-ai-visibility-study/)
 
 #### Why This Is a Bigger Deal Than It Looks
 
@@ -4310,6 +4381,12 @@ Ninety days earlier, Vault Metal was nearly invisible to AI. Over those 90 days,
 
 **The citations are the number that matters most.** A mention means an AI referenced the brand. A citation means it pointed back to Vault Metal as a source. Going from 3 to 751 citations means AI assistants are now treating Vault Metal as a credible, referable business — not an unknown.
 
+#### What the 90-day results show
+
+**What it shows:** The answers we tracked named Vault Metal more often at the end of the campaign. Citations rose as well, from 3 to 751, so the increase wasn’t limited to mentions without a source.
+
+**What it cannot show:** A business can appear in hundreds of answers without reaching hundreds of different people. These counts do not tell us how many people visited, called or bought. We changed several things at once, so the comparison cannot tell us which change made the difference.
+
 #### Why This Matters for Your Business
 
 Every mention and citation is a moment where an AI chose to name Vault Metal instead of a competitor. That's not something you can buy with an ad. It's something you earn by making sure AI platforms have enough accurate, credible information about your business to include you in the answer.
@@ -4376,8 +4453,8 @@ This round focused on building, delivering and scaling AI search services, from 
 >
 > * AudienceIntent has completed Searchable's live AI search training program twice (June and October 2026) and holds Certified Agency Partner status.
 > * The program covers AEO, GEO, schema markup, entity optimization, and content built for AI citation — the full stack.
-> * AI Recommended™ now runs on a formally trained, independently verified methodology.
-> * Only 12% of pages cited by ChatGPT rank in Google's top 10. AI search and SEO are separate ecosystems.
+> * Searchable’s certificate verifies the training Kevin completed.
+> * A top Google ranking does not guarantee a citation in an AI answer.
 > * Run the [Free AI Check](https://report.audienceintent.ai/) to see where your business stands in about two minutes.
 
 #### Most "AI Search" Agencies Are Just Rebranded SEO Shops
@@ -4386,7 +4463,7 @@ When AI search became a real thing, a lot of agencies did what agencies do: they
 
 AI search optimization is genuinely different from SEO. It requires understanding how AI assistants select and cite sources, how schema and entity structure influence AI comprehension, and how to build content that gets extracted and surfaced in answers — not just indexed and ranked. These are not the same skills, and they're not learned by reading a few blog posts.
 
-**Only 12% of pages cited by ChatGPT rank in Google's top 10.** You can dominate Google and still be completely invisible to every AI assistant your customers are using. An agency treating AI search as an SEO add-on is going to deliver SEO results, not AI citation results.
+In [a study of 15,000 prompts](https://ahrefs.com/blog/ai-search-overlap/), Ahrefs compared citations from ChatGPT, Gemini and Copilot with Google’s top ten results. Across the three assistants, the overlap averaged 12%. That is why we track answers separately from rankings.
 
 That gap is exactly what the AI Search Accelerator was built to close.
 
@@ -4414,19 +4491,28 @@ The final phase shifts from implementation to strategy. It covers competitive an
 
 Completing all three phases is what earns Certified Agency Partner status. It's not a quiz at the end of a video series.
 
+> “Meeting the technical requirements covers you for search generally, including AI formats.”
+
+John Mueller, Google Search Relations · [Google’s guidance for AI search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search)
+
 #### How This Sharpens AI Recommended™
 
-Craft Food Tours saw a +312% increase in traffic from AI within 90 days of working with us.
+In our own tracking, visits from AI to Craft Food Tours rose 312% over 90 days. That measures visits, not bookings. The Searchable certificate verifies the training, not this figure.
 
 The certification doesn't change what we deliver. It formalizes and validates how we deliver it.
 
-Every AI Recommended™ engagement now runs on a methodology trained, tested, and independently verified across three areas:
+We apply that training in three areas:
 
 **Structured content for AI extraction.** The Accelerator training sharpened how we write and format content so that AI engines don't just crawl it — they use it. There's a meaningful difference between content that ranks and content that gets cited. We now have a clearer, more systematic approach to building the latter.
 
 **Schema and entity work done to the standard AI engines require.** This is one of the most commonly skipped or poorly executed parts of AI search optimization. The training covered implementation at the level of detail that actually influences AI comprehension — not checkbox schema, but structured data that accurately represents what a business is, who it serves, and where it operates.
 
 **Citation tracking with real data.** Certified partners operate with access to AI search intelligence tools that measure actual citation frequency across platforms. Clients receive a weekly visibility report covering ChatGPT, Google AI (AI Overviews and AI Mode), and Perplexity, with 100 prompts tracked daily (500 prompts across 6 AI platforms on Pro).
+
+#### Sources
+- [Kevin Bovett completed the Agency AI Search Accelerator](https://www.searchable.com/certificates/af37d9e5-f767-41bd-a0e6-9b637e99550c): Searchable’s public record identifies Kevin Bovett, the Agency track, Cohort 5 and the October 29, 2026 issue date.
+- [Top ways to ensure your content performs well in Google's AI experiences on Search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search): John Mueller explains how Google’s technical and content guidance applies to its AI search features.
+- [Ahrefs: AI citations and Google’s top 10](https://ahrefs.com/blog/ai-search-overlap/): Across the three assistants in this study, 12% of cited links ranked in Google’s top 10 for the original prompt.
 
 #### Frequently Asked Questions
 
@@ -4440,7 +4526,7 @@ AI search changes fast. Going back through the program keeps our methods current
 
 ##### What is AEO, and how is it different from SEO?
 
-Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Google AI and Perplexity — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. Only 12% of pages cited by ChatGPT rank in Google's top 10, which means these are genuinely separate ecosystems requiring separate strategies.
+Answer Engine Optimization (AEO) is the practice of structuring content so that AI assistants — ChatGPT, Google AI and Perplexity — extract and cite it when answering user queries. SEO optimizes for Google rankings. AEO optimizes for AI citations. A page ranking in Google is not guaranteed a citation in an AI answer.
 
 ##### What is GEO?
 
@@ -4497,9 +4583,15 @@ The AEO Fundamentals curriculum is built around the practical mechanics of getti
 
 ##### Why This Curriculum Is Relevant
 
-AEO is not an extension of SEO. The two disciplines share some overlap in content quality standards, but AI assistants use a different set of signals when deciding what to cite. Only [12% of pages cited by ChatGPT rank in Google's top 10](https://audienceintent.ai/insights), which means strong Google rankings do not transfer automatically to AI visibility.
+A page can rank in Google without being cited in an AI answer. [Ahrefs compared those results](https://ahrefs.com/blog/ai-search-overlap/) for 15,000 prompts across three assistants. That distinction is one reason to track citations as well as rankings.
 
 This curriculum addresses that gap directly. It covers the citation logic that answer engines use, not the ranking logic that search engines use. That distinction is what makes AEO-specific training meaningful rather than redundant.
+
+> “We're sharing this not to wave a badge around, but because the training itself changed how we work.”
+
+Kevin Bovett, Founder & CEO, AudienceIntent; HubSpot Academy AEO Fundamentals certified · [Kevin on completing Searchable’s training](https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy/)
+
+Kevin was describing the Searchable training he completed. HubSpot’s separate AEO Fundamentals credential is linked above.
 
 #### About HubSpot Academy
 
@@ -4590,10 +4682,14 @@ Here is what stood out:
 | Donation transparency | 100% of public donations fund water projects |
 | Operational accountability | Separate private funding covers overhead |
 | Proven reach | Clean water access brought to 17 million people since 2006 |
-| Third-party credibility | [4 out of 4 star Charity Navigator rating](https://www.charitynavigator.org/ein/222807219) for accountability and finance |
-| Donor visibility | GPS-tracked projects with photos and real-time updates |
+| Third-party credibility | [4 out of 4 star Charity Navigator rating](https://www.charitynavigator.org/ein/223936753) for accountability and finance |
+| Donor visibility | Completed projects documented with GPS coordinates and photos |
 
 In a nonprofit environment where donor trust is harder to earn than ever, that level of transparency is rare. It is also exactly what we look for in a partner.
+
+> “Water, sanitation and hygiene are not privileges, they are basic human rights”
+
+Dr Ruediger Krech, acting director for Environment, Climate Change and Health at the World Health Organization at the time of the statement · [WHO and UNICEF’s 2025 drinking-water report](https://www.who.int/news/item/26-08-2025-1-in-4-people-globally-still-lack-access-to-safe-drinking-water---who--unicef)
 
 #### Why this matters to us
 
@@ -4602,6 +4698,12 @@ AudienceIntent exists to help businesses stop wasting opportunity. That mindset 
 When people lack clean water, the cost is not abstract. It shows up in lost time, poor health, interrupted education, and preventable hardship. Supporting clean water is one of the simplest ways to create real, measurable impact.
 
 That is why we have supported charity: water from day one. This is part of how we want to build this company: not just around performance, but around responsibility.
+
+#### What donors can verify
+
+**What you can verify:** Private donors cover charity: water’s operating costs, so public donations fund water projects. Photos and GPS coordinates let donors see where a completed project was built.
+
+**What takes longer:** A completed well is not the same as a measured health outcome. Project records show what was built; they do not tell us how attendance or health changed in each household.
 
 #### How you can help
 
@@ -4619,7 +4721,7 @@ We support charity: water because clean water is a foundational need, and the or
 
 ##### How many people still lack safe drinking water?
 
-[WHO and UNICEF](https://washdata.org/) report that 2.1 billion people still lack safely managed drinking water worldwide as of 2026. That figure represents roughly 1 in 4 people on the planet.
+[WHO and UNICEF](https://washdata.org/) report that 2.1 billion people still lack safely managed drinking water worldwide in 2024. That figure represents roughly 1 in 4 people on the planet.
 
 ##### What makes charity: water different from other nonprofits?
 
@@ -4627,11 +4729,77 @@ Its 100% model is the clearest differentiator: every dollar donated by the publi
 
 ##### Is charity: water a credible organization?
 
-Yes. charity: water earned a [4 out of 4 star rating from Charity Navigator](https://www.charitynavigator.org/ein/222807219) for accountability and finance. It also provides GPS-tracked project data and real-time donor reports so contributors can verify exactly where their money went.
+Yes. charity: water earned a [4 out of 4 star rating from Charity Navigator](https://www.charitynavigator.org/ein/223936753) for accountability and finance. It also publishes photos and GPS coordinates for completed projects.
 
 ##### Where can I donate?
 
 You can donate through our campaign page at [charitywater.org/audienceintent](https://www.charitywater.org/audienceintent). Donations go directly to funding clean water projects in communities that need them most.
+
+---
+
+## RevContent Brings On AudienceIntent to Get Recommended by AI
+
+URL: https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai
+Published: 2026-11-23
+Summary: AudienceIntent is now RevContent's AEO partner. See why answer engine visibility matters for native advertising and what the partnership means.
+
+We've got some big news to share. AudienceIntent is now the official AEO (Answer Engine Optimization) partner for [RevContent](https://www.revcontent.com), one of the leading platforms in native advertising.
+
+This one means a lot to us. RevContent is an established name in ad tech, and they hired us because of a change most companies haven't caught up to yet. When publishers and advertisers want to pick a native advertising platform, more of them skip Google and ask ChatGPT, Claude, Gemini, Google AI, or Perplexity. Then they go with what the AI tells them.
+
+Our job is to make sure RevContent is in that answer, and that what the AI says about them is accurate and makes a strong case for choosing them.
+
+> “Chatbots and AI are becoming part of how people make decisions,” said Richard Marques, CEO of RevContent. “We are modernizing how we tell RevContent’s story so partners looking for additive revenue for their digital businesses can find us”
+
+**Richard Marques, CEO, RevContent**
+
+> "I've known RevContent for years, so getting to work with them is a big deal for us. Native advertising is a crowded market, and these days a lot of publishers and advertisers ask AI which platform to go with before they ever reach out. We want to make sure RevContent shows up in those answers, and that what's being said about them is accurate, current, and shows why they're a great choice."
+
+**Kevin Bovett, Founder & CEO, AudienceIntent**
+
+#### Why This Matters for Native Advertising
+
+Native advertising is crowded, and buyers have more options than ever. A lot of the time, their research now starts with a question to an AI tool instead of a Google search.
+
+What the AI says back matters a lot. If a platform barely shows up in those answers, or the information is old or incomplete, it gets cut before anyone books a sales call. It doesn't matter how good the product is.
+
+That's where AEO comes in. We build structured, accurate content that AI engines can read, trust, and cite. For RevContent, that means making sure the real story, its scale, publisher network, and approach, is what comes up when someone asks which native advertising platform to choose.
+
+#### About RevContent
+
+[RevContent](https://www.revcontent.com) is a performance-priced native advertising platform founded in 2013 and headquartered in Sarasota, Florida. It connects publishers and advertisers through content recommendation technology, using primarily first-party signals and contextual data to target audiences with limited reliance on third-party cookies.
+
+The numbers behind the platform:
+- **75 million+** unique users reached each month
+- **1,000+ direct publishers** across 4,000+ sites and 500+ email newsletters
+- **1,500+ active performance advertisers**
+- Placements across the open web, mobile apps, and email newsletters
+
+RevContent is led by CEO **Richard Marques**, who has been with the company since its early days and has been CEO since 2018. Under his leadership, RevContent has grown its premium publisher base and expanded its products to serve both large media brands and independent publishers.
+
+#### About AudienceIntent
+
+[AudienceIntent](https://www.audienceintent.ai) is an Answer Engine Optimization company based in Wellington, Florida. We help businesses get recommended when people ask AI who to choose.
+
+Want to see where your business stands in AI answers? Check out the [AI Recommended service at audienceintent.ai](https://www.audienceintent.ai).
+
+#### Frequently Asked Questions
+
+##### What is RevContent?
+
+[RevContent](https://www.revcontent.com) is a native advertising platform that connects publishers and advertisers through content recommendation technology. Founded in 2013 and headquartered in Sarasota, Florida, it reaches 75 million+ unique users each month across 4,000+ sites, mobile apps, and email newsletters. It targets audiences using first-party signals and contextual data instead of third-party cookies.
+
+##### What is AudienceIntent?
+
+[AudienceIntent](https://www.audienceintent.ai) is an Answer Engine Optimization company based in Wellington, Florida. It helps businesses get recommended when people ask AI tools like ChatGPT, Claude, Gemini, Google AI, or Perplexity who to choose. The work is fully managed: the AudienceIntent team handles the research, content, technical fixes, and ongoing tracking for its clients.
+
+##### What is AEO?
+
+AEO stands for Answer Engine Optimization. It's the practice of making sure a business shows up accurately and favorably when people ask AI tools a question instead of searching on Google. SEO aims for search engine rankings. AEO aims for the answers ChatGPT, Perplexity, and Google AI give when someone asks "which platform should I use?" or "who's the best provider of X?"
+
+##### What will AudienceIntent do for RevContent?
+
+AudienceIntent will track how RevContent appears in AI answers compared with its competitors, fix gaps or outdated information, and build content that helps AI engines recommend RevContent when buyers ask about native advertising platforms.
 
 ---
 

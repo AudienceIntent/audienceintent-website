@@ -328,6 +328,12 @@ Referral data is incomplete. Someone may get an AI recommendation, search your n
 
 For definitions and reporting guidance, see [how to measure an AEO campaign](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
 
+> “When one new customer covers months of the work, the math is easy.”
+
+Kevin Bovett, AudienceIntent founder, HubSpot Academy certified in AEO Fundamentals · [Is AEO Right for My Business?](https://www.audienceintent.ai/videos/is-aeo-right-for-my-business/)
+
+Use the profit from one new customer for that calculation. A mention alone does not pay for the work.
+
 ## How to Make the Business Case for a 90-Day Start
 
 A credible business case combines observed gaps, conservative customer math, a defined scope of work, and a review date. It does not need a dramatic estimate of money already lost.

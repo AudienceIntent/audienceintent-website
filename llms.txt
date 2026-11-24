@@ -2,7 +2,7 @@
 
 > AudienceIntent gets businesses recommended by AI. It is an Answer Engine Optimization (AEO) company in Wellington, Florida, USA, with one fully managed service, AI Recommended™, offered on two plans: AI Recommended and AI Recommended Pro. When people ask ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews or Google AI Mode who to hire or what to buy, AudienceIntent works to get the client's business named in the answer.
 
-Last updated: 2026-11-20
+Last updated: 2026-11-24
 
 Key facts:
 
@@ -117,6 +117,7 @@ Paid ads management, social media management, website builds, SMS or text-messag
 
 ## More answers
 
+- [RevContent Brings On AudienceIntent to Get Recommended by AI](https://www.audienceintent.ai/insights/revcontent-brings-on-audienceintent-to-get-recommended-by-ai): AudienceIntent is now RevContent's AEO partner. See why answer engine visibility matters for native advertising and what the partnership means.
 - [You Rank on Google. So Why Does ChatGPT Never Recommend You?](https://www.audienceintent.ai/insights/you-rank-on-google-so-why-does-chatgpt-never-recommend-you): Good SEO does not guarantee ChatGPT recommendations. Learn why unbranded visibility fails and what to fix first.
 
 ## Optional

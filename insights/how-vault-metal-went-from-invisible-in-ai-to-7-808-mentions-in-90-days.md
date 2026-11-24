@@ -174,6 +174,12 @@ Ninety days earlier, Vault Metal was nearly invisible to AI. Over those 90 days,
 
 **The citations are the number that matters most.** A mention means an AI referenced the brand. A citation means it pointed back to Vault Metal as a source. Going from 3 to 751 citations means AI assistants are now treating Vault Metal as a credible, referable business — not an unknown.
 
+## What the 90-day results show
+
+**What it shows:** The answers we tracked named Vault Metal more often at the end of the campaign. Citations rose as well, from 3 to 751, so the increase wasn’t limited to mentions without a source.
+
+**What it cannot show:** A business can appear in hundreds of answers without reaching hundreds of different people. These counts do not tell us how many people visited, called or bought. We changed several things at once, so the comparison cannot tell us which change made the difference.
+
 ## Why This Matters for Your Business
 
 Every mention and citation is a moment where an AI chose to name Vault Metal instead of a competitor. That's not something you can buy with an ad. It's something you earn by making sure AI platforms have enough accurate, credible information about your business to include you in the answer.

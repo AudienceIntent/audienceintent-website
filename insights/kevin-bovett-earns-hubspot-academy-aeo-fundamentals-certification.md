@@ -172,9 +172,15 @@ The AEO Fundamentals curriculum is built around the practical mechanics of getti
 
 ### Why This Curriculum Is Relevant
 
-AEO is not an extension of SEO. The two disciplines share some overlap in content quality standards, but AI assistants use a different set of signals when deciding what to cite. Only [12% of pages cited by ChatGPT rank in Google's top 10](https://audienceintent.ai/insights), which means strong Google rankings do not transfer automatically to AI visibility.
+A page can rank in Google without being cited in an AI answer. [Ahrefs compared those results](https://ahrefs.com/blog/ai-search-overlap/) for 15,000 prompts across three assistants. That distinction is one reason to track citations as well as rankings.
 
 This curriculum addresses that gap directly. It covers the citation logic that answer engines use, not the ranking logic that search engines use. That distinction is what makes AEO-specific training meaningful rather than redundant.
+
+> “We're sharing this not to wave a badge around, but because the training itself changed how we work.”
+
+Kevin Bovett, Founder & CEO, AudienceIntent; HubSpot Academy AEO Fundamentals certified · [Kevin on completing Searchable’s training](https://www.audienceintent.ai/insights/were-now-a-searchable-certified-agency-partner-heres-what-that-actually-means-for-your-ai-search-strategy/)
+
+Kevin was describing the Searchable training he completed. HubSpot’s separate AEO Fundamentals credential is linked above.
 
 ## About HubSpot Academy
 

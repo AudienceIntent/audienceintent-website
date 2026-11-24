@@ -29,6 +29,9 @@ for (let i=0;i<videos.length;i++) {
   const graph = [...h.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .flatMap(m => JSON.parse(m[1])['@graph'] || []);
   assert.deepEqual(graph.find(n=>n['@type']==='VideoObject'),v);
+  const page = graph.find(n => n['@type'] === 'WebPage');
+  const edited = (page.dateModified || v.uploadDate).slice(0,10);
+  assert.ok(sitemap.includes(`<loc>${v.url}</loc><lastmod>${edited}</lastmod>`), 'Watch-page edit date in sitemap: '+slug);
   const title = unescape(/<title[^>]*>(.*?)<\/title>/.exec(h)[1]);
   if(i>0) assert.ok(title.length<=60, 'Meta title too long: '+title);
   const dur = /^PT(\d+)M(\d+)S$/.exec(v.duration), total = Number(dur[1])*60+Number(dur[2]);

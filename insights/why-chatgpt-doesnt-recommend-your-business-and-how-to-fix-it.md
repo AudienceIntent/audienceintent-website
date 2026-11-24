@@ -315,6 +315,10 @@ Most importantly, separate branded questions from unbranded ones. “What do you
 
 For more detail, see [how to measure AEO mentions, citations, and share of voice](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
 
+> “It's therefore not enough to identify fan-out queries and rank well for them—there are additional factors influencing which URLs get surfaced, that are outside of a publisher’s control.”
+
+Louise Linehan, Content Marketer at Ahrefs; author of its AI citation-overlap study · [Ahrefs’ study of ChatGPT and Google citations](https://ahrefs.com/blog/chatgpt-google-citations/)
+
 ## How long improvement realistically takes
 
 Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis.

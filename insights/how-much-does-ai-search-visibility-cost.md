@@ -149,20 +149,20 @@ This guide breaks down what the market charges, what you actually get at each pr
 >     
 > -   Most agencies require 6-12 month contracts with setup fees of $2,500-$12,000+
 >     
-> -   AI traffic converts at 4.4x the rate of standard organic traffic — the ROI case is real
+> -   Track inquiries and sales from AI referrals to judge your own return
 >     
-> -   Only 12% of pages cited by ChatGPT rank in Google's top 10, so SEO alone won't get you there
+> -   A high Google ranking does not guarantee a citation in an AI answer
 >     
 
 ## Why AI Search Visibility Is a Separate Investment From SEO
 
 Most business owners assume their existing SEO investment covers AI search. It doesn't — and the data makes that gap hard to ignore.
 
-[Research shows that only 12% of pages cited by ChatGPT rank in Google's top 10](https://www.audienceintent.ai/insights/aeo-vs-seo)). These are almost entirely separate ecosystems. A business can rank on page one of Google and still be completely invisible when a customer asks an AI assistant for a recommendation.
+[Ahrefs compared citations across 15,000 prompts](https://ahrefs.com/blog/ai-search-overlap/). Across ChatGPT, Gemini and Copilot, an average of 12% of cited links also appeared in Google’s top ten for the original prompt. Your rankings and your citations are worth checking separately.
 
 **Why the gap exists:** Google ranks pages based on links, keywords, and technical signals. AI assistants cite sources based on authority, structured content, third-party mentions, and how well a business answers the specific questions people are actually asking. The optimization playbook is different.
 
-The scale of the shift matters too. [Since AI Overviews appeared in Google search results, organic click-through rates have dropped 61%](https://www.audienceintent.ai/insights/ai-recommended-your-competitor-not-you-heres-the-revenue-math). Traffic that used to flow to websites is now being absorbed by AI-generated answers. Businesses that aren't in those answers aren't just missing a new channel — they're losing ground they already had.
+In [Seer Interactive’s study](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update), organic click-through rates fell 61% between June 2024 and September 2025 for the informational queries in its sample that displayed AI Overviews. That is not a 61% decline for every website.
 
 ### What AI Search Visibility Services Actually Do
 
@@ -178,7 +178,7 @@ When you pay for AI search visibility, you're paying for a specific set of activ
 
 -   **Ongoing optimization:** Adjusting based on what's working, what's not, and how AI engines are evolving
 
-[85% of brand mentions in AI answers come from third-party sources](https://www.audienceintent.ai/insights/how-to-get-your-business-recommended-by-ai-search-engines) — not from the business's own website. That's the core of why this work is different from SEO, and why it requires a different kind of investment.
+Check the sources in answers to your customers’ questions. If the assistant cites a directory or a review site instead of your website, correcting the information there can be a better use of your budget than writing another page.
 
 ## What AI Search Visibility Actually Costs in 2026
 
@@ -255,13 +255,17 @@ Real client results after 90 days with AudienceIntent:
 
 Those results won't be identical for every business — industry, market, and timing all affect the outcome. But they illustrate what active execution looks like versus a passive monitoring subscription.
 
+> “Start by adding up what you spend on AI search, then estimate the revenue it brings in using tracked conversions, survey answers, or both.”
+
+Louise Linehan, Content Marketer, Ahrefs · [How Ahrefs measures AI search ROI](https://ahrefs.com/blog/ai-search-roi/)
+
 ## Is AI Search Visibility Worth the Investment?
 
-The ROI case for AI search visibility comes down to one number: [AI search traffic converts at 4.4 times the rate of standard organic traffic](https://www.audienceintent.ai/insights/why-chatgpt-doesnt-recommend-your-business-and-how-to-fix-it). That's not a marginal improvement. It's a fundamentally different quality of visitor.
+[Semrush’s research](https://www.semrush.com/blog/ai-search-seo-traffic-study/) put a higher conversion value on the average AI referral in its sample. The number that matters for your budget is how many of your referred customers buy, and what you earn on each sale.
 
-When someone finds your business through a Google search, they're still in research mode. When an AI assistant recommends your business by name in response to a direct question, the customer has already decided they want what you offer. They're asking for a recommendation, not a list of options. That intent difference is what drives the conversion gap.
+Ask new customers how they found you. A buyer who first heard about you in ChatGPT may visit your site later through Google or by typing your address.
 
-**The math for a typical local service business:**
+**An example using round numbers, not a forecast:**
 
 If your average job or sale is worth $2,000 and AI search brings you 10 paying customers per month, that's $20,000 in monthly revenue before costs. Compare that with the service price and your profit per sale to judge whether the investment makes sense.
 

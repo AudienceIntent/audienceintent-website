@@ -333,6 +333,10 @@ Report identifiable AI referrals, search performance, and customer-reported disc
 
 For a fuller measurement plan, see [how to measure AEO campaign success](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
 
+> “SEO gets you ranked in a list of links. AEO gets you named in the answer.”
+
+Kevin Bovett, AudienceIntent founder, HubSpot Academy certified in AEO Fundamentals · [AEO vs SEO: What's the Difference?](https://www.audienceintent.ai/videos/aeo-vs-seo/)
+
 ## What to Do in the First 90 Days
 
 Use the first 90 days to establish a baseline, fix important gaps, and repeat the tests. Do not treat it as a deadline for a guaranteed recommendation.

@@ -281,6 +281,10 @@ Claude, built by Anthropic, relies primarily on its training data and, when sear
 
 The strategic takeaway: building citations across multiple independent sources is the only approach that works across all platforms simultaneously. A narrow strategy optimized for one platform creates fragility.
 
+> “Various biases and different methodologies mean that even for the same queries, these systems may cite completely different websites.”
+
+Patrick Stox, Independent SEO consultant; formerly Technical SEO and Product Advisor at Ahrefs · [Ahrefs’ cross-platform citation study](https://ahrefs.com/blog/top-mentioned-sources-are-not-shared-across-ai-assistants/)
+
 ## Why Most Businesses Are Invisible to AI (And Don't Know It)
 
 Most businesses that aren't getting recommended by AI aren't doing anything wrong. They're just doing things that only worked for traditional search.

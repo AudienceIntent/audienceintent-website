@@ -105,7 +105,7 @@ schema: >-
             "name": "What is the difference between SEO and AI visibility?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "SEO improves your rankings in Google's traditional search results. AI visibility determines whether AI systems like ChatGPT, Perplexity, Gemini, and Claude cite and recommend your business when customers ask for recommendations. Only 12% of pages cited by ChatGPT rank in Google's top 10 — they are separate ecosystems with different signals, different citation logic, and different measurement frameworks. ---"
+              "text": "SEO improves your rankings in Google's traditional search results. AI visibility determines whether AI systems like ChatGPT, Perplexity, Gemini, and Claude cite and recommend your business when customers ask for recommendations. A page can rank in Google without appearing as a source in an assistant's answer. ---"
             }
           },
           {
@@ -198,7 +198,7 @@ As AI search has grown, so has the number of vendors claiming to dominate it. So
 | "We'll make you number 1 in ChatGPT." | There is no number 1 position in ChatGPT. Answers are generated per query, not ranked in a fixed index. |
 | "You'll appear in AI answers in 7 days." | Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. |
 | "We can control what AI says about your brand." | No vendor has access to the output layer of any AI system. You can influence what AI says by improving your signals; you cannot dictate it. |
-| "AI visibility is just SEO with a new name." | Only [12% of pages cited by ChatGPT rank in Google's top 10](https://audienceintent.ai/insights). These are different ecosystems with different signals and different citation logic. |
+| "AI visibility is just SEO with a new name." | In [Ahrefs’ study](https://ahrefs.com/blog/ai-search-overlap/), just 12% of cited links across the three assistants tested appeared in Google’s top 10 for the same prompt. A Google ranking and an AI citation measure different things. |
 | "You only need one article to rank in AI." | AI systems draw from dozens of signals: reviews, directories, third-party mentions, structured data, and more. One piece of content is not a strategy. |
 | "We guarantee AI recommendations." | Guarantees require control. No vendor controls AI outputs. Any guarantee here is either a misrepresentation or a meaningless promise with no accountability behind it. |
 | "We can erase competitors from AI answers." | This is not how AI systems work. You cannot remove a competitor from an AI's training data or live search results. The only legitimate play is to become more credible than they are. |
@@ -219,9 +219,9 @@ If you cannot control AI search, you can still shape it. The signals below are w
 
 **Helpful, citation-worthy content.** AI systems cite pages that directly answer the questions people are asking. Service pages, location pages, FAQ content, comparison guides, and proof-based case studies all give AI something concrete to reference.
 
-**Review volume and sentiment.** [Research consistently shows](https://audienceintent.ai/insights) that AI systems factor in reviews when forming recommendations. A business with 200 recent, detailed reviews is more citable than one with 12 old ones. Sentiment matters too — not just star ratings, but the language customers use.
+**Reviews.** Check what customers say about the service in question. A review that names the job and the location is easier for a potential buyer to evaluate than a star rating alone.
 
-**Third-party mentions.** Approximately 85% of brand mentions in AI answers come from third-party sources, not the brand's own website. Industry directories, local publications, partner sites, and review platforms all contribute to the picture AI systems build of your business.
+**Third-party mentions.** When an answer names your business, check which source it cites. It may be a site you do not own. Industry directories, local publications, partner sites, and review platforms all contribute to the picture AI systems build of your business.
 
 **Directory and profile consistency.** Yelp, BBB, Angi, Houzz, industry-specific directories — these are sources AI systems pull from. Being present and accurate across them matters.
 
@@ -229,7 +229,7 @@ If you cannot control AI search, you can still shape it. The signals below are w
 
 **FAQ coverage.** AI systems are built to answer questions. Pages that directly answer the questions your customers ask are more likely to be cited than pages that only describe what you sell.
 
-**Proof points and case studies.** Specific, verifiable results build credibility. "Craft Food Tours saw traffic from AI increase by 312% in 90 days" is more citable than "we deliver results."
+**Proof points and case studies.** If you publish a result, show the starting number, the end number and the dates. Tell the reader whether you counted mentions, visits or paying customers.
 
 **Freshness and ongoing updates.** Stale content signals a stale business. AI systems that use live web results favor recently updated pages and active profiles.
 
@@ -256,6 +256,10 @@ Here is what a legitimate process includes:
 
 This is not a shortcut. It is a compounding strategy. The businesses that build AI visibility the right way are the ones that become harder to displace over time — because their signals are genuinely stronger, not because someone gamed a system that cannot be gamed.
 
+> “Ask AI the same question twice, and you can get two different answers.”
+
+Kevin Bovett, AudienceIntent founder, HubSpot Academy certified in AEO Fundamentals · [How Do You Track AEO?](https://www.audienceintent.ai/videos/how-do-you-track-aeo/)
+
 ## The Real Goal Is Trust, Not Instant Rankings
 
 Here is the thing that gets lost in all the talk about AI rankings and number 1 placements: AI systems are not trying to rank businesses. They are trying to answer questions confidently.
@@ -270,7 +274,7 @@ The brands that will win in AI search over the next few years are not the ones t
 
 That means doing the unglamorous work: cleaning up your entity data, building out your FAQ content, earning more reviews, getting mentioned in more places, and keeping your information fresh and accurate. None of it is a hack. All of it compounds.
 
-Customers who find you through AI search are already in a high-trust state. They asked for a recommendation and your name came up. That traffic converts at [4.4 times the rate of standard organic search](https://audienceintent.ai/insights) — 14.2% versus 2.8%. The prize is real. The path to it is just not the one being sold in most cold emails right now.
+If a customer says ChatGPT recommended you, ask which question they asked. Record the answer alongside the inquiry in your CRM. That gives you something more useful than an industry conversion rate: a way to see which inquiries become sales for your business.
 
 ## AudienceIntent's Standard
 
@@ -326,6 +330,12 @@ Before you hire anyone to work on your AI search visibility, run them through th
 
 The right vendor will welcome these questions. They will have clear answers, documented processes, and a reporting framework that shows you exactly what is being measured and how it is changing over time.
 
+## Sources
+
+- [ChatGPT search](https://help.openai.com/en/articles/9237897-chatgpt-search): OpenAI explains how it ranks search results and says placement is not guaranteed.
+- [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features): Google explains which pages are eligible to appear as supporting links in AI Overviews and AI Mode.
+- [Ahrefs: AI citations and Google’s top 10](https://ahrefs.com/blog/ai-search-overlap/): A 15,000-prompt comparison of the links cited by ChatGPT, Gemini and Copilot with Google’s results for the original prompt.
+
 ## Frequently Asked Questions
 
 ### Can anyone guarantee a number 1 ranking in ChatGPT?
@@ -342,7 +352,7 @@ Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google A
 
 ### What is the difference between SEO and AI visibility?
 
-SEO improves your rankings in Google's traditional search results. AI visibility determines whether AI systems like ChatGPT, Perplexity, Gemini, and Claude cite and recommend your business when customers ask for recommendations. Only 12% of pages cited by ChatGPT rank in Google's top 10 — they are separate ecosystems with different signals, different citation logic, and different measurement frameworks.
+SEO improves your rankings in Google's traditional search results. AI visibility determines whether AI systems like ChatGPT, Perplexity, Gemini, and Claude cite and recommend your business when customers ask for recommendations. A page can rank in Google without appearing as a source in an assistant's answer.
 
 ---
 

@@ -346,6 +346,10 @@ That last one matters more than people think.
 
 Business owners do not need a dashboard full of confetti. They need to know what improved, what did not, and what gets done next.
 
+> “The measurement framework exists because visibility without measurement is guesswork.”
+
+Kevin Bovett, Founder & CEO, AudienceIntent · [How AudienceIntent Measures AI Visibility: Every Metric, Score, and Attribution Model Explained](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained)
+
 ## What Results Should Look Like in the First 90 Days
 
 Here is the honest answer.
@@ -384,7 +388,7 @@ That usually means:
 
 And we show the numbers.
 
-One example: Craft Food Tours saw a **312% increase in traffic from AI in 90 days**. Vault Metal went from **169 to 7,808 mentions** and **3 to 751 citations in 90 days**.
+In our [Vault Metal case study](https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days), we reported 169 mentions at baseline and 7,808 at the end of 90 days. Citations rose from 3 to 751. Ask a potential partner to show the underlying report for a result like this, not just the headline.
 
 That does not mean every business gets the same result.
 
@@ -415,6 +419,11 @@ Before you hire anyone, make sure they can say yes to most of this:
 -   They do not promise what nobody can guarantee
 
 If a partner cannot do those things, keep looking.
+
+## Sources
+
+- [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo): Questions Google recommends asking a prospective search consultant, including how they measure results.
+- [Vault Metal: Invisible in AI to 7,808 Mentions in 90 Days](https://www.audienceintent.ai/insights/how-vault-metal-went-from-invisible-in-ai-to-7-808-mentions-in-90-days): Our published 90-day case study reports mentions and citations. Those are counts in tracked answers, not leads or sales.
 
 ## Frequently Asked Questions
 

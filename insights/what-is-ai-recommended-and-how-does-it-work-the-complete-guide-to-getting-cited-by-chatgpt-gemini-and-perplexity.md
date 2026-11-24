@@ -315,6 +315,10 @@ These measures describe different things. More mentions do not automatically mea
 
 AudienceIntent’s weekly reporting accompanies daily tracking of 100 prompts. For more detail, see [what AudienceIntent’s weekly report measures](https://www.audienceintent.ai/insights/how-audienceintent-measures-ai-visibility-every-metric-score-and-attribution-model-explained).
 
+> “Every AI platform has its own way of citing sources, and that’s something we can’t fully control.”
+
+Mateusz Makosiewicz, Marketing researcher and educator at Ahrefs · [Ahrefs’ study of brand mentions and links](https://ahrefs.com/blog/ai-citations-vs-impressions-study/)
+
 ## Client Results
 
 AudienceIntent’s client results include the following three outcomes. Each is a result for that client, not a promise that another business will achieve the same change.

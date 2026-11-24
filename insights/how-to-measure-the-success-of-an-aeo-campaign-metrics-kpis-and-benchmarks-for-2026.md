@@ -335,6 +335,10 @@ Review the full prompt library monthly and its relevance quarterly. Preserve a s
 
 Add new questions and competitors as a new comparison group, or clearly mark a new baseline. Otherwise, an apparent performance change may simply reflect a harder prompt set.
 
+> “Consider looking at various indicators of conversion on your site, be it sales, signups, a more engaged audience, or information lookups about your business.”
+
+John Mueller, Google Search Relations · [Google’s guidance on conversion metrics](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search)
+
 ## Connect Visibility to Traffic and Demand
 
 Use analytics to measure identifiable visits, then treat branded search and customer feedback as supporting evidence. Referral data cannot capture every person influenced by an AI answer.

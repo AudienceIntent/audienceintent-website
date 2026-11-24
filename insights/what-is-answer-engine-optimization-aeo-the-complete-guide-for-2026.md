@@ -333,6 +333,10 @@ In GA4, examine identifiable AI referrals and their outcomes. Attribution is inc
 
 Do not assume AI visitors always convert better. Measure your own inquiries and sales. For more detail, read [how to measure AEO with mentions, citations, share of voice, and business KPIs](https://www.audienceintent.ai/insights/how-to-measure-the-success-of-an-aeo-campaign-metrics-kpis-and-benchmarks-for-2026).
 
+> “AEO is the work of getting those tools to name your business when someone asks for a recommendation.”
+
+Kevin Bovett, AudienceIntent founder, HubSpot Academy certified in AEO Fundamentals · [What Is AEO? Answer Engine Optimization Explained](https://www.audienceintent.ai/videos/what-is-aeo/)
+
 ## How Long Does AEO Take?
 
 Perplexity can pick up a new page within a couple of weeks. ChatGPT and Google AI usually take two to three months to recommend a business on a steady basis. That is why AudienceIntent's service starts with 90 days.

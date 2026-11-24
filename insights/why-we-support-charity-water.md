@@ -96,7 +96,7 @@ schema: >-
             "name": "How many people still lack safe drinking water?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "WHO and UNICEF report that 2.1 billion people still lack safely managed drinking water worldwide as of 2026. That figure represents roughly 1 in 4 people on the planet."
+              "text": "WHO and UNICEF report that 2.1 billion people still lack safely managed drinking water worldwide in 2024. That figure represents roughly 1 in 4 people on the planet."
             }
           },
           {
@@ -112,7 +112,7 @@ schema: >-
             "name": "Is charity: water a credible organization?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. charity: water earned a 4 out of 4 star rating from Charity Navigator for accountability and finance. It also provides GPS-tracked project data and real-time donor reports so contributors can verify exactly where their money went."
+              "text": "Yes. charity: water earned a 4 out of 4 star rating from Charity Navigator for accountability and finance. It also publishes photos and GPS coordinates for completed projects."
             }
           },
           {
@@ -169,10 +169,14 @@ Here is what stood out:
 | Donation transparency | 100% of public donations fund water projects |
 | Operational accountability | Separate private funding covers overhead |
 | Proven reach | Clean water access brought to 17 million people since 2006 |
-| Third-party credibility | [4 out of 4 star Charity Navigator rating](https://www.charitynavigator.org/ein/222807219) for accountability and finance |
-| Donor visibility | GPS-tracked projects with photos and real-time updates |
+| Third-party credibility | [4 out of 4 star Charity Navigator rating](https://www.charitynavigator.org/ein/223936753) for accountability and finance |
+| Donor visibility | Completed projects documented with GPS coordinates and photos |
 
 In a nonprofit environment where donor trust is harder to earn than ever, that level of transparency is rare. It is also exactly what we look for in a partner.
+
+> “Water, sanitation and hygiene are not privileges, they are basic human rights”
+
+Dr Ruediger Krech, acting director for Environment, Climate Change and Health at the World Health Organization at the time of the statement · [WHO and UNICEF’s 2025 drinking-water report](https://www.who.int/news/item/26-08-2025-1-in-4-people-globally-still-lack-access-to-safe-drinking-water---who--unicef)
 
 ## Why this matters to us
 
@@ -181,6 +185,12 @@ AudienceIntent exists to help businesses stop wasting opportunity. That mindset 
 When people lack clean water, the cost is not abstract. It shows up in lost time, poor health, interrupted education, and preventable hardship. Supporting clean water is one of the simplest ways to create real, measurable impact.
 
 That is why we have supported charity: water from day one. This is part of how we want to build this company: not just around performance, but around responsibility.
+
+## What donors can verify
+
+**What you can verify:** Private donors cover charity: water’s operating costs, so public donations fund water projects. Photos and GPS coordinates let donors see where a completed project was built.
+
+**What takes longer:** A completed well is not the same as a measured health outcome. Project records show what was built; they do not tell us how attendance or health changed in each household.
 
 ## How you can help
 
@@ -198,7 +208,7 @@ We support charity: water because clean water is a foundational need, and the or
 
 ### How many people still lack safe drinking water?
 
-[WHO and UNICEF](https://washdata.org/) report that 2.1 billion people still lack safely managed drinking water worldwide as of 2026. That figure represents roughly 1 in 4 people on the planet.
+[WHO and UNICEF](https://washdata.org/) report that 2.1 billion people still lack safely managed drinking water worldwide in 2024. That figure represents roughly 1 in 4 people on the planet.
 
 ### What makes charity: water different from other nonprofits?
 
@@ -206,7 +216,7 @@ Its 100% model is the clearest differentiator: every dollar donated by the publi
 
 ### Is charity: water a credible organization?
 
-Yes. charity: water earned a [4 out of 4 star rating from Charity Navigator](https://www.charitynavigator.org/ein/222807219) for accountability and finance. It also provides GPS-tracked project data and real-time donor reports so contributors can verify exactly where their money went.
+Yes. charity: water earned a [4 out of 4 star rating from Charity Navigator](https://www.charitynavigator.org/ein/223936753) for accountability and finance. It also publishes photos and GPS coordinates for completed projects.
 
 ### Where can I donate?
 
